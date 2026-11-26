@@ -5,9 +5,9 @@ export const pages: PageDef[] = [
     slug: "support",
     category: "helpdesk",
     title: "Support",
-    seoTitle: "eCard Support: Find the Right Help Fast",
+    seoTitle: "eCard Support: Find The Right Help Fast",
     description: "Start here for eCard support. Work out whether your question is about sign-in, billing, scanning, email or Telegram, and go straight to the right answer.",
-    h1: "Get to the right eCard answer quickly",
+    h1: "Get To The Right eCard Answer Quickly",
     eyebrow: "Support",
     intro: "This is the front door to eCard support. Rather than repeat the help articles, it helps you find the right one, and tells you when it makes sense to email the team instead.",
     variant: "support",
@@ -16,7 +16,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Match your problem to a page",
+        heading: "Match Your Problem To A Page",
         headers: ["If your issue is…", "Go to"],
         rows: [
           ["I can't sign in or need to set up 2FA", "Account & Sign-In Help"],
@@ -30,20 +30,20 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A three-minute self-check",
+        heading: "A Three-minute Self-check",
         intro: "Before writing to anyone, these checks fix a surprising number of problems.",
         steps: [
-          { title: "Reload and retry", body: "eCard runs in the browser with no app to install, so a refresh or another browser often clears a stuck screen." },
-          { title: "Check your plan's limits", body: "Scans per month differ by plan: 50 on Free, 1,000 on Starter, 5,000 on Professional and unlimited on Business and Enterprise." },
-          { title: "Check the feature's plan", body: "Google Contacts sync and calendar booking start on Starter; webhooks start on Professional; white label starts on Business." },
-          { title: "Read the matching help page", body: "Use the table above to jump to it." },
+          { title: "Reload And Retry", body: "eCard runs in the browser with no app to install, so a refresh or another browser often clears a stuck screen." },
+          { title: "Check Your Plan's Limits", body: "Scans per month differ by plan: 50 on Free, 1,000 on Starter, 5,000 on Professional and unlimited on Business and Enterprise." },
+          { title: "Check The Feature's Plan", body: "Google Contacts sync and calendar booking start on Starter; webhooks start on Professional; white label starts on Business." },
+          { title: "Read The Matching Help Page", body: "Use the table above to jump to it." },
         ],
       },
       {
         type: "cards",
-        heading: "Other support entry points",
+        heading: "Other Support Entry Points",
         cards: [
-          { title: "Help Centre overview", body: "A guided tour of every help topic and what each covers.", icon: "book" },
+          { title: "Help Centre Overview", body: "A guided tour of every help topic and what each covers.", icon: "book" },
           { title: "Support FAQ", body: "Questions about how support itself works: replies, channels, hours.", icon: "help" },
           { title: "Contact Support", body: "When and how to email the team, with a form that opens your email app.", icon: "mail" },
           { title: "Guides", body: "Step-by-step setup guides for SMTP, Telegram, CSV import and more.", icon: "file" },
@@ -52,12 +52,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "One verified contact",
+        title: "One Verified Contact",
         body: "eCard publishes one contact address: sales@bizzfly.com. There is no published support phone line, live chat or ticket portal.",
       },
       {
         type: "prose",
-        heading: "What support can't do",
+        heading: "What Support Can't Do",
         paragraphs: [
           "Nobody at eCard needs your password or recovery codes, so never send them, even if a message claiming to be from eCard asks. Support also can't see inside your own email provider, so SMTP errors often need a fix in your mailbox's settings, such as an app password. Email Sending Help explains this.",
           "Support also can't change how a third-party service behaves. If you bring your own AI key for card reading, limits or errors from that provider belong to your account with them. The same applies to Google Contacts sync and Google Calendar and Meet booking: the connection lives in eCard, but your Google account settings still apply.",
@@ -65,7 +65,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Signs you should write to the team",
+        heading: "Signs You Should Write To The Team",
         intro: "Self-service covers most questions, but some situations genuinely need a person. Write in when:",
         items: [
           "You were charged in a way that doesn't match your plan or billing cycle.",
@@ -90,7 +90,7 @@ export const pages: PageDef[] = [
     title: "Help Centre",
     seoTitle: "eCard Help Centre Map: Every Topic Explained",
     description: "A map of the eCard Help Centre: what each help topic covers, who it's for and which guide to read next, so you spend less time searching for answers.",
-    h1: "A map of every eCard help topic",
+    h1: "A Map Of Every eCard Help Topic",
     eyebrow: "Help Centre",
     intro: "The eCard help articles live under /help. This page is a map of them: what each one covers, who usually needs it and where to go next. It's useful when you're not sure what your question is called.",
     variant: "support",
@@ -99,20 +99,20 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Help topics at a glance",
+        heading: "Help Topics At A Glance",
         cards: [
-          { title: "Account & sign-in", body: "Sign-up, sign-in, two-factor authentication with authenticator codes, recovery codes and trusted devices.", icon: "lock" },
-          { title: "Password reset", body: "Requesting a reset link by email and what to do if it doesn't arrive.", icon: "key" },
+          { title: "Account & Sign-in", body: "Sign-up, sign-in, two-factor authentication with authenticator codes, recovery codes and trusted devices.", icon: "lock" },
+          { title: "Password Reset", body: "Requesting a reset link by email and what to do if it doesn't arrive.", icon: "key" },
           { title: "Billing", body: "Plans, monthly and yearly billing, payment methods and GST.", icon: "rupee" },
           { title: "Scanning", body: "Getting clean photos, reading confidence scores and staying within monthly scan limits.", icon: "scan" },
-          { title: "Email sending", body: "Connecting your own mailbox via SMTP and the five-second window to cancel a send.", icon: "mail" },
+          { title: "Email Sending", body: "Connecting your own mailbox via SMTP and the five-second window to cancel a send.", icon: "mail" },
           { title: "Telegram", body: "Linking the bot from Settings → Telegram and saving cards from chat.", icon: "send" },
-          { title: "Data & privacy", body: "Encryption, export, deletion and the consent checklist.", icon: "shield" },
+          { title: "Data & Privacy", body: "Encryption, export, deletion and the consent checklist.", icon: "shield" },
         ],
       },
       {
         type: "split",
-        heading: "Help articles versus guides",
+        heading: "Help Articles Versus Guides",
         body: [
           "Help articles answer \"why isn't this working?\" Guides answer \"how do I set this up?\" If you are starting something new, such as connecting Telegram or importing a spreadsheet, a guide is usually the better first read.",
         ],
@@ -125,7 +125,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Reading tips",
+        heading: "Reading Tips",
         items: [
           "Help pages stick to what eCard publicly documents. Where a button name isn't documented, they describe the task and ask you to follow in-app prompts.",
           "Plan-specific features are labelled with the plan they start on.",
@@ -134,7 +134,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "When the help centre isn't enough",
+        heading: "When The Help Centre Isn't Enough",
         paragraphs: [
           "Some questions are about your account specifically: a payment you made, a workspace you can't reach, an Enterprise arrangement. Those need a person. Contact Support explains how to write to the eCard team at sales@bizzfly.com and what to include so the first reply can be useful. It also has a form that opens your email app with the message started.",
           "If your question is about eCard's plans rather than a problem, the Pricing FAQ and Compare Plans pages are often quicker.",
@@ -143,12 +143,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Start with the plan facts",
+        title: "Start With The Plan Facts",
         body: "Many \"missing feature\" questions are really plan questions. Compare Plans shows which features start on Starter, Professional and Business.",
       },
       {
         type: "prose",
-        heading: "Suggested reading paths",
+        heading: "Suggested Reading Paths",
         paragraphs: [
           "New to eCard? Read the Getting Started guide, then Your First Scan, then Account & Sign-In Help to switch on two-factor authentication. That sequence gets a workspace safe and useful in one sitting.",
           "Running a team? Start with Inviting Your Team, then Billing Help to understand how plans and user counts relate, then Data & Privacy Help so everyone knows how export, deletion and consent work. If you are preparing for an event, the Trade-Show Playbook pairs well with Scanning Help.",
@@ -169,7 +169,7 @@ export const pages: PageDef[] = [
     title: "Support FAQ",
     seoTitle: "How eCard Support Works: Questions Answered",
     description: "Questions about eCard support itself: which channels exist, whether there's phone or chat, what to include in an email and what eCard has not published.",
-    h1: "Questions about how eCard support works",
+    h1: "Questions About How eCard Support Works",
     eyebrow: "Support FAQ",
     intro: "This FAQ is about support itself, not the product. For product questions, see the main FAQ. Here you'll find what channels exist, what doesn't, and how to get a useful answer.",
     variant: "support",
@@ -178,7 +178,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Support channels: what is and isn't published",
+        heading: "Support Channels: What Is And Isn't Published",
         headers: ["Channel", "Status"],
         rows: [
           ["Email to sales@bizzfly.com", "Published"],
@@ -191,7 +191,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why so little is published",
+        heading: "Why So Little Is Published",
         paragraphs: [
           "eCard publishes only what it can stand behind. Rather than list a phone number or opening hours that may change, the site sticks to one verified email address and self-serve help. If more channels are added, they will appear on these pages.",
           "In practice this means two routes. For anything general, such as how a feature works, what a plan includes or how to set up SMTP or Telegram, the help articles and guides are the fastest answer because they're available immediately. For anything specific to your account, such as a payment, a locked workspace or an Enterprise arrangement, email is the route, because someone needs to look at your situation.",
@@ -199,38 +199,38 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Good habits for a faster answer",
+        heading: "Good Habits For A Faster Answer",
         items: [
           "Write from the email address you use to sign in to eCard.",
           "Put the topic in the subject line, such as \"Billing\" or \"Telegram\".",
           "Describe what you did, what you expected and what happened.",
-          "Mention your plan and whether you're on a phone or desktop browser.",
+          "Mention your plan and if you use a phone or a computer browser.",
           "Never send passwords, recovery codes or authenticator codes.",
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Support emails are not anonymous",
+        title: "Support Emails Are Not Anonymous",
         body: "Any form on these pages opens your own email app, so your address is included. That is useful for account questions, because the team can find your workspace.",
       },
       {
         type: "prose",
-        heading: "Enterprise and sales questions",
+        heading: "Enterprise And Sales Questions",
         paragraphs: [
           "The same address handles Enterprise enquiries. Enterprise is custom-priced and adds the Business plan's features, including white label and custom domain, with unlimited users, storage and scans. If you are evaluating eCard for a larger organisation, Contact Sales has more detail.",
         ],
       },
       {
         type: "steps",
-        heading: "Self-service before you write",
+        heading: "Self-service Before You Write",
         intro: "These habits resolve many issues without waiting on an inbox.",
         steps: [
-          { title: "Confirm your plan", body: "Check whether the feature you're missing starts on a higher plan. Compare Plans lists them." },
-          { title: "Check monthly scan usage", body: "Free includes 50 scans a month, Starter 1,000 and Professional 5,000. Running out looks like a fault but isn't one." },
-          { title: "Test your mailbox separately", body: "If introductions fail, confirm your SMTP details work in another email client first." },
-          { title: "Check the Telegram link", body: "If the bot stops saving cards, open Settings → Telegram and follow the in-app prompts to confirm the link." },
-          { title: "Try another browser", body: "eCard runs in the browser, so a different one quickly rules out extensions or cached data." },
+          { title: "Confirm Your Plan", body: "Check whether the feature you're missing starts on a higher plan. Compare Plans lists them." },
+          { title: "Check Monthly Scan Usage", body: "Free includes 50 scans a month, Starter 1,000 and Professional 5,000. Running out looks like a fault but isn't one." },
+          { title: "Test Your Mailbox Separately", body: "If introductions fail, confirm your SMTP details work in another email client first." },
+          { title: "Check The Telegram Link", body: "If the bot stops saving cards, open Settings → Telegram and follow the in-app prompts to confirm the link." },
+          { title: "Try Another Browser", body: "eCard runs in the browser, so a different one quickly rules out extensions or cached data." },
         ],
       },
     ],
@@ -248,10 +248,10 @@ export const pages: PageDef[] = [
     slug: "support/contact",
     category: "helpdesk",
     title: "Contact Support",
-    seoTitle: "Email the eCard Team About an Account Issue",
+    seoTitle: "Email The eCard Team About An Account Issue",
     description: "Use the form to email eCard about an account, billing or product problem. Learn what to include, what never to send and which help pages to try first.",
-    h1: "Write to the eCard team about a problem",
-    eyebrow: "Contact support",
+    h1: "Write To The eCard Team About A Problem",
+    eyebrow: "Contact Support",
     intro: "If the help pages didn't solve it, use the form on this page. It opens your email app with a message to sales@bizzfly.com, eCard's only published contact. It is a normal named email, not an anonymous form.",
     variant: "support",
     visual: "none",
@@ -259,17 +259,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Before you fill in the form",
+        heading: "Before You Fill In The Form",
         steps: [
-          { title: "Try the matching help page", body: "Sign-in, password, billing, scanning, email sending, Telegram and privacy each have a page." },
-          { title: "Note the details", body: "Date and time, plan, browser and what you clicked." },
-          { title: "Take a screenshot", body: "Crop out anyone else's personal data before attaching it." },
-          { title: "Check you're signed in to the right workspace", body: "If you belong to more than one team, confirm which workspace the problem is in, and mention it by name in your message." },
+          { title: "Try The Matching Help Page", body: "Sign-in, password, billing, scanning, email sending, Telegram and privacy each have a page." },
+          { title: "Note The Details", body: "Date and time, plan, browser and what you clicked." },
+          { title: "Take A Screenshot", body: "Crop out anyone else's personal data before attaching it." },
+          { title: "Check You're Signed In To The Right Workspace", body: "If you belong to more than one team, confirm which workspace the problem is in, and mention it by name in your message." },
         ],
       },
       {
         type: "bullets",
-        heading: "What to include",
+        heading: "What To Include",
         items: [
           "Your workspace sign-in email (send from that address if you can).",
           "A one-line summary of the problem.",
@@ -281,12 +281,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Never send these",
+        title: "Never Send These",
         body: "Passwords, recovery codes, authenticator codes, SMTP passwords or AI API keys. eCard encrypts API keys and SMTP passwords with AES-256-GCM in the product. Don't undo that by pasting them into email.",
       },
       {
         type: "prose",
-        heading: "Locked out of your account?",
+        heading: "Locked Out Of Your Account?",
         paragraphs: [
           "If you can't sign in because you lost your authenticator, use one of your recovery codes first. Account & Sign-In Help explains recovery codes and trusted devices. If that fails, write in from the email address on the account so the team has something to work with.",
           "If you suspect someone else has accessed your account, change your password first, then review the audit log if your role allows it. Mention what you found when you write in, and turn on two-factor authentication with an authenticator app if it wasn't already on.",
@@ -294,7 +294,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Sample subject lines that work",
+        heading: "Sample Subject Lines That Work",
         intro: "Sample only. A clear subject line helps your message get read in the right context.",
         headers: ["Topic", "Example subject"],
         rows: [
@@ -308,7 +308,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "split",
-        heading: "Is this the right page?",
+        heading: "Is This The Right Page?",
         body: [
           "This page is for problems with an existing account. Other kinds of message have their own pages, which helps them reach the right reader. They all use the same address, so the difference is in how you frame the message.",
         ],

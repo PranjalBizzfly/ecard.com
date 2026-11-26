@@ -7,8 +7,8 @@ export const pages: PageDef[] = [
     title: "Developers",
     seoTitle: "Developer Site: Building With eCard Today",
     description: "What a developers subdomain usually offers, what eCard publishes for builders today (webhooks, API, BYO AI keys) and what is not yet documented.",
-    h1: "Developers: what you can build with eCard today",
-    eyebrow: "Developer sites",
+    h1: "Developers: What You Can Build With eCard Today",
+    eyebrow: "Developer Sites",
     intro: "A developer site is the front door for engineers: documentation, keys, examples and support in one place. eCard does not run a separate developer site. What it does offer builders is a short, verified list, and this page sets it out alongside the gaps so you can plan honestly.",
     variant: "reference",
     visual: "integrations",
@@ -16,18 +16,18 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What eCard publishes for builders",
+        heading: "What eCard Publishes For Builders",
         cards: [
           { title: "Webhooks", body: "Signed events for every new contact, available on Professional and above.", icon: "webhook" },
           { title: "API", body: "eCard lists an API alongside webhooks. No public reference has been published.", icon: "code" },
-          { title: "Bring your own AI", body: "Choose Claude, OpenAI, Gemini, DeepSeek, Grok, Azure or a custom endpoint, with your own key and an optional key pool with failover.", icon: "brain" },
-          { title: "Secret encryption", body: "API keys and SMTP passwords are encrypted with AES-256-GCM.", icon: "key" },
-          { title: "CSV in and out", body: "Bulk import and export on every plan.", icon: "file" },
+          { title: "Bring Your Own AI", body: "Choose Claude, OpenAI, Gemini, DeepSeek, Grok, Azure or a custom endpoint, with your own key and an optional key pool with failover.", icon: "brain" },
+          { title: "Secret Encryption", body: "API keys and SMTP passwords are encrypted with AES-256-GCM.", icon: "key" },
+          { title: "CSV In And Out", body: "Bulk import and export on every plan.", icon: "file" },
         ],
       },
       {
         type: "table",
-        heading: "Usual developer-site sections and eCard's status",
+        heading: "Usual Developer-site Sections And eCard's Status",
         headers: ["Section", "Status"],
         rows: [
           ["API reference and endpoints", "Not published"],
@@ -40,7 +40,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why the gaps matter",
+        heading: "Why The Gaps Matter",
         paragraphs: [
           "Without a published reference, you can't rely on endpoint names, payload shapes, rate limits or versioning promises. Anything you build should be defensive: validate every incoming payload, store the raw event before processing it, and fail safely if a field is missing.",
           "Webhooks are the most practical starting point, because they push data to you. You control the receiving system, so you can log exactly what arrives and design around it.",
@@ -48,23 +48,23 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A sensible first integration",
+        heading: "A Sensible First Integration",
         steps: [
-          { title: "Start a Professional trial", body: "The 14-day trial includes webhooks, so you can test before paying." },
-          { title: "Build a receiver", body: "A small HTTPS endpoint that verifies the signature, stores the raw body and returns quickly." },
-          { title: "Scan a sample card", body: "Use a visibly fictional card and inspect the event your receiver records." },
-          { title: "Map fields yourself", body: "Decide how each field maps into your system, based on what you actually observe." },
+          { title: "Start A Professional Trial", body: "The 14-day trial includes webhooks, so you can test before paying." },
+          { title: "Build A Receiver", body: "A small HTTPS endpoint that verifies the signature, stores the raw body and returns quickly." },
+          { title: "Scan A Sample Card", body: "Use a visibly fictional card and inspect the event your receiver records." },
+          { title: "Map Fields Yourself", body: "Decide how each field maps into your system, based on what you actually observe." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "No developer subdomain, API reference, SDK or developer terms have been published. Questions about API access go to sales@bizzfly.com.",
       },
       {
         type: "prose",
-        heading: "Who this page is for",
+        heading: "Who This Page Is For",
         paragraphs: [
           "The main API and Webhooks pages in the integrations section explain what those features are. This page is aimed at the engineer or technical founder deciding whether eCard can slot into an existing stack. The short answer is that the push route (webhooks) is ready to try on a trial workspace, while anything that depends on a published API contract needs a written conversation with eCard first.",
           "If your organisation needs formal developer terms, service levels or a stable API before committing, put those requirements in writing to sales@bizzfly.com and treat the reply as the reference, because nothing equivalent is published on this site.",
@@ -87,8 +87,8 @@ export const pages: PageDef[] = [
     title: "Docs",
     seoTitle: "Docs Site: Where eCard Documentation Lives",
     description: "eCard has no separate docs subdomain. Product documentation lives in the guides at /resources/guides and the help centre at /help. Here's how to use them.",
-    h1: "eCard documentation and where to find it",
-    eyebrow: "Developer sites",
+    h1: "eCard Documentation And Where To Find It",
+    eyebrow: "Developer Sites",
     intro: "Many products publish documentation on a docs subdomain with search, versioning and an API section. eCard doesn't. Its documentation is split between step-by-step guides at /resources/guides and short answers at /help, both on the main site. Here's how to find what you need quickly.",
     variant: "reference",
     visual: "none",
@@ -96,7 +96,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Find the right document",
+        heading: "Find The Right Document",
         headers: ["Question type", "Best place"],
         rows: [
           ["How do I set something up?", "Guides, for example Setting up SMTP or Connecting Telegram"],
@@ -108,7 +108,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "What eCard's documentation does and doesn't cover",
+        heading: "What eCard's Documentation Does And Doesn't Cover",
         paragraphs: [
           "eCard's public site does not include full product documentation, API reference or screenshots. The guides on this site stick to verified facts and well-established general advice. Where a screen or button name isn't documented, they describe the task and ask you to follow the prompts in the app. The only confirmed menu path is Settings → Telegram.",
           "That's a deliberate choice: it's better to send you to the app than to describe a screen that may not match what you see.",
@@ -116,7 +116,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Guides available today",
+        heading: "Guides Available Today",
         items: [
           "Getting started",
           "Your first scan",
@@ -132,23 +132,23 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Getting the most from documentation without a docs site",
+        heading: "Getting The Most From Documentation Without A Docs Site",
         steps: [
-          { title: "Search the site", body: "Use the site index to scan every topic at once." },
-          { title: "Follow the app", body: "When a guide says to follow in-app prompts, the app is the authority." },
-          { title: "Record your own notes", body: "Keep an internal page with your team's settings, tags and conventions." },
-          { title: "Ask when stuck", body: "Use Contact Support for anything the guides don't answer." },
+          { title: "Search The Site", body: "Use the site index to scan every topic at once." },
+          { title: "Follow The App", body: "When a guide says to follow in-app prompts, the app is the authority." },
+          { title: "Record Your Own Notes", body: "Keep an internal page with your team's settings, tags and conventions." },
+          { title: "Ask When Stuck", body: "Use Contact Support for anything the guides don't answer." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "No docs subdomain, versioned documentation or API reference is published. Documentation today means /resources/guides and /help.",
       },
       {
         type: "prose",
-        heading: "Why a docs subdomain usually exists, and why eCard skips it",
+        heading: "Why A Docs Subdomain Usually Exists, And Why eCard Skips It",
         paragraphs: [
           "Docs subdomains tend to appear when documentation grows large enough to need its own search, its own versioning and its own publishing tool. Developer-heavy products also use them to separate the API reference from marketing pages, so engineers can find an endpoint without wading through sales copy.",
           "eCard's documented surface is small and mostly task-based: scan a card, connect a mailbox, link Telegram, invite a team, turn on 2FA, set up webhooks. Keeping those guides on the main site means one navigation, one search and links that go straight to the related feature and pricing pages. If eCard publishes an API reference in future, that would be the natural trigger for a separate documentation area.",
@@ -171,8 +171,8 @@ export const pages: PageDef[] = [
     title: "API Access",
     seoTitle: "API Access Site: Requesting eCard API Details",
     description: "An API subdomain would host keys, endpoints and limits. eCard lists an API and signed webhooks but publishes no reference; here's how to request access.",
-    h1: "Getting API access to eCard",
-    eyebrow: "Developer sites",
+    h1: "Getting API Access To eCard",
+    eyebrow: "Developer Sites",
     intro: "API sites usually let you generate keys, read endpoint references and check rate limits. eCard names an API alongside webhooks, but it has not published endpoints, authentication details, limits or terms. This page covers how to ask for access and how to plan an integration responsibly.",
     variant: "reference",
     visual: "none",
@@ -181,12 +181,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "eCard has not published an API reference, base URL, authentication scheme, rate limits, versioning policy or API terms. Don't rely on endpoint names you find elsewhere.",
       },
       {
         type: "split",
-        heading: "The API page versus an API site",
+        heading: "The API Page Versus An API Site",
         body: [
           "The API page in the integrations section describes what eCard lists: an API, and webhooks with signed events for each new contact. An API site would be the operational counterpart, where you'd manage credentials and read the reference.",
           "Because that site doesn't exist, access questions go to a person, not a dashboard.",
@@ -200,17 +200,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "How to request API details",
+        heading: "How To Request API Details",
         steps: [
-          { title: "Describe the use case", body: "For example: send each new contact to our internal sales system within minutes." },
-          { title: "Say what data you need", body: "List the fields and the direction: reading from eCard, writing to it, or both." },
-          { title: "Mention volume and plan", body: "Roughly how many contacts a month, and which plan you're on or considering." },
+          { title: "Describe The Use Case", body: "For example: send each new contact to our internal sales system within minutes." },
+          { title: "Say What Data You Need", body: "List the fields and the direction: reading from eCard, writing to it, or both." },
+          { title: "Mention Volume And Plan", body: "Roughly how many contacts a month, and which plan you're on or considering." },
           { title: "Email sales@bizzfly.com", body: "Keep the written reply as your reference until documentation is published." },
         ],
       },
       {
         type: "bullets",
-        heading: "Good practice for any API credentials",
+        heading: "Good Practice For Any API Credentials",
         intro: "General guidance that applies whenever you're given keys:",
         items: [
           "Store keys in a secrets manager, never in source code or chat.",
@@ -221,7 +221,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Consider whether webhooks are enough",
+        heading: "Consider Whether Webhooks Are Enough",
         paragraphs: [
           "Many integrations only need to know when something new happens. eCard's webhooks send a signed event for each new contact, which covers the common job of copying contacts into another system. If that's your need, start there with the webhook setup guide, and request API details only for what webhooks can't do.",
           "A webhook-first design also keeps your system in control. Your receiver decides what to store, how to deduplicate and when to retry its own downstream steps, and you can test the whole flow on the 14-day Professional trial with a fictional sample card before any real contact passes through it. When you later ask eCard for API details, you'll know precisely which gap you need filled.",
@@ -244,8 +244,8 @@ export const pages: PageDef[] = [
     title: "Status",
     seoTitle: "Status Site: eCard Service Status Not Published",
     description: "A status page reports uptime and incidents. eCard has not published one; here's what it would show and how to check whether a problem is on your side.",
-    h1: "Is eCard down? About service status",
-    eyebrow: "Developer sites",
+    h1: "Is eCard Down? About Service Status",
+    eyebrow: "Developer Sites",
     intro: "A status site shows whether each part of a service is working, with incident history and subscriptions for alerts. eCard has not published a status page, uptime figures or incident history. This page explains what a status page would tell you and how to troubleshoot meanwhile.",
     variant: "reference",
     visual: "none",
@@ -254,41 +254,41 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not available",
+        title: "Not Available",
         body: "eCard has not published a status page, uptime commitment, service level agreement or incident history. Any third-party site showing 'eCard status' is not official.",
       },
       {
         type: "cards",
-        heading: "What a status page normally shows",
+        heading: "What A Status Page Normally Shows",
         cards: [
-          { title: "Component health", body: "Separate indicators for sign-in, scanning, sending and so on.", icon: "check" },
-          { title: "Active incidents", body: "What's affected, when it started and the latest update.", icon: "bell" },
+          { title: "Component Health", body: "Separate indicators for sign-in, scanning, sending and so on.", icon: "check" },
+          { title: "Active Incidents", body: "What's affected, when it started and the latest update.", icon: "bell" },
           { title: "History", body: "Past incidents and how they were resolved.", icon: "clock" },
           { title: "Subscriptions", body: "Email or other alerts when status changes.", icon: "mail" },
         ],
       },
       {
         type: "steps",
-        heading: "Working out where a problem is",
+        heading: "Working Out Where A Problem Is",
         intro: "eCard relies on services you choose, such as your AI provider and mailbox. Many failures start there.",
         steps: [
-          { title: "Check your connection", body: "Load another site and try a different browser." },
-          { title: "Scanning fails", body: "Check your AI provider's own status page and your key's quota. A key pool with failover can route around one provider's outage." },
-          { title: "Emails don't send", body: "Check your mail provider's status and your SMTP credentials." },
-          { title: "Telegram doesn't respond", body: "Check whether Telegram itself is working, then whether the bot is still linked." },
-          { title: "Still stuck", body: "Use Contact Support with the time the problem started." },
+          { title: "Check Your Connection", body: "Load another site and try a different browser." },
+          { title: "Scanning Fails", body: "Check your AI provider's own status page and your key's quota. A key pool with failover can route around one provider's outage." },
+          { title: "Emails Don't Send", body: "Check your mail provider's status and your SMTP credentials." },
+          { title: "Telegram Doesn't Respond", body: "Check whether Telegram itself is working, then whether the bot is still linked." },
+          { title: "Still Stuck", body: "Use Contact Support with the time the problem started." },
         ],
       },
       {
         type: "prose",
-        heading: "Planning for outages in your own workflow",
+        heading: "Planning For Outages In Your Own Workflow",
         paragraphs: [
           "Every online service has interruptions. At a trade show, keep paper cards safely together and scan them later if something isn't working; nothing is lost if you scan after the event. For outreach, eCard's 5-second send window means you review each intro anyway, so a short delay rarely matters.",
         ],
       },
       {
         type: "bullets",
-        heading: "Status pages for services eCard depends on",
+        heading: "Status Pages For Services eCard Depends On",
         intro: "If you bring your own keys or mailbox, these providers' own status pages are worth bookmarking:",
         items: [
           "Your AI provider: Claude, OpenAI, Gemini, DeepSeek, Grok or Azure.",
@@ -298,7 +298,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Reporting a problem well when there's no status page",
+        heading: "Reporting A Problem Well When There's No Status Page",
         paragraphs: [
           "Without a public incident feed, a good report is the fastest route to a fix. Note the time the problem began, what you were doing, whether colleagues see the same thing and whether it affects one feature or everything. Say which AI provider and mail provider you've connected, because a fault there can look like an eCard fault. Include a screenshot with personal data blurred, and never send passwords, keys or recovery codes.",
           "Inside your team, agree who checks first and who contacts support, so five people don't report the same issue separately. Keep a short log of interruptions and how long they lasted; it will help if you later discuss service expectations as an Enterprise customer.",
@@ -319,10 +319,10 @@ export const pages: PageDef[] = [
     slug: "developer-sites/integrations",
     category: "developerSites",
     title: "Integrations Hub",
-    seoTitle: "Integrations Hub Site: Technical View of eCard",
+    seoTitle: "Integrations Hub Site: Technical View Of eCard",
     description: "A technical look at eCard's named integrations grouped by how data moves (into, out of or through eCard), with the details the site does and doesn't document.",
-    h1: "Integrations hub: how data moves in and out of eCard",
-    eyebrow: "Developer sites",
+    h1: "Integrations Hub: How Data Moves In And Out Of eCard",
+    eyebrow: "Developer Sites",
     intro: "An integrations hub on a developer site usually explains connections from a technical angle: direction of data, credentials and failure handling. eCard has no separate hub site. The integrations page lists each connection; this page groups them by data flow for people planning a setup.",
     variant: "reference",
     visual: "integrations",
@@ -330,7 +330,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Integrations by direction of data",
+        heading: "Integrations By Direction Of Data",
         headers: ["Direction", "Integrations", "Credential you provide"],
         rows: [
           ["Card image to AI model", "Claude, OpenAI, Gemini, DeepSeek, Grok, Azure, custom endpoint", "Your AI API key (bring your own)"],
@@ -343,14 +343,14 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Where credentials are stored",
+        heading: "Where Credentials Are Stored",
         paragraphs: [
           "eCard encrypts API keys and SMTP passwords with AES-256-GCM. That covers the two most sensitive credentials you give it. Use dedicated credentials for eCard where your provider allows, such as an app password or a key limited to the right project, so you can revoke them independently.",
         ],
       },
       {
         type: "bullets",
-        heading: "What isn't documented",
+        heading: "What Isn't Documented",
         intro: "Plan around these gaps rather than assuming:",
         items: [
           "Field-level mapping for Google Contacts sync and CSV import.",
@@ -361,23 +361,23 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Checklist before connecting anything",
+        heading: "Checklist Before Connecting Anything",
         steps: [
-          { title: "Pick the plan that includes it", body: "Google Contacts sync needs Starter; webhooks need Professional." },
-          { title: "Create scoped credentials", body: "Use a dedicated key or app password for eCard." },
-          { title: "Test with sample data", body: "One fictional contact shows how data flows before you trust it with real ones." },
-          { title: "Document the setup", body: "Record who created each credential and where to revoke it." },
+          { title: "Pick The Plan That Includes It", body: "Google Contacts sync needs Starter; webhooks need Professional." },
+          { title: "Create Scoped Credentials", body: "Use a dedicated key or app password for eCard." },
+          { title: "Test With Sample Data", body: "One fictional contact shows how data flows before you trust it with real ones." },
+          { title: "Document The Setup", body: "Record who created each credential and where to revoke it." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "There's no separate integrations hub site or marketplace. The integrations pages on this site describe only the verified role of each connection.",
       },
       {
         type: "prose",
-        heading: "Designing for failure across connected services",
+        heading: "Designing For Failure Across Connected Services",
         paragraphs: [
           "Every connection is a dependency. If your AI provider's key runs out of quota, scanning stops; if your SMTP password changes, intros stop sending; if your webhook receiver goes down, new contacts don't reach your other system. eCard's key pool with failover helps on the AI side, because it can move to another key when one fails. The other connections are yours to monitor.",
           "A light-touch approach works for most small teams: one named person owns each credential, a calendar reminder prompts a quarterly check, and a regular CSV export acts as a backstop if a sync or webhook ever misses something.",
@@ -398,10 +398,10 @@ export const pages: PageDef[] = [
     slug: "developer-sites/sandbox",
     category: "developerSites",
     title: "Sandbox",
-    seoTitle: "Sandbox Site: Testing eCard Without a Sandbox",
+    seoTitle: "Sandbox Site: Testing eCard Without A Sandbox",
     description: "eCard offers no developer sandbox. Learn what a sandbox normally provides and how to test integrations safely using a trial workspace and sample data.",
-    h1: "Testing eCard integrations without a sandbox",
-    eyebrow: "Developer sites",
+    h1: "Testing eCard Integrations Without A Sandbox",
+    eyebrow: "Developer Sites",
     intro: "A sandbox is a separate test environment where developers can experiment without touching real data or being billed. eCard has not published a sandbox. You can still test responsibly with a separate workspace, the trial and clearly fictional data. Here's a practical setup and the cautions that come with it.",
     variant: "guide",
     visual: "none",
@@ -410,30 +410,30 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not available",
+        title: "Not Available",
         body: "eCard has not published a sandbox environment, test API keys or test-mode webhooks.",
       },
       {
         type: "prose",
-        heading: "What a sandbox would give you",
+        heading: "What A Sandbox Would Give You",
         paragraphs: [
           "Sandboxes isolate experiments. You get test credentials, fake data and freedom to break things. Payment providers, for instance, offer test cards that never charge anyone. Without one, the risk is that tests send real emails, create real contacts or mix with production data.",
         ],
       },
       {
         type: "steps",
-        heading: "A safe test setup using what exists",
+        heading: "A Safe Test Setup Using What Exists",
         steps: [
-          { title: "Create a separate workspace", body: "Sign up with a dedicated test email so experiments stay apart from your team's real contacts." },
-          { title: "Use the trial", body: "The 14-day Professional trial includes webhooks, so you can test the full flow." },
-          { title: "Use fictional cards", body: "Print or design sample cards with obviously fake names, such as 'Sample: Priya Shah, Realtor'." },
-          { title: "Point email at yourself", body: "Set the sample contact's email to an address you own, so intros never reach a stranger. Remember the 5-second window lets you cancel." },
-          { title: "Use a throwaway receiver", body: "Send webhooks to a temporary endpoint you control and delete it after testing." },
+          { title: "Create A Separate Workspace", body: "Sign up with a dedicated test email so experiments stay apart from your team's real contacts." },
+          { title: "Use The Trial", body: "The 14-day Professional trial includes webhooks, so you can test the full flow." },
+          { title: "Use Fictional Cards", body: "Print or design sample cards with obviously fake names, such as 'Sample: Priya Shah, Realtor'." },
+          { title: "Point Email At Yourself", body: "Set the sample contact's email to an address you own, so intros never reach a stranger. Remember the 5-second window lets you cancel." },
+          { title: "Use A Throwaway Receiver", body: "Send webhooks to a temporary endpoint you control and delete it after testing." },
         ],
       },
       {
         type: "bullets",
-        heading: "Things to watch while testing",
+        heading: "Things To Watch While Testing",
         items: [
           "Scans count against your plan's monthly limit and use your AI provider's quota.",
           "Emails go through your real SMTP account and count against its limits.",
@@ -443,7 +443,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Sandbox feature versus workaround",
+        heading: "Sandbox Feature Versus Workaround",
         headers: ["Sandbox feature", "Workaround"],
         rows: [
           ["Isolated environment", "Separate test workspace"],
@@ -454,7 +454,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Cleaning up after a test",
+        heading: "Cleaning Up After A Test",
         paragraphs: [
           "A test workspace is only safe if it doesn't linger. When you've finished, delete the fictional contacts, revoke any AI key or SMTP app password you created just for testing, unlink the Telegram chat and shut down the temporary webhook receiver. If the workspace was a one-off, let the trial lapse or remove it using the export and deletion options.",
           "Write down what you learned while it's fresh: which fields arrived in the webhook, how the 5-second send window behaved, which scans needed manual correction. That record is your substitute for sandbox documentation and will save the next person on your team from repeating the experiment.",
@@ -477,8 +477,8 @@ export const pages: PageDef[] = [
     title: "Labs",
     seoTitle: "Labs Site: eCard Experimental Features Status",
     description: "Labs sites showcase experimental features and betas. eCard has no labs programme or beta list; here's what that means and where real features are listed.",
-    h1: "eCard Labs: experiments and betas",
-    eyebrow: "Developer sites",
+    h1: "eCard Labs: Experiments And Betas",
+    eyebrow: "Developer Sites",
     intro: "A labs site is where a company shows early experiments, invites beta testers and collects feedback before a feature is finished. eCard has not published a labs programme, beta features or an early-access list. This page explains the idea and where to look for what is real today.",
     variant: "reference",
     visual: "none",
@@ -487,12 +487,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not available",
+        title: "Not Available",
         body: "No eCard labs site, beta programme, experimental features or early-access sign-up has been published.",
       },
       {
         type: "prose",
-        heading: "Why companies run labs",
+        heading: "Why Companies Run Labs",
         paragraphs: [
           "Labs give product teams a place to test ideas with willing users and set expectations: experiments may change, break or disappear. They also let customers shape a feature before it ships.",
           "For eCard, there's nothing to show here yet. Features that exist are described on the platform and feature pages, and they're the only ones you should plan around.",
@@ -500,26 +500,26 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Published features you can use today",
+        heading: "Published Features You Can Use Today",
         cards: [
-          { title: "AI card scanning", body: "Choose the model, review confidence scores, then save.", icon: "scan" },
-          { title: "Meeting memory", body: "Where you met, who introduced you, voice notes and a searchable AI summary.", icon: "mic" },
-          { title: "Natural-language search", body: "For example, 'Investors I met in Mumbai last month'.", icon: "search" },
+          { title: "AI Card Scanning", body: "Choose the model, review confidence scores, then save.", icon: "scan" },
+          { title: "Meeting Memory", body: "Where you met, who introduced you, voice notes and a searchable AI summary.", icon: "mic" },
+          { title: "Natural-language Search", body: "For example, 'Investors I met in Mumbai last month'.", icon: "search" },
           { title: "Multilingual WhatsApp", body: "AI-written messages in English, Hindi or Marathi.", icon: "message" },
         ],
       },
       {
         type: "steps",
-        heading: "If you want to influence what comes next",
+        heading: "If You Want To Influence What Comes Next",
         steps: [
-          { title: "Describe your workflow", body: "Explain the situation in which you collect and follow up cards." },
-          { title: "Share the gap", body: "What's slow or missing today." },
-          { title: "Send it through feedback", body: "The feedback page is the published route for ideas." },
+          { title: "Describe Your Workflow", body: "Explain the situation in which you collect and follow up cards." },
+          { title: "Share The Gap", body: "What's slow or missing today." },
+          { title: "Send It Through Feedback", body: "The feedback page is the published route for ideas." },
         ],
       },
       {
         type: "bullets",
-        heading: "General advice on beta software",
+        heading: "General Advice On Beta Software",
         intro: "If eCard or any vendor offers beta features in future, keep these habits:",
         items: [
           "Don't run critical processes on beta features.",
@@ -530,7 +530,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Labs and the main product pages",
+        heading: "Labs And The Main Product Pages",
         paragraphs: [
           "Because there is no labs area, every feature page on this site describes something eCard publishes as available now, with its plan limits where they apply. That gives you a cleaner basis for decisions: you won't find half-finished features mixed in with stable ones, and you won't need to wonder whether something you rely on is still an experiment.",
           "The flip side is that there's no early window into what's being built. If a capability matters to your team, such as a specific integration or a new language for WhatsApp messages, the only published way to signal that is the feedback page. eCard doesn't publish a roadmap or promise delivery, so plan with the features that exist and treat anything else as unknown.",
@@ -554,8 +554,8 @@ export const pages: PageDef[] = [
     title: "Changelog",
     seoTitle: "Changelog Site: eCard Release Notes Status",
     description: "A changelog lists product updates with dates. eCard has not published one; here's what it would contain and how to keep your team current without it.",
-    h1: "eCard changelog and release notes",
-    eyebrow: "Developer sites",
+    h1: "eCard Changelog And Release Notes",
+    eyebrow: "Developer Sites",
     intro: "A changelog site records what changed in a product and when: new features, fixes and anything that might break an integration. eCard has not published a changelog, release notes or version history. This page explains what one would contain and how admins, team leads and developers can stay current without it.",
     variant: "reference",
     visual: "none",
@@ -564,12 +564,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not available",
+        title: "Not Available",
         body: "eCard has not published a changelog, release notes, version numbers or deprecation notices. No release dates are listed on this site.",
       },
       {
         type: "prose",
-        heading: "What a good changelog includes",
+        heading: "What A Good Changelog Includes",
         paragraphs: [
           "The best changelogs are dated, short and specific. Each entry says what changed, who it affects and whether any action is needed. Developer-facing changelogs also flag breaking changes and deprecation dates well in advance.",
           "Product pages on this site describe eCard as it is, not a history of how it got there. The 'What's new: Telegram' product page describes the Telegram bot feature; it is not a dated release note.",
@@ -577,17 +577,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Keeping your team current without a changelog",
+        heading: "Keeping Your Team Current Without A Changelog",
         steps: [
-          { title: "Check pricing periodically", body: "Plan limits and inclusions are on the pricing and compare-plans pages." },
-          { title: "Watch your integrations", body: "Log webhook payloads so you notice if their shape changes." },
-          { title: "Note what you see in the app", body: "Record new options in your team's internal guide when they appear." },
-          { title: "Ask when unsure", body: "Use Contact Support if something behaves differently from before." },
+          { title: "Check Pricing Periodically", body: "Plan limits and inclusions are on the pricing and compare-plans pages." },
+          { title: "Watch Your Integrations", body: "Log webhook payloads so you notice if their shape changes." },
+          { title: "Note What You See In The App", body: "Record new options in your team's internal guide when they appear." },
+          { title: "Ask When Unsure", body: "Use Contact Support if something behaves differently from before." },
         ],
       },
       {
         type: "table",
-        heading: "Changelog entry types you might expect elsewhere",
+        heading: "Changelog Entry Types You Might Expect Elsewhere",
         headers: ["Type", "Why it matters"],
         rows: [
           ["New feature", "Something you can start using"],
@@ -599,7 +599,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Defensive habits for integrations",
+        heading: "Defensive Habits For Integrations",
         items: [
           "Validate incoming webhook payloads and alert on unexpected fields.",
           "Store raw events so you can reprocess them after a change.",
@@ -608,7 +608,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Who relies on a changelog, and what they can do instead",
+        heading: "Who Relies On A Changelog, And What They Can Do Instead",
         paragraphs: [
           "Different people read changelogs for different reasons. Workspace admins want to know when a setting moves or a new security option appears. Team leads want to know when a feature could save time. Developers want early warning of anything that could break an integration. Finance teams watch for changes to plan inclusions.",
           "Without a changelog, each group needs its own small habit. Admins can review the security and team settings once a quarter. Team leads can skim the feature pages on this site from time to time. Developers should log and validate every webhook payload. Finance can compare the pricing page with their last invoice. None of this replaces dated release notes, but together it means changes are noticed rather than discovered by accident.",

@@ -5,9 +5,9 @@ export const pages: PageDef[] = [
     slug: "feedback",
     category: "engagement",
     title: "Feedback",
-    seoTitle: "Share Product Feedback with eCard",
+    seoTitle: "Share Product Feedback With eCard",
     description: "Tell eCard what works, what doesn't and what you need next. Use the form to email the team at sales@bizzfly.com with clear, useful product feedback.",
-    h1: "Tell us how eCard could work better for you",
+    h1: "Tell Us How eCard Could Work Better For You",
     eyebrow: "Feedback",
     intro: "Feedback is how a product like eCard gets sharper. Use the form on this page to send your thoughts by email. It opens your own email app with a message to sales@bizzfly.com, so your name and address travel with it.",
     variant: "support",
@@ -16,7 +16,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "What this page is for",
+        heading: "What This Page Is For",
         paragraphs: [
           "This page collects ideas, suggestions and observations about eCard: the AI card scanning, the contact CRM, digital business cards, email introductions, the Telegram bot, meeting booking and the team features. It is the right place for \"I wish eCard could…\" and \"this screen confused me\" messages.",
           "It is not the place for urgent account problems. If you can't sign in, need a password reset or have a billing question, the help pages answer most of those directly and are faster than waiting for a reply.",
@@ -24,7 +24,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "What makes feedback easy to act on",
+        heading: "What Makes Feedback Easy To Act On",
         intro: "A short, specific message beats a long general one. Try to include:",
         items: [
           "What you were trying to do, in one sentence (for example, scanning a stack of cards after a trade show).",
@@ -37,7 +37,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Where to send different kinds of messages",
+        heading: "Where To Send Different Kinds Of Messages",
         headers: ["You want to…", "Best place"],
         rows: [
           ["Suggest an improvement or new idea", "This page's form"],
@@ -50,12 +50,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Feedback is not anonymous",
+        title: "Feedback Is Not Anonymous",
         body: "The form opens your email app and sends from your own address. eCard has not published a public roadmap, a voting board or a feedback portal, and cannot promise that any specific suggestion will be built or that every message gets an individual reply.",
       },
       {
         type: "prose",
-        heading: "What happens after you send it",
+        heading: "What Happens After You Send It",
         paragraphs: [
           "Your message arrives in the eCard team's inbox like any other email. eCard has not published a response time for feedback, so treat it as a one-way note unless you ask a direct question. If your message needs a reply, say so in the first line.",
           "Meanwhile, the Free plan and the 14-day Professional trial let you test whether a workflow already exists before requesting it. Many requests turn out to be covered by tags, natural-language search, webhooks or the Telegram bot.",
@@ -75,9 +75,9 @@ export const pages: PageDef[] = [
     slug: "feedback/complaints",
     category: "engagement",
     title: "Complaints",
-    seoTitle: "Make a Complaint About eCard Service",
+    seoTitle: "Make A Complaint About eCard Service",
     description: "Unhappy with eCard? Learn how to raise a complaint by email to sales@bizzfly.com, what details to include and where to escalate serious matters.",
-    h1: "Raise a complaint about your eCard experience",
+    h1: "Raise A Complaint About Your eCard Experience",
     eyebrow: "Complaints",
     intro: "If something about eCard has let you down, such as billing, service or how your data was handled, you can raise it in writing. The form on this page opens your email app with a message to sales@bizzfly.com. It is not anonymous.",
     variant: "support",
@@ -87,23 +87,23 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Current status",
+        title: "Current Status",
         body: "eCard has not yet published a formal complaints procedure, response timeline or escalation ladder. Until it does, complaints are handled by email at sales@bizzfly.com. This page explains how to make yours clear and complete.",
       },
       {
         type: "steps",
-        heading: "How to raise a complaint",
+        heading: "How To Raise A Complaint",
         steps: [
-          { title: "Check the help pages first", body: "Billing, sign-in, scanning and email-sending issues often have a documented answer. A quick look can save days." },
-          { title: "Write down the facts", body: "Note dates, the plan you are on, what happened and any messages you received. Keep it factual and in order." },
-          { title: "Say what outcome you want", body: "A correction, a refund request, an explanation or a change in process. Being explicit helps the reader respond." },
-          { title: "Send it using the form", body: "The form opens your email app. Review the message before sending. It goes from your own address." },
-          { title: "Keep a copy", body: "Your sent folder is your record. Save any reply alongside it." },
+          { title: "Check The Help Pages First", body: "Billing, sign-in, scanning and email-sending issues often have a documented answer. A quick look can save days." },
+          { title: "Write Down The Facts", body: "Note dates, the plan you are on, what happened and any messages you received. Keep it factual and in order." },
+          { title: "Say What Outcome You Want", body: "A correction, a refund request, an explanation or a change in process. Being explicit helps the reader respond." },
+          { title: "Send It Using The Form", body: "The form opens your email app. Review the message before sending. It goes from your own address." },
+          { title: "Keep A Copy", body: "Your sent folder is your record. Save any reply alongside it." },
         ],
       },
       {
         type: "bullets",
-        heading: "Common complaint topics and where to start",
+        heading: "Common Complaint Topics And Where To Start",
         items: [
           "Charges and invoices: read Billing Help and the Billing & Payments page, which cover payment by UPI, cards, net banking, wallets and EMI, and GST where applicable.",
           "Account access: Account & Sign-In Help and Password Reset cover the usual fixes.",
@@ -113,7 +113,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Complaints about data and privacy",
+        heading: "Complaints About Data And Privacy",
         paragraphs: [
           "If your complaint is about personal data, for example a contact record about you that someone created by scanning your card, say so clearly. eCard's verified compliance tools include consent tracking, export and deletion, but the workspace owner who scanned the card generally controls that record. Ask them too.",
           "If you believe a data protection law has been breached and you are not satisfied with the response, you may contact the data protection authority or regulator where you live. eCard can't advise you on your legal rights. Consider independent advice for serious matters.",
@@ -121,7 +121,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "split",
-        heading: "Complaint or feedback?",
+        heading: "Complaint Or Feedback?",
         body: [
           "Feedback is about making eCard better in future. A complaint is about something that already went wrong and needs putting right. Both are welcome, but labelling it correctly helps.",
         ],
@@ -146,10 +146,10 @@ export const pages: PageDef[] = [
     slug: "speak-up",
     category: "engagement",
     title: "Speak Up",
-    seoTitle: "Speak Up: Raising Concerns with eCard",
+    seoTitle: "Speak Up: Raising Concerns With eCard",
     description: "How to raise a concern about conduct, ethics or misuse connected with eCard, what channels exist today, and the honest limits of reporting by email.",
-    h1: "Raising a concern about conduct or misuse",
-    eyebrow: "Speak up",
+    h1: "Raising A Concern About Conduct Or Misuse",
+    eyebrow: "Speak Up",
     intro: "Many organisations run a dedicated speak-up channel for reporting misconduct. eCard has not published one. This page explains what exists today, what doesn't, and how to decide where a concern should go.",
     variant: "support",
     visual: "none",
@@ -158,12 +158,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No dedicated speak-up channel is published",
+        title: "No Dedicated Speak-up Channel Is Published",
         body: "eCard has not published an anonymous hotline, a whistleblower portal, an ethics officer or a speak-up policy. The only verified contact is sales@bizzfly.com. Emails to that address are not anonymous and eCard makes no confidentiality or legal-protection promise on this page.",
       },
       {
         type: "prose",
-        heading: "What speak-up channels usually cover",
+        heading: "What Speak-up Channels Usually Cover",
         paragraphs: [
           "In general, speak-up programmes exist so that people can report suspected wrongdoing: fraud, bribery, harassment, safety risks, data misuse or breaches of law. They usually describe who receives reports, how reports are investigated, and what protections apply to the person reporting.",
           "Because eCard hasn't published those details, you should not assume any of them apply. Decide what to share with that in mind.",
@@ -171,7 +171,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Choosing where a concern belongs",
+        heading: "Choosing Where A Concern Belongs",
         headers: ["Type of concern", "Suggested route"],
         rows: [
           ["Misuse of eCard by another user (spam, scraping)", "Email sales@bizzfly.com with facts; see Acceptable Use draft"],
@@ -183,7 +183,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Before you report by email",
+        heading: "Before You Report By Email",
         items: [
           "Your email address and name will be visible to whoever reads it.",
           "Stick to facts you observed: what, when, where and who.",
@@ -193,14 +193,14 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "What eCard can verify today",
+        heading: "What eCard Can Verify Today",
         paragraphs: [
           "eCard's verified security and governance features relate to the product itself: roles, an audit log, two-factor sign-in and a compliance checklist covering consent, export and deletion. Those help workspace owners understand who did what inside their own workspace, and may be useful evidence if the concern is about misuse inside a team.",
         ],
       },
       {
         type: "prose",
-        heading: "Thinking before you report",
+        heading: "Thinking Before You Report",
         paragraphs: [
           "It helps to ask three questions before you write anything down. First, is anyone in immediate danger? If so, contact the emergency services or police where you are, not eCard. Second, does the concern involve a law or regulation, such as data protection, fraud or consumer protection? If so, the regulator responsible for that area may be the body with real powers to act. Third, would telling eCard directly help put things right? Sometimes a clear, factual email is the quickest way to stop a problem, such as a workspace misusing the product.",
           "Whatever you decide, keep your own notes, stick to what you saw yourself and avoid speculation about people's motives. That keeps your report useful wherever it ends up.",
@@ -221,10 +221,10 @@ export const pages: PageDef[] = [
     slug: "speak-up/anonymous-report",
     category: "engagement",
     title: "Anonymous Report",
-    seoTitle: "Anonymous Reporting at eCard: What Exists",
+    seoTitle: "Anonymous Reporting At eCard: What Exists",
     description: "eCard has no anonymous reporting channel. Learn what that means, what email reporting reveals about you, and other routes for raising serious concerns.",
-    h1: "Is there a way to report anonymously?",
-    eyebrow: "Speak up",
+    h1: "Is There A Way To Report Anonymously?",
+    eyebrow: "Speak Up",
     intro: "Short answer: no. eCard has not published an anonymous reporting channel. This page explains why that matters, what an email report reveals, and the alternatives you can consider.",
     variant: "support",
     visual: "none",
@@ -233,12 +233,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No anonymous channel",
+        title: "No Anonymous Channel",
         body: "eCard does not offer an anonymous form, hotline or third-party reporting service. Any form on this site opens your own email app, so your address is included. eCard makes no anonymity or confidentiality guarantee.",
       },
       {
         type: "prose",
-        heading: "Why we are explicit about this",
+        heading: "Why We Are Explicit About This",
         paragraphs: [
           "Someone who believes they are reporting anonymously may share details they would otherwise keep back. That can put them at risk. So we would rather say clearly that this option doesn't exist than leave anyone guessing.",
           "If anonymity matters to you, don't use the email form for your report. Consider the alternatives below.",
@@ -247,7 +247,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "What an email report reveals",
+        heading: "What An Email Report Reveals",
         items: [
           "Your email address and display name.",
           "The time you sent the message.",
@@ -257,31 +257,31 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Alternatives to consider",
+        heading: "Alternatives To Consider",
         cards: [
           { title: "Regulators", body: "Many sectors and data protection laws have a regulator that accepts complaints directly. Check the authority in your country.", icon: "building" },
-          { title: "Law enforcement", body: "Suspected crimes or immediate dangers belong with the police.", icon: "shield" },
-          { title: "Independent advice", body: "A lawyer or an advice organisation can explain your options and any protections where you live.", icon: "briefcase" },
-          { title: "Named email", body: "If you are comfortable being identified, email sales@bizzfly.com with the facts.", icon: "mail" },
+          { title: "Law Enforcement", body: "Suspected crimes or immediate dangers belong with the police.", icon: "shield" },
+          { title: "Independent Advice", body: "A lawyer or an advice organisation can explain your options and any protections where you live.", icon: "briefcase" },
+          { title: "Named Email", body: "If you are comfortable being identified, email sales@bizzfly.com with the facts.", icon: "mail" },
         ],
       },
       {
         type: "prose",
-        heading: "General guidance on anonymous reporting",
+        heading: "General Guidance On Anonymous Reporting",
         paragraphs: [
           "Where organisations do run anonymous systems, they often use an independent provider and a case number so the reporter can check back without revealing who they are. Even then, details inside a report can identify someone indirectly. It is worth thinking about what the facts themselves reveal before you share them anywhere.",
         ],
       },
       {
         type: "steps",
-        heading: "If you still want to tell eCard",
+        heading: "If You Still Want To Tell eCard",
         intro: "Some people are comfortable being named, as long as they know that upfront. If that is you, these steps keep the report focused.",
         steps: [
-          { title: "Decide what you are willing to share", body: "Write the report knowing your name and email address will be attached to it, and leave out anything you would only say anonymously." },
-          { title: "Describe facts, not people's motives", body: "Say what happened, when and where. Avoid guessing why someone acted as they did." },
-          { title: "Limit personal data", body: "Mention other people only as much as the concern requires, and don't attach their contact records." },
-          { title: "Send it from an account you check", body: "If eCard needs to ask a follow-up question, it can only reach you at the address you used." },
-          { title: "Keep your own record", body: "Save a copy of what you sent and the date, in case you later take the matter to a regulator." },
+          { title: "Decide What You Are Willing To Share", body: "Write the report knowing your name and email address will be attached to it, and leave out anything you would only say anonymously." },
+          { title: "Describe Facts, Not People's Motives", body: "Say what happened, when and where. Avoid guessing why someone acted as they did." },
+          { title: "Limit Personal Data", body: "Mention other people only as much as the concern requires, and don't attach their contact records." },
+          { title: "Send It From An Account You Check", body: "If eCard needs to ask a follow-up question, it can only reach you at the address you used." },
+          { title: "Keep Your Own Record", body: "Save a copy of what you sent and the date, in case you later take the matter to a regulator." },
         ],
       },
     ],
@@ -297,10 +297,10 @@ export const pages: PageDef[] = [
     slug: "speak-up/ethics",
     category: "engagement",
     title: "Ethics Concerns",
-    seoTitle: "Ethics Concerns About eCard: How to Raise",
+    seoTitle: "Ethics Concerns About eCard: How To Raise",
     description: "Raise an ethics concern about eCard, such as data use, marketing claims or AI behaviour, by email. Learn what to include and the limits of this route.",
-    h1: "Reporting an ethics concern",
-    eyebrow: "Speak up",
+    h1: "Reporting An Ethics Concern",
+    eyebrow: "Speak Up",
     intro: "Ethics concerns are about whether something is right, not only whether it is allowed. If you think eCard, or someone using eCard, is acting unfairly or dishonestly, you can tell us using the form on this page. It sends a named email to sales@bizzfly.com.",
     variant: "support",
     visual: "none",
@@ -308,14 +308,14 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "What counts as an ethics concern",
+        heading: "What Counts As An Ethics Concern",
         paragraphs: [
           "For a contact CRM, ethics concerns often involve personal data: people being emailed who never agreed to it, contact details collected in a misleading way, or AI results used without checking. They can also cover marketing claims that seem misleading, or pricing that seems unclear.",
         ],
       },
       {
         type: "bullets",
-        heading: "Examples you might raise",
+        heading: "Examples You Might Raise",
         items: [
           "A workspace sending bulk introductions to people who only handed over a card in passing.",
           "A claim on the eCard site that doesn't match what the product does.",
@@ -327,29 +327,29 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "eCard has not published an ethics policy, ethics committee or investigation process. Reports are named emails to sales@bizzfly.com. No anonymity, confidentiality or protection guarantee is offered.",
       },
       {
         type: "steps",
-        heading: "Writing a useful ethics report",
+        heading: "Writing A Useful Ethics Report",
         steps: [
-          { title: "Describe the behaviour", body: "What happened, and why you think it is wrong." },
-          { title: "Give context", body: "Where you saw it: a page URL, an email you received, a screen in the product." },
-          { title: "Separate fact from opinion", body: "State what you saw, then what you think it means." },
-          { title: "Suggest a fix if you have one", body: "A clearer label, a consent step, a correction. Ideas are welcome." },
+          { title: "Describe The Behaviour", body: "What happened, and why you think it is wrong." },
+          { title: "Give Context", body: "Where you saw it: a page URL, an email you received, a screen in the product." },
+          { title: "Separate Fact From Opinion", body: "State what you saw, then what you think it means." },
+          { title: "Suggest A Fix If You Have One", body: "A clearer label, a consent step, a correction. Ideas are welcome." },
         ],
       },
       {
         type: "prose",
-        heading: "Tools that already exist",
+        heading: "Tools That Already Exist",
         paragraphs: [
           "eCard's verified compliance checklist covers consent, export and deletion, and introductions are sent from the user's own mailbox via SMTP rather than from a shared marketing system. The Acceptable Use draft describes intended limits on how the product should be used. If your concern is about a specific user's behaviour, those documents may help frame it.",
         ],
       },
       {
         type: "prose",
-        heading: "Ethics and AI card reading",
+        heading: "Ethics And AI Card Reading",
         paragraphs: [
           "eCard uses AI models to read the text on a visiting card and turn it into a contact. Users can bring their own key for models such as Claude, OpenAI, Gemini, DeepSeek, Grok or Azure. That raises fair ethical questions: who sees the card image, whether results are checked before they're used, and whether the person on the card would expect to be contacted.",
           "As general guidance, a card handed over at a meeting signals willingness to stay in touch, not consent to marketing campaigns. Good practice is to send a personal follow-up, record consent where your law requires it and delete contacts who ask to be removed. If you see eCard or one of its users falling short of that, an ethics report is a reasonable way to say so.",
@@ -370,8 +370,8 @@ export const pages: PageDef[] = [
     title: "Workplace Concerns",
     seoTitle: "Workplace Concerns Involving eCard People",
     description: "How to raise a concern about the conduct of someone working for or with eCard, what eCard has published, and where serious workplace issues should go.",
-    h1: "Concerns about conduct in the workplace",
-    eyebrow: "Speak up",
+    h1: "Concerns About Conduct In The Workplace",
+    eyebrow: "Speak Up",
     intro: "This page is for concerns about how people connected with eCard behave: during a sales conversation, in support emails or anywhere else. eCard has not published a workplace conduct policy or reporting line, so this page sets out the honest options.",
     variant: "support",
     visual: "none",
@@ -380,12 +380,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Nothing formal is published yet",
+        title: "Nothing Formal Is Published Yet",
         body: "eCard has not published a code of conduct, HR contact, grievance process or anti-harassment policy. The only verified contact is sales@bizzfly.com, and messages sent there are not anonymous.",
       },
       {
         type: "prose",
-        heading: "Who this page is for",
+        heading: "Who This Page Is For",
         paragraphs: [
           "Customers, prospects or anyone who has dealt with someone representing eCard and felt they were treated unfairly, pressured, harassed or misled. If the concern is about your own team members inside your eCard workspace, it is a matter for your own organisation's policies, not eCard's.",
           "This page also isn't a channel for eCard's own staff or contractors. eCard has not published an internal reporting route on this site, and anyone working with eCard should rely on their own contract, local employment law and, where appropriate, independent advice.",
@@ -393,7 +393,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Where to take it",
+        heading: "Where To Take It",
         headers: ["Situation", "What to do"],
         rows: [
           ["Rude or unhelpful reply from eCard", "Email sales@bizzfly.com with the thread attached"],
@@ -404,7 +404,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Protect yourself when reporting",
+        heading: "Protect Yourself When Reporting",
         items: [
           "Keep copies of the messages or notes about what happened.",
           "Write things down soon after they happen, with dates.",
@@ -414,21 +414,21 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Inside your own team",
+        heading: "Inside Your Own Team",
         paragraphs: [
           "If you are a workspace owner investigating something a team member did inside eCard, the verified audit log and roles can help. The audit log shows who did what, and roles limit what each person can change. These are product tools, not a reporting service.",
         ],
       },
       {
         type: "steps",
-        heading: "Writing a workplace concern",
+        heading: "Writing A Workplace Concern",
         intro: "Workplace concerns can be personal and upsetting. A simple structure helps the reader understand quickly and keeps you in control of what you share.",
         steps: [
-          { title: "Describe the interaction", body: "Who you dealt with, by name or role if you know it, and how: email, video call or a message." },
-          { title: "Give dates and times", body: "A short timeline is far clearer than a long narrative." },
-          { title: "Quote exactly where you can", body: "Copy the words used in an email or message rather than paraphrasing them." },
-          { title: "Explain the impact", body: "Say how it affected you or your organisation, for example a purchase decision made under pressure." },
-          { title: "Say what you would like", body: "An apology, a different contact person, a correction or simply that the behaviour is recorded." },
+          { title: "Describe The Interaction", body: "Who you dealt with, by name or role if you know it, and how: email, video call or a message." },
+          { title: "Give Dates And Times", body: "A short timeline is far clearer than a long narrative." },
+          { title: "Quote Exactly Where You Can", body: "Copy the words used in an email or message rather than paraphrasing them." },
+          { title: "Explain The Impact", body: "Say how it affected you or your organisation, for example a purchase decision made under pressure." },
+          { title: "Say What You Would Like", body: "An apology, a different contact person, a correction or simply that the behaviour is recorded." },
         ],
       },
     ],
@@ -444,10 +444,10 @@ export const pages: PageDef[] = [
     slug: "speak-up/whistleblower",
     category: "engagement",
     title: "Whistleblower",
-    seoTitle: "Whistleblowing and eCard: Honest Guidance",
+    seoTitle: "Whistleblowing And eCard: Honest Guidance",
     description: "eCard has no whistleblower programme or legal protection scheme. Read general guidance on whistleblowing and where serious wrongdoing can be reported.",
-    h1: "Whistleblowing: what eCard can and can't offer",
-    eyebrow: "Speak up",
+    h1: "Whistleblowing: What eCard Can And Can't Offer",
+    eyebrow: "Speak Up",
     intro: "Whistleblowing usually means reporting serious wrongdoing, often from the inside, under rules that protect the reporter. eCard has not published a whistleblower programme, so this page gives general guidance and points you toward routes that may offer protection.",
     variant: "support",
     visual: "none",
@@ -456,12 +456,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No whistleblower programme is published",
+        title: "No Whistleblower Programme Is Published",
         body: "eCard has no published whistleblower policy, hotline, independent provider or protection scheme. Nothing on this page creates any legal protection. Email to sales@bizzfly.com is not anonymous or confidential.",
       },
       {
         type: "prose",
-        heading: "What whistleblowing normally involves",
+        heading: "What Whistleblowing Normally Involves",
         paragraphs: [
           "Whistleblowing rules in many countries cover reports about crime, fraud, serious risks to health or safety, environmental harm, or a cover-up of any of these. Protection for the person reporting usually depends on reporting to the right body in the right way, which is often a regulator or a prescribed authority rather than the company itself.",
           "Because the rules differ by country and sector, independent advice is wise before you report something serious. Timing can matter too, as some legal routes have deadlines.",
@@ -469,17 +469,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A cautious way to proceed",
+        heading: "A Cautious Way To Proceed",
         steps: [
-          { title: "Pause before sharing", body: "Don't forward documents or data you aren't entitled to share. That could create problems for you." },
-          { title: "Get independent advice", body: "A lawyer or a whistleblowing advice organisation in your country can explain your protections." },
-          { title: "Identify the right authority", body: "Regulators, data protection authorities or the police may be the correct recipient." },
-          { title: "Decide whether to tell eCard", body: "You may also email sales@bizzfly.com, knowing it is a named, ordinary email." },
+          { title: "Pause Before Sharing", body: "Don't forward documents or data you aren't entitled to share. That could create problems for you." },
+          { title: "Get Independent Advice", body: "A lawyer or a whistleblowing advice organisation in your country can explain your protections." },
+          { title: "Identify The Right Authority", body: "Regulators, data protection authorities or the police may be the correct recipient." },
+          { title: "Decide Whether To Tell eCard", body: "You may also email sales@bizzfly.com, knowing it is a named, ordinary email." },
         ],
       },
       {
         type: "bullets",
-        heading: "Security issues are different",
+        heading: "Security Issues Are Different",
         items: [
           "A technical vulnerability in eCard is normally a responsible-disclosure matter, not whistleblowing.",
           "eCard has no published security contact; see the Responsible Disclosure page.",
@@ -488,7 +488,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why this page exists",
+        heading: "Why This Page Exists",
         paragraphs: [
           "People look for a whistleblower page when something feels badly wrong. Rather than leave that search empty, we explain plainly what doesn't exist and where meaningful protection is more likely to be found.",
           "If you are an employee or contractor of a customer organisation and your concern is about how your own employer uses eCard, for example collecting contact data without a lawful basis, your employer's own whistleblowing policy and your national authorities are usually the right starting points. eCard's role is that of a software provider, and it cannot investigate another organisation's internal conduct.",

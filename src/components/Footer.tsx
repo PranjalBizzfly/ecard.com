@@ -73,7 +73,7 @@ const WHY = [
   "Every visiting card scanned by the AI you choose",
   "Follow-ups by email and WhatsApp in three languages",
   "Remember where you met and who introduced you",
-  "Works in any phone browser — no app to install",
+  "Works in any phone browser, no app to install",
 ];
 
 const FEATURED = [
@@ -113,7 +113,7 @@ export function Footer() {
           <div className="foot-contact">
             <a href={`mailto:${SITE.salesEmail}`}><Mail aria-hidden />{SITE.salesEmail}</a>
             <Link href="/contact"><MessageSquare aria-hidden />All contact options</Link>
-            <p><Smartphone aria-hidden />Works in any phone browser — no app to install.</p>
+            <p><Smartphone aria-hidden />Works in any phone browser, no app to install.</p>
           </div>
     </>
   );
@@ -124,14 +124,14 @@ export function Footer() {
       <ul className="foot-points">
         {WHY.map((w) => <li key={w}><CheckCircle2 aria-hidden />{w}</li>)}
       </ul>
-      <Link href="/contact-sales" className="foot-pill2">Talk to sales <ArrowRight className="size-4" aria-hidden /></Link>
-      <a href={SITE.signIn} className="foot-pill"><span className="foot-dot" aria-hidden />Sign in</a>
+      <Link href="/contact-sales" className="foot-pill2">Talk To Sales <ArrowRight className="size-4" aria-hidden /></Link>
+      <a href={SITE.signIn} className="foot-pill"><span className="foot-dot" aria-hidden />Sign In</a>
     </div>
   );
 
   return (
     <footer className="site-footer">
-      <div className="foot-tab"><span>Works in any phone browser — no app to install</span></div>
+      <div className="foot-tab"><span>Works in any phone browser, no app to install</span></div>
 
       {/* Three columns as on the reference; groups are height-balanced on wide screens. */}
       <FooterColumns brandTop={brandTop} ctaTop={ctaTop} brand={BRAND_COL} flow={FLOW} cta={CTA_COL} />
@@ -147,7 +147,7 @@ export function Footer() {
             <a href={SITE.signIn}>Sign in</a>
           </div>
           <div className="foot-pay-wrap">
-            <p className="foot-label">We accept</p>
+            <p className="foot-label">We Accept</p>
             <ul className="foot-pay" aria-label="Payment methods">
               {PAYMENT_MARKS.map((p) => <li key={p.label}>{p.svg}</li>)}
             </ul>

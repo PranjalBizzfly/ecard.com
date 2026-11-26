@@ -5,10 +5,10 @@ export const pages: PageDef[] = [
     slug: "business-sites/partners",
     category: "businessSites",
     title: "Partner Portal",
-    seoTitle: "Partner Portal Site: Status for eCard Partners",
+    seoTitle: "Partner Portal Site: Status For eCard Partners",
     description: "What a partner portal subdomain would give resellers and consultants, why eCard has none today, and how to start a partnership conversation by email.",
-    h1: "A partner portal for eCard: what exists today",
-    eyebrow: "Business sites",
+    h1: "A Partner Portal For eCard: What Exists Today",
+    eyebrow: "Business Sites",
     intro: "A partner portal is the logged-in area where an approved partner registers deals, downloads sales material and tracks payouts. eCard has not published a partner programme, so there is no partner portal either, and no partner login exists anywhere. This page explains the concept and the one route that does exist: an email to sales@bizzfly.com.",
     variant: "reference",
     visual: "none",
@@ -17,12 +17,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not available",
+        title: "Not Available",
         body: "eCard has not published a partner programme, partner tiers, commission rates or a partner portal. Nothing on this page should be read as an offer.",
       },
       {
         type: "prose",
-        heading: "Partner page versus partner portal",
+        heading: "Partner Page Versus Partner Portal",
         paragraphs: [
           "The main Partners page on this site describes the idea of partnering with eCard in general terms. A partner portal is different: it's the operational system an approved partner logs in to after signing an agreement. It sits on its own address because it holds commercial data that customers and the public must never see.",
           "Because no programme exists, there are no partner logins, no deal-registration forms and no partner pricing. The honest next step for anyone interested is a conversation, not a sign-up form.",
@@ -30,28 +30,28 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "What partner portals typically contain",
+        heading: "What Partner Portals Typically Contain",
         intro: "For context, these are the features people usually expect from a partner portal elsewhere. None of them is available for eCard.",
         cards: [
-          { title: "Deal registration", body: "Partners log an opportunity so two partners don't compete for the same customer.", icon: "file" },
-          { title: "Enablement material", body: "Product decks, demo scripts and training for the partner's sales team.", icon: "book" },
-          { title: "Payout tracking", body: "Statements showing commissions or margins earned.", icon: "rupee" },
+          { title: "Deal Registration", body: "Partners log an opportunity so two partners don't compete for the same customer.", icon: "file" },
+          { title: "Enablement Material", body: "Product decks, demo scripts and training for the partner's sales team.", icon: "book" },
+          { title: "Payout Tracking", body: "Statements showing commissions or margins earned.", icon: "rupee" },
           { title: "Co-marketing", body: "Approved logos, joint campaign assets and brand rules.", icon: "palette" },
         ],
       },
       {
         type: "steps",
-        heading: "How to open a partnership conversation today",
+        heading: "How To Open A Partnership Conversation Today",
         steps: [
-          { title: "Describe your business", body: "Who you serve, in which cities or industries, and how you sell today." },
-          { title: "Explain the fit", body: "Why your clients collect visiting cards and need follow-up, for example exhibitors or field sales teams." },
-          { title: "Say what you're asking for", body: "Referral, implementation help for your clients, or something else. Be specific." },
-          { title: "Send it to sales@bizzfly.com", body: "That is the only published business contact. Expect any arrangement to be confirmed in writing." },
+          { title: "Describe Your Business", body: "Who you serve, in which cities or industries, and how you sell today." },
+          { title: "Explain The Fit", body: "Why your clients collect visiting cards and need follow-up, for example exhibitors or field sales teams." },
+          { title: "Say What You're Asking For", body: "Referral, implementation help for your clients, or something else. Be specific." },
+          { title: "Send It To sales@bizzfly.com", body: "That is the only published business contact. Expect any arrangement to be confirmed in writing." },
         ],
       },
       {
         type: "bullets",
-        heading: "Questions worth preparing before any partnership",
+        heading: "Questions Worth Preparing Before Any Partnership",
         intro: "General guidance for anyone evaluating a software partnership, with eCard or another vendor:",
         items: [
           "How will customers be billed: directly by the vendor, or through you?",
@@ -76,10 +76,10 @@ export const pages: PageDef[] = [
     slug: "business-sites/vendors",
     category: "businessSites",
     title: "Vendor Portal",
-    seoTitle: "Vendor Portal Site: Supplying to eCard",
+    seoTitle: "Vendor Portal Site: Supplying To eCard",
     description: "A vendor portal handles supplier onboarding, invoices and compliance documents. eCard has none; here's what such a site does and how suppliers can enquire.",
-    h1: "Supplying eCard: the vendor portal question",
-    eyebrow: "Business sites",
+    h1: "Supplying eCard: The Vendor Portal Question",
+    eyebrow: "Business Sites",
     intro: "A vendor portal is the site where a company's suppliers register, upload documents and submit invoices. eCard has not published a supplier programme or a vendor portal. If you want to offer a product or service to eCard, the only published contact is sales@bizzfly.com.",
     variant: "reference",
     visual: "none",
@@ -87,7 +87,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Who a vendor portal is for",
+        heading: "Who A Vendor Portal Is For",
         paragraphs: [
           "This page is about selling to eCard, not about buying from it. Large organisations use vendor portals to standardise supplier onboarding: tax registration, bank details, signed policies, insurance certificates and invoice submission all go through one controlled channel.",
           "eCard has published none of that. There is no supplier registration form, no list of required documents and no invoice-submission system. The main Vendors pages on this site explain the general topic; this page explains what a portal would do and how to make contact now.",
@@ -95,7 +95,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Typical vendor portal functions and eCard's status",
+        heading: "Typical Vendor Portal Functions And eCard's Status",
         headers: ["Function", "Status for eCard"],
         rows: [
           ["Supplier registration", "Not published"],
@@ -107,23 +107,23 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "If you'd like to offer something to eCard",
+        heading: "If You'd Like To Offer Something To eCard",
         steps: [
-          { title: "Be brief", body: "One paragraph on what you supply and why it's relevant to a browser-based visiting-card CRM." },
-          { title: "Give evidence you can share", body: "Public information about your company that the recipient can check independently." },
-          { title: "Don't send sensitive documents unprompted", body: "Bank details and tax documents should only be shared after a genuine request through a verified channel." },
-          { title: "Use the published address", body: "Write to sales@bizzfly.com. Treat any request to pay a 'registration fee' to become a vendor as a warning sign." },
+          { title: "Be Brief", body: "One paragraph on what you supply and why it's relevant to a browser-based visiting-card CRM." },
+          { title: "Give Evidence You Can Share", body: "Public information about your company that the recipient can check independently." },
+          { title: "Don't Send Sensitive Documents Unprompted", body: "Bank details and tax documents should only be shared after a genuine request through a verified channel." },
+          { title: "Use The Published Address", body: "Write to sales@bizzfly.com. Treat any request to pay a 'registration fee' to become a vendor as a warning sign." },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Protect yourself from supplier fraud",
+        title: "Protect Yourself From Supplier Fraud",
         body: "Fake vendor-registration schemes are common. eCard has not published any vendor onboarding process, so any message asking you to pay a fee or share banking details to 'register as an eCard vendor' should be treated as suspicious.",
       },
       {
         type: "bullets",
-        heading: "What suppliers to any SaaS company should expect to be asked",
+        heading: "What Suppliers To Any SaaS Company Should Expect To Be Asked",
         intro: "General guidance on vendor due diligence, so you can prepare:",
         items: [
           "Basic company and tax registration details.",
@@ -149,8 +149,8 @@ export const pages: PageDef[] = [
     title: "Affiliate Portal",
     seoTitle: "Affiliate Portal Site: eCard Referral Status",
     description: "Affiliate portals track referral links, clicks and commissions. eCard has no affiliate programme or portal; here's how to recommend it honestly anyway.",
-    h1: "Affiliate portal: why there isn't one for eCard",
-    eyebrow: "Business sites",
+    h1: "Affiliate Portal: Why There Isn't One For eCard",
+    eyebrow: "Business Sites",
     intro: "An affiliate portal is where creators and publishers get tracked referral links, see clicks and sign-ups, and collect commissions. eCard has not published an affiliate programme, referral rewards or commission rates, so there's no affiliate portal and no affiliate link to request.",
     variant: "reference",
     visual: "none",
@@ -159,12 +159,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not available",
+        title: "Not Available",
         body: "No eCard affiliate programme, referral scheme or commission rate has been published. Any site offering 'eCard affiliate commissions' is not speaking for eCard.",
       },
       {
         type: "split",
-        heading: "How affiliate portals normally work",
+        heading: "How Affiliate Portals Normally Work",
         body: [
           "An affiliate signs up, agrees to terms and receives a unique link. When a visitor clicks that link and later buys, the portal attributes the sale and records a commission. Portals usually show clicks, conversions, pending and paid amounts, and creative assets such as banners.",
           "These systems need clear terms about cookie windows, refunds and disclosure. Without published terms, there's nothing to track, which is why eCard has no portal.",
@@ -179,7 +179,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Recommending eCard without a programme",
+        heading: "Recommending eCard Without A Programme",
         paragraphs: [
           "You're free to tell people about a product you find useful. If you write about eCard, link to ecard.gg and describe only what eCard publishes: AI card scanning with a model you choose, a Free plan at ₹0 with 50 scans a month, a 14-day Professional trial with no card needed, and browser access with no app to install.",
           "Don't promise discounts, coupon codes or features that eCard hasn't published, and don't imply you're an official partner.",
@@ -187,7 +187,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Honest disclosure habits for reviewers and creators",
+        heading: "Honest Disclosure Habits For Reviewers And Creators",
         items: [
           "Say clearly whether you have any commercial relationship with a product you recommend.",
           "Separate your opinion from the vendor's published facts.",
@@ -198,10 +198,10 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "If you'd like to propose a referral arrangement",
+        heading: "If You'd Like To Propose A Referral Arrangement",
         steps: [
-          { title: "Describe your audience", body: "Who reads or watches your content and why they'd care about card follow-up." },
-          { title: "Explain the proposal", body: "What you would do and what you'd expect in return." },
+          { title: "Describe Your Audience", body: "Who reads or watches your content and why they'd care about card follow-up." },
+          { title: "Explain The Proposal", body: "What you would do and what you'd expect in return." },
           { title: "Email sales@bizzfly.com", body: "Any arrangement would need to be confirmed in writing by eCard." },
         ],
       },
@@ -220,10 +220,10 @@ export const pages: PageDef[] = [
     slug: "business-sites/resellers",
     category: "businessSites",
     title: "Resellers",
-    seoTitle: "Reseller Site: Buying or Reselling eCard",
+    seoTitle: "Reseller Site: Buying Or Reselling eCard",
     description: "Reseller sites list authorised sellers and reseller pricing. eCard has no reseller network; buy directly at ecard.gg or contact sales for Enterprise.",
-    h1: "Resellers and authorised sellers of eCard",
-    eyebrow: "Business sites",
+    h1: "Resellers And Authorised Sellers Of eCard",
+    eyebrow: "Business Sites",
     intro: "Some software is sold through resellers: local companies that bundle a licence with setup, training and support. A reseller site lists those authorised sellers and gives them pricing tools. eCard has not published a reseller network or reseller pricing, so it's bought directly.",
     variant: "reference",
     visual: "none",
@@ -232,12 +232,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not available",
+        title: "Not Available",
         body: "eCard has not published any authorised resellers, distributors or reseller pricing. If someone offers to sell you an eCard licence, check with eCard first.",
       },
       {
         type: "table",
-        heading: "How to buy eCard today",
+        heading: "How To Buy eCard Today",
         headers: ["You want", "How"],
         rows: [
           ["To try it", "Sign up at ecard.gg; the 14-day Professional trial needs no card"],
@@ -248,7 +248,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why buying direct matters with a browser-based tool",
+        heading: "Why Buying Direct Matters With A Browser-based Tool",
         paragraphs: [
           "Resellers add the most value when software needs installation, hardware or local configuration. eCard runs in any phone browser with no app to install, and you pay through its checkout by UPI, cards, net banking, wallets or EMI. That removes most of the reasons a reseller would exist.",
           "Buying direct also keeps the workspace in your name. You control the owner role, the billing and the data. If an outside agency sets up eCard for you, make sure your own company holds the owner role from day one.",
@@ -256,18 +256,18 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "If an agency or consultant offers to set up eCard for you",
+        heading: "If An Agency Or Consultant Offers To Set Up eCard For You",
         intro: "Consultants can still help with process and setup, even without a reseller programme. Protect yourself with these steps:",
         steps: [
-          { title: "Create the workspace yourself", body: "Sign up with a company email you control, so you are the owner." },
-          { title: "Invite them with a limited role", body: "Admin or manager is usually enough; don't hand over the owner login." },
-          { title: "Pay eCard directly", body: "Subscription payments should go through eCard's own checkout." },
-          { title: "Remove access when they finish", body: "Check the audit log and remove their account when the work is done." },
+          { title: "Create The Workspace Yourself", body: "Sign up with a company email you control, so you are the owner." },
+          { title: "Invite Them With A Limited Role", body: "Admin or manager is usually enough; don't hand over the owner login." },
+          { title: "Pay eCard Directly", body: "Subscription payments should go through eCard's own checkout." },
+          { title: "Remove Access When They Finish", body: "Check the audit log and remove their account when the work is done." },
         ],
       },
       {
         type: "bullets",
-        heading: "Signs that a 'reseller' offer needs checking",
+        heading: "Signs That A 'Reseller' Offer Needs Checking",
         items: [
           "Prices that differ from the published pricing page.",
           "Requests to pay into a personal account or wallet.",
@@ -290,10 +290,10 @@ export const pages: PageDef[] = [
     slug: "business-sites/marketplace",
     category: "businessSites",
     title: "Marketplace",
-    seoTitle: "Marketplace Site: eCard Apps and Add-ons Status",
+    seoTitle: "Marketplace Site: eCard Apps And Add-ons Status",
     description: "App marketplaces list third-party add-ons. eCard has no marketplace; its published connections are listed on the integrations page instead.",
-    h1: "Is there an eCard app marketplace?",
-    eyebrow: "Business sites",
+    h1: "Is There An eCard App Marketplace?",
+    eyebrow: "Business Sites",
     intro: "An app marketplace is a catalogue of add-ons built by third parties, often with install buttons, ratings and developer listings. eCard has not published a marketplace, third-party apps or a listing process for developers. The connections eCard does name are on its integrations page. Nothing has been announced about a future marketplace either: one would normally follow a documented public API and developer terms, and neither is published today. This page will be updated if that changes.",
     variant: "reference",
     visual: "integrations",
@@ -302,12 +302,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not available",
+        title: "Not Available",
         body: "No eCard marketplace, app store, third-party add-on or developer listing programme has been published.",
       },
       {
         type: "prose",
-        heading: "Marketplace versus integrations",
+        heading: "Marketplace Versus Integrations",
         paragraphs: [
           "Integrations are connections a vendor supports itself. A marketplace is an open catalogue where outside developers publish their own add-ons. Marketplaces need developer terms, review processes and a public API, which is why they usually appear only after a product's API is fully documented.",
           "eCard names a set of integrations and offers webhooks and an API with signed events for each new contact. It has not published an API reference, developer terms or a marketplace.",
@@ -315,19 +315,19 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "What eCard connects to today",
+        heading: "What eCard Connects To Today",
         intro: "These are the integrations eCard names. See the integrations page for the verified role of each.",
         cards: [
           { title: "Messaging", body: "Telegram bot for saving cards; WhatsApp messages in English, Hindi or Marathi.", icon: "send" },
-          { title: "Email sending", body: "Your own SMTP, including Gmail, Outlook, Zoho Mail, SendGrid, Brevo, Mailgun, Amazon SES or Resend.", icon: "mail" },
-          { title: "Contacts and maps", body: "Google Contacts sync on Starter and above; Google Maps address checks on scans.", icon: "map" },
-          { title: "AI models", body: "Claude, OpenAI, Gemini, DeepSeek, Grok, Azure or a custom endpoint, with your own key.", icon: "brain" },
-          { title: "Data out", body: "Webhooks with signed events for each new contact on Professional and above; CSV export.", icon: "webhook" },
+          { title: "Email Sending", body: "Your own SMTP, including Gmail, Outlook, Zoho Mail, SendGrid, Brevo, Mailgun, Amazon SES or Resend.", icon: "mail" },
+          { title: "Contacts And Maps", body: "Google Contacts sync on Starter and above; Google Maps address checks on scans.", icon: "map" },
+          { title: "AI Models", body: "Claude, OpenAI, Gemini, DeepSeek, Grok, Azure or a custom endpoint, with your own key.", icon: "brain" },
+          { title: "Data Out", body: "Webhooks with signed events for each new contact on Professional and above; CSV export.", icon: "webhook" },
         ],
       },
       {
         type: "bullets",
-        heading: "Connecting other tools without a marketplace",
+        heading: "Connecting Other Tools Without A Marketplace",
         items: [
           "Use webhooks to push each new contact to a system you control.",
           "Export contacts as CSV for one-off moves into other software.",
@@ -337,7 +337,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "If you build tools for others",
+        heading: "If You Build Tools For Others",
         paragraphs: [
           "Developers who want to build something for eCard users should know there's no listing process, revenue share or developer agreement published. If you have an idea for a connection, describe it through the feedback page or write to sales@bizzfly.com.",
         ],
@@ -356,10 +356,10 @@ export const pages: PageDef[] = [
     slug: "business-sites/procurement",
     category: "businessSites",
     title: "Procurement",
-    seoTitle: "Procurement Site: Buying eCard for Your Company",
+    seoTitle: "Procurement Site: Buying eCard For Your Company",
     description: "Procurement sites hold security questionnaires, contracts and vendor forms. eCard has none; here's how to run a purchase review with what is published.",
-    h1: "Procurement: evaluating eCard for your organisation",
-    eyebrow: "Business sites",
+    h1: "Procurement: Evaluating eCard For Your Organisation",
+    eyebrow: "Business Sites",
     intro: "Larger buyers often expect a procurement site with ready answers to security questionnaires, standard contracts and supplier forms. eCard has not published a procurement site, a standard contract pack or completed questionnaires. This page explains what you can review today, how to structure a short evaluation, and how to ask for the rest in writing.",
     variant: "reference",
     visual: "security",
@@ -368,12 +368,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not available",
+        title: "Not Available",
         body: "No procurement portal, completed security questionnaire, certification, audit report or standard enterprise contract has been published by eCard. Legal pages on this site are drafts pending review.",
       },
       {
         type: "table",
-        heading: "What you can verify today",
+        heading: "What You Can Verify Today",
         headers: ["Topic", "What eCard publishes"],
         rows: [
           ["Account security", "2FA with authenticator codes, recovery codes, trusted devices, login alerts"],
@@ -386,18 +386,18 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A practical procurement process for a small SaaS tool",
+        heading: "A Practical Procurement Process For A Small SaaS Tool",
         steps: [
-          { title: "Define the use", body: "Which teams will scan cards, which data will be stored and who will have admin rights." },
-          { title: "Run a trial", body: "Use the 14-day Professional trial with sample or low-risk data first." },
-          { title: "Review published controls", body: "Compare the table above with your internal policy." },
-          { title: "Send your questions in one batch", body: "Write to sales@bizzfly.com with your questionnaire, data-processing needs and any contract requirements." },
-          { title: "Record the answers", body: "Keep written replies with your vendor file, and don't rely on unpublished verbal claims." },
+          { title: "Define The Use", body: "Which teams will scan cards, which data will be stored and who will have admin rights." },
+          { title: "Run A Trial", body: "Use the 14-day Professional trial with sample or low-risk data first." },
+          { title: "Review Published Controls", body: "Compare the table above with your internal policy." },
+          { title: "Send Your Questions In One Batch", body: "Write to sales@bizzfly.com with your questionnaire, data-processing needs and any contract requirements." },
+          { title: "Record The Answers", body: "Keep written replies with your vendor file, and don't rely on unpublished verbal claims." },
         ],
       },
       {
         type: "bullets",
-        heading: "Questions to include in your enquiry",
+        heading: "Questions To Include In Your Enquiry",
         intro: "General points most security and legal reviewers will want answered:",
         items: [
           "Where is data hosted and which subprocessors are used?",
@@ -409,7 +409,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Bring-your-own-key and your review",
+        heading: "Bring-your-own-key And Your Review",
         paragraphs: [
           "eCard lets you choose the AI model that reads cards and bring your own key. That can simplify a review, because card images are processed under your own agreement with the AI provider you select. Check that provider's data terms as part of your assessment.",
         ],

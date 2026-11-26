@@ -5,9 +5,9 @@ export const pages: PageDef[] = [
     slug: "features/events-expos",
     category: "events",
     title: "Events & Expos",
-    seoTitle: "Events & Expos: Group Every Card From a Show",
+    seoTitle: "Events & Expos: Group Every Card From A Show",
     description: "Group every visiting card you collect at a trade show or expo in eCard, then follow up with the whole room at once instead of one card at a time.",
-    h1: "Turn a stack of expo cards into one follow-up",
+    h1: "Turn A Stack Of Expo Cards Into One Follow-up",
     eyebrow: "Events & Expos",
     intro: "Trade shows hand you dozens of cards in a few hours. eCard lets you group the cards from a show together and follow up with everyone at once, so the conversations you started at the booth don’t go cold.",
     variant: "feature",
@@ -16,7 +16,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Why events need their own grouping",
+        heading: "Why Events Need Their Own Grouping",
         paragraphs: [
           "A visiting card collected at an expo carries context that a card handed over in a one-to-one meeting does not: everyone in the batch met you at the same place, during the same few days, usually hearing the same pitch. Treating them as one group makes the follow-up faster and more consistent.",
           "eCard’s homepage describes this directly: group the cards from a trade show and follow up with everyone at once. Contacts, tags and events are part of the base feature set on every plan, including Free.",
@@ -24,27 +24,27 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "What eCard brings to an event",
+        heading: "What eCard Brings To An Event",
         cards: [
-          { title: "AI scanning", body: "Each card is read by the AI model you choose, with a confidence score per field. Nothing is saved until you review it.", icon: "scan" },
-          { title: "Event grouping", body: "Cards from one show sit together, so you can find and act on the whole batch.", icon: "layers" },
-          { title: "Telegram on the floor", body: "Send a card photo to the eCard Telegram bot and the contact is saved, with Open and Send buttons in the chat.", icon: "send" },
-          { title: "Follow-up channels", body: "Intro emails from your own SMTP mailbox and AI-written WhatsApp messages in English, Hindi or Marathi.", icon: "mail" },
+          { title: "AI Scanning", body: "Each card is read by the AI model you choose, with a confidence score per field. Nothing is saved until you review it.", icon: "scan" },
+          { title: "Event Grouping", body: "Cards from one show sit together, so you can find and act on the whole batch.", icon: "layers" },
+          { title: "Telegram On The Floor", body: "Send a card photo to the eCard Telegram bot and the contact is saved, with Open and Send buttons in the chat.", icon: "send" },
+          { title: "Follow-up Channels", body: "Intro emails from your own SMTP mailbox and AI-written WhatsApp messages in English, Hindi or Marathi.", icon: "mail" },
         ],
       },
       {
         type: "steps",
-        heading: "A typical flow",
+        heading: "A Typical Flow",
         steps: [
-          { title: "Scan as you go", body: "Capture cards in the phone browser or through Telegram between booth conversations." },
-          { title: "Review and group", body: "Confirm the extracted fields and keep the batch grouped under the event." },
-          { title: "Follow up with the room", body: "Reach the whole group while the show is still fresh in their minds." },
+          { title: "Scan As You Go", body: "Capture cards in the phone browser or through Telegram between booth conversations." },
+          { title: "Review And Group", body: "Confirm the extracted fields and keep the batch grouped under the event." },
+          { title: "Follow Up With The Room", body: "Reach the whole group while the show is still fresh in their minds." },
         ],
       },
       {
         type: "callout",
         tone: "info",
-        title: "What the site doesn’t specify",
+        title: "What The Site Doesn’t Specify",
         body: "eCard’s public site does not document exactly how event screens are laid out or whether bulk messages are personalised per contact. Check inside the app for the current behaviour.",
       },
       {
@@ -63,7 +63,7 @@ export const pages: PageDef[] = [
             "Volume makes sorting from memory unreliable"
           ],
           [
-            "Two-day conference, 10–30 cards",
+            "Two-day conference, 10-30 cards",
             "Create an event plus a few topic tags",
             "Fewer cards, but richer conversations worth labelling"
           ],
@@ -84,10 +84,10 @@ export const pages: PageDef[] = [
         "heading": "Pitfalls to avoid",
         "intro": "Most event follow-ups fail for ordinary reasons, not technical ones.",
         "items": [
-          "Leaving cards in a pocket until the flight home — scan the same day while you still remember the conversation.",
-          "Saving extracted fields without reviewing them — the confidence score per field shows where to look twice.",
-          "Sending one identical note to buyers, suppliers and job-seekers — split the group by intent before you write.",
-          "Forgetting your own card — share your digital card or QR so visitors can reach you, too."
+          "Leaving cards in a pocket until the flight home. Scan the same day while you still remember the conversation.",
+          "Saving extracted fields without reviewing them, the confidence score per field shows where to look twice.",
+          "Sending one identical note to buyers, suppliers and job-seekers, split the group by intent before you write.",
+          "Forgetting your own card: share your digital card or QR so visitors can reach you, too."
         ]
       },
     ],
@@ -95,7 +95,7 @@ export const pages: PageDef[] = [
       { q: "Is event grouping available on the Free plan?", a: "Yes. Contacts, tags and events are listed in the base feature set that every plan includes." },
       { q: "Do I need to install an app at the expo?", a: "No. eCard works in any phone browser, and you can also scan through the Telegram bot." },
       { q: "How many cards can I scan for one show?", a: "Scans are limited per month by plan: 50 on Free, 1,000 on Starter, 5,000 on Professional and unlimited on Business and Enterprise." },
-      { q: "Can I use eCard at events that aren’t trade shows?", a: "Yes. The same grouping works for conferences, meetups, workshops or site visits — anywhere you collect a batch of cards in one place." },
+      { q: "Can I use eCard at events that aren’t trade shows?", a: "Yes. The same grouping works for conferences, meetups, workshops or site visits, anywhere you collect a batch of cards in one place." },
     ],
     related: ["features/events-expos/trade-show-workflow", "features/events-expos/follow-up-the-room", "use-cases/events-expos", "resources/guides/trade-show-playbook"],
     source: "mixed",
@@ -103,10 +103,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/events-expos/create-event",
     category: "events",
-    title: "Create an Event",
-    seoTitle: "Create an Event to Hold Your Show Contacts",
+    title: "Create An Event",
+    seoTitle: "Create An Event To Hold Your Show Contacts",
     description: "Set up an event in eCard before you arrive at an expo so every card you scan lands in the right group, ready for one follow-up afterwards.",
-    h1: "Set up the event before the first handshake",
+    h1: "Set Up The Event Before The First Handshake",
     eyebrow: "Events & Expos",
     intro: "The easiest time to organise expo contacts is before you collect them. Setting up an event in eCard first gives every scanned card an obvious home.",
     variant: "guide",
@@ -115,7 +115,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Why create the event first",
+        heading: "Why Create The Event First",
         body: [
           "If you wait until after the show, you end up sorting a mixed pile of contacts from memory. Creating the event up front means each scan is grouped while the context is still obvious.",
           "Events are part of eCard’s base feature set, alongside contacts and tags, so this works on every plan.",
@@ -124,8 +124,8 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Details worth noting for each event",
-        intro: "General good practice — record what will help you remember the conversations later:",
+        heading: "Details Worth Noting For Each Event",
+        intro: "General good practice, record what will help you remember the conversations later:",
         items: [
           "The show name and edition, e.g. a sample “Sample: Build India Expo 2026”",
           "City and venue, which also helps natural-language search later",
@@ -136,18 +136,18 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Getting ready",
+        heading: "Getting Ready",
         steps: [
-          { title: "Sign in on your phone", body: "eCard runs in any phone browser, so there is nothing to install before the trip." },
-          { title: "Create the event", body: "Add it in the app with a clear, dated name. The public site doesn’t document the exact screen, so follow the in-app labels." },
-          { title: "Brief your team", body: "Tell colleagues which event to use so their scans group together too." },
+          { title: "Sign In On Your Phone", body: "eCard runs in any phone browser, so there is nothing to install before the trip." },
+          { title: "Create The Event", body: "Add it in the app with a clear, dated name. The public site doesn’t document the exact screen, so follow the in-app labels." },
+          { title: "Brief Your Team", body: "Tell colleagues which event to use so their scans group together too." },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Name events consistently",
-        body: "Pick one format, such as “Show name – City – Year”, and stick to it. Consistent names make searching past events far easier.",
+        title: "Name Events Consistently",
+        body: "Pick one format, such as “Show name, City, Year”, and stick to it. Consistent names make searching past events far easier.",
       },
       {
         "type": "steps",
@@ -156,7 +156,7 @@ export const pages: PageDef[] = [
         "steps": [
           {
             "title": "Name it clearly",
-            "body": "Sample: “Pune Packaging Expo — Mar 2027”. Include the city and month so it stays unambiguous next year."
+            "body": "Sample: “Pune Packaging Expo, Mar 2027”. Include the city and month so it stays unambiguous next year."
           },
           {
             "title": "Decide your tags",
@@ -178,7 +178,7 @@ export const pages: PageDef[] = [
         "items": [
           "Put the event name first and the date second, so similar shows sort together.",
           "Use one event per edition of a recurring show rather than reusing last year’s.",
-          "Avoid internal jargon — a colleague reading the name in six months should know what it was.",
+          "Avoid internal jargon, a colleague reading the name in six months should know what it was.",
           "Keep booth numbers or hall names in a note, not the event name, so the name stays short."
         ]
       },
@@ -200,10 +200,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/events-expos/group-contacts",
     category: "events",
-    title: "Group Contacts by Event",
-    seoTitle: "Group Contacts by Event in Your Card CRM",
+    title: "Group Contacts By Event",
+    seoTitle: "Group Contacts By Event In Your Card CRM",
     description: "Keep every contact from a trade show, conference or meetup together in eCard so you can review, search and follow up with the group as a whole.",
-    h1: "One event, one tidy group of contacts",
+    h1: "One Event, One Tidy Group Of Contacts",
     eyebrow: "Events & Expos",
     intro: "Grouping contacts by the event where you met them turns a long contact list into meaningful batches you can actually act on.",
     variant: "feature",
@@ -212,15 +212,15 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Context is the point",
+        heading: "Context Is The Point",
         paragraphs: [
           "“Where did I meet this person?” is the first question most people ask when they look at an old visiting card. Grouping by event answers it permanently.",
-          "eCard groups the cards from a trade show so you can follow up with everyone at once. Combined with meeting memory — where you met, who introduced you, voice notes and a searchable AI summary — each contact keeps its story.",
+          "eCard groups the cards from a trade show so you can follow up with everyone at once. Combined with meeting memory (where you met, who introduced you, voice notes and a searchable AI summary) each contact keeps its story.",
         ],
       },
       {
         type: "table",
-        heading: "Grouping options at a glance",
+        heading: "Grouping Options At A Glance",
         intro: "Events work best alongside the other organising tools eCard lists:",
         headers: ["Tool", "Best for", "Example (sample)"],
         rows: [
@@ -232,7 +232,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "What grouping helps with",
+        heading: "What Grouping Helps With",
         items: [
           "Sending one follow-up to the whole room",
           "Reviewing how many people you met at each show",
@@ -243,7 +243,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not documented publicly",
+        title: "Not Documented Publicly",
         body: "Whether a contact can belong to several events at once isn’t stated on eCard’s site. Use tags for overlapping labels if you’re unsure.",
       },
       {
@@ -257,7 +257,7 @@ export const pages: PageDef[] = [
       {
         "type": "table",
         "heading": "Events vs tags vs search",
-        "intro": "Three ways to slice the same contacts — each answers a different question.",
+        "intro": "Three ways to slice the same contacts, each answers a different question.",
         "headers": [
           "Tool",
           "Best answers",
@@ -286,7 +286,7 @@ export const pages: PageDef[] = [
         "heading": "Common grouping mistakes",
         "items": [
           "Creating a new event for every hall or day, which splits one show into fragments.",
-          "Using events to mean contact type — that is what tags are for.",
+          "Using events to mean contact type. That is what tags are for.",
           "Leaving everyday contacts in an event group, which muddies the show’s follow-up list."
         ]
       },
@@ -294,7 +294,7 @@ export const pages: PageDef[] = [
         "type": "callout",
         "tone": "tip",
         "title": "Group first, then clean",
-        "body": "Once a batch is grouped, run duplicate merge on it before sending anything — teammates often scan the same visitor."
+        "body": "Once a batch is grouped, run duplicate merge on it before sending anything, teammates often scan the same visitor."
       },
     ],
     faqs: [
@@ -309,10 +309,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/events-expos/follow-up-the-room",
     category: "events",
-    title: "Follow Up with the Room",
-    seoTitle: "Follow Up With Everyone You Met at a Show",
+    title: "Follow Up With The Room",
+    seoTitle: "Follow Up With Everyone You Met At A Show",
     description: "After an expo, reach every contact from the event at once with eCard, using intro emails from your own mailbox or AI-written WhatsApp messages.",
-    h1: "Follow up with everyone you met — at once",
+    h1: "Follow Up With Everyone You Met: At Once",
     eyebrow: "Events & Expos",
     intro: "Most expo leads are lost in the week after the show. eCard is built to let you follow up with everyone from an event at once, while they still remember your stand.",
     variant: "feature",
@@ -321,24 +321,24 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Channels you can use",
+        heading: "Channels You Can Use",
         cards: [
-          { title: "Intro email", body: "Preview the AI draft; it sends after 5 seconds from your own SMTP mailbox, and you can edit or cancel it.", icon: "mail" },
+          { title: "Intro Email", body: "Preview the AI draft; it sends after 5 seconds from your own SMTP mailbox, and you can edit or cancel it.", icon: "mail" },
           { title: "WhatsApp", body: "AI writes a message in English, Hindi or Marathi and opens it in WhatsApp in one tap.", icon: "message" },
-          { title: "Your digital card", body: "Share your card with QR, Save-to-contacts and short links that count clicks.", icon: "card" },
+          { title: "Your Digital Card", body: "Share your card with QR, Save-to-contacts and short links that count clicks.", icon: "card" },
         ],
       },
       {
         type: "prose",
-        heading: "Timing matters",
+        heading: "Timing Matters",
         paragraphs: [
-          "General guidance from sales teams: a first touch within 24–48 hours of meeting gets noticeably more replies than one sent a week later. At a multi-day expo, sending a short note the same evening is even better.",
+          "General guidance from sales teams: a first touch within 24-48 hours of meeting gets noticeably more replies than one sent a week later. At a multi-day expo, sending a short note the same evening is even better.",
           "Because eCard keeps the show’s contacts together, the follow-up is one task rather than fifty.",
         ],
       },
       {
         type: "bullets",
-        heading: "What a good room-wide message includes",
+        heading: "What A Good Room-wide Message Includes",
         items: [
           "The show name, so they place you instantly",
           "One line on what you discussed or demonstrated",
@@ -349,7 +349,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Check personalisation in the app",
+        title: "Check Personalisation In The App",
         body: "eCard’s site says you can follow up with everyone at once. It doesn’t specify how each message is personalised in bulk, so preview before you send.",
       },
       {
@@ -367,7 +367,7 @@ export const pages: PageDef[] = [
           },
           {
             "title": "Suppliers and others (17)",
-            "body": "A brief, friendly note — or none at all if there was no real conversation."
+            "body": "A brief, friendly note, or none at all if there was no real conversation."
           }
         ]
       },
@@ -376,8 +376,8 @@ export const pages: PageDef[] = [
         "heading": "Writing a group message that doesn’t feel like a broadcast",
         "paragraphs": [
           "Name the event in the first line. People met dozens of exhibitors; “Great to meet you at the Bengaluru Food Expo on Thursday” instantly places you.",
-          "Make one clear ask. A brochure, a call slot or a reply with their requirement — not all three. Shorter notes get read on a phone between sessions.",
-          "Use the context you captured. If meeting memory holds a voice note about a contact’s project, mention it — that one line is what separates a follow-up from spam."
+          "Make one clear ask. A brochure, a call slot or a reply with their requirement, not all three. Shorter notes get read on a phone between sessions.",
+          "Use the context you captured. If meeting memory holds a voice note about a contact’s project, mention it. That one line is what separates a follow-up from spam."
         ]
       },
       {
@@ -385,13 +385,13 @@ export const pages: PageDef[] = [
         "heading": "Pitfalls",
         "items": [
           "Sending before you’ve merged duplicates collected by teammates, so one person gets two emails.",
-          "Waiting a fortnight — the room has moved on by then.",
+          "Waiting a fortnight, the room has moved on by then.",
           "Following up only by email when the conversation happened in Hindi or Marathi; WhatsApp in their language may land better."
         ]
       },
     ],
     faqs: [
-      { q: "Which mailbox do emails come from?", a: "Your own, via SMTP — for example Gmail, Outlook, Zoho, SendGrid, Brevo, Mailgun, Amazon SES, Resend or any SMTP host." },
+      { q: "Which mailbox do emails come from?", a: "Your own, via SMTP: for example Gmail, Outlook, Zoho, SendGrid, Brevo, Mailgun, Amazon SES, Resend or any SMTP host." },
       { q: "Can I stop an email after it’s queued?", a: "Yes. The intro email sends after 5 seconds and you can edit or cancel it before then." },
       { q: "Which WhatsApp languages are supported?", a: "English, Hindi and Marathi." },
       { q: "Should everyone from the show get the same message?", a: "Rarely. Splitting the group by intent with tags, then writing two or three versions, usually works better than one generic note." },
@@ -403,29 +403,29 @@ export const pages: PageDef[] = [
     slug: "features/events-expos/trade-show-workflow",
     category: "events",
     title: "Trade-Show Workflow",
-    seoTitle: "A Trade-Show Workflow From Booth to Follow-Up",
+    seoTitle: "A Trade-Show Workflow From Booth To Follow-Up",
     description: "A practical trade-show workflow with eCard: prepare the event, scan cards at the booth, review the data and follow up with the room after the show.",
-    h1: "The trade-show workflow, end to end",
+    h1: "The Trade-show Workflow, End To End",
     eyebrow: "Events & Expos",
-    intro: "A show is three jobs — preparing, capturing and following up. Here’s how they fit together when eCard holds the contacts.",
+    intro: "A show is three jobs: preparing, capturing and following up. Here’s how they fit together when eCard holds the contacts.",
     variant: "guide",
     visual: "scan",
     icon: "briefcase",
     sections: [
       {
         type: "steps",
-        heading: "Five stages",
+        heading: "Five Stages",
         steps: [
           { title: "Plan", body: "Set goals, create the event in eCard and agree on tags with your team." },
           { title: "Capture", body: "Scan cards in the phone browser or send photos to the Telegram bot between conversations." },
-          { title: "Annotate", body: "Add meeting memory — a voice note or a line on what was discussed — while it’s fresh." },
+          { title: "Annotate", body: "Add meeting memory, a voice note or a line on what was discussed, while it’s fresh." },
           { title: "Review", body: "Check AI-extracted fields and confidence scores; nothing is saved until you review." },
-          { title: "Follow up", body: "Reach the whole event group by email or WhatsApp." },
+          { title: "Follow Up", body: "Reach the whole event group by email or WhatsApp." },
         ],
       },
       {
         type: "table",
-        heading: "Who does what",
+        heading: "Who Does What",
         intro: "A sample split for a small stand team, using eCard’s listed roles:",
         headers: ["Person (sample)", "Role", "Job at the show"],
         rows: [
@@ -436,7 +436,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Keep the capture step light",
+        heading: "Keep The Capture Step Light",
         paragraphs: [
           "At a busy booth, every second you spend typing is a visitor you aren’t talking to. Snapping a photo and moving on, then reviewing later in quieter moments, keeps the stand productive.",
           "eCard checks addresses against Google Maps and attaches a confidence score to each field, which makes the later review quicker.",
@@ -445,13 +445,13 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Review the same day",
+        title: "Review The Same Day",
         body: "Spend fifteen minutes each evening reviewing the day’s scans. Small fixes are easy when you still remember the faces.",
       },
       {
         "type": "table",
         "heading": "Sample timeline for a two-day show",
-        "intro": "A fictional schedule you can adapt — the exact days matter less than having one.",
+        "intro": "A fictional schedule you can adapt, the exact days matter less than having one.",
         "headers": [
           "When",
           "Task",
@@ -519,7 +519,7 @@ export const pages: PageDef[] = [
       { q: "Does scanning need a strong connection?", a: "eCard is browser-based. The site doesn’t describe offline behaviour, so plan for a mobile data connection." },
       { q: "How soon after the show should follow-up start?", a: "As general guidance, within one to three working days, while visitors still remember your stand." },
 
-      { q: "Does a solo exhibitor need all five stages?", a: "Yes, but one person can do them all — the stages are about order, not headcount." },
+      { q: "Does a solo exhibitor need all five stages?", a: "Yes, but one person can do them all: the stages are about order, not headcount." },
     ],
     related: ["features/events-expos/before-the-show", "features/events-expos/at-the-booth", "features/events-expos/after-the-show", "resources/guides/trade-show-playbook"],
     source: "mixed",
@@ -527,10 +527,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/events-expos/before-the-show",
     category: "events",
-    title: "Before the Show",
-    seoTitle: "Before the Show: Expo Prep for Card Capture",
+    title: "Before The Show",
+    seoTitle: "Before The Show: Expo Prep For Card Capture",
     description: "Prepare for an expo before you travel: set goals, create the event in eCard, test scanning on your phone and agree on tags with the stand team.",
-    h1: "Prepare well and the follow-up writes itself",
+    h1: "Prepare Well And The Follow-up Writes Itself",
     eyebrow: "Events & Expos",
     intro: "Most of a show’s results are decided before the doors open. A little preparation in eCard and with your team pays off for weeks afterwards.",
     variant: "guide",
@@ -539,7 +539,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "bullets",
-        heading: "Two weeks out",
+        heading: "Two Weeks Out",
         items: [
           "Decide the goal: number of qualified conversations, partners or suppliers",
           "Book meetings with known prospects in advance",
@@ -549,17 +549,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "The day before",
+        heading: "The Day Before",
         steps: [
-          { title: "Create the event", body: "Give it a clear name so every scan has a home." },
-          { title: "Test a scan", body: "Scan one card on the phone you’ll use, in the phone browser, to confirm sign-in and camera access." },
+          { title: "Create The Event", body: "Give it a clear name so every scan has a home." },
+          { title: "Test A Scan", body: "Scan one card on the phone you’ll use, in the phone browser, to confirm sign-in and camera access." },
           { title: "Link Telegram", body: "If you prefer the bot, link it with the one-time code from Settings → Telegram." },
-          { title: "Agree on tags", body: "Settle on a short tag list, such as hot, warm and supplier." },
+          { title: "Agree On Tags", body: "Settle on a short tag list, such as hot, warm and supplier." },
         ],
       },
       {
         type: "split",
-        heading: "Prepare your follow-up now",
+        heading: "Prepare Your Follow-up Now",
         body: [
           "Draft the gist of your post-show message before you leave. You’ll be tired afterwards, and a ready outline means you send it on time.",
           "eCard’s AI drafts intro emails and WhatsApp messages, but deciding the offer and the next step is your job.",
@@ -569,13 +569,13 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Scan limits",
+        title: "Scan Limits",
         body: "Monthly scans: Free 50, Starter 1,000, Professional 5,000, Business and Enterprise unlimited. New workspaces get a 14-day Professional trial with no card needed.",
       },
       {
         "type": "bullets",
         "heading": "Assets to prepare and link",
-        "intro": "Things a visitor might ask for — have them ready to share as links before you travel.",
+        "intro": "Things a visitor might ask for, have them ready to share as links before you travel.",
         "items": [
           "Your digital card with an up-to-date photo, title and phone number.",
           "A printed QR code on the stand or table tent pointing to the card.",
@@ -587,8 +587,8 @@ export const pages: PageDef[] = [
         "type": "prose",
         "heading": "Sample: a pre-show message to existing contacts",
         "paragraphs": [
-          "Sample: “Hi Meera, we’ll be at stand B-14 at the Chennai Textile Expo next Thursday and Friday, showing our new dye range. If you’re visiting, drop by — here’s my card in case you need directions.” Short, specific and useful.",
-          "Send it to a filtered list — perhaps contacts tagged with the region or industry — rather than your whole address book."
+          "Sample: “Hi Meera, we’ll be at stand B-14 at the Chennai Textile Expo next Thursday and Friday, showing our new dye range. If you’re visiting, drop by: here’s my card in case you need directions.” Short, specific and useful.",
+          "Send it to a filtered list, perhaps contacts tagged with the region or industry, rather than your whole address book."
         ]
       },
       {
@@ -616,10 +616,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/events-expos/at-the-booth",
     category: "events",
-    title: "At the Booth",
-    seoTitle: "At the Booth: Capture Cards Without Slowing Down",
+    title: "At The Booth",
+    seoTitle: "At The Booth: Capture Cards Without Slowing Down",
     description: "Capture visiting cards at your expo booth quickly with eCard’s phone-browser scanning or Telegram bot, and note context before the next visitor arrives.",
-    h1: "Capture every card without leaving the conversation",
+    h1: "Capture Every Card Without Leaving The Conversation",
     eyebrow: "Events & Expos",
     intro: "At the booth, speed wins. The aim is to capture the card and one line of context in seconds, then get back to the next visitor.",
     variant: "guide",
@@ -628,19 +628,19 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Two quick ways to capture",
+        heading: "Two Quick Ways To Capture",
         cards: [
-          { title: "Phone browser", body: "Open eCard in your phone browser and scan. No app to install.", icon: "smartphone" },
-          { title: "Telegram bot", body: "Send a photo to the bot; the contact is saved with Open and Send buttons in the chat.", icon: "send" },
-          { title: "Your QR code", body: "Let visitors scan your digital card’s QR code to save your details.", icon: "qr" },
+          { title: "Phone Browser", body: "Open eCard in your phone browser and scan. No app to install.", icon: "smartphone" },
+          { title: "Telegram Bot", body: "Send a photo to the bot; the contact is saved with Open and Send buttons in the chat.", icon: "send" },
+          { title: "Your QR Code", body: "Let visitors scan your digital card’s QR code to save your details.", icon: "qr" },
         ],
       },
       {
         type: "bullets",
-        heading: "Booth habits that work",
+        heading: "Booth Habits That Work",
         intro: "General advice from experienced exhibitors:",
         items: [
-          "Photograph the card while the visitor is still with you — it signals you’ll follow up",
+          "Photograph the card while the visitor is still with you. It signals you’ll follow up",
           "Say a one-line voice note on what they need",
           "Mark obvious hot leads immediately",
           "Hand back the card if they only brought one",
@@ -649,7 +649,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Use meeting memory",
+        heading: "Use Meeting Memory",
         paragraphs: [
           "eCard’s meeting memory records where you met, who introduced you and voice notes, and produces a searchable AI summary. At a booth, a ten-second voice note is often the only context you’ll have later.",
           "Fields are scored for confidence and nothing is saved until you review it, so you can capture fast and check later.",
@@ -658,7 +658,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Quiet moments are review time",
+        title: "Quiet Moments Are Review Time",
         body: "Use lulls in foot traffic to review a few scans at a time rather than leaving a hundred for the hotel room.",
       },
       {
@@ -680,7 +680,7 @@ export const pages: PageDef[] = [
           },
           {
             "title": "Tag the intent",
-            "body": "Hot, warm or info-only — you can refine it in the evening review."
+            "body": "Hot, warm or info-only. You can refine it in the evening review."
           }
         ]
       },
@@ -714,9 +714,9 @@ export const pages: PageDef[] = [
         "type": "bullets",
         "heading": "Pitfalls on the floor",
         "items": [
-          "Scanning glossy cards under spotlights — tilt the card to avoid glare.",
-          "Promising a quote and not noting it — the voice note is your memory.",
-          "Letting the phone battery die by noon — carry a power bank."
+          "Scanning glossy cards under spotlights. Tilt the card to avoid glare.",
+          "Promising a quote and not noting it, the voice note is your memory.",
+          "Letting the phone battery die by noon, carry a power bank."
         ]
       },
       {
@@ -738,10 +738,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/events-expos/after-the-show",
     category: "events",
-    title: "After the Show",
-    seoTitle: "After the Show: Review, Sort and Follow Up",
+    title: "After The Show",
+    seoTitle: "After The Show: Review, Sort And Follow Up",
     description: "What to do after an expo: review scanned cards in eCard, sort leads by priority and follow up with the whole event group by email or WhatsApp.",
-    h1: "The 72 hours after the show",
+    h1: "The 72 Hours After The Show",
     eyebrow: "Events & Expos",
     intro: "The show ends; the real work starts. A short, disciplined post-show routine turns captured cards into conversations.",
     variant: "guide",
@@ -750,17 +750,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Day by day",
+        heading: "Day By Day",
         steps: [
-          { title: "Day 0 evening", body: "Finish reviewing scans. Fix low-confidence fields and merge duplicates." },
+          { title: "Day 0 Evening", body: "Finish reviewing scans. Fix low-confidence fields and merge duplicates." },
           { title: "Day 1", body: "Follow up with the whole event group with a short thank-you and next step." },
-          { title: "Day 2", body: "Personal messages to hot leads — on WhatsApp in English, Hindi or Marathi if that’s how they prefer to talk." },
+          { title: "Day 2", body: "Personal messages to hot leads: on WhatsApp in English, Hindi or Marathi if that’s how they prefer to talk." },
           { title: "Day 3", body: "Check who opened your card, PDFs and WhatsApp links, and prioritise accordingly." },
         ],
       },
       {
         type: "table",
-        heading: "Sort leads by intent",
+        heading: "Sort Leads By Intent",
         intro: "A simple, general triage model:",
         headers: ["Bucket", "Signal", "Next action"],
         rows: [
@@ -772,7 +772,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Keep the data clean",
+        heading: "Keep The Data Clean",
         paragraphs: [
           "After a show you’ll often find the same person scanned twice by two teammates. eCard’s duplicate merge, blacklist and archive tools help keep the list honest before you send anything.",
         ],
@@ -780,7 +780,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Engagement isn’t intent",
+        title: "Engagement Isn’t Intent",
         body: "An opened link is a useful signal, not a promise to buy. Use it to prioritise, not to pressure.",
       },
       {
@@ -815,9 +815,9 @@ export const pages: PageDef[] = [
         "heading": "Post-show pitfalls",
         "items": [
           "Messaging before cleaning the data, so a wrong email bounces or a duplicate gets two notes.",
-          "Treating a brochure open as a buying signal on its own — pair it with what they said at the stand.",
+          "Treating a brochure open as a buying signal on its own, pair it with what they said at the stand.",
           "Forgetting the contacts who said “not now”; a tag with a month helps you return to them.",
-          "Keeping clearly irrelevant contacts — archive them so they don’t clutter future searches."
+          "Keeping clearly irrelevant contacts, archive them so they don’t clutter future searches."
         ]
       },
       {
@@ -830,7 +830,7 @@ export const pages: PageDef[] = [
         "type": "prose",
         "heading": "Sample: reviving a quiet lead",
         "paragraphs": [
-          "Sample: a fictional buyer from a Hyderabad expo hasn’t replied to the first email after a week, but the price list shows two opens. Rather than resending the same note, a short WhatsApp message in their language asking one question — “Would a call on Thursday help?” — gives them an easy way to reply."
+          "Sample: a fictional buyer from a Hyderabad expo hasn’t replied to the first email after a week, but the price list shows two opens. Rather than resending the same note, a short WhatsApp message in their language asking one question, “Would a call on Thursday help?”, gives them an easy way to reply."
         ]
       },
     ],
@@ -847,9 +847,9 @@ export const pages: PageDef[] = [
     slug: "features/events-expos/lead-tracking",
     category: "events",
     title: "Lead Tracking",
-    seoTitle: "Track Expo Leads From Card to Conversation",
+    seoTitle: "Track Expo Leads From Card To Conversation",
     description: "Track expo leads in eCard using event groups, tags and link-open signals, so you know which visitors to call first after the show.",
-    h1: "Know which expo leads are moving",
+    h1: "Know Which Expo Leads Are Moving",
     eyebrow: "Events & Expos",
     intro: "A card in your CRM isn’t a lead until you know what happens next. eCard combines event grouping, tags and link tracking to show you where to spend time.",
     variant: "feature",
@@ -858,25 +858,25 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Signals available in eCard",
+        heading: "Signals Available In eCard",
         cards: [
           { title: "Event", body: "Which show the contact came from.", icon: "calendar" },
           { title: "Tags", body: "Your own labels, such as hot, distributor or follow up in March.", icon: "tag" },
-          { title: "Link opens", body: "Opens of your card, PDFs and WhatsApp links.", icon: "eye" },
-          { title: "Meeting memory", body: "Voice notes and a searchable AI summary of what was said.", icon: "mic" },
+          { title: "Link Opens", body: "Opens of your card, PDFs and WhatsApp links.", icon: "eye" },
+          { title: "Meeting Memory", body: "Voice notes and a searchable AI summary of what was said.", icon: "mic" },
         ],
       },
       {
         type: "prose",
-        heading: "A lightweight pipeline",
+        heading: "A Lightweight Pipeline",
         paragraphs: [
-          "You don’t need a heavy sales CRM to work a show’s leads. Many small teams track three stages with tags — contacted, replied, meeting booked — and review them weekly.",
+          "You don’t need a heavy sales CRM to work a show’s leads. Many small teams track three stages with tags (contacted, replied, meeting booked) and review them weekly.",
           "eCard’s site doesn’t describe deal stages or pipelines, so treat tags as your stage markers.",
         ],
       },
       {
         type: "bullets",
-        heading: "Weekly lead review",
+        heading: "Weekly Lead Review",
         items: [
           "Who opened your brochure but hasn’t replied?",
           "Which hot leads have no follow-up yet?",
@@ -887,7 +887,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Need data elsewhere?",
+        title: "Need Data Elsewhere?",
         body: "On Professional and above, webhooks send signed events for every new contact, which you can route into another system.",
       },
       {
@@ -939,7 +939,7 @@ export const pages: PageDef[] = [
         "type": "bullets",
         "heading": "Pitfalls",
         "items": [
-          "Too many stages — five is plenty for most small teams.",
+          "Too many stages, five is plenty for most small teams.",
           "Stage tags that nobody updates; make updating part of the weekly review.",
           "Chasing opens from contacts who were clearly not buyers at the stand."
         ]
@@ -948,13 +948,13 @@ export const pages: PageDef[] = [
         "type": "callout",
         "tone": "tip",
         "title": "Review on a fixed day",
-        "body": "Pick one day a week for the lead review — the same day each week — and move every show lead to a new stage or explicitly leave it. Leads that sit untouched for three reviews probably belong in parked."
+        "body": "Pick one day a week for the lead review, the same day each week, and move every show lead to a new stage or explicitly leave it. Leads that sit untouched for three reviews probably belong in parked."
       },
     ],
     faqs: [
       { q: "Does eCard have deal stages?", a: "The public site doesn’t mention deal stages. Tags are a practical way to mark progress." },
       { q: "Which plans include webhooks?", a: "Professional (₹999/month), Business (₹2,999/month) and Enterprise." },
-      { q: "Can I see all engaged leads from one show at once?", a: "Combine the event with your stage tag — or ask natural-language search — to pull that list. Exact filtering options are best checked in the app." },
+      { q: "Can I see all engaged leads from one show at once?", a: "Combine the event with your stage tag, or ask natural-language search, to pull that list. Exact filtering options are best checked in the app." },
       { q: "Can I send expo leads to another system?", a: "On Professional and above, webhooks send signed events for every new contact, which you can route elsewhere. eCard’s site does not document field-level mapping, so check in-app settings." },
       { q: "Does eCard score leads automatically?", a: "The public site doesn’t describe lead scoring. Use link opens, tags and your notes together to judge priority." },
     ],
@@ -967,7 +967,7 @@ export const pages: PageDef[] = [
     title: "Event Tagging",
     seoTitle: "Event Tagging: Label Show Contacts Clearly",
     description: "Use tags with events in eCard to label expo contacts by interest, city or intent, so you can slice one show’s list into targeted follow-ups.",
-    h1: "Tags turn one event into many useful lists",
+    h1: "Tags Turn One Event Into Many Useful Lists",
     eyebrow: "Events & Expos",
     intro: "An event tells you where you met someone. Tags tell you what to do about it. Used together, they turn a big show list into targeted follow-ups.",
     variant: "guide",
@@ -976,7 +976,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "A sample tag scheme",
+        heading: "A Sample Tag Scheme",
         headers: ["Tag type", "Sample tags", "Used for"],
         rows: [
           ["Intent", "hot, warm, info-only", "Prioritising follow-up"],
@@ -987,9 +987,9 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Rules that keep tags useful",
+        heading: "Rules That Keep Tags Useful",
         items: [
-          "Keep the list short — ten tags beat fifty",
+          "Keep the list short, ten tags beat fifty",
           "Use lower case and one spelling",
           "Agree on tags before the show, not during it",
           "Retire tags that nobody uses",
@@ -997,7 +997,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Search does the rest",
+        heading: "Search Does The Rest",
         paragraphs: [
           "eCard supports natural-language search, for example “Investors I met in Mumbai last month”. Clean tags and well-named events give that search more to work with.",
         ],
@@ -1005,7 +1005,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Tag at the review stage",
+        title: "Tag At The Review Stage",
         body: "Tagging at the booth slows you down. Add tags when you review scans in the evening.",
       },
       {
@@ -1014,19 +1014,19 @@ export const pages: PageDef[] = [
         "intro": "A fictional review of 40 cards after day one of a show.",
         "steps": [
           {
-            "title": "Pass 1 — intent",
+            "title": "Pass 1, intent",
             "body": "Go through quickly and tag each contact hot, warm or info."
           },
           {
-            "title": "Pass 2 — type",
+            "title": "Pass 2, type",
             "body": "Add buyer, distributor, supplier, partner or press."
           },
           {
-            "title": "Pass 3 — promises",
+            "title": "Pass 3, promises",
             "body": "Tag anyone you promised something: send-quote, send-sample, call-back."
           },
           {
-            "title": "Pass 4 — exceptions",
+            "title": "Pass 4, exceptions",
             "body": "Archive obvious non-leads and note anything unusual."
           }
         ]
@@ -1067,7 +1067,7 @@ export const pages: PageDef[] = [
         "type": "bullets",
         "heading": "Pitfalls",
         "items": [
-          "Near-duplicate tags such as Distributor, distributors and dist — pick one spelling and share it.",
+          "Near-duplicate tags such as Distributor, distributors and dist. Pick one spelling and share it.",
           "Encoding the show name in tags when the event already holds it.",
           "Tagging so finely that every tag has one contact in it.",
           "Letting temporary booth staff invent their own tags mid-show."
@@ -1083,7 +1083,7 @@ export const pages: PageDef[] = [
         "type": "prose",
         "heading": "Sample: a tag scheme for a B2B food exhibitor",
         "paragraphs": [
-          "Sample: a fictional spice exporter uses three groups of tags. Intent — hot, warm, info. Type — importer, retailer, restaurant, supplier. Promise — send-samples, send-pricing, call-back. Every contact gets one intent and one type; promise tags are removed once the promise is kept.",
+          "Sample: a fictional spice exporter uses three groups of tags. Intent: hot, warm, info. Type: importer, retailer, restaurant, supplier. Promise: send-samples, send-pricing, call-back. Every contact gets one intent and one type; promise tags are removed once the promise is kept.",
           "After the show, “importer + hot + send-samples” becomes a short, precise list for the first morning, and the same tags work unchanged at the next exhibition."
         ]
       },
@@ -1092,7 +1092,7 @@ export const pages: PageDef[] = [
     faqs: [
       { q: "Are tags available on every plan?", a: "Yes. Contacts, tags and events are in the base feature set." },
       { q: "Can tags be added in bulk?", a: "eCard’s site doesn’t document bulk tagging; check the app." },
-      { q: "How many tags should one contact have?", a: "As a rule of thumb, two or three — intent, type and any promise you made. More than that usually means some belong in notes instead." },
+      { q: "How many tags should one contact have?", a: "As a rule of thumb, two or three: intent, type and any promise you made. More than that usually means some belong in notes instead." },
       { q: "Should I delete promise tags after following up?", a: "That’s a useful habit. Removing a promise tag once it’s kept turns the tag into a live to-do list rather than a history." },
       { q: "Can I rename a tag after the show?", a: "Tag management details aren’t documented on eCard’s public site, so check the app. Agreeing names before the show avoids most renaming." },
     ],
@@ -1103,37 +1103,37 @@ export const pages: PageDef[] = [
     slug: "features/events-expos/conferences",
     category: "events",
     title: "Conferences",
-    seoTitle: "Using eCard at Conferences and Summits",
+    seoTitle: "Using eCard At Conferences And Summits",
     description: "Capture speaker, panel and hallway contacts at conferences with eCard, keep the context in meeting memory and follow up while the event is fresh.",
-    h1: "Conferences: fewer cards, deeper conversations",
+    h1: "Conferences: Fewer Cards, Deeper Conversations",
     eyebrow: "Events & Expos",
-    intro: "Conferences differ from trade shows. You meet fewer people, but the conversations go deeper — so context matters more than volume.",
+    intro: "Conferences differ from trade shows. You meet fewer people, but the conversations go deeper, so context matters more than volume.",
     variant: "solution",
     visual: "meeting",
     icon: "users",
     sections: [
       {
         type: "split",
-        heading: "What makes conferences different",
+        heading: "What Makes Conferences Different",
         body: [
           "At a conference you’re a visitor, not an exhibitor. Contacts come from panels, coffee breaks and dinners, often with a mutual introduction.",
-          "eCard’s meeting memory captures who introduced you, where you met and voice notes — exactly the detail that makes a conference follow-up feel personal.",
+          "eCard’s meeting memory captures who introduced you, where you met and voice notes, exactly the detail that makes a conference follow-up feel personal.",
         ],
         points: ["Record who introduced you", "Note the session you discussed", "Save a voice note after each chat"],
       },
       {
         type: "steps",
-        heading: "A conference routine",
+        heading: "A Conference Routine",
         steps: [
-          { title: "Create the event", body: "Name it with city and year." },
-          { title: "Scan after each conversation", body: "Step aside, scan, add a note." },
-          { title: "Share your card", body: "Show your digital card QR when someone has no card to swap." },
-          { title: "Follow up personally", body: "Smaller groups deserve individual messages, not just a group note." },
+          { title: "Create The Event", body: "Name it with city and year." },
+          { title: "Scan After Each Conversation", body: "Step aside, scan, add a note." },
+          { title: "Share Your Card", body: "Show your digital card QR when someone has no card to swap." },
+          { title: "Follow Up Personally", body: "Smaller groups deserve individual messages, not just a group note." },
         ],
       },
       {
         type: "bullets",
-        heading: "Follow-up ideas",
+        heading: "Follow-up Ideas",
         intro: "General etiquette that works well after talks and panels:",
         items: [
           "Reference the session or question you discussed",
@@ -1206,7 +1206,7 @@ export const pages: PageDef[] = [
         "items": [
           "Collecting cards from everyone at the networking lunch without a single real conversation.",
           "Following up with a sales pitch to people who met you as a peer.",
-          "Forgetting which session you met someone in — a one-line note fixes it."
+          "Forgetting which session you met someone in, a one-line note fixes it."
         ]
       },
       {
@@ -1219,7 +1219,7 @@ export const pages: PageDef[] = [
     faqs: [
       { q: "What if a speaker has no card?", a: "Let them scan your digital card’s QR code, which offers Save-to-contacts, and note their details yourself." },
       { q: "Can I find conference contacts later by topic?", a: "Meeting memory includes a searchable AI summary, and natural-language search helps find people by description." },
-      { q: "Is it worth creating an event for a one-day conference?", a: "If you expect more than a handful of contacts, yes — it keeps the batch together and makes a follow-up note referencing the conference easy." },
+      { q: "Is it worth creating an event for a one-day conference?", a: "If you expect more than a handful of contacts, yes. It keeps the batch together and makes a follow-up note referencing the conference easy." },
       { q: "Can I search later for people from a particular talk?", a: "If you noted the session in a voice note or tag, natural-language search and tags make it easy to find them again." },
     ],
     related: ["features/events-expos/networking-meetups", "features/meeting-memory", "features/digital-business-card", "resources/guides/visiting-card-etiquette"],
@@ -1231,7 +1231,7 @@ export const pages: PageDef[] = [
     title: "Networking Meetups",
     seoTitle: "Networking Meetups: Remember Everyone You Meet",
     description: "Small meetups produce valuable contacts. Use eCard to scan cards, share your QR card and remember context so every meetup leads to a real conversation.",
-    h1: "Make every meetup count",
+    h1: "Make Every Meetup Count",
     eyebrow: "Events & Expos",
     intro: "Chamber evenings, founder breakfasts and alumni meetups are where long-term relationships start. eCard helps you remember who you met and why it mattered.",
     variant: "solution",
@@ -1240,43 +1240,43 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Small events, long tails",
+        heading: "Small Events, Long Tails",
         paragraphs: [
-          "A meetup might give you only six or eight new contacts, but they tend to be local, relevant and willing to talk again. The risk isn’t volume — it’s forgetting.",
+          "A meetup might give you only six or eight new contacts, but they tend to be local, relevant and willing to talk again. The risk isn’t volume, it’s forgetting.",
           "Grouping each meetup as an event and adding a quick note per person keeps those relationships easy to revisit months later.",
         ],
       },
       {
         type: "cards",
-        heading: "Useful eCard features at meetups",
+        heading: "Useful eCard Features At Meetups",
         cards: [
-          { title: "QR digital card", body: "People scan your QR and save your details with one tap.", icon: "qr" },
-          { title: "Telegram scanning", body: "Snap their card in Telegram without opening another tab.", icon: "send" },
-          { title: "Meeting memory", body: "Who introduced you and what you talked about.", icon: "brain" },
+          { title: "QR Digital Card", body: "People scan your QR and save your details with one tap.", icon: "qr" },
+          { title: "Telegram Scanning", body: "Snap their card in Telegram without opening another tab.", icon: "send" },
+          { title: "Meeting Memory", body: "Who introduced you and what you talked about.", icon: "brain" },
         ],
       },
       {
         type: "bullets",
-        heading: "Meetup etiquette",
+        heading: "Meetup Etiquette",
         items: [
           "Ask before photographing someone’s card",
           "Follow up within two days",
-          "Offer value first — an intro or a resource",
+          "Offer value first, an intro or a resource",
           "Don’t add people to bulk mailings without consent",
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Recurring meetups",
-        body: "Create one event per session (e.g. “Founders Breakfast – March”) so you can see who you met when.",
+        title: "Recurring Meetups",
+        body: "Create one event per session (e.g. “Founders Breakfast, March”) so you can see who you met when.",
       },
       {
         "type": "prose",
         "heading": "Sample: from meetup to coffee meeting",
         "paragraphs": [
           "Sample: at a fictional founders’ meetup in Pune, Neha meets six people and gets three cards; two others scan her QR code instead. On the way home she scans the three cards and records a ten-second voice note for each.",
-          "The next morning she sends two WhatsApp messages and one email, each mentioning something specific from the conversation. One leads to a coffee meeting the following week. Nothing about this needs a big system — just capturing context while it’s fresh."
+          "The next morning she sends two WhatsApp messages and one email, each mentioning something specific from the conversation. One leads to a coffee meeting the following week. Nothing about this needs a big system, just capturing context while it’s fresh."
         ]
       },
       {
@@ -1315,7 +1315,7 @@ export const pages: PageDef[] = [
         "heading": "Pitfalls",
         "items": [
           "Treating a casual meetup like a trade show and pitching everyone.",
-          "Not following up because “it was only a meetup” — small events often produce the best relationships.",
+          "Not following up because “it was only a meetup”, small events often produce the best relationships.",
           "Promising an introduction and forgetting it; note every promise."
         ]
       },
@@ -1342,10 +1342,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/events-expos/team-at-expos",
     category: "events",
-    title: "Your Team at Expos",
+    title: "Your Team At Expos",
     seoTitle: "Run Your Expo Team From One eCard Workspace",
     description: "Put your whole stand team in one eCard workspace with roles like manager, member and scan-only guest so every card lands in the same event group.",
-    h1: "One stand, one workspace, every card in one place",
+    h1: "One Stand, One Workspace, Every Card In One Place",
     eyebrow: "Events & Expos",
     intro: "When several people staff a stand, cards end up in pockets, bags and personal phones. A shared workspace puts them all in one event group.",
     variant: "solution",
@@ -1354,7 +1354,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "eCard roles for a stand team",
+        heading: "eCard Roles For A Stand Team",
         intro: "eCard lists five roles. Exact permissions aren’t published, so confirm in the app.",
         headers: ["Role", "Typical expo use (suggested)"],
         rows: [
@@ -1367,17 +1367,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Setting up the team",
+        heading: "Setting Up The Team",
         steps: [
-          { title: "Check seats", body: "Free allows 5 users, Starter 20, Professional 100, Business and Enterprise unlimited." },
-          { title: "Invite people", body: "Add teammates before the show, not at the venue." },
-          { title: "Protect accounts", body: "Encourage 2FA with authenticator codes; eCard also supports recovery codes and login alerts." },
-          { title: "Agree on the event and tags", body: "Everyone scans into the same event." },
+          { title: "Check Seats", body: "Free allows 5 users, Starter 20, Professional 100, Business and Enterprise unlimited." },
+          { title: "Invite People", body: "Add teammates before the show, not at the venue." },
+          { title: "Protect Accounts", body: "Encourage 2FA with authenticator codes; eCard also supports recovery codes and login alerts." },
+          { title: "Agree On The Event And Tags", body: "Everyone scans into the same event." },
         ],
       },
       {
         type: "prose",
-        heading: "Accountability without micromanaging",
+        heading: "Accountability Without Micromanaging",
         paragraphs: [
           "Workspaces have an audit log, which helps managers see what changed. More importantly, a shared list prevents two salespeople from emailing the same visitor with different offers.",
         ],
@@ -1385,7 +1385,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Remove temporary access",
+        title: "Remove Temporary Access",
         body: "After the show, remove or downgrade temporary staff accounts as a general security practice.",
       },
       {
@@ -1435,7 +1435,7 @@ export const pages: PageDef[] = [
           },
           {
             "title": "Duplicates",
-            "body": "Contacts scanned by two people — agree who owns them."
+            "body": "Contacts scanned by two people, agree who owns them."
           },
           {
             "title": "Today’s focus",
@@ -1476,7 +1476,7 @@ export const pages: PageDef[] = [
     title: "Site Visits",
     seoTitle: "Site Visits: Capture Visitor Cards On Location",
     description: "Use eCard on site visits and open houses to scan visitor cards, share brochures with your card and see who opened them before you follow up.",
-    h1: "Site visits that turn into booked follow-ups",
+    h1: "Site Visits That Turn Into Booked Follow-ups",
     eyebrow: "Events & Expos",
     intro: "Site visits, open houses and factory tours are small events in their own right. eCard’s real-estate use case sums it up: turn site-visit cards into booked visits.",
     variant: "solution",
@@ -1485,7 +1485,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "The real-estate pattern",
+        heading: "The Real-estate Pattern",
         paragraphs: [
           "eCard’s site describes a real-estate flow: scan buyer and broker cards, send the brochure with your card and see who opened it, and follow up in Marathi or Hindi on WhatsApp.",
           "The same pattern suits factory tours, showroom days and project walk-throughs in other industries.",
@@ -1493,17 +1493,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "On the day",
+        heading: "On The Day",
         steps: [
-          { title: "Create an event for the visit day", body: "Sample: “Sample Towers – Open House – Sunday”." },
-          { title: "Scan each visitor’s card", body: "Browser or Telegram, whichever is quicker." },
-          { title: "Send the brochure with your card", body: "Share it while they’re still on site." },
-          { title: "Check opens that evening", body: "See who opened the brochure and your card." },
+          { title: "Create An Event For The Visit Day", body: "Sample: “Sample Towers, Open House, Sunday”." },
+          { title: "Scan Each Visitor’s Card", body: "Browser or Telegram, whichever is quicker." },
+          { title: "Send The Brochure With Your Card", body: "Share it while they’re still on site." },
+          { title: "Check Opens That Evening", body: "See who opened the brochure and your card." },
         ],
       },
       {
         type: "bullets",
-        heading: "Why it works",
+        heading: "Why It Works",
         items: [
           "Visitors receive material while their interest is highest",
           "Opens help you prioritise call-backs",
@@ -1513,7 +1513,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Address check",
+        title: "Address Check",
         body: "eCard checks addresses on scanned cards against Google Maps, handy when visitors come from across the city.",
       },
       {
@@ -1569,7 +1569,7 @@ export const pages: PageDef[] = [
         "type": "bullets",
         "heading": "Pitfalls",
         "items": [
-          "Mixing buyers and brokers in one list — tag them differently from the start.",
+          "Mixing buyers and brokers in one list, tag them differently from the start.",
           "Sending a heavy PDF without a short message explaining what it is.",
           "Reading a brochure open as a commitment rather than a cue to call."
         ]
@@ -1589,7 +1589,7 @@ export const pages: PageDef[] = [
           },
           {
             "title": "Decision makers",
-            "body": "Who else needs to see it — a spouse, parent or business partner."
+            "body": "Who else needs to see it: a spouse, parent or business partner."
           },
           {
             "title": "Source",
@@ -1601,8 +1601,8 @@ export const pages: PageDef[] = [
     faqs: [
       { q: "Can I see if a buyer opened the brochure?", a: "Yes. eCard’s link tracking shows opens of your card, PDFs and WhatsApp links." },
       { q: "Which languages can WhatsApp messages use?", a: "English, Hindi and Marathi." },
-      { q: "Is site-visit tracking only for real estate?", a: "No. Real estate is the example eCard’s site gives, but any business that hosts visits — showrooms, factories, clinics — can group visitors the same way." },
-      { q: "Can a broker and a buyer be told apart later?", a: "Yes, if you tag them differently at scan time — for example buyer and broker — and add the project as the event." },
+      { q: "Is site-visit tracking only for real estate?", a: "No. Real estate is the example eCard’s site gives, but any business that hosts visits (showrooms, factories, clinics) can group visitors the same way." },
+      { q: "Can a broker and a buyer be told apart later?", a: "Yes, if you tag them differently at scan time, for example buyer and broker, and add the project as the event." },
     ],
     related: ["use-cases/real-estate", "features/link-tracking/brochure-tracking", "features/link-tracking/pdf-engagement", "integrations/whatsapp"],
     source: "verified",
@@ -1611,9 +1611,9 @@ export const pages: PageDef[] = [
     slug: "features/events-expos/expo-checklist",
     category: "events",
     title: "Expo Checklist",
-    seoTitle: "The Expo Checklist for Card Capture & Follow-Up",
+    seoTitle: "The Expo Checklist For Card Capture & Follow-Up",
     description: "A printable-style expo checklist covering prep, booth capture and post-show follow-up, with the eCard steps that keep every visiting card organised.",
-    h1: "Your expo checklist",
+    h1: "Your Expo Checklist",
     eyebrow: "Events & Expos",
     intro: "Run through this before, during and after the show. It mixes general exhibitor good practice with the eCard steps that keep contacts in order.",
     variant: "reference",
@@ -1657,7 +1657,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Plan check",
+        heading: "Plan Check",
         headers: ["Plan", "Monthly price", "Users", "Scans/month"],
         rows: [
           ["Free", "₹0", "5", "50"],
@@ -1675,7 +1675,7 @@ export const pages: PageDef[] = [
           "eCard signed in on the phone browser and a bookmark on the home screen.",
           "Telegram bot linked with the one-time code from Settings → Telegram.",
           "Printed QR code for your digital card, plus a few paper cards for people who prefer them.",
-          "A cloth to wipe the phone camera lens — smudges blur card photos."
+          "A cloth to wipe the phone camera lens, smudges blur card photos."
         ]
       },
       {
@@ -1726,7 +1726,7 @@ export const pages: PageDef[] = [
         "heading": "Evening-of-each-day checklist",
         "intro": "Ten minutes in the hotel room that make the follow-up week much easier.",
         "items": [
-          "Every card from today scanned — check pockets, bags and the stand bowl.",
+          "Every card from today scanned: check pockets, bags and the stand bowl.",
           "Low-confidence fields reviewed and corrected before saving.",
           "Intent tags added while you still remember each conversation.",
           "Promises listed: quotes, samples, introductions, call-backs.",
@@ -1749,7 +1749,7 @@ export const pages: PageDef[] = [
     faqs: [
       { q: "Which plan suits a large expo?", a: "Compare expected cards with scan limits: Starter gives 1,000 scans a month, Professional 5,000, Business unlimited." },
       { q: "Can I trial a paid plan for a show?", a: "New workspaces get a 14-day Professional trial with no card needed." },
-      { q: "Do I need anything installed on my phone?", a: "No app is needed for eCard itself — it runs in the phone browser. Telegram is only needed if you want to scan through the bot." },
+      { q: "Do I need anything installed on my phone?", a: "No app is needed for eCard itself. It runs in the phone browser. Telegram is only needed if you want to scan through the bot." },
       { q: "Can I start the checklist on the Free plan?", a: "Yes. Events, tags, scanning and the Telegram bot are in the base set on every plan; Free includes 50 scans a month, so check that covers the show." },
     ],
     related: ["features/events-expos/before-the-show", "resources/guides/trade-show-playbook", "pricing/compare-plans", "features/events-expos/trade-show-workflow"],

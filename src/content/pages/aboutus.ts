@@ -7,7 +7,7 @@ export const pages: PageDef[] = [
     title: "Our Story",
     seoTitle: "Our Story: Why eCard Turns Cards Into Relationships",
     description: "The idea behind eCard: visiting cards should become relationships, not paper in a drawer. What we publish about our story today, and what is not shared yet.",
-    h1: "The story behind a visiting-card CRM",
+    h1: "The Story Behind A Visiting-card CRM",
     eyebrow: "About eCard",
     intro: "eCard starts from one simple observation: most visiting cards end up in a drawer, and the conversation that came with them is forgotten. Our product exists to change that, and this page explains the idea in the words eCard actually publishes.",
     variant: "reference",
@@ -16,7 +16,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "The problem we set out to solve",
+        heading: "The Problem We Set Out To Solve",
         paragraphs: [
           "Anyone who goes to trade shows, site visits, client meetings or networking evenings knows the pattern. You come home with a pocket full of cards, promise yourself you will follow up, and a week later you cannot remember who was who. The card survives; the relationship does not.",
           "eCard describes itself as the AI visiting-card CRM, with one line that sums up the idea: \"Every card you collect, scanned into a relationship.\" The goal is to make the moment after a meeting as easy as the meeting itself: scan the card, remember the context and follow up while the conversation is still fresh.",
@@ -24,24 +24,24 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "How that idea shows up in the product",
+        heading: "How That Idea Shows Up In The Product",
         intro: "Each of these is a verified part of eCard today, not a roadmap promise.",
         cards: [
-          { title: "Scan with the AI you choose", body: "Cards are read by Claude, OpenAI, Gemini, DeepSeek or Grok, with your own key if you prefer, and nothing is saved until you review the fields.", icon: "scan" },
-          { title: "Remember the context", body: "Meeting memory keeps where you met, who introduced you, voice notes and a searchable AI summary.", icon: "brain" },
-          { title: "Follow up quickly", body: "AI-drafted intro emails send from your own mailbox after a 5-second preview, and WhatsApp messages can be written in English, Hindi or Marathi.", icon: "send" },
-          { title: "No app to install", body: "eCard works in any phone browser, and the people you meet can open your digital card without an app.", icon: "smartphone" },
+          { title: "Scan With The AI You Choose", body: "Cards are read by Claude, OpenAI, Gemini, DeepSeek or Grok, with your own key if you prefer, and nothing is saved until you review the fields.", icon: "scan" },
+          { title: "Remember The Context", body: "Meeting memory keeps where you met, who introduced you, voice notes and a searchable AI summary.", icon: "brain" },
+          { title: "Follow Up Quickly", body: "AI-drafted intro emails send from your own mailbox after a 5-second preview, and WhatsApp messages can be written in English, Hindi or Marathi.", icon: "send" },
+          { title: "No App To Install", body: "eCard works in any phone browser, and the people you meet can open your digital card without an app.", icon: "smartphone" },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "What eCard has not published yet",
+        title: "What eCard Has Not Published Yet",
         body: "eCard has not yet published a company history: there is no public founding date, founder biography, timeline or list of milestones. We would rather leave this section short than fill it with invented details. When a fuller story is published, it will appear on this page.",
       },
       {
         type: "split",
-        heading: "Why the browser-first approach matters",
+        heading: "Why The Browser-first Approach Matters",
         body: [
           "A recurring theme in how eCard is built is removing friction. Asking every new contact to install an app is a barrier, so eCard's digital card opens in any browser, and the product itself runs in a phone browser rather than a store app.",
           "The same thinking explains the Telegram bot: if you already live in Telegram, you can send a photo of a card to the bot and the contact is saved, with Open and Send buttons in the chat.",
@@ -55,7 +55,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Where to go next",
+        heading: "Where To Go Next",
         items: [
           "Read the mission and vision page for the positioning in more detail.",
           "Try the sample scan to see how a card becomes a contact.",
@@ -77,9 +77,9 @@ export const pages: PageDef[] = [
     slug: "about/mission-vision",
     category: "aboutus",
     title: "Mission & Vision",
-    seoTitle: "eCard Mission and Vision for Every Card You Collect",
+    seoTitle: "eCard Mission And Vision For Every Card You Collect",
     description: "eCard's mission in its own published words: scan, remember and follow up with every person you meet. See how that mission shapes the product you can use today.",
-    h1: "Mission: no good conversation lost to a drawer",
+    h1: "Mission: No Good Conversation Lost To A Drawer",
     eyebrow: "About eCard",
     intro: "eCard's published tagline is also its clearest mission statement: \"The AI visiting-card CRM. Scan, remember and follow up with every person you meet.\" This page breaks that sentence into its three verbs and shows what each one means in practice.",
     variant: "reference",
@@ -88,7 +88,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "The mission in three verbs",
+        heading: "The Mission In Three Verbs",
         intro: "Each part of the tagline maps to features that exist in eCard today.",
         headers: ["Verb", "What it means", "Verified features"],
         rows: [
@@ -99,7 +99,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "The vision: relationships, not records",
+        heading: "The Vision: Relationships, Not Records",
         paragraphs: [
           "The hero line on ecard.gg reads \"Every card you collect, scanned into a relationship.\" The emphasis is on relationship. A spreadsheet of names is a record; a contact with the place you met, who introduced you, what you discussed and a follow-up already sent is the beginning of a relationship.",
           "That is why eCard pairs scanning with memory and outreach instead of stopping at data capture. Reading the card is only the first step. The longer-term value comes from remembering why the person mattered and reaching out at the right time, in the right language and channel.",
@@ -107,7 +107,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Principles you can see in the product",
+        heading: "Principles You Can See In The Product",
         intro: "These are not corporate slogans; they are design choices visible in the product.",
         items: [
           "Your choice of AI: pick Claude, OpenAI, Gemini, DeepSeek, Grok, Azure or a custom endpoint, and bring your own key.",
@@ -120,16 +120,16 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "About formal statements",
+        title: "About Formal Statements",
         body: "eCard has not yet published a formal mission statement, vision document or long-term roadmap beyond the positioning quoted here. This page interprets the published tagline and hero line; it does not announce future plans.",
       },
       {
         type: "steps",
-        heading: "Putting the mission to work in your first week",
+        heading: "Putting The Mission To Work In Your First Week",
         steps: [
-          { title: "Scan a handful of cards", body: "Start with the cards on your desk. Review each field and correct anything the AI was unsure about." },
-          { title: "Add the context", body: "Note where you met and who introduced you, or record a quick voice note while you still remember." },
-          { title: "Send one follow-up", body: "Preview the AI intro email, adjust it, and let it send from your own address." },
+          { title: "Scan A Handful Of Cards", body: "Start with the cards on your desk. Review each field and correct anything the AI was unsure about." },
+          { title: "Add The Context", body: "Note where you met and who introduced you, or record a quick voice note while you still remember." },
+          { title: "Send One Follow-up", body: "Preview the AI intro email, adjust it, and let it send from your own address." },
         ],
       },
     ],
@@ -147,7 +147,7 @@ export const pages: PageDef[] = [
     title: "Our Values",
     seoTitle: "eCard Values Shown Through Product Choices",
     description: "The values you can see in how eCard works: user control, human review, data ownership, security and honest claims. Grounded in verified product behaviour only.",
-    h1: "Values you can check in the product",
+    h1: "Values You Can Check In The Product",
     eyebrow: "About eCard",
     intro: "Many companies publish a list of values. eCard has not published a formal values statement, so instead of inventing one, this page shows the principles that are visible in how the product actually behaves, so you can verify each one yourself.",
     variant: "reference",
@@ -157,23 +157,23 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "eCard has not yet published an official values statement or code of conduct. The principles below are drawn from verified product features, not from a corporate document.",
       },
       {
         type: "cards",
-        heading: "Five principles grounded in features",
+        heading: "Five Principles Grounded In Features",
         cards: [
-          { title: "You stay in control", body: "Choose the AI model that reads your cards and bring your own API key. Add several keys to a pool and eCard rotates and fails over.", icon: "settings" },
-          { title: "People check, then save", body: "Each extracted field has a confidence score, and nothing is saved until you have reviewed it.", icon: "eye" },
-          { title: "Your data is yours", body: "Bulk import and export are in every plan, and the compliance checklist covers consent, export and deletion.", icon: "download" },
-          { title: "Security by default", body: "2FA with authenticator codes, recovery codes, trusted devices, login alerts, AES-256-GCM encryption of API keys and SMTP passwords, and a workspace audit log.", icon: "shield" },
-          { title: "No overpromising", body: "The time-saved calculator is labelled \"Estimates, not promises\", and the Free plan lets you test before paying.", icon: "check" },
+          { title: "You Stay In Control", body: "Choose the AI model that reads your cards and bring your own API key. Add several keys to a pool and eCard rotates and fails over.", icon: "settings" },
+          { title: "People Check, Then Save", body: "Each extracted field has a confidence score, and nothing is saved until you have reviewed it.", icon: "eye" },
+          { title: "Your Data Is Yours", body: "Bulk import and export are in every plan, and the compliance checklist covers consent, export and deletion.", icon: "download" },
+          { title: "Security By Default", body: "2FA with authenticator codes, recovery codes, trusted devices, login alerts, AES-256-GCM encryption of API keys and SMTP passwords, and a workspace audit log.", icon: "shield" },
+          { title: "No Overpromising", body: "The time-saved calculator is labelled \"Estimates, not promises\", and the Free plan lets you test before paying.", icon: "check" },
         ],
       },
       {
         type: "prose",
-        heading: "Why values should be verifiable",
+        heading: "Why Values Should Be Verifiable",
         paragraphs: [
           "When you evaluate any software vendor, a values page is only useful if it matches what the product does. A good test is to take each stated value and ask: where in the product can I see this? If the answer is nowhere, the value is marketing.",
           "We have tried to apply that test here. Every principle on this page points to something you can open, configure or test in eCard, from the confidence scores on a scanned card to the export button on your contacts.",
@@ -181,13 +181,13 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "How to check these values yourself",
+        heading: "How To Check These Values Yourself",
         intro: "A short self-guided audit you can run during the 14-day Professional trial.",
         steps: [
-          { title: "Scan a card", body: "Look for the confidence score on each field and confirm nothing saves until you approve it." },
-          { title: "Turn on 2FA", body: "Enable two-factor sign-in with an authenticator app and store your recovery codes safely." },
-          { title: "Export your contacts", body: "Use bulk export to confirm you can take your data with you." },
-          { title: "Review roles", body: "Invite a colleague with a limited role such as member or scan-only guest and see what they can access." },
+          { title: "Scan A Card", body: "Look for the confidence score on each field and confirm nothing saves until you approve it." },
+          { title: "Turn On 2FA", body: "Enable two-factor sign-in with an authenticator app and store your recovery codes safely." },
+          { title: "Export Your Contacts", body: "Use bulk export to confirm you can take your data with you." },
+          { title: "Review Roles", body: "Invite a colleague with a limited role such as member or scan-only guest and see what they can access." },
         ],
       },
       {"type":"bullets","heading":"Values in everyday use","intro":"How these principles affect a normal working day with eCard:","items":["When a card is hard to read, you see a lower confidence score and fix the field instead of saving a silent mistake.","When an AI provider hits a rate limit, a key pool lets eCard rotate to another key rather than stopping your scans.","When a colleague leaves, roles and the audit log help an owner or admin see what changed and adjust access.","When you want to move systems, export gives you your contacts in a portable format."]},
@@ -205,9 +205,9 @@ export const pages: PageDef[] = [
     slug: "about/leadership",
     category: "aboutus",
     title: "Leadership",
-    seoTitle: "eCard Leadership Information and Status",
+    seoTitle: "eCard Leadership Information And Status",
     description: "eCard has not published details of its leadership team. Learn what this page will cover, what is verified today and how to contact eCard with company questions.",
-    h1: "Leadership at eCard",
+    h1: "Leadership At eCard",
     eyebrow: "About eCard",
     intro: "This page is reserved for eCard's leadership team. eCard has not yet published names, roles or biographies of its leaders, so rather than guess, we explain what you can expect here and how to get answers in the meantime.",
     variant: "reference",
@@ -217,12 +217,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not yet published",
+        title: "Not Yet Published",
         body: "eCard has not yet published information about its founders, executives or board. No names, photos or biographies appear on this page, and none should be attributed to eCard until they are officially published.",
       },
       {
         type: "bullets",
-        heading: "What a leadership page usually contains",
+        heading: "What A Leadership Page Usually Contains",
         intro: "When eCard publishes this section, visitors can typically expect information such as:",
         items: [
           "Names and roles of the people who run the company",
@@ -233,7 +233,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Evaluating a vendor without a leadership page",
+        heading: "Evaluating A Vendor Without A Leadership Page",
         paragraphs: [
           "If you are assessing eCard for your team and leadership details matter to your procurement process, it is reasonable to ask directly. Most vendors will share an account contact and an escalation path on request, even when the information is not on their website.",
           "You can also judge a young product by what it lets you verify: try the product on the Free plan, check its security settings, confirm you can export your data, and read the published pricing and billing terms. Those facts tell you how the product treats your data regardless of who signs the contracts.",
@@ -241,7 +241,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "What you can verify today",
+        heading: "What You Can Verify Today",
         headers: ["Question", "Where to look"],
         rows: [
           ["How is my account secured?", "2FA, recovery codes, trusted devices and login alerts on the team and security pages"],
@@ -269,7 +269,7 @@ export const pages: PageDef[] = [
     title: "Our Team",
     seoTitle: "The Team Behind eCard: What Is Published",
     description: "eCard has not published team profiles or headcount. See what this page is for, how the product supports your own team, and how to get in touch with eCard.",
-    h1: "The people behind eCard",
+    h1: "The People Behind eCard",
     eyebrow: "About eCard",
     intro: "Every product is built by people, but eCard has not yet published who is on its team, how many people work there or where they sit. This page says so plainly and points you to what you can rely on today.",
     variant: "reference",
@@ -279,12 +279,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Team details not published",
+        title: "Team Details Not Published",
         body: "eCard has not yet published team profiles, headcount, departments or hiring information. Nothing on this page should be read as a description of eCard's internal organisation.",
       },
       {
         type: "prose",
-        heading: "What this page is for",
+        heading: "What This Page Is For",
         paragraphs: [
           "A team page normally introduces the people customers might work with: product, engineering, support and sales. It helps buyers understand who stands behind the software and gives job seekers a sense of the culture.",
           "Until eCard publishes this information, the most useful thing we can do is be clear about it, and direct you to the parts of eCard that are verified, including how the product supports your own team.",
@@ -292,7 +292,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "split",
-        heading: "Built for teams, whatever their size",
+        heading: "Built For Teams, Whatever Their Size",
         body: [
           "While eCard's own team is not profiled here, the product is designed for teams that collect cards together. Workspaces support roles, so an owner can bring in admins, managers, members and scan-only guests who can capture cards without seeing everything.",
           "Plan limits scale from 5 users on Free to 20 on Starter, 100 on Professional and unlimited users on Business and Enterprise.",
@@ -306,7 +306,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Looking to work with or at eCard?",
+        heading: "Looking To Work With Or At eCard?",
         items: [
           "Job openings: eCard has not published any; check the careers page for updates.",
           "Partnerships: no partner programme is published yet; enquiries can go to sales@bizzfly.com.",
@@ -329,9 +329,9 @@ export const pages: PageDef[] = [
     slug: "about/locations",
     category: "aboutus",
     title: "Locations",
-    seoTitle: "eCard Office Locations and How to Reach Us",
+    seoTitle: "eCard Office Locations And How To Reach Us",
     description: "eCard has not published office addresses. Learn where you can use eCard, how payment works in India and abroad, and how to contact eCard by email today.",
-    h1: "Where eCard is and where you can use it",
+    h1: "Where eCard Is And Where You Can Use It",
     eyebrow: "About eCard",
     intro: "eCard has not published office addresses, phone numbers or business hours. What we can tell you is where the product works, how customers in India and elsewhere pay, and the one contact address eCard publishes.",
     variant: "reference",
@@ -341,12 +341,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No published offices",
+        title: "No Published Offices",
         body: "eCard has not yet published any office locations, postal addresses, phone numbers or opening hours. Please do not rely on addresses from third-party directories unless eCard confirms them in writing.",
       },
       {
         type: "prose",
-        heading: "A product that lives in the browser",
+        heading: "A Product That Lives In The Browser",
         paragraphs: [
           "Because eCard runs in any phone browser with no app to install, where you are matters less than with traditional software. You can sign up at ecard.gg, scan cards from your phone and share your digital card wherever you have a connection.",
           "The people you meet do not need eCard either. They open your digital card in any browser, scan the QR code or save the contact directly.",
@@ -354,7 +354,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Paying from different places",
+        heading: "Paying From Different Places",
         intro: "Pricing is shown in INR, with local currency at checkout for supported countries.",
         headers: ["Where you are", "How you can pay", "Notes"],
         rows: [
@@ -365,7 +365,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Languages for follow-ups",
+        heading: "Languages For Follow-ups",
         intro: "eCard's WhatsApp message generation supports three languages, which reflects its focus on Indian networking:",
         items: [
           "English",
@@ -375,11 +375,11 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "How to contact eCard today",
+        heading: "How To Contact eCard Today",
         steps: [
-          { title: "Check the help centre", body: "Many account, billing and scanning questions are answered at /help." },
-          { title: "Email for commercial questions", body: "Write to sales@bizzfly.com for Enterprise pricing, procurement or company questions." },
-          { title: "Ask for written confirmation", body: "If you need a registered address for paperwork, request it by email rather than relying on unofficial sources." },
+          { title: "Check The Help Centre", body: "Many account, billing and scanning questions are answered at /help." },
+          { title: "Email For Commercial Questions", body: "Write to sales@bizzfly.com for Enterprise pricing, procurement or company questions." },
+          { title: "Ask For Written Confirmation", body: "If you need a registered address for paperwork, request it by email rather than relying on unofficial sources." },
         ],
       },
       {"type":"prose","heading":"Why location rarely limits a browser product","paragraphs":["For a browser-based tool, the practical questions are less about where the vendor sits and more about where your data and secrets are protected and how you pay. eCard encrypts API keys and SMTP passwords with AES-256-GCM, supports 2FA with recovery codes and trusted devices, and gives workspaces an audit log.","If your organisation has rules about data location or needs a registered address for contracts, raise those questions in writing with eCard before you sign up for a paid plan. eCard has not published data-location details, so do not assume an answer either way."]},
@@ -399,9 +399,9 @@ export const pages: PageDef[] = [
     slug: "about/awards",
     category: "aboutus",
     title: "Awards & Recognition",
-    seoTitle: "eCard Awards and Recognition: Current Status",
+    seoTitle: "eCard Awards And Recognition: Current Status",
     description: "eCard has not published any awards, certifications or industry rankings. Here is what this page is for and how to evaluate a CRM vendor on evidence instead.",
-    h1: "Awards and recognition",
+    h1: "Awards And Recognition",
     eyebrow: "About eCard",
     intro: "This page is where eCard would list awards, rankings and other recognition. eCard has not published any, so the page is empty of trophies on purpose, and instead offers a practical way to judge a vendor on evidence you can check.",
     variant: "reference",
@@ -411,12 +411,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No awards published",
+        title: "No Awards Published",
         body: "eCard has not yet published any awards, industry rankings, analyst mentions or certifications. If you see such claims attributed to eCard elsewhere, treat them as unverified unless eCard confirms them.",
       },
       {
         type: "prose",
-        heading: "Why we are not filling this page",
+        heading: "Why We Are Not Filling This Page",
         paragraphs: [
           "Award badges are easy to add to a website and hard for buyers to verify. Some are paid listings, some are based on a few reviews and some reflect marketing effort more than product quality. A blank page that is honest is more useful than a wall of logos you cannot check.",
           "When eCard does receive recognition that it chooses to publish, this page will list it with enough detail for you to verify the source.",
@@ -424,23 +424,23 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Evaluating a card-scanning CRM on evidence",
+        heading: "Evaluating A Card-scanning CRM On Evidence",
         intro: "General guidance that works for any vendor, not just eCard.",
         steps: [
-          { title: "Test with your own cards", body: "Scan real cards from your desk, including tricky layouts, and see how much you need to correct." },
-          { title: "Check the security settings", body: "Look for two-factor sign-in, role-based access and an audit log rather than security badges alone." },
-          { title: "Confirm you can leave", body: "Export your contacts during the trial so you know your data is portable." },
-          { title: "Read the pricing carefully", body: "Note per-plan limits on users, storage and scans, and whether yearly billing changes the price." },
+          { title: "Test With Your Own Cards", body: "Scan real cards from your desk, including tricky layouts, and see how much you need to correct." },
+          { title: "Check The Security Settings", body: "Look for two-factor sign-in, role-based access and an audit log rather than security badges alone." },
+          { title: "Confirm You Can Leave", body: "Export your contacts during the trial so you know your data is portable." },
+          { title: "Read The Pricing Carefully", body: "Note per-plan limits on users, storage and scans, and whether yearly billing changes the price." },
         ],
       },
       {
         type: "cards",
-        heading: "Verified facts you can rely on instead",
+        heading: "Verified Facts You Can Rely On Instead",
         cards: [
-          { title: "Seven AI models", body: "The homepage counts 7 AI models for reading cards, including bring-your-own-key options.", icon: "brain" },
-          { title: "256-bit key encryption", body: "API keys and SMTP passwords are encrypted with AES-256-GCM.", icon: "lock" },
-          { title: "14-day trial", body: "New workspaces get a 14-day Professional trial with no card needed.", icon: "clock" },
-          { title: "₹0 to start", body: "The Free plan includes 50 scans a month and up to 5 users.", icon: "rupee" },
+          { title: "Seven AI Models", body: "The homepage counts 7 AI models for reading cards, including bring-your-own-key options.", icon: "brain" },
+          { title: "256-bit Key Encryption", body: "API keys and SMTP passwords are encrypted with AES-256-GCM.", icon: "lock" },
+          { title: "14-day Trial", body: "New workspaces get a 14-day Professional trial with no card needed.", icon: "clock" },
+          { title: "₹0 To Start", body: "The Free plan includes 50 scans a month and up to 5 users.", icon: "rupee" },
         ],
       },
       {"type":"bullets","heading":"If you see an award claim elsewhere","intro":"A few general checks before you rely on any award badge:","items":["Find the awarding body and confirm the listing on its own website.","Check the year and category; an award for one product or market may not apply to another.","Ask whether the award was judged, voted or paid for.","For eCard specifically, confirm with sales@bizzfly.com, since nothing is published on this site."]},

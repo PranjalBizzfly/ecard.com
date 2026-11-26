@@ -4,7 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { createPortal } from "react-dom";
-import { ChevronDown, Menu, X, ArrowRight } from "lucide-react";
+import { ChevronDown, Menu, X, ArrowRight, Search } from "lucide-react";
+import { SearchPalette, type SearchEntry } from "./SearchPalette";
 import { Logo } from "./Logo";
 import { Icon } from "./Icon";
 import { NAV } from "./nav";
@@ -14,9 +15,10 @@ import { SITE } from "@/content/site";
 const isCurrent = (pathname: string, href: string) => pathname === href || pathname.startsWith(`${href}/`);
 
 /** Site header — reference spec §2: sticky blurred bar, centred inline nav with mega panels (≥1280px), pill actions, side-sheet mobile menu. */
-export function Header() {
+export function Header({ searchIndex }: { searchIndex: SearchEntry[] }) {
   const [open, setOpen] = useState<string | null>(null);
   const [mobile, setMobile] = useState(false);
+  const [search, setSearch] = useState(false);
   const pathname = usePathname();
   const ref = useRef<HTMLElement>(null);
 
@@ -26,6 +28,10 @@ export function Header() {
   useEffect(() => {
     const onDown = (e: MouseEvent) => { if (ref.current && !ref.current.contains(e.target as Node)) setOpen(null); };
     const onKey = (e: KeyboardEvent) => {
+      // "/" opens search (reference behaviour) unless the visitor is typing in a field.
+      const el = e.target as HTMLElement;
+      const typing = el.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(el.tagName);
+      if (e.key === "/" && !typing && !e.metaKey && !e.ctrlKey && !e.altKey) { e.preventDefault(); setOpen(null); setSearch(true); return; }
       if (e.key !== "Escape") return;
       setOpen(null); setMobile(false);
       if (ref.current?.contains(document.activeElement)) (document.activeElement as HTMLElement).blur();
@@ -56,6 +62,9 @@ export function Header() {
         <Logo />
         <nav aria-label="Primary" className="contents">
           <ul className="nav">
+            <li>
+              <Link href="/" className={`nav-link${pathname === "/" ? " current" : ""}`}>Home</Link>
+            </li>
             {NAV.map((g) => {
               const active = g.items.some((it) => isCurrent(pathname, it.href)) || (g.footer ? isCurrent(pathname, g.footer.href) : false);
               return (
@@ -99,10 +108,17 @@ export function Header() {
           </ul>
         </nav>
         <div className="nav-actions">
+          <button type="button" className="hdr-search hidden md:inline-flex" onClick={() => { setOpen(null); setSearch(true); }} aria-label="Search the site" aria-keyshortcuts="/">
+            <Search aria-hidden /> <span>Search</span> <kbd>/</kbd>
+          </button>
+          <button type="button" className="icon-btn md:hidden" onClick={() => setSearch(true)} aria-label="Search the site">
+            <Search aria-hidden />
+          </button>
           <ThemeToggle />
-          <a href={SITE.signIn} className="hdr-login hidden 2xl:inline-flex">Sign in</a>
+          <Link href="/contact" className="hdr-contact hidden 2xl:inline-flex">Contact</Link>
+          <a href={SITE.signIn} className="hdr-login hidden xl:inline-flex">Sign In</a>
           <a href={SITE.signUp} className="hdr-cta hidden sm:inline-flex">
-            Start free <span className="hdr-cta-ic"><ArrowRight aria-hidden /></span>
+            Start Free <span className="hdr-cta-ic"><ArrowRight aria-hidden /></span>
           </a>
           <button type="button" className="icon-btn xl:hidden" aria-label="Open menu" aria-expanded={mobile} onClick={() => setMobile(true)}>
             <Menu aria-hidden />
@@ -141,14 +157,15 @@ export function Header() {
               ))}
               <Link href="/pricing" className="m-group block px-4 py-3.5 font-bold text-ink-950">Pricing</Link>
               <div className="grid grid-cols-2 gap-2 pt-2">
-                <a href={SITE.signIn} className="btn-ghost">Sign in</a>
-                <a href={SITE.signUp} className="btn-primary">Start free</a>
+                <a href={SITE.signIn} className="btn-ghost">Sign In</a>
+                <a href={SITE.signUp} className="btn-primary">Start Free</a>
               </div>
             </nav>
           </div>
         </>,
         document.body,
       )}
+      <SearchPalette index={searchIndex} open={search} onClose={() => setSearch(false)} />
     </header>
   );
 }

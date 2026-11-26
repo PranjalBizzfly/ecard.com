@@ -1,5 +1,6 @@
 "use client";
 
+import { toTitleCase } from "@/lib/text";
 import { useState } from "react";
 import { Loader2, ScanLine, Info } from "lucide-react";
 import { SITE } from "@/content/site";
@@ -26,11 +27,11 @@ export function SampleScan() {
     <div className="card-surface rounded-3xl p-6 sm:p-8">
       <p className="flex items-start gap-2 rounded-lg bg-amber-100/60 p-3 text-sm text-ink-700"><Info className="mt-0.5 size-4 shrink-0" aria-hidden />Demo: this replays a sample result in your browser and calls no AI model. Sign up to scan your real cards.</p>
       <fieldset className="mt-6">
-        <legend className="text-sm font-semibold">Pick a card</legend>
+        <legend className="text-sm font-semibold">Pick A Card</legend>
         <div className="mt-3 flex flex-wrap gap-2">
           {(Object.keys(PERSONAS) as Key[]).map((k) => (
             <button key={k} type="button" aria-pressed={pick === k} onClick={() => { setPick(k); setState("idle"); }}
-              className={`rounded-full border px-4 py-2 text-sm font-medium ${pick === k ? "border-brand-600 bg-brand-50 text-brand-700" : "border-ink-100 hover:border-ink-300"}`}>{k}</button>
+              className={`rounded-full border px-4 py-2 text-sm font-medium ${pick === k ? "border-brand-600 bg-brand-50 text-brand-700" : "border-ink-100 hover:border-ink-300"}`}>{toTitleCase(k)}</button>
           ))}
         </div>
       </fieldset>
@@ -41,7 +42,7 @@ export function SampleScan() {
           {state === "scanning" && <span className="absolute inset-x-0 top-1/2 h-0.5 animate-pulse bg-brand-600" aria-hidden />}
         </div>
         <div aria-live="polite">
-          {state === "idle" && <button type="button" onClick={run} className="btn-primary w-full"><ScanLine className="size-4" aria-hidden />Scan with AI</button>}
+          {state === "idle" && <button type="button" onClick={run} className="btn-primary w-full"><ScanLine className="size-4" aria-hidden />Scan With AI</button>}
           {state === "scanning" && <p className="flex items-center gap-2 text-sm text-ink-500"><Loader2 className="size-4 animate-spin" aria-hidden />Reading the card…</p>}
           {state === "done" && (
             <div>
@@ -51,7 +52,7 @@ export function SampleScan() {
                   <li key={f} className="flex justify-between gap-2 rounded-lg border border-ink-100 px-3 py-2"><span className="capitalize text-ink-500">{f}</span><span className="text-right font-medium">{p[f]}</span></li>
                 ))}
               </ul>
-              <a href={SITE.signUp} className="btn-primary mt-4 w-full">Scan your own cards free</a>
+              <a href={SITE.signUp} className="btn-primary mt-4 w-full">Scan Your Own Cards Free</a>
             </div>
           )}
         </div>

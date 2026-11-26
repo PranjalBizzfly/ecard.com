@@ -9,7 +9,7 @@ export const pages: PageDef[] = [
     title: "Resources",
     seoTitle: "eCard Resources: Guides, Playbooks & Glossary",
     description: "Setup guides, networking playbooks and a plain-English glossary to help you turn visiting cards into follow-ups with eCard, the AI visiting-card CRM.",
-    h1: "Resources for turning cards into relationships",
+    h1: "Resources For Turning Cards Into Relationships",
     eyebrow: "Resources",
     intro: "Everything here is written to help you get value from eCard quickly and to network better in general. Start with the setup guides, then use the playbooks before your next event.",
     variant: "guide",
@@ -18,10 +18,10 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Where to start",
+        heading: "Where To Start",
         intro: "Pick the resource that matches what you are doing today.",
         cards: [
-          { title: "Setup guides", body: "Short walkthroughs for your first scan, connecting your own mailbox over SMTP, linking the Telegram bot and inviting your team.", icon: "settings" },
+          { title: "Setup Guides", body: "Short walkthroughs for your first scan, connecting your own mailbox over SMTP, linking the Telegram bot and inviting your team.", icon: "settings" },
           { title: "Playbooks", body: "General guidance for trade shows and follow-ups: what to do before, during and after you collect a pile of cards.", icon: "briefcase" },
           { title: "Etiquette", body: "How to exchange visiting cards gracefully, in India and abroad, and what to write on the back of a card.", icon: "card" },
           { title: "Glossary", body: "Plain definitions of terms you will see around eCard, from SMTP and webhooks to confidence scores and 2FA.", icon: "book" },
@@ -29,7 +29,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "How these resources are written",
+        heading: "How These Resources Are Written",
         paragraphs: [
           "eCard is a browser-based AI visiting-card CRM: you scan a card, review what the AI extracted, and follow up by email or WhatsApp. The product guides on this site describe those steps only at the level eCard publicly documents. Where a detail is not documented, such as an exact menu name, we say so and point you to the prompts inside the app.",
           "The playbooks and etiquette pages are general, educational guidance. They are not eCard feature claims; they are habits that make any follow-up system work better.",
@@ -37,18 +37,18 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Facts worth knowing before you begin",
+        heading: "Facts Worth Knowing Before You Begin",
         items: [
           "You can start on the Free plan: ₹0, 50 scans a month, up to 5 users and 1 GB of storage.",
           "New workspaces get a 14-day Professional trial with no card needed.",
           "eCard works in any phone browser. There is no app to install.",
-          "Card reading uses AI models you choose — Claude, OpenAI, Gemini, DeepSeek or Grok — and you can bring your own key.",
+          "Card reading uses AI models you choose (Claude, OpenAI, Gemini, DeepSeek or Grok) and you can bring your own key.",
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Short on time?",
+        title: "Short On Time?",
         body: "Read Getting Started and Your First Scan. Together they take about ten minutes and cover the core loop: scan, review, save, follow up.",
       },
     ],
@@ -64,7 +64,7 @@ export const pages: PageDef[] = [
     slug: "resources/guides",
     category: "resources",
     title: "Guides",
-    seoTitle: "eCard Guides: Setup Walkthroughs and Playbooks",
+    seoTitle: "eCard Guides: Setup Walkthroughs And Playbooks",
     description: "Step-by-step eCard guides for scanning, SMTP, Telegram, CSV import, digital cards, teams, 2FA and webhooks, plus trade-show and follow-up playbooks.",
     h1: "Guides",
     eyebrow: "Resources",
@@ -75,7 +75,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Setup guides",
+        heading: "Setup Guides",
         intro: "Do these roughly in order the first week.",
         headers: ["Guide", "What you will do", "Plan"],
         rows: [
@@ -92,7 +92,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Playbooks and etiquette",
+        heading: "Playbooks And Etiquette",
         cards: [
           { title: "Trade-Show Playbook", body: "Plan, capture and follow up on an expo without losing a single lead.", icon: "building" },
           { title: "Follow-Up Playbook", body: "Timing, channel and message structure for follow-ups that get replies.", icon: "send" },
@@ -102,12 +102,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "About menu names",
+        title: "About Menu Names",
         body: "eCard's public site names one settings path: Settings → Telegram. For other steps, these guides describe what to do and ask you to follow the prompts in the app rather than guessing at button labels.",
       },
       {
         type: "prose",
-        heading: "Suggested order",
+        heading: "Suggested Order",
         paragraphs: [
           "If you are setting up alone, do Getting Started, Your First Scan and Setting Up SMTP on day one. Connect Telegram next if you will be scanning on the move. Import your old spreadsheet once you are comfortable reviewing scans.",
           "If you are setting up for a team, enable 2FA on the owner account before inviting anyone, then work through Inviting Your Team. Webhooks are worth configuring only once you know which system should receive new contacts.",
@@ -125,9 +125,9 @@ export const pages: PageDef[] = [
     slug: `${G}/getting-started`,
     category: "resources",
     title: "Getting Started",
-    seoTitle: "Getting Started with eCard: First-Day Setup",
+    seoTitle: "Getting Started With eCard: First-Day Setup",
     description: "Create your eCard workspace, understand the scan-review-follow-up loop and decide which settings matter on day one. A practical start for new users.",
-    h1: "Getting started with eCard",
+    h1: "Getting Started With eCard",
     eyebrow: "Guide",
     intro: "eCard turns the visiting cards you collect into contacts you can search and follow up with. This guide covers signing up and the handful of decisions worth making on your first day.",
     variant: "guide",
@@ -136,18 +136,18 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Your first day",
+        heading: "Your First Day",
         steps: [
-          { title: "Sign up", body: "Go to the sign-up page at ecard.gg. The form asks for your name, an optional workspace name, your email, a password and a plan. You can choose Free; new workspaces also get a 14-day Professional trial with no card needed." },
-          { title: "Open eCard on your phone", body: "eCard works in any phone browser, so there is nothing to install. Sign in on the phone you will carry to meetings and events." },
-          { title: "Scan one card", body: "Photograph a card you already have. The AI reads it, gives each field a confidence score, and saves nothing until you review it." },
-          { title: "Connect your mailbox", body: "Intro emails go out from your own SMTP account. Set this up before you need it, so a follow-up is one tap away." },
-          { title: "Decide on extras", body: "Linking the Telegram bot, creating your digital card and inviting teammates are all optional. Add them as you need them." },
+          { title: "Sign Up", body: "Go to the sign-up page at ecard.gg. The form asks for your name, an optional workspace name, your email, a password and a plan. You can choose Free; new workspaces also get a 14-day Professional trial with no card needed." },
+          { title: "Open eCard On Your Phone", body: "eCard works in any phone browser, so there is nothing to install. Sign in on the phone you will carry to meetings and events." },
+          { title: "Scan One Card", body: "Photograph a card you already have. The AI reads it, gives each field a confidence score, and saves nothing until you review it." },
+          { title: "Connect Your Mailbox", body: "Intro emails go out from your own SMTP account. Set this up before you need it, so a follow-up is one tap away." },
+          { title: "Decide On Extras", body: "Linking the Telegram bot, creating your digital card and inviting teammates are all optional. Add them as you need them." },
         ],
       },
       {
         type: "split",
-        heading: "The core loop",
+        heading: "The Core Loop",
         body: [
           "Almost everything in eCard supports one loop: capture a card, check what the AI read, keep the context of the meeting, and follow up while you are still remembered.",
           "Meeting memory lets you note where you met, who introduced you and add voice notes. Later, natural-language search finds people by that context.",
@@ -156,7 +156,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Which plan fits at the start",
+        heading: "Which Plan Fits At The Start",
         headers: ["Plan", "Price / month", "Users", "Scans / month"],
         rows: [
           ["Free", "₹0", "5", "50"],
@@ -168,7 +168,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Start with a real card",
+        title: "Start With A Real Card",
         body: "Use a card from someone you actually need to follow up with. Completing one real follow-up teaches the product faster than a test scan.",
       },
     ],
@@ -184,9 +184,9 @@ export const pages: PageDef[] = [
     slug: `${G}/your-first-scan`,
     category: "resources",
     title: "Your First Scan",
-    seoTitle: "Your First eCard Scan: Capture and Review a Card",
+    seoTitle: "Your First eCard Scan: Capture And Review A Card",
     description: "How to scan your first visiting card with eCard, read the confidence scores, correct fields and save a clean contact. Includes photo tips for better results.",
-    h1: "Scan and review your first card",
+    h1: "Scan And Review Your First Card",
     eyebrow: "Guide",
     intro: "A scan is only as good as the review that follows it. Here is how to take a good photo, check what the AI extracted and save a contact you can trust.",
     variant: "guide",
@@ -195,7 +195,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "bullets",
-        heading: "Before you press the shutter",
+        heading: "Before You Press The Shutter",
         intro: "General photo habits that help any card-reading AI:",
         items: [
           "Lay the card flat on a plain, contrasting surface.",
@@ -210,17 +210,17 @@ export const pages: PageDef[] = [
         intro: "Open eCard in your phone browser and start a scan from the app; follow the on-screen prompts to take or upload a photo.",
         steps: [
           { title: "Capture", body: "Take the photo. The AI model selected for your workspace reads the card." },
-          { title: "Check confidence", body: "Each extracted field comes with a confidence score. Look first at fields with lower scores." },
-          { title: "Correct and complete", body: "Fix any misread field. Addresses are checked against Google Maps, which helps you spot a garbled street or city." },
+          { title: "Check Confidence", body: "Each extracted field comes with a confidence score. Look first at fields with lower scores." },
+          { title: "Correct And Complete", body: "Fix any misread field. Addresses are checked against Google Maps, which helps you spot a garbled street or city." },
           { title: "Save", body: "Nothing is saved until you review it, so the contact only enters your list once you confirm." },
         ],
       },
       {
         type: "prose",
-        heading: "Add context while you remember it",
+        heading: "Add Context While You Remember It",
         paragraphs: [
           "Right after saving is the best moment to record where you met and who introduced you, or to leave a short voice note. eCard's meeting memory keeps that context with the contact and produces a searchable AI summary.",
-          "Later you can search in plain language — for example, \"Investors I met in Mumbai last month\" — instead of remembering a name.",
+          "Later you can search in plain language (for example, \"Investors I met in Mumbai last month\") instead of remembering a name.",
         ],
       },
       {
@@ -242,9 +242,9 @@ export const pages: PageDef[] = [
     slug: `${G}/setting-up-smtp`,
     category: "resources",
     title: "Setting Up SMTP",
-    seoTitle: "Set Up SMTP in eCard to Send from Your Own Mailbox",
+    seoTitle: "Set Up SMTP In eCard To Send From Your Own Mailbox",
     description: "Connect your own mailbox to eCard over SMTP so intro emails come from your address. Covers what SMTP details you need and how the 5-second send works.",
-    h1: "Send intro emails from your own mailbox",
+    h1: "Send Intro Emails From Your Own Mailbox",
     eyebrow: "Guide",
     intro: "eCard sends intro emails from your own SMTP account, not a shared address. That means replies land in your inbox and recipients see a name they recognise.",
     variant: "guide",
@@ -253,7 +253,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "What SMTP is, briefly",
+        heading: "What SMTP Is, Briefly",
         paragraphs: [
           "SMTP (Simple Mail Transfer Protocol) is the standard way one system hands an email to a mail server for delivery. To send on your behalf, an app needs your provider's SMTP host, a port, a username and a password or app password.",
           "Many providers ask you to create an app-specific password rather than using your normal login password, especially when 2FA is on. Check your provider's help pages for the exact values.",
@@ -261,12 +261,12 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Providers eCard names",
+        heading: "Providers eCard Names",
         intro: "eCard's site lists these mail options; any standard SMTP host is also supported.",
         cards: [
           { title: "Mailboxes", body: "Gmail, Outlook and Zoho Mail.", icon: "mail" },
-          { title: "Sending services", body: "SendGrid, Brevo, Mailgun, Amazon SES and Resend.", icon: "server" },
-          { title: "Anything else", body: "Any SMTP host, such as your company's own mail server.", icon: "globe" },
+          { title: "Sending Services", body: "SendGrid, Brevo, Mailgun, Amazon SES and Resend.", icon: "server" },
+          { title: "Anything Else", body: "Any SMTP host, such as your company's own mail server.", icon: "globe" },
         ],
       },
       {
@@ -274,14 +274,14 @@ export const pages: PageDef[] = [
         heading: "Connecting",
         intro: "eCard's public site does not document the exact screen for mail settings, so follow the in-app prompts for adding your mailbox.",
         steps: [
-          { title: "Gather details", body: "From your provider: SMTP host, port, security setting, username and password or app password." },
-          { title: "Enter them in eCard", body: "Add the details where the app prompts you to connect your mailbox. eCard encrypts SMTP passwords with AES-256-GCM." },
-          { title: "Send a test", body: "Scan a card of your own, or a colleague's, and send yourself an intro to confirm delivery and formatting." },
+          { title: "Gather Details", body: "From your provider: SMTP host, port, security setting, username and password or app password." },
+          { title: "Enter Them In eCard", body: "Add the details where the app prompts you to connect your mailbox. eCard encrypts SMTP passwords with AES-256-GCM." },
+          { title: "Send A Test", body: "Scan a card of your own, or a colleague's, and send yourself an intro to confirm delivery and formatting." },
         ],
       },
       {
         type: "split",
-        heading: "How sending works",
+        heading: "How Sending Works",
         body: ["When you trigger an intro email, eCard shows you the AI-written draft first. It then sends after 5 seconds, giving you a window to edit or cancel."],
         points: ["Preview the AI draft", "Edit if needed", "Cancel within the 5-second window", "Email leaves from your own address"],
       },
@@ -298,28 +298,28 @@ export const pages: PageDef[] = [
     slug: `${G}/connecting-telegram`,
     category: "resources",
     title: "Connecting Telegram",
-    seoTitle: "Connect the eCard Telegram Bot with a One-Time Code",
+    seoTitle: "Connect The eCard Telegram Bot With A One-Time Code",
     description: "Link the eCard Telegram bot using the one-time code from Settings → Telegram, then save contacts by sending card photos. With tips for first use.",
-    h1: "Link the Telegram bot to your workspace",
+    h1: "Link The Telegram Bot To Your Workspace",
     eyebrow: "Guide",
-    intro: "With the bot linked, you can photograph a card in Telegram and the contact is saved to eCard — handy when you are walking between meetings.",
+    intro: "With the bot linked, you can photograph a card in Telegram and the contact is saved to eCard, handy when you are walking between meetings.",
     variant: "guide",
     visual: "telegram",
     icon: "send",
     sections: [
       {
         type: "steps",
-        heading: "Linking the bot",
+        heading: "Linking The Bot",
         steps: [
           { title: "Open Settings → Telegram", body: "Sign in to eCard and go to Settings → Telegram. This is where eCard issues your one-time code." },
-          { title: "Copy the one-time code", body: "The code links your Telegram account to your workspace. Treat it like a password and don't share it." },
-          { title: "Send it to the bot", body: "Open the eCard bot in Telegram and send the code, following the prompts in the chat and in the app." },
-          { title: "Test with a card", body: "Send a photo of a card. The contact is saved and the bot replies with Open and Send buttons." },
+          { title: "Copy The One-time Code", body: "The code links your Telegram account to your workspace. Treat it like a password and don't share it." },
+          { title: "Send It To The Bot", body: "Open the eCard bot in Telegram and send the code, following the prompts in the chat and in the app." },
+          { title: "Test With A Card", body: "Send a photo of a card. The contact is saved and the bot replies with Open and Send buttons." },
         ],
       },
       {
         type: "table",
-        heading: "What the buttons do",
+        heading: "What The Buttons Do",
         headers: ["Button", "Purpose"],
         rows: [
           ["Open", "Opens the saved contact in eCard"],
@@ -328,7 +328,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "When Telegram beats the browser",
+        heading: "When Telegram Beats The Browser",
         paragraphs: [
           "The browser is best when you want to review each field carefully as you scan. Telegram is best for speed: one photo, and you are back in the conversation. You can always open the contact later to review and add meeting notes.",
           "The Telegram bot is included in the base feature set on every plan, including Free.",
@@ -337,7 +337,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Code didn't work?",
+        title: "Code Didn't Work?",
         body: "One-time codes are meant to be used once. If linking fails, return to Settings → Telegram, get a fresh code and try again. See Telegram Help for more.",
       },
     ],
@@ -352,10 +352,10 @@ export const pages: PageDef[] = [
   {
     slug: `${G}/importing-contacts-csv`,
     category: "resources",
-    title: "Importing Contacts from CSV",
-    seoTitle: "Import Contacts into eCard from a CSV File",
+    title: "Importing Contacts From CSV",
+    seoTitle: "Import Contacts Into eCard From A CSV File",
     description: "Move an existing spreadsheet of contacts into eCard with CSV import. Learn how to clean the file first, avoid duplicates and check the result after import.",
-    h1: "Bring your existing contacts in with CSV",
+    h1: "Bring Your Existing Contacts In With CSV",
     eyebrow: "Guide",
     intro: "If your contacts live in a spreadsheet or another tool, export them as CSV and import them into eCard. A little cleaning beforehand saves a lot of fixing afterwards.",
     variant: "guide",
@@ -364,7 +364,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "bullets",
-        heading: "Prepare the file",
+        heading: "Prepare The File",
         intro: "General CSV hygiene that applies to any import:",
         items: [
           "One person per row, with a single header row at the top.",
@@ -379,14 +379,14 @@ export const pages: PageDef[] = [
         heading: "Import",
         intro: "eCard supports CSV import and bulk import/export on every plan. The site does not document field-level mapping, so follow the in-app prompts and check how columns are matched.",
         steps: [
-          { title: "Start a CSV import", body: "Open the import option in eCard and choose your file." },
-          { title: "Check the columns", body: "Confirm that each column in your file lands in the right contact field before you finish." },
-          { title: "Import a small batch first", body: "Try ten rows. If they look right, import the rest." },
+          { title: "Start A CSV Import", body: "Open the import option in eCard and choose your file." },
+          { title: "Check The Columns", body: "Confirm that each column in your file lands in the right contact field before you finish." },
+          { title: "Import A Small Batch First", body: "Try ten rows. If they look right, import the rest." },
         ],
       },
       {
         type: "split",
-        heading: "After the import",
+        heading: "After The Import",
         body: ["Imports often bring in people you have already scanned. eCard's clean-data tools include duplicate merge, blacklist and archive."],
         points: ["Merge duplicates", "Archive people you no longer work with", "Blacklist addresses you should never contact", "Tag imported contacts so you can find the batch"],
       },
@@ -409,9 +409,9 @@ export const pages: PageDef[] = [
     slug: `${G}/creating-your-digital-card`,
     category: "resources",
     title: "Creating Your Digital Card",
-    seoTitle: "Create Your eCard Digital Business Card and QR Code",
+    seoTitle: "Create Your eCard Digital Business Card And QR Code",
     description: "Set up a digital business card in eCard with a template, QR code, Save-to-contacts and a short link that counts clicks with bots filtered out.",
-    h1: "Create a digital card people can save in one tap",
+    h1: "Create A Digital Card People Can Save In One Tap",
     eyebrow: "Guide",
     intro: "Your eCard digital card is a web page with your details, a QR code and a Save-to-contacts option. Recipients need no app to open it.",
     variant: "guide",
@@ -420,37 +420,37 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What your card includes",
+        heading: "What Your Card Includes",
         cards: [
-          { title: "Premium templates", body: "Choose a template as the starting design.", icon: "palette" },
-          { title: "QR code", body: "Show it on your phone or print it so people can open your card.", icon: "qr" },
-          { title: "Save to contacts", body: "Visitors can add you to their phone contacts.", icon: "download" },
-          { title: "Short link", body: "A short URL, in the style of /c/rahul, that counts clicks with bots filtered out.", icon: "link" },
+          { title: "Premium Templates", body: "Choose a template as the starting design.", icon: "palette" },
+          { title: "QR Code", body: "Show it on your phone or print it so people can open your card.", icon: "qr" },
+          { title: "Save To Contacts", body: "Visitors can add you to their phone contacts.", icon: "download" },
+          { title: "Short Link", body: "A short URL, in the style of /c/rahul, that counts clicks with bots filtered out.", icon: "link" },
         ],
       },
       {
         type: "steps",
-        heading: "Setting it up",
+        heading: "Setting It Up",
         intro: "Follow the in-app prompts for the digital card; exact screens are not documented on eCard's site.",
         steps: [
-          { title: "Pick a template", body: "Choose one that matches the tone of your work." },
-          { title: "Fill in details", body: "Name, role, company and the contact methods you actually answer." },
-          { title: "Check on a phone", body: "Open your short link on a phone and try Save-to-contacts yourself." },
+          { title: "Pick A Template", body: "Choose one that matches the tone of your work." },
+          { title: "Fill In Details", body: "Name, role, company and the contact methods you actually answer." },
+          { title: "Check On A Phone", body: "Open your short link on a phone and try Save-to-contacts yourself." },
           { title: "Share", body: "Send the link by WhatsApp or email, or let people scan the QR code." },
         ],
       },
       {
         type: "prose",
-        heading: "Writing a card that works",
+        heading: "Writing A Card That Works",
         paragraphs: [
           "Keep it short: one role line, one company, and two or three ways to reach you. A digital card is opened on small screens, so long bios get skipped.",
-          "Because eCard tracks opens of your card, PDFs and WhatsApp links, you can see when someone looked at your card — a useful nudge for timing a follow-up.",
+          "Because eCard tracks opens of your card, PDFs and WhatsApp links, you can see when someone looked at your card, a useful nudge for timing a follow-up.",
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "White label",
+        title: "White Label",
         body: "On Business (₹2,999/month) and Enterprise, white label adds your logo, colours and a custom domain.",
       },
     ],
@@ -465,9 +465,9 @@ export const pages: PageDef[] = [
     slug: `${G}/inviting-your-team`,
     category: "resources",
     title: "Inviting Your Team",
-    seoTitle: "Invite Your Team to eCard and Choose the Right Roles",
-    description: "Add colleagues to your eCard workspace with the right role — owner, admin, manager, member or scan-only guest — and stay within your plan's user limit.",
-    h1: "Bring your team into one workspace",
+    seoTitle: "Invite Your Team To eCard And Choose The Right Roles",
+    description: "Add colleagues to your eCard workspace with the right role (owner, admin, manager, member or scan-only guest) and stay within your plan's user limit.",
+    h1: "Bring Your Team Into One Workspace",
     eyebrow: "Guide",
     intro: "A shared workspace means cards scanned by anyone on the team become contacts everyone can find. Choosing roles carefully keeps that useful and safe.",
     variant: "guide",
@@ -476,7 +476,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Roles at a glance",
+        heading: "Roles At A Glance",
         intro: "eCard names five roles. Its site does not publish a full permission matrix, so check in-app descriptions when assigning.",
         headers: ["Role", "Typical use"],
         rows: [
@@ -489,24 +489,24 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "User limits by plan",
+        heading: "User Limits By Plan",
         headers: ["Plan", "Users", "Price / month"],
         rows: [["Free", "5", "₹0"], ["Starter", "20", "₹299"], ["Professional", "100", "₹999"], ["Business", "Unlimited", "₹2,999"], ["Enterprise", "Unlimited", "Custom"]],
       },
       {
         type: "steps",
-        heading: "A sensible rollout",
+        heading: "A Sensible Rollout",
         steps: [
-          { title: "Secure the owner account", body: "Turn on 2FA and store recovery codes before inviting others." },
-          { title: "Invite a pilot group", body: "Start with two or three people. Follow the in-app prompts to invite them and pick each role." },
-          { title: "Agree on tags", body: "Decide how you will tag by event, city and intent so search works for everyone." },
-          { title: "Invite the rest", body: "Once the pilot is happy, add the wider team." },
+          { title: "Secure The Owner Account", body: "Turn on 2FA and store recovery codes before inviting others." },
+          { title: "Invite A Pilot Group", body: "Start with two or three people. Follow the in-app prompts to invite them and pick each role." },
+          { title: "Agree On Tags", body: "Decide how you will tag by event, city and intent so search works for everyone." },
+          { title: "Invite The Rest", body: "Once the pilot is happy, add the wider team." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Audit log",
+        title: "Audit Log",
         body: "eCard workspaces have an audit log, which helps when several people manage contacts.",
       },
     ],
@@ -521,9 +521,9 @@ export const pages: PageDef[] = [
     slug: `${G}/enabling-2fa`,
     category: "resources",
     title: "Enabling 2FA",
-    seoTitle: "Enable Two-Factor Authentication on Your eCard Account",
+    seoTitle: "Enable Two-Factor Authentication On Your eCard Account",
     description: "Protect your eCard account with authenticator-code 2FA, recovery codes, trusted devices and login alerts. What each one does and how to set them up safely.",
-    h1: "Turn on two-factor authentication",
+    h1: "Turn On Two-factor Authentication",
     eyebrow: "Guide",
     intro: "Your eCard workspace holds people's names, numbers and notes. Two-factor authentication makes a stolen password far less useful to an attacker.",
     variant: "guide",
@@ -532,7 +532,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "What 2FA does",
+        heading: "What 2FA Does",
         paragraphs: [
           "Two-factor authentication asks for something you know (your password) and something you have (a code from an authenticator app on your phone). The code changes every few seconds, so a leaked password alone can't open your account.",
           "eCard supports 2FA with authenticator codes, plus recovery codes, trusted devices and login alerts.",
@@ -540,28 +540,28 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Setting it up",
+        heading: "Setting It Up",
         intro: "Follow the in-app prompts for two-factor authentication; eCard's site does not name the exact screen.",
         steps: [
-          { title: "Install an authenticator app", body: "Any standard TOTP authenticator app works for authenticator codes in general." },
-          { title: "Add eCard to it", body: "Scan the setup code eCard shows with your authenticator app." },
-          { title: "Confirm with a code", body: "Enter the current code to finish enabling 2FA." },
-          { title: "Save recovery codes", body: "Store them somewhere safe and offline. They let you in if you lose your phone." },
+          { title: "Install An Authenticator App", body: "Any standard TOTP authenticator app works for authenticator codes in general." },
+          { title: "Add eCard To It", body: "Scan the setup code eCard shows with your authenticator app." },
+          { title: "Confirm With A Code", body: "Enter the current code to finish enabling 2FA." },
+          { title: "Save Recovery Codes", body: "Store them somewhere safe and offline. They let you in if you lose your phone." },
         ],
       },
       {
         type: "cards",
-        heading: "The supporting protections",
+        heading: "The Supporting Protections",
         cards: [
-          { title: "Recovery codes", body: "A backup way in if your authenticator is unavailable.", icon: "key" },
-          { title: "Trusted devices", body: "Devices you mark as yours, reducing repeat prompts.", icon: "smartphone" },
-          { title: "Login alerts", body: "Notice of sign-ins, so you spot ones that weren't you.", icon: "bell" },
+          { title: "Recovery Codes", body: "A backup way in if your authenticator is unavailable.", icon: "key" },
+          { title: "Trusted Devices", body: "Devices you mark as yours, reducing repeat prompts.", icon: "smartphone" },
+          { title: "Login Alerts", body: "Notice of sign-ins, so you spot ones that weren't you.", icon: "bell" },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Owners and admins first",
+        title: "Owners And Admins First",
         body: "Enable 2FA on owner and admin accounts before anyone else; they hold the most access.",
       },
     ],
@@ -576,9 +576,9 @@ export const pages: PageDef[] = [
     slug: `${G}/setting-up-webhooks`,
     category: "resources",
     title: "Setting Up Webhooks",
-    seoTitle: "Set Up eCard Webhooks for New-Contact Events",
+    seoTitle: "Set Up eCard Webhooks For New-Contact Events",
     description: "Receive a signed event for every new eCard contact with webhooks on Professional and above. How webhooks work and how to plan and verify your endpoint.",
-    h1: "Send new contacts to your other systems",
+    h1: "Send New Contacts To Your Other Systems",
     eyebrow: "Guide",
     intro: "Webhooks let eCard notify another system each time a new contact is added. eCard sends signed events for each new contact on the Professional plan and above.",
     variant: "guide",
@@ -587,32 +587,32 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "How webhooks work in general",
+        heading: "How Webhooks Work In General",
         paragraphs: [
-          "A webhook is an HTTP request one service sends to a URL you control when something happens. Your endpoint receives it and acts — adding a lead to a CRM, posting to a chat channel, or updating a sheet.",
+          "A webhook is an HTTP request one service sends to a URL you control when something happens. Your endpoint receives it and acts: adding a lead to a CRM, posting to a chat channel, or updating a sheet.",
           "\"Signed\" means each request carries a signature your endpoint can check, so you know it really came from the sender and wasn't altered.",
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "What eCard documents — and doesn't",
+        title: "What eCard Documents: And Doesn't",
         body: "eCard's site states webhooks send signed events for every new contact. It does not publish the payload format, signing method or retry behaviour. Check the in-app webhook settings for those details before building.",
       },
       {
         type: "steps",
-        heading: "A safe setup",
+        heading: "A Safe Setup",
         steps: [
-          { title: "Confirm your plan", body: "Webhooks are listed on Professional (₹999/month), Business and Enterprise." },
-          { title: "Prepare an HTTPS endpoint", body: "Use a URL that only accepts HTTPS and logs incoming requests during testing." },
-          { title: "Register it in eCard", body: "Add the endpoint where the app prompts you for webhook settings." },
-          { title: "Verify signatures", body: "Reject any request whose signature does not validate." },
-          { title: "Test with a scan", body: "Add a sample contact and confirm your endpoint receives the event." },
+          { title: "Confirm Your Plan", body: "Webhooks are listed on Professional (₹999/month), Business and Enterprise." },
+          { title: "Prepare An HTTPS Endpoint", body: "Use a URL that only accepts HTTPS and logs incoming requests during testing." },
+          { title: "Register It In eCard", body: "Add the endpoint where the app prompts you for webhook settings." },
+          { title: "Verify Signatures", body: "Reject any request whose signature does not validate." },
+          { title: "Test With A Scan", body: "Add a sample contact and confirm your endpoint receives the event." },
         ],
       },
       {
         type: "bullets",
-        heading: "Endpoint good practice",
+        heading: "Endpoint Good Practice",
         items: ["Respond quickly and do heavy work afterwards.", "Handle the same event arriving twice without creating duplicates.", "Never log secrets in plain text.", "Alert yourself if the endpoint starts failing."],
       },
     ],
@@ -627,9 +627,9 @@ export const pages: PageDef[] = [
     slug: `${G}/trade-show-playbook`,
     category: "resources",
     title: "Trade-Show Playbook",
-    seoTitle: "Trade-Show Playbook: Capture and Convert Expo Leads",
+    seoTitle: "Trade-Show Playbook: Capture And Convert Expo Leads",
     description: "A before, during and after playbook for trade shows and expos: set goals, capture cards with context, and follow up with every lead while they remember you.",
-    h1: "The trade-show playbook",
+    h1: "The Trade-show Playbook",
     eyebrow: "Playbook",
     intro: "Most expo leads are lost in the week after the show, not at the booth. This playbook is general guidance for making every card count.",
     variant: "guide",
@@ -638,36 +638,36 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Before the show",
+        heading: "Before The Show",
         body: ["Decide what a good conversation looks like and who on your team captures cards. Prepare your follow-up messages in advance so the post-show work is mostly sending."],
         points: ["Set a target number of qualified conversations", "Agree on tags such as hot, warm, partner", "Draft follow-up emails and WhatsApp messages", "Print a QR code for your digital card"],
       },
       {
         type: "steps",
-        heading: "At the booth",
+        heading: "At The Booth",
         steps: [
-          { title: "Capture immediately", body: "Scan the card while the person is still in front of you, or straight after." },
-          { title: "Add one line of context", body: "What they asked about and what you promised. A voice note works if you are busy." },
-          { title: "Tag the intent", body: "Use your agreed tags so you can prioritise later." },
-          { title: "Promise a specific next step", body: "\"I'll send the brochure tonight\" beats \"let's stay in touch\"." },
+          { title: "Capture Immediately", body: "Scan the card while the person is still in front of you, or straight after." },
+          { title: "Add One Line Of Context", body: "What they asked about and what you promised. A voice note works if you are busy." },
+          { title: "Tag The Intent", body: "Use your agreed tags so you can prioritise later." },
+          { title: "Promise A Specific Next Step", body: "\"I'll send the brochure tonight\" beats \"let's stay in touch\"." },
         ],
       },
       {
         type: "table",
-        heading: "After the show",
+        heading: "After The Show",
         headers: ["When", "Who", "What"],
         rows: [
           ["Same evening", "Hot leads", "Personal email or WhatsApp with what you promised"],
           ["Within 2 days", "Warm leads", "Short thank-you with one useful resource"],
           ["Within a week", "Everyone else", "Group follow-up referencing the event"],
-          ["2–3 weeks later", "No reply", "One polite nudge, then stop"],
+          ["2-3 weeks later", "No reply", "One polite nudge, then stop"],
         ],
       },
       {
         type: "prose",
-        heading: "Where eCard fits",
+        heading: "Where eCard Fits",
         paragraphs: [
-          "eCard lets you group the cards from a trade show into an event and follow up with everyone at once, and its link tracking shows opens of your card, PDFs and WhatsApp links — useful for deciding who to call first. A scan-only guest role suits temporary booth staff.",
+          "eCard lets you group the cards from a trade show into an event and follow up with everyone at once, and its link tracking shows opens of your card, PDFs and WhatsApp links, useful for deciding who to call first. A scan-only guest role suits temporary booth staff.",
         ],
       },
     ],
@@ -682,9 +682,9 @@ export const pages: PageDef[] = [
     slug: `${G}/follow-up-playbook`,
     category: "resources",
     title: "Follow-Up Playbook",
-    seoTitle: "Follow-Up Playbook: Timing, Channel and Message",
+    seoTitle: "Follow-Up Playbook: Timing, Channel And Message",
     description: "How to follow up after meeting someone: when to write, whether to use email or WhatsApp, what to say, and how many nudges are too many. Practical guidance.",
-    h1: "Follow-ups that get replies",
+    h1: "Follow-ups That Get Replies",
     eyebrow: "Playbook",
     intro: "A follow-up is a reminder of who you are and a reason to keep talking. This playbook is general advice on doing it well, with notes on where eCard helps.",
     variant: "guide",
@@ -693,7 +693,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "bullets",
-        heading: "The anatomy of a good follow-up",
+        heading: "The Anatomy Of A Good Follow-up",
         items: [
           "A memory hook: where you met and one detail from the conversation.",
           "The thing you promised: a brochure, an introduction, a quote.",
@@ -703,7 +703,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Email or WhatsApp?",
+        heading: "Email Or WhatsApp?",
         headers: ["Situation", "Usually better"],
         rows: [
           ["Formal or corporate contact", "Email"],
@@ -715,7 +715,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Language matters",
+        heading: "Language Matters",
         paragraphs: [
           "Writing in someone's preferred language signals care. eCard's AI can write WhatsApp messages in English, Hindi or Marathi and open them in WhatsApp in one tap.",
           "For email, eCard writes an intro draft you can preview, then sends it from your own mailbox after 5 seconds unless you edit or cancel.",
@@ -729,11 +729,11 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A simple cadence",
+        heading: "A Simple Cadence",
         steps: [
-          { title: "Day 0–1", body: "First follow-up with your memory hook and promised item." },
-          { title: "Day 5–7", body: "If you can see they opened your card or brochure but didn't reply, a short nudge." },
-          { title: "Day 14–21", body: "A final, friendly message that leaves the door open." },
+          { title: "Day 0-1", body: "First follow-up with your memory hook and promised item." },
+          { title: "Day 5-7", body: "If you can see they opened your card or brochure but didn't reply, a short nudge." },
+          { title: "Day 14-21", body: "A final, friendly message that leaves the door open." },
         ],
       },
     ],
@@ -748,47 +748,47 @@ export const pages: PageDef[] = [
     slug: `${G}/visiting-card-etiquette`,
     category: "resources",
     title: "Visiting-Card Etiquette",
-    seoTitle: "Visiting-Card Etiquette: Giving and Receiving Cards",
+    seoTitle: "Visiting-Card Etiquette: Giving And Receiving Cards",
     description: "How to give, receive and keep visiting cards respectfully in India and abroad, what to note on a card, and how to follow up without being pushy.",
-    h1: "Visiting-card etiquette",
+    h1: "Visiting-card Etiquette",
     eyebrow: "Playbook",
-    intro: "A visiting card is a small gesture of trust. How you exchange and handle it shapes the first impression — long before any follow-up.",
+    intro: "A visiting card is a small gesture of trust. How you exchange and handle it shapes the first impression, long before any follow-up.",
     variant: "guide",
     visual: "none",
     icon: "card",
     sections: [
       {
         type: "cards",
-        heading: "Giving and receiving",
+        heading: "Giving And Receiving",
         cards: [
-          { title: "Offer it facing them", body: "Hand your card so the text reads the right way up for the other person.", icon: "card" },
-          { title: "Take a moment", body: "Read the card you receive before putting it away; mention their role or company.", icon: "eye" },
-          { title: "Mind the hand", body: "In many cultures, giving and receiving with the right hand or both hands is considered polite.", icon: "check" },
-          { title: "Don't write on it in front of them", body: "Make notes later, or on your phone.", icon: "file" },
+          { title: "Offer It Facing Them", body: "Hand your card so the text reads the right way up for the other person.", icon: "card" },
+          { title: "Take A Moment", body: "Read the card you receive before putting it away; mention their role or company.", icon: "eye" },
+          { title: "Mind The Hand", body: "In many cultures, giving and receiving with the right hand or both hands is considered polite.", icon: "check" },
+          { title: "Don't Write On It In Front Of Them", body: "Make notes later, or on your phone.", icon: "file" },
         ],
       },
       {
         type: "prose",
-        heading: "Regional notes",
+        heading: "Regional Notes",
         paragraphs: [
-          "In India, cards are exchanged freely at business meetings and events; a bilingual card can be appreciated in regional markets. In Japan, the exchange is more formal — receiving with both hands and a brief study of the card is expected. In much of Europe and North America, exchange is casual and often happens at the end of a conversation.",
+          "In India, cards are exchanged freely at business meetings and events; a bilingual card can be appreciated in regional markets. In Japan, the exchange is more formal, receiving with both hands and a brief study of the card is expected. In much of Europe and North America, exchange is casual and often happens at the end of a conversation.",
           "When unsure, follow the other person's lead and keep the exchange unhurried.",
         ],
       },
       {
         type: "bullets",
-        heading: "What to note after you part",
+        heading: "What To Note After You Part",
         items: ["Where you met and the date", "Who introduced you", "What they need, and what you promised", "Any personal detail they shared willingly"],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Paper and digital together",
+        title: "Paper And Digital Together",
         body: "Carry paper cards for people who prefer them, and a QR code for your digital card for those who'd rather save you straight to their phone.",
       },
     ],
     faqs: [
-      { q: "Is it rude to scan someone's card in front of them?", a: "Usually not, if you ask or explain briefly — many people appreciate that you are saving their details properly." },
+      { q: "Is it rude to scan someone's card in front of them?", a: "Usually not, if you ask or explain briefly, many people appreciate that you are saving their details properly." },
       { q: "Should I still carry paper cards?", a: "Yes, as general advice. Many people still exchange paper cards; a digital card complements rather than replaces them." },
     ],
     related: ["features/digital-business-card/paper-vs-digital", `${G}/follow-up-playbook`, "features/meeting-memory/where-you-met", `${G}/your-first-scan`],
@@ -798,8 +798,8 @@ export const pages: PageDef[] = [
     slug: "resources/glossary",
     category: "resources",
     title: "Glossary",
-    seoTitle: "eCard Glossary: CRM, SMTP, Webhook and More",
-    description: "Plain-English definitions of terms used around eCard — confidence score, SMTP, webhook, 2FA, AES-256-GCM, bring your own key, white label and more.",
+    seoTitle: "eCard Glossary: CRM, SMTP, Webhook And More",
+    description: "Plain-English definitions of terms used around eCard: confidence score, SMTP, webhook, 2FA, AES-256-GCM, bring your own key, white label and more.",
     h1: "Glossary",
     eyebrow: "Reference",
     intro: "Short definitions of terms you'll meet on this site and in eCard. General definitions are educational; eCard-specific notes reflect what eCard's site states.",
@@ -809,7 +809,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Scanning and data",
+        heading: "Scanning And Data",
         headers: ["Term", "Meaning"],
         rows: [
           ["Visiting-card CRM", "A contact system built around the cards you collect; eCard calls itself an AI visiting-card CRM."],
@@ -823,7 +823,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Outreach and sharing",
+        heading: "Outreach And Sharing",
         headers: ["Term", "Meaning"],
         rows: [
           ["SMTP", "The protocol for sending email via a mail server. eCard sends intro emails from your own SMTP account."],
@@ -835,7 +835,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Security and admin",
+        heading: "Security And Admin",
         headers: ["Term", "Meaning"],
         rows: [
           ["2FA", "Two-factor authentication: a password plus a second proof, such as an authenticator code."],
@@ -849,7 +849,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Missing a term?",
+        title: "Missing A Term?",
         body: "If you come across a term not listed here, check the Help Center or contact support.",
       },
     ],
@@ -866,7 +866,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "table",
-        heading: "Pick a starting point by goal",
+        heading: "Pick A Starting Point By Goal",
         intro: "Match what you are trying to do today with the resource that answers it fastest.",
         headers: ["If you want to…", "Start with", "Then read"],
         rows: [
@@ -880,7 +880,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Common mistakes new users make",
+        heading: "Common Mistakes New Users Make",
         intro: "These are general patterns seen with any contact tool, and each has a guide that helps avoid it.",
         items: [
           "Importing a large, messy spreadsheet before trying a single scan, which makes it hard to judge what clean data looks like.",
@@ -892,7 +892,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "prose",
-        heading: "How to use the playbooks",
+        heading: "How To Use The Playbooks",
         paragraphs: [
           "The setup guides describe eCard itself, while the playbooks and the etiquette guide are general advice about networking and follow-up. You can read the playbooks before you sign up, and they apply whatever tool you use.",
           "When a guide touches something eCard has not documented, such as exact field mapping or payload formats, it says so plainly. In those cases, check the in-app settings for current behaviour rather than relying on assumptions.",
@@ -907,12 +907,12 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "table",
-        heading: "Time and plan needed for each guide",
+        heading: "Time And Plan Needed For Each Guide",
         intro: "Times are rough general estimates; the plan column reflects eCard's published pricing.",
         headers: ["Guide", "Typical time", "Plan needed"],
         rows: [
           ["Your First Scan", "A few minutes", "Any plan"],
-          ["Setting Up SMTP", "10–20 minutes, depending on your provider", "Any plan"],
+          ["Setting Up SMTP", "10-20 minutes, depending on your provider", "Any plan"],
           ["Connecting Telegram", "A few minutes", "Any plan"],
           ["Importing Contacts from CSV", "Depends on how clean your file is", "Any plan"],
           ["Inviting Your Team", "Varies with team size", "Any plan (user limits differ)"],
@@ -921,7 +921,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Before you start any guide",
+        heading: "Before You Start Any Guide",
         items: [
           "Have an eCard workspace ready. New workspaces get a 14-day Professional trial with no card needed.",
           "Use a laptop for setup tasks such as SMTP and webhooks; scanning and Telegram work well from a phone.",
@@ -931,7 +931,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "prose",
-        heading: "When a guide doesn't match what you see",
+        heading: "When A Guide Doesn't Match What You See",
         paragraphs: [
           "Screens change over time, and eCard has not published detailed documentation of every menu. The only menu path these guides quote is Settings → Telegram; elsewhere they describe what to look for rather than naming exact buttons.",
           "If a step doesn't match, look for the closest setting with the same purpose, and mention what you found when contacting support so the guide can be corrected.",
@@ -946,7 +946,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Before you start",
+        heading: "Before You Start",
         items: [
           "A phone with a working camera and a modern browser. eCard works in any phone browser, so there is nothing to install.",
           "Two or three real visiting cards collected recently, ideally with different layouts.",
@@ -956,7 +956,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "table",
-        heading: "Sample: a first-week plan",
+        heading: "Sample: A First-week Plan",
         intro: "Sample schedule for one person trying eCard alongside normal work. Adjust it freely.",
         headers: ["Day", "Task", "Why"],
         rows: [
@@ -969,7 +969,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Common first-day mistakes",
+        heading: "Common First-day Mistakes",
         items: [
           "Saving a scan without reading the low-confidence fields. Nothing is saved until you review it, so use that moment.",
           "Skipping notes on where you met. Meeting context is what makes a contact useful months later.",
@@ -986,19 +986,19 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "steps",
-        heading: "Troubleshooting a disappointing first scan",
+        heading: "Troubleshooting A Disappointing First Scan",
         intro: "Work down this list in order; most problems are solved by the first two steps.",
         steps: [
-          { title: "Check the photo", body: "Is the card in focus, flat, evenly lit and filling most of the frame? Glare on glossy cards is a common cause of missed fields." },
-          { title: "Retake rather than fix", body: "If several fields are wrong, a better photo is usually faster than correcting each one by hand." },
-          { title: "Add the back", body: "Many cards carry phone numbers, addresses or a second language on the reverse. Include it if the front looks incomplete." },
-          { title: "Read the confidence scores", body: "Low scores point you to the fields that need attention; edit those before saving." },
-          { title: "Try another model", body: "eCard lets you choose Claude, OpenAI, Gemini, DeepSeek or Grok, as well as Azure or a custom endpoint. A different model may handle an unusual layout better." },
+          { title: "Check The Photo", body: "Is the card in focus, flat, evenly lit and filling most of the frame? Glare on glossy cards is a common cause of missed fields." },
+          { title: "Retake Rather Than Fix", body: "If several fields are wrong, a better photo is usually faster than correcting each one by hand." },
+          { title: "Add The Back", body: "Many cards carry phone numbers, addresses or a second language on the reverse. Include it if the front looks incomplete." },
+          { title: "Read The Confidence Scores", body: "Low scores point you to the fields that need attention; edit those before saving." },
+          { title: "Try Another Model", body: "eCard lets you choose Claude, OpenAI, Gemini, DeepSeek or Grok, as well as Azure or a custom endpoint. A different model may handle an unusual layout better." },
         ],
       },
       {
         type: "split",
-        heading: "Sample: reviewing a scanned card",
+        heading: "Sample: Reviewing A Scanned Card",
         body: [
           "Sample card: Priya Shah, Realtor, with a phone number, email and office address on the front. The name, email and phone come back with high confidence. The address scores lower because part of it is printed in a tiny font.",
           "eCard checks addresses against Google Maps, which helps you spot a mistyped locality. You correct one word, add a note that you met at a sample property expo, and save.",
@@ -1007,7 +1007,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Common mistakes",
+        heading: "Common Mistakes",
         items: [
           "Photographing a card on a patterned surface, which makes the card's edges harder to pick out.",
           "Holding the phone at a steep angle so the text is skewed.",
@@ -1023,7 +1023,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Before you start: details to collect",
+        heading: "Before You Start: Details To Collect",
         intro: "Most providers ask for the same handful of values. Gather them from your provider's own help pages first.",
         items: [
           "The SMTP host name for your provider.",
@@ -1035,19 +1035,19 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "steps",
-        heading: "Troubleshooting a failed connection",
+        heading: "Troubleshooting A Failed Connection",
         intro: "General SMTP checks that apply whichever provider you use.",
         steps: [
-          { title: "Authentication failed", body: "Re-enter the password, and check whether your provider requires an app password or needs SMTP access switched on first." },
-          { title: "Connection timed out", body: "Confirm the host and port. A wrong port or an encryption mismatch is the usual cause." },
-          { title: "Sender rejected", body: "The From address may not be verified with your provider. Transactional services typically require domain or sender verification." },
-          { title: "Delivered to spam", body: "Ask whoever manages your domain to check the SPF, DKIM and DMARC records for the service you send through." },
+          { title: "Authentication Failed", body: "Re-enter the password, and check whether your provider requires an app password or needs SMTP access switched on first." },
+          { title: "Connection Timed Out", body: "Confirm the host and port. A wrong port or an encryption mismatch is the usual cause." },
+          { title: "Sender Rejected", body: "The From address may not be verified with your provider. Transactional services typically require domain or sender verification." },
+          { title: "Delivered To Spam", body: "Ask whoever manages your domain to check the SPF, DKIM and DMARC records for the service you send through." },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Test on yourself first",
+        title: "Test On Yourself First",
         body: "Scan your own card or a colleague's, and let the first intro go to an address you control. You'll see exactly what recipients see, and you can use the 5-second window to practise editing or cancelling.",
       },
     ],
@@ -1059,7 +1059,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Before you start",
+        heading: "Before You Start",
         items: [
           "Install Telegram on the phone you carry to meetings and sign in.",
           "Sign in to your eCard workspace in a browser so you can open Settings → Telegram.",
@@ -1069,17 +1069,17 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "steps",
-        heading: "Troubleshooting the link",
+        heading: "Troubleshooting The Link",
         steps: [
-          { title: "The bot rejects the code", body: "Generate a fresh one-time code in Settings → Telegram and send it promptly; one-time codes are meant to be used once." },
-          { title: "Nothing happens when I send a photo", body: "Check that you are chatting with the same bot you linked, and that your phone has a data connection." },
-          { title: "The contact went to the wrong workspace", body: "Repeat the linking step from the workspace you actually want to use." },
-          { title: "The scan looks wrong", body: "Send a clearer photo: flat card, even light, no glare. The same photo tips apply as for browser scans." },
+          { title: "The Bot Rejects The Code", body: "Generate a fresh one-time code in Settings → Telegram and send it promptly; one-time codes are meant to be used once." },
+          { title: "Nothing Happens When I Send A Photo", body: "Check that you are chatting with the same bot you linked, and that your phone has a data connection." },
+          { title: "The Contact Went To The Wrong Workspace", body: "Repeat the linking step from the workspace you actually want to use." },
+          { title: "The Scan Looks Wrong", body: "Send a clearer photo: flat card, even light, no glare. The same photo tips apply as for browser scans." },
         ],
       },
       {
         type: "split",
-        heading: "Sample: a ten-minute coffee meeting",
+        heading: "Sample: A Ten-minute Coffee Meeting",
         body: [
           "Sample: you meet Arjun Rao, a startup founder, for coffee. As he leaves you photograph his card and send it to the bot. The contact is saved and the chat shows Open and Send buttons.",
           "You tap Open on the walk back to add a note about what you discussed, then use Send once you're ready to introduce yourself.",
@@ -1095,7 +1095,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Clean-up checklist before importing",
+        heading: "Clean-up Checklist Before Importing",
         items: [
           "One person per row, with no merged cells or blank rows in the middle.",
           "A single header row with clear column names such as Name, Company, Email and Phone.",
@@ -1106,18 +1106,18 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "steps",
-        heading: "Troubleshooting a messy import",
+        heading: "Troubleshooting A Messy Import",
         steps: [
-          { title: "Garbled characters", body: "Re-export the file as UTF-8 CSV from your spreadsheet program." },
-          { title: "Values in the wrong columns", body: "Check your header names and look for stray commas inside unquoted values." },
-          { title: "Lots of duplicates", body: "Use eCard's duplicate merge after the import, then spot-check the merged records." },
-          { title: "Contacts you no longer want", body: "Archive or blacklist them rather than deleting history you might need later." },
+          { title: "Garbled Characters", body: "Re-export the file as UTF-8 CSV from your spreadsheet program." },
+          { title: "Values In The Wrong Columns", body: "Check your header names and look for stray commas inside unquoted values." },
+          { title: "Lots Of Duplicates", body: "Use eCard's duplicate merge after the import, then spot-check the merged records." },
+          { title: "Contacts You No Longer Want", body: "Archive or blacklist them rather than deleting history you might need later." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Field mapping",
+        title: "Field Mapping",
         body: "eCard's site names CSV import but does not document field-level mapping. Check the import screen in the app to see which columns it recognises.",
       },
     ],
@@ -1126,7 +1126,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Before you start",
+        heading: "Before You Start",
         items: [
           "A clear, recent headshot or your company logo.",
           "The exact job title and company name you want people to save.",
@@ -1136,7 +1136,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "split",
-        heading: "Sample: a card that gets saved",
+        heading: "Sample: A Card That Gets Saved",
         body: [
           "Sample: Rahul Mehta, Sales Lead. His card has a photo, a one-line description of what he helps with, one phone number, one email, and a short link in the style of /c/rahul.",
           "At an event he shows the QR code; the other person scans it in their phone browser and taps Save-to-contacts. No app is needed on either side.",
@@ -1145,7 +1145,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Common mistakes",
+        heading: "Common Mistakes",
         items: [
           "Listing every phone number you have, so people save the wrong one.",
           "Using a long job title that gets cut off on small screens.",
@@ -1162,7 +1162,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Before you invite anyone",
+        heading: "Before You Invite Anyone",
         items: [
           "Decide who owns the workspace and who will act as admin.",
           "Check your plan's user limit: 5 on Free, 20 on Starter, 100 on Professional, unlimited on Business and Enterprise.",
@@ -1172,7 +1172,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "table",
-        heading: "Sample: role choices for a small team",
+        heading: "Sample: Role Choices For A Small Team",
         intro: "Sample team of six. The role names are eCard's; the assignments are illustrative.",
         headers: ["Person (sample)", "Job", "Role"],
         rows: [
@@ -1185,7 +1185,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Common rollout mistakes",
+        heading: "Common Rollout Mistakes",
         items: [
           "Making everyone an admin to avoid permission questions.",
           "Inviting temporary event staff as full members instead of scan-only guests.",
@@ -1202,7 +1202,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Before you start",
+        heading: "Before You Start",
         items: [
           "Install an authenticator app on your phone (any app that generates time-based codes).",
           "Make sure your phone's clock is set automatically; time-based codes fail if the clock drifts.",
@@ -1213,15 +1213,15 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
         type: "steps",
         heading: "Troubleshooting",
         steps: [
-          { title: "Codes are always rejected", body: "Check that the phone's time is set automatically, then enter a fresh code rather than one about to expire." },
-          { title: "Switching phones", body: "Before wiping the old phone, move your authenticator entries or confirm you have your recovery codes." },
-          { title: "Lost phone", body: "Use a recovery code to sign in, then set up 2FA again on the new device." },
-          { title: "Unexpected login alert", body: "Change your password and review your trusted devices straight away." },
+          { title: "Codes Are Always Rejected", body: "Check that the phone's time is set automatically, then enter a fresh code rather than one about to expire." },
+          { title: "Switching Phones", body: "Before wiping the old phone, move your authenticator entries or confirm you have your recovery codes." },
+          { title: "Lost Phone", body: "Use a recovery code to sign in, then set up 2FA again on the new device." },
+          { title: "Unexpected Login Alert", body: "Change your password and review your trusted devices straight away." },
         ],
       },
       {
         type: "bullets",
-        heading: "Common mistakes",
+        heading: "Common Mistakes",
         items: [
           "Keeping recovery codes only on the same phone as the authenticator.",
           "Marking shared or public computers as trusted devices.",
@@ -1237,7 +1237,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Before you start",
+        heading: "Before You Start",
         items: [
           "A Professional, Business or Enterprise plan. Webhooks are not included on Free or Starter.",
           "An HTTPS endpoint you control that can receive POST requests.",
@@ -1247,18 +1247,18 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "steps",
-        heading: "Troubleshooting a webhook receiver",
+        heading: "Troubleshooting A Webhook Receiver",
         intro: "General checks that apply to most webhook setups.",
         steps: [
-          { title: "Nothing arrives", body: "Confirm the URL is public, uses HTTPS, and isn't behind a firewall or a login page." },
-          { title: "Requests arrive but fail", body: "Return a success status quickly and do slow work in the background; long-running handlers often time out." },
-          { title: "Signature check fails", body: "Verify against the raw request body, not a re-serialised copy, and make sure you are using the current secret." },
+          { title: "Nothing Arrives", body: "Confirm the URL is public, uses HTTPS, and isn't behind a firewall or a login page." },
+          { title: "Requests Arrive But Fail", body: "Return a success status quickly and do slow work in the background; long-running handlers often time out." },
+          { title: "Signature Check Fails", body: "Verify against the raw request body, not a reserialised copy, and make sure you are using the current secret." },
           { title: "Duplicates", body: "Make your handler idempotent so receiving the same event twice does no harm." },
         ],
       },
       {
         type: "split",
-        heading: "Sample: sending new contacts to a sheet",
+        heading: "Sample: Sending New Contacts To A Sheet",
         body: [
           "Sample: a team sends each new-contact event to a small internal service, which checks the signature and appends a row to a shared sheet the sales manager reviews.",
           "Because eCard's site does not document the payload format, the team logs a few real events first and builds the mapping from those.",
@@ -1274,7 +1274,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Packing checklist",
+        heading: "Packing Checklist",
         items: [
           "Phones charged, plus a power bank for each person at the booth.",
           "Your digital card QR printed on a stand or badge as well as on your phone.",
@@ -1285,7 +1285,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "table",
-        heading: "Sample: a three-day show timeline",
+        heading: "Sample: A Three-day Show Timeline",
         intro: "Sample timeline for a booth team of three.",
         headers: ["When", "What", "Owner (sample)"],
         rows: [
@@ -1297,7 +1297,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Common mistakes",
+        heading: "Common Mistakes",
         items: [
           "Waiting until you are back at the office to scan a stack of cards, by which point the conversations are forgotten.",
           "Sending one generic email to every lead, including people who asked for something specific.",
@@ -1313,18 +1313,18 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Before you hit send: a checklist",
+        heading: "Before You Hit Send: A Checklist",
         items: [
           "Does the first line remind them where you met?",
           "Is there one clear next step, not three?",
           "Is the message short enough to read on a phone?",
           "Have you spelled their name and company correctly?",
-          "Is this the channel they offered — email or WhatsApp?",
+          "Is this the channel they offered, email or WhatsApp?",
         ],
       },
       {
         type: "bullets",
-        heading: "Common follow-up mistakes",
+        heading: "Common Follow-up Mistakes",
         items: [
           "Attaching a large brochure to the first email instead of linking to it.",
           "Following up so often that it reads as pressure.",
@@ -1334,9 +1334,9 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "prose",
-        heading: "When there is no reply",
+        heading: "When There Is No Reply",
         paragraphs: [
-          "Silence is normal. One polite nudge after a week or so is generally acceptable; after that, offer something useful — an article, an introduction, a relevant update — rather than simply asking again.",
+          "Silence is normal. One polite nudge after a week or so is generally acceptable; after that, offer something useful (an article, an introduction, a relevant update) rather than simply asking again.",
           "Record what you sent and when against the contact, so you or a colleague can see the history before reaching out again.",
         ],
       },
@@ -1349,7 +1349,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Common etiquette mistakes",
+        heading: "Common Etiquette Mistakes",
         items: [
           "Pocketing a card without looking at it while the other person is still talking.",
           "Writing on someone's card in front of them where that is considered rude.",
@@ -1359,7 +1359,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "split",
-        heading: "Sample: an exchange at a business lunch",
+        heading: "Sample: An Exchange At A Business Lunch",
         body: [
           "Sample: Dr Anita Kulkarni hands you her card at a lunch. You receive it with both hands, read her name and title, and keep it on the table in front of you while you talk.",
           "Afterwards, out of view, you photograph it and add a note: met at a sample industry lunch, interested in clinic scheduling, prefers WhatsApp.",
@@ -1368,9 +1368,9 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "prose",
-        heading: "Offering a digital card politely",
+        heading: "Offering A Digital Card Politely",
         paragraphs: [
-          "If the other person prefers paper, give them paper. If you've run out, offering a QR code is fine — say what it is and that it opens in a browser, since some people hesitate to scan unfamiliar codes.",
+          "If the other person prefers paper, give them paper. If you've run out, offering a QR code is fine: say what it is and that it opens in a browser, since some people hesitate to scan unfamiliar codes.",
         ],
       },
     ],
@@ -1382,23 +1382,23 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Billing and plan terms",
+        heading: "Billing And Plan Terms",
         items: [
-          "Base set — the features eCard includes on every plan: AI scanning; contacts, tags and events; bulk import/export; email outreach; WhatsApp; digital card; Telegram bot.",
-          "Trial — new workspaces get a 14-day Professional trial with no card needed.",
-          "GST — Indian goods and services tax, applied where applicable at checkout.",
-          "Scan allowance — the number of scans a plan includes each month.",
+          "Base set: the features eCard includes on every plan: AI scanning; contacts, tags and events; bulk import/export; email outreach; WhatsApp; digital card; Telegram bot.",
+          "Trial, new workspaces get a 14-day Professional trial with no card needed.",
+          "GST: Indian goods and services tax, applied where applicable at checkout.",
+          "Scan allowance, the number of scans a plan includes each month.",
         ],
       },
       {
         type: "bullets",
-        heading: "Email delivery terms",
+        heading: "Email Delivery Terms",
         intro: "General terms you'll meet when connecting a mailbox.",
         items: [
-          "SPF — a DNS record listing which servers may send mail for your domain.",
-          "DKIM — a cryptographic signature showing a message came from your domain and wasn't altered.",
-          "DMARC — a policy telling receiving servers what to do with mail that fails SPF or DKIM checks.",
-          "App password — a separate password some providers issue for apps that connect over SMTP.",
+          "SPF, a DNS record listing which servers may send mail for your domain.",
+          "DKIM, a cryptographic signature showing a message came from your domain and wasn't altered.",
+          "DMARC, a policy telling receiving servers what to do with mail that fails SPF or DKIM checks.",
+          "App password, a separate password some providers issue for apps that connect over SMTP.",
         ],
       },
     ],
@@ -1415,7 +1415,7 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "table",
-        heading: "Sample: a clean CSV",
+        heading: "Sample: A Clean CSV",
         intro: "Sample rows showing a tidy layout. All names are fictional.",
         headers: ["Name", "Company", "Email", "Phone", "Tag"],
         rows: [
@@ -1432,13 +1432,13 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "steps",
-        heading: "When someone leaves",
+        heading: "When Someone Leaves",
         intro: "A short offboarding routine keeps shared contacts safe.",
         steps: [
-          { title: "Remove access the same day", body: "An owner or admin removes the person from the workspace." },
-          { title: "Reassign their follow-ups", body: "Make sure warm contacts they were handling have a new owner on your side." },
-          { title: "Review the audit log", body: "Check for unusual exports or deletions in their final weeks." },
-          { title: "Rotate shared secrets", body: "If they knew any shared SMTP or AI key credentials, change them at the provider and update eCard." },
+          { title: "Remove Access The Same Day", body: "An owner or admin removes the person from the workspace." },
+          { title: "Reassign Their Follow-ups", body: "Make sure warm contacts they were handling have a new owner on your side." },
+          { title: "Review The Audit Log", body: "Check for unusual exports or deletions in their final weeks." },
+          { title: "Rotate Shared Secrets", body: "If they knew any shared SMTP or AI key credentials, change them at the provider and update eCard." },
         ],
       },
     ],
@@ -1450,7 +1450,7 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "split",
-        heading: "Sample: a phone lost while travelling",
+        heading: "Sample: A Phone Lost While Travelling",
         body: [
           "Sample: Farah, a workspace admin, loses her phone on a trip. Her authenticator app was on it, but her recovery codes are in her password manager on her laptop.",
           "She signs in with one recovery code, removes the lost phone from her trusted devices, sets up 2FA on a replacement phone and saves a fresh set of recovery codes.",
@@ -1467,7 +1467,7 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       {
         type: "callout",
         tone: "tip",
-        title: "Keep the secret secret",
+        title: "Keep The Secret Secret",
         body: "Treat the signing secret like a password: store it in your server's secret manager, never in source code or chat messages, and rotate it if it is ever exposed.",
       },
     ],
@@ -1476,10 +1476,10 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "split",
-        heading: "Sample: turning a note into a follow-up",
+        heading: "Sample: Turning A Note Into A Follow-up",
         body: [
           "Sample note: \"Met Rohan Das, IT services, at a sample Bengaluru meetup. Asked about our Pune office. Prefers email.\"",
-          "Sample follow-up: \"Hi Rohan, good to meet you at the meetup on Thursday. You asked about our Pune office — here is the address, and I'm there most Tuesdays if a coffee helps. Best, Neha.\"",
+          "Sample follow-up: \"Hi Rohan, good to meet you at the meetup on Thursday. You asked about our Pune office: here is the address, and I'm there most Tuesdays if a coffee helps. Best, Neha.\"",
         ],
         points: ["Context in line one", "Answer what they asked", "One easy next step"],
       },
@@ -1489,7 +1489,7 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "A pocket checklist before a networking event",
+        heading: "A Pocket Checklist Before A Networking Event",
         items: [
           "Enough clean, uncreased cards in a holder, not loose in a wallet.",
           "Your digital card QR ready on your phone's lock screen or in a saved photo.",
@@ -1503,7 +1503,7 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       {
         type: "callout",
         tone: "tip",
-        title: "Check it on a stranger's phone",
+        title: "Check It On A Stranger's Phone",
         body: "Before you print the QR anywhere, ask a friend with a different phone to scan it and save you as a contact. It's the quickest way to spot a wrong number or a cut-off title.",
       },
     ],

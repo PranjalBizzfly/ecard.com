@@ -7,8 +7,8 @@ export const pages: PageDef[] = [
     title: "Account",
     seoTitle: "Account Site: Where eCard Sign-In Lives Today",
     description: "What a dedicated account subdomain would handle, and where eCard sign-in, sign-up and password reset actually happen today at ecard.gg.",
-    h1: "The eCard account area, explained",
-    eyebrow: "Customer sites",
+    h1: "The eCard Account Area, Explained",
+    eyebrow: "Customer Sites",
     intro: "Many SaaS companies run a separate account subdomain for identity tasks such as signing in, creating a login and recovering a password. eCard does not operate a separate account site. Every one of those tasks happens directly at ecard.gg, in the same place you use the product.",
     variant: "reference",
     visual: "none",
@@ -16,7 +16,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "What an account site usually does",
+        heading: "What An Account Site Usually Does",
         paragraphs: [
           "In a typical multi-site architecture, an address such as account.example.com is reserved for identity. It hosts the sign-in form, the registration flow, password recovery, and sometimes profile and security settings. Keeping it separate lets a company apply stricter security rules to one small surface and reuse a single login across several products.",
           "eCard is one product delivered in the browser, so it does not need that split. The sign-in, sign-up and forgot-password screens live at ecard.gg, and your security settings live inside your workspace once you are signed in.",
@@ -24,7 +24,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Account tasks and where to do them today",
+        heading: "Account Tasks And Where To Do Them Today",
         headers: ["Task", "Where it happens on eCard"],
         rows: [
           ["Create an account", "Sign up at ecard.gg; the Free plan needs no card"],
@@ -36,7 +36,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Security features attached to your account",
+        heading: "Security Features Attached To Your Account",
         intro: "These are the account protections eCard publishes. They apply wherever you sign in.",
         items: [
           "Two-factor authentication with authenticator codes.",
@@ -48,18 +48,18 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "First-time account checklist",
+        heading: "First-time Account Checklist",
         steps: [
-          { title: "Sign up", body: "Create your login at ecard.gg. New workspaces start with a 14-day Professional trial." },
-          { title: "Use a password manager", body: "Generate a long, unique password rather than reusing one from another service." },
+          { title: "Sign Up", body: "Create your login at ecard.gg. New workspaces start with a 14-day Professional trial." },
+          { title: "Use A Password Manager", body: "Generate a long, unique password rather than reusing one from another service." },
           { title: "Enable 2FA", body: "Scan the setup code with an authenticator app and store your recovery codes somewhere safe and offline." },
-          { title: "Invite colleagues with the right role", body: "Owner, admin, manager, member and scan-only guest roles let you limit what each person can change." },
+          { title: "Invite Colleagues With The Right Role", body: "Owner, admin, manager, member and scan-only guest roles let you limit what each person can change." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "eCard has not published a separate account subdomain. If one is introduced, this page will be updated. Until then, ecard.gg is the only place to sign in, and you should be cautious of any other address asking for your eCard password.",
       },
     ],
@@ -77,10 +77,10 @@ export const pages: PageDef[] = [
     slug: "customer-sites/portal",
     category: "customerSites",
     title: "Customer Portal",
-    seoTitle: "Customer Portal Concept and the eCard Workspace",
+    seoTitle: "Customer Portal Concept And The eCard Workspace",
     description: "A customer portal gathers plans, users and settings in one place. Here is how that idea maps to the eCard workspace you already use in the browser.",
-    h1: "Customer portal: how eCard handles it in the workspace",
-    eyebrow: "Customer sites",
+    h1: "Customer Portal: How eCard Handles It In The Workspace",
+    eyebrow: "Customer Sites",
     intro: "A customer portal is the self-service home where a business manages its subscription, people and settings. eCard has no separate portal site. The workspace you sign in to at ecard.gg covers that role alongside the product itself.",
     variant: "reference",
     visual: "none",
@@ -88,7 +88,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Portal versus product",
+        heading: "Portal Versus Product",
         body: [
           "Larger vendors often separate the product (where work happens) from the portal (where the customer administers the relationship). The portal might hold invoices, licence counts, support tickets and contract documents.",
           "In eCard the line is simpler. The workspace holds your contacts and outreach, and the administrative controls sit beside them. There is no second login and no second address to remember.",
@@ -102,18 +102,18 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Portal jobs and where they live today",
+        heading: "Portal Jobs And Where They Live Today",
         cards: [
-          { title: "People and roles", body: "Invite teammates and assign owner, admin, manager, member or scan-only guest roles inside the workspace.", icon: "users" },
-          { title: "Plan and payment", body: "Choose a plan at sign-up or later in the app. Payment in India is by UPI, cards, net banking, wallets or EMI.", icon: "rupee" },
+          { title: "People And Roles", body: "Invite teammates and assign owner, admin, manager, member or scan-only guest roles inside the workspace.", icon: "users" },
+          { title: "Plan And Payment", body: "Choose a plan at sign-up or later in the app. Payment in India is by UPI, cards, net banking, wallets or EMI.", icon: "rupee" },
           { title: "Branding", body: "On Business and Enterprise, white-label options cover logo, colours and a custom domain.", icon: "palette" },
-          { title: "Data controls", body: "The compliance checklist covers consent, export and deletion of contact data.", icon: "shield" },
+          { title: "Data Controls", body: "The compliance checklist covers consent, export and deletion of contact data.", icon: "shield" },
           { title: "Support", body: "Help articles live at /help, with Contact Support for anything they don't answer.", icon: "help" },
         ],
       },
       {
         type: "prose",
-        heading: "What eCard does not offer as a portal",
+        heading: "What eCard Does Not Offer As A Portal",
         paragraphs: [
           "eCard has not published a ticketing portal, a document vault for contracts, or a downloadable invoice archive described on its public site. Where you need paperwork for procurement or accounts, write to sales@bizzfly.com and say exactly what you need.",
         ],
@@ -121,12 +121,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "No dedicated customer portal subdomain is available. The workspace at ecard.gg is the place to manage your eCard account today.",
       },
       {
         type: "bullets",
-        heading: "Good administration habits for workspace owners",
+        heading: "Good Administration Habits For Workspace Owners",
         intro: "Whether a vendor offers a separate portal or not, the same habits keep a shared account healthy. This is general guidance rather than a description of specific eCard screens.",
         items: [
           "Keep at least two people with the owner or admin role, so one absence never locks the business out of its settings.",
@@ -154,8 +154,8 @@ export const pages: PageDef[] = [
     title: "Support Desk",
     seoTitle: "Support Desk Site: How eCard Help Works Today",
     description: "Why companies run a separate support desk subdomain, and how eCard customers get help today through /help articles and the Contact Support page.",
-    h1: "A support desk for eCard customers",
-    eyebrow: "Customer sites",
+    h1: "A Support Desk For eCard Customers",
+    eyebrow: "Customer Sites",
     intro: "A support desk subdomain normally combines a knowledge base, a ticket form and a place to track open requests. eCard does not run a separate support site. Its help content lives at /help on the main site.",
     variant: "reference",
     visual: "none",
@@ -163,7 +163,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "What a support desk is for",
+        heading: "What A Support Desk Is For",
         paragraphs: [
           "Support desks exist so customers can solve common problems themselves and reach a person when they can't. A good desk is searchable, keeps articles short and makes escalation obvious. Some vendors put it on its own address, such as support.example.com, often because it runs on a third-party helpdesk tool.",
           "eCard keeps its help inside the main site. That means the same navigation, no extra sign-in and articles that link straight to the relevant product page.",
@@ -171,7 +171,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Where to find help today",
+        heading: "Where To Find Help Today",
         headers: ["You need", "Go to"],
         rows: [
           ["Quick answers", "Help FAQ"],
@@ -185,24 +185,24 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "How to write a support request that gets solved fast",
+        heading: "How To Write A Support Request That Gets Solved Fast",
         intro: "This is general advice that works with any vendor, including eCard.",
         steps: [
-          { title: "Describe the goal", body: "Say what you were trying to do, not only what went wrong." },
-          { title: "List the steps", body: "Write down the exact steps, so someone else can repeat them." },
-          { title: "Note your setup", body: "Mention your browser, device and plan. Never send passwords, API keys or recovery codes." },
-          { title: "Add evidence", body: "A screenshot with personal data blurred helps more than a long description." },
+          { title: "Describe The Goal", body: "Say what you were trying to do, not only what went wrong." },
+          { title: "List The Steps", body: "Write down the exact steps, so someone else can repeat them." },
+          { title: "Note Your Setup", body: "Mention your browser, device and plan. Never send passwords, API keys or recovery codes." },
+          { title: "Add Evidence", body: "A screenshot with personal data blurred helps more than a long description." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "eCard has not published a separate support desk, ticket tracker or response-time commitment. Use /help and Contact Support.",
       },
       {
         type: "prose",
-        heading: "Try these checks before you write in",
+        heading: "Try These Checks Before You Write In",
         paragraphs: [
           "A surprising share of problems with browser-based tools clear up with a few simple checks. Refresh the page, sign out and back in, or try a different browser. If a scan reads a card badly, retake the photo in even light with the card flat and filling most of the frame, then review the low-confidence fields by hand before saving.",
           "For sending problems, the cause is usually on the mailbox side: a changed SMTP password, an app password that has been revoked, or a provider that limits how many messages you can send. eCard sends intro emails from your own SMTP, so your provider's settings and limits apply. For Telegram, make sure you used a fresh one-time code from Settings → Telegram, because codes are for a single link.",
@@ -226,8 +226,8 @@ export const pages: PageDef[] = [
     title: "Community",
     seoTitle: "eCard Community Site: Not Yet Available",
     description: "A user community site would host forums and peer tips. eCard has not launched one; here is what it might contain and where to get answers meanwhile.",
-    h1: "Is there an eCard user community?",
-    eyebrow: "Customer sites",
+    h1: "Is There An eCard User Community?",
+    eyebrow: "Customer Sites",
     intro: "Community sites let customers ask each other questions, share workflows and vote on ideas. eCard does not have a community site, forum or user group. This page explains the idea and points you to the places that do exist.",
     variant: "reference",
     visual: "none",
@@ -236,12 +236,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not available",
+        title: "Not Available",
         body: "eCard has not published a community forum, user group, Slack or Discord space, or ambassador programme. Any group claiming to be the official eCard community should be treated with caution.",
       },
       {
         type: "prose",
-        heading: "What a community site typically offers",
+        heading: "What A Community Site Typically Offers",
         paragraphs: [
           "A product community is usually a forum where users post questions, staff and power users answer, and the best answers become searchable reference material. Good communities also host idea boards, show-and-tell threads and regional meetups.",
           "For a visiting-card CRM, the most useful threads would be practical: how people tag cards by event, how they time follow-ups after a trade show, and which mailbox providers they connect for sending intros.",
@@ -249,17 +249,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Where to go instead",
+        heading: "Where To Go Instead",
         cards: [
           { title: "Guides", body: "Step-by-step guides at /resources/guides cover the first scan, SMTP, Telegram, CSV import and more.", icon: "book" },
           { title: "Playbooks", body: "The trade-show and follow-up playbooks share practical networking workflows.", icon: "briefcase" },
-          { title: "Help centre", body: "Short answers about accounts, billing, scanning and sending at /help.", icon: "help" },
+          { title: "Help Centre", body: "Short answers about accounts, billing, scanning and sending at /help.", icon: "help" },
           { title: "Feedback", body: "Ideas and suggestions go through the feedback page.", icon: "message" },
         ],
       },
       {
         type: "bullets",
-        heading: "Sharing tips safely with other users",
+        heading: "Sharing Tips Safely With Other Users",
         intro: "If you swap eCard tips with peers in your own networks, keep these habits:",
         items: [
           "Never post screenshots that show real contacts' names, numbers or emails.",
@@ -270,7 +270,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Building your own peer network around card follow-up",
+        heading: "Building Your Own Peer Network Around Card Follow-up",
         paragraphs: [
           "You don't need an official forum to learn from people who use a visiting-card CRM well. Sales managers, exhibitors and consultants in your own industry association already swap notes about trade-show follow-up. Ask them how quickly they reply after an event, how they decide who gets a call and who gets an email, and how they keep notes about where they met someone.",
           "Inside your company, a short monthly session where colleagues show one workflow each can be more useful than a public forum. One person might show how they tag cards by event and city, another how they write WhatsApp follow-ups in Hindi or Marathi, another how they use natural-language search to find 'investors I met in Mumbai last month'. Write the good ideas into a one-page internal guide and link it to eCard's published guides for the product steps.",
@@ -291,10 +291,10 @@ export const pages: PageDef[] = [
     slug: "customer-sites/academy",
     category: "customerSites",
     title: "Academy",
-    seoTitle: "eCard Academy Site: Status and Learning Options",
+    seoTitle: "eCard Academy Site: Status And Learning Options",
     description: "An academy site would offer courses and certificates. eCard has not launched one; learn which free guides and playbooks you can use to get trained instead.",
-    h1: "Learning eCard without an academy",
-    eyebrow: "Customer sites",
+    h1: "Learning eCard Without An Academy",
+    eyebrow: "Customer Sites",
     intro: "An academy is a structured training site with courses, lessons and sometimes certificates. eCard has not published an academy, courses or certifications. You can still build a solid training path from the guides that do exist.",
     variant: "reference",
     visual: "none",
@@ -302,7 +302,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "What an academy usually contains",
+        heading: "What An Academy Usually Contains",
         paragraphs: [
           "Software academies group lessons into tracks, for example 'administrator' or 'power user'. They tend to include short videos, quizzes and a completion badge. Their value is order: a newcomer knows exactly what to learn first.",
           "eCard has no such site, and no eCard certificate exists. Anyone offering a paid 'eCard certification' is not acting on eCard's behalf.",
@@ -310,20 +310,20 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A self-paced learning path using published guides",
+        heading: "A Self-paced Learning Path Using Published Guides",
         intro: "Work through these in order. Each one is a page on this site.",
         steps: [
-          { title: "Getting started", body: "Understand the workspace and what the Free plan and trial include." },
-          { title: "Your first scan", body: "Scan a card, review the confidence scores and save the contact." },
-          { title: "Creating your digital card", body: "Set up your own card with a QR code and short link." },
-          { title: "Setting up SMTP", body: "Connect your own mailbox so intro emails send from your address." },
+          { title: "Getting Started", body: "Understand the workspace and what the Free plan and trial include." },
+          { title: "Your First Scan", body: "Scan a card, review the confidence scores and save the contact." },
+          { title: "Creating Your Digital Card", body: "Set up your own card with a QR code and short link." },
+          { title: "Setting Up SMTP", body: "Connect your own mailbox so intro emails send from your address." },
           { title: "Connecting Telegram", body: "Link the bot with a one-time code from Settings → Telegram." },
-          { title: "Inviting your team and enabling 2FA", body: "Add colleagues with suitable roles and secure every account." },
+          { title: "Inviting Your Team And Enabling 2FA", body: "Add colleagues with suitable roles and secure every account." },
         ],
       },
       {
         type: "table",
-        heading: "Suggested tracks by role",
+        heading: "Suggested Tracks By Role",
         headers: ["Role", "Focus on"],
         rows: [
           ["Scan-only guest", "Scan quality tips, photo best practices"],
@@ -335,12 +335,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "No eCard academy, course catalogue or certification has been published. Training today is self-serve through /resources/guides.",
       },
       {
         type: "bullets",
-        heading: "Making self-paced training stick",
+        heading: "Making Self-paced Training Stick",
         intro: "Without an academy to set the pace, a little structure helps. These are general training habits that suit any small team adopting a new tool.",
         items: [
           "Learn on real work: ask each new user to scan the cards already sitting in their desk drawer rather than practising on samples.",
@@ -366,10 +366,10 @@ export const pages: PageDef[] = [
     slug: "customer-sites/billing",
     category: "customerSites",
     title: "Billing",
-    seoTitle: "Billing Site Concept: Paying for eCard Today",
+    seoTitle: "Billing Site Concept: Paying For eCard Today",
     description: "A billing subdomain manages plans and invoices. With eCard you pick a plan at sign-up or in-app and pay by UPI, card, net banking, wallet or EMI.",
-    h1: "Billing for eCard, without a separate billing site",
-    eyebrow: "Customer sites",
+    h1: "Billing For eCard, Without A Separate Billing Site",
+    eyebrow: "Customer Sites",
     intro: "A billing site is where a customer changes plan, updates payment details and downloads invoices. eCard has no separate billing subdomain. You choose a plan when you sign up or later in the app, and payments run through the checkout.",
     variant: "reference",
     visual: "pricing",
@@ -377,7 +377,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Plans you can choose (monthly prices)",
+        heading: "Plans You Can Choose (Monthly Prices)",
         headers: ["Plan", "Price", "Users", "Scans a month"],
         rows: [
           ["Free", "₹0", "5", "50"],
@@ -389,17 +389,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "How paying works today",
+        heading: "How Paying Works Today",
         cards: [
           { title: "In India", body: "UPI, cards, net banking, wallets or EMI.", icon: "rupee" },
           { title: "International", body: "International customers pay by card. Local currency is shown at checkout.", icon: "globe" },
           { title: "Tax", body: "GST applies where applicable.", icon: "file" },
-          { title: "Yearly billing", body: "Yearly billing is said to save about two months. No yearly price is published, so confirm at checkout.", icon: "calendar" },
+          { title: "Yearly Billing", body: "Yearly billing is said to save about two months. No yearly price is published, so confirm at checkout.", icon: "calendar" },
         ],
       },
       {
         type: "prose",
-        heading: "Trial, cancellation and changes",
+        heading: "Trial, Cancellation And Changes",
         paragraphs: [
           "Every new workspace starts with a 14-day Professional trial with no card needed. You can cancel any time and keep access until the end of the period you've paid for.",
           "A dedicated billing site would normally also hold an invoice archive and a payment-method manager. eCard's public site doesn't describe those screens, so follow the prompts in the app, and contact support if you need a document that you can't find.",
@@ -408,12 +408,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "No separate billing subdomain is published. Plan selection and payment happen at sign-up and inside the app at ecard.gg. Enterprise pricing is arranged through sales@bizzfly.com.",
       },
       {
         type: "prose",
-        heading: "What a billing site would add, and how to cope without one",
+        heading: "What A Billing Site Would Add, And How To Cope Without One",
         paragraphs: [
           "Companies that run a dedicated billing subdomain usually do it to give finance teams their own entry point: a place to download invoices, update the company's tax details, change the card on file and see upcoming renewals without touching the product. It's useful when the person who pays is not the person who uses the software.",
           "With eCard, the workspace owner handles plan and payment inside the app. If someone in your finance team needs records, agree internally who keeps them: save the payment confirmation from each checkout, note the plan and billing period, and keep GST details with your other supplier records. If a document you need isn't available in the app, ask through Contact Support, describing exactly which period and which details you need.",
@@ -437,8 +437,8 @@ export const pages: PageDef[] = [
     title: "Onboarding",
     seoTitle: "Onboarding Site: Getting Started With eCard",
     description: "Instead of a separate onboarding subdomain, eCard's getting-started guide walks you from sign-up to your first scan, digital card and first intro email.",
-    h1: "Onboarding to eCard, step by step",
-    eyebrow: "Customer sites",
+    h1: "Onboarding To eCard, Step By Step",
+    eyebrow: "Customer Sites",
     intro: "Some vendors host onboarding on its own site, with checklists and progress bars. eCard doesn't. Its onboarding lives in the Getting started guide at /resources/guides/getting-started, plus the guides that follow from it. Here is a practical first-day and first-week plan.",
     variant: "guide",
     visual: "none",
@@ -446,18 +446,18 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Your first day",
+        heading: "Your First Day",
         steps: [
-          { title: "Sign up at ecard.gg", body: "The 14-day Professional trial starts automatically; no card is needed." },
-          { title: "Scan one card", body: "Photograph a card in your phone browser. Check each field's confidence score before saving; nothing is saved until you review it." },
-          { title: "Make your digital card", body: "Pick a template and get a QR code and short link you can share." },
-          { title: "Connect your mailbox", body: "Add SMTP details so AI-drafted intros send from your own address after a 5-second window you can cancel." },
-          { title: "Link Telegram (optional)", body: "Get a one-time code from Settings → Telegram and send card photos straight to the bot." },
+          { title: "Sign Up At ecard.gg", body: "The 14-day Professional trial starts automatically; no card is needed." },
+          { title: "Scan One Card", body: "Photograph a card in your phone browser. Check each field's confidence score before saving; nothing is saved until you review it." },
+          { title: "Make Your Digital Card", body: "Pick a template and get a QR code and short link you can share." },
+          { title: "Connect Your Mailbox", body: "Add SMTP details so AI-drafted intros send from your own address after a 5-second window you can cancel." },
+          { title: "Link Telegram (Optional)", body: "Get a one-time code from Settings → Telegram and send card photos straight to the bot." },
         ],
       },
       {
         type: "bullets",
-        heading: "Your first week",
+        heading: "Your First Week",
         items: [
           "Import existing contacts with CSV, then merge duplicates.",
           "Agree on a tagging habit, for example event, city and intent.",
@@ -468,7 +468,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why eCard keeps onboarding in its guides",
+        heading: "Why eCard Keeps Onboarding In Its Guides",
         paragraphs: [
           "Because eCard runs in any browser with no app to install, there's little setup beyond the workspace itself. A separate onboarding site would add another place to look. The guides are public, so you can read them before you sign up and share them with teammates.",
         ],
@@ -476,12 +476,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "No onboarding subdomain, onboarding call or customer success programme is published. Enterprise buyers can discuss rollout needs at sales@bizzfly.com.",
       },
       {
         type: "table",
-        heading: "Onboarding a team: who does what",
+        heading: "Onboarding A Team: Who Does What",
         intro: "A simple split of responsibilities keeps a team rollout from stalling. This is a suggested pattern, not an eCard requirement.",
         headers: ["Person", "Responsibility in the first two weeks"],
         rows: [
@@ -509,8 +509,8 @@ export const pages: PageDef[] = [
     title: "Feedback Portal",
     seoTitle: "Feedback Portal Site: Sharing Ideas With eCard",
     description: "Feedback portals collect ideas and votes. eCard has no separate portal or public roadmap; suggestions go through the /feedback page on the main site.",
-    h1: "Feedback portal: how to share ideas with eCard",
-    eyebrow: "Customer sites",
+    h1: "Feedback Portal: How To Share Ideas With eCard",
+    eyebrow: "Customer Sites",
     intro: "A feedback portal lets customers submit ideas, upvote others' suggestions and follow their status. eCard has no separate portal, public voting board or public roadmap. Feedback goes through the /feedback page on this site. This page explains the difference, and how to make a suggestion clear enough that a product team can understand the problem behind it, even without a public board to discuss it on.",
     variant: "reference",
     visual: "none",
@@ -518,7 +518,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "How feedback portals usually work",
+        heading: "How Feedback Portals Usually Work",
         paragraphs: [
           "A typical portal lists ideas with vote counts and statuses such as 'under review' or 'planned'. It gives customers visibility, but statuses can be read as promises, which is why some companies avoid them.",
           "eCard collects feedback through a simple page instead. It does not publish vote counts, statuses or delivery dates.",
@@ -526,17 +526,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Writing feedback that's easy to act on",
+        heading: "Writing Feedback That's Easy To Act On",
         steps: [
-          { title: "Start with the situation", body: "For example: 'After a trade show I have 200 cards to follow up.'" },
-          { title: "Explain what's hard", body: "Describe the friction, not just the feature you imagine." },
-          { title: "Say how you work around it", body: "Workarounds show how important a problem is." },
-          { title: "Keep data out", body: "Use sample names, never real contacts' details." },
+          { title: "Start With The Situation", body: "For example: 'After a trade show I have 200 cards to follow up.'" },
+          { title: "Explain What's Hard", body: "Describe the friction, not just the feature you imagine." },
+          { title: "Say How You Work Around It", body: "Workarounds show how important a problem is." },
+          { title: "Keep Data Out", body: "Use sample names, never real contacts' details." },
         ],
       },
       {
         type: "table",
-        heading: "Feedback, complaint or support?",
+        heading: "Feedback, Complaint Or Support?",
         headers: ["If you want to…", "Use"],
         rows: [
           ["Suggest an improvement", "Feedback page"],
@@ -548,12 +548,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "eCard has not published a feedback portal, idea board or roadmap. Submitting feedback doesn't guarantee a change or a reply.",
       },
       {
         type: "prose",
-        heading: "Collecting feedback inside your own team first",
+        heading: "Collecting Feedback Inside Your Own Team First",
         paragraphs: [
           "If several people in your company use eCard, gather their suggestions before sending anything. A short shared note works well: each person adds the situation, the friction and their workaround. Once a month, someone combines similar points into one clear message. That gives the eCard team a single, well-explained request instead of five fragments, and it shows how many people the problem affects.",
           "Separate what eCard could change from what your team could change. Many frustrations with follow-up, for example, come from unclear internal rules about who contacts which lead. Those are worth fixing in your own process first. What remains, such as a missing option or a confusing step, is exactly the kind of feedback that is most useful to a product team.",

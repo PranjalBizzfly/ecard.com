@@ -5,9 +5,9 @@ export const pages: PageDef[] = [
     slug: "features/link-tracking",
     category: "analytics",
     title: "Link Tracking & Analytics",
-    seoTitle: "Link Tracking: See Who Opens Your Card and PDFs",
+    seoTitle: "Link Tracking: See Who Opens Your Card And PDFs",
     description: "eCard link tracking shows opens of your digital card, PDFs and WhatsApp links, with short links that count clicks and filter out bots.",
-    h1: "Know when your card, brochure or message gets opened",
+    h1: "Know When Your Card, Brochure Or Message Gets Opened",
     eyebrow: "Analytics & Tracking",
     intro: "Sending a card or brochure shouldn’t be a shot in the dark. eCard shows you opens of your digital card, PDFs and WhatsApp links, so you can follow up at the right moment.",
     variant: "feature",
@@ -16,17 +16,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What eCard tracks",
+        heading: "What eCard Tracks",
         cards: [
-          { title: "Card opens", body: "See when your digital card is opened.", icon: "card" },
-          { title: "PDF opens", body: "Know when a brochure or catalogue you shared is opened.", icon: "file" },
-          { title: "WhatsApp links", body: "Track opens of links you send over WhatsApp.", icon: "message" },
-          { title: "Short-link clicks", body: "Short links count clicks with bots filtered out.", icon: "link" },
+          { title: "Card Opens", body: "See when your digital card is opened.", icon: "card" },
+          { title: "PDF Opens", body: "Know when a brochure or catalogue you shared is opened.", icon: "file" },
+          { title: "WhatsApp Links", body: "Track opens of links you send over WhatsApp.", icon: "message" },
+          { title: "Short-link Clicks", body: "Short links count clicks with bots filtered out.", icon: "link" },
         ],
       },
       {
         type: "prose",
-        heading: "Why it matters",
+        heading: "Why It Matters",
         paragraphs: [
           "Follow-up is guesswork when you don’t know whether anything you sent was seen. An open tells you the person engaged, which is a good cue to call, reply or send the next piece of information.",
           "Because eCard filters bots from click counts, a click is more likely to be a real person than a link-preview crawler or security scanner.",
@@ -35,12 +35,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "What isn’t published",
+        title: "What Isn’t Published",
         body: "eCard’s site does not document report layouts, data retention for analytics or export formats for tracking data. Check the app for current details.",
       },
       {
         type: "bullets",
-        heading: "Common uses",
+        heading: "Common Uses",
         items: [
           "Prioritising call-backs after an expo",
           "Seeing whether a real-estate brochure was opened after a site visit",
@@ -60,7 +60,7 @@ export const pages: PageDef[] = [
           [
             "Your digital card",
             "Right after meeting someone, or in an email signature",
-            "They looked you up again — a good time to be easy to reach"
+            "They looked you up again, a good time to be easy to reach"
           ],
           [
             "A PDF (brochure, price list, profile)",
@@ -79,7 +79,7 @@ export const pages: PageDef[] = [
         "heading": "Sample: one contact, three signals",
         "paragraphs": [
           "Sample: Rohan Mehta, a fictional procurement head, received an intro email with a card link and a brochure link after a trade show. Over four days the card was opened once and the brochure twice; the WhatsApp link was never clicked.",
-          "Read together, that pattern suggests interest in the offer but no urgency to chat. A useful next step would be a short email answering the question the brochure most likely raises — pricing or delivery — rather than a WhatsApp nudge."
+          "Read together, that pattern suggests interest in the offer but no urgency to chat. A useful next step would be a short email answering the question the brochure most likely raises, pricing or delivery, rather than a WhatsApp nudge."
         ]
       },
       {
@@ -87,7 +87,7 @@ export const pages: PageDef[] = [
         "heading": "Pitfalls when you first turn tracking on",
         "items": [
           "Checking numbers hourly. Engagement in B2B usually unfolds over days, not minutes.",
-          "Treating zero opens as zero interest — people forward links, read on another device or simply reply.",
+          "Treating zero opens as zero interest: people forward links, read on another device or simply reply.",
           "Sending more links just to get more data. Each message should still earn its place.",
           "Forgetting to tell recipients what a link is. A clear label (“our 2-page price list”) gets more opens than a bare URL."
         ]
@@ -114,7 +114,7 @@ export const pages: PageDef[] = [
     title: "Card Views",
     seoTitle: "Card Views: See When Your Digital Card Is Opened",
     description: "Track views of your eCard digital business card, shared by QR code or short link, and use them as a cue for well-timed follow-ups.",
-    h1: "See when people actually look at your card",
+    h1: "See When People Actually Look At Your Card",
     eyebrow: "Analytics & Tracking",
     intro: "Your digital card is often the first thing a new contact opens after meeting you. eCard shows you those opens.",
     variant: "feature",
@@ -123,25 +123,25 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "How your card is shared",
+        heading: "How Your Card Is Shared",
         body: [
-          "eCard’s digital card comes with premium templates, a QR code, Save-to-contacts and a short link — for example a path like /c/rahul. No app is needed for the person opening it.",
+          "eCard’s digital card comes with premium templates, a QR code, Save-to-contacts and a short link, for example a path like /c/rahul. No app is needed for the person opening it.",
           "Each of those routes leads back to your card, and opens are visible in eCard’s link tracking.",
         ],
         points: ["QR code at a booth or on paper", "Short link in an email signature", "Link in a WhatsApp message"],
       },
       {
         type: "steps",
-        heading: "Putting views to work",
+        heading: "Putting Views To Work",
         steps: [
           { title: "Share", body: "Send your card after meeting someone." },
-          { title: "Watch for an open", body: "A view means they took a look." },
-          { title: "Follow up", body: "Reply with something useful while you’re on their mind." },
+          { title: "Watch For An Open", body: "A view means they took a look." },
+          { title: "Follow Up", body: "Reply with something useful while you’re on their mind." },
         ],
       },
       {
         type: "prose",
-        heading: "Reading views sensibly",
+        heading: "Reading Views Sensibly",
         paragraphs: [
           "A view tells you the card was opened, not why. Someone might be saving your number, checking your company or simply curious. Treat views as a gentle prompt, and combine them with what you know from the conversation.",
         ],
@@ -149,7 +149,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Detail level",
+        title: "Detail Level",
         body: "eCard’s site doesn’t state which details are recorded per view. See the app for exactly what is shown.",
       },
       {
@@ -180,7 +180,7 @@ export const pages: PageDef[] = [
           [
             "No views after sharing",
             "They saved the contact directly or haven’t needed it yet",
-            "Nothing — don’t chase a view"
+            "Nothing. Don’t chase a view"
           ]
         ]
       },
@@ -212,7 +212,7 @@ export const pages: PageDef[] = [
         "heading": "Common mistakes",
         "items": [
           "Printing an old URL on paper cards and then changing the card path.",
-          "Sharing a screenshot of the card instead of the link — screenshots can’t be tracked or saved to contacts.",
+          "Sharing a screenshot of the card instead of the link, screenshots can’t be tracked or saved to contacts.",
           "Assuming each view is a different person; one person can open your card several times."
         ]
       },
@@ -234,7 +234,7 @@ export const pages: PageDef[] = [
     title: "Link Clicks",
     seoTitle: "Link Clicks Counted With Bots Filtered Out",
     description: "eCard short links count clicks with bots filtered out, so the numbers you see reflect people rather than crawlers or link-preview robots.",
-    h1: "Clicks you can believe",
+    h1: "Clicks You Can Believe",
     eyebrow: "Analytics & Tracking",
     intro: "Raw click counts are noisy. eCard’s short links count clicks with bots filtered out, giving you a cleaner signal of human interest.",
     variant: "feature",
@@ -243,7 +243,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Where false clicks come from",
+        heading: "Where False Clicks Come From",
         paragraphs: [
           "In general, many link clicks aren’t people. Messaging apps fetch a preview when a link is pasted, email security tools open links to scan them, and search engines crawl anything public.",
           "Without filtering, a link shared once can look like it was clicked several times. eCard filters bots from its short-link click counts to reduce that noise.",
@@ -251,7 +251,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Typical sources of automated traffic",
+        heading: "Typical Sources Of Automated Traffic",
         intro: "General background, not an eCard specification:",
         headers: ["Source", "Why it clicks"],
         rows: [
@@ -262,9 +262,9 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "What to do with click data",
+        heading: "What To Do With Click Data",
         items: [
-          "Compare clicks across channels — email vs WhatsApp vs QR",
+          "Compare clicks across channels, email vs WhatsApp vs QR",
           "Follow up first with contacts who clicked",
           "Retire links or materials that nobody opens",
         ],
@@ -272,14 +272,14 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Filtering method",
+        title: "Filtering Method",
         body: "eCard doesn’t publish how bots are identified. No filter is perfect, so treat counts as a strong indication rather than an exact audit.",
       },
       {
         "type": "prose",
         "heading": "Why filtering bots changes decisions",
         "paragraphs": [
-          "When you paste a link into email or chat, it is often fetched by software before any human sees it — link previewers, security scanners and crawlers. If those fetches counted as clicks, every link you sent would look ‘opened’ within seconds, and you would call people who never looked.",
+          "When you paste a link into email or chat, it is often fetched by software before any human sees it: link previewers, security scanners and crawlers. If those fetches counted as clicks, every link you sent would look ‘opened’ within seconds, and you would call people who never looked.",
           "eCard’s short links count clicks with bots filtered out. That makes the count closer to human interest, which is the only thing worth acting on."
         ]
       },
@@ -316,7 +316,7 @@ export const pages: PageDef[] = [
         "steps": [
           {
             "title": "List links sent this week",
-            "body": "Card, brochure, WhatsApp — note who received each."
+            "body": "Card, brochure, WhatsApp, note who received each."
           },
           {
             "title": "Check filtered clicks",
@@ -336,14 +336,14 @@ export const pages: PageDef[] = [
         "type": "callout",
         "tone": "tip",
         "title": "Label every link",
-        "body": "Tell people what they’re clicking — “2-page price list” or “my card with directions”. Clear labels earn more genuine clicks."
+        "body": "Tell people what they’re clicking, “2-page price list” or “my card with directions”. Clear labels earn more genuine clicks."
       },
       {
         "type": "bullets",
         "heading": "Good reasons to send a tracked link",
         "items": [
           "They asked for details you can share as a PDF.",
-          "You want them to save your contact easily — share your card.",
+          "You want them to save your contact easily, share your card.",
           "A WhatsApp conversation is the natural next step."
         ]
       },
@@ -365,7 +365,7 @@ export const pages: PageDef[] = [
     title: "PDF Engagement",
     seoTitle: "PDF Engagement: Know When Your Brochure Is Opened",
     description: "Share brochures, catalogues and price lists as PDFs with eCard and see when they’re opened, so your follow-up lands when interest is high.",
-    h1: "Find out whether your PDF was opened",
+    h1: "Find Out Whether Your PDF Was Opened",
     eyebrow: "Analytics & Tracking",
     intro: "Brochures and catalogues are often the most important thing you send after a meeting. eCard’s link tracking shows you opens of PDFs, not just your card.",
     variant: "feature",
@@ -374,7 +374,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "PDFs worth tracking",
+        heading: "PDFs Worth Tracking",
         cards: [
           { title: "Brochures", body: "Project or product overviews after a site visit or expo.", icon: "book" },
           { title: "Catalogues", body: "Product ranges for distributors and buyers.", icon: "layers" },
@@ -383,25 +383,25 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "From the real-estate playbook",
+        heading: "From The Real-estate Playbook",
         paragraphs: [
           "eCard’s real-estate use case describes sending the brochure with your card and seeing who opened it, then following up on WhatsApp in Marathi or Hindi. The same idea works for any business that sends documents after a first meeting.",
         ],
       },
       {
         type: "steps",
-        heading: "A simple routine",
+        heading: "A Simple Routine",
         steps: [
-          { title: "Send the PDF with your card", body: "Share right after the meeting." },
-          { title: "Check opens", body: "Look at link tracking later that day." },
-          { title: "Follow up on opens", body: "Ask a specific question about what they read." },
-          { title: "Nudge non-openers", body: "Resend with a short summary in the message itself." },
+          { title: "Send The PDF With Your Card", body: "Share right after the meeting." },
+          { title: "Check Opens", body: "Look at link tracking later that day." },
+          { title: "Follow Up On Opens", body: "Ask a specific question about what they read." },
+          { title: "Nudge Non-openers", body: "Resend with a short summary in the message itself." },
         ],
       },
       {
         type: "callout",
         tone: "info",
-        title: "Not stated publicly",
+        title: "Not Stated Publicly",
         body: "eCard’s site says it tracks PDF opens. It doesn’t say whether page-level reading time is measured, so don’t rely on that.",
       },
       {
@@ -467,7 +467,7 @@ export const pages: PageDef[] = [
         "heading": "PDF mistakes that hurt engagement",
         "items": [
           "Huge files that are slow to open on a phone.",
-          "Out-of-date prices — tracking an old document tells you nothing useful.",
+          "Out-of-date prices, tracking an old document tells you nothing useful.",
           "No contact details inside the PDF, so a forwarded copy leads nowhere.",
           "Sending three PDFs at once; people open none."
         ]
@@ -494,9 +494,9 @@ export const pages: PageDef[] = [
     slug: "features/link-tracking/whatsapp-link-tracking",
     category: "analytics",
     title: "WhatsApp Link Tracking",
-    seoTitle: "WhatsApp Link Tracking for Follow-Up Messages",
+    seoTitle: "WhatsApp Link Tracking For Follow-Up Messages",
     description: "Track opens of links you send in WhatsApp messages from eCard, alongside AI-written messages in English, Hindi or Marathi opened in one tap.",
-    h1: "See which WhatsApp follow-ups get opened",
+    h1: "See Which WhatsApp Follow-ups Get Opened",
     eyebrow: "Analytics & Tracking",
     intro: "WhatsApp is where many conversations actually happen. eCard writes the message, opens it in WhatsApp in one tap, and tracks opens of the links inside.",
     variant: "feature",
@@ -505,23 +505,23 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "How it fits together",
+        heading: "How It Fits Together",
         steps: [
-          { title: "AI drafts the message", body: "In English, Hindi or Marathi." },
-          { title: "Open in WhatsApp", body: "One tap opens the message ready to send." },
-          { title: "Track the link", body: "Opens of links in the message appear in link tracking." },
+          { title: "AI Drafts The Message", body: "In English, Hindi or Marathi." },
+          { title: "Open In WhatsApp", body: "One tap opens the message ready to send." },
+          { title: "Track The Link", body: "Opens of links in the message appear in link tracking." },
         ],
       },
       {
         type: "prose",
-        heading: "Why track WhatsApp separately",
+        heading: "Why Track WhatsApp Separately",
         paragraphs: [
-          "Read receipts tell you a message was seen, but not whether anyone acted on it — and many people turn receipts off. A link open is a clearer sign of interest in what you shared.",
+          "Read receipts tell you a message was seen, but not whether anyone acted on it, and many people turn receipts off. A link open is a clearer sign of interest in what you shared.",
         ],
       },
       {
         type: "bullets",
-        heading: "Good WhatsApp follow-up habits",
+        heading: "Good WhatsApp Follow-up Habits",
         intro: "General etiquette:",
         items: [
           "Keep it short and personal, in the contact’s preferred language",
@@ -533,7 +533,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Message delivery",
+        title: "Message Delivery",
         body: "eCard opens the message in WhatsApp for you to send. Delivery and read status within WhatsApp itself aren’t part of eCard’s documented tracking.",
       },
       {
@@ -562,7 +562,7 @@ export const pages: PageDef[] = [
       {
         "type": "table",
         "heading": "WhatsApp or email?",
-        "intro": "General guidance — the right channel depends on the relationship.",
+        "intro": "General guidance, the right channel depends on the relationship.",
         "headers": [
           "Situation",
           "Usually better",
@@ -597,7 +597,7 @@ export const pages: PageDef[] = [
         "items": [
           "Messaging people who didn’t share a mobile number for that purpose.",
           "Sending long paragraphs; WhatsApp rewards short messages.",
-          "Following up on WhatsApp and email at the same moment — pick one."
+          "Following up on WhatsApp and email at the same moment, pick one."
         ]
       },
       {
@@ -611,7 +611,7 @@ export const pages: PageDef[] = [
 
     ],
     faqs: [
-      { q: "Does eCard send WhatsApp messages automatically?", a: "eCard’s site says the AI writes the message and opens it in WhatsApp in one tap — you send it." },
+      { q: "Does eCard send WhatsApp messages automatically?", a: "eCard’s site says the AI writes the message and opens it in WhatsApp in one tap, you send it." },
       { q: "Which languages are supported?", a: "English, Hindi (हिंदी) and Marathi (मराठी)." },
       { q: "Can I edit the AI-written WhatsApp message?", a: "The message opens in WhatsApp before you send it, so you can change anything there." },
       { q: "Do I need WhatsApp Business?", a: "eCard’s site says the message opens in WhatsApp in one tap; it doesn’t specify which WhatsApp app is required." },
@@ -624,9 +624,9 @@ export const pages: PageDef[] = [
     slug: "features/link-tracking/who-opened-your-card",
     category: "analytics",
     title: "Who Opened Your Card",
-    seoTitle: "Who Opened Your Card? Use Opens to Prioritise",
+    seoTitle: "Who Opened Your Card? Use Opens To Prioritise",
     description: "Use eCard’s card-open tracking to see engagement after you share your digital card, and decide who to follow up with first.",
-    h1: "Who opened your card — and what to do next",
+    h1: "Who Opened Your Card: And What To Do Next",
     eyebrow: "Analytics & Tracking",
     intro: "After an event you might share your card with dozens of people. Knowing which of them opened it helps you decide where to start.",
     variant: "guide",
@@ -635,7 +635,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "A sample prioritisation",
+        heading: "A Sample Prioritisation",
         intro: "Sample contacts, invented for illustration:",
         headers: ["Contact (sample)", "Card opened", "Suggested action"],
         rows: [
@@ -646,14 +646,14 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Matching opens to people",
+        heading: "Matching Opens To People",
         paragraphs: [
-          "Opens are most useful when you share links one-to-one, so each open belongs to a known conversation. eCard’s site doesn’t document how anonymous opens — say, from a QR code on a poster — are attributed, so expect those to be counted rather than named.",
+          "Opens are most useful when you share links one-to-one, so each open belongs to a known conversation. eCard’s site doesn’t document how anonymous opens (say, from a QR code on a poster) are attributed, so expect those to be counted rather than named.",
         ],
       },
       {
         type: "bullets",
-        heading: "Be a good recipient of the data",
+        heading: "Be A Good Recipient Of The Data",
         items: [
           "Don’t mention that you saw them open your card",
           "Lead with value, not with tracking",
@@ -663,8 +663,8 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Pair with meeting memory",
-        body: "Before following up, check the contact’s meeting memory — where you met and what was said — so your message picks up the conversation.",
+        title: "Pair With Meeting Memory",
+        body: "Before following up, check the contact’s meeting memory, where you met and what was said, so your message picks up the conversation.",
       },
       {
         "type": "steps",
@@ -711,13 +711,13 @@ export const pages: PageDef[] = [
           ],
           [
             "Repeated opens over several days",
-            "Medium–high",
+            "Medium to high",
             "Reach out with a specific answer"
           ],
           [
             "Opens plus a reply",
             "High",
-            "Respond promptly — the reply matters most"
+            "Respond promptly, the reply matters most"
           ]
         ]
       },
@@ -725,7 +725,7 @@ export const pages: PageDef[] = [
         "type": "bullets",
         "heading": "Pitfalls",
         "items": [
-          "Calling within minutes of an open — it feels like surveillance.",
+          "Calling within minutes of an open. It feels like surveillance.",
           "Assuming the person you sent it to is the one who opened it; links get forwarded.",
           "Ignoring people who replied without opening anything."
         ]
@@ -759,9 +759,9 @@ export const pages: PageDef[] = [
     slug: "features/link-tracking/short-link-analytics",
     category: "analytics",
     title: "Short-Link Analytics",
-    seoTitle: "Short-Link Analytics for Your Digital Card",
+    seoTitle: "Short-Link Analytics For Your Digital Card",
     description: "eCard digital cards use short links such as /c/rahul that count clicks with bots filtered out. Learn how to use short-link analytics well.",
-    h1: "Short links that are easy to share and measure",
+    h1: "Short Links That Are Easy To Share And Measure",
     eyebrow: "Analytics & Tracking",
     intro: "A short, readable link is easy to say aloud, type and print. eCard’s card short links also count clicks with bots filtered out.",
     variant: "feature",
@@ -770,16 +770,16 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "What a short link looks like",
+        heading: "What A Short Link Looks Like",
         body: [
-          "eCard’s example path is /c/rahul — short enough to fit on a slide or say during a call.",
+          "eCard’s example path is /c/rahul, short enough to fit on a slide or say during a call.",
           "Every click on the link is counted, with bot traffic filtered out.",
         ],
         points: ["Readable path", "Works with no app", "Click counts without bots"],
       },
       {
         type: "bullets",
-        heading: "Where to place your short link",
+        heading: "Where To Place Your Short Link",
         items: [
           "Email signature",
           "Social profiles and bios",
@@ -790,15 +790,15 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Comparing channels",
+        heading: "Comparing Channels",
         paragraphs: [
-          "If you place the same card link in many places, totals tell you overall interest. To compare channels, general practice is to vary your placement over time and watch how counts change — eCard’s site doesn’t document per-channel link variants.",
+          "If you place the same card link in many places, totals tell you overall interest. To compare channels, general practice is to vary your placement over time and watch how counts change. ECard’s site doesn’t document per-channel link variants.",
         ],
       },
       {
         type: "callout",
         tone: "info",
-        title: "Custom domains",
+        title: "Custom Domains",
         body: "Business and Enterprise plans include white label and custom domain, which lets your card links carry your own brand.",
       },
       {
@@ -816,7 +816,7 @@ export const pages: PageDef[] = [
         "items": [
           "It opens correctly on a phone in a normal browser.",
           "The card behind it has current details and a working Save-to-contacts button.",
-          "It is readable aloud — short paths are easier to dictate on a call.",
+          "It is readable aloud, short paths are easier to dictate on a call.",
           "The QR code version scans from arm’s length.",
           "You won’t need to change the path later; changing it breaks printed copies."
         ]
@@ -862,7 +862,7 @@ export const pages: PageDef[] = [
         "type": "prose",
         "heading": "Why one stable link is worth protecting",
         "paragraphs": [
-          "Every place your short link appears — a printed card, a stand banner, an email signature, a profile bio — is effectively permanent. Changing the path means those copies quietly stop working, and the analytics split across old and new links.",
+          "Every place your short link appears (a printed card, a stand banner, an email signature, a profile bio) is effectively permanent. Changing the path means those copies quietly stop working, and the analytics split across old and new links.",
           "Choose a short, memorable path once, keep the card behind it updated, and let the link accumulate history over time."
         ]
       },
@@ -879,7 +879,7 @@ export const pages: PageDef[] = [
       { q: "Can short links use my own domain?", a: "Custom domain is listed on the Business (₹2,999/month) and Enterprise plans." },
       { q: "Do short links count bot clicks?", a: "No. eCard’s short links count clicks with bots filtered out." },
       { q: "What does a short link look like?", a: "eCard’s site gives /c/rahul as an example path for a digital card." },
-      { q: "Can I put the short link on a paper card?", a: "Yes — print the link or its QR code. Just pick a path you won’t need to change." },
+      { q: "Can I put the short link on a paper card?", a: "Yes, print the link or its QR code. Just pick a path you won’t need to change." },
 
     ],
     related: ["features/link-tracking/link-clicks", "features/link-tracking/accurate-click-counts", "features/team-security/custom-domains", "features/digital-business-card"],
@@ -890,8 +890,8 @@ export const pages: PageDef[] = [
     category: "analytics",
     title: "Analytics Dashboard",
     seoTitle: "The eCard Analytics Dashboard, Explained",
-    description: "An overview of eCard analytics: what the site confirms is tracked — card, PDF and WhatsApp link opens and bot-filtered clicks — and how to review it.",
-    h1: "Your engagement at a glance",
+    description: "An overview of eCard analytics: what the site confirms is tracked (card, PDF and WhatsApp link opens and bot-filtered clicks) and how to review it.",
+    h1: "Your Engagement At A Glance",
     eyebrow: "Analytics & Tracking",
     intro: "eCard brings together opens of your card, PDFs and WhatsApp links. Here’s what is confirmed, and a routine for reviewing it.",
     variant: "reference",
@@ -900,7 +900,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Confirmed tracking",
+        heading: "Confirmed Tracking",
         headers: ["Item", "What’s tracked", "Source"],
         rows: [
           ["Digital card", "Opens", "eCard homepage"],
@@ -912,22 +912,22 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Layout varies",
+        title: "Layout Varies",
         body: "eCard’s public site has no screenshots or documentation of the analytics screen. Charts and filters shown in the app may differ from any description here.",
       },
       {
         type: "steps",
-        heading: "A weekly review routine",
+        heading: "A Weekly Review Routine",
         steps: [
-          { title: "Scan the totals", body: "Are opens up or down versus last week?" },
-          { title: "Find the warm contacts", body: "Who opened something but hasn’t heard back?" },
-          { title: "Check materials", body: "Which PDFs get opened, which don’t?" },
+          { title: "Scan The Totals", body: "Are opens up or down versus last week?" },
+          { title: "Find The Warm Contacts", body: "Who opened something but hasn’t heard back?" },
+          { title: "Check Materials", body: "Which PDFs get opened, which don’t?" },
           { title: "Act", body: "Book follow-ups before closing the screen." },
         ],
       },
       {
         type: "prose",
-        heading: "Keep it practical",
+        heading: "Keep It Practical",
         paragraphs: [
           "Analytics is only useful if it changes what you do. Ten minutes a week, ending with a short list of people to contact, beats an hour of staring at charts.",
         ],
@@ -955,7 +955,7 @@ export const pages: PageDef[] = [
           },
           {
             "title": "Note what worked",
-            "body": "Which PDF or message drew the most engagement — reuse it next week."
+            "body": "Which PDF or message drew the most engagement, reuse it next week."
           }
         ]
       },
@@ -970,8 +970,8 @@ export const pages: PageDef[] = [
         "rows": [
           [
             "Did anyone open the brochure I sent?",
-            "Yes — PDF opens",
-            "—"
+            "Yes, PDF opens",
+            "No"
           ],
           [
             "Is this buyer serious?",
@@ -996,7 +996,7 @@ export const pages: PageDef[] = [
         "items": [
           "Reviewing daily and over-reacting to small numbers.",
           "Looking only at totals and never at individual contacts.",
-          "Forgetting to act — a review that ends without assigned actions is just reading."
+          "Forgetting to act, a review that ends without assigned actions is just reading."
         ]
       },
       {
@@ -1007,7 +1007,7 @@ export const pages: PageDef[] = [
           "Put the review in your calendar at the same time each week.",
           "Keep a running list of actions decided in the review and tick them off.",
           "Compare this week with last week, not with an imagined ideal.",
-          "Stop after 15 minutes — the follow-up is the work, not the review."
+          "Stop after 15 minutes: the follow-up is the work, not the review."
         ]
       },
 
@@ -1033,9 +1033,9 @@ export const pages: PageDef[] = [
     slug: "features/link-tracking/contact-activity",
     category: "analytics",
     title: "Contact Activity",
-    seoTitle: "Contact Activity: Engagement Next to Each Person",
+    seoTitle: "Contact Activity: Engagement Next To Each Person",
     description: "Combine eCard link tracking with meeting memory and contact history to see each relationship’s activity before you reach out again.",
-    h1: "Every relationship, with its recent activity",
+    h1: "Every Relationship, With Its Recent Activity",
     eyebrow: "Analytics & Tracking",
     intro: "Before you message someone, it helps to see the whole picture: where you met, what you sent and whether they opened it.",
     variant: "feature",
@@ -1044,16 +1044,16 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Pieces of the picture",
+        heading: "Pieces Of The Picture",
         cards: [
-          { title: "Meeting memory", body: "Where you met, who introduced you, voice notes and a searchable AI summary.", icon: "brain" },
+          { title: "Meeting Memory", body: "Where you met, who introduced you, voice notes and a searchable AI summary.", icon: "brain" },
           { title: "Outreach", body: "Intro emails from your mailbox and WhatsApp messages.", icon: "mail" },
           { title: "Opens", body: "Opens of your card, PDFs and WhatsApp links.", icon: "eye" },
         ],
       },
       {
         type: "prose",
-        heading: "Why per-contact context matters",
+        heading: "Why Per-contact Context Matters",
         paragraphs: [
           "Aggregate numbers tell you how a campaign did. Per-contact context tells you what to say next to one person. A message that references the event, the conversation and the brochure they opened reads as attentive, not automated.",
           "eCard’s site does not detail exactly how activity is shown on a contact record, so check the app for the current view.",
@@ -1061,7 +1061,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Before you reach out, check",
+        heading: "Before You Reach Out, Check",
         items: [
           "When you last contacted them",
           "What they opened since",
@@ -1088,7 +1088,7 @@ export const pages: PageDef[] = [
           },
           {
             "title": "Your opener",
-            "body": "“You mentioned references — I can share two this week. Would Thursday suit for a call?”"
+            "body": "“You mentioned references, I can share two this week. Would Thursday suit for a call?”"
           }
         ]
       },
@@ -1123,7 +1123,7 @@ export const pages: PageDef[] = [
         "type": "bullets",
         "heading": "Pitfalls",
         "items": [
-          "Reading activity without memory — you know they opened something but not why it matters to them.",
+          "Reading activity without memory. You know they opened something but not why it matters to them.",
           "Not adding a note after each call, so the next person on the team starts from scratch.",
           "Mentioning opens on the call; refer to the conversation instead."
         ]
@@ -1132,7 +1132,7 @@ export const pages: PageDef[] = [
         "type": "prose",
         "heading": "Keeping the record useful for the next person",
         "paragraphs": [
-          "Contact history is most valuable when someone else picks it up — a colleague covering leave, or a manager taking over a key account. A short note after every meaningful touch (what was discussed, what was promised, what happens next) saves them from asking the contact to repeat themselves.",
+          "Contact history is most valuable when someone else picks it up: a colleague covering leave, or a manager taking over a key account. A short note after every meaningful touch (what was discussed, what was promised, what happens next) saves them from asking the contact to repeat themselves.",
           "Natural-language search helps here too: a question like “Investors I met in Mumbai last month” is only as good as the notes and tags behind it."
         ]
       },
@@ -1154,7 +1154,7 @@ export const pages: PageDef[] = [
     title: "Accurate Click Counts",
     seoTitle: "Accurate Click Counts Without Bot Inflation",
     description: "Why bot clicks inflate link statistics and how eCard filters them from short-link counts, so your engagement numbers reflect real people.",
-    h1: "Why accurate click counts matter",
+    h1: "Why Accurate Click Counts Matter",
     eyebrow: "Analytics & Tracking",
     intro: "Inflated numbers lead to bad decisions. eCard filters bots out of short-link click counts so you can trust what you see.",
     variant: "guide",
@@ -1163,15 +1163,15 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "The inflation problem",
+        heading: "The Inflation Problem",
         paragraphs: [
-          "If every link preview and security scanner were counted, you’d see clicks within seconds of sending — before any human could have read the message. That leads people to follow up with contacts who never actually looked.",
+          "If every link preview and security scanner were counted, you’d see clicks within seconds of sending, before any human could have read the message. That leads people to follow up with contacts who never actually looked.",
           "eCard’s short links count clicks with bots filtered out, reducing those false positives.",
         ],
       },
       {
         type: "split",
-        heading: "Signs a click might still be automated",
+        heading: "Signs A Click Might Still Be Automated",
         body: [
           "No filter is perfect. As general guidance, be sceptical of clicks that arrive the instant a message is sent, or bursts of clicks at odd hours.",
         ],
@@ -1179,17 +1179,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Use counts wisely",
+        heading: "Use Counts Wisely",
         steps: [
-          { title: "Look at trends", body: "Week-on-week changes are more reliable than single clicks." },
-          { title: "Combine signals", body: "A click plus a reply beats a click alone." },
+          { title: "Look At Trends", body: "Week-on-week changes are more reliable than single clicks." },
+          { title: "Combine Signals", body: "A click plus a reply beats a click alone." },
           { title: "Ask", body: "When in doubt, a friendly check-in is cheap." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Method not published",
+        title: "Method Not Published",
         body: "eCard doesn’t publish its bot-detection rules, so precise accuracy figures aren’t available.",
       },
       {
@@ -1251,7 +1251,7 @@ export const pages: PageDef[] = [
         "type": "prose",
         "heading": "Why inflated numbers are worse than no numbers",
         "paragraphs": [
-          "A count that includes previews and scanners doesn’t just add noise — it actively misleads. It makes every send look successful, hides which messages actually work and pushes you to chase people who never saw anything.",
+          "A count that includes previews and scanners doesn’t just add noise, it actively misleads. It makes every send look successful, hides which messages actually work and pushes you to chase people who never saw anything.",
           "With bots filtered out, a lower but more honest number lets you compare messages, brochures and events fairly, and spend your follow-up time where it is most likely to matter."
         ]
       },
@@ -1260,7 +1260,7 @@ export const pages: PageDef[] = [
         "type": "callout",
         "tone": "tip",
         "title": "Compare like with like",
-        "body": "When judging a message, compare its filtered clicks with similar sends — same audience, similar timing — rather than with a different campaign."
+        "body": "When judging a message, compare its filtered clicks with similar sends (same audience, similar timing) rather than with a different campaign."
       },
     ],
     faqs: [
@@ -1278,9 +1278,9 @@ export const pages: PageDef[] = [
     slug: "features/link-tracking/engagement-signals",
     category: "analytics",
     title: "Engagement Signals",
-    seoTitle: "Engagement Signals That Tell You When to Follow Up",
+    seoTitle: "Engagement Signals That Tell You When To Follow Up",
     description: "Turn card opens, PDF opens and WhatsApp link clicks from eCard into simple engagement signals that help you choose who to contact and when.",
-    h1: "Signals that tell you when to reach out",
+    h1: "Signals That Tell You When To Reach Out",
     eyebrow: "Analytics & Tracking",
     intro: "Not every contact is ready to talk at the same time. Engagement signals help you spot the ones who are.",
     variant: "guide",
@@ -1289,7 +1289,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Reading common signals",
+        heading: "Reading Common Signals",
         intro: "General interpretation guidance:",
         headers: ["Signal", "Likely meaning", "Suggested response"],
         rows: [
@@ -1301,14 +1301,14 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Signals, not scores",
+        heading: "Signals, Not Scores",
         paragraphs: [
-          "eCard shows opens of your card, PDFs and WhatsApp links. The site doesn’t describe an automatic lead score, so you combine these signals yourself — which also keeps you thinking about the person rather than a number.",
+          "eCard shows opens of your card, PDFs and WhatsApp links. The site doesn’t describe an automatic lead score, so you combine these signals yourself, which also keeps you thinking about the person rather than a number.",
         ],
       },
       {
         type: "bullets",
-        heading: "Combine with what you know",
+        heading: "Combine With What You Know",
         items: [
           "Tags from the event review",
           "Meeting memory notes",
@@ -1319,7 +1319,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Speed beats polish",
+        title: "Speed Beats Polish",
         body: "When a strong signal appears, a quick, relevant message usually does better than a perfect one sent days later.",
       },
       {
@@ -1360,7 +1360,7 @@ export const pages: PageDef[] = [
           [
             "Sample E",
             "Replied, no opens",
-            "Engaged — reply beats opens",
+            "Engaged, reply beats opens",
             "Respond promptly"
           ]
         ]
@@ -1429,7 +1429,7 @@ export const pages: PageDef[] = [
     title: "Measuring Follow-Up",
     seoTitle: "Measuring Follow-Up: Simple Metrics That Matter",
     description: "Simple ways to measure your follow-up after events and meetings using eCard opens and your own reply tracking, without building complex reports.",
-    h1: "Measure follow-up without a spreadsheet marathon",
+    h1: "Measure Follow-up Without A Spreadsheet Marathon",
     eyebrow: "Analytics & Tracking",
     intro: "You can’t improve follow-up you don’t measure. A handful of simple numbers, reviewed regularly, is enough.",
     variant: "guide",
@@ -1438,7 +1438,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Four useful numbers",
+        heading: "Four Useful Numbers",
         intro: "General metrics you can track per event or per month:",
         headers: ["Metric", "How to get it"],
         rows: [
@@ -1450,16 +1450,16 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Set up in a few minutes",
+        heading: "Set Up In A Few Minutes",
         steps: [
-          { title: "Use events", body: "Group each show or meetup." },
-          { title: "Agree two tags", body: "For example replied and meeting-booked." },
-          { title: "Review monthly", body: "Note the four numbers per event." },
+          { title: "Use Events", body: "Group each show or meetup." },
+          { title: "Agree Two Tags", body: "For example replied and meeting-booked." },
+          { title: "Review Monthly", body: "Note the four numbers per event." },
         ],
       },
       {
         type: "prose",
-        heading: "What good looks like",
+        heading: "What Good Looks Like",
         paragraphs: [
           "Benchmarks vary widely by industry, so compare yourself with your own last event rather than a universal number. If more people opened your material but fewer replied, the content may need work; if few opened anything, look at timing or channel.",
         ],
@@ -1467,8 +1467,8 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Time saved",
-        body: "eCard’s time-saved calculator is labelled “Estimates, not promises” — a good attitude for any follow-up metric.",
+        title: "Time Saved",
+        body: "eCard’s time-saved calculator is labelled “Estimates, not promises”, a good attitude for any follow-up metric.",
       },
       {
         "type": "table",
@@ -1533,7 +1533,7 @@ export const pages: PageDef[] = [
         "type": "bullets",
         "heading": "Pitfalls",
         "items": [
-          "Measuring only scans — volume isn’t outcome.",
+          "Measuring only scans, volume isn’t outcome.",
           "Changing several things at once, so you can’t tell what helped.",
           "Comparing an expo month to a quiet month without noting the difference."
         ]
@@ -1543,7 +1543,7 @@ export const pages: PageDef[] = [
         "heading": "Why a personal baseline beats industry benchmarks",
         "paragraphs": [
           "Published “average reply rates” mix industries, regions and audiences that have little to do with your own. A number from your last three months is far more useful: it reflects your market, your message and the people you actually meet.",
-          "Record the same handful of measures each month, note anything unusual — a big expo, a holiday week — and judge changes against your own past rather than someone else’s."
+          "Record the same handful of measures each month, note anything unusual (a big expo, a holiday week) and judge changes against your own past rather than someone else’s."
         ]
       },
 
@@ -1569,9 +1569,9 @@ export const pages: PageDef[] = [
     slug: "features/link-tracking/reading-your-analytics",
     category: "analytics",
     title: "Reading Your Analytics",
-    seoTitle: "How to Read Card and Link Analytics Sensibly",
+    seoTitle: "How To Read Card And Link Analytics Sensibly",
     description: "A practical guide to interpreting eCard opens and click counts: what they tell you, what they don’t, and common mistakes to avoid.",
-    h1: "Reading your analytics without over-reading them",
+    h1: "Reading Your Analytics Without Over-reading Them",
     eyebrow: "Analytics & Tracking",
     intro: "Opens and clicks are useful, but easy to misread. Here’s how to interpret them sensibly.",
     variant: "guide",
@@ -1580,7 +1580,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "bullets",
-        heading: "What opens tell you",
+        heading: "What Opens Tell You",
         items: [
           "Someone looked at what you sent",
           "Roughly when interest happened",
@@ -1589,25 +1589,25 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "What they don’t tell you",
+        heading: "What They Don’t Tell You",
         items: [
           "Whether the person liked what they saw",
           "Whether they’re the decision-maker",
-          "Why they didn’t open — busy and uninterested look the same",
+          "Why they didn’t open, busy and uninterested look the same",
         ],
       },
       {
         type: "cards",
-        heading: "Common mistakes",
+        heading: "Common Mistakes",
         cards: [
-          { title: "Chasing every open", body: "Calling the moment a card is opened can feel intrusive.", icon: "bell" },
-          { title: "Ignoring non-openers", body: "Many people read on another device or save for later.", icon: "eye" },
-          { title: "Small samples", body: "Five shares aren’t enough to judge a brochure.", icon: "chart" },
+          { title: "Chasing Every Open", body: "Calling the moment a card is opened can feel intrusive.", icon: "bell" },
+          { title: "Ignoring Non-openers", body: "Many people read on another device or save for later.", icon: "eye" },
+          { title: "Small Samples", body: "Five shares aren’t enough to judge a brochure.", icon: "chart" },
         ],
       },
       {
         type: "prose",
-        heading: "A healthier mindset",
+        heading: "A Healthier Mindset",
         paragraphs: [
           "Treat analytics as a way to order your to-do list, not a verdict on a relationship. eCard filters bots from short-link clicks, which helps, but the conversation is still the real measure.",
         ],
@@ -1625,22 +1625,22 @@ export const pages: PageDef[] = [
           [
             "Brochure opened 4 times",
             "“They’re ready to buy”",
-            "Interested, maybe sharing internally — offer help"
+            "Interested, maybe sharing internally, offer help"
           ],
           [
             "No opens after a week",
             "“They’re not interested”",
-            "Unknown — they may have saved details or been busy"
+            "Unknown. They may have saved details or been busy"
           ],
           [
             "Card opened at 11 pm",
             "“They’re obsessed”",
-            "They had time in the evening — nothing more"
+            "They had time in the evening, nothing more"
           ],
           [
             "Card opened months later",
             "“Random”",
-            "Possibly a referral or a new need — a timely check-in may help"
+            "Possibly a referral or a new need, a timely check-in may help"
           ]
         ]
       },
@@ -1676,7 +1676,7 @@ export const pages: PageDef[] = [
         "heading": "Habits of people who read analytics well",
         "items": [
           "They look weekly, not hourly.",
-          "They compare like with like — this show versus last show.",
+          "They compare like with like. This show versus last show.",
           "They never mention tracking to the contact.",
           "They write down what they decided, so the next review builds on it."
         ]
@@ -1701,7 +1701,7 @@ export const pages: PageDef[] = [
       { q: "Are numbers real-time?", a: "eCard doesn’t state update frequency publicly." },
       { q: "Should I follow up immediately after an open?", a: "Usually not. Waiting a little and sending something genuinely useful feels more natural than an instant message." },
       { q: "Why do some links get opened by colleagues?", a: "People often forward useful links internally. Several opens from one contact’s link can mean a team is discussing your offer." },
-      { q: "Can analytics tell me why someone didn’t reply?", a: "No. Analytics show what happened with links, not why. Only the person can tell you that — a polite, specific question often does." },
+      { q: "Can analytics tell me why someone didn’t reply?", a: "No. Analytics show what happened with links, not why. Only the person can tell you that: a polite, specific question often does." },
     ],
     related: ["features/link-tracking/dashboard", "features/link-tracking/accurate-click-counts", "features/link-tracking/who-opened-your-card", "features/link-tracking/engagement-signals"],
     source: "educational",
@@ -1711,8 +1711,8 @@ export const pages: PageDef[] = [
     category: "analytics",
     title: "Brochure Tracking",
     seoTitle: "Brochure Tracking: Send With Your Card, See Opens",
-    description: "Send your brochure together with your eCard digital card and see who opened it — the workflow eCard describes for real-estate site visits.",
-    h1: "Know which brochures get read",
+    description: "Send your brochure together with your eCard digital card and see who opened it, the workflow eCard describes for real-estate site visits.",
+    h1: "Know Which Brochures Get Read",
     eyebrow: "Analytics & Tracking",
     intro: "eCard’s real-estate use case puts it plainly: send the brochure with your card and see who opened it. The same idea works anywhere you share a brochure.",
     variant: "solution",
@@ -1721,17 +1721,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "The workflow",
+        heading: "The Workflow",
         steps: [
-          { title: "Scan the visitor’s card", body: "On site, in the phone browser or via Telegram." },
-          { title: "Send brochure + card", body: "Share both together." },
-          { title: "See who opened it", body: "Check PDF and card opens." },
-          { title: "Follow up on WhatsApp", body: "In Marathi, Hindi or English, written by AI and opened in one tap." },
+          { title: "Scan The Visitor’s Card", body: "On site, in the phone browser or via Telegram." },
+          { title: "Send Brochure + Card", body: "Share both together." },
+          { title: "See Who Opened It", body: "Check PDF and card opens." },
+          { title: "Follow Up On WhatsApp", body: "In Marathi, Hindi or English, written by AI and opened in one tap." },
         ],
       },
       {
         type: "split",
-        heading: "Beyond real estate",
+        heading: "Beyond Real Estate",
         body: [
           "Manufacturers send catalogues, consultants send capability decks and training providers send course outlines. In each case, knowing whether the document was opened shapes the next call.",
           "eCard doesn’t imply customers in these industries; these are illustrations of the workflow.",
@@ -1740,7 +1740,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Brochure tips",
+        heading: "Brochure Tips",
         intro: "General guidance:",
         items: [
           "Keep the file small enough to open on mobile data",
@@ -1752,7 +1752,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Scope of tracking",
+        title: "Scope Of Tracking",
         body: "eCard tracks PDF opens. Page-by-page reading isn’t mentioned on the site.",
       },
       {
@@ -1789,7 +1789,7 @@ export const pages: PageDef[] = [
         ],
         "rows": [
           [
-            "Short PDF (2–6 pages)",
+            "Short PDF (2-6 pages)",
             "Quick to open, easy to forward",
             "Limited detail"
           ],
@@ -1809,7 +1809,7 @@ export const pages: PageDef[] = [
         "type": "bullets",
         "heading": "Pitfalls",
         "items": [
-          "One brochure for every audience — buyers and brokers want different things.",
+          "One brochure for every audience, buyers and brokers want different things.",
           "No date or version on the brochure, so old copies circulate.",
           "Calling everyone who opened it on the same afternoon."
         ]
@@ -1835,10 +1835,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/link-tracking/analytics-for-teams",
     category: "analytics",
-    title: "Analytics for Teams",
-    seoTitle: "Analytics for Teams: Shared Engagement Insights",
+    title: "Analytics For Teams",
+    seoTitle: "Analytics For Teams: Shared Engagement Insights",
     description: "How sales and event teams can use eCard tracking together in one workspace, with roles, shared contacts and a simple weekly engagement review.",
-    h1: "Team analytics that drive action, not arguments",
+    h1: "Team Analytics That Drive Action, Not Arguments",
     eyebrow: "Analytics & Tracking",
     intro: "When several people share cards and brochures, engagement data helps the team agree on who follows up with whom.",
     variant: "solution",
@@ -1847,24 +1847,24 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "One workspace, one view",
+        heading: "One Workspace, One View",
         paragraphs: [
-          "eCard workspaces support roles — owner, admin, manager, member and scan-only guest — and an audit log. Sharing contacts in one workspace means opens are visible against the same relationship, not scattered across personal phones.",
+          "eCard workspaces support roles (owner, admin, manager, member and scan-only guest) and an audit log. Sharing contacts in one workspace means opens are visible against the same relationship, not scattered across personal phones.",
           "eCard’s site doesn’t document per-user analytics breakdowns or team leaderboards, so check the app for what managers can see.",
         ],
       },
       {
         type: "steps",
-        heading: "A weekly team review",
+        heading: "A Weekly Team Review",
         steps: [
-          { title: "List warm contacts", body: "Anyone who opened a card or PDF without a reply." },
-          { title: "Assign owners", body: "One person per contact to avoid double follow-ups." },
-          { title: "Share what worked", body: "Which brochure or message got opens." },
+          { title: "List Warm Contacts", body: "Anyone who opened a card or PDF without a reply." },
+          { title: "Assign Owners", body: "One person per contact to avoid double follow-ups." },
+          { title: "Share What Worked", body: "Which brochure or message got opens." },
         ],
       },
       {
         type: "table",
-        heading: "Seats by plan",
+        heading: "Seats By Plan",
         headers: ["Plan", "Users", "Monthly price"],
         rows: [
           ["Free", "5", "₹0"],
@@ -1877,7 +1877,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Coach, don’t police",
+        title: "Coach, Don’t Police",
         body: "Use engagement data to share good practice. Teams adopt tools faster when analytics feels helpful rather than surveillant.",
       },
       {
@@ -1908,7 +1908,7 @@ export const pages: PageDef[] = [
           [
             "Scan-only guest",
             "Nothing beyond scanning",
-            "—"
+            "No"
           ]
         ]
       },
@@ -1942,7 +1942,7 @@ export const pages: PageDef[] = [
         "type": "bullets",
         "heading": "Pitfalls",
         "items": [
-          "Using opens to rank people — it rewards sending links, not building relationships.",
+          "Using opens to rank people: it rewards sending links, not building relationships.",
           "Two members following up on the same engaged contact.",
           "Letting the review drift into a status meeting with no actions."
         ]
@@ -1958,7 +1958,7 @@ export const pages: PageDef[] = [
         "heading": "Sample: a team learning from its own data",
         "paragraphs": [
           "Sample: a fictional six-person distribution team notices over two months that contacts who receive a two-page price list engage more than those who receive the full 30-page catalogue. They switch the default follow-up to the short version and keep the catalogue for people who ask.",
-          "Nothing about this required complex analytics — just a consistent weekly review and a willingness to change one thing at a time."
+          "Nothing about this required complex analytics, just a consistent weekly review and a willingness to change one thing at a time."
         ]
       },
 

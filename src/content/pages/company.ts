@@ -5,10 +5,10 @@ const base: PageDef[] = [
     slug: "",
     category: "company",
     title: "Home",
-    seoTitle: "eCard — AI Visiting Card CRM",
+    seoTitle: "eCard | AI Visiting Card CRM",
     description: "eCard is the AI visiting-card CRM. Scan, remember and follow up with every person you meet. 50 free scans, no card required, 14-day Pro trial.",
-    h1: "Every card you collect, scanned into a relationship.",
-    eyebrow: "AI visiting-card CRM",
+    h1: "Every Card You Collect, Scanned Into A Relationship.",
+    eyebrow: "AI Visiting-card CRM",
     intro: "The AI visiting-card CRM. Scan, remember and follow up with every person you meet.",
     variant: "feature",
     visual: "scan",
@@ -17,9 +17,9 @@ const base: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "What eCard does",
+        heading: "What eCard Does",
         paragraphs: [
-          "eCard reads visiting cards with the AI model you choose, lets you review every field before it is saved, and helps you follow up by email from your own mailbox or by WhatsApp in English, Hindi or Marathi. It works in any phone browser — no app to install.",
+          "eCard reads visiting cards with the AI model you choose, lets you review every field before it is saved, and helps you follow up by email from your own mailbox or by WhatsApp in English, Hindi or Marathi. It works in any phone browser, no app to install.",
         ],
       },
     ],
@@ -32,7 +32,7 @@ const base: PageDef[] = [
     title: "About eCard",
     seoTitle: "About eCard: The AI Visiting-Card CRM",
     description: "Learn what eCard is, who it is built for and why it treats every visiting card as the start of a relationship rather than a slip of paper in a drawer.",
-    h1: "Built for people who collect cards for a living",
+    h1: "Built For People Who Collect Cards For A Living",
     eyebrow: "About",
     intro: "eCard turns the visiting cards you collect into searchable contacts, remembered meetings and timely follow-ups. It runs in any phone browser, starts at ₹0 and grows with your team.",
     variant: "feature",
@@ -41,7 +41,7 @@ const base: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Why eCard exists",
+        heading: "Why eCard Exists",
         paragraphs: [
           "Most visiting cards end up in a pocket, a drawer or a rubber-banded stack on a desk. The conversation that came with the card fades within days, and the follow-up that would have turned a handshake into a deal never gets sent.",
           "eCard is designed around a simple idea: every card you collect should become a relationship you can act on. You scan the card, the AI reads it, you check the fields, and eCard helps you remember where you met and send the first message while the meeting is still fresh.",
@@ -49,30 +49,30 @@ const base: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "What we focus on",
+        heading: "What We Focus On",
         cards: [
-          { title: "Scan", body: "AI reads cards with the model you choose — Claude, OpenAI, Gemini, DeepSeek or Grok — and shows a confidence score for each field.", icon: "scan" },
+          { title: "Scan", body: "AI reads cards with the model you choose (Claude, OpenAI, Gemini, DeepSeek or Grok) and shows a confidence score for each field.", icon: "scan" },
           { title: "Remember", body: "Meeting memory keeps where you met, who introduced you, voice notes and a searchable AI summary.", icon: "brain" },
-          { title: "Follow up", body: "Intro emails send from your own SMTP after a 5-second preview, and WhatsApp messages open in one tap.", icon: "send" },
+          { title: "Follow Up", body: "Intro emails send from your own SMTP after a 5-second preview, and WhatsApp messages open in one tap.", icon: "send" },
           { title: "Share", body: "A digital business card with premium templates, QR code, Save-to-contacts and tracked short links.", icon: "card" },
         ],
       },
       {
         type: "split",
-        heading: "Principles behind the product",
+        heading: "Principles Behind The Product",
         body: [
           "eCard lets you bring your own AI key, sends email from your own mailbox and keeps nothing until you have reviewed it. Those choices keep you in control of your data, your sender reputation and your costs.",
         ],
         points: [
           "Nothing is saved until you review it",
           "Bring your own AI key, encrypted with AES-256-GCM",
-          "Works in any phone browser — no app to install",
+          "Works in any phone browser, no app to install",
           "Start free with 50 scans a month",
         ],
       },
       {
         type: "bullets",
-        heading: "Who it is for",
+        heading: "Who It Is For",
         intro: "eCard suits anyone whose pipeline starts with a handshake. Typical examples include:",
         items: [
           "Real-estate professionals turning site-visit cards into booked visits",
@@ -84,7 +84,7 @@ const base: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Get in touch",
+        title: "Get In Touch",
         body: "For Enterprise plans, custom pricing or partnership questions, write to sales@bizzfly.com.",
       },
     ],
@@ -102,7 +102,7 @@ const base: PageDef[] = [
     title: "Contact",
     seoTitle: "Contact eCard",
     description: "How to reach the eCard team: sales and Enterprise enquiries by email, account help through sign-in and password reset, and answers in the help centre.",
-    h1: "Talk to the eCard team",
+    h1: "Talk To The eCard Team",
     eyebrow: "Contact",
     intro: "Whether you are comparing plans, stuck signing in or planning a rollout for a large team, here is the quickest way to get an answer.",
     variant: "support",
@@ -111,27 +111,27 @@ const base: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Choose the right channel",
+        heading: "Choose The Right Channel",
         cards: [
           { title: "Sales & Enterprise", body: "Email sales@bizzfly.com for custom pricing, Enterprise plans or volume questions.", icon: "briefcase" },
-          { title: "Sign-in problems", body: "Use the forgot-password page at ecard.gg/forgot-password to reset your password.", icon: "key" },
-          { title: "Common questions", body: "The help centre and FAQ cover scanning, email sending, Telegram, billing and privacy.", icon: "help" },
+          { title: "Sign-in Problems", body: "Use the forgot-password page at ecard.gg/forgot-password to reset your password.", icon: "key" },
+          { title: "Common Questions", body: "The help centre and FAQ cover scanning, email sending, Telegram, billing and privacy.", icon: "help" },
         ],
       },
       {
         type: "steps",
-        heading: "Before you write to us",
+        heading: "Before You Write To Us",
         intro: "A little context helps us reply faster. Include:",
         steps: [
-          { title: "Your workspace", body: "The email address you signed up with and the workspace name, if you have one." },
-          { title: "Your plan", body: "Free, Starter, Professional, Business or Enterprise — or whether you are on the 14-day trial." },
-          { title: "What happened", body: "What you expected, what you saw instead and roughly when it happened." },
-          { title: "What you need", body: "A quote, a fix, a feature question or help planning a team rollout." },
+          { title: "Your Workspace", body: "The email address you signed up with and the workspace name, if you have one." },
+          { title: "Your Plan", body: "Free, Starter, Professional, Business or Enterprise, or whether you are on the 14-day trial." },
+          { title: "What Happened", body: "What you expected, what you saw instead and roughly when it happened." },
+          { title: "What You Need", body: "A quote, a fix, a feature question or help planning a team rollout." },
         ],
       },
       {
         type: "prose",
-        heading: "Sales enquiries",
+        heading: "Sales Enquiries",
         paragraphs: [
           "If your organisation needs unlimited users, unlimited storage and scans, white label and a custom domain with commercial terms that fit, the Enterprise plan is priced on request. Tell us roughly how many people will scan cards, how you plan to send email and which features matter most.",
           "For teams that simply want to start, the Free, Starter, Professional and Business plans can be chosen at sign-up without talking to anyone.",
@@ -140,8 +140,8 @@ const base: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Fastest answer",
-        body: "Many questions about scanning, SMTP setup and the Telegram bot are already answered in the help centre — check there first.",
+        title: "Fastest Answer",
+        body: "Many questions about scanning, SMTP setup and the Telegram bot are already answered in the help centre, check there first.",
       },
     ],
     faqs: [
@@ -155,9 +155,9 @@ const base: PageDef[] = [
     slug: "contact-sales",
     category: "company",
     title: "Contact Sales",
-    seoTitle: "Contact eCard Sales for Enterprise Pricing",
+    seoTitle: "Contact eCard Sales For Enterprise Pricing",
     description: "Planning eCard for a large team? Contact sales for Enterprise pricing with unlimited users, storage and scans plus white label and a custom domain.",
-    h1: "Plan an eCard rollout with our sales team",
+    h1: "Plan An eCard Rollout With Our Sales Team",
     eyebrow: "Enterprise",
     intro: "Enterprise is eCard's custom-priced plan for large organisations. Email sales@bizzfly.com and we will work out the right fit.",
     variant: "reference",
@@ -166,11 +166,11 @@ const base: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Business vs Enterprise",
+        heading: "Business Vs Enterprise",
         intro: "Both top plans share the same feature set; Enterprise adds custom commercial terms.",
         headers: ["", "Business", "Enterprise"],
         rows: [
-          ["Price", "₹2,999 / month", "Custom — contact sales"],
+          ["Price", "₹2,999 / month", "Custom, contact sales"],
           ["Users", "Unlimited", "Unlimited"],
           ["Storage", "Unlimited", "Unlimited"],
           ["Scans per month", "Unlimited", "Unlimited"],
@@ -180,7 +180,7 @@ const base: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Good reasons to talk to sales",
+        heading: "Good Reasons To Talk To Sales",
         items: [
           "You are rolling eCard out across several branches or departments",
           "You need pricing approved through procurement",
@@ -190,18 +190,18 @@ const base: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "How the conversation usually goes",
+        heading: "How The Conversation Usually Goes",
         steps: [
-          { title: "Email us", body: "Write to sales@bizzfly.com with your team size and goals." },
-          { title: "Try it", body: "Start a 14-day Professional trial — no card needed — so your team can test real cards." },
-          { title: "Agree terms", body: "We discuss pricing and the plan that fits." },
-          { title: "Roll out", body: "Invite your team with the right roles: owner, admin, manager, member or scan-only guest." },
+          { title: "Email Us", body: "Write to sales@bizzfly.com with your team size and goals." },
+          { title: "Try It", body: "Start a 14-day Professional trial, no card needed, so your team can test real cards." },
+          { title: "Agree Terms", body: "We discuss pricing and the plan that fits." },
+          { title: "Roll Out", body: "Invite your team with the right roles: owner, admin, manager, member or scan-only guest." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "What to include",
+        title: "What To Include",
         body: "Expected number of users, typical monthly scan volume and the email provider you plan to send from help us respond with something useful.",
       },
     ],
@@ -217,9 +217,9 @@ const base: PageDef[] = [
     slug: "why-ecard",
     category: "company",
     title: "Why eCard",
-    seoTitle: "Why Choose eCard for Visiting Cards",
+    seoTitle: "Why Choose eCard For Visiting Cards",
     description: "Why teams pick eCard: AI scanning with your own key, review before save, 5-second intro emails from your mailbox and WhatsApp in three languages.",
-    h1: "Why people switch to eCard",
+    h1: "Why People Switch To eCard",
     eyebrow: "Why eCard",
     intro: "Plenty of tools can read text off a card. eCard is built for what happens next: remembering the meeting and following up before the moment passes.",
     variant: "feature",
@@ -228,19 +228,19 @@ const base: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What sets it apart",
+        heading: "What Sets It Apart",
         cards: [
-          { title: "Your AI, your key", body: "Choose Claude, OpenAI, Gemini, DeepSeek or Grok, bring your own key and add a key pool with failover.", icon: "brain" },
-          { title: "Review before save", body: "Each field gets a confidence score and nothing is saved until you review it.", icon: "eye" },
-          { title: "Your own mailbox", body: "Intro emails send from your own SMTP after a 5-second preview you can edit or cancel.", icon: "mail" },
-          { title: "WhatsApp, locally", body: "AI writes messages in English, Hindi or Marathi and opens them in WhatsApp in one tap.", icon: "message" },
-          { title: "Memory, not just contacts", body: "Where you met, who introduced you, voice notes and a searchable AI summary.", icon: "clock" },
-          { title: "No app to install", body: "Works in any phone browser, plus a Telegram bot for snapping cards.", icon: "smartphone" },
+          { title: "Your AI, Your Key", body: "Choose Claude, OpenAI, Gemini, DeepSeek or Grok, bring your own key and add a key pool with failover.", icon: "brain" },
+          { title: "Review Before Save", body: "Each field gets a confidence score and nothing is saved until you review it.", icon: "eye" },
+          { title: "Your Own Mailbox", body: "Intro emails send from your own SMTP after a 5-second preview you can edit or cancel.", icon: "mail" },
+          { title: "WhatsApp, Locally", body: "AI writes messages in English, Hindi or Marathi and opens them in WhatsApp in one tap.", icon: "message" },
+          { title: "Memory, Not Just Contacts", body: "Where you met, who introduced you, voice notes and a searchable AI summary.", icon: "clock" },
+          { title: "No App To Install", body: "Works in any phone browser, plus a Telegram bot for snapping cards.", icon: "smartphone" },
         ],
       },
       {
         type: "table",
-        heading: "eCard compared with a card pile or a spreadsheet",
+        heading: "eCard Compared With A Card Pile Or A Spreadsheet",
         headers: ["Task", "Paper or spreadsheet", "eCard"],
         rows: [
           ["Capture details", "Type by hand", "AI reads the card, you review"],
@@ -251,7 +251,7 @@ const base: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Honest about the numbers",
+        heading: "Honest About The Numbers",
         paragraphs: [
           "eCard includes a time-saved calculator, and it is labelled for what it is: estimates, not promises. How much time you save depends on how many cards you collect and how quickly you follow up today.",
         ],
@@ -259,7 +259,7 @@ const base: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "See it for yourself",
+        title: "See It For Yourself",
         body: "Start with 50 free scans a month, or try the sample scan with one of three personas: a Realtor, a Doctor or a Startup founder.",
       },
     ],
@@ -276,8 +276,8 @@ const base: PageDef[] = [
     title: "How It Works",
     seoTitle: "How eCard Works: Scan, Review, Follow Up",
     description: "See how eCard works step by step: snap a visiting card, let AI read it, review the fields, then send an intro email or WhatsApp message in seconds.",
-    h1: "From visiting card to follow-up in four steps",
-    eyebrow: "How it works",
+    h1: "From Visiting Card To Follow-up In Four Steps",
+    eyebrow: "How It Works",
     intro: "eCard follows the natural rhythm of a meeting: you get a card, you capture it, you remember the context and you follow up.",
     variant: "guide",
     visual: "scan",
@@ -285,17 +285,17 @@ const base: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "The four steps",
+        heading: "The Four Steps",
         steps: [
-          { title: "Snap the card", body: "Use any phone browser, or send a photo to the eCard Telegram bot." },
-          { title: "AI reads it", body: "Your chosen model extracts the fields and gives each one a confidence score. Addresses are checked against Google Maps." },
-          { title: "You review", body: "Nothing is saved until you check the fields. Add where you met, who introduced you or a voice note." },
-          { title: "Follow up", body: "Preview the AI intro email — it sends after 5 seconds from your own SMTP — or open a WhatsApp message in English, Hindi or Marathi." },
+          { title: "Snap The Card", body: "Use any phone browser, or send a photo to the eCard Telegram bot." },
+          { title: "AI Reads It", body: "Your chosen model extracts the fields and gives each one a confidence score. Addresses are checked against Google Maps." },
+          { title: "You Review", body: "Nothing is saved until you check the fields. Add where you met, who introduced you or a voice note." },
+          { title: "Follow Up", body: "Preview the AI intro email, it sends after 5 seconds from your own SMTP, or open a WhatsApp message in English, Hindi or Marathi." },
         ],
       },
       {
         type: "split",
-        heading: "After the meeting",
+        heading: "After The Meeting",
         body: [
           "Contacts stay organised with tags and events, duplicate merge, blacklist and archive. You can search in plain language, for example \"Investors I met in Mumbai last month\".",
         ],
@@ -303,7 +303,7 @@ const base: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why speed matters",
+        heading: "Why Speed Matters",
         paragraphs: [
           "As general guidance, a follow-up sent the same day is easier to connect with the conversation than one sent a week later. eCard is designed to shorten the gap between meeting someone and sending the first message.",
         ],
@@ -329,8 +329,8 @@ const base: PageDef[] = [
     title: "Product Tour",
     seoTitle: "eCard Product Tour",
     description: "Take a guided tour of eCard: AI scanning, contacts and tags, meeting memory, digital business card, link tracking, events, Telegram and team admin.",
-    h1: "A tour of everything inside eCard",
-    eyebrow: "Product tour",
+    h1: "A Tour Of Everything Inside eCard",
+    eyebrow: "Product Tour",
     intro: "This tour walks through the main areas of eCard in the order most people use them, from the first scan to team administration.",
     variant: "feature",
     visual: "dashboard",
@@ -338,27 +338,27 @@ const base: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Stop 1–4: capture and organise",
+        heading: "Stop 1-4: Capture And Organise",
         cards: [
-          { title: "AI scanning", body: "Pick your model, bring your own key, review each field with its confidence score.", icon: "scan" },
+          { title: "AI Scanning", body: "Pick your model, bring your own key, review each field with its confidence score.", icon: "scan" },
           { title: "Contacts", body: "Tags, events, bulk import and export, duplicate merge, blacklist and archive.", icon: "users" },
           { title: "Search", body: "Ask in plain language, like \"Investors I met in Mumbai last month\".", icon: "search" },
-          { title: "Meeting memory", body: "Where you met, who introduced you, voice notes and an AI summary.", icon: "mic" },
+          { title: "Meeting Memory", body: "Where you met, who introduced you, voice notes and an AI summary.", icon: "mic" },
         ],
       },
       {
         type: "cards",
-        heading: "Stop 5–8: reach out and measure",
+        heading: "Stop 5-8: Reach Out And Measure",
         cards: [
-          { title: "Intro emails", body: "Preview the AI draft; it sends after 5 seconds from your own SMTP.", icon: "mail" },
+          { title: "Intro Emails", body: "Preview the AI draft; it sends after 5 seconds from your own SMTP.", icon: "mail" },
           { title: "WhatsApp", body: "Messages in English, Hindi or Marathi, opened in one tap.", icon: "message" },
-          { title: "Digital card", body: "Premium templates, QR code, Save-to-contacts and short links like /c/rahul.", icon: "qr" },
-          { title: "Link tracking", body: "Opens of your card, PDFs and WhatsApp links, with bots filtered out of click counts.", icon: "chart" },
+          { title: "Digital Card", body: "Premium templates, QR code, Save-to-contacts and short links like /c/rahul.", icon: "qr" },
+          { title: "Link Tracking", body: "Opens of your card, PDFs and WhatsApp links, with bots filtered out of click counts.", icon: "chart" },
         ],
       },
       {
         type: "bullets",
-        heading: "Stop 9: team and admin",
+        heading: "Stop 9: Team And Admin",
         items: [
           "Roles: owner, admin, manager, member and scan-only guest",
           "2FA with authenticator codes, recovery codes, trusted devices and login alerts",
@@ -371,12 +371,12 @@ const base: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Screens shown on this site",
+        title: "Screens Shown On This Site",
         body: "Visuals on this site are illustrations with sample data, not screenshots of real accounts.",
       },
     ],
     faqs: [
-      { q: "Is every feature on every plan?", a: "The base set — scanning, contacts, import/export, email, WhatsApp, digital card and Telegram — is on every plan. Some extras, like webhooks and white label, depend on the plan." },
+      { q: "Is every feature on every plan?", a: "The base set (scanning, contacts, import/export, email, WhatsApp, digital card and Telegram) is on every plan. Some extras, like webhooks and white label, depend on the plan." },
     ],
     related: ["platform/all-features", "how-it-works", "product/feature-availability", "pricing"],
     source: "verified",
@@ -384,11 +384,11 @@ const base: PageDef[] = [
   {
     slug: "sample-scan",
     category: "company",
-    title: "Try a Sample Scan",
-    seoTitle: "Try a Sample Visiting-Card Scan",
-    description: "See what eCard's AI extracts from a visiting card using sample personas — a Realtor, a Doctor and a Startup founder — before you scan your own cards.",
-    h1: "See a scan before you sign up",
-    eyebrow: "Sample scan",
+    title: "Try A Sample Scan",
+    seoTitle: "Try A Sample Visiting-Card Scan",
+    description: "See what eCard's AI extracts from a visiting card using sample personas (a Realtor, a Doctor and a Startup founder) before you scan your own cards.",
+    h1: "See A Scan Before You Sign Up",
+    eyebrow: "Sample Scan",
     intro: "eCard's sample scan demo uses three fictional personas so you can see how a card turns into a reviewed contact.",
     variant: "guide",
     visual: "extract",
@@ -396,17 +396,17 @@ const base: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "The three sample personas",
+        heading: "The Three Sample Personas",
         cards: [
           { title: "Realtor", body: "Sample: a property agent's card, the kind collected at site visits.", icon: "building" },
           { title: "Doctor", body: "Sample: a clinic card with qualifications and clinic address.", icon: "briefcase" },
-          { title: "Startup founder", body: "Sample: a founder's card with company name, title and links.", icon: "sparkles" },
+          { title: "Startup Founder", body: "Sample: a founder's card with company name, title and links.", icon: "sparkles" },
         ],
       },
       {
         type: "table",
-        heading: "What a reviewed result can look like",
-        intro: "Sample data only — fictional person.",
+        heading: "What A Reviewed Result Can Look Like",
+        intro: "Sample data only, fictional person.",
         headers: ["Field", "Sample value", "What you do"],
         rows: [
           ["Name", "Priya Shah", "Confirm spelling"],
@@ -417,7 +417,7 @@ const base: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why review matters",
+        heading: "Why Review Matters",
         paragraphs: [
           "Every field gets a confidence score so you know where to look. Nothing is saved until you review it, which keeps your contact list clean from the start.",
           "As a general tip, glossy finishes, embossed text and unusual fonts are where any card reader is most likely to need a human check.",
@@ -426,7 +426,7 @@ const base: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Ready for real cards?",
+        title: "Ready For Real Cards?",
         body: "The Free plan includes 50 scans a month with no card required.",
       },
     ],
@@ -441,10 +441,10 @@ const base: PageDef[] = [
     slug: "get-started",
     category: "company",
     title: "Get Started",
-    seoTitle: "Get Started with eCard in Minutes",
+    seoTitle: "Get Started With eCard In Minutes",
     description: "Start using eCard: sign up free, scan your first card, set up your own SMTP for intro emails, link Telegram and create your digital business card.",
-    h1: "Your first day with eCard",
-    eyebrow: "Get started",
+    h1: "Your First Day With eCard",
+    eyebrow: "Get Started",
     intro: "You can be scanning cards within minutes. This checklist gets the essentials set up so follow-ups go out from your own address.",
     variant: "guide",
     visual: "card",
@@ -452,30 +452,30 @@ const base: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Setup checklist",
+        heading: "Setup Checklist",
         steps: [
-          { title: "Sign up", body: "Create an account at ecard.gg/sign-up. New workspaces get a 14-day Professional trial, no card needed." },
-          { title: "Scan your first card", body: "Use your phone browser, review the fields and save." },
-          { title: "Connect your mailbox", body: "Add SMTP details for Gmail, Outlook, Zoho or another provider so intros send from your own address." },
+          { title: "Sign Up", body: "Create an account at ecard.gg/sign-up. New workspaces get a 14-day Professional trial, no card needed." },
+          { title: "Scan Your First Card", body: "Use your phone browser, review the fields and save." },
+          { title: "Connect Your Mailbox", body: "Add SMTP details for Gmail, Outlook, Zoho or another provider so intros send from your own address." },
           { title: "Link Telegram", body: "Get a one-time code from Settings → Telegram and send it to the bot." },
-          { title: "Create your digital card", body: "Choose a template and share it by QR code or short link." },
-          { title: "Turn on 2FA", body: "Protect your account with authenticator codes and save your recovery codes." },
+          { title: "Create Your Digital Card", body: "Choose a template and share it by QR code or short link." },
+          { title: "Turn On 2FA", body: "Protect your account with authenticator codes and save your recovery codes." },
         ],
       },
       {
         type: "bullets",
-        heading: "What the Free plan includes",
+        heading: "What The Free Plan Includes",
         items: ["5 users", "1 GB storage", "50 scans a month", "AI scanning, contacts, import/export, email, WhatsApp, digital card and Telegram bot"],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Invite your team later",
+        title: "Invite Your Team Later",
         body: "Get comfortable on your own first, then invite colleagues with roles that match what they need.",
       },
       {
         type: "prose",
-        heading: "When to upgrade",
+        heading: "When To Upgrade",
         paragraphs: [
           "Starter (₹299/month) adds Google Contacts sync and Calendar & Meet booking. Professional (₹999/month) adds webhooks. Business (₹2,999/month) adds white label and a custom domain.",
         ],
@@ -494,16 +494,16 @@ const base: PageDef[] = [
     title: "Site Index",
     seoTitle: "eCard Site Index",
     description: "Browse every section of the eCard website: platform, features, integrations, use cases, pricing, mobile, guides, help centre and legal pages.",
-    h1: "Everything on this site, in one place",
-    eyebrow: "Site index",
-    intro: "Use this index to jump to any part of the eCard website.",
+    h1: "Everything On This Site, In One Place",
+    eyebrow: "Site Index",
+    intro: "Use this index to jump to any part of the eCard website. Pages are grouped by topic, from product features and use cases to pricing, help and legal.",
     variant: "reference",
     visual: "none",
     icon: "layers",
     sections: [
       {
         type: "table",
-        heading: "Main sections",
+        heading: "Main Sections",
         headers: ["Section", "What you'll find"],
         rows: [
           ["Platform", "How the visiting-card CRM fits together"],
@@ -519,18 +519,18 @@ const base: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Popular starting points",
+        heading: "Popular Starting Points",
         items: ["How it works", "AI card scanning", "Pricing and plan comparison", "Getting-started guide", "Help centre FAQ"],
       },
       {
         type: "prose",
-        heading: "Can't find something?",
+        heading: "Can't Find Something?",
         paragraphs: ["Check the help centre, or email sales@bizzfly.com for sales questions."],
       },
       {
         type: "callout",
         tone: "info",
-        title: "Navigation tip",
+        title: "Navigation Tip",
         body: "Every page ends with related links, so you can move between connected topics without coming back here.",
       },
     ],
@@ -544,7 +544,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "table",
-        heading: "eCard by the numbers",
+        heading: "eCard By The Numbers",
         intro: "The figures eCard's homepage highlights, and what each one refers to.",
         headers: ["Figure", "What it means"],
         rows: [
@@ -558,7 +558,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "What eCard deliberately leaves to you",
+        heading: "What eCard Deliberately Leaves To You",
         intro: "Several choices stay with you rather than with the platform:",
         items: [
           "Which AI provider reads your cards, and whose key pays for it",
@@ -576,7 +576,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "table",
-        heading: "Which question goes where",
+        heading: "Which Question Goes Where",
         intro: "Use this to pick a route before you write.",
         headers: ["Your question", "Best route"],
         rows: [
@@ -590,16 +590,16 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       {
         type: "callout",
         tone: "note",
-        title: "Sample message",
+        title: "Sample Message",
         body: "Sample: \"Hi, I'm Priya Shah from a fictional agency. Our workspace is on the 14-day trial and we'd like to understand Enterprise pricing for about 40 people who attend trade shows. Could you share next steps?\"",
       },
       {
         type: "bullets",
-        heading: "Common mistakes that slow replies",
+        heading: "Common Mistakes That Slow Replies",
         items: [
           "Writing from an address different from the one you signed up with",
           "Leaving out which plan you are on",
-          "Sending passwords, API keys or SMTP passwords by email — never share these",
+          "Sending passwords, API keys or SMTP passwords by email, never share these",
           "Describing a problem without saying what you expected to happen",
         ],
       },
@@ -612,7 +612,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Questions to answer internally first",
+        heading: "Questions To Answer Internally First",
         intro: "Sales conversations go faster when your team has agreed on these:",
         items: [
           "Roughly how many people will scan cards each month, and how many only scan",
@@ -624,8 +624,8 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "table",
-        heading: "Sample sizing worksheet",
-        intro: "Sample figures for a fictional company — replace with your own.",
+        heading: "Sample Sizing Worksheet",
+        intro: "Sample figures for a fictional company, replace with your own.",
         headers: ["Item", "Sample answer"],
         rows: [
           ["Sales reps", "60"],
@@ -637,7 +637,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "prose",
-        heading: "When Business is enough",
+        heading: "When Business Is Enough",
         paragraphs: [
           "If the ₹2,999 monthly Business plan already covers your needs, you can choose it at sign-up without a sales call. Enterprise has the same listed features; the conversation is about commercial terms rather than extra functionality.",
         ],
@@ -651,24 +651,24 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "split",
-        heading: "When eCard may not be the right fit",
+        heading: "When eCard May Not Be The Right Fit",
         body: [
           "Being honest about fit saves everyone time. eCard focuses on people you meet in person and the follow-up that comes after.",
         ],
         points: [
           "You rarely receive visiting cards",
-          "You need a native mobile app — eCard is browser-only",
-          "You need published API reference docs today — the site doesn't publish them",
+          "You need a native mobile app, eCard is browser-only",
+          "You need published API reference docs today, the site doesn't publish them",
         ],
       },
       {
         type: "steps",
-        heading: "A fair way to evaluate eCard",
+        heading: "A Fair Way To Evaluate eCard",
         steps: [
-          { title: "Collect ten real cards", body: "Include a few difficult ones: glossy, bilingual or crowded layouts." },
-          { title: "Scan and review", body: "Note how many fields needed correcting and which confidence scores were low." },
-          { title: "Send real follow-ups", body: "Connect your SMTP and send intros to contacts you genuinely want to reach." },
-          { title: "Check a week later", body: "Use search and tracking to see whether you could find people and see opens." },
+          { title: "Collect Ten Real Cards", body: "Include a few difficult ones: glossy, bilingual or crowded layouts." },
+          { title: "Scan And Review", body: "Note how many fields needed correcting and which confidence scores were low." },
+          { title: "Send Real Follow-ups", body: "Connect your SMTP and send intros to contacts you genuinely want to reach." },
+          { title: "Check A Week Later", body: "Use search and tracking to see whether you could find people and see opens." },
         ],
       },
     ],
@@ -681,7 +681,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "table",
-        heading: "Sample: one card, start to finish",
+        heading: "Sample: One Card, Start To Finish",
         intro: "Sample walkthrough with a fictional contact.",
         headers: ["Moment", "What happens"],
         rows: [
@@ -694,10 +694,10 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Pitfalls to avoid",
+        heading: "Pitfalls To Avoid",
         items: [
           "Saving without checking low-confidence fields",
-          "Skipping meeting context — it is what makes the AI draft relevant",
+          "Skipping meeting context. It is what makes the AI draft relevant",
           "Sending from a mailbox you haven't tested",
           "Leaving cards from an event untagged, which makes event follow-ups harder",
         ],
@@ -711,7 +711,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "table",
-        heading: "Pick your route through the tour",
+        heading: "Pick Your Route Through The Tour",
         headers: ["If you are…", "Start with", "Then look at"],
         rows: [
           ["A solo professional", "AI scanning", "Intro emails and digital card"],
@@ -722,7 +722,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "prose",
-        heading: "Where data flows next",
+        heading: "Where Data Flows Next",
         paragraphs: [
           "Contacts can leave eCard in several ways: CSV export on every plan, Google Contacts sync from Starter, and signed webhook events for each new contact from Professional. Choose the route that matches where your team already works.",
         ],
@@ -730,8 +730,8 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       {
         type: "callout",
         tone: "tip",
-        title: "Tour with your own data",
-        body: "The 14-day Professional trial unlocks webhooks and Google integrations, so you can walk through every stop with real cards.",
+        title: "Tour With Your Own Data",
+        body: "The 14-day Professional trial gives you webhooks and Google integrations, so you can walk through every stop with real cards.",
       },
     ],
     faqs: [
@@ -743,16 +743,16 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "steps",
-        heading: "How to read the demo above",
+        heading: "How To Read The Demo Above",
         steps: [
-          { title: "Pick a persona", body: "Choose the Realtor, Doctor or Startup founder card." },
-          { title: "Watch the fields", body: "Look at which fields come back with lower confidence." },
-          { title: "Think about review", body: "Ask yourself which fields you would always double-check before saving." },
+          { title: "Pick A Persona", body: "Choose the Realtor, Doctor or Startup founder card." },
+          { title: "Watch The Fields", body: "Look at which fields come back with lower confidence." },
+          { title: "Think About Review", body: "Ask yourself which fields you would always double-check before saving." },
         ],
       },
       {
         type: "bullets",
-        heading: "Checklist for your first real scan",
+        heading: "Checklist For Your First Real Scan",
         items: [
           "Lay the card flat on a plain, contrasting surface",
           "Use even light and avoid glare on glossy finishes",
@@ -763,7 +763,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "prose",
-        heading: "From demo to your own cards",
+        heading: "From Demo To Your Own Cards",
         paragraphs: [
           "The demo shows the review step, but your own cards are the real test. Cards with two languages, logos overlapping text or very small print are worth trying early so you know where review takes longer.",
         ],
@@ -777,8 +777,8 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "table",
-        heading: "Sample first week",
-        intro: "Sample plan — adjust to your schedule.",
+        heading: "Sample First Week",
+        intro: "Sample plan, adjust to your schedule.",
         headers: ["Day", "Goal"],
         rows: [
           ["Day 1", "Sign up, enable 2FA, scan five cards"],
@@ -790,7 +790,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Common setup mistakes",
+        heading: "Common Setup Mistakes",
         items: [
           "Using your normal password where the provider expects an app password for SMTP",
           "Not saving 2FA recovery codes",
@@ -808,7 +808,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "table",
-        heading: "Find pages by task",
+        heading: "Find Pages By Task",
         headers: ["I want to…", "Go to"],
         rows: [
           ["Scan my first card", "Get Started, then AI Card Scanning"],
@@ -823,7 +823,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "cards",
-        heading: "Feature areas",
+        heading: "Feature Areas",
         intro: "Each feature area has an overview page plus detailed sub-pages.",
         cards: [
           { title: "Capture", body: "AI Card Scanning and the Telegram Bot.", icon: "scan" },
@@ -834,7 +834,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Reference pages",
+        heading: "Reference Pages",
         items: ["Glossary of networking and CRM terms", "Feature availability by plan", "Security at a glance", "eCard at a glance"],
       },
     ],
@@ -850,9 +850,9 @@ const closing: Record<string, Section[]> = {
   contact: [
     {
       type: "prose",
-      heading: "What happens after you write",
+      heading: "What Happens After You Write",
       paragraphs: [
-        "A clear first message usually means fewer back-and-forth emails. If your question is about a specific contact, scan or email that misbehaved, describe it in words rather than forwarding personal details of the person on the card — that keeps their data where it belongs.",
+        "A clear first message usually means fewer back-and-forth emails. If your question is about a specific contact, scan or email that misbehaved, describe it in words rather than forwarding personal details of the person on the card. That keeps their data where it belongs.",
         "If you are evaluating eCard for a team, it often helps to start the 14-day Professional trial before writing, so your questions come from real use rather than guesses.",
       ],
     },
@@ -860,13 +860,13 @@ const closing: Record<string, Section[]> = {
   "contact-sales": [
     {
       type: "steps",
-      heading: "Running a pilot during the trial",
+      heading: "Running A Pilot During The Trial",
       steps: [
-        { title: "Choose a small group", body: "Pick a handful of people who meet prospects often, plus one admin." },
-        { title: "Set roles", body: "Make the admin an admin, reps members, and temporary helpers scan-only guests." },
-        { title: "Connect email and AI", body: "Use the mailbox provider and AI key your organisation would use in production." },
-        { title: "Run one real event", body: "Group cards from one meeting or show into an event and follow up with everyone." },
-        { title: "Bring results to sales", body: "Share what worked and what you still need when you email sales@bizzfly.com." },
+        { title: "Choose A Small Group", body: "Pick a handful of people who meet prospects often, plus one admin." },
+        { title: "Set Roles", body: "Make the admin an admin, reps members, and temporary helpers scan-only guests." },
+        { title: "Connect Email And AI", body: "Use the mailbox provider and AI key your organisation would use in production." },
+        { title: "Run One Real Event", body: "Group cards from one meeting or show into an event and follow up with everyone." },
+        { title: "Bring Results To Sales", body: "Share what worked and what you still need when you email sales@bizzfly.com." },
       ],
     },
   ],
@@ -874,38 +874,38 @@ const closing: Record<string, Section[]> = {
     {
       type: "callout",
       tone: "info",
-      title: "Clean data from day one",
+      title: "Clean Data From Day One",
       body: "Duplicate merge, blacklist, archive, CSV import and Google Contacts sync (Starter and above) help keep your list usable as it grows, instead of turning into another cluttered spreadsheet.",
     },
   ],
   "how-it-works": [
     {
       type: "prose",
-      heading: "What happens behind the scenes",
+      heading: "What Happens Behind The Scenes",
       paragraphs: [
-        "When you scan, the photo goes to the AI provider you selected, using your key if you brought one. If you added several keys to a key pool, eCard can fail over to another key. The address field is checked against Google Maps, and the result comes back to you for review — nothing is saved until you confirm it.",
+        "When you scan, the photo goes to the AI provider you selected, using your key if you brought one. If you added several keys to a key pool, eCard can fail over to another key. The address field is checked against Google Maps, and the result comes back to you for review, nothing is saved until you confirm it.",
       ],
     },
   ],
   "product-tour": [
     {
       type: "steps",
-      heading: "A 15-minute self-guided tour",
+      heading: "A 15-minute Self-guided Tour",
       intro: "Sample agenda for exploring eCard on your own.",
       steps: [
-        { title: "Minutes 0–3", body: "Scan two cards and compare their confidence scores." },
-        { title: "Minutes 3–6", body: "Add a voice note and where-you-met to one contact." },
-        { title: "Minutes 6–9", body: "Try a natural-language search for that contact." },
-        { title: "Minutes 9–12", body: "Preview an intro email and cancel it within 5 seconds." },
-        { title: "Minutes 12–15", body: "Open your digital card on another phone and check tracking." },
+        { title: "Minutes 0-3", body: "Scan two cards and compare their confidence scores." },
+        { title: "Minutes 3-6", body: "Add a voice note and where-you-met to one contact." },
+        { title: "Minutes 6-9", body: "Try a natural-language search for that contact." },
+        { title: "Minutes 9-12", body: "Preview an intro email and cancel it within 5 seconds." },
+        { title: "Minutes 12-15", body: "Open your digital card on another phone and check tracking." },
       ],
     },
   ],
   "sample-scan": [
     {
       type: "table",
-      heading: "What to look for in each sample card",
-      intro: "Sample personas only — fictional data.",
+      heading: "What To Look For In Each Sample Card",
+      intro: "Sample personas only, fictional data.",
       headers: ["Persona", "Tricky part", "Why it matters"],
       rows: [
         ["Realtor", "Several phone numbers and an office address", "You want the right mobile for WhatsApp follow-ups"],
@@ -916,14 +916,14 @@ const closing: Record<string, Section[]> = {
     {
       type: "callout",
       tone: "note",
-      title: "Confidence is a guide, not a verdict",
+      title: "Confidence Is A Guide, Not A Verdict",
       body: "A high score usually means the field was read clearly, but it is still worth a glance. A low score tells you exactly where to look first, which is what keeps review fast.",
     },
   ],
   "get-started": [
     {
       type: "split",
-      heading: "Choosing your AI model on day one",
+      heading: "Choosing Your AI Model On Day One",
       body: [
         "eCard lets you choose Claude, OpenAI, Gemini, DeepSeek or Grok, and the FAQ adds Azure and custom endpoints. If your organisation already uses one provider, starting with that one keeps approvals simple. You can bring your own key, and keys are encrypted with AES-256-GCM.",
       ],
@@ -937,7 +937,7 @@ const closing: Record<string, Section[]> = {
   "site-index": [
     {
       type: "prose",
-      heading: "How this site is organised",
+      heading: "How This Site Is Organised",
       paragraphs: [
         "Platform pages explain how eCard fits together. Feature pages go deep on one capability each, such as scanning, contacts, the digital card or the Telegram bot. Integration pages describe the role each named tool plays, and say plainly where eCard's site gives no further detail.",
         "Use-case pages show how different roles might use eCard; they describe possibilities, not existing customers. Resources hold practical guides and playbooks, the help centre answers common questions, and legal pages are drafts pending review.",
@@ -946,17 +946,17 @@ const closing: Record<string, Section[]> = {
     {
       type: "callout",
       tone: "tip",
-      title: "New to eCard?",
+      title: "New To eCard?",
       body: "Read How It Works first, then the getting-started guide. Together they cover signing up, your first scan, connecting your mailbox and linking Telegram.",
     },
   ],
 };
 
 const tips: Record<string, Section> = {
-  "contact-sales": { type: "callout", tone: "tip", title: "Billing details", body: "Prices are in INR with GST where applicable, and local currency is shown at checkout for supported countries." },
-  "product-tour": { type: "callout", tone: "info", title: "Booking meetings", body: "Google Calendar & Meet booking is available from Starter, so a follow-up can turn straight into a scheduled call." },
-  "sample-scan": { type: "callout", tone: "tip", title: "Addresses get a second check", body: "Scanned addresses are checked against Google Maps, which helps catch misread street names or pin codes before you save the contact." },
-  "site-index": { type: "callout", tone: "info", title: "Key links", body: "Sign up at ecard.gg/sign-up, sign in at ecard.gg/sign-in, and reset a forgotten password at ecard.gg/forgot-password. Sales questions go to sales@bizzfly.com, and Enterprise pricing is arranged there too." },
+  "contact-sales": { type: "callout", tone: "tip", title: "Billing Details", body: "Prices are in INR with GST where applicable, and local currency is shown at checkout for supported countries." },
+  "product-tour": { type: "callout", tone: "info", title: "Booking Meetings", body: "Google Calendar & Meet booking is available from Starter, so a follow-up can turn straight into a scheduled call." },
+  "sample-scan": { type: "callout", tone: "tip", title: "Addresses Get A Second Check", body: "Scanned addresses are checked against Google Maps, which helps catch misread street names or pin codes before you save the contact." },
+  "site-index": { type: "callout", tone: "info", title: "Key Links", body: "Sign up at ecard.gg/sign-up, sign in at ecard.gg/sign-in, and reset a forgotten password at ecard.gg/forgot-password. Sales questions go to sales@bizzfly.com, and Enterprise pricing is arranged there too." },
 };
 
 const moreFaqs: Record<string, FAQ[]> = {

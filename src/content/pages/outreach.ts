@@ -5,9 +5,9 @@ export const pages: PageDef[] = [
     slug: "features/outreach",
     category: "outreach",
     title: "Email & WhatsApp Outreach",
-    seoTitle: "Email & WhatsApp Outreach for Visiting Cards",
+    seoTitle: "Email & WhatsApp Outreach For Visiting Cards",
     description: "Turn every scanned visiting card into a follow-up: AI intro emails from your own mailbox and WhatsApp messages in English, Hindi or Marathi.",
-    h1: "Intros and follow-ups that send themselves",
+    h1: "Intros And Follow-ups That Send Themselves",
     eyebrow: "Email & WhatsApp",
     intro: "A card in your pocket does nothing. eCard drafts an intro email you can preview, then sends it from your own mailbox after five seconds, and writes WhatsApp messages in English, Hindi or Marathi that open in one tap.",
     variant: "feature",
@@ -16,17 +16,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Two channels, one workflow",
+        heading: "Two Channels, One Workflow",
         intro: "Both channels start from the same place: a contact you scanned and reviewed.",
         cards: [
-          { title: "Intro emails", body: "The AI writes a draft, you preview it, and it sends after 5 seconds from your own SMTP mailbox. You can edit or cancel it before it goes.", icon: "mail" },
-          { title: "WhatsApp messages", body: "The AI writes a message in English, Hindi or Marathi and opens it in WhatsApp in one tap, ready for you to send.", icon: "message" },
-          { title: "Tracked links", body: "Link tracking shows opens of your digital card, PDFs and WhatsApp links, so you can see what happened after you reached out.", icon: "eye" },
+          { title: "Intro Emails", body: "The AI writes a draft, you preview it, and it sends after 5 seconds from your own SMTP mailbox. You can edit or cancel it before it goes.", icon: "mail" },
+          { title: "WhatsApp Messages", body: "The AI writes a message in English, Hindi or Marathi and opens it in WhatsApp in one tap, ready for you to send.", icon: "message" },
+          { title: "Tracked Links", body: "Link tracking shows opens of your digital card, PDFs and WhatsApp links, so you can see what happened after you reached out.", icon: "eye" },
         ],
       },
       {
         type: "prose",
-        heading: "Why follow-up speed matters",
+        heading: "Why Follow-up Speed Matters",
         paragraphs: [
           "Most networking value is lost in the gap between meeting someone and writing to them. By the time you are back at your desk, the stack of cards has gone cold and you no longer remember who wanted what.",
           "eCard closes that gap by putting the follow-up right after the scan. Once a card is reviewed, an intro can go out from your own address while the conversation is still fresh in both your minds.",
@@ -34,23 +34,23 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "From card to conversation",
+        heading: "From Card To Conversation",
         steps: [
-          { title: "Scan and review", body: "Scan the card with the AI model you choose. Nothing is saved until you review the fields." },
-          { title: "Pick a channel", body: "Choose an intro email, a WhatsApp message, or both, depending on how the person prefers to be reached." },
-          { title: "Preview the draft", body: "Read the AI draft. Edit it if anything is off, or cancel it entirely." },
+          { title: "Scan And Review", body: "Scan the card with the AI model you choose. Nothing is saved until you review the fields." },
+          { title: "Pick A Channel", body: "Choose an intro email, a WhatsApp message, or both, depending on how the person prefers to be reached." },
+          { title: "Preview The Draft", body: "Read the AI draft. Edit it if anything is off, or cancel it entirely." },
           { title: "Send", body: "Emails send after 5 seconds from your own mailbox; WhatsApp messages open in one tap for you to send." },
         ],
       },
       {
         type: "callout",
         tone: "info",
-        title: "Included on every plan",
+        title: "Included On Every Plan",
         body: "Email outreach from your own mailbox and WhatsApp messages are part of the base feature set on Free, Starter, Professional, Business and Enterprise.",
       },
       {
         type: "bullets",
-        heading: "What eCard does not claim",
+        heading: "What eCard Does Not Claim",
         items: [
           "eCard's site does not describe automated multi-step email sequences or drip campaigns.",
           "WhatsApp messages open in WhatsApp for you to send; the site does not describe sending them automatically.",
@@ -72,10 +72,10 @@ export const pages: PageDef[] = [
     slug: "features/automated-email-outreach",
     category: "outreach",
     title: "Automated Email Outreach",
-    seoTitle: "Automated Intro Emails from Scanned Cards",
+    seoTitle: "Automated Intro Emails From Scanned Cards",
     description: "eCard writes an AI intro email for each new contact, lets you preview it, then sends from your own SMTP mailbox after 5 seconds unless you edit or cancel.",
-    h1: "An intro email for every card, sent from your own address",
-    eyebrow: "Email outreach",
+    h1: "An Intro Email For Every Card, Sent From Your Own Address",
+    eyebrow: "Email Outreach",
     intro: "eCard drafts the email you meant to write after the event. You see the draft first; if you leave it, it goes out after five seconds from your own mailbox.",
     variant: "feature",
     visual: "email",
@@ -83,7 +83,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Automated, but never blind",
+        heading: "Automated, But Never Blind",
         body: [
           "Automation is only useful if you trust what it sends. eCard keeps you in the loop: every intro is an AI draft you preview before it leaves.",
           "The five-second window is short enough to keep momentum, and long enough to catch a wrong name or a tone that doesn't fit.",
@@ -98,7 +98,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Mailboxes you can send from",
+        heading: "Mailboxes You Can Send From",
         intro: "Providers named on eCard's site. Any SMTP host also works.",
         headers: ["Type", "Examples"],
         rows: [
@@ -109,7 +109,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why your own mailbox",
+        heading: "Why Your Own Mailbox",
         paragraphs: [
           "An intro that arrives from a shared marketing domain reads like a newsletter. One that arrives from your own address reads like a reply from the person they just met.",
           "Sending from your own mailbox also means replies land in the inbox you already check, and the conversation continues in your normal email thread.",
@@ -118,12 +118,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Your SMTP password is encrypted",
+        title: "Your SMTP Password Is Encrypted",
         body: "eCard encrypts API keys and SMTP passwords with AES-256-GCM.",
       },
       {
         type: "bullets",
-        heading: "Good habits for automated intros",
+        heading: "Good Habits For Automated Intros",
         items: [
           "Review the recipient name and company once more in the preview.",
           "Add one line that only you could write, such as a detail from the conversation.",
@@ -147,9 +147,9 @@ export const pages: PageDef[] = [
     slug: "features/whatsapp-follow-ups",
     category: "outreach",
     title: "WhatsApp Follow-Ups",
-    seoTitle: "WhatsApp Follow-Ups in English, Hindi, Marathi",
+    seoTitle: "WhatsApp Follow-Ups In English, Hindi, Marathi",
     description: "eCard writes a WhatsApp follow-up for each contact in English, Hindi or Marathi and opens it in WhatsApp in one tap, ready for you to review and send.",
-    h1: "Follow up on WhatsApp in the language they speak",
+    h1: "Follow Up On WhatsApp In The Language They Speak",
     eyebrow: "WhatsApp",
     intro: "For many contacts, WhatsApp is where real conversations happen. eCard writes the message for you in English, Hindi or Marathi and opens it in WhatsApp with one tap.",
     variant: "feature",
@@ -158,17 +158,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "How a WhatsApp follow-up works",
+        heading: "How A WhatsApp Follow-up Works",
         steps: [
-          { title: "Open the contact", body: "Start from a contact you scanned and reviewed." },
-          { title: "Choose the language", body: "Pick English, Hindi or Marathi for the AI to write in." },
-          { title: "Tap to open", body: "The message opens in WhatsApp in one tap." },
-          { title: "Send it yourself", body: "Read it in WhatsApp, adjust if needed, and send." },
+          { title: "Open The Contact", body: "Start from a contact you scanned and reviewed." },
+          { title: "Choose The Language", body: "Pick English, Hindi or Marathi for the AI to write in." },
+          { title: "Tap To Open", body: "The message opens in WhatsApp in one tap." },
+          { title: "Send It Yourself", body: "Read it in WhatsApp, adjust if needed, and send." },
         ],
       },
       {
         type: "cards",
-        heading: "Three languages",
+        heading: "Three Languages",
         cards: [
           { title: "English", body: "For pan-India and international contacts, and for most corporate conversations.", icon: "globe" },
           { title: "Hindi (हिंदी)", body: "For contacts more comfortable in Hindi, common in many regional business conversations.", icon: "globe" },
@@ -177,7 +177,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why language matters in follow-up",
+        heading: "Why Language Matters In Follow-up",
         paragraphs: [
           "A message in someone's preferred language signals that you listened. It is a small courtesy, but in a crowded inbox or chat list it is often what earns a reply.",
           "eCard's real-estate use case puts it simply: follow up in Marathi or Hindi on WhatsApp. The same idea applies to any business where local relationships drive deals.",
@@ -186,7 +186,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Track the link you share",
+        title: "Track The Link You Share",
         body: "eCard's link tracking covers WhatsApp links, so if you include your card or a link in the message you can see opens later.",
       },
       {"type":"bullets","heading":"Before you tap","intro":"A quick check that keeps WhatsApp follow-ups welcome.","items":["Confirm the number on the card is a mobile number, not an office landline.","Check the country code if the contact is outside India.","Read the AI message once and remove anything you did not actually discuss.","Make sure the language matches how you spoke with the person.","Send at a reasonable hour; WhatsApp feels personal and late messages can annoy."]},
@@ -209,8 +209,8 @@ export const pages: PageDef[] = [
     title: "AI Email Drafts",
     seoTitle: "AI-Written Intro Email Drafts",
     description: "How eCard's AI drafts intro emails from scanned contacts, why you always preview them, and how to turn a good draft into a personal note in seconds.",
-    h1: "An AI first draft, with you as the editor",
-    eyebrow: "Email outreach",
+    h1: "An AI First Draft, With You As The Editor",
+    eyebrow: "Email Outreach",
     intro: "eCard writes the first draft of your intro email so you don't start from a blank page. You preview it, and you decide whether it goes.",
     variant: "feature",
     visual: "email",
@@ -218,7 +218,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "What the draft is for",
+        heading: "What The Draft Is For",
         paragraphs: [
           "The hardest part of a follow-up email is starting it. After a long event, writing twenty slightly different 'great to meet you' notes is exactly the job people skip.",
           "eCard's AI drafts that note for each contact. You preview it, and it sends after five seconds from your own mailbox, or you edit or cancel it.",
@@ -226,7 +226,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "What to check in every draft",
+        heading: "What To Check In Every Draft",
         intro: "Treat the AI as a fast assistant, not the final author.",
         items: [
           "Name and spelling: does the greeting match the card?",
@@ -238,7 +238,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Sample: draft versus edited",
+        heading: "Sample: Draft Versus Edited",
         intro: "Sample, fictional contact: Priya Shah, Realtor.",
         headers: ["", "Text"],
         rows: [
@@ -249,7 +249,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Bring your own AI",
+        title: "Bring Your Own AI",
         body: "eCard lets you choose the AI model and bring your own key. The site does not document which model writes email drafts; check your workspace settings.",
       },
       {"type":"table","heading":"Common draft problems and quick fixes","headers":["What you notice","Likely cause","Fix in the preview"],"rows":[["Greeting uses a company name instead of a person","The card had a prominent logo and a small name","Correct the contact name, then edit the greeting."],["The draft sounds generic","The AI only had card fields to work with","Add one specific detail from your conversation."],["Wrong job title or spelling","A low-confidence field slipped through review","Fix it in the draft and on the contact record."],["Too long for a first touch","Drafts aim to be complete","Cut to two to four sentences and one clear ask."]]},
@@ -270,8 +270,8 @@ export const pages: PageDef[] = [
     title: "Email Preview",
     seoTitle: "Preview Every Intro Email Before It Sends",
     description: "eCard shows you each AI intro email before it goes out. Learn what to look for in the preview and how it protects your reputation with new contacts.",
-    h1: "See exactly what you're about to send",
-    eyebrow: "Email outreach",
+    h1: "See Exactly What You're About To Send",
+    eyebrow: "Email Outreach",
     intro: "Every intro email in eCard is previewed before it sends. That one look is the difference between a helpful automation and an embarrassing one.",
     variant: "feature",
     visual: "email",
@@ -279,7 +279,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Preview first, then five seconds",
+        heading: "Preview First, Then Five Seconds",
         body: [
           "The flow is short: the AI drafts, you preview, and the email sends after five seconds from your own SMTP mailbox. You can edit or cancel it at any point before it sends.",
         ],
@@ -287,17 +287,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A ten-second preview routine",
+        heading: "A Ten-second Preview Routine",
         steps: [
           { title: "Who", body: "Confirm the name and email address match the card you just reviewed." },
           { title: "What", body: "Skim the body for anything generic or inaccurate." },
           { title: "Why", body: "Make sure there's a reason to reply, such as a question or an offer." },
-          { title: "Go or stop", body: "Let it send, edit it, or cancel it." },
+          { title: "Go Or Stop", body: "Let it send, edit it, or cancel it." },
         ],
       },
       {
         type: "prose",
-        heading: "Why previews matter more for intros",
+        heading: "Why Previews Matter More For Intros",
         paragraphs: [
           "A first email sets the tone of a relationship. A wrong name or a misread company is far more damaging in an intro than in the tenth message of a thread.",
           "Because scanned data can contain small errors, the preview is your second check after reviewing the scanned fields.",
@@ -306,7 +306,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Fix the contact, not just the email",
+        title: "Fix The Contact, Not Just The Email",
         body: "If the preview reveals a wrong field, correct the contact record too so future messages are right.",
       },
       {"type":"table","heading":"What to look at, in order","intro":"Mistakes are not equal. Check the costly ones first.","headers":["Priority","Check","Cost if wrong"],"rows":[["1","Recipient email address","The intro goes to a stranger or bounces."],["2","Name and greeting","A misspelt name undoes the goodwill of the meeting."],["3","Company and role","Signals you were not paying attention."],["4","Promises in the body","Commits you to something you did not agree."],["5","Tone and length","Minor, but worth a quick trim."]]},
@@ -326,10 +326,10 @@ export const pages: PageDef[] = [
     slug: "features/outreach/edit-and-cancel-emails",
     category: "outreach",
     title: "Edit & Cancel Emails",
-    seoTitle: "Edit or Cancel an Intro Email Before It Sends",
+    seoTitle: "Edit Or Cancel An Intro Email Before It Sends",
     description: "Every eCard intro email can be edited or cancelled before it sends. Here's when to edit, when to cancel, and when to switch channels instead.",
-    h1: "Change your mind before it leaves your outbox",
-    eyebrow: "Email outreach",
+    h1: "Change Your Mind Before It Leaves Your Outbox",
+    eyebrow: "Email Outreach",
     intro: "eCard's intro emails send after five seconds, and until then you can edit or cancel them. Here's how to use that control well.",
     variant: "guide",
     visual: "email",
@@ -337,7 +337,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Edit, cancel or switch?",
+        heading: "Edit, Cancel Or Switch?",
         headers: ["Situation", "Best action"],
         rows: [
           ["Name or company is slightly wrong", "Edit the email and fix the contact"],
@@ -349,7 +349,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Editing well",
+        heading: "Editing Well",
         paragraphs: [
           "Most edits are small: a corrected spelling, a line about where you met, or a link they asked for. Keep the AI's structure and change what only you know.",
           "Resist rewriting everything. A short, sincere intro outperforms a long, polished one.",
@@ -357,7 +357,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Reasons people cancel",
+        heading: "Reasons People Cancel",
         items: [
           "The contact said they prefer a different channel.",
           "The meeting didn't go well enough to warrant an intro yet.",
@@ -368,7 +368,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "The five-second window",
+        title: "The Five-second Window",
         body: "Intro emails send after 5 seconds from your own SMTP. Editing or cancelling has to happen before that.",
       },
       {"type":"prose","heading":"Sample: three drafts, three decisions","paragraphs":["Sample: after a fictional pharma conference you have three drafts waiting. The first, to Dr. Anil Mehta, is accurate, so you let it send. The second, to Sara Iyer, calls her “Procurement Head” when she said she had just moved to Finance, so you edit the title and let it go.","The third, to Vikram Rao, offers a demo, but he asked you to wait until after his budget meeting next month. You cancel it and plan to write to him then. Three different outcomes, each correct, each decided in seconds."]},
@@ -388,10 +388,10 @@ export const pages: PageDef[] = [
     slug: "features/outreach/five-second-send",
     category: "outreach",
     title: "The 5-Second Send",
-    seoTitle: "The 5-Second Send: Fast Intros with a Safety Net",
+    seoTitle: "The 5-Second Send: Fast Intros With A Safety Net",
     description: "eCard sends an intro email 5 seconds after you preview it, from your own mailbox. Why five seconds, and how it balances speed with control.",
-    h1: "Five seconds between a draft and a sent intro",
-    eyebrow: "Email outreach",
+    h1: "Five Seconds Between A Draft And A Sent Intro",
+    eyebrow: "Email Outreach",
     intro: "eCard's homepage counts it as a stat: 5 seconds to auto-send an intro. Fast enough to follow up before the next handshake, slow enough to stop a mistake.",
     variant: "feature",
     visual: "email",
@@ -399,16 +399,16 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What happens in those five seconds",
+        heading: "What Happens In Those Five Seconds",
         cards: [
-          { title: "You've seen the draft", body: "The AI draft has already been previewed.", icon: "eye" },
-          { title: "You can still act", body: "Edit or cancel the email before it sends.", icon: "settings" },
-          { title: "Then it sends", body: "After 5 seconds it goes from your own SMTP mailbox.", icon: "send" },
+          { title: "You've Seen The Draft", body: "The AI draft has already been previewed.", icon: "eye" },
+          { title: "You Can Still Act", body: "Edit or cancel the email before it sends.", icon: "settings" },
+          { title: "Then It Sends", body: "After 5 seconds it goes from your own SMTP mailbox.", icon: "send" },
         ],
       },
       {
         type: "prose",
-        heading: "Why a short delay works",
+        heading: "Why A Short Delay Works",
         paragraphs: [
           "An instant send leaves no room for second thoughts. A long queue means emails pile up and lose their timeliness. A few seconds is a familiar pattern from 'undo send' features in many mail apps.",
           "At an event, it means you can scan a card, glance at the intro and move on to the next conversation without leaving a backlog.",
@@ -416,17 +416,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Using it at an event",
+        heading: "Using It At An Event",
         steps: [
-          { title: "Scan between conversations", body: "Capture the card while the person is still nearby if you like." },
-          { title: "Glance at the preview", body: "Check name and tone." },
-          { title: "Let it go", body: "The intro arrives in their inbox before they've reached the next booth." },
+          { title: "Scan Between Conversations", body: "Capture the card while the person is still nearby if you like." },
+          { title: "Glance At The Preview", body: "Check name and tone." },
+          { title: "Let It Go", body: "The intro arrives in their inbox before they've reached the next booth." },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Reference the moment",
+        title: "Reference The Moment",
         body: "Intros that arrive within minutes can mention the conversation directly, for example 'great chatting at your stand just now'.",
       },
       {"type":"table","heading":"Five seconds compared with other approaches","intro":"General trade-offs between ways of sending an intro.","headers":["Approach","Speed","Risk of mistakes","Effort"],"rows":[["Write each email by hand later","Slow, often days","Low, but many never get sent","High"],["Send instantly with no preview","Fastest","High: typos go straight out","Low"],["Preview, then send after 5 seconds","Fast, same moment","Low: a short window to catch errors","Low"]]},
@@ -447,10 +447,10 @@ export const pages: PageDef[] = [
     slug: "features/outreach/smtp-setup",
     category: "outreach",
     title: "SMTP Setup",
-    seoTitle: "SMTP Setup for Sending Intro Emails",
+    seoTitle: "SMTP Setup For Sending Intro Emails",
     description: "What SMTP is, the details you'll need from your email provider, and how eCard uses your own SMTP mailbox and encrypts your password with AES-256-GCM.",
-    h1: "Connect your mailbox with SMTP",
-    eyebrow: "Email setup",
+    h1: "Connect Your Mailbox With SMTP",
+    eyebrow: "Email Setup",
     intro: "eCard sends intro emails through your own SMTP mailbox. This page explains SMTP in plain terms and what to gather before you connect.",
     variant: "guide",
     visual: "email",
@@ -458,14 +458,14 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "SMTP in one paragraph",
+        heading: "SMTP In One Paragraph",
         paragraphs: [
           "SMTP (Simple Mail Transfer Protocol) is the standard way email is handed from a sending application to a mail server for delivery. When an app sends 'from your mailbox' over SMTP, it logs into your provider's server with your credentials and the provider delivers the message as if you sent it.",
         ],
       },
       {
         type: "table",
-        heading: "Details you'll usually need",
+        heading: "Details You'll Usually Need",
         intro: "General guidance; exact values come from your provider's documentation.",
         headers: ["Setting", "What it is"],
         rows: [
@@ -478,7 +478,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Common gotchas",
+        heading: "Common Gotchas",
         items: [
           "Many providers require an app password when two-step verification is on.",
           "Transactional services often require you to verify your sending domain first.",
@@ -489,7 +489,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Where to configure it",
+        title: "Where To Configure It",
         body: "eCard's site does not document the SMTP settings screen. Look in your workspace settings in the app, and see the SMTP setup guide in Resources.",
       },
       {
@@ -514,11 +514,11 @@ export const pages: PageDef[] = [
   {
     slug: "features/outreach/send-from-your-own-address",
     category: "outreach",
-    title: "Send from Your Own Address",
-    seoTitle: "Send Intros from Your Own Email Address",
+    title: "Send From Your Own Address",
+    seoTitle: "Send Intros From Your Own Email Address",
     description: "Why eCard sends intro emails from your own mailbox instead of a shared domain, and what that means for trust, replies and your sent-mail history.",
-    h1: "Your name, your address, your inbox",
-    eyebrow: "Email outreach",
+    h1: "Your Name, Your Address, Your Inbox",
+    eyebrow: "Email Outreach",
     intro: "eCard doesn't send your intros from a no-reply address. They go from your own mailbox over SMTP, so they look and behave like email you wrote yourself.",
     variant: "feature",
     visual: "email",
@@ -526,17 +526,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What you gain",
+        heading: "What You Gain",
         cards: [
           { title: "Recognition", body: "The person sees your name and the address on your card.", icon: "users" },
-          { title: "Replies come to you", body: "Responses land in the inbox you already check.", icon: "mail" },
-          { title: "One thread", body: "The conversation continues naturally in your mail client.", icon: "message" },
-          { title: "Your choice of provider", body: "Gmail, Outlook, Zoho, transactional services or any SMTP host.", icon: "server" },
+          { title: "Replies Come To You", body: "Responses land in the inbox you already check.", icon: "mail" },
+          { title: "One Thread", body: "The conversation continues naturally in your mail client.", icon: "message" },
+          { title: "Your Choice Of Provider", body: "Gmail, Outlook, Zoho, transactional services or any SMTP host.", icon: "server" },
         ],
       },
       {
         type: "prose",
-        heading: "Shared senders versus personal senders",
+        heading: "Shared Senders Versus Personal Senders",
         paragraphs: [
           "Mass-mailing tools often send from a shared domain on your behalf. That works for newsletters but feels impersonal for a one-to-one intro, and replies can end up somewhere you don't look.",
           "Sending from your own address keeps the intro personal. Many mail apps also store SMTP-sent messages differently from ones you type, so check your provider's behaviour if you want a copy in Sent.",
@@ -544,7 +544,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Team considerations",
+        heading: "Team Considerations",
         items: [
           "Each person sending intros should use a mailbox they are allowed to send from.",
           "Decide whether reps use personal work addresses or a shared team address.",
@@ -554,7 +554,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not documented on the site",
+        title: "Not Documented On The Site",
         body: "eCard's site does not say whether each team member connects a separate mailbox. Check in-app settings.",
       },
       {"type":"prose","heading":"Sample: what the recipient sees","paragraphs":["Sample: Kavya Nair, a fictional consultant, sends her intros from kavya@sample-consulting.in. Her new contact sees Kavya’s name and address in the inbox, the same address printed on the card he took home. The email looks like it came from a person, because it did.","When he replies, the reply lands in Kavya’s normal inbox, where she already handles the rest of her client email. There is no separate system to check and no thread split across tools."]},
@@ -576,10 +576,10 @@ export const pages: PageDef[] = [
     slug: "features/outreach/email-providers",
     category: "outreach",
     title: "Supported Email Providers",
-    seoTitle: "Supported Email Providers for eCard Intros",
+    seoTitle: "Supported Email Providers For eCard Intros",
     description: "eCard sends intros through Gmail, Outlook, Zoho, SendGrid, Brevo, Mailgun, Amazon SES, Resend or any SMTP host. Compare mailbox and transactional options.",
-    h1: "Send through the provider you already use",
-    eyebrow: "Email setup",
+    h1: "Send Through The Provider You Already Use",
+    eyebrow: "Email Setup",
     intro: "eCard works with any SMTP host. The site names nine options, from everyday mailboxes to transactional email services.",
     variant: "reference",
     visual: "integrations",
@@ -587,7 +587,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Named providers",
+        heading: "Named Providers",
         headers: ["Provider", "Type", "Typical fit"],
         rows: [
           ["Gmail", "Mailbox", "Individuals and Google Workspace teams"],
@@ -603,7 +603,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "split",
-        heading: "Mailbox or transactional service?",
+        heading: "Mailbox Or Transactional Service?",
         body: [
           "A mailbox provider sends as you, from the account you read every day. A transactional service sends on behalf of a verified domain and is built for volume and monitoring.",
           "For one-to-one intros, most people start with their normal mailbox. Larger teams sometimes prefer a transactional service for central control.",
@@ -613,12 +613,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Provider limits are theirs",
+        title: "Provider Limits Are Theirs",
         body: "Sending limits and policies are set by each provider, not by eCard. Check your provider's documentation.",
       },
       {
         type: "bullets",
-        heading: "Before you choose",
+        heading: "Before You Choose",
         items: [
           "Do you need replies to land in a personal inbox?",
           "Do you control DNS for your sending domain?",
@@ -643,9 +643,9 @@ export const pages: PageDef[] = [
     slug: "features/outreach/email-deliverability",
     category: "outreach",
     title: "Email Deliverability",
-    seoTitle: "Email Deliverability Tips for Intro Emails",
+    seoTitle: "Email Deliverability Tips For Intro Emails",
     description: "Practical deliverability guidance for intro emails sent from your own mailbox: SPF, DKIM, DMARC, sending volume, content and list hygiene.",
-    h1: "Help your intros land in the inbox",
+    h1: "Help Your Intros Land In The Inbox",
     eyebrow: "Guidance",
     intro: "Because eCard sends from your own SMTP mailbox, deliverability depends on your domain and provider. These general practices help.",
     variant: "guide",
@@ -654,7 +654,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "The three authentication records",
+        heading: "The Three Authentication Records",
         intro: "General email guidance, set up with your domain and provider.",
         cards: [
           { title: "SPF", body: "Lists the servers allowed to send for your domain.", icon: "shield" },
@@ -664,7 +664,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Content that reads as personal",
+        heading: "Content That Reads As Personal",
         items: [
           "Short, plain text with one or two links at most.",
           "A specific reference to where you met.",
@@ -674,24 +674,24 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Volume after big events",
+        heading: "Volume After Big Events",
         paragraphs: [
           "Sending a hundred intros in an hour from a mailbox that usually sends ten a day can look unusual to filters. If you come back from a large expo, consider spreading sends over a day or two, or using a transactional provider built for volume.",
         ],
       },
       {
         type: "steps",
-        heading: "Quick deliverability check",
+        heading: "Quick Deliverability Check",
         steps: [
-          { title: "Send a test", body: "Send an intro to an address you own on a different provider." },
-          { title: "Check the folder", body: "Did it land in Inbox, Promotions or Spam?" },
-          { title: "Inspect headers", body: "Look for SPF, DKIM and DMARC 'pass' results." },
+          { title: "Send A Test", body: "Send an intro to an address you own on a different provider." },
+          { title: "Check The Folder", body: "Did it land in Inbox, Promotions or Spam?" },
+          { title: "Inspect Headers", body: "Look for SPF, DKIM and DMARC 'pass' results." },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Keep data clean",
+        title: "Keep Data Clean",
         body: "Bounces hurt sender reputation. eCard's scan review and duplicate merge help keep addresses accurate.",
       },
       {"type":"steps","heading":"Warming up a new sending address","intro":"General practice for a new domain or a newly connected provider.","steps":[{"title":"Start with people who know you","body":"Send your first intros to contacts likely to reply; replies are a strong positive signal."},{"title":"Grow volume gradually","body":"Avoid jumping from a handful of emails to hundreds in a day on a fresh address."},{"title":"Watch bounces","body":"A wrongly scanned address bounces. Fix fields during review so bad addresses never send."},{"title":"Check placement","body":"Send to a test inbox at a different provider and see whether it lands in the inbox or spam."}]},
@@ -713,7 +713,7 @@ export const pages: PageDef[] = [
     title: "Intro Email Templates",
     seoTitle: "Intro Email Templates After Meeting Someone",
     description: "Sample intro email templates for trade shows, referrals, site visits and conferences, to adapt when you edit eCard's AI drafts before sending.",
-    h1: "Intro emails worth replying to",
+    h1: "Intro Emails Worth Replying To",
     eyebrow: "Templates",
     intro: "eCard's AI writes a draft for you; these sample templates show patterns to steer it toward. Every name and detail below is fictional sample data.",
     variant: "guide",
@@ -722,17 +722,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Four sample templates",
+        heading: "Four Sample Templates",
         cards: [
-          { title: "After a trade show (sample)", body: "Hi Arjun, good to meet you at the packaging expo today. You mentioned sourcing compostable trays; I'll send our spec sheet this week. Best, Neha" },
-          { title: "After a referral (sample)", body: "Hi Meera, Rohan suggested we connect since we both work with clinics in Pune. Would a 20-minute call next week work?" },
-          { title: "After a site visit (sample)", body: "Hi Mr. Kulkarni, thanks for visiting the site on Sunday. I've attached the brochure with floor plans. Happy to arrange a second visit." },
-          { title: "After a conference talk (sample)", body: "Hi Dr. Iyer, I enjoyed your session on rural telehealth. I'd value 15 minutes to learn how you set up the pilot." },
+          { title: "After A Trade Show (Sample)", body: "Hi Arjun, good to meet you at the packaging expo today. You mentioned sourcing compostable trays; I'll send our spec sheet this week. Best, Neha" },
+          { title: "After A Referral (Sample)", body: "Hi Meera, Rohan suggested we connect since we both work with clinics in Pune. Would a 20-minute call next week work?" },
+          { title: "After A Site Visit (Sample)", body: "Hi Mr. Kulkarni, thanks for visiting the site on Sunday. I've attached the brochure with floor plans. Happy to arrange a second visit." },
+          { title: "After A Conference Talk (Sample)", body: "Hi Dr. Iyer, I enjoyed your session on rural telehealth. I'd value 15 minutes to learn how you set up the pilot." },
         ],
       },
       {
         type: "bullets",
-        heading: "What these have in common",
+        heading: "What These Have In Common",
         items: [
           "They name the place or person that connects you.",
           "They reference something specific the contact said.",
@@ -742,7 +742,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Subject line ideas",
+        heading: "Subject Line Ideas",
         headers: ["Context", "Sample subject"],
         rows: [
           ["Expo", "Great meeting you at the expo"],
@@ -754,7 +754,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Templates are guidance",
+        title: "Templates Are Guidance",
         body: "eCard's site describes AI-drafted intros that you preview and edit. It does not document a template library feature.",
       },
       {"type":"bullets","heading":"Adapting a template in under a minute","intro":"Templates are starting points. These edits make them yours.","items":["Swap the generic opening for the place you met, such as the stall, panel or site visit.","Replace the general ask with the one thing you agreed to do next.","Delete any sentence that would make equal sense to every contact.","Match their formality: if they used first names, you can too.","End with a question that is easy to answer in one line."]},
@@ -773,10 +773,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/outreach/whatsapp-english",
     category: "outreach",
-    title: "WhatsApp in English",
-    seoTitle: "WhatsApp Follow-Ups Written in English",
+    title: "WhatsApp In English",
+    seoTitle: "WhatsApp Follow-Ups Written In English",
     description: "Use eCard to write English WhatsApp follow-ups for corporate, pan-India and international contacts, with sample messages and tips on tone and length.",
-    h1: "English WhatsApp messages that sound like you",
+    h1: "English WhatsApp Messages That Sound Like You",
     eyebrow: "WhatsApp · English",
     intro: "English is the default for many business chats across India and abroad. eCard's AI writes the message and opens it in WhatsApp in one tap.",
     variant: "feature",
@@ -785,14 +785,14 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "When English is the right choice",
+        heading: "When English Is The Right Choice",
         paragraphs: [
           "Choose English for corporate buyers, international visitors at an expo, and contacts whose card and conversation were in English. If you're unsure, mirror the language they used when you met.",
         ],
       },
       {
         type: "table",
-        heading: "Sample messages",
+        heading: "Sample Messages",
         intro: "Fictional sample data.",
         headers: ["Situation", "Sample message"],
         rows: [
@@ -803,7 +803,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Tone tips for WhatsApp",
+        heading: "Tone Tips For WhatsApp",
         items: [
           "Shorter than email: two or three lines.",
           "Introduce yourself in the first line; they may not have saved your number.",
@@ -814,7 +814,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Switch languages per contact",
+        title: "Switch Languages Per Contact",
         body: "eCard supports English, Hindi and Marathi, so you can pick the language contact by contact.",
       },
       {"type":"table","heading":"Matching tone to the contact","headers":["Contact","Tone","Sample opening"],"rows":[["Senior executive you met briefly","Formal, concise","Sample: “Good evening Mr. Menon, thank you for your time at the summit today.”"],["Peer from a workshop","Friendly, direct","Sample: “Hi Riya, great chatting at the design workshop!”"],["International buyer","Clear, no slang","Sample: “Hello Mr. Tan, it was a pleasure meeting you at the expo.”"],["Supplier you will order from","Practical","Sample: “Hi Suresh, following up on the quote for 500 units.”"]]},
@@ -835,10 +835,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/outreach/whatsapp-hindi",
     category: "outreach",
-    title: "WhatsApp in Hindi",
+    title: "WhatsApp In Hindi",
     seoTitle: "Hindi WhatsApp Follow-Ups (हिंदी)",
     description: "eCard's AI writes WhatsApp follow-ups in Hindi and opens them in one tap. When to use Hindi, sample messages, and tips for a respectful tone.",
-    h1: "Follow up in Hindi (हिंदी), in one tap",
+    h1: "Follow Up In Hindi (हिंदी), In One Tap",
     eyebrow: "WhatsApp · Hindi",
     intro: "For many contacts, a message in Hindi feels more natural than English. eCard writes it for you and opens it in WhatsApp.",
     variant: "feature",
@@ -847,7 +847,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "When to choose Hindi",
+        heading: "When To Choose Hindi",
         body: [
           "Use Hindi when the conversation happened in Hindi, or when the contact seems more comfortable in it. It's common with local traders, distributors, property buyers and family-run businesses.",
         ],
@@ -855,7 +855,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Sample messages",
+        heading: "Sample Messages",
         intro: "Fictional sample data.",
         headers: ["Situation", "Sample (Hindi)"],
         rows: [
@@ -865,17 +865,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Sending a Hindi follow-up",
+        heading: "Sending A Hindi Follow-up",
         steps: [
           { title: "Pick Hindi", body: "Choose Hindi as the message language for the contact." },
-          { title: "Open in WhatsApp", body: "One tap opens the AI-written message in WhatsApp." },
-          { title: "Review and send", body: "Read it, adjust any wording, and send." },
+          { title: "Open In WhatsApp", body: "One tap opens the AI-written message in WhatsApp." },
+          { title: "Review And Send", body: "Read it, adjust any wording, and send." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Read before sending",
+        title: "Read Before Sending",
         body: "AI translation and phrasing can be imperfect. A quick read in WhatsApp lets you adjust anything that sounds off.",
       },
       {"type":"table","heading":"Formal and friendly Hindi","intro":"General guidance on register, with sample phrases.","headers":["Register","When to use","Sample phrase"],"rows":[["Formal (आप, जी)","Senior contacts, first message, older clients","Sample: “नमस्ते शर्मा जी, आज मिलकर अच्छा लगा।”"],["Warm but polite","Peers and small business owners","Sample: “नमस्ते रोहित जी, कल की मीटिंग के लिए धन्यवाद।”"],["Mixed Hindi-English","Urban business contacts who speak that way","Sample: “Hi Neeraj ji, आज expo में मिलकर अच्छा लगा।”"]]},
@@ -896,10 +896,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/outreach/whatsapp-marathi",
     category: "outreach",
-    title: "WhatsApp in Marathi",
+    title: "WhatsApp In Marathi",
     seoTitle: "Marathi WhatsApp Follow-Ups (मराठी)",
     description: "Write WhatsApp follow-ups in Marathi with eCard's AI and open them in one tap. Useful for Maharashtra buyers, partners and site-visit leads.",
-    h1: "Marathi (मराठी) follow-ups for local relationships",
+    h1: "Marathi (मराठी) Follow-ups For Local Relationships",
     eyebrow: "WhatsApp · Marathi",
     intro: "eCard is one of few tools to name Marathi as a follow-up language. Its real-estate use case suggests following up in Marathi or Hindi on WhatsApp.",
     variant: "feature",
@@ -916,7 +916,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Sample messages",
+        heading: "Sample Messages",
         intro: "Fictional sample data.",
         headers: ["Situation", "Sample (Marathi)"],
         rows: [
@@ -926,17 +926,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Where it fits",
+        heading: "Where It Fits",
         cards: [
-          { title: "Real estate", body: "Follow up site-visit buyers with the brochure and your card.", icon: "building" },
-          { title: "Local trade", body: "Reach distributors and suppliers in their language.", icon: "briefcase" },
-          { title: "Events in Maharashtra", body: "Follow up regional expo visitors the same day.", icon: "calendar" },
+          { title: "Real Estate", body: "Follow up site-visit buyers with the brochure and your card.", icon: "building" },
+          { title: "Local Trade", body: "Reach distributors and suppliers in their language.", icon: "briefcase" },
+          { title: "Events In Maharashtra", body: "Follow up regional expo visitors the same day.", icon: "calendar" },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "See who opened the brochure",
+        title: "See Who Opened The Brochure",
         body: "eCard's link tracking covers your card, PDFs and WhatsApp links.",
       },
       {"type":"steps","heading":"Sending a Marathi follow-up","steps":[{"title":"Scan and review","body":"Scan the card and confirm the mobile number and name."},{"title":"Choose Marathi","body":"Pick Marathi as the language and let the AI write the message."},{"title":"Open in WhatsApp","body":"One tap opens the message in WhatsApp, ready to read."},{"title":"Polish and send","body":"Adjust the greeting or add a local detail, then press send yourself."}]},
@@ -959,9 +959,9 @@ export const pages: PageDef[] = [
     slug: "features/outreach/one-tap-whatsapp",
     category: "outreach",
     title: "One-Tap WhatsApp",
-    seoTitle: "One-Tap WhatsApp Messages from Contacts",
+    seoTitle: "One-Tap WhatsApp Messages From Contacts",
     description: "eCard opens an AI-written WhatsApp message in one tap, so following up takes seconds. How it works and why you still press send yourself.",
-    h1: "From contact to WhatsApp chat in one tap",
+    h1: "From Contact To WhatsApp Chat In One Tap",
     eyebrow: "WhatsApp",
     intro: "No copying numbers, no saving contacts first. eCard writes the message and opens it in WhatsApp with one tap.",
     variant: "feature",
@@ -970,16 +970,16 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "The one-tap flow",
+        heading: "The One-tap Flow",
         steps: [
-          { title: "Message is written", body: "The AI writes a message in English, Hindi or Marathi." },
-          { title: "You tap", body: "eCard opens WhatsApp with the message ready." },
-          { title: "You send", body: "Review in WhatsApp and press send." },
+          { title: "Message Is Written", body: "The AI writes a message in English, Hindi or Marathi." },
+          { title: "You Tap", body: "eCard opens WhatsApp with the message ready." },
+          { title: "You Send", body: "Review in WhatsApp and press send." },
         ],
       },
       {
         type: "prose",
-        heading: "Why you still press send",
+        heading: "Why You Still Press Send",
         paragraphs: [
           "Opening the message in WhatsApp rather than sending it in the background keeps you in control of what goes out from your number. It also means the chat sits in your normal WhatsApp history.",
           "Because eCard works in any phone browser, the jump from browser to WhatsApp happens on the same device.",
@@ -987,7 +987,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Good uses",
+        heading: "Good Uses",
         items: [
           "Right after a meeting, while the person is still nearby.",
           "When a contact said 'just WhatsApp me'.",
@@ -998,7 +998,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "No app to install",
+        title: "No App To Install",
         body: "eCard works in any phone browser. You need WhatsApp itself to send the message.",
       },
       {"type":"table","heading":"One tap versus copy-paste","headers":["Step","Manual copy-paste","One tap in eCard"],"rows":[["Save the number","Type it into your phone contacts","Not described as needed"],["Write the message","Type from scratch","AI writes it in English, Hindi or Marathi"],["Open the chat","Search for the contact in WhatsApp","One tap opens WhatsApp with the message"],["Send","Press send","Press send"]]},
@@ -1020,9 +1020,9 @@ export const pages: PageDef[] = [
     slug: "features/outreach/whatsapp-message-generation",
     category: "outreach",
     title: "WhatsApp Message Generation",
-    seoTitle: "AI-Generated WhatsApp Messages for Contacts",
+    seoTitle: "AI-Generated WhatsApp Messages For Contacts",
     description: "How eCard's AI writes WhatsApp follow-ups from your scanned contacts in three languages, and how to get messages that sound personal rather than automated.",
-    h1: "AI that writes the WhatsApp message for you",
+    h1: "AI That Writes The WhatsApp Message For You",
     eyebrow: "WhatsApp",
     intro: "eCard's AI writes a WhatsApp message in English, Hindi or Marathi for each contact. Here's what to expect and how to make it yours.",
     variant: "feature",
@@ -1031,16 +1031,16 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What goes into a good message",
+        heading: "What Goes Into A Good Message",
         cards: [
-          { title: "Who you are", body: "Your name and where you met, since they may not have your number saved.", icon: "users" },
-          { title: "Why you're writing", body: "A reason tied to your conversation.", icon: "message" },
-          { title: "What's next", body: "A link, a question, or a time to talk.", icon: "send" },
+          { title: "Who You Are", body: "Your name and where you met, since they may not have your number saved.", icon: "users" },
+          { title: "Why You're Writing", body: "A reason tied to your conversation.", icon: "message" },
+          { title: "What's Next", body: "A link, a question, or a time to talk.", icon: "send" },
         ],
       },
       {
         type: "prose",
-        heading: "From the contact record to the message",
+        heading: "From The Contact Record To The Message",
         paragraphs: [
           "The message starts from a contact you've scanned and reviewed. Meeting memory, such as where you met and who introduced you, is the kind of context that makes a follow-up feel personal.",
           "eCard's site doesn't document exactly which fields the AI uses, so always read the message in WhatsApp before sending.",
@@ -1048,7 +1048,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Sample: generic vs personal",
+        heading: "Sample: Generic Vs Personal",
         intro: "Fictional sample data.",
         headers: ["Version", "Message"],
         rows: [
@@ -1059,7 +1059,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Your AI, your key",
+        title: "Your AI, Your Key",
         body: "eCard lets you bring your own AI key. The site does not state which model generates WhatsApp messages.",
       },
       {"type":"table","heading":"Inputs and what they change","intro":"General guidance on how context shapes a generated message.","headers":["Input","Effect on the message"],"rows":[["Name and company from the card","Correct greeting and reference to their business"],["Job title","Sets the level of formality"],["Language chosen","English, Hindi or Marathi output"],["Your own edits in WhatsApp","The final say on every word that is sent"]]},
@@ -1081,9 +1081,9 @@ export const pages: PageDef[] = [
     slug: "features/outreach/follow-up-workflows",
     category: "outreach",
     title: "Follow-Up Workflows",
-    seoTitle: "Follow-Up Workflows from Scan to Reply",
+    seoTitle: "Follow-Up Workflows From Scan To Reply",
     description: "Practical follow-up workflows using eCard's scanning, intro emails, WhatsApp messages and link tracking, for solo professionals and sales teams.",
-    h1: "Follow-up workflows that actually get done",
+    h1: "Follow-up Workflows That Actually Get Done",
     eyebrow: "Workflows",
     intro: "The tools are simple: scan, intro email, WhatsApp, tracked links. These workflows show how people combine them.",
     variant: "guide",
@@ -1092,26 +1092,26 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Workflow 1: same-day intro",
+        heading: "Workflow 1: Same-day Intro",
         steps: [
-          { title: "Scan at the meeting", body: "Scan the card in the browser or by sending a photo to the Telegram bot." },
-          { title: "Review fields", body: "Nothing is saved until you review." },
-          { title: "Intro email", body: "Preview the AI draft; it sends after 5 seconds from your mailbox." },
+          { title: "Scan At The Meeting", body: "Scan the card in the browser or by sending a photo to the Telegram bot." },
+          { title: "Review Fields", body: "Nothing is saved until you review." },
+          { title: "Intro Email", body: "Preview the AI draft; it sends after 5 seconds from your mailbox." },
         ],
       },
       {
         type: "steps",
         heading: "Workflow 2: WhatsApp-first",
         steps: [
-          { title: "Scan and tag", body: "Tag the contact by event, city or intent." },
-          { title: "Pick a language", body: "English, Hindi or Marathi." },
-          { title: "One tap", body: "Open the message in WhatsApp with your card link and send." },
-          { title: "Watch the link", body: "Link tracking shows whether your card or PDF was opened." },
+          { title: "Scan And Tag", body: "Tag the contact by event, city or intent." },
+          { title: "Pick A Language", body: "English, Hindi or Marathi." },
+          { title: "One Tap", body: "Open the message in WhatsApp with your card link and send." },
+          { title: "Watch The Link", body: "Link tracking shows whether your card or PDF was opened." },
         ],
       },
       {
         type: "split",
-        heading: "Workflow 3: the event batch",
+        heading: "Workflow 3: The Event Batch",
         body: [
           "At a trade show, group cards under an event. Afterwards, follow up with everyone at once, then prioritise people who opened your card or brochure.",
         ],
@@ -1120,7 +1120,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not a sequencing engine",
+        title: "Not A Sequencing Engine",
         body: "eCard's site does not describe automated multi-step sequences. Second and third touches are up to you.",
       },
       {"type":"table","heading":"Picking a workflow","headers":["If…","Use","Watch out for"],"rows":[["You met one important person today","Same-day intro","Over-long first emails"],["The person lives on WhatsApp","WhatsApp-first","Messaging late at night"],["You came back from an expo with a stack of cards","Event batch","Identical text to everyone"],["The meeting was introduced by a mutual contact","Same-day intro mentioning the introducer","Copying the introducer without asking"]]},
@@ -1142,9 +1142,9 @@ export const pages: PageDef[] = [
     slug: "features/outreach/follow-up-timing",
     category: "outreach",
     title: "Follow-Up Timing",
-    seoTitle: "When to Follow Up After Meeting Someone",
+    seoTitle: "When To Follow Up After Meeting Someone",
     description: "Guidance on follow-up timing after events, meetings and referrals: same-day intros, the second touch, and when to stop. Plus how eCard helps you move fast.",
-    h1: "When to follow up, and when to stop",
+    h1: "When To Follow Up, And When To Stop",
     eyebrow: "Guidance",
     intro: "Timing is half of a good follow-up. This is general guidance; eCard's 5-second intro send makes the first touch the easy part.",
     variant: "guide",
@@ -1153,19 +1153,19 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "A sensible default cadence",
+        heading: "A Sensible Default Cadence",
         intro: "General guidance, not an eCard feature.",
         headers: ["Touch", "When", "Purpose"],
         rows: [
           ["First", "Same day, ideally within hours", "Thank them and share your card"],
-          ["Second", "3–5 working days later", "Deliver what you promised or ask a question"],
+          ["Second", "3-5 working days later", "Deliver what you promised or ask a question"],
           ["Third", "About two weeks later", "Light check-in with something useful"],
           ["Pause", "After three unanswered touches", "Stop and revisit next quarter"],
         ],
       },
       {
         type: "prose",
-        heading: "Why same day wins",
+        heading: "Why Same Day Wins",
         paragraphs: [
           "After an event, people meet dozens of others. A same-day note arrives while they still remember your face. A week later, you're one of many.",
           "eCard's intro email sends five seconds after preview, so the first touch can happen before you leave the venue.",
@@ -1173,7 +1173,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Timing etiquette",
+        heading: "Timing Etiquette",
         items: [
           "Avoid late-night WhatsApp messages.",
           "Respect weekends and religious holidays.",
@@ -1184,10 +1184,10 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Let engagement guide the second touch",
+        title: "Let Engagement Guide The Second Touch",
         body: "eCard's link tracking shows opens of your card, PDFs and WhatsApp links, a useful signal for who to follow up first.",
       },
-      {"type":"table","heading":"Timing by context","intro":"General guidance; adjust for the person and industry.","headers":["Context","First touch","Second touch"],"rows":[["One-to-one meeting","Same day","After 3–5 working days if no reply"],["Trade show or expo","Within 24 hours","About a week later, with something useful"],["Conference with travel","When you are back, ideally within 48 hours","After their likely return date"],["Real-estate site visit","Same evening","After 2–3 days with a relevant update"]]},
+      {"type":"table","heading":"Timing by context","intro":"General guidance; adjust for the person and industry.","headers":["Context","First touch","Second touch"],"rows":[["One-to-one meeting","Same day","After 3-5 working days if no reply"],["Trade show or expo","Within 24 hours","About a week later, with something useful"],["Conference with travel","When you are back, ideally within 48 hours","After their likely return date"],["Real-estate site visit","Same evening","After 2-3 days with a relevant update"]]},
       {"type":"bullets","heading":"Times to avoid","items":["Late night messages on WhatsApp, which feel intrusive.","Major festival days, when people are with family.","The first hour of a Monday, when inboxes are at their fullest.","The day the event ends, if everyone is still travelling; a next-morning email may be read sooner."]},
       {"type":"prose","heading":"Sample: a two-week timeline","paragraphs":["Sample: you meet Leena Shah, a fictional operations manager, at an expo on a Thursday. Thursday evening, an intro email goes out from your mailbox. The following Wednesday, with no reply, you send a short WhatsApp note sharing a relevant case brief. The week after, a final light check-in. Then you pause and let her come back when ready."]},
       {"type":"callout","tone":"note","title":"What eCard does and doesn’t time","body":"Intro emails send 5 seconds after you preview them. The site does not describe scheduled sends or automatic second touches, so plan later follow-ups yourself."},
@@ -1206,9 +1206,9 @@ export const pages: PageDef[] = [
     slug: "features/outreach/follow-up-etiquette",
     category: "outreach",
     title: "Follow-Up Etiquette",
-    seoTitle: "Follow-Up Etiquette for Email and WhatsApp",
+    seoTitle: "Follow-Up Etiquette For Email And WhatsApp",
     description: "Polite, effective follow-up etiquette for email and WhatsApp after meeting new contacts, with dos and don'ts that keep relationships warm, not pushy.",
-    h1: "Follow up without being pushy",
+    h1: "Follow Up Without Being Pushy",
     eyebrow: "Guidance",
     intro: "A follow-up should feel like a continuation of a good conversation. These general etiquette rules help, whichever channel you use.",
     variant: "guide",
@@ -1217,7 +1217,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Dos and don'ts",
+        heading: "Dos And Don'ts",
         body: [
           "The best follow-ups are short, specific and generous. They remind the person who you are and offer something before asking for anything.",
         ],
@@ -1225,7 +1225,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Consent and channel",
+        heading: "Consent And Channel",
         paragraphs: [
           "Someone handing you a card is permission to follow up about what you discussed, not to add them to bulk marketing. Keep the first message one-to-one.",
           "If they said they prefer WhatsApp, use WhatsApp. If they gave a work email, start there. eCard supports both, so you can match their preference.",
@@ -1233,7 +1233,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Channel-specific manners",
+        heading: "Channel-specific Manners",
         cards: [
           { title: "Email", body: "Clear subject, a signature with your details, and a link to your digital card.", icon: "mail" },
           { title: "WhatsApp", body: "Introduce yourself in line one, keep it to two or three lines, and send during working hours.", icon: "message" },
@@ -1243,7 +1243,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Compliance support",
+        title: "Compliance Support",
         body: "eCard includes a compliance checklist covering consent, export and deletion.",
       },
       {"type":"prose","heading":"Sample: a polite nudge versus a pushy one","paragraphs":["Sample pushy nudge: “Just checking if you saw my last three emails? Please confirm by today.” It puts pressure on the reader and implies they have failed you.","Sample polite nudge: “Hi Aditi, I know expo weeks are busy. I’ve attached the sample spec we talked about in case it helps. Happy to talk whenever suits you.” It adds value, accepts their timing and leaves the door open."]},
@@ -1263,10 +1263,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/outreach/email-vs-whatsapp",
     category: "outreach",
-    title: "Email vs WhatsApp",
-    seoTitle: "Email vs WhatsApp: Choosing a Follow-Up Channel",
+    title: "Email Vs WhatsApp",
+    seoTitle: "Email Vs WhatsApp: Choosing A Follow-Up Channel",
     description: "Compare email and WhatsApp for business follow-ups: formality, speed, attachments and tracking. How eCard supports both from the same contact record.",
-    h1: "Email or WhatsApp? Choose per contact",
+    h1: "Email Or WhatsApp? Choose Per Contact",
     eyebrow: "Comparison",
     intro: "eCard supports both channels from the same contact. The right one depends on the person, the context and what you need to send.",
     variant: "reference",
@@ -1275,7 +1275,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Side by side",
+        heading: "Side By Side",
         headers: ["", "Email", "WhatsApp"],
         rows: [
           ["In eCard", "AI draft, preview, sends after 5s from your SMTP", "AI message in English, Hindi or Marathi, opens in one tap"],
@@ -1287,7 +1287,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Choose email when…",
+        heading: "Choose Email When…",
         items: [
           "The contact is in a large company or government body.",
           "You need a record others can be copied on.",
@@ -1296,7 +1296,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Choose WhatsApp when…",
+        heading: "Choose WhatsApp When…",
         items: [
           "They said 'WhatsApp me'.",
           "The relationship is local and informal.",
@@ -1307,7 +1307,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Why not both?",
+        title: "Why Not Both?",
         body: "A short email intro plus a WhatsApp note saying 'just emailed you' works well for important contacts. Don't overdo it for everyone.",
       },
       {"type":"table","heading":"By industry, as a rough guide","intro":"General patterns only; always follow the individual’s preference.","headers":["Context","Often prefers","Reason"],"rows":[["Corporate procurement","Email","Decisions are documented and forwarded internally."],["Real estate buyers","WhatsApp","Quick questions, photos and site-visit timing."],["Small traders and distributors","WhatsApp","Day-to-day business already runs there."],["International contacts","Email first","WhatsApp from an unknown number can feel abrupt."]]},
@@ -1331,7 +1331,7 @@ export const pages: PageDef[] = [
     title: "Post-Event Outreach",
     seoTitle: "Post-Event Outreach After Trade Shows",
     description: "How to follow up everyone you met at a trade show or conference with eCard: group cards by event, send intros, and prioritise by tracked engagement.",
-    h1: "Follow up the whole room, not just the top five",
+    h1: "Follow Up The Whole Room, Not Just The Top Five",
     eyebrow: "Events",
     intro: "Most event leads die in a bag of cards. eCard groups cards from a show so you can follow up with everyone at once.",
     variant: "guide",
@@ -1340,25 +1340,25 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "The post-event routine",
+        heading: "The Post-event Routine",
         steps: [
-          { title: "Group during the show", body: "Add scanned cards to the event as you go." },
-          { title: "Review the batch", body: "Check fields and confidence scores; merge duplicates." },
-          { title: "Follow up everyone", body: "eCard lets you follow up with everyone from the event at once." },
-          { title: "Prioritise the engaged", body: "Use link tracking to see who opened your card or brochure." },
-          { title: "Personal second touch", body: "Call or WhatsApp the warmest leads." },
+          { title: "Group During The Show", body: "Add scanned cards to the event as you go." },
+          { title: "Review The Batch", body: "Check fields and confidence scores; merge duplicates." },
+          { title: "Follow Up Everyone", body: "eCard lets you follow up with everyone from the event at once." },
+          { title: "Prioritise The Engaged", body: "Use link tracking to see who opened your card or brochure." },
+          { title: "Personal Second Touch", body: "Call or WhatsApp the warmest leads." },
         ],
       },
       {
         type: "prose",
-        heading: "Why everyone deserves a note",
+        heading: "Why Everyone Deserves A Note",
         paragraphs: [
           "At a busy booth, you can't tell who will become a customer. The quiet visitor who took a brochure may be the decision-maker. A short note to everyone costs little and keeps doors open.",
         ],
       },
       {
         type: "bullets",
-        heading: "Make batch follow-ups feel personal",
+        heading: "Make Batch Follow-ups Feel Personal",
         items: [
           "Reference the event by name.",
           "Mention your stand number or the talk you gave.",
@@ -1369,7 +1369,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not documented",
+        title: "Not Documented",
         body: "eCard's site does not detail how event-wide follow-ups are composed. Check the app for current options.",
       },
       {"type":"steps","heading":"Before the event: set yourself up","intro":"Post-event outreach is easier when you prepare.","steps":[{"title":"Connect your mailbox","body":"Set up SMTP and send a test before you travel."},{"title":"Create the event","body":"Group the expo’s cards under one event so follow-ups stay together."},{"title":"Agree ownership","body":"If teammates attend, decide who follows up with whom."}]},
@@ -1391,9 +1391,9 @@ export const pages: PageDef[] = [
     slug: "features/outreach/outreach-tracking",
     category: "outreach",
     title: "Outreach Tracking",
-    seoTitle: "Track Outreach with Card, PDF and WhatsApp Links",
+    seoTitle: "Track Outreach With Card, PDF And WhatsApp Links",
     description: "eCard's link tracking shows opens of your digital card, PDFs and WhatsApp links, with bot clicks filtered, so you can see which follow-ups landed.",
-    h1: "Know which follow-ups were opened",
+    h1: "Know Which Follow-ups Were Opened",
     eyebrow: "Tracking",
     intro: "Sending is only half the job. eCard's link tracking shows when your card, PDFs and WhatsApp links are opened.",
     variant: "feature",
@@ -1402,17 +1402,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What's tracked",
+        heading: "What's Tracked",
         cards: [
-          { title: "Digital card opens", body: "See when your card link is opened.", icon: "card" },
-          { title: "PDF opens", body: "Know when a brochure or document you shared was viewed.", icon: "file" },
-          { title: "WhatsApp links", body: "Track links you share in WhatsApp messages.", icon: "message" },
-          { title: "Bot-filtered clicks", body: "Short links count clicks with bots filtered out.", icon: "shield" },
+          { title: "Digital Card Opens", body: "See when your card link is opened.", icon: "card" },
+          { title: "PDF Opens", body: "Know when a brochure or document you shared was viewed.", icon: "file" },
+          { title: "WhatsApp Links", body: "Track links you share in WhatsApp messages.", icon: "message" },
+          { title: "Bot-filtered Clicks", body: "Short links count clicks with bots filtered out.", icon: "shield" },
         ],
       },
       {
         type: "prose",
-        heading: "Using opens as a signal",
+        heading: "Using Opens As A Signal",
         paragraphs: [
           "An open isn't a reply, but it tells you the message landed and the person was curious. That's a good reason to prioritise them for a call or a second message.",
           "Because bot clicks are filtered from short-link counts, numbers are closer to real human interest.",
@@ -1420,7 +1420,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "What tracking doesn't tell you",
+        heading: "What Tracking Doesn't Tell You",
         items: [
           "eCard's site does not describe email open-pixel tracking.",
           "Opens show interest, not intent to buy.",
@@ -1430,7 +1430,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Always include a tracked link",
+        title: "Always Include A Tracked Link",
         body: "Sharing your digital card or a PDF link in every follow-up gives you a signal to act on.",
       },
       {"type":"table","heading":"Reading signals and next actions","intro":"General guidance on interpreting link opens.","headers":["Signal","Possible meaning","Sensible next step"],"rows":[["Card opened soon after your message","They looked you up","Wait for a reply; a nudge after a few days is fine"],["PDF brochure opened several times","Active interest, possibly shared internally","Offer a call or answer likely questions"],["WhatsApp link opened, no reply","Seen but not acted on","Try one useful follow-up later"],["Nothing opened after a week","Missed, busy, or not interested","One more touch on the other channel, then pause"]]},
@@ -1453,8 +1453,8 @@ export const pages: PageDef[] = [
     category: "outreach",
     title: "Personalised Follow-Ups",
     seoTitle: "Personalised Follow-Ups Using Meeting Context",
-    description: "Use meeting memory — where you met, who introduced you, voice notes — to personalise eCard's AI-drafted emails and WhatsApp messages in seconds.",
-    h1: "Follow-ups that prove you were listening",
+    description: "Use meeting memory (where you met, who introduced you, voice notes) to personalise eCard's AI-drafted emails and WhatsApp messages in seconds.",
+    h1: "Follow-ups That Prove You Were Listening",
     eyebrow: "Personalisation",
     intro: "The best follow-up mentions something only you would know. eCard's meeting memory keeps those details next to the contact.",
     variant: "guide",
@@ -1463,7 +1463,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Context you already capture",
+        heading: "Context You Already Capture",
         body: [
           "eCard's meeting memory records where you met, who introduced you, voice notes and a searchable AI summary. Those are exactly the details that turn a generic note into a personal one.",
         ],
@@ -1471,7 +1471,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Turning context into a line",
+        heading: "Turning Context Into A Line",
         intro: "Fictional sample data.",
         headers: ["Memory", "Line in your follow-up"],
         rows: [
@@ -1482,17 +1482,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A 30-second personalisation pass",
+        heading: "A 30-second Personalisation Pass",
         steps: [
-          { title: "Glance at memory", body: "Read the summary or voice note on the contact." },
-          { title: "Edit the draft", body: "Add one specific line to the AI draft or WhatsApp message." },
+          { title: "Glance At Memory", body: "Read the summary or voice note on the contact." },
+          { title: "Edit The Draft", body: "Add one specific line to the AI draft or WhatsApp message." },
           { title: "Send", body: "Let the email send, or send in WhatsApp." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "How drafts use memory",
+        title: "How Drafts Use Memory",
         body: "eCard's site doesn't state whether the AI draft automatically includes meeting notes. Add them yourself when editing.",
       },
       {"type":"table","heading":"Sample: from memory to message","intro":"Fictional examples of turning a captured detail into one line.","headers":["What you noted","Line you add"],"rows":[["Sample: introduced by Meera from the chamber of commerce","“Meera mentioned you are expanding to Pune, so I thought this might help.”"],["Sample: voice note says ‘wants cold-chain pricing by month end’","“As promised, cold-chain pricing ahead of your month-end review.”"],["Sample: met at a startup pitch evening","“Enjoyed your pitch on rural logistics last night.”"]]},
@@ -1514,9 +1514,9 @@ export const pages: PageDef[] = [
     slug: "features/outreach/multilingual-outreach",
     category: "outreach",
     title: "Multilingual Outreach",
-    seoTitle: "Multilingual Outreach in 3 WhatsApp Languages",
+    seoTitle: "Multilingual Outreach In 3 WhatsApp Languages",
     description: "eCard writes WhatsApp follow-ups in English, Hindi and Marathi. How to choose a language per contact and keep multilingual outreach respectful.",
-    h1: "Reach people in the language they're comfortable in",
+    h1: "Reach People In The Language They're Comfortable In",
     eyebrow: "Multilingual",
     intro: "eCard's homepage lists 3 WhatsApp languages: English, Hindi and Marathi. Here's how to use them well across a mixed contact list.",
     variant: "feature",
@@ -1525,7 +1525,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Picking a language",
+        heading: "Picking A Language",
         intro: "General guidance.",
         headers: ["Signal", "Likely choice"],
         rows: [
@@ -1537,7 +1537,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Language is a courtesy",
+        heading: "Language Is A Courtesy",
         paragraphs: [
           "In multilingual markets, choosing someone's preferred language is a small sign of respect. It can make a follow-up feel like it came from a person rather than a system.",
           "Tag contacts with their preferred language so teammates pick the same one later.",
@@ -1545,7 +1545,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Quality checks",
+        heading: "Quality Checks",
         items: [
           "Read the message fully in WhatsApp before sending.",
           "Check names are spelled the way the contact writes them.",
@@ -1555,7 +1555,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Email language",
+        title: "Email Language",
         body: "eCard's site names three languages for WhatsApp messages. It does not document language options for intro emails.",
       },
       {"type":"table","heading":"Choosing a language per contact","headers":["Clue","Suggested choice"],"rows":[["Card printed only in English, conversation in English","English"],["Conversation drifted into Hindi","Hindi, in a respectful register"],["Contact greeted you in Marathi or is a local Maharashtra business owner who spoke Marathi","Marathi"],["Not sure","English, or ask in your first message which they prefer"]]},

@@ -6,8 +6,8 @@ export const pages: PageDef[] = [
     category: "integrations",
     title: "Integrations",
     seoTitle: "eCard Integrations: AI, Email, Messaging & Payments",
-    description: "See every tool eCard names as an integration — AI models, SMTP mailboxes, Telegram, WhatsApp, Google Contacts, Maps, webhooks and payments — and what each one does.",
-    h1: "The tools eCard plugs into",
+    description: "See every tool eCard names as an integration (AI models, SMTP mailboxes, Telegram, WhatsApp, Google Contacts, Maps, webhooks and payments) and what each one does.",
+    h1: "The Tools eCard Plugs Into",
     eyebrow: "Integrations",
     intro: "eCard connects to the tools you already use for scanning, sending and syncing. This page groups each named integration by the job it does, so you can see what fits your workflow.",
     variant: "integration",
@@ -16,28 +16,28 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Integrations by job",
+        heading: "Integrations By Job",
         intro: "Each integration plays a specific role in the scan-to-follow-up flow.",
         cards: [
-          { title: "AI models that read cards", body: "Claude, OpenAI, Gemini, DeepSeek and Grok, plus Azure or a custom endpoint. You can bring your own key.", icon: "brain" },
-          { title: "Mailboxes for intro emails", body: "Gmail, Outlook, Zoho, SendGrid, Brevo, Mailgun, Amazon SES, Resend or any SMTP host — intros go out from your own address.", icon: "mail" },
+          { title: "AI Models That Read Cards", body: "Claude, OpenAI, Gemini, DeepSeek and Grok, plus Azure or a custom endpoint. You can bring your own key.", icon: "brain" },
+          { title: "Mailboxes For Intro Emails", body: "Gmail, Outlook, Zoho, SendGrid, Brevo, Mailgun, Amazon SES, Resend or any SMTP host, intros go out from your own address.", icon: "mail" },
           { title: "Messaging", body: "Telegram for snapping cards from chat, and WhatsApp for AI-written follow-ups opened in one tap.", icon: "message" },
-          { title: "Contacts and places", body: "Google Contacts sync on Starter and above, and Google Maps checks on scanned addresses.", icon: "map" },
-          { title: "Data in and out", body: "CSV import for existing lists, and signed webhooks for every new contact on Professional and above.", icon: "webhook" },
-          { title: "Paying for eCard", body: "Razorpay with UPI in India and Stripe for card payments of your eCard subscription.", icon: "rupee" },
+          { title: "Contacts And Places", body: "Google Contacts sync on Starter and above, and Google Maps checks on scanned addresses.", icon: "map" },
+          { title: "Data In And Out", body: "CSV import for existing lists, and signed webhooks for every new contact on Professional and above.", icon: "webhook" },
+          { title: "Paying For eCard", body: "Razorpay with UPI in India and Stripe for card payments of your eCard subscription.", icon: "rupee" },
         ],
       },
       {
         type: "prose",
-        heading: "What these pages cover — and what they don’t",
+        heading: "What These Pages Cover: And What They Don’t",
         paragraphs: [
-          "eCard’s public site names its integrations but does not publish detailed setup documentation for each one. The pages in this section explain the verified role of every integration and add general, practical guidance about the underlying tool — for example how SMTP sending works or what a webhook is.",
+          "eCard’s public site names its integrations but does not publish detailed setup documentation for each one. The pages in this section explain the verified role of every integration and add general, practical guidance about the underlying tool, for example how SMTP sending works or what a webhook is.",
           "Where a detail is not stated by eCard, we say so plainly. If you need to know about field-level mappings, sync direction or exact configuration screens, check the settings inside your workspace or ask the eCard team before relying on it.",
         ],
       },
       {
         type: "table",
-        heading: "Plan availability at a glance",
+        heading: "Plan Availability At A Glance",
         intro: "Most integrations are part of the base feature set. These are the ones tied to a plan.",
         headers: ["Integration", "Available from"],
         rows: [
@@ -50,13 +50,13 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Start with two",
+        title: "Start With Two",
         body: "Most people get value fastest by connecting one AI model and one mailbox. Those two make scanning and the 5-second intro email work end to end; everything else can wait.",
       },
     ],
     faqs: [
       { q: "Do I need to pay for every integration separately?", a: "No. Integrations are part of eCard plans. Some, like Google Contacts sync and webhooks, start on specific plans. Your own AI or email provider may bill you separately for their service." },
-      { q: "Is there a native mobile app integration?", a: "eCard is browser-only — it works in any phone browser with no app to install. Telegram is the chat-based way to scan on the go." },
+      { q: "Is there a native mobile app integration?", a: "eCard is browser-only. It works in any phone browser with no app to install. Telegram is the chat-based way to scan on the go." },
       { q: "Can I request a new integration?", a: "eCard’s site does not list a request process. Contact the team at sales@bizzfly.com if an integration matters to your buying decision." },
     ],
     related: ["integrations/webhooks", "integrations/smtp", "integrations/telegram", "platform/bring-your-own-ai", "pricing/compare-plans"],
@@ -66,10 +66,10 @@ export const pages: PageDef[] = [
     slug: "integrations/telegram",
     category: "integrations",
     title: "Telegram",
-    seoTitle: "Telegram Integration: Scan Cards from Chat",
+    seoTitle: "Telegram Integration: Scan Cards From Chat",
     description: "Link the eCard Telegram bot with a one-time code from Settings → Telegram, send a card photo, and get the contact saved with Open and Send buttons.",
-    h1: "Scan visiting cards straight from Telegram",
-    eyebrow: "Messaging integration",
+    h1: "Scan Visiting Cards Straight From Telegram",
+    eyebrow: "Messaging Integration",
     intro: "eCard’s Telegram bot turns a chat photo into a saved contact. Send a picture of a card and the bot replies with Open and Send buttons, so you can check the record or fire the intro email without leaving the chat.",
     variant: "integration",
     visual: "telegram",
@@ -77,17 +77,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Connecting the bot",
+        heading: "Connecting The Bot",
         steps: [
           { title: "Open Settings → Telegram", body: "In your eCard workspace, go to Settings → Telegram to get a one-time linking code." },
-          { title: "Send the code to the bot", body: "Paste the code into the eCard bot chat in Telegram. This ties your Telegram account to your workspace." },
-          { title: "Send a card photo", body: "Take or forward a photo of a visiting card. The contact is saved to your workspace." },
-          { title: "Use Open or Send", body: "Tap Open to review the contact, or Send to trigger the intro email from your own mailbox." },
+          { title: "Send The Code To The Bot", body: "Paste the code into the eCard bot chat in Telegram. This ties your Telegram account to your workspace." },
+          { title: "Send A Card Photo", body: "Take or forward a photo of a visiting card. The contact is saved to your workspace." },
+          { title: "Use Open Or Send", body: "Tap Open to review the contact, or Send to trigger the intro email from your own mailbox." },
         ],
       },
       {
         type: "split",
-        heading: "Why a chat bot works well for cards",
+        heading: "Why A Chat Bot Works Well For Cards",
         body: [
           "Telegram is already open on many phones, and sending a photo is a one-handed action. That makes it handy in a crowded hall, a taxi between meetings, or when a colleague forwards you a card they collected.",
           "Because eCard runs in the browser, the bot is the fastest route for capturing on the go, while the browser workspace is where you review, tag and search.",
@@ -102,16 +102,16 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not documented by eCard",
+        title: "Not Documented By eCard",
         body: "eCard’s site does not state whether group chats, albums of multiple photos, or several Telegram accounts per workspace are supported. Check inside Settings → Telegram before planning around them.",
       },
       {
         type: "bullets",
-        heading: "Good habits with the bot",
+        heading: "Good Habits With The Bot",
         items: [
           "Photograph cards flat, in good light, with the whole card in frame.",
           "Review the saved contact before sending if the photo was blurry.",
-          "Keep your linking code private — it connects chats to your workspace.",
+          "Keep your linking code private. It connects chats to your workspace.",
           "Tag contacts by event later in the browser to keep shows grouped.",
         ],
       },
@@ -128,10 +128,10 @@ export const pages: PageDef[] = [
     slug: "integrations/whatsapp",
     category: "integrations",
     title: "WhatsApp",
-    seoTitle: "WhatsApp Integration: AI Follow-Ups in 3 Languages",
+    seoTitle: "WhatsApp Integration: AI Follow-Ups In 3 Languages",
     description: "eCard writes a WhatsApp follow-up in English, Hindi or Marathi and opens it in WhatsApp with one tap, so you send it yourself from your own number.",
-    h1: "WhatsApp follow-ups, written for you",
-    eyebrow: "Messaging integration",
+    h1: "WhatsApp Follow-ups, Written For You",
+    eyebrow: "Messaging Integration",
     intro: "For many contacts, WhatsApp gets a faster reply than email. eCard drafts a follow-up message with AI in English, Hindi or Marathi and opens it in WhatsApp in one tap, ready for you to send.",
     variant: "integration",
     visual: "whatsapp",
@@ -139,15 +139,15 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "How it works",
+        heading: "How It Works",
         paragraphs: [
-          "After a card is scanned, eCard can generate a short follow-up message for that contact. You choose the language — English, Hindi (हिंदी) or Marathi (मराठी) — and tap to open it in WhatsApp. The message lands in your own chat with that person, so you stay in control of what gets sent.",
+          "After a card is scanned, eCard can generate a short follow-up message for that contact. You choose the language (English, Hindi (हिंदी) or Marathi (मराठी)) and tap to open it in WhatsApp. The message lands in your own chat with that person, so you stay in control of what gets sent.",
           "Links you share this way can be tracked: eCard shows opens of your card, PDFs and WhatsApp links, which helps you see who engaged after a conversation.",
         ],
       },
       {
         type: "table",
-        heading: "Choosing a language",
+        heading: "Choosing A Language",
         headers: ["Language", "Often a good fit when"],
         rows: [
           ["English", "Corporate contacts, cross-region partners, formal first follow-ups"],
@@ -158,12 +158,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "One tap, not a broadcast tool",
+        title: "One Tap, Not A Broadcast Tool",
         body: "eCard opens messages in WhatsApp for you to send. Its site does not describe WhatsApp Business API sending, bulk broadcasts or reading replies back into eCard.",
       },
       {
         type: "bullets",
-        heading: "Etiquette for WhatsApp follow-ups",
+        heading: "Etiquette For WhatsApp Follow-ups",
         items: [
           "Send within a day while the conversation is fresh.",
           "Mention where you met in the first line.",
@@ -183,10 +183,10 @@ export const pages: PageDef[] = [
     slug: "integrations/gmail",
     category: "integrations",
     title: "Gmail",
-    seoTitle: "Send eCard Intro Emails from Gmail",
+    seoTitle: "Send eCard Intro Emails From Gmail",
     description: "Use your Gmail address as the mailbox eCard sends intro emails from over SMTP. Preview the AI draft, then it goes out after 5 seconds unless you edit or cancel.",
-    h1: "Intro emails from your Gmail address",
-    eyebrow: "Email integration",
+    h1: "Intro Emails From Your Gmail Address",
+    eyebrow: "Email Integration",
     intro: "Gmail is one of the mailboxes eCard can send from. Intros are delivered via SMTP from your own address, so replies come straight back to your inbox.",
     variant: "integration",
     visual: "email",
@@ -194,37 +194,37 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "What Gmail does in eCard",
+        heading: "What Gmail Does In eCard",
         body: [
-          "When you scan a card, eCard drafts an intro email with AI. You preview it, and it sends after 5 seconds from your own SMTP mailbox — you can edit or cancel it in that window. Connecting Gmail means that mailbox is your Gmail account.",
+          "When you scan a card, eCard drafts an intro email with AI. You preview it, and it sends after 5 seconds from your own SMTP mailbox. You can edit or cancel it in that window. Connecting Gmail means that mailbox is your Gmail account.",
           "Sending from your own address tends to feel more personal than a no-reply system and keeps the thread in the inbox you already check.",
         ],
         points: ["SMTP sending from your own address", "5-second send with edit or cancel", "Available on every plan", "SMTP passwords encrypted with AES-256-GCM"],
       },
       {
         type: "steps",
-        heading: "General Gmail SMTP preparation",
+        heading: "General Gmail SMTP Preparation",
         intro: "These are Google-side steps commonly needed for SMTP access; exact eCard screens may differ.",
         steps: [
-          { title: "Turn on 2-Step Verification", body: "Google generally requires it before you can create an app password." },
-          { title: "Create an app password", body: "Generate an app password in your Google account security settings for mail use." },
-          { title: "Enter SMTP details in eCard", body: "Use Gmail’s SMTP host with the app password in eCard’s mailbox settings." },
-          { title: "Send a test", body: "Scan your own card and let the intro send to yourself to confirm it arrives." },
+          { title: "Turn On 2-Step Verification", body: "Google generally requires it before you can create an app password." },
+          { title: "Create An App Password", body: "Generate an app password in your Google account security settings for mail use." },
+          { title: "Enter SMTP Details In eCard", body: "Use Gmail’s SMTP host with the app password in eCard’s mailbox settings." },
+          { title: "Send A Test", body: "Scan your own card and let the intro send to yourself to confirm it arrives." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Not stated by eCard",
+        title: "Not Stated By eCard",
         body: "eCard’s site does not say whether Gmail connects via OAuth sign-in or SMTP credentials only. Follow the prompts in your workspace.",
       },
       {
         type: "bullets",
-        heading: "Keep Gmail sending healthy",
+        heading: "Keep Gmail Sending Healthy",
         items: [
           "Stay within Google’s daily sending limits for your account type.",
           "Use a Google Workspace address on your own domain for business intros.",
-          "Write intros that sound like you — personal mail rarely lands in spam.",
+          "Write intros that sound like you, personal mail rarely lands in spam.",
         ],
       },
     ],
@@ -239,10 +239,10 @@ export const pages: PageDef[] = [
     slug: "integrations/outlook",
     category: "integrations",
     title: "Outlook",
-    seoTitle: "Outlook Mailbox for eCard Intro Emails",
+    seoTitle: "Outlook Mailbox For eCard Intro Emails",
     description: "Connect an Outlook or Microsoft 365 mailbox so eCard’s AI-drafted intro emails go out from your work address via SMTP, with a 5-second edit window.",
-    h1: "Send intros from Outlook or Microsoft 365",
-    eyebrow: "Email integration",
+    h1: "Send Intros From Outlook Or Microsoft 365",
+    eyebrow: "Email Integration",
     intro: "If your work email lives in Outlook, eCard can send intro emails from it over SMTP. Contacts see your normal address and reply to the inbox your team already uses.",
     variant: "integration",
     visual: "email",
@@ -250,7 +250,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Outlook’s role",
+        heading: "Outlook’s Role",
         paragraphs: [
           "Outlook is one of the named email providers for eCard’s intro emails. After a scan, eCard drafts an email with AI; you preview it, and it sends 5 seconds later from your own SMTP mailbox unless you edit or cancel.",
           "For companies on Microsoft 365, this keeps outreach under the same domain, signatures and compliance policies as the rest of your mail.",
@@ -258,7 +258,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Things to check with your IT admin",
+        heading: "Things To Check With Your IT Admin",
         intro: "General Microsoft 365 considerations, not eCard-specific steps:",
         items: [
           "Whether authenticated SMTP submission is enabled for your mailbox.",
@@ -270,16 +270,16 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not stated by eCard",
+        title: "Not Stated By eCard",
         body: "eCard’s site names Outlook but does not document the connection method. Check the mailbox settings in your workspace.",
       },
       {
         type: "cards",
-        heading: "Who tends to choose Outlook",
+        heading: "Who Tends To Choose Outlook",
         cards: [
-          { title: "Corporate sales teams", body: "Keep intros on the company domain and inside existing mail policies.", icon: "briefcase" },
-          { title: "Professional services", body: "Firms already standardised on Microsoft 365 avoid another mailbox.", icon: "building" },
-          { title: "Mixed teams", body: "Each member can send from their own address while sharing a workspace.", icon: "users" },
+          { title: "Corporate Sales Teams", body: "Keep intros on the company domain and inside existing mail policies.", icon: "briefcase" },
+          { title: "Professional Services", body: "Firms already standardised on Microsoft 365 avoid another mailbox.", icon: "building" },
+          { title: "Mixed Teams", body: "Each member can send from their own address while sharing a workspace.", icon: "users" },
         ],
       },
     ],
@@ -294,10 +294,10 @@ export const pages: PageDef[] = [
     slug: "integrations/google-contacts",
     category: "integrations",
     title: "Google Contacts",
-    seoTitle: "Google Contacts Sync for Scanned Cards",
+    seoTitle: "Google Contacts Sync For Scanned Cards",
     description: "On Starter and above, eCard syncs with Google Contacts so the people you scan can show up in the address book on your phone and Gmail.",
-    h1: "Scanned cards, in your Google address book",
-    eyebrow: "Contacts integration",
+    h1: "Scanned Cards, In Your Google Address Book",
+    eyebrow: "Contacts Integration",
     intro: "Google Contacts sync is part of eCard’s Starter, Professional, Business and Enterprise plans. It helps the people you scan appear where you already look up numbers and emails.",
     variant: "integration",
     visual: "integrations",
@@ -305,7 +305,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Which plans include it",
+        heading: "Which Plans Include It",
         headers: ["Plan", "Monthly price", "Google Contacts sync"],
         rows: [
           ["Free", "₹0", "Not included"],
@@ -317,21 +317,21 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why sync matters",
+        heading: "Why Sync Matters",
         paragraphs: [
           "A scanned card is only useful if you can find the person when they call. Syncing to Google Contacts means caller ID, Gmail autocomplete and your Android contacts can draw on the same records you built in eCard.",
-          "eCard remains the place for context — where you met, tags, events, voice notes and summaries — while Google Contacts handles everyday dialling and addressing.",
+          "eCard remains the place for context (where you met, tags, events, voice notes and summaries) while Google Contacts handles everyday dialling and addressing.",
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Details not documented",
+        title: "Details Not Documented",
         body: "eCard’s site does not document field-level mapping, sync direction or sync frequency. Check in-app settings before relying on two-way edits.",
       },
       {
         type: "bullets",
-        heading: "Tips before you turn it on",
+        heading: "Tips Before You Turn It On",
         items: [
           "Merge duplicates in eCard first so you don’t copy them into Google.",
           "Archive or blacklist contacts you don’t want in your phone book.",
@@ -350,10 +350,10 @@ export const pages: PageDef[] = [
     slug: "integrations/google-maps",
     category: "integrations",
     title: "Google Maps",
-    seoTitle: "Google Maps Integration for eCard",
+    seoTitle: "Google Maps Integration For eCard",
     description: "eCard checks addresses read from visiting cards against Google Maps, helping you catch misread street names and confirm locations before you save.",
-    h1: "eCard and Google Maps",
-    eyebrow: "Data quality integration",
+    h1: "eCard And Google Maps",
+    eyebrow: "Data Quality Integration",
     intro: "Addresses are the hardest part of a card to read correctly. eCard checks scanned addresses against Google Maps so you can spot errors while reviewing the contact.",
     variant: "integration",
     visual: "extract",
@@ -361,7 +361,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Where the check fits",
+        heading: "Where The Check Fits",
         body: [
           "When an AI model reads a card, every field gets a confidence score and nothing is saved until you review it. The Google Maps check adds a second signal for the address field: does this place actually exist where the card says it does?",
           "That matters for site visits, deliveries and meetings, and for organising contacts by city.",
@@ -370,7 +370,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Common address problems on cards",
+        heading: "Common Address Problems On Cards",
         items: [
           "Small or stylised fonts that confuse ‘8’ and ‘B’.",
           "Multiple offices printed on one card.",
@@ -381,12 +381,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not stated by eCard",
+        title: "Not Stated By eCard",
         body: "The site does not say whether eCard auto-corrects addresses or only flags them, or whether the check uses your own Google key. Review the address field yourself before saving.",
       },
       {
         type: "prose",
-        heading: "Getting better address reads",
+        heading: "Getting Better Address Reads",
         paragraphs: [
           "Photograph the side of the card that carries the address, flat and in even light. If the card lists several branches, edit the record to keep the one that is relevant to your conversation, and note the rest in meeting memory.",
         ],
@@ -403,21 +403,21 @@ export const pages: PageDef[] = [
     slug: "integrations/razorpay-upi",
     category: "integrations",
     title: "Razorpay & UPI",
-    seoTitle: "Pay for eCard with Razorpay and UPI",
+    seoTitle: "Pay For eCard With Razorpay And UPI",
     description: "In India you can pay for an eCard subscription by UPI, net banking, wallets, EMI or cards. GST is applied where applicable. Monthly plans from ₹299.",
-    h1: "Pay for eCard the Indian way",
+    h1: "Pay For eCard The Indian Way",
     eyebrow: "Payments",
-    intro: "Razorpay and UPI are how customers in India pay for eCard subscriptions. This is about paying eCard — not about collecting payments from your own contacts.",
+    intro: "Razorpay and UPI are how customers in India pay for eCard subscriptions. This is about paying eCard, not about collecting payments from your own contacts.",
     variant: "integration",
     visual: "pricing",
     icon: "rupee",
     sections: [
       {
         type: "cards",
-        heading: "Payment options in India",
+        heading: "Payment Options In India",
         cards: [
           { title: "UPI", body: "Pay from any UPI app linked to your bank account.", icon: "smartphone" },
-          { title: "Net banking", body: "Pay directly from your bank’s online portal.", icon: "building" },
+          { title: "Net Banking", body: "Pay directly from your bank’s online portal.", icon: "building" },
           { title: "Wallets", body: "Use a supported digital wallet balance.", icon: "card" },
           { title: "EMI", body: "Split the payment where your card or bank offers EMI.", icon: "calendar" },
           { title: "Cards", body: "Debit and credit cards.", icon: "card" },
@@ -425,13 +425,13 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "What you’d pay monthly",
+        heading: "What You’d Pay Monthly",
         headers: ["Plan", "Price per month (INR)"],
-        rows: [["Free", "₹0"], ["Starter", "₹299"], ["Professional", "₹999"], ["Business", "₹2,999"], ["Enterprise", "Custom — contact sales"]],
+        rows: [["Free", "₹0"], ["Starter", "₹299"], ["Professional", "₹999"], ["Business", "₹2,999"], ["Enterprise", "Custom, contact sales"]],
       },
       {
         type: "bullets",
-        heading: "Good to know",
+        heading: "Good To Know",
         items: [
           "GST is applied where applicable.",
           "New workspaces get a 14-day Professional trial with no card needed.",
@@ -442,7 +442,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Not a payments feature for your customers",
+        title: "Not A Payments Feature For Your Customers",
         body: "eCard’s site does not describe collecting payments from contacts. Razorpay and UPI appear as ways to pay for eCard itself.",
       },
     ],
@@ -457,9 +457,9 @@ export const pages: PageDef[] = [
     slug: "integrations/stripe",
     category: "integrations",
     title: "Stripe",
-    seoTitle: "Stripe Card Payments for International Customers",
+    seoTitle: "Stripe Card Payments For International Customers",
     description: "Outside India, eCard subscriptions are paid by card. Stripe is the named card processor, with local currency shown at checkout for supported countries.",
-    h1: "Card payments for customers outside India",
+    h1: "Card Payments For Customers Outside India",
     eyebrow: "Payments",
     intro: "International customers pay for eCard by card, and Stripe is one of the payment integrations eCard names. Local currency is shown at checkout for supported countries.",
     variant: "integration",
@@ -468,7 +468,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "How international billing works",
+        heading: "How International Billing Works",
         paragraphs: [
           "eCard lists prices in INR. At checkout, supported countries see their local currency, and international customers pay by card. Plans are monthly; yearly billing is said to save about two months, with exact totals shown at checkout.",
           "Stripe here relates to paying for your eCard subscription. eCard’s site does not describe using Stripe to bill your own customers.",
@@ -476,23 +476,23 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "From trial to paid",
+        heading: "From Trial To Paid",
         steps: [
-          { title: "Start a workspace", body: "New workspaces get a 14-day Professional trial with no card needed." },
-          { title: "Pick a plan", body: "Choose Starter, Professional or Business, or contact sales for Enterprise." },
-          { title: "Pay by card", body: "Enter card details at checkout; local currency shows where supported." },
-          { title: "Cancel any time", body: "You keep access until the end of the billing period." },
+          { title: "Start A Workspace", body: "New workspaces get a 14-day Professional trial with no card needed." },
+          { title: "Pick A Plan", body: "Choose Starter, Professional or Business, or contact sales for Enterprise." },
+          { title: "Pay By Card", body: "Enter card details at checkout; local currency shows where supported." },
+          { title: "Cancel Any Time", body: "You keep access until the end of the billing period." },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Company cards",
+        title: "Company Cards",
         body: "If your finance team needs a specific billing address or tax ID on records, check the checkout form before paying, and email sales@bizzfly.com with questions.",
       },
       {
         type: "bullets",
-        heading: "Checks before paying",
+        heading: "Checks Before Paying",
         items: [
           "Confirm your card allows international or online transactions.",
           "Note the currency shown at checkout before confirming.",
@@ -511,10 +511,10 @@ export const pages: PageDef[] = [
     slug: "integrations/claude",
     category: "integrations",
     title: "Claude",
-    seoTitle: "Read Visiting Cards with Claude in eCard",
+    seoTitle: "Read Visiting Cards With Claude In eCard",
     description: "Choose Anthropic’s Claude as the AI model that reads your visiting cards in eCard. Bring your own key, review confidence scores, then save the contact.",
-    h1: "Use Claude to read your cards",
-    eyebrow: "AI model",
+    h1: "Use Claude To Read Your Cards",
+    eyebrow: "AI Model",
     intro: "Claude is one of the AI models you can pick for card scanning in eCard. You can bring your own API key, and every extracted field comes with a confidence score for review.",
     variant: "integration",
     visual: "scan",
@@ -522,31 +522,31 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Using Claude for scans",
+        heading: "Using Claude For Scans",
         steps: [
-          { title: "Get a key", body: "Create an API key in your Anthropic account." },
-          { title: "Add it to eCard", body: "Enter the key in your workspace’s AI settings. eCard encrypts API keys with AES-256-GCM." },
-          { title: "Pick Claude as the model", body: "Select Claude as the scanning model for your workspace." },
-          { title: "Scan and review", body: "Scan a card, check the confidence on each field and save when it looks right." },
+          { title: "Get A Key", body: "Create an API key in your Anthropic account." },
+          { title: "Add It To eCard", body: "Enter the key in your workspace’s AI settings. eCard encrypts API keys with AES-256-GCM." },
+          { title: "Pick Claude As The Model", body: "Select Claude as the scanning model for your workspace." },
+          { title: "Scan And Review", body: "Scan a card, check the confidence on each field and save when it looks right." },
         ],
       },
       {
         type: "prose",
-        heading: "Why choice of model matters",
+        heading: "Why Choice Of Model Matters",
         paragraphs: [
-          "Different models handle different card styles in different ways — dense layouts, regional scripts, stylised logos. Because eCard lets you choose among Claude, OpenAI, Gemini, DeepSeek and Grok, you can try a few on your own stack of cards and keep the one that suits you.",
+          "Different models handle different card styles in different ways: dense layouts, regional scripts, stylised logos. Because eCard lets you choose among Claude, OpenAI, Gemini, DeepSeek and Grok, you can try a few on your own stack of cards and keep the one that suits you.",
           "With your own key, model usage is billed to your provider account, and you can add more keys to a pool with failover.",
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Model versions",
+        title: "Model Versions",
         body: "eCard’s site does not list which Claude model versions are supported. Check the model options in your workspace.",
       },
       {
         type: "bullets",
-        heading: "A quick test plan",
+        heading: "A Quick Test Plan",
         items: [
           "Pick ten real cards with a mix of layouts.",
           "Scan each with Claude and note fields you had to correct.",
@@ -556,7 +556,7 @@ export const pages: PageDef[] = [
     ],
     faqs: [
       { q: "Do I need my own Anthropic key?", a: "eCard lets you bring your own key. The site does not detail whether a built-in key is provided, so check your workspace." },
-      { q: "Can I switch from Claude later?", a: "Yes — model choice is yours, and eCard supports several providers." },
+      { q: "Can I switch from Claude later?", a: "Yes: model choice is yours, and eCard supports several providers." },
     ],
     related: ["platform/bring-your-own-ai", "features/ai-card-scanning/choosing-a-model", "features/ai-card-scanning/bring-your-own-key", "integrations/openai"],
     source: "mixed",
@@ -565,10 +565,10 @@ export const pages: PageDef[] = [
     slug: "integrations/openai",
     category: "integrations",
     title: "OpenAI",
-    seoTitle: "OpenAI as Your eCard Card-Scanning Model",
+    seoTitle: "OpenAI As Your eCard Card-Scanning Model",
     description: "Pick OpenAI as the model that extracts names, titles and numbers from visiting cards in eCard. Use your own API key and add backups to a key pool.",
-    h1: "Scan cards with OpenAI models",
-    eyebrow: "AI model",
+    h1: "Scan Cards With OpenAI Models",
+    eyebrow: "AI Model",
     intro: "OpenAI is one of eCard’s selectable AI models for reading visiting cards. Bring your own key, and pool several keys so scanning keeps going if one hits a limit.",
     variant: "integration",
     visual: "extract",
@@ -576,16 +576,16 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "OpenAI in your scan flow",
+        heading: "OpenAI In Your Scan Flow",
         body: [
           "You photograph a card, OpenAI’s model reads it, and eCard shows each field with a confidence score. Nothing is saved until you review it.",
-          "Your API key is encrypted with AES-256-GCM, and eCard supports a key pool with failover — useful at busy events when one key might hit a provider rate limit.",
+          "Your API key is encrypted with AES-256-GCM, and eCard supports a key pool with failover, useful at busy events when one key might hit a provider rate limit.",
         ],
         points: ["Bring your own key", "Field-level confidence scores", "Key pool with failover", "Review before save"],
       },
       {
         type: "table",
-        heading: "Keys and limits: what to plan for",
+        heading: "Keys And Limits: What To Plan For",
         headers: ["Concern", "General guidance"],
         rows: [
           ["Rate limits", "New provider accounts often have low limits; add a second key to the pool before a big event."],
@@ -596,7 +596,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not stated by eCard",
+        title: "Not Stated By eCard",
         body: "eCard’s site does not list which OpenAI models are available. Check the model picker in your workspace.",
       },
     ],
@@ -612,10 +612,10 @@ export const pages: PageDef[] = [
     slug: "integrations/gemini",
     category: "integrations",
     title: "Gemini",
-    seoTitle: "Google Gemini for Visiting-Card Scanning",
+    seoTitle: "Google Gemini For Visiting-Card Scanning",
     description: "Use Google’s Gemini models to read visiting cards in eCard. Bring your own key, compare results with other models and review fields before saving.",
-    h1: "Gemini as your card reader",
-    eyebrow: "AI model",
+    h1: "Gemini As Your Card Reader",
+    eyebrow: "AI Model",
     intro: "Gemini is among the AI models eCard lets you choose for scanning. If your team already uses Google’s AI tools, plugging in a Gemini key keeps things in one place.",
     variant: "integration",
     visual: "scan",
@@ -631,18 +631,18 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Things to compare when testing models",
+        heading: "Things To Compare When Testing Models",
         cards: [
-          { title: "Names and titles", body: "Does it split first and last names correctly and keep designations intact?", icon: "users" },
-          { title: "Phone numbers", body: "Are country codes and extensions captured cleanly?", icon: "phone" },
-          { title: "Regional text", body: "How does it handle cards with Hindi or Marathi alongside English?", icon: "globe" },
-          { title: "Busy layouts", body: "Does it pick the right email when several are printed?", icon: "layers" },
+          { title: "Names And Titles", body: "Does it split first and last names correctly and keep designations intact?", icon: "users" },
+          { title: "Phone Numbers", body: "Are country codes and extensions captured cleanly?", icon: "phone" },
+          { title: "Regional Text", body: "How does it handle cards with Hindi or Marathi alongside English?", icon: "globe" },
+          { title: "Busy Layouts", body: "Does it pick the right email when several are printed?", icon: "layers" },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Pool keys across providers",
+        title: "Pool Keys Across Providers",
         body: "eCard supports a key pool with failover. Check in your workspace whether keys from different providers can share a pool.",
       },
     ],
@@ -657,10 +657,10 @@ export const pages: PageDef[] = [
     slug: "integrations/deepseek",
     category: "integrations",
     title: "DeepSeek",
-    seoTitle: "DeepSeek Model Support for Card Scanning",
+    seoTitle: "DeepSeek Model Support For Card Scanning",
     description: "DeepSeek is one of the AI providers eCard names for reading visiting cards. Add your own key, test it on your cards and keep the model that works best.",
-    h1: "Read cards with DeepSeek",
-    eyebrow: "AI model",
+    h1: "Read Cards With DeepSeek",
+    eyebrow: "AI Model",
     intro: "eCard lists DeepSeek among the AI models you can use for scanning. It gives teams another option when weighing cost, speed and accuracy on their own cards.",
     variant: "integration",
     visual: "extract",
@@ -668,7 +668,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "bullets",
-        heading: "What eCard states about AI scanning",
+        heading: "What eCard States About AI Scanning",
         items: [
           "You choose the model: Claude, OpenAI, Gemini, DeepSeek or Grok, with Azure and custom endpoints also mentioned.",
           "You can bring your own key.",
@@ -679,7 +679,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why teams look at alternative models",
+        heading: "Why Teams Look At Alternative Models",
         paragraphs: [
           "Model pricing and performance shift often. Having several providers available means you can move if one becomes expensive, slow or restricted for your organisation, without changing how your team scans.",
           "Before switching, run the same batch of cards through your current model and DeepSeek and count how many fields you correct by hand. That number, not a benchmark, tells you what matters for your workflow.",
@@ -688,7 +688,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Check your data policies",
+        title: "Check Your Data Policies",
         body: "Card images are sent to the AI provider you choose. Review DeepSeek’s data handling terms against your organisation’s policies before adopting it.",
       },
     ],
@@ -703,10 +703,10 @@ export const pages: PageDef[] = [
     slug: "integrations/grok",
     category: "integrations",
     title: "Grok",
-    seoTitle: "Grok as an eCard Scanning Model",
+    seoTitle: "Grok As An eCard Scanning Model",
     description: "Use xAI’s Grok as the model that reads visiting cards in eCard. Bring your own key and review every field’s confidence score before the contact is saved.",
-    h1: "Grok for visiting-card extraction",
-    eyebrow: "AI model",
+    h1: "Grok For Visiting-card Extraction",
+    eyebrow: "AI Model",
     intro: "Grok is one of the five AI models highlighted on eCard’s homepage for card scanning. Like the others, you can connect it with your own key.",
     variant: "integration",
     visual: "scan",
@@ -714,7 +714,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "The AI options eCard names",
+        heading: "The AI Options eCard Names",
         headers: ["Provider", "Where it’s mentioned"],
         rows: [
           ["Claude, OpenAI, Gemini, DeepSeek, Grok", "Homepage feature list"],
@@ -724,18 +724,18 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Trying Grok safely",
+        heading: "Trying Grok Safely",
         steps: [
-          { title: "Create a key with xAI", body: "Set a spending cap on your provider account if available." },
-          { title: "Add it to eCard", body: "Enter the key in AI settings; eCard encrypts keys with AES-256-GCM." },
-          { title: "Scan a test batch", body: "Use a handful of your own cards, not a whole event’s worth." },
-          { title: "Review and decide", body: "Compare confidence scores and corrections with your current model." },
+          { title: "Create A Key With xAI", body: "Set a spending cap on your provider account if available." },
+          { title: "Add It To eCard", body: "Enter the key in AI settings; eCard encrypts keys with AES-256-GCM." },
+          { title: "Scan A Test Batch", body: "Use a handful of your own cards, not a whole event’s worth." },
+          { title: "Review And Decide", body: "Compare confidence scores and corrections with your current model." },
         ],
       },
       {
         type: "callout",
         tone: "info",
-        title: "Your review is the safety net",
+        title: "Your Review Is The Safety Net",
         body: "Whatever model you use, eCard saves nothing until you review it. That makes trying a new model low-risk.",
       },
     ],
@@ -750,10 +750,10 @@ export const pages: PageDef[] = [
     slug: "integrations/azure",
     category: "integrations",
     title: "Azure",
-    seoTitle: "Azure AI Endpoints for Card Scanning",
+    seoTitle: "Azure AI Endpoints For Card Scanning",
     description: "eCard’s FAQ names Azure as an AI provider option for scanning cards. Useful for organisations that must keep AI usage inside their Microsoft cloud account.",
-    h1: "Scan cards through your Azure AI account",
-    eyebrow: "AI provider",
+    h1: "Scan Cards Through Your Azure AI Account",
+    eyebrow: "AI Provider",
     intro: "eCard’s FAQ lists Azure as an AI provider you can use, alongside a custom endpoint option. For many larger organisations, routing AI through their own cloud tenancy is a policy requirement.",
     variant: "integration",
     visual: "security",
@@ -761,7 +761,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Why enterprises ask for Azure",
+        heading: "Why Enterprises Ask For Azure",
         body: [
           "Companies with Microsoft agreements often prefer AI calls billed and governed through their own Azure subscription. It can simplify procurement and keep data handling under contracts they have already reviewed.",
           "In eCard, Azure is one of the provider options for reading cards. Your keys are encrypted with AES-256-GCM.",
@@ -770,7 +770,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Questions to settle internally",
+        heading: "Questions To Settle Internally",
         items: [
           "Which Azure region your AI deployment runs in.",
           "Whether your security team has approved the model deployment.",
@@ -781,7 +781,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not documented by eCard",
+        title: "Not Documented By eCard",
         body: "eCard’s site does not describe which Azure services or deployment types are supported. Confirm in your workspace or with sales@bizzfly.com.",
       },
     ],
@@ -796,10 +796,10 @@ export const pages: PageDef[] = [
     slug: "integrations/zoho-mail",
     category: "integrations",
     title: "Zoho Mail",
-    seoTitle: "Zoho Mail as Your eCard Sending Mailbox",
+    seoTitle: "Zoho Mail As Your eCard Sending Mailbox",
     description: "Send eCard intro emails from your Zoho Mail address via SMTP. A popular choice for Indian small businesses running mail on their own domain.",
-    h1: "Intro emails from Zoho Mail",
-    eyebrow: "Email integration",
+    h1: "Intro Emails From Zoho Mail",
+    eyebrow: "Email Integration",
     intro: "Zoho Mail is one of the named providers for eCard’s intro emails. If your business mail is on Zoho, scanned contacts get a personal intro from your own domain.",
     variant: "integration",
     visual: "email",
@@ -807,27 +807,27 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "A common setup for growing businesses",
+        heading: "A Common Setup For Growing Businesses",
         paragraphs: [
-          "Many small and mid-sized Indian businesses use Zoho Mail for domain email. Connecting it to eCard means the 5-second intro — AI-drafted, previewed by you, editable or cancellable — goes out from the same address your clients already know.",
+          "Many small and mid-sized Indian businesses use Zoho Mail for domain email. Connecting it to eCard means the 5-second intro (AI-drafted, previewed by you, editable or cancellable) goes out from the same address your clients already know.",
           "Because eCard sends via your SMTP mailbox, the email is genuinely from you, not from a shared marketing server.",
         ],
       },
       {
         type: "steps",
-        heading: "General Zoho SMTP checklist",
+        heading: "General Zoho SMTP Checklist",
         intro: "Zoho-side steps that typically apply; eCard screens may differ.",
         steps: [
-          { title: "Confirm your data centre", body: "Zoho uses different SMTP hosts by region (for example .in vs .com accounts)." },
-          { title: "Create an app-specific password", body: "Needed if two-factor sign-in is on for your Zoho account." },
-          { title: "Add details in eCard", body: "Enter host, port, username and password in mailbox settings." },
-          { title: "Send a test intro", body: "Scan your own card to check delivery and formatting." },
+          { title: "Confirm Your Data Centre", body: "Zoho uses different SMTP hosts by region (for example .in vs .com accounts)." },
+          { title: "Create An App-specific Password", body: "Needed if two-factor sign-in is on for your Zoho account." },
+          { title: "Add Details In eCard", body: "Enter host, port, username and password in mailbox settings." },
+          { title: "Send A Test Intro", body: "Scan your own card to check delivery and formatting." },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Match the signature",
+        title: "Match The Signature",
         body: "Keep your eCard intro sign-off consistent with your Zoho signature so threads look tidy when contacts reply.",
       },
     ],
@@ -842,10 +842,10 @@ export const pages: PageDef[] = [
     slug: "integrations/sendgrid",
     category: "integrations",
     title: "SendGrid",
-    seoTitle: "SendGrid SMTP Relay for eCard Emails",
+    seoTitle: "SendGrid SMTP Relay For eCard Emails",
     description: "Route eCard intro emails through SendGrid’s SMTP relay for higher volume sending from your verified domain. Good for teams scanning hundreds of cards at events.",
-    h1: "Send eCard intros through SendGrid",
-    eyebrow: "Email integration",
+    h1: "Send eCard Intros Through SendGrid",
+    eyebrow: "Email Integration",
     intro: "SendGrid is a transactional email service eCard names as a supported provider. It suits teams sending more intros than a personal mailbox comfortably handles.",
     variant: "integration",
     visual: "email",
@@ -853,7 +853,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "When a relay makes sense",
+        heading: "When A Relay Makes Sense",
         body: [
           "Personal mailboxes have daily caps. After a large expo, a team may scan hundreds of cards and want each person to receive an intro the same day. A relay like SendGrid is built for that kind of volume.",
           "eCard still drafts each intro with AI and holds it for 5 seconds so you can edit or cancel. Only the delivery path changes.",
@@ -862,11 +862,11 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "General setup outline",
+        heading: "General Setup Outline",
         steps: [
-          { title: "Verify your sender domain", body: "Complete domain authentication (SPF/DKIM) in SendGrid." },
-          { title: "Create an API key for SMTP", body: "SendGrid’s SMTP relay uses an API key as the password." },
-          { title: "Enter it in eCard", body: "Add the SMTP host and credentials in your mailbox settings." },
+          { title: "Verify Your Sender Domain", body: "Complete domain authentication (SPF/DKIM) in SendGrid." },
+          { title: "Create An API Key For SMTP", body: "SendGrid’s SMTP relay uses an API key as the password." },
+          { title: "Enter It In eCard", body: "Add the SMTP host and credentials in your mailbox settings." },
         ],
       },
       {
@@ -887,10 +887,10 @@ export const pages: PageDef[] = [
     slug: "integrations/brevo",
     category: "integrations",
     title: "Brevo",
-    seoTitle: "Brevo SMTP for eCard Intro Emails",
+    seoTitle: "Brevo SMTP For eCard Intro Emails",
     description: "eCard’s FAQ lists Brevo as an email provider for intros. Use Brevo’s SMTP relay to send AI-drafted follow-ups from your domain with a 5-second edit window.",
-    h1: "Use Brevo to deliver your intros",
-    eyebrow: "Email integration",
+    h1: "Use Brevo To Deliver Your Intros",
+    eyebrow: "Email Integration",
     intro: "Brevo, formerly Sendinblue, is named in eCard’s FAQ as an email provider. Teams that already use Brevo for newsletters can reuse its SMTP relay for one-to-one intros.",
     variant: "integration",
     visual: "email",
@@ -898,7 +898,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Keep one-to-one mail separate from campaigns",
+        heading: "Keep One-to-one Mail Separate From Campaigns",
         paragraphs: [
           "Brevo is often used for marketing campaigns. eCard intros are different: personal, one-to-one emails to someone you just met. If you use Brevo for both, consider a separate sender address or subdomain so your intros aren’t judged by campaign engagement.",
           "Within eCard, the flow is the same as with any SMTP host: the AI drafts, you preview, it sends after 5 seconds unless you edit or cancel.",
@@ -906,7 +906,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Setup considerations",
+        heading: "Setup Considerations",
         items: [
           "Generate SMTP credentials in Brevo’s settings.",
           "Authenticate your domain in Brevo before sending.",
@@ -917,7 +917,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Consent matters",
+        title: "Consent Matters",
         body: "A visiting card is permission for a personal follow-up, not a newsletter subscription. eCard’s site does not describe syncing contacts into Brevo lists.",
       },
     ],
@@ -932,10 +932,10 @@ export const pages: PageDef[] = [
     slug: "integrations/mailgun",
     category: "integrations",
     title: "Mailgun",
-    seoTitle: "Mailgun Delivery for eCard Outreach",
+    seoTitle: "Mailgun Delivery For eCard Outreach",
     description: "Send eCard’s AI-drafted intro emails through Mailgun’s SMTP service. A developer-friendly relay for teams that want detailed delivery logs.",
-    h1: "Mailgun as your intro email relay",
-    eyebrow: "Email integration",
+    h1: "Mailgun As Your Intro Email Relay",
+    eyebrow: "Email Integration",
     intro: "Mailgun appears in eCard’s FAQ as a supported email provider. It’s a common pick for technical teams that want granular logs on every message.",
     variant: "integration",
     visual: "email",
@@ -943,27 +943,27 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What Mailgun brings",
+        heading: "What Mailgun Brings",
         cards: [
-          { title: "Delivery logs", body: "See accepted, delivered and bounced events in Mailgun’s dashboard.", icon: "file" },
-          { title: "Domain control", body: "Send from a verified domain or subdomain.", icon: "globe" },
+          { title: "Delivery Logs", body: "See accepted, delivered and bounced events in Mailgun’s dashboard.", icon: "file" },
+          { title: "Domain Control", body: "Send from a verified domain or subdomain.", icon: "globe" },
           { title: "Regions", body: "Mailgun offers US and EU regions with different SMTP hosts.", icon: "map" },
         ],
       },
       {
         type: "steps",
-        heading: "General setup",
+        heading: "General Setup",
         steps: [
-          { title: "Add and verify a domain", body: "Publish the DNS records Mailgun gives you." },
-          { title: "Create SMTP credentials", body: "Set up an SMTP user for the domain." },
-          { title: "Connect in eCard", body: "Enter the region’s SMTP host and credentials in mailbox settings." },
-          { title: "Send yourself an intro", body: "Check Mailgun logs to confirm delivery." },
+          { title: "Add And Verify A Domain", body: "Publish the DNS records Mailgun gives you." },
+          { title: "Create SMTP Credentials", body: "Set up an SMTP user for the domain." },
+          { title: "Connect In eCard", body: "Enter the region’s SMTP host and credentials in mailbox settings." },
+          { title: "Send Yourself An Intro", body: "Check Mailgun logs to confirm delivery." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Bounces stay in Mailgun",
+        title: "Bounces Stay In Mailgun",
         body: "eCard’s site doesn’t say whether bounce information is reported back into contact records. Check Mailgun’s logs if an intro doesn’t arrive.",
       },
     ],
@@ -978,10 +978,10 @@ export const pages: PageDef[] = [
     slug: "integrations/amazon-ses",
     category: "integrations",
     title: "Amazon SES",
-    seoTitle: "Amazon SES SMTP for eCard Intro Emails",
+    seoTitle: "Amazon SES SMTP For eCard Intro Emails",
     description: "Use Amazon SES as the SMTP service behind eCard’s intro emails. Low-cost, high-volume sending for teams already on AWS, from your own verified domain.",
-    h1: "Deliver intros with Amazon SES",
-    eyebrow: "Email integration",
+    h1: "Deliver Intros With Amazon SES",
+    eyebrow: "Email Integration",
     intro: "Amazon SES is named in eCard’s FAQ among supported email providers. If your company already runs on AWS, SES can carry your eCard intros at scale.",
     variant: "integration",
     visual: "email",
@@ -989,7 +989,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "SES in brief",
+        heading: "SES In Brief",
         paragraphs: [
           "Amazon Simple Email Service is AWS’s sending platform. It exposes an SMTP interface, which is how a tool like eCard can use it: you generate SMTP credentials in AWS and enter them as your mailbox.",
           "New SES accounts usually start in a sandbox that only allows sending to verified addresses. You need production access before intros can reach new contacts.",
@@ -997,7 +997,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "SES setup checklist",
+        heading: "SES Setup Checklist",
         headers: ["Step", "Why"],
         rows: [
           ["Verify your domain", "Lets you send from any address on it"],
@@ -1009,12 +1009,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Test in sandbox first",
+        title: "Test In Sandbox First",
         body: "Verify your own address and scan your own card to confirm eCard connects, before production access is granted.",
       },
       {
         type: "bullets",
-        heading: "Security notes",
+        heading: "Security Notes",
         items: [
           "eCard encrypts SMTP passwords with AES-256-GCM.",
           "Use an IAM user limited to sending email.",
@@ -1033,10 +1033,10 @@ export const pages: PageDef[] = [
     slug: "integrations/resend",
     category: "integrations",
     title: "Resend",
-    seoTitle: "Resend as an eCard Email Provider",
+    seoTitle: "Resend As An eCard Email Provider",
     description: "eCard’s FAQ lists Resend among email providers. Connect Resend’s SMTP to send AI-drafted intros from your domain with a preview and 5-second send.",
-    h1: "Send intros through Resend",
-    eyebrow: "Email integration",
+    h1: "Send Intros Through Resend",
+    eyebrow: "Email Integration",
     intro: "Resend is a newer developer-focused email service, and eCard names it as a supported provider. If your product team already uses it, eCard can share the same domain setup.",
     variant: "integration",
     visual: "email",
@@ -1044,7 +1044,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Fitting Resend into eCard",
+        heading: "Fitting Resend Into eCard",
         body: [
           "Resend offers an SMTP interface alongside its API. eCard sends intro emails via SMTP from your own mailbox, so you would use Resend’s SMTP credentials.",
           "Consider a dedicated subdomain for people-to-people intros, so product notifications and personal outreach keep separate reputations.",
@@ -1053,7 +1053,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Before you connect",
+        heading: "Before You Connect",
         items: [
           "Verify your domain and wait for DNS to propagate.",
           "Create an API key with sending permission for use as the SMTP password.",
@@ -1063,7 +1063,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not stated by eCard",
+        title: "Not Stated By eCard",
         body: "eCard’s site does not say whether it uses Resend’s API directly or only SMTP. Follow the options in your workspace.",
       },
     ],
@@ -1078,10 +1078,10 @@ export const pages: PageDef[] = [
     slug: "integrations/smtp",
     category: "integrations",
     title: "Any SMTP Host",
-    seoTitle: "Connect Any SMTP Host to eCard",
-    description: "eCard sends intro emails from your own SMTP mailbox — Gmail, Outlook, Zoho, a relay or any SMTP host. Learn how SMTP works and what details you need.",
-    h1: "Bring any SMTP mailbox",
-    eyebrow: "Email integration",
+    seoTitle: "Connect Any SMTP Host To eCard",
+    description: "eCard sends intro emails from your own SMTP mailbox: Gmail, Outlook, Zoho, a relay or any SMTP host. Learn how SMTP works and what details you need.",
+    h1: "Bring Any SMTP Mailbox",
+    eyebrow: "Email Integration",
     intro: "eCard doesn’t force you onto a shared sending server. Any SMTP host can be your mailbox, so intros come from your address and your domain.",
     variant: "integration",
     visual: "email",
@@ -1089,7 +1089,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "SMTP in plain words",
+        heading: "SMTP In Plain Words",
         paragraphs: [
           "SMTP is the standard protocol mail servers use to send email. When eCard sends an intro, it signs in to your SMTP server with your credentials and hands over the message, just like a desktop mail app would.",
           "That’s why eCard can work with so many providers: Gmail, Outlook, Zoho, SendGrid, Brevo, Mailgun, Amazon SES, Resend, or a host your IT team runs.",
@@ -1097,7 +1097,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "The details you’ll usually need",
+        heading: "The Details You’ll Usually Need",
         headers: ["Field", "What it is", "Typical values"],
         rows: [
           ["Host", "Your provider’s SMTP server name", "smtp.example.com"],
@@ -1108,17 +1108,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "What happens after a scan",
+        heading: "What Happens After A Scan",
         steps: [
-          { title: "AI drafts the intro", body: "eCard writes an email based on the scanned contact." },
-          { title: "You preview it", body: "Check the draft before it goes." },
-          { title: "5-second send", body: "It sends after 5 seconds from your SMTP mailbox — edit or cancel in that window." },
+          { title: "AI Drafts The Intro", body: "eCard writes an email based on the scanned contact." },
+          { title: "You Preview It", body: "Check the draft before it goes." },
+          { title: "5-second Send", body: "It sends after 5 seconds from your SMTP mailbox. Edit or cancel in that window." },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Deliverability basics",
+        title: "Deliverability Basics",
         body: "Set SPF, DKIM and DMARC for your domain. They tell receiving servers your SMTP host is allowed to send for you.",
       },
     ],
@@ -1134,10 +1134,10 @@ export const pages: PageDef[] = [
     slug: "integrations/webhooks",
     category: "integrations",
     title: "Webhooks",
-    seoTitle: "eCard Webhooks: Signed Events for New Contacts",
+    seoTitle: "eCard Webhooks: Signed Events For New Contacts",
     description: "On Professional and above, eCard sends a signed webhook event for every new contact, so your CRM, sheet or automation tool can react instantly.",
-    h1: "Push every new contact to your systems",
-    eyebrow: "Developer integration",
+    h1: "Push Every New Contact To Your Systems",
+    eyebrow: "Developer Integration",
     intro: "Webhooks are eCard’s way of telling other systems that a new contact exists. Each event is signed, and the feature is included from the Professional plan (₹999/month) upward.",
     variant: "integration",
     visual: "integrations",
@@ -1145,7 +1145,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "What a webhook is",
+        heading: "What A Webhook Is",
         paragraphs: [
           "A webhook is an HTTP request one system sends to a URL you control when something happens. Instead of your CRM asking eCard for new contacts every few minutes, eCard tells it the moment a contact is created.",
           "A signed webhook includes a signature so your receiver can verify the request really came from eCard and wasn’t tampered with.",
@@ -1153,16 +1153,16 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Things teams build with webhooks",
+        heading: "Things Teams Build With Webhooks",
         cards: [
-          { title: "CRM hand-off", body: "Create a lead in your main CRM when a card is scanned.", icon: "users" },
-          { title: "Team alerts", body: "Post a message in a team chat channel for every new contact.", icon: "bell" },
-          { title: "Spreadsheet logging", body: "Append rows to a sheet via an automation tool.", icon: "file" },
+          { title: "CRM Hand-off", body: "Create a lead in your main CRM when a card is scanned.", icon: "users" },
+          { title: "Team Alerts", body: "Post a message in a team chat channel for every new contact.", icon: "bell" },
+          { title: "Spreadsheet Logging", body: "Append rows to a sheet via an automation tool.", icon: "file" },
         ],
       },
       {
         type: "bullets",
-        heading: "Receiver best practices",
+        heading: "Receiver Best Practices",
         items: [
           "Verify the signature before trusting the payload.",
           "Respond quickly and process heavy work in the background.",
@@ -1173,7 +1173,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not documented publicly",
+        title: "Not Documented Publicly",
         body: "eCard’s site does not publish the payload format, signature scheme, retry policy or other event types. Check your workspace settings for details.",
       },
     ],
@@ -1188,10 +1188,10 @@ export const pages: PageDef[] = [
     slug: "integrations/api",
     category: "integrations",
     title: "API",
-    seoTitle: "eCard API: What’s Known and What to Ask",
+    seoTitle: "eCard API: What’s Known And What To Ask",
     description: "eCard lists webhooks and an API among its team and admin features. Here’s what is stated publicly, what isn’t, and how to plan an integration.",
     h1: "The eCard API",
-    eyebrow: "Developer integration",
+    eyebrow: "Developer Integration",
     intro: "eCard’s site mentions “Webhooks and API” as part of its team and admin features. A public API reference is not available yet, so this page sets out what is known.",
     variant: "integration",
     visual: "integrations",
@@ -1199,7 +1199,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Known vs not yet documented",
+        heading: "Known Vs Not Yet Documented",
         headers: ["Topic", "Status"],
         rows: [
           ["API exists", "Stated on eCard’s site alongside webhooks"],
@@ -1211,7 +1211,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "split",
-        heading: "Planning an integration today",
+        heading: "Planning An Integration Today",
         body: [
           "If you need eCard data in another system now, webhooks (Professional and above) are the documented path for new contacts, and CSV export covers bulk transfers.",
           "For deeper API access, contact sales@bizzfly.com and describe your use case. Enterprise conversations are the right place to confirm scope.",
@@ -1221,7 +1221,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Keys are encrypted",
+        title: "Keys Are Encrypted",
         body: "eCard states API keys are encrypted with AES-256-GCM.",
       },
     ],
@@ -1236,28 +1236,28 @@ export const pages: PageDef[] = [
     slug: "integrations/csv-import",
     category: "integrations",
     title: "CSV Import",
-    seoTitle: "Import Existing Contacts into eCard via CSV",
+    seoTitle: "Import Existing Contacts Into eCard Via CSV",
     description: "Bring old spreadsheets and phone exports into eCard with CSV import, then merge duplicates, tag by event and start following up. Available on every plan.",
-    h1: "Bring your old contacts with you",
-    eyebrow: "Data integration",
-    intro: "CSV import gets the contacts you already have — from spreadsheets, old CRMs or phone exports — into eCard alongside the cards you scan. Bulk import and export are part of every plan.",
+    h1: "Bring Your Old Contacts With You",
+    eyebrow: "Data Integration",
+    intro: "CSV import gets the contacts you already have (from spreadsheets, old CRMs or phone exports) into eCard alongside the cards you scan. Bulk import and export are part of every plan.",
     variant: "integration",
     visual: "dashboard",
     icon: "upload",
     sections: [
       {
         type: "steps",
-        heading: "Preparing a clean file",
+        heading: "Preparing A Clean File",
         steps: [
-          { title: "One row per person", body: "Remove blank rows and merged cells." },
-          { title: "Clear column headers", body: "Use plain names like Name, Company, Email, Phone, City." },
-          { title: "Save as UTF-8 CSV", body: "Keeps Hindi, Marathi and other scripts intact." },
-          { title: "Import, then clean", body: "Use duplicate merge and tags in eCard after the import." },
+          { title: "One Row Per Person", body: "Remove blank rows and merged cells." },
+          { title: "Clear Column Headers", body: "Use plain names like Name, Company, Email, Phone, City." },
+          { title: "Save As UTF-8 CSV", body: "Keeps Hindi, Marathi and other scripts intact." },
+          { title: "Import, Then Clean", body: "Use duplicate merge and tags in eCard after the import." },
         ],
       },
       {
         type: "bullets",
-        heading: "Sample rows (fictional)",
+        heading: "Sample Rows (Fictional)",
         intro: "Sample data only:",
         items: [
           "Sample: Priya Shah, Realtor, Pune, priya@example.com",
@@ -1268,14 +1268,14 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Column mapping",
+        title: "Column Mapping",
         body: "eCard’s site does not document required columns or mapping rules. Check the import screen in your workspace.",
       },
       {
         type: "prose",
-        heading: "After the import",
+        heading: "After The Import",
         paragraphs: [
-          "Imported contacts can be searched, tagged and grouped like scanned ones. Run duplicate merge, blacklist anyone you shouldn’t contact, and archive stale records. Then use natural-language search — for example, “Investors I met in Mumbai last month” — to find who to follow up with first.",
+          "Imported contacts can be searched, tagged and grouped like scanned ones. Run duplicate merge, blacklist anyone you shouldn’t contact, and archive stale records. Then use natural-language search (for example, “Investors I met in Mumbai last month”) to find who to follow up with first.",
         ],
       },
     ],
@@ -1296,7 +1296,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "What Telegram is, and why a bot suits card capture",
+        heading: "What Telegram Is, And Why A Bot Suits Card Capture",
         paragraphs: [
           "Telegram is a cloud-based messaging app that runs on phones, desktops and the web. Bots are automated accounts inside Telegram that receive messages and reply, which makes them a natural inbox for photos you want processed without opening another tool.",
           "For card capture, that means the app you already have open after a meeting becomes the scanner. eCard’s bot saves the contact from the photo and replies with Open and Send buttons, so you can check the record or start an intro from the same chat.",
@@ -1304,7 +1304,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Good habits when scanning through the bot",
+        heading: "Good Habits When Scanning Through The Bot",
         items: [
           "Photograph one card per message on a plain, well-lit surface so the AI has a clean image to read.",
           "Treat the one-time code from Settings → Telegram like a password: do not paste it into group chats.",
@@ -1321,7 +1321,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "Where WhatsApp fits in a follow-up workflow",
+        heading: "Where WhatsApp Fits In A Follow-up Workflow",
         paragraphs: [
           "WhatsApp is often the channel people actually read, especially in India, where many professionals answer messages faster than email. A short, personal message within a day of meeting tends to land better than a long formal note a week later.",
           "eCard’s role is to draft that message for you. The AI writes it in English, Hindi or Marathi, and one tap opens it in WhatsApp, where you can still edit it before pressing send. The message goes from your own WhatsApp account, so replies come straight back to you.",
@@ -1329,18 +1329,18 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "A sample follow-up, end to end",
+        heading: "A Sample Follow-up, End To End",
         intro: "Sample scenario, fictional data: Priya Shah, a realtor, meets a buyer at a site visit.",
         steps: [
-          { title: "Scan the card", body: "Priya scans the buyer’s card and reviews the extracted fields before saving." },
-          { title: "Pick a language", body: "She asks for a Marathi draft, because the buyer spoke Marathi during the visit." },
-          { title: "Open in WhatsApp", body: "One tap opens the draft in WhatsApp. She adds the flat number they discussed and sends." },
+          { title: "Scan The Card", body: "Priya scans the buyer’s card and reviews the extracted fields before saving." },
+          { title: "Pick A Language", body: "She asks for a Marathi draft, because the buyer spoke Marathi during the visit." },
+          { title: "Open In WhatsApp", body: "One tap opens the draft in WhatsApp. She adds the flat number they discussed and sends." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Messaging etiquette still applies",
+        title: "Messaging Etiquette Still Applies",
         body: "Only message people who gave you their card or number, keep the first message short, and stop if they ask you to. eCard’s site does not describe WhatsApp Business API messaging or bulk broadcasts, so treat this as person-to-person follow-up.",
       },
     ],
@@ -1353,7 +1353,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "How sending through Gmail works in general",
+        heading: "How Sending Through Gmail Works In General",
         paragraphs: [
           "When an app sends mail “from your Gmail”, it usually connects to Google’s outgoing mail server over SMTP using your address and a credential Google allows for that purpose. Replies arrive in your normal inbox, which keeps the conversation where you already work.",
           "Google’s account security settings decide which credentials are accepted. Many accounts with two-step verification need an app password rather than the normal sign-in password. Google Workspace admins can also restrict third-party SMTP access, so check with your admin before connecting a work account.",
@@ -1361,7 +1361,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Before you connect a Gmail mailbox",
+        heading: "Before You Connect A Gmail Mailbox",
         items: [
           "Confirm whether your account needs an app password or another credential type for SMTP.",
           "Check Google’s current daily sending limits for your account type before planning large event follow-ups.",
@@ -1372,7 +1372,7 @@ const extras: Record<string, Extra> = {
       {
         type: "callout",
         tone: "info",
-        title: "What eCard states about security",
+        title: "What eCard States About Security",
         body: "eCard’s site says SMTP passwords are encrypted with AES-256-GCM. It does not document a Google sign-in (OAuth) flow for sending, so follow the connection screen shown in the app.",
       },
     ],
@@ -1385,7 +1385,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "Outlook and Microsoft 365 mailboxes",
+        heading: "Outlook And Microsoft 365 Mailboxes",
         paragraphs: [
           "“Outlook” can mean a personal Outlook.com address or a work mailbox on Microsoft 365. Both can send through Microsoft’s SMTP service, but work tenants are managed by an IT admin who may have SMTP authentication switched off for security reasons.",
           "eCard lists Outlook among the mailboxes you can send intros from. Because the intro leaves from your own address, the recipient sees a normal message from you, and replies come back to your Outlook inbox rather than to a shared marketing address.",
@@ -1393,7 +1393,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "table",
-        heading: "Questions to settle with IT first",
+        heading: "Questions To Settle With IT First",
         intro: "General checklist for work mailboxes; answers depend on your organisation, not on eCard.",
         headers: ["Question", "Why it matters"],
         rows: [
@@ -1406,7 +1406,7 @@ const extras: Record<string, Extra> = {
       {
         type: "callout",
         tone: "tip",
-        title: "Test with a colleague",
+        title: "Test With A Colleague",
         body: "Send your first intro to a colleague on a different mail provider and ask whether it arrived in the inbox or in junk. It is a quick way to catch signature or formatting issues before real contacts see them.",
       },
     ],
@@ -1419,7 +1419,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "Why sync cards into Google Contacts",
+        heading: "Why Sync Cards Into Google Contacts",
         paragraphs: [
           "Google Contacts is the address book behind Gmail and Android phones. When a scanned contact also appears there, their name can show up on incoming calls, autocomplete in Gmail and be available to other apps that read your Google address book.",
           "eCard offers Google Contacts sync on Starter and above. The Free plan does not include it, so if your team wants scanned people to appear in Google automatically, Starter at ₹299 a month is the entry point.",
@@ -1427,17 +1427,17 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "cards",
-        heading: "What to confirm in the app",
+        heading: "What To Confirm In The App",
         intro: "eCard’s site names the sync but does not document its details. Check these in settings before relying on it.",
         cards: [
           { title: "Direction", body: "Whether sync is one-way into Google or two-way, and which side wins on conflicts.", icon: "merge" },
-          { title: "Field mapping", body: "Which eCard fields map to Google fields such as company, job title and notes.", icon: "layers" },
-          { title: "Account scope", body: "Whether each team member syncs to their own Google account or a shared one.", icon: "users" },
+          { title: "Field Mapping", body: "Which eCard fields map to Google fields such as company, job title and notes.", icon: "layers" },
+          { title: "Account Scope", body: "Whether each team member syncs to their own Google account or a shared one.", icon: "users" },
         ],
       },
       {
         type: "bullets",
-        heading: "Keep your address book tidy",
+        heading: "Keep Your Address Book Tidy",
         items: [
           "Merge duplicates in eCard first, so they do not multiply in Google.",
           "Use tags consistently so contacts from events stay findable.",
@@ -1454,7 +1454,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "Why addresses on cards need checking",
+        heading: "Why Addresses On Cards Need Checking",
         paragraphs: [
           "Card addresses are some of the hardest fields to read correctly. Fonts are small, layouts break lines in odd places, and abbreviations for floors, sectors and landmarks vary by city. A single misread digit in a PIN code can send a courier or a visitor to the wrong place.",
           "eCard checks scanned addresses against Google Maps. That gives you a second signal alongside the field’s confidence score, so you can spot an address that does not look like a real location before you save the contact.",
@@ -1462,17 +1462,17 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "Reviewing an address before saving",
+        heading: "Reviewing An Address Before Saving",
         steps: [
-          { title: "Look at the confidence", body: "Every extracted field has a confidence score. A low score on the address is your cue to look closely." },
-          { title: "Compare with the card", body: "Check building names, floor numbers and PIN code against the original photo." },
-          { title: "Fix and save", body: "Nothing is saved until you review it, so correct the address before confirming." },
+          { title: "Look At The Confidence", body: "Every extracted field has a confidence score. A low score on the address is your cue to look closely." },
+          { title: "Compare With The Card", body: "Check building names, floor numbers and PIN code against the original photo." },
+          { title: "Fix And Save", body: "Nothing is saved until you review it, so correct the address before confirming." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "What is not documented",
+        title: "What Is Not Documented",
         body: "eCard’s site says addresses are checked against Google Maps but does not say whether a map pin, directions link or coordinates are stored. Check the contact view in the app for what is shown.",
       },
     ],
@@ -1485,7 +1485,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "What Razorpay and UPI are",
+        heading: "What Razorpay And UPI Are",
         paragraphs: [
           "Razorpay is an Indian payment gateway: it lets a business accept many payment methods through one checkout. UPI, the Unified Payments Interface, is India’s real-time bank-to-bank payment system, used through bank and payment apps.",
           "On eCard, this integration is about paying for your eCard subscription. It is not a feature for collecting money from your contacts. In India you can pay by UPI, cards, net banking, wallets or EMI.",
@@ -1493,7 +1493,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Before you pay",
+        heading: "Before You Pay",
         items: [
           "Decide which plan fits your users, storage and scan needs; Starter is ₹299, Professional ₹999 and Business ₹2,999 a month.",
           "Have GST details ready if your business needs them; GST is applied where applicable.",
@@ -1517,7 +1517,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "Stripe for international customers",
+        heading: "Stripe For International Customers",
         paragraphs: [
           "Stripe is a global payment processor that handles card payments in many countries and currencies. eCard lists Stripe among its integrations, and its pricing notes say international customers pay by card, with local currency shown at checkout for supported countries.",
           "This makes Stripe part of how teams outside India subscribe to eCard. Like Razorpay·UPI, it concerns paying for your plan, not taking payments from the people you meet.",
@@ -1525,7 +1525,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "table",
-        heading: "What you will see at checkout",
+        heading: "What You Will See At Checkout",
         headers: ["Item", "What eCard states"],
         rows: [
           ["Listed prices", "INR per month: Starter ₹299, Professional ₹999, Business ₹2,999"],
@@ -1536,7 +1536,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Tips for paying from abroad",
+        heading: "Tips For Paying From Abroad",
         items: [
           "Tell your bank to expect a foreign-currency charge if your card often blocks them.",
           "Check whether your card adds foreign-transaction fees on top of the converted price.",
@@ -1561,7 +1561,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "What to check with Anthropic",
+        heading: "What To Check With Anthropic",
         items: [
           "API usage pricing and any monthly spend limits on your account.",
           "Rate limits for your usage tier, which matter if you scan a stack of cards after an event.",
@@ -1572,7 +1572,7 @@ const extras: Record<string, Extra> = {
       {
         type: "callout",
         tone: "tip",
-        title: "Use a key pool for busy days",
+        title: "Use A Key Pool For Busy Days",
         body: "eCard supports a key pool with failover: add more than one key and it rotates and fails over when one is rate-limited. That can help after trade shows, when many cards arrive at once.",
       },
     ],
@@ -1585,7 +1585,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "About OpenAI models",
+        heading: "About OpenAI Models",
         paragraphs: [
           "OpenAI builds the GPT family of models. Several of its models accept images, so they can look at a card photo and return the text arranged into fields. Teams often already have an OpenAI account for other work, which makes it a convenient first choice.",
           "eCard lets you choose OpenAI to read cards and bring your own key. Whichever provider you pick, the workflow stays the same: each field gets a confidence score and you review before saving.",
@@ -1593,12 +1593,12 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "Setting up a key responsibly",
+        heading: "Setting Up A Key Responsibly",
         steps: [
-          { title: "Create a dedicated key", body: "Make a separate API key just for eCard, so you can rotate or revoke it without affecting other tools." },
-          { title: "Set a budget", body: "Use the spend controls in your OpenAI account to cap monthly usage." },
-          { title: "Add it in eCard", body: "eCard encrypts stored API keys with AES-256-GCM." },
-          { title: "Test on a few cards", body: "Scan cards with different layouts and compare confidence scores before rolling it out to the team." },
+          { title: "Create A Dedicated Key", body: "Make a separate API key just for eCard, so you can rotate or revoke it without affecting other tools." },
+          { title: "Set A Budget", body: "Use the spend controls in your OpenAI account to cap monthly usage." },
+          { title: "Add It In eCard", body: "eCard encrypts stored API keys with AES-256-GCM." },
+          { title: "Test On A Few Cards", body: "Scan cards with different layouts and compare confidence scores before rolling it out to the team." },
         ],
       },
     ],
@@ -1618,17 +1618,17 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "cards",
-        heading: "Points to weigh when choosing Gemini",
+        heading: "Points To Weigh When Choosing Gemini",
         cards: [
-          { title: "Account setup", body: "Decide whether to create the key in Google AI Studio or a Google Cloud project, based on how your company handles billing.", icon: "key" },
+          { title: "Account Setup", body: "Decide whether to create the key in Google AI Studio or a Google Cloud project, based on how your company handles billing.", icon: "key" },
           { title: "Quotas", body: "Check per-minute request limits for your tier; scanning a whole event can create bursts.", icon: "clock" },
-          { title: "Data terms", body: "Read Google’s terms for API data use, which can differ between free and paid tiers.", icon: "shield" },
+          { title: "Data Terms", body: "Read Google’s terms for API data use, which can differ between free and paid tiers.", icon: "shield" },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Compare on your own cards",
+        title: "Compare On Your Own Cards",
         body: "Accuracy depends on your cards’ languages, fonts and layouts. Scan the same small sample with two providers and compare confidence scores and corrections before settling on one.",
       },
     ],
@@ -1649,7 +1649,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "What to check with the provider",
+        heading: "What To Check With The Provider",
         items: [
           "Image support for the model you intend to use.",
           "Where API data is processed and stored, and whether that fits your company’s data policies.",
@@ -1659,7 +1659,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "split",
-        heading: "Using DeepSeek in a key pool",
+        heading: "Using DeepSeek In A Key Pool",
         body: [
           "eCard supports a key pool with failover, so you are not tied to one provider’s availability. If one key is rate-limited, eCard rotates to another.",
         ],
@@ -1687,19 +1687,19 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "Trying Grok on a small batch",
+        heading: "Trying Grok On A Small Batch",
         intro: "A sensible general approach for any new AI provider.",
         steps: [
-          { title: "Pick ten varied cards", body: "Include vertical layouts, two-sided cards, logos with text and at least one non-English card." },
-          { title: "Scan and review", body: "Note which fields had low confidence scores and which you had to correct." },
+          { title: "Pick Ten Varied Cards", body: "Include vertical layouts, two-sided cards, logos with text and at least one non-English card." },
+          { title: "Scan And Review", body: "Note which fields had low confidence scores and which you had to correct." },
           { title: "Compare", body: "Repeat with your current provider and compare corrections, not just speed." },
-          { title: "Decide on a pool", body: "Keep Grok as primary, backup or neither, based on what you saw." },
+          { title: "Decide On A Pool", body: "Keep Grok as primary, backup or neither, based on what you saw." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Not documented on eCard’s site",
+        title: "Not Documented On eCard’s Site",
         body: "eCard does not publish which Grok model versions it supports or any benchmark results. Check the AI settings in the app and xAI’s documentation.",
       },
     ],
@@ -1712,7 +1712,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "Why companies choose Azure for AI",
+        heading: "Why Companies Choose Azure For AI",
         paragraphs: [
           "Azure is Microsoft’s cloud. Organisations that already run on Microsoft often prefer to use AI models through Azure because billing, access control and data-handling agreements sit inside an existing enterprise contract.",
           "eCard’s FAQ names Azure among the AI options for reading cards, alongside custom endpoints. That can make eCard easier to approve in companies where IT requires AI traffic to go through an approved cloud account.",
@@ -1720,7 +1720,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "table",
-        heading: "Details to gather from your Azure admin",
+        heading: "Details To Gather From Your Azure Admin",
         intro: "General checklist; eCard’s site does not document its Azure configuration fields.",
         headers: ["Item", "Why it matters"],
         rows: [
@@ -1733,7 +1733,7 @@ const extras: Record<string, Extra> = {
       {
         type: "callout",
         tone: "tip",
-        title: "Involve IT early",
+        title: "Involve IT Early",
         body: "If your company restricts AI providers, share eCard’s security points with IT up front: API keys encrypted with AES-256-GCM, two-factor sign-in, roles and a workspace audit log.",
       },
     ],
@@ -1754,7 +1754,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Setup considerations",
+        heading: "Setup Considerations",
         items: [
           "Zoho uses different server hostnames for different data centres; use the one that matches your account’s region.",
           "If two-factor authentication is on, Zoho typically requires an application-specific password for SMTP.",
@@ -1765,7 +1765,7 @@ const extras: Record<string, Extra> = {
       {
         type: "callout",
         tone: "note",
-        title: "Zoho CRM is a separate product",
+        title: "Zoho CRM Is A Separate Product",
         body: "This page is about sending email through Zoho Mail. eCard’s site does not list a Zoho CRM integration; bulk import and export are the documented ways to move contact data.",
       },
     ],
@@ -1778,7 +1778,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "What SendGrid is",
+        heading: "What SendGrid Is",
         paragraphs: [
           "SendGrid, owned by Twilio, is an email delivery service built for applications. Instead of sending through a personal mailbox, mail goes through SendGrid’s infrastructure, which handles high volumes and provides delivery reporting in its own dashboard.",
           "eCard lists SendGrid as a way to send intro emails. It suits teams that already use SendGrid for transactional mail and want intros to go out from a verified company domain.",
@@ -1786,18 +1786,18 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "Typical preparation in SendGrid",
+        heading: "Typical Preparation In SendGrid",
         intro: "General steps on the SendGrid side; follow eCard’s connection screen for what to enter in the app.",
         steps: [
-          { title: "Authenticate your domain", body: "Add the DNS records SendGrid provides so mail from your domain passes SPF and DKIM checks." },
-          { title: "Verify the sender", body: "Make sure the From address you plan to use is verified." },
-          { title: "Create a restricted credential", body: "Use a key limited to sending mail, dedicated to eCard." },
+          { title: "Authenticate Your Domain", body: "Add the DNS records SendGrid provides so mail from your domain passes SPF and DKIM checks." },
+          { title: "Verify The Sender", body: "Make sure the From address you plan to use is verified." },
+          { title: "Create A Restricted Credential", body: "Use a key limited to sending mail, dedicated to eCard." },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Replies need a real inbox",
+        title: "Replies Need A Real Inbox",
         body: "SendGrid sends mail but does not host an inbox. Make sure the reply-to address on your intros goes to a mailbox someone actually reads.",
       },
     ],
@@ -1810,7 +1810,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "What Brevo is",
+        heading: "What Brevo Is",
         paragraphs: [
           "Brevo, formerly Sendinblue, is a marketing and transactional email platform. Its SMTP relay lets other apps send mail through Brevo using credentials you generate in your Brevo account.",
           "eCard’s FAQ names Brevo among the email options for intros. Because intros are one-to-one messages sent after you review an AI draft, think of Brevo here as the delivery route, not as a newsletter tool.",
@@ -1818,7 +1818,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Setup considerations",
+        heading: "Setup Considerations",
         items: [
           "Authenticate your sending domain in Brevo so intros are less likely to land in spam.",
           "Generate SMTP credentials specifically for eCard so you can revoke them independently.",
@@ -1828,7 +1828,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "split",
-        heading: "Intros versus campaigns",
+        heading: "Intros Versus Campaigns",
         body: [
           "A personal intro after a meeting and a marketing campaign are different kinds of mail with different expectations. Keep intros personal and short, and only add people to marketing lists with their consent.",
         ],
@@ -1848,7 +1848,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "What Mailgun is",
+        heading: "What Mailgun Is",
         paragraphs: [
           "Mailgun is an email delivery service for developers. It offers SMTP and API sending, domain verification, and logs that show what happened to each message, which technical teams value when diagnosing delivery problems.",
           "eCard’s FAQ lists Mailgun as one of the services you can send intros through. If your engineering team already runs Mailgun for product email, reusing a verified domain can be simpler than setting up a new one.",
@@ -1856,7 +1856,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "table",
-        heading: "Things to confirm in Mailgun",
+        heading: "Things To Confirm In Mailgun",
         headers: ["Check", "Why"],
         rows: [
           ["Sending domain is verified", "Unverified domains deliver poorly or are blocked."],
@@ -1868,7 +1868,7 @@ const extras: Record<string, Extra> = {
       {
         type: "callout",
         tone: "info",
-        title: "Use a subdomain if unsure",
+        title: "Use A Subdomain If Unsure",
         body: "Many teams send application mail from a subdomain to protect the main domain’s reputation. Decide with whoever manages your DNS before connecting.",
       },
     ],
@@ -1889,19 +1889,19 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "Typical AWS-side preparation",
+        heading: "Typical AWS-side Preparation",
         intro: "General SES steps; exact screens are AWS’s, not eCard’s.",
         steps: [
-          { title: "Verify your identity", body: "Verify the domain or address you will send from in the SES region you use." },
-          { title: "Leave the sandbox", body: "New SES accounts start in a sandbox that only sends to verified addresses; request production access first." },
-          { title: "Create SMTP credentials", body: "Generate SES SMTP credentials, which are different from your normal AWS access keys." },
-          { title: "Note the regional endpoint", body: "Each SES region has its own SMTP host." },
+          { title: "Verify Your Identity", body: "Verify the domain or address you will send from in the SES region you use." },
+          { title: "Leave The Sandbox", body: "New SES accounts start in a sandbox that only sends to verified addresses; request production access first." },
+          { title: "Create SMTP Credentials", body: "Generate SES SMTP credentials, which are different from your normal AWS access keys." },
+          { title: "Note The Regional Endpoint", body: "Each SES region has its own SMTP host." },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Watch bounces",
+        title: "Watch Bounces",
         body: "AWS monitors bounce and complaint rates on SES accounts. Scanned cards occasionally carry outdated emails, so review addresses with low confidence scores before sending intros.",
       },
     ],
@@ -1922,7 +1922,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Setup considerations",
+        heading: "Setup Considerations",
         items: [
           "Verify your sending domain in Resend and add the DNS records it provides.",
           "Create a credential dedicated to eCard so you can revoke it without affecting product email.",
@@ -1932,12 +1932,12 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "cards",
-        heading: "Sample fit",
+        heading: "Sample Fit",
         intro: "Sample scenario, fictional: a five-person startup on the Free plan.",
         cards: [
-          { title: "Already on Resend", body: "Their app’s mail uses Resend, so the domain is verified.", icon: "check" },
-          { title: "Founder-led sales", body: "The founder scans cards at meetups and sends intros from a company address.", icon: "send" },
-          { title: "Replies to a shared inbox", body: "Reply-to points to a team mailbox so nothing is missed.", icon: "mail" },
+          { title: "Already On Resend", body: "Their app’s mail uses Resend, so the domain is verified.", icon: "check" },
+          { title: "Founder-led Sales", body: "The founder scans cards at meetups and sends intros from a company address.", icon: "send" },
+          { title: "Replies To A Shared Inbox", body: "Reply-to points to a team mailbox so nothing is missed.", icon: "mail" },
         ],
       },
     ],
@@ -1950,7 +1950,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "SMTP in plain terms",
+        heading: "SMTP In Plain Terms",
         paragraphs: [
           "SMTP, the Simple Mail Transfer Protocol, is the standard way email is handed from a sender to a mail server for delivery. Almost every email provider offers an SMTP server, which is why “any SMTP host” covers far more services than the ones eCard names.",
           "To send through SMTP, an app typically needs a server hostname, a port, an encryption mode and a username and password. eCard encrypts SMTP passwords with AES-256-GCM.",
@@ -1958,7 +1958,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "table",
-        heading: "Common SMTP settings explained",
+        heading: "Common SMTP Settings Explained",
         intro: "General reference; use the values your provider gives you.",
         headers: ["Setting", "What it means"],
         rows: [
@@ -1977,7 +1977,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "What a webhook is",
+        heading: "What A Webhook Is",
         paragraphs: [
           "A webhook is an HTTP request one system sends to another when something happens. Instead of your tools repeatedly asking eCard for changes, eCard pushes a notification to a URL you control when a new contact is created.",
           "eCard offers signed webhook events for each new contact on Professional and above. Signing lets your receiving system confirm the request really came from eCard and was not altered in transit.",
@@ -1985,7 +1985,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Building a reliable receiver",
+        heading: "Building A Reliable Receiver",
         intro: "General best practice; eCard’s payload format and signing scheme are not published on its site.",
         items: [
           "Verify the signature on every request before trusting its contents.",
@@ -1997,12 +1997,12 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "cards",
-        heading: "Sample destinations",
+        heading: "Sample Destinations",
         intro: "Ideas for where new-contact events could go; none are named eCard integrations.",
         cards: [
           { title: "Your CRM", body: "Create a lead record when a card is scanned.", icon: "users" },
-          { title: "Team chat", body: "Post a message when someone on the team adds a contact.", icon: "message" },
-          { title: "Automation tools", body: "Trigger a workflow in a no-code tool that accepts incoming webhooks.", icon: "zap" },
+          { title: "Team Chat", body: "Post a message when someone on the team adds a contact.", icon: "message" },
+          { title: "Automation Tools", body: "Trigger a workflow in a no-code tool that accepts incoming webhooks.", icon: "zap" },
         ],
       },
     ],
@@ -2015,7 +2015,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "What an API offers compared with webhooks",
+        heading: "What An API Offers Compared With Webhooks",
         paragraphs: [
           "An API lets your systems ask a service for data or ask it to do something, on your schedule. Webhooks work the other way round: the service tells your system when something happens. Many integrations use both, with webhooks for real-time alerts and an API for lookups.",
           "eCard’s site mentions Webhooks and API as part of its team and admin features. It does not publish an API reference, so endpoints, authentication and rate limits are not documented publicly.",
@@ -2023,7 +2023,7 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Questions to ask eCard before building",
+        heading: "Questions To Ask eCard Before Building",
         items: [
           "Which plans include API access.",
           "How requests are authenticated and how credentials are rotated.",
@@ -2035,7 +2035,7 @@ const extras: Record<string, Extra> = {
       {
         type: "callout",
         tone: "tip",
-        title: "Start with export",
+        title: "Start With Export",
         body: "If you just need a one-off data move, bulk export is available on every plan and may be simpler than writing an integration. For larger projects, Enterprise contact is sales@bizzfly.com.",
       },
     ],
@@ -2048,7 +2048,7 @@ const extras: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "Why CSV is still the universal format",
+        heading: "Why CSV Is Still The Universal Format",
         paragraphs: [
           "CSV, comma-separated values, is a plain-text table that almost every contact tool, spreadsheet and CRM can export. That makes it the easiest way to bring an old address book, a spreadsheet of leads or an export from another app into eCard.",
           "Bulk import and export sit in the base set on every plan, and eCard’s clean-data tools include duplicate merge, blacklist and archive for tidying anything that overlaps with cards you have already scanned.",
@@ -2056,19 +2056,19 @@ const extras: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "Preparing a clean file",
+        heading: "Preparing A Clean File",
         steps: [
-          { title: "One person per row", body: "Split rows that contain two people, and remove blank or summary rows." },
-          { title: "Clear headers", body: "Use simple column names like Name, Company, Email and Phone." },
-          { title: "Consistent phone numbers", body: "Include country codes, so WhatsApp follow-ups open correctly." },
-          { title: "Save as UTF-8", body: "This keeps names in Hindi, Marathi or accented Latin script from turning into garbled characters." },
-          { title: "Test with a few rows", body: "Import a small sample first and check how fields landed." },
+          { title: "One Person Per Row", body: "Split rows that contain two people, and remove blank or summary rows." },
+          { title: "Clear Headers", body: "Use simple column names like Name, Company, Email and Phone." },
+          { title: "Consistent Phone Numbers", body: "Include country codes, so WhatsApp follow-ups open correctly." },
+          { title: "Save As UTF-8", body: "This keeps names in Hindi, Marathi or accented Latin script from turning into garbled characters." },
+          { title: "Test With A Few Rows", body: "Import a small sample first and check how fields landed." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Not documented",
+        title: "Not Documented",
         body: "eCard’s site does not publish a CSV template, column mapping rules or a row limit. Check the import screen in the app, and keep plan storage in mind, from 1 GB on Free.",
       },
     ],
@@ -2083,13 +2083,13 @@ const more: Record<string, Section[]> = {
   integrations: [
     {
       type: "steps",
-      heading: "Which connections to set up first",
+      heading: "Which Connections To Set Up First",
       intro: "A general order that suits most new workspaces; adjust it to how your team actually meets people.",
       steps: [
-        { title: "Choose an AI model", body: "Scanning is the heart of eCard, so pick a provider such as Claude, OpenAI or Gemini and add your key, or several keys for failover." },
-        { title: "Connect a mailbox", body: "Link Gmail, Outlook, Zoho or another SMTP host so intro emails leave from your own address." },
+        { title: "Choose An AI Model", body: "Scanning is the heart of eCard, so pick a provider such as Claude, OpenAI or Gemini and add your key, or several keys for failover." },
+        { title: "Connect A Mailbox", body: "Link Gmail, Outlook, Zoho or another SMTP host so intro emails leave from your own address." },
         { title: "Link Telegram", body: "Generate a one-time code in Settings → Telegram if you would rather forward photos than open the browser." },
-        { title: "Add the rest as you grow", body: "Google Contacts sync arrives on Starter, webhooks on Professional, and CSV import is there whenever you need to bring in an old list." },
+        { title: "Add The Rest As You Grow", body: "Google Contacts sync arrives on Starter, webhooks on Professional, and CSV import is there whenever you need to bring in an old list." },
       ],
     },
   ],
@@ -2097,7 +2097,7 @@ const more: Record<string, Section[]> = {
     {
       type: "callout",
       tone: "tip",
-      title: "Save numbers with country codes",
+      title: "Save Numbers With Country Codes",
       body: "WhatsApp links rely on a full international number. When reviewing a scanned card, check that the mobile number includes the country code, such as +91 for India, so the one-tap open reaches the right person.",
     },
   ],
@@ -2105,7 +2105,7 @@ const more: Record<string, Section[]> = {
     {
       type: "callout",
       tone: "tip",
-      title: "Personal Gmail versus Workspace",
+      title: "Personal Gmail Versus Workspace",
       body: "A free @gmail.com address and a company address on Google Workspace both use Google’s mail servers, but the company address usually looks more credible in a business intro and is governed by your admin’s settings.",
     },
   ],
@@ -2113,14 +2113,14 @@ const more: Record<string, Section[]> = {
     {
       type: "callout",
       tone: "info",
-      title: "Replies stay in Outlook",
+      title: "Replies Stay In Outlook",
       body: "Because intros go out from your own mailbox, any reply lands in your Outlook inbox alongside the rest of your mail, where you can file it, flag it or forward it to a colleague as usual.",
     },
   ],
   "integrations/google-contacts": [
     {
       type: "prose",
-      heading: "Sample: how a small team might use sync",
+      heading: "Sample: How A Small Team Might Use Sync",
       paragraphs: [
         "Sample scenario, fictional: a six-person architecture studio on Starter. Each partner scans cards from client meetings in eCard. With sync on, those clients can also appear in the partners’ Google address books, so a returning client’s name shows when they call. The studio keeps tags and meeting notes in eCard, where the team can search them, and treats Google Contacts as the phone-side address book rather than the place for notes.",
       ],
@@ -2129,7 +2129,7 @@ const more: Record<string, Section[]> = {
   "integrations/google-maps": [
     {
       type: "bullets",
-      heading: "Address quirks worth knowing",
+      heading: "Address Quirks Worth Knowing",
       intro: "General patterns that trip up any card reader, human or AI.",
       items: [
         "Landmark-based addresses (“near the temple, opp. bus stand”) may not map to an exact point.",
@@ -2142,7 +2142,7 @@ const more: Record<string, Section[]> = {
   "integrations/razorpay-upi": [
     {
       type: "table",
-      heading: "Indian payment methods at a glance",
+      heading: "Indian Payment Methods At A Glance",
       intro: "General descriptions of the methods eCard accepts in India.",
       headers: ["Method", "How it works"],
       rows: [
@@ -2158,7 +2158,7 @@ const more: Record<string, Section[]> = {
     {
       type: "callout",
       tone: "note",
-      title: "Prices are listed in INR",
+      title: "Prices Are Listed In INR",
       body: "eCard publishes its prices in Indian rupees. The amount you see in your own currency at checkout is a conversion, so it can differ slightly over time as exchange rates move. Use the checkout figure, not a calculation from the INR list price, for budgeting.",
     },
   ],
@@ -2166,14 +2166,14 @@ const more: Record<string, Section[]> = {
     {
       type: "callout",
       tone: "info",
-      title: "You stay in control of saves",
+      title: "You Stay In Control Of Saves",
       body: "Whatever Claude reads, nothing is saved until you review it, so a misread digit is caught on screen rather than discovered later.",
     },
   ],
   "integrations/openai": [
     {
       type: "prose",
-      heading: "Keeping costs predictable",
+      heading: "Keeping Costs Predictable",
       paragraphs: [
         "With your own key, AI usage is charged by OpenAI rather than bundled into your eCard plan. Costs generally scale with the number of images processed and the model you choose, so a busy expo week will cost more than a quiet month.",
         "Two simple habits help: retake blurry photos instead of scanning them repeatedly, and review OpenAI’s usage dashboard after your first big event to set a sensible monthly limit. eCard’s own plans separately cap scans per month, from 50 on Free to 5,000 on Professional and unlimited on Business.",
@@ -2183,7 +2183,7 @@ const more: Record<string, Section[]> = {
   "integrations/gemini": [
     {
       type: "prose",
-      heading: "Sample: a mixed-language stack of cards",
+      heading: "Sample: A Mixed-language Stack Of Cards",
       paragraphs: [
         "Sample scenario, fictional: after a regional trade fair, Arjun Rao has forty cards, some bilingual in English and Kannada. He scans them with Gemini as the primary model, then sorts by confidence score and reviews the low-scoring fields first. Any card where several fields are uncertain he rescans with a cleaner photo before saving.",
       ],
@@ -2192,7 +2192,7 @@ const more: Record<string, Section[]> = {
   "integrations/deepseek": [
     {
       type: "prose",
-      heading: "Explaining a provider choice to your team",
+      heading: "Explaining A Provider Choice To Your Team",
       paragraphs: [
         "When you add a lower-profile provider, colleagues and IT may ask why. Keep a short note covering what you tested, which fields needed correction, where the provider processes data and which backup key sits in the pool. That record makes it easier to revisit the decision later, and it fits naturally alongside eCard’s workspace audit log and roles for keeping track of who changes settings.",
       ],
@@ -2201,7 +2201,7 @@ const more: Record<string, Section[]> = {
   "integrations/grok": [
     {
       type: "prose",
-      heading: "Why offer so many AI providers?",
+      heading: "Why Offer So Many AI Providers?",
       paragraphs: [
         "Different teams have different constraints. Some already pay for one provider; some have IT rules about where data goes; some care most about cost, others about accuracy on a particular language. By supporting Claude, OpenAI, Gemini, DeepSeek, Grok, Azure and custom endpoints, eCard leaves that choice with you.",
         "Grok is simply one more option in that list. If your organisation already has an xAI account, it may be the least effort to set up; if not, there is no requirement to use it.",
@@ -2211,7 +2211,7 @@ const more: Record<string, Section[]> = {
   "integrations/azure": [
     {
       type: "split",
-      heading: "Azure or a direct provider key?",
+      heading: "Azure Or A Direct Provider Key?",
       body: [
         "Both routes let eCard read cards with your own credentials. The difference is mostly organisational: who signs the contract, who controls access and where usage is billed.",
         "Individuals and small teams usually find a direct key quicker. Larger organisations with Microsoft agreements often prefer Azure because it reuses approvals they already have.",
@@ -2227,7 +2227,7 @@ const more: Record<string, Section[]> = {
   "integrations/zoho-mail": [
     {
       type: "prose",
-      heading: "Sample: a Zoho-based sales desk",
+      heading: "Sample: A Zoho-based Sales Desk",
       paragraphs: [
         "Sample scenario, fictional: a distributor in Pune runs company email on Zoho Mail. Each salesperson connects their own Zoho mailbox in eCard, so intros come from their personal work address and replies go back to the right person instead of a general inbox.",
       ],
@@ -2236,7 +2236,7 @@ const more: Record<string, Section[]> = {
   "integrations/sendgrid": [
     {
       type: "prose",
-      heading: "When a delivery service makes sense",
+      heading: "When A Delivery Service Makes Sense",
       paragraphs: [
         "A personal mailbox is the simplest route for most people: intros come from you and live in your Sent folder. A delivery service such as SendGrid makes more sense when a company wants consistent domain authentication across many senders, or when IT prefers not to hand SMTP access to individual mailboxes.",
         "The trade-off is that you need someone comfortable with DNS records and sender verification, and you must plan where replies go. For a solo user, connecting Gmail or Outlook is usually less work.",
@@ -2246,7 +2246,7 @@ const more: Record<string, Section[]> = {
   "integrations/brevo": [
     {
       type: "prose",
-      heading: "Deliverability basics for Brevo senders",
+      heading: "Deliverability Basics For Brevo Senders",
       paragraphs: [
         "Inbox placement depends heavily on your domain’s reputation. Authenticating the domain with SPF and DKIM, and ideally publishing a DMARC policy, tells receiving servers that Brevo is allowed to send on your behalf.",
         "Keep intro content plain and personal: a short note, a link to your digital card and a clear sign-off. Heavy images, many links or sales language can make a one-to-one intro look like bulk mail to spam filters.",
@@ -2256,13 +2256,13 @@ const more: Record<string, Section[]> = {
   "integrations/mailgun": [
     {
       type: "steps",
-      heading: "Connecting Mailgun, in general terms",
+      heading: "Connecting Mailgun, In General Terms",
       intro: "Mailgun-side steps; enter the resulting details on eCard’s connection screen.",
       steps: [
-        { title: "Add the domain", body: "Add your sending domain or subdomain in Mailgun." },
-        { title: "Publish DNS records", body: "Add the SPF, DKIM and tracking records Mailgun lists, then wait for verification." },
-        { title: "Create SMTP credentials", body: "Create a credential for eCard and note the SMTP host for your region." },
-        { title: "Send a test intro", body: "Send to an address you control and check headers for passing authentication." },
+        { title: "Add The Domain", body: "Add your sending domain or subdomain in Mailgun." },
+        { title: "Publish DNS Records", body: "Add the SPF, DKIM and tracking records Mailgun lists, then wait for verification." },
+        { title: "Create SMTP Credentials", body: "Create a credential for eCard and note the SMTP host for your region." },
+        { title: "Send A Test Intro", body: "Send to an address you control and check headers for passing authentication." },
       ],
     },
   ],
@@ -2270,14 +2270,14 @@ const more: Record<string, Section[]> = {
     {
       type: "callout",
       tone: "info",
-      title: "Replies and SES",
+      title: "Replies And SES",
       body: "SES sends mail but does not give you a mailbox. Use a From or reply-to address hosted with a mail provider your team reads, so replies to intros are not lost.",
     },
   ],
   "integrations/resend": [
     {
       type: "prose",
-      heading: "Domain reputation and shared senders",
+      heading: "Domain Reputation And Shared Senders",
       paragraphs: [
         "If your product already sends password resets and receipts through Resend, adding personal intros to the same domain means both share a reputation. Some teams prefer a separate subdomain for human-to-human mail so a spike in complaints on one stream does not affect the other.",
         "Whatever you choose, keep intros genuinely personal. eCard drafts them with AI and shows you a preview for 5 seconds before sending, so take that moment to add a detail from the conversation.",
@@ -2287,7 +2287,7 @@ const more: Record<string, Section[]> = {
   "integrations/smtp": [
     {
       type: "bullets",
-      heading: "Troubleshooting a failed connection",
+      heading: "Troubleshooting A Failed Connection",
       intro: "General checks that solve most SMTP setup problems.",
       items: [
         "Authentication failed: confirm you are using an app password if your provider requires one.",
@@ -2301,14 +2301,14 @@ const more: Record<string, Section[]> = {
     {
       type: "callout",
       tone: "note",
-      title: "Plan for your endpoint being down",
+      title: "Plan For Your Endpoint Being Down",
       body: "eCard’s site does not document retry behaviour. Design your receiver so a missed event can be recovered, for example by reconciling against a periodic export.",
     },
   ],
   "integrations/api": [
     {
       type: "table",
-      heading: "Choosing between export, webhooks and an API",
+      heading: "Choosing Between Export, Webhooks And An API",
       intro: "General comparison of integration approaches, with what eCard states about each.",
       headers: ["Approach", "Best for", "What eCard states"],
       rows: [
@@ -2320,7 +2320,7 @@ const more: Record<string, Section[]> = {
     },
     {
       type: "prose",
-      heading: "Security considerations for any API integration",
+      heading: "Security Considerations For Any API Integration",
       paragraphs: [
         "Whatever credentials an API uses, treat them like passwords: store them in a secrets manager, give each integration its own credential, and rotate them when someone with access leaves. Limit what the integration can do to what it actually needs, and review the workspace audit log after go-live.",
       ],
@@ -2330,7 +2330,7 @@ const more: Record<string, Section[]> = {
     {
       type: "callout",
       tone: "tip",
-      title: "Exporting from a phone or another app",
+      title: "Exporting From A Phone Or Another App",
       body: "Most address books export to CSV or vCard. If yours only offers vCard, open it in a spreadsheet tool or converter to produce a CSV first, then check the columns before importing.",
     },
   ],
@@ -2339,12 +2339,12 @@ const more: Record<string, Section[]> = {
 more["integrations/mailgun"].push({
   type: "callout",
   tone: "tip",
-  title: "Keep credentials scoped",
+  title: "Keep Credentials Scoped",
   body: "Give eCard its own Mailgun SMTP user rather than reusing one shared with your product’s backend. If a teammate leaves or a key is exposed, you can rotate the eCard credential without touching production mail.",
 });
 more["integrations/amazon-ses"].push({
   type: "bullets",
-  heading: "Choosing an SES region",
+  heading: "Choosing An SES Region",
   items: [
     "Use the region where your domain is already verified, if you have one.",
     "Consider data-residency rules your company follows for email content.",
@@ -2354,7 +2354,7 @@ more["integrations/amazon-ses"].push({
 more["integrations/grok"].push({
   type: "callout",
   tone: "info",
-  title: "Same review step, any model",
+  title: "Same Review Step, Any Model",
   body: "Switching to Grok does not change how contacts are saved: each field still shows a confidence score, addresses are still checked against Google Maps, and nothing is stored until you confirm it.",
 });
 

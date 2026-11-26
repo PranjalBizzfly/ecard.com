@@ -1,5 +1,6 @@
 "use client";
 
+import { toTitleCase } from "@/lib/text";
 import { useEffect, useId, useRef, useState, type KeyboardEvent, type ReactNode } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
@@ -48,7 +49,7 @@ export function ProductTour({ items }: { items: TourItem[] }) {
             <button key={it.title} ref={(el) => { tabs.current[i] = el; }} type="button" role="tab" id={`${base}-t${i}`} aria-controls={`${base}-p`}
               aria-selected={sel} tabIndex={sel ? 0 : -1} className="hm-tab" onClick={() => select(i)}>
               <span className="hm-tab-ic" aria-hidden>{it.icon}</span>
-              <span className="min-w-0"><span className="block font-bold text-ink-950">{it.title}</span><span className="hm-tab-text">{it.body}</span></span>
+              <span className="min-w-0"><span className="block font-bold text-ink-950">{toTitleCase(it.title)}</span><span className="hm-tab-text">{it.body}</span></span>
               {sel && (
                 <span className="hm-tab-progress" aria-hidden>
                   <i key={`${active}-${auto}`} className={auto ? "run" : "full"} style={{ ["--dur" as string]: `${DUR}ms` }}

@@ -7,9 +7,9 @@ export const pages: PageDef[] = [
     slug: B,
     category: "scanning",
     title: "AI Card Scanning",
-    seoTitle: "AI Visiting Card Scanner with Model Choice",
+    seoTitle: "AI Visiting Card Scanner With Model Choice",
     description: "Scan visiting cards with Claude, OpenAI, Gemini, DeepSeek or Grok. Review every field with confidence scores before anything is saved to eCard.",
-    h1: "Scan a visiting card with the AI model you choose",
+    h1: "Scan A Visiting Card With The AI Model You Choose",
     eyebrow: "AI Card Scanning",
     intro: "eCard reads visiting cards with an AI model you pick, shows a confidence score for each field, and saves nothing until you have reviewed it. Addresses are checked against Google Maps.",
     variant: "feature",
@@ -18,20 +18,20 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What the scanner does",
+        heading: "What The Scanner Does",
         intro: "Every point below is stated on eCard’s own site.",
         cards: [
-          { title: "Choose your model", body: "Pick Claude, OpenAI, Gemini, DeepSeek or Grok. The FAQ also lists Azure and custom endpoints.", icon: "brain" },
-          { title: "Bring your own key", body: "Use your own AI provider key instead of relying on a shared one.", icon: "key" },
-          { title: "Confidence per field", body: "Each extracted field carries a confidence score so you know what to double-check.", icon: "eye" },
-          { title: "Review before save", body: "Nothing is written to your contacts until you have reviewed the result.", icon: "check" },
-          { title: "Key pool with failover", body: "Add several keys to a pool so scanning can fail over when one key has a problem.", icon: "layers" },
-          { title: "Google Maps address check", body: "Addresses read from a card are checked against Google Maps.", icon: "map" },
+          { title: "Choose Your Model", body: "Pick Claude, OpenAI, Gemini, DeepSeek or Grok. The FAQ also lists Azure and custom endpoints.", icon: "brain" },
+          { title: "Bring Your Own Key", body: "Use your own AI provider key instead of relying on a shared one.", icon: "key" },
+          { title: "Confidence Per Field", body: "Each extracted field carries a confidence score so you know what to double-check.", icon: "eye" },
+          { title: "Review Before Save", body: "Nothing is written to your contacts until you have reviewed the result.", icon: "check" },
+          { title: "Key Pool With Failover", body: "Add several keys to a pool so scanning can fail over when one key has a problem.", icon: "layers" },
+          { title: "Google Maps Address Check", body: "Addresses read from a card are checked against Google Maps.", icon: "map" },
         ],
       },
       {
         type: "prose",
-        heading: "Why model choice matters",
+        heading: "Why Model Choice Matters",
         paragraphs: [
           "Visiting cards vary enormously: glossy finishes, small fonts, logos that overlap text, two languages on one side. Different AI models handle these differently, and the costs of each provider differ too. Rather than locking you into one engine, eCard lets you decide which model reads your cards.",
           "Because you can bring your own key, the usage relationship with the AI provider is yours. eCard encrypts stored API keys with AES-256-GCM, the same protection it applies to SMTP passwords.",
@@ -39,17 +39,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "From card to contact",
+        heading: "From Card To Contact",
         steps: [
           { title: "Capture", body: "Photograph the card in any phone browser, or send the photo to the eCard Telegram bot." },
           { title: "Read", body: "Your chosen AI model extracts the fields and assigns each one a confidence score." },
           { title: "Review", body: "Check low-confidence fields and correct anything the model misread." },
-          { title: "Save and follow up", body: "Save the contact, then send an intro email from your own mailbox or a WhatsApp message." },
+          { title: "Save And Follow Up", body: "Save the contact, then send an intro email from your own mailbox or a WhatsApp message." },
         ],
       },
       {
         type: "table",
-        heading: "Monthly scans by plan",
+        heading: "Monthly Scans By Plan",
         intro: "AI scanning is included on every plan. Prices are monthly, in INR.",
         headers: ["Plan", "Price", "Scans per month"],
         rows: [
@@ -63,7 +63,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Start without a card",
+        title: "Start Without A Card",
         body: "The Free plan includes 50 scans, and new workspaces get a 14-day Professional trial with no card required.",
       },
     ],
@@ -81,7 +81,7 @@ export const pages: PageDef[] = [
     title: "How Scanning Works",
     seoTitle: "How eCard AI Card Scanning Works",
     description: "A plain walkthrough of eCard scanning: capture a card photo, let your chosen AI model read it, review confidence scores, then save the contact.",
-    h1: "What happens between the photo and the saved contact",
+    h1: "What Happens Between The Photo And The Saved Contact",
     eyebrow: "AI Card Scanning",
     intro: "Scanning in eCard is a short pipeline: a photo goes in, an AI model reads it, you review the result, and only then does a contact exist. Here is each stage and what you control.",
     variant: "guide",
@@ -90,17 +90,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "The four stages",
+        heading: "The Four Stages",
         steps: [
-          { title: "1. Capture the image", body: "Take a photo in your phone browser — eCard has no app to install — or send the photo to the eCard Telegram bot." },
-          { title: "2. The model reads the card", body: "The image goes to the AI model you selected: Claude, OpenAI, Gemini, DeepSeek or Grok, or Azure or a custom endpoint as listed in the FAQ." },
-          { title: "3. Fields are scored", body: "Each extracted field gets a confidence score so you can see which values the model was less sure about." },
-          { title: "4. You review, then save", body: "Nothing is saved until you have reviewed it. Addresses are also checked against Google Maps." },
+          { title: "1. Capture The Image", body: "Take a photo in your phone browser, eCard has no app to install, or send the photo to the eCard Telegram bot." },
+          { title: "2. The Model Reads The Card", body: "The image goes to the AI model you selected: Claude, OpenAI, Gemini, DeepSeek or Grok, or Azure or a custom endpoint as listed in the FAQ." },
+          { title: "3. Fields Are Scored", body: "Each extracted field gets a confidence score so you can see which values the model was less sure about." },
+          { title: "4. You Review, Then Save", body: "Nothing is saved until you have reviewed it. Addresses are also checked against Google Maps." },
         ],
       },
       {
         type: "split",
-        heading: "Why the review step exists",
+        heading: "Why The Review Step Exists",
         body: [
           "AI models are very good at reading printed text, but cards are designed for people, not machines. Stylised fonts, phone numbers split across lines or a name printed in two scripts can all trip a model up.",
           "A review step means one quick glance catches the occasional mistake before it reaches your contacts, your follow-up emails and your team.",
@@ -113,7 +113,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Where your key fits in",
+        heading: "Where Your Key Fits In",
         paragraphs: [
           "eCard lets you bring your own AI key. You can also add several keys to a key pool; if one fails, scanning fails over to another. Stored API keys are encrypted with AES-256-GCM.",
           "eCard’s site does not publish the internal details of how images are sent to each provider. If that matters for your organisation, review your AI provider’s own data terms alongside eCard’s.",
@@ -122,7 +122,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "After the save",
+        title: "After The Save",
         body: "Once saved, a contact can receive an AI-drafted intro email that sends after 5 seconds from your own SMTP, with time to edit or cancel. You can also open a WhatsApp message in English, Hindi or Marathi in one tap.",
       },
     ],
@@ -137,9 +137,9 @@ export const pages: PageDef[] = [
     slug: `${B}/front-and-back`,
     category: "scanning",
     title: "Front & Back Scanning",
-    seoTitle: "Scanning Both Sides of a Visiting Card",
+    seoTitle: "Scanning Both Sides Of A Visiting Card",
     description: "Many visiting cards carry details on both sides. Practical guidance for capturing double-sided cards so no phone number or address gets missed.",
-    h1: "Don’t lose the details printed on the back",
+    h1: "Don’t Lose The Details Printed On The Back",
     eyebrow: "AI Card Scanning",
     intro: "Plenty of cards print a second language, a branch address or a WhatsApp number on the reverse. This page offers general guidance for handling double-sided cards when you scan.",
     variant: "guide",
@@ -149,12 +149,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "What eCard documents",
+        title: "What eCard Documents",
         body: "eCard’s public site describes scanning a card photo with your chosen AI model and reviewing each field before saving. It does not document a dedicated two-sided capture mode. Check the scan screen in the app for current options.",
       },
       {
         type: "bullets",
-        heading: "What typically lives on the back",
+        heading: "What Typically Lives On The Back",
         items: [
           "The same details in a regional language, such as Hindi or Marathi",
           "Additional office or factory addresses",
@@ -165,20 +165,20 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A practical approach",
+        heading: "A Practical Approach",
         steps: [
-          { title: "Scan the side with the most contact detail", body: "Usually the front holds name, title, phone and email. Let the AI read that first." },
-          { title: "Check the back before you save", body: "Look for numbers or addresses that are not in the extracted fields." },
-          { title: "Add missing details during review", body: "Because nothing is saved until you review it, you can type in anything the photo didn’t include." },
-          { title: "Capture handwritten notes in context", body: "If someone scribbled a number on the card, record why — eCard’s meeting memory supports notes and voice notes." },
+          { title: "Scan The Side With The Most Contact Detail", body: "Usually the front holds name, title, phone and email. Let the AI read that first." },
+          { title: "Check The Back Before You Save", body: "Look for numbers or addresses that are not in the extracted fields." },
+          { title: "Add Missing Details During Review", body: "Because nothing is saved until you review it, you can type in anything the photo didn’t include." },
+          { title: "Capture Handwritten Notes In Context", body: "If someone scribbled a number on the card, record why. ECard’s meeting memory supports notes and voice notes." },
         ],
       },
       {
         type: "prose",
-        heading: "Bilingual cards",
+        heading: "Bilingual Cards",
         paragraphs: [
           "Cards printed in English on one side and a regional script on the other are common in India. Usually the English side is enough for a contact record, but the regional side can confirm spellings of names.",
-          "If you plan to follow up on WhatsApp in Hindi or Marathi — two of the three languages eCard supports — the regional side may also hint at the contact’s preferred language.",
+          "If you plan to follow up on WhatsApp in Hindi or Marathi, two of the three languages eCard supports, the regional side may also hint at the contact’s preferred language.",
         ],
       },
     ],
@@ -193,9 +193,9 @@ export const pages: PageDef[] = [
     slug: `${B}/contact-extraction`,
     category: "scanning",
     title: "Contact Extraction",
-    seoTitle: "Contact Extraction from Visiting Cards",
+    seoTitle: "Contact Extraction From Visiting Cards",
     description: "How eCard turns a card photo into contact fields, why each field carries a confidence score, and how address checks with Google Maps help.",
-    h1: "Turning printed cards into structured contact fields",
+    h1: "Turning Printed Cards Into Structured Contact Fields",
     eyebrow: "AI Card Scanning",
     intro: "Extraction is the step where an AI model reads the card and splits its text into fields like name, company and phone. eCard pairs every extracted field with a confidence score.",
     variant: "feature",
@@ -204,15 +204,15 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "From pixels to fields",
+        heading: "From Pixels To Fields",
         paragraphs: [
-          "A visiting card has no labels. Nothing says “this line is a job title”. The AI model has to infer structure from layout, font size and conventions — that the large text is probably a name, that a string with @ is an email, that +91 starts a phone number.",
+          "A visiting card has no labels. Nothing says “this line is a job title”. The AI model has to infer structure from layout, font size and conventions: that the large text is probably a name, that a string with @ is an email, that +91 starts a phone number.",
           "eCard uses the model you choose for this work: Claude, OpenAI, Gemini, DeepSeek or Grok, with Azure and custom endpoints also named in the FAQ.",
         ],
       },
       {
         type: "table",
-        heading: "Sample extraction",
+        heading: "Sample Extraction",
         intro: "Sample, fictional data for illustration only. Scores shown are illustrative, not real output.",
         headers: ["Field", "Sample value", "Sample confidence"],
         rows: [
@@ -220,27 +220,27 @@ export const pages: PageDef[] = [
           ["Title", "Realtor", "High"],
           ["Company", "Sample Homes Pvt Ltd", "Medium"],
           ["Phone", "+91 90000 00000", "High"],
-          ["Address", "Sample Road, Pune", "Medium — checked against Google Maps"],
+          ["Address", "Sample Road, Pune", "Medium, checked against Google Maps"],
         ],
       },
       {
         type: "cards",
-        heading: "Safeguards around extraction",
+        heading: "Safeguards Around Extraction",
         cards: [
-          { title: "Confidence scores", body: "Every field shows how sure the model is.", icon: "eye" },
-          { title: "Review gate", body: "Nothing is saved until you review it.", icon: "check" },
-          { title: "Address check", body: "Addresses are checked against Google Maps.", icon: "map" },
+          { title: "Confidence Scores", body: "Every field shows how sure the model is.", icon: "eye" },
+          { title: "Review Gate", body: "Nothing is saved until you review it.", icon: "check" },
+          { title: "Address Check", body: "Addresses are checked against Google Maps.", icon: "map" },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Field list",
+        title: "Field List",
         body: "eCard’s public site does not publish a complete list of extracted fields. The Extracted Field Reference page covers common card fields as general guidance.",
       },
     ],
     faqs: [
-      { q: "Can I edit extracted fields?", a: "Yes — you review the result before saving, which is when corrections are made." },
+      { q: "Can I edit extracted fields?", a: "Yes: you review the result before saving, which is when corrections are made." },
       { q: "Does eCard verify phone numbers?", a: "eCard’s site mentions address checks against Google Maps. It does not state any phone verification." },
     ],
     related: [`${B}/field-reference`, `${B}/confidence-scores`, `${B}/address-verification`, `${B}/accuracy-and-review`],
@@ -250,9 +250,9 @@ export const pages: PageDef[] = [
     slug: `${B}/ai-model-selection`,
     category: "scanning",
     title: "AI Model Selection",
-    seoTitle: "Pick Claude, OpenAI, Gemini, DeepSeek or Grok",
+    seoTitle: "Pick Claude, OpenAI, Gemini, DeepSeek Or Grok",
     description: "eCard lets you choose the AI model that reads your visiting cards: Claude, OpenAI, Gemini, DeepSeek, Grok, plus Azure or a custom endpoint.",
-    h1: "Your cards, read by the model you trust",
+    h1: "Your Cards, Read By The Model You Trust",
     eyebrow: "AI Card Scanning",
     intro: "Instead of a single built-in engine, eCard lets you choose which AI model reads your cards. The homepage counts 7 AI models across the options it lists.",
     variant: "feature",
@@ -261,7 +261,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Options named by eCard",
+        heading: "Options Named By eCard",
         cards: [
           { title: "Claude", body: "Anthropic’s models.", icon: "sparkles" },
           { title: "OpenAI", body: "OpenAI’s models.", icon: "sparkles" },
@@ -269,21 +269,21 @@ export const pages: PageDef[] = [
           { title: "DeepSeek", body: "Named in eCard’s FAQ.", icon: "sparkles" },
           { title: "Grok", body: "xAI’s models.", icon: "sparkles" },
           { title: "Azure", body: "Named in eCard’s FAQ.", icon: "server" },
-          { title: "Custom endpoint", body: "Named in eCard’s FAQ for other compatible providers.", icon: "link" },
+          { title: "Custom Endpoint", body: "Named in eCard’s FAQ for other compatible providers.", icon: "link" },
         ],
       },
       {
         type: "split",
-        heading: "Why not just one model?",
+        heading: "Why Not Just One Model?",
         body: [
-          "Teams already have relationships with AI providers — an existing contract, a preferred region, or a policy about where data can go. Model choice lets eCard fit those constraints.",
+          "Teams already have relationships with AI providers: an existing contract, a preferred region, or a policy about where data can go. Model choice lets eCard fit those constraints.",
           "Pricing and performance also shift over time. Being able to switch keeps you in control.",
         ],
         points: ["Use a provider you already pay for", "Bring your own key", "Pool keys for failover"],
       },
       {
         type: "prose",
-        heading: "What eCard does not specify",
+        heading: "What eCard Does Not Specify",
         paragraphs: [
           "eCard’s site does not name specific model versions or publish accuracy benchmarks per provider. Which exact versions are offered may change; check the model picker in the app.",
           "The Choosing a Model page offers general criteria for deciding between providers.",
@@ -292,7 +292,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Every result is reviewed anyway",
+        title: "Every Result Is Reviewed Anyway",
         body: "Whichever model you pick, each field gets a confidence score and nothing is saved until you review it.",
       },
     ],
@@ -306,19 +306,19 @@ export const pages: PageDef[] = [
   {
     slug: `${B}/choosing-a-model`,
     category: "scanning",
-    title: "Choosing a Model",
-    seoTitle: "How to Choose an AI Model for Card Scanning",
+    title: "Choosing A Model",
+    seoTitle: "How To Choose An AI Model For Card Scanning",
     description: "General criteria for picking an AI model to read visiting cards: accuracy on your cards, cost per scan, data policies, and existing provider accounts.",
-    h1: "A practical way to choose your scanning model",
+    h1: "A Practical Way To Choose Your Scanning Model",
     eyebrow: "AI Card Scanning",
-    intro: "eCard gives you a choice of AI providers. This guide offers general, vendor-neutral criteria to help you decide — it is advice, not a ranking.",
+    intro: "eCard gives you a choice of AI providers. This guide offers general, vendor-neutral criteria to help you decide: it is advice, not a ranking.",
     variant: "guide",
     visual: "extract",
     icon: "search",
     sections: [
       {
         type: "table",
-        heading: "Criteria to weigh",
+        heading: "Criteria To Weigh",
         headers: ["Criterion", "Question to ask", "How to check"],
         rows: [
           ["Accuracy on your cards", "Does it read the cards you actually collect?", "Scan a sample batch and count corrections"],
@@ -330,17 +330,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Run a simple bake-off",
+        heading: "Run A Simple Bake-off",
         steps: [
-          { title: "Collect 20 real cards", body: "Include hard ones: glossy, tiny fonts, bilingual, dark backgrounds." },
-          { title: "Scan with model A", body: "Note how many fields you correct and which fields show low confidence." },
-          { title: "Repeat with model B", body: "Use the same cards and the same lighting." },
+          { title: "Collect 20 Real Cards", body: "Include hard ones: glossy, tiny fonts, bilingual, dark backgrounds." },
+          { title: "Scan With Model A", body: "Note how many fields you correct and which fields show low confidence." },
+          { title: "Repeat With Model B", body: "Use the same cards and the same lighting." },
           { title: "Compare", body: "Choose the model with fewer corrections at a cost you accept." },
         ],
       },
       {
         type: "prose",
-        heading: "Don’t over-optimise",
+        heading: "Don’t Over-tune",
         paragraphs: [
           "Because eCard asks you to review each scan before saving, small accuracy differences matter less than you might think. A model that saves you one correction per twenty cards is rarely worth a large cost increase.",
           "If your team handles very high volume, a key pool with failover across providers can matter more than picking the single best model.",
@@ -349,7 +349,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No published benchmarks",
+        title: "No Published Benchmarks",
         body: "eCard does not publish accuracy comparisons between providers. Results depend on your cards and on model versions at the time.",
       },
     ],
@@ -364,9 +364,9 @@ export const pages: PageDef[] = [
     slug: `${B}/custom-ai-endpoints`,
     category: "scanning",
     title: "Custom AI Endpoints",
-    seoTitle: "Custom AI Endpoints and Azure for Card Scanning",
+    seoTitle: "Custom AI Endpoints And Azure For Card Scanning",
     description: "eCard’s FAQ lists Azure and custom endpoints alongside named AI providers. What that means, and what to check before connecting your own endpoint.",
-    h1: "Point eCard at Azure or your own AI endpoint",
+    h1: "Point eCard At Azure Or Your Own AI Endpoint",
     eyebrow: "AI Card Scanning",
     intro: "Beyond Claude, OpenAI, Gemini, DeepSeek and Grok, eCard’s FAQ names Azure and custom endpoints as options for reading cards.",
     variant: "integration",
@@ -375,21 +375,21 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Why organisations want a custom endpoint",
+        heading: "Why Organisations Want A Custom Endpoint",
         paragraphs: [
-          "Larger organisations often route AI traffic through a cloud account they control — for example an Azure deployment — so that usage, billing and data handling follow their own policies.",
+          "Larger organisations often route AI traffic through a cloud account they control, for example an Azure deployment, so that usage, billing and data handling follow their own policies.",
           "A custom endpoint option lets eCard fit into that setup rather than requiring a separate provider relationship.",
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Not documented publicly",
+        title: "Not Documented Publicly",
         body: "eCard’s site names custom endpoints but does not document the required request format, authentication or compatible APIs. Confirm details in the app or with eCard before planning a rollout.",
       },
       {
         type: "bullets",
-        heading: "Questions to settle internally first",
+        heading: "Questions To Settle Internally First",
         items: [
           "Which deployment or region should card images go to?",
           "Who owns the key, and who can rotate it?",
@@ -399,7 +399,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "What stays the same",
+        heading: "What Stays The Same",
         cards: [
           { title: "Encryption", body: "Stored API keys are encrypted with AES-256-GCM.", icon: "lock" },
           { title: "Review", body: "Each field still gets a confidence score, and nothing saves without review.", icon: "check" },
@@ -418,27 +418,27 @@ export const pages: PageDef[] = [
     slug: `${B}/confidence-scores`,
     category: "scanning",
     title: "Confidence Scores",
-    seoTitle: "Per-Field Confidence Scores on Card Scans",
+    seoTitle: "Per-Field Confidence Scores On Card Scans",
     description: "Every field eCard extracts from a visiting card gets a confidence score. Learn how to read the scores and where to focus your review time.",
-    h1: "See how sure the AI is — field by field",
+    h1: "See How Sure The AI Is: Field By Field",
     eyebrow: "AI Card Scanning",
-    intro: "eCard attaches a confidence score to each field it extracts. Scores turn review from re-reading the whole card into checking the few values that need attention.",
+    intro: "eCard attaches a confidence score to each field it extracts. Scores turn review from rereading the whole card into checking the few values that need attention.",
     variant: "feature",
     visual: "extract",
     icon: "eye",
     sections: [
       {
         type: "split",
-        heading: "What a score tells you",
+        heading: "What A Score Tells You",
         body: [
           "A confidence score is the model’s signal of how certain it is about a value. A crisp email address printed in a plain font will usually score high. A name in decorative script, or a phone number partly covered by a logo, may score lower.",
-          "Low confidence doesn’t mean wrong — it means look here first.",
+          "Low confidence doesn’t mean wrong. It means look here first.",
         ],
         points: ["Score per field, not per card", "Shown before saving", "Paired with a mandatory review"],
       },
       {
         type: "bullets",
-        heading: "Fields that often deserve a second look",
+        heading: "Fields That Often Deserve A Second Look",
         intro: "General patterns, not eCard statistics.",
         items: [
           "Names with uncommon spellings or initials",
@@ -450,17 +450,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A fast review habit",
+        heading: "A Fast Review Habit",
         steps: [
-          { title: "Scan the low scores", body: "Check every field flagged as less certain." },
-          { title: "Glance at the contact essentials", body: "Even high-confidence phone and email are worth a one-second look." },
+          { title: "Scan The Low Scores", body: "Check every field flagged as less certain." },
+          { title: "Glance At The Contact Essentials", body: "Even high-confidence phone and email are worth a one-second look." },
           { title: "Save", body: "Only then does the contact enter your workspace." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "About the scale",
+        title: "About The Scale",
         body: "eCard’s public site does not publish the exact scoring scale or thresholds. Treat scores as a guide to attention, not a guarantee.",
       },
     ],
@@ -477,7 +477,7 @@ export const pages: PageDef[] = [
     title: "Manual Review",
     seoTitle: "Review Every Scan Before It Is Saved",
     description: "eCard saves nothing until you review it. Why a human review step keeps your contact data clean, and how to make it take seconds, not minutes.",
-    h1: "Nothing is saved until you’ve checked it",
+    h1: "Nothing Is Saved Until You’ve Checked It",
     eyebrow: "AI Card Scanning",
     intro: "eCard puts you between the AI and your contact list. Every scan waits for your review, so mistakes are fixed before they spread to emails, WhatsApp messages and team records.",
     variant: "feature",
@@ -486,31 +486,31 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Why a human checkpoint",
+        heading: "Why A Human Checkpoint",
         paragraphs: [
-          "An intro email to the wrong address, or a WhatsApp message to a mistyped number, is worse than no follow-up at all. Because eCard can draft and send intros quickly — the email sends after 5 seconds from your own SMTP — getting the data right first matters.",
+          "An intro email to the wrong address, or a WhatsApp message to a mistyped number, is worse than no follow-up at all. Because eCard can draft and send intros quickly, the email sends after 5 seconds from your own SMTP, getting the data right first matters.",
           "The review step is where that happens. Confidence scores point you to the fields that need attention.",
         ],
       },
       {
         type: "cards",
-        heading: "What to do during review",
+        heading: "What To Do During Review",
         cards: [
-          { title: "Fix misreads", body: "Correct letters or digits the model got wrong.", icon: "check" },
-          { title: "Add what’s missing", body: "Type in details from the back of the card or handwritten notes.", icon: "file" },
-          { title: "Confirm the address", body: "Addresses are checked against Google Maps.", icon: "map" },
-          { title: "Add context", body: "Note where you met — eCard’s meeting memory keeps it.", icon: "calendar" },
+          { title: "Fix Misreads", body: "Correct letters or digits the model got wrong.", icon: "check" },
+          { title: "Add What’s Missing", body: "Type in details from the back of the card or handwritten notes.", icon: "file" },
+          { title: "Confirm The Address", body: "Addresses are checked against Google Maps.", icon: "map" },
+          { title: "Add Context", body: "Note where you met. ECard’s meeting memory keeps it.", icon: "calendar" },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Review right after the conversation",
+        title: "Review Right After The Conversation",
         body: "Details are freshest in the minutes after you meet someone. Reviewing immediately is also when you’ll remember what to put in the follow-up.",
       },
       {
         type: "bullets",
-        heading: "Signs of a good review habit",
+        heading: "Signs Of A Good Review Habit",
         items: [
           "Fewer duplicates to merge later",
           "Intro emails rarely bounce",
@@ -530,9 +530,9 @@ export const pages: PageDef[] = [
     slug: `${B}/address-verification`,
     category: "scanning",
     title: "Google Maps Address Verification",
-    seoTitle: "Google Maps Address Checks on Scanned Cards",
+    seoTitle: "Google Maps Address Checks On Scanned Cards",
     description: "eCard checks addresses read from visiting cards against Google Maps. Why address quality matters and how to handle partial or outdated addresses.",
-    h1: "Addresses checked against Google Maps",
+    h1: "Addresses Checked Against Google Maps",
     eyebrow: "AI Card Scanning",
     intro: "When a card includes an address, eCard checks it against Google Maps. That helps catch misreads and incomplete addresses before they reach your contact list.",
     variant: "integration",
@@ -541,7 +541,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Why addresses are tricky",
+        heading: "Why Addresses Are Tricky",
         body: [
           "Addresses on visiting cards are often the longest and messiest text: building names, landmarks, floor numbers, PIN codes and abbreviations all squeezed onto a few lines.",
           "Checking against Google Maps gives a second signal beyond the AI model’s own reading.",
@@ -551,25 +551,25 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "What isn’t documented",
+        title: "What Isn’t Documented",
         body: "eCard’s site says addresses are checked against Google Maps. It does not describe how mismatches are displayed or whether addresses are auto-corrected. Review the address field before saving.",
       },
       {
         type: "bullets",
-        heading: "When an address won’t verify",
+        heading: "When An Address Won’t Verify",
         intro: "General guidance:",
         items: [
-          "Check the photo — a fold or glare may have hidden part of the text",
+          "Check the photo, a fold or glare may have hidden part of the text",
           "Industrial estates and new developments may be mapped under a different name",
-          "Some cards show a head office, not where the person actually works — ask",
+          "Some cards show a head office, not where the person actually works, ask",
           "Leave a note rather than guessing",
         ],
       },
       {
         type: "prose",
-        heading: "Where good addresses pay off",
+        heading: "Where Good Addresses Pay Off",
         paragraphs: [
-          "Accurate addresses make natural-language search more useful — for example, finding everyone you met in a particular city. They also support site visits and meeting memory, which records where you met.",
+          "Accurate addresses make natural-language search more useful: for example, finding everyone you met in a particular city. They also support site visits and meeting memory, which records where you met.",
         ],
       },
     ],
@@ -584,9 +584,9 @@ export const pages: PageDef[] = [
     slug: `${B}/key-pool`,
     category: "scanning",
     title: "AI Key Pool",
-    seoTitle: "AI Key Pool with Failover for Card Scanning",
+    seoTitle: "AI Key Pool With Failover For Card Scanning",
     description: "Add several AI keys to an eCard key pool so card scanning keeps working when one key fails. How pools help busy teams and trade-show days.",
-    h1: "More than one key, so scanning keeps going",
+    h1: "More Than One Key, So Scanning Keeps Going",
     eyebrow: "AI Card Scanning",
     intro: "eCard supports a key pool with failover. Instead of relying on a single AI key, you can add several, and scanning can move to another key when one has a problem.",
     variant: "feature",
@@ -595,7 +595,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "The problem a pool solves",
+        heading: "The Problem A Pool Solves",
         paragraphs: [
           "A single API key is a single point of failure. Keys can hit provider rate limits, run out of credit or be revoked. On a quiet day that is an inconvenience; at an expo with a queue at your booth, it stops the team.",
           "A pool gives eCard alternatives to try.",
@@ -603,21 +603,21 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Ways teams use a pool",
+        heading: "Ways Teams Use A Pool",
         intro: "General patterns; set them up to suit your own accounts.",
         cards: [
-          { title: "Same provider, several keys", body: "Spread load across keys in one provider account.", icon: "key" },
-          { title: "Mixed providers", body: "Keep a second provider ready in case the first is unavailable.", icon: "layers" },
-          { title: "Event surge", body: "Add a key ahead of a big show, remove it after.", icon: "calendar" },
+          { title: "Same Provider, Several Keys", body: "Spread load across keys in one provider account.", icon: "key" },
+          { title: "Mixed Providers", body: "Keep a second provider ready in case the first is unavailable.", icon: "layers" },
+          { title: "Event Surge", body: "Add a key ahead of a big show, remove it after.", icon: "calendar" },
         ],
       },
       {
         type: "steps",
-        heading: "Setting up a sensible pool",
+        heading: "Setting Up A Sensible Pool",
         steps: [
-          { title: "Start with your main key", body: "Bring your own key from the provider you use most." },
-          { title: "Add a backup", body: "Add a second key, ideally with separate limits." },
-          { title: "Watch for failovers", body: "If failovers happen often, review limits with your provider." },
+          { title: "Start With Your Main Key", body: "Bring your own key from the provider you use most." },
+          { title: "Add A Backup", body: "Add a second key, ideally with separate limits." },
+          { title: "Watch For Failovers", body: "If failovers happen often, review limits with your provider." },
         ],
       },
       {
@@ -638,9 +638,9 @@ export const pages: PageDef[] = [
     slug: `${B}/key-rotation-failover`,
     category: "scanning",
     title: "Key Rotation & Failover",
-    seoTitle: "Rotating AI Keys and Failover in eCard",
+    seoTitle: "Rotating AI Keys And Failover In eCard",
     description: "Rotate AI provider keys safely without interrupting card scanning. General key-rotation practice plus how eCard’s key pool failover helps.",
-    h1: "Rotate keys without stopping the scanner",
+    h1: "Rotate Keys Without Stopping The Scanner",
     eyebrow: "AI Card Scanning",
     intro: "Rotating API keys regularly is good security hygiene. With eCard’s key pool and failover, you can replace a key while another one keeps scanning running.",
     variant: "guide",
@@ -649,26 +649,26 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Why rotate at all",
+        heading: "Why Rotate At All",
         paragraphs: [
           "Keys leak: they get pasted into chat, saved in old scripts or left with people who changed roles. Rotation limits how long a leaked key stays useful. Many security teams rotate on a schedule and immediately after anyone with access leaves.",
         ],
       },
       {
         type: "steps",
-        heading: "A no-downtime rotation",
+        heading: "A No-downtime Rotation",
         intro: "General practice adapted to a pool with failover.",
         steps: [
-          { title: "Create a new key at your provider", body: "Don’t revoke the old one yet." },
-          { title: "Add it to the eCard key pool", body: "Now two keys are available." },
-          { title: "Remove the old key from eCard", body: "Scanning continues on the new key." },
-          { title: "Revoke the old key at the provider", body: "Close the loop so the old key is useless." },
-          { title: "Check the audit log", body: "eCard workspaces keep an audit log you can review." },
+          { title: "Create A New Key At Your Provider", body: "Don’t revoke the old one yet." },
+          { title: "Add It To The eCard Key Pool", body: "Now two keys are available." },
+          { title: "Remove The Old Key From eCard", body: "Scanning continues on the new key." },
+          { title: "Revoke The Old Key At The Provider", body: "Close the loop so the old key is useless." },
+          { title: "Check The Audit Log", body: "eCard workspaces keep an audit log you can review." },
         ],
       },
       {
         type: "table",
-        heading: "Failover vs rotation",
+        heading: "Failover Vs Rotation",
         headers: ["", "Failover", "Rotation"],
         rows: [
           ["Trigger", "A key stops working", "Your schedule or a security event"],
@@ -679,7 +679,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Limit who handles keys",
+        title: "Limit Who Handles Keys",
         body: "eCard has owner, admin, manager, member and scan-only guest roles. Keep key management with the smallest group practical.",
       },
     ],
@@ -696,7 +696,7 @@ export const pages: PageDef[] = [
     title: "Handling Rate Limits",
     seoTitle: "Handling AI Rate Limits During Busy Scanning",
     description: "AI providers cap how many requests a key can make. How rate limits affect card scanning at events and how a key pool with failover helps.",
-    h1: "Keep scanning when your AI provider says slow down",
+    h1: "Keep Scanning When Your AI Provider Says Slow Down",
     eyebrow: "AI Card Scanning",
     intro: "Every AI provider limits how many requests a key can make in a period. During a busy event, a team scanning together can reach that limit. Here is how to plan for it.",
     variant: "guide",
@@ -705,7 +705,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "What a rate limit is",
+        heading: "What A Rate Limit Is",
         paragraphs: [
           "Rate limits are set by your AI provider, not by eCard. They usually cap requests per minute or tokens per minute, and new or low-tier accounts often have lower limits.",
           "These are separate from eCard’s monthly scan allowance per plan (50 on Free, 1,000 on Starter, 5,000 on Professional, unlimited on Business and Enterprise).",
@@ -713,7 +713,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Signs you’re hitting limits",
+        heading: "Signs You’re Hitting Limits",
         items: [
           "Scans that are fine individually slow down when many people scan at once",
           "Errors cluster at the busiest hour of an event",
@@ -722,11 +722,11 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Ways to stay ahead",
+        heading: "Ways To Stay Ahead",
         cards: [
-          { title: "Use a key pool", body: "eCard supports a pool with failover across keys.", icon: "layers" },
-          { title: "Raise your tier", body: "Ask your provider about higher limits before a big show.", icon: "zap" },
-          { title: "Spread the work", body: "Batch-scan quieter moments rather than all at closing time.", icon: "clock" },
+          { title: "Use A Key Pool", body: "eCard supports a pool with failover across keys.", icon: "layers" },
+          { title: "Raise Your Tier", body: "Ask your provider about higher limits before a big show.", icon: "zap" },
+          { title: "Spread The Work", body: "Batch-scan quieter moments rather than all at closing time.", icon: "clock" },
         ],
       },
       {
@@ -747,9 +747,9 @@ export const pages: PageDef[] = [
     slug: `${B}/bring-your-own-key`,
     category: "scanning",
     title: "Bring Your Own Key",
-    seoTitle: "Bring Your Own AI Key to eCard",
+    seoTitle: "Bring Your Own AI Key To eCard",
     description: "Use your own Claude, OpenAI, Gemini, DeepSeek or Grok key to scan cards in eCard. Keys are encrypted with AES-256-GCM and can be pooled.",
-    h1: "Use the AI account you already have",
+    h1: "Use The AI Account You Already Have",
     eyebrow: "AI Card Scanning",
     intro: "eCard lets you bring your own key for the AI model that reads your cards. Your usage and provider terms stay under your own account.",
     variant: "feature",
@@ -758,7 +758,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "What bringing your own key gives you",
+        heading: "What Bringing Your Own Key Gives You",
         body: [
           "With your own key, the relationship with the AI provider is yours: you see the usage, you choose the tier and you can revoke access at any time.",
           "It also lets eCard work with providers your organisation has already approved.",
@@ -767,27 +767,27 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Getting started",
+        heading: "Getting Started",
         steps: [
-          { title: "Pick a provider", body: "Claude, OpenAI, Gemini, DeepSeek or Grok, or Azure or a custom endpoint per the FAQ." },
-          { title: "Create a key at the provider", body: "Give it a clear name, such as “eCard scanning”." },
-          { title: "Add it in eCard", body: "Enter the key in your workspace’s AI settings." },
-          { title: "Scan a test card", body: "Confirm the result and confidence scores look right." },
+          { title: "Pick A Provider", body: "Claude, OpenAI, Gemini, DeepSeek or Grok, or Azure or a custom endpoint per the FAQ." },
+          { title: "Create A Key At The Provider", body: "Give it a clear name, such as “eCard scanning”." },
+          { title: "Add It In eCard", body: "Enter the key in your workspace’s AI settings." },
+          { title: "Scan A Test Card", body: "Confirm the result and confidence scores look right." },
         ],
       },
       {
         type: "cards",
-        heading: "How the key is protected",
+        heading: "How The Key Is Protected",
         cards: [
           { title: "AES-256-GCM", body: "eCard encrypts API keys and SMTP passwords at rest.", icon: "lock" },
           { title: "2FA", body: "Authenticator-code 2FA protects accounts.", icon: "shield" },
-          { title: "Audit log", body: "Workspaces keep an audit log.", icon: "file" },
+          { title: "Audit Log", body: "Workspaces keep an audit log.", icon: "file" },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Provider charges",
+        title: "Provider Charges",
         body: "Using your own key means your AI provider may bill you for usage under its own pricing. eCard plan prices are separate.",
       },
     ],
@@ -802,26 +802,26 @@ export const pages: PageDef[] = [
     slug: `${B}/key-encryption`,
     category: "scanning",
     title: "Key Encryption",
-    seoTitle: "AES-256-GCM Encryption for Your AI Keys",
+    seoTitle: "AES-256-GCM Encryption For Your AI Keys",
     description: "eCard encrypts AI API keys and SMTP passwords with AES-256-GCM. What that means in plain terms, plus habits that keep your keys safe.",
-    h1: "Your AI keys, encrypted with AES-256-GCM",
+    h1: "Your AI Keys, Encrypted With AES-256-GCM",
     eyebrow: "AI Card Scanning",
-    intro: "eCard stores API keys and SMTP passwords encrypted with AES-256-GCM — the “256-bit key encryption” mentioned on the homepage.",
+    intro: "eCard stores API keys and SMTP passwords encrypted with AES-256-GCM, the “256-bit key encryption” mentioned on the homepage.",
     variant: "feature",
     visual: "security",
     icon: "lock",
     sections: [
       {
         type: "prose",
-        heading: "AES-256-GCM in plain terms",
+        heading: "AES-256-GCM In Plain Terms",
         paragraphs: [
-          "AES is a widely used encryption standard. The 256 refers to the length of the encryption key in bits. GCM is a mode that both encrypts data and detects tampering — if the stored value is altered, decryption fails rather than producing garbage.",
+          "AES is a widely used encryption standard. The 256 refers to the length of the encryption key in bits. GCM is a mode that both encrypts data and detects tampering: if the stored value is altered, decryption fails rather than producing garbage.",
           "In practice, it means the secrets you give eCard are not stored as readable text.",
         ],
       },
       {
         type: "table",
-        heading: "What eCard says it encrypts",
+        heading: "What eCard Says It Encrypts",
         headers: ["Secret", "Protection"],
         rows: [
           ["AI provider API keys", "AES-256-GCM"],
@@ -830,7 +830,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Your side of the bargain",
+        heading: "Your Side Of The Bargain",
         intro: "Encryption at rest is one layer. General habits that help:",
         items: [
           "Turn on 2FA with an authenticator app",
@@ -857,10 +857,10 @@ export const pages: PageDef[] = [
   {
     slug: `${B}/scan-limits-by-plan`,
     category: "scanning",
-    title: "Scan Limits by Plan",
-    seoTitle: "eCard Monthly Scan Limits by Plan",
+    title: "Scan Limits By Plan",
+    seoTitle: "eCard Monthly Scan Limits By Plan",
     description: "How many cards you can scan each month on eCard: 50 on Free, 1,000 on Starter, 5,000 on Professional and unlimited on Business and Enterprise.",
-    h1: "How many cards each plan can scan",
+    h1: "How Many Cards Each Plan Can Scan",
     eyebrow: "AI Card Scanning",
     intro: "AI scanning is part of every eCard plan. What changes between plans is how many scans you get each month, along with users and storage.",
     variant: "reference",
@@ -869,7 +869,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Plans at a glance",
+        heading: "Plans At A Glance",
         intro: "Monthly prices in INR. GST applies where applicable.",
         headers: ["Plan", "Price / month", "Scans / month", "Users", "Storage"],
         rows: [
@@ -882,7 +882,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Estimating what you need",
+        heading: "Estimating What You Need",
         paragraphs: [
           "Count roughly how many cards you and your team collect in a typical month, then add your biggest event. Someone attending one networking meetup a week may stay within 50 scans; a team working several expos a quarter will likely need Starter or Professional.",
           "Remember this is eCard’s allowance. If you bring your own AI key, your provider may also bill for usage.",
@@ -891,12 +891,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Try Professional free",
+        title: "Try Professional Free",
         body: "New workspaces get a 14-day Professional trial with no card needed, which includes 5,000 scans a month.",
       },
       {
         type: "bullets",
-        heading: "Also included on every plan",
+        heading: "Also Included On Every Plan",
         items: [
           "Contacts, tags and events",
           "Bulk import and export",
@@ -919,9 +919,9 @@ export const pages: PageDef[] = [
     slug: `${B}/scan-quality-tips`,
     category: "scanning",
     title: "Scan Quality Tips",
-    seoTitle: "Tips for Better Visiting Card Scans",
+    seoTitle: "Tips For Better Visiting Card Scans",
     description: "Simple habits that improve AI reading of visiting cards: lighting, framing, glare, focus and handling glossy, dark or embossed cards.",
-    h1: "Small habits, cleaner scans",
+    h1: "Small Habits, Cleaner Scans",
     eyebrow: "AI Card Scanning",
     intro: "The AI does the reading, but the photo is up to you. These general tips reduce corrections and keep confidence scores high.",
     variant: "guide",
@@ -930,18 +930,18 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "The five big ones",
+        heading: "The Five Big Ones",
         cards: [
-          { title: "Light evenly", body: "Diffuse daylight beats a single overhead lamp.", icon: "sparkles" },
-          { title: "Kill the glare", body: "Tilt the card slightly to move reflections off text.", icon: "eye" },
-          { title: "Fill the frame", body: "Get close so the card takes up most of the photo.", icon: "scan" },
-          { title: "Hold steady", body: "Rest your elbows; blur is the commonest problem.", icon: "smartphone" },
-          { title: "Contrast background", body: "A dark table for a white card, and vice versa.", icon: "layers" },
+          { title: "Light Evenly", body: "Diffuse daylight beats a single overhead lamp.", icon: "sparkles" },
+          { title: "Kill The Glare", body: "Tilt the card slightly to move reflections off text.", icon: "eye" },
+          { title: "Fill The Frame", body: "Get close so the card takes up most of the photo.", icon: "scan" },
+          { title: "Hold Steady", body: "Rest your elbows; blur is the commonest problem.", icon: "smartphone" },
+          { title: "Contrast Background", body: "A dark table for a white card, and vice versa.", icon: "layers" },
         ],
       },
       {
         type: "table",
-        heading: "Tricky cards and fixes",
+        heading: "Tricky Cards And Fixes",
         headers: ["Card type", "Problem", "Try"],
         rows: [
           ["Glossy or laminated", "Reflections", "Angle the card, avoid direct light"],
@@ -953,20 +953,20 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Let the scores guide you",
+        heading: "Let The Scores Guide You",
         paragraphs: [
-          "If the same field keeps getting low confidence across many cards, the issue is often your setup rather than the AI. Change one thing — lighting, distance or background — and compare.",
+          "If the same field keeps getting low confidence across many cards, the issue is often your setup rather than the AI. Change one thing (lighting, distance or background) and compare.",
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Busy event?",
+        title: "Busy Event?",
         body: "Snap the photo in Telegram right after the conversation and review later. eCard’s Telegram bot saves the contact and shows Open and Send buttons.",
       },
     ],
     faqs: [
-      { q: "Does flash help?", a: "Often not on glossy cards — it creates glare. Try even ambient light first." },
+      { q: "Does flash help?", a: "Often not on glossy cards, it creates glare. Try even ambient light first." },
       { q: "Should I crop the photo?", a: "Filling the frame when you shoot is usually enough." },
     ],
     related: [`${B}/photo-best-practices`, `${B}/confidence-scores`, `${B}/unusual-card-layouts`, "mobile/scan-from-your-phone"],
@@ -976,9 +976,9 @@ export const pages: PageDef[] = [
     slug: `${B}/photo-best-practices`,
     category: "scanning",
     title: "Photo Best Practices",
-    seoTitle: "Photographing Visiting Cards on Your Phone",
+    seoTitle: "Photographing Visiting Cards On Your Phone",
     description: "Phone camera settings and shooting technique for visiting cards: focus, distance, orientation and what to avoid when scanning in a browser.",
-    h1: "Get the photo right with the phone you already carry",
+    h1: "Get The Photo Right With The Phone You Already Carry",
     eyebrow: "AI Card Scanning",
     intro: "eCard works in any phone browser and through Telegram, so your phone camera is the scanner. A few camera habits make a real difference.",
     variant: "guide",
@@ -987,20 +987,20 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "A ten-second routine",
+        heading: "A Ten-second Routine",
         steps: [
-          { title: "Clean the lens", body: "Phones live in pockets; a smudge softens every photo." },
-          { title: "Place the card flat", body: "A table, a notebook, even your palm in a pinch." },
-          { title: "Shoot from directly above", body: "Angled shots stretch text and confuse layouts." },
-          { title: "Tap to focus on the name", body: "Wait for focus to lock before shooting." },
-          { title: "Check before sending", body: "Zoom in — if you can read the phone number, so can the model." },
+          { title: "Clean The Lens", body: "Phones live in pockets; a smudge softens every photo." },
+          { title: "Place The Card Flat", body: "A table, a notebook, even your palm in a pinch." },
+          { title: "Shoot From Directly Above", body: "Angled shots stretch text and confuse layouts." },
+          { title: "Tap To Focus On The Name", body: "Wait for focus to lock before shooting." },
+          { title: "Check Before Sending", body: "Zoom in: if you can read the phone number, so can the model." },
         ],
       },
       {
         type: "bullets",
-        heading: "Things to avoid",
+        heading: "Things To Avoid",
         items: [
-          "Digital zoom from far away — move closer instead",
+          "Digital zoom from far away, move closer instead",
           "Your own shadow across the card",
           "Fingers over the corners where emails often sit",
           "Beauty or portrait modes that smooth detail",
@@ -1018,7 +1018,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "No app required",
+        title: "No App Required",
         body: "eCard runs in the phone browser, and you can also send photos to the eCard Telegram bot.",
       },
     ],
@@ -1034,8 +1034,8 @@ export const pages: PageDef[] = [
     category: "scanning",
     title: "Extracted Field Reference",
     seoTitle: "Common Visiting Card Fields Reference",
-    description: "A reference to the fields commonly printed on visiting cards — name, title, company, phone, email, address — and what to check for each.",
-    h1: "The fields a visiting card usually carries",
+    description: "A reference to the fields commonly printed on visiting cards (name, title, company, phone, email, address) and what to check for each.",
+    h1: "The Fields A Visiting Card Usually Carries",
     eyebrow: "AI Card Scanning",
     intro: "This reference lists fields commonly found on visiting cards and what to check during review. It is general guidance; eCard’s site does not publish a definitive field list.",
     variant: "reference",
@@ -1045,12 +1045,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Guidance, not a spec",
+        title: "Guidance, Not A Spec",
         body: "Use this as a checklist for review. The exact fields shown in eCard may differ; check the scan review screen in the app.",
       },
       {
         type: "table",
-        heading: "Common fields and review checks",
+        heading: "Common Fields And Review Checks",
         headers: ["Field", "Typical look", "Check for"],
         rows: [
           ["Name", "Largest text", "Spelling, initials, honorifics"],
@@ -1065,7 +1065,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Details cards often hide",
+        heading: "Details Cards Often Hide",
         items: [
           "A second mobile number marked WhatsApp",
           "GSTIN or registration numbers on business cards in India",
@@ -1075,7 +1075,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why tidy fields matter later",
+        heading: "Why Tidy Fields Matter Later",
         paragraphs: [
           "Clean fields feed everything downstream: natural-language search such as “Investors I met in Mumbai last month”, duplicate merge, CSV export and Google Contacts sync on Starter and above.",
         ],
@@ -1092,9 +1092,9 @@ export const pages: PageDef[] = [
     slug: `${B}/accuracy-and-review`,
     category: "scanning",
     title: "Accuracy & Review",
-    seoTitle: "AI Scan Accuracy and Why Review Matters",
+    seoTitle: "AI Scan Accuracy And Why Review Matters",
     description: "No AI reads every card perfectly. How eCard combines confidence scores, Google Maps address checks and human review to keep contact data accurate.",
-    h1: "Accuracy is a process, not a promise",
+    h1: "Accuracy Is A Process, Not A Promise",
     eyebrow: "AI Card Scanning",
     intro: "eCard doesn’t claim perfect reading. Instead it gives you three layers: per-field confidence scores, a Google Maps address check and a review step before anything is saved.",
     variant: "feature",
@@ -1103,40 +1103,40 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Three layers of accuracy",
+        heading: "Three Layers Of Accuracy",
         cards: [
-          { title: "Confidence scores", body: "Each field shows how certain the model is.", icon: "eye" },
-          { title: "Address check", body: "Addresses are checked against Google Maps.", icon: "map" },
-          { title: "Human review", body: "Nothing saves until you review it.", icon: "check" },
+          { title: "Confidence Scores", body: "Each field shows how certain the model is.", icon: "eye" },
+          { title: "Address Check", body: "Addresses are checked against Google Maps.", icon: "map" },
+          { title: "Human Review", body: "Nothing saves until you review it.", icon: "check" },
         ],
       },
       {
         type: "prose",
-        heading: "Where errors come from",
+        heading: "Where Errors Come From",
         paragraphs: [
-          "Most misreads trace back to the photo (blur, glare, a cropped edge) or to the card design (script fonts, low contrast, crowded layouts). A smaller share come from genuine ambiguity — is “Raj K.” a first name and initial, or a nickname?",
+          "Most misreads trace back to the photo (blur, glare, a cropped edge) or to the card design (script fonts, low contrast, crowded layouts). A smaller share come from genuine ambiguity: is “Raj K.” a first name and initial, or a nickname?",
           "Better photos fix the first group; review fixes the rest.",
         ],
       },
       {
         type: "steps",
-        heading: "Measure your own accuracy",
+        heading: "Measure Your Own Accuracy",
         intro: "eCard publishes no accuracy figures, so measure on your cards:",
         steps: [
-          { title: "Track corrections", body: "For a week, note how many fields you change per card." },
-          { title: "Find patterns", body: "Is it always phone numbers? Always one card style?" },
+          { title: "Track Corrections", body: "For a week, note how many fields you change per card." },
+          { title: "Find Patterns", body: "Is it always phone numbers? Always one card style?" },
           { title: "Adjust", body: "Improve photos, try another model, or add a key to your pool." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "No accuracy claims",
+        title: "No Accuracy Claims",
         body: "eCard’s site does not state an accuracy percentage. Be wary of any figure not tested on your own cards.",
       },
     ],
     faqs: [
-      { q: "How accurate is eCard?", a: "eCard does not publish a figure. Accuracy depends on the model, the card and the photo — and you review every scan." },
+      { q: "How accurate is eCard?", a: "eCard does not publish a figure. Accuracy depends on the model, the card and the photo, and you review every scan." },
       { q: "Does a different model help?", a: "It can. eCard lets you choose Claude, OpenAI, Gemini, DeepSeek or Grok." },
     ],
     related: [`${B}/confidence-scores`, `${B}/manual-review`, `${B}/choosing-a-model`, `${B}/scan-quality-tips`],
@@ -1145,10 +1145,10 @@ export const pages: PageDef[] = [
   {
     slug: `${B}/scan-to-follow-up`,
     category: "scanning",
-    title: "From Scan to Follow-Up",
-    seoTitle: "From Card Scan to Follow-Up in Minutes",
+    title: "From Scan To Follow-Up",
+    seoTitle: "From Card Scan To Follow-Up In Minutes",
     description: "Scan a visiting card, review it, then send an AI intro email from your own SMTP or a WhatsApp message in English, Hindi or Marathi with eCard.",
-    h1: "The scan is the start — the follow-up is the point",
+    h1: "The Scan Is The Start: The Follow-up Is The Point",
     eyebrow: "AI Card Scanning",
     intro: "A card in a drawer does nothing. eCard connects the scan directly to follow-up: an intro email from your own mailbox or a WhatsApp message in one tap.",
     variant: "solution",
@@ -1157,7 +1157,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "The full path",
+        heading: "The Full Path",
         steps: [
           { title: "Scan", body: "In your phone browser or via the Telegram bot." },
           { title: "Review", body: "Confirm fields using the confidence scores." },
@@ -1168,7 +1168,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "split",
-        heading: "Why speed matters",
+        heading: "Why Speed Matters",
         body: [
           "As general networking guidance, follow-ups sent the same day are easier to connect to the conversation. By next week, you are one of dozens of people they met.",
         ],
@@ -1177,19 +1177,19 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Sample intro",
+        title: "Sample Intro",
         body: "Sample: “Hi Priya, great to meet you at the sample Pune property expo today. As promised, here is my card and the brochure we discussed.”",
       },
       {
         type: "prose",
-        heading: "Telegram shortcut",
+        heading: "Telegram Shortcut",
         paragraphs: [
-          "Send a card photo to the eCard Telegram bot and the contact is saved with Open and Send buttons in the chat — useful when you are standing at a booth and don’t want to switch screens.",
+          "Send a card photo to the eCard Telegram bot and the contact is saved with Open and Send buttons in the chat, useful when you are standing at a booth and don’t want to switch screens.",
         ],
       },
     ],
     faqs: [
-      { q: "Whose email address do intros come from?", a: "Your own, via your SMTP settings — for example Gmail, Outlook, Zoho or another SMTP host." },
+      { q: "Whose email address do intros come from?", a: "Your own, via your SMTP settings: for example Gmail, Outlook, Zoho or another SMTP host." },
       { q: "Can I stop an email after sending?", a: "eCard sends after 5 seconds and you can cancel within that window or edit beforehand." },
     ],
     related: ["features/automated-email-outreach", "features/whatsapp-follow-ups", "features/outreach/five-second-send", "features/telegram-bot/open-and-send-buttons", "features/meeting-memory"],
@@ -1201,46 +1201,46 @@ export const pages: PageDef[] = [
     title: "Sample Scan Demo",
     seoTitle: "Sample Scan Demo: Realtor, Doctor, Founder",
     description: "eCard’s homepage demo shows scans for three sample personas: a Realtor, a Doctor and a Startup founder. See what the demo illustrates.",
-    h1: "Three sample cards, three sample scans",
+    h1: "Three Sample Cards, Three Sample Scans",
     eyebrow: "AI Card Scanning",
-    intro: "eCard’s homepage includes a sample scan demo with three personas — a Realtor, a Doctor and a Startup founder. All demo data is fictional.",
+    intro: "eCard’s homepage includes a sample scan demo with three personas: a Realtor, a Doctor and a Startup founder. All demo data is fictional.",
     variant: "feature",
     visual: "scan",
     icon: "eye",
     sections: [
       {
         type: "cards",
-        heading: "The three personas",
+        heading: "The Three Personas",
         intro: "Names below are sample data for illustration.",
         cards: [
-          { title: "Realtor", body: "Sample: Priya Shah, Realtor — a card with property firm branding and a mobile number.", icon: "building" },
-          { title: "Doctor", body: "Sample: Dr. Arjun Mehta — a clinic card with qualifications and clinic address.", icon: "briefcase" },
-          { title: "Startup founder", body: "Sample: Neha Rao, Founder — a minimal card with email and website.", icon: "sparkles" },
+          { title: "Realtor", body: "Sample: Priya Shah, Realtor, a card with property firm branding and a mobile number.", icon: "building" },
+          { title: "Doctor", body: "Sample: Dr. Arjun Mehta, a clinic card with qualifications and clinic address.", icon: "briefcase" },
+          { title: "Startup Founder", body: "Sample: Neha Rao, Founder, a minimal card with email and website.", icon: "sparkles" },
         ],
       },
       {
         type: "prose",
-        heading: "What the demo is for",
+        heading: "What The Demo Is For",
         paragraphs: [
-          "The demo gives a feel for the flow — a card goes in and structured fields come out — before you sign up. It is illustrative, not a benchmark.",
+          "The demo gives a feel for the flow, a card goes in and structured fields come out, before you sign up. It is illustrative, not a benchmark.",
           "Your real scans use the AI model you pick and show confidence scores for each field.",
         ],
       },
       {
         type: "bullets",
-        heading: "Things to notice in any scan",
+        heading: "Things To Notice In Any Scan",
         items: [
           "How titles and qualifications are separated from names",
           "Whether the company and website match",
-          "How addresses are laid out — and checked against Google Maps",
+          "How addresses are laid out, and checked against Google Maps",
           "Which fields would deserve a second look",
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Try your own cards",
-        body: "The Free plan includes 50 scans a month with no card required — the best demo is your own card stack.",
+        title: "Try Your Own Cards",
+        body: "The Free plan includes 50 scans a month with no card required, the best demo is your own card stack.",
       },
     ],
     faqs: [
@@ -1253,10 +1253,10 @@ export const pages: PageDef[] = [
   {
     slug: `${B}/scanning-at-volume`,
     category: "scanning",
-    title: "Scanning at Volume",
-    seoTitle: "Scanning Hundreds of Cards After an Expo",
+    title: "Scanning At Volume",
+    seoTitle: "Scanning Hundreds Of Cards After An Expo",
     description: "Practical tips for scanning large stacks of visiting cards after trade shows: batching, key pools, plan limits and grouping contacts by event.",
-    h1: "When the stack is hundreds of cards deep",
+    h1: "When The Stack Is Hundreds Of Cards Deep",
     eyebrow: "AI Card Scanning",
     intro: "After a big expo the problem isn’t reading one card, it’s getting through all of them while the leads are still warm. Here is a workflow for volume.",
     variant: "solution",
@@ -1265,18 +1265,18 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "A volume workflow",
+        heading: "A Volume Workflow",
         steps: [
-          { title: "Create the event first", body: "eCard lets you group cards from a trade show, so every scan lands in the right group." },
-          { title: "Sort the stack", body: "Hot leads on top. Scan and follow up with those first." },
-          { title: "Batch in sessions", body: "Twenty-minute bursts keep review quality high." },
-          { title: "Review low scores only closely", body: "Use confidence scores to move faster on clean fields." },
-          { title: "Follow up with the room", body: "Follow up with everyone from the event at once." },
+          { title: "Create The Event First", body: "eCard lets you group cards from a trade show, so every scan lands in the right group." },
+          { title: "Sort The Stack", body: "Hot leads on top. Scan and follow up with those first." },
+          { title: "Batch In Sessions", body: "Twenty-minute bursts keep review quality high." },
+          { title: "Review Low Scores Only Closely", body: "Use confidence scores to move faster on clean fields." },
+          { title: "Follow Up With The Room", body: "Follow up with everyone from the event at once." },
         ],
       },
       {
         type: "table",
-        heading: "Plan fit for volume",
+        heading: "Plan Fit For Volume",
         headers: ["Plan", "Scans / month", "Price / month"],
         rows: [
           ["Starter", "1,000", "₹299"],
@@ -1286,18 +1286,18 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Keep the engine running",
+        heading: "Keep The Engine Running",
         cards: [
-          { title: "Key pool", body: "Add keys with failover so one key’s limits don’t stall you.", icon: "layers" },
-          { title: "Split the work", body: "Teammates — even scan-only guests — can scan in parallel.", icon: "users" },
-          { title: "Merge duplicates", body: "People hand out cards twice; duplicate merge cleans up.", icon: "merge" },
+          { title: "Key Pool", body: "Add keys with failover so one key’s limits don’t stall you.", icon: "layers" },
+          { title: "Split The Work", body: "Teammates, even scan-only guests, can scan in parallel.", icon: "users" },
+          { title: "Merge Duplicates", body: "People hand out cards twice; duplicate merge cleans up.", icon: "merge" },
         ],
       },
       {
         type: "callout",
         tone: "info",
-        title: "Bulk import",
-        body: "If cards were already captured elsewhere as a spreadsheet, eCard’s CSV import may be faster than re-scanning.",
+        title: "Bulk Import",
+        body: "If cards were already captured elsewhere as a spreadsheet, eCard’s CSV import may be faster than rescanning.",
       },
     ],
     faqs: [
@@ -1310,19 +1310,19 @@ export const pages: PageDef[] = [
   {
     slug: `${B}/scanning-for-teams`,
     category: "scanning",
-    title: "Scanning for Teams",
-    seoTitle: "Team Card Scanning with Roles and Guests",
+    title: "Scanning For Teams",
+    seoTitle: "Team Card Scanning With Roles And Guests",
     description: "Let your whole team scan visiting cards into one eCard workspace, with roles from owner to scan-only guest, shared keys and an audit log.",
-    h1: "One workspace, everyone scanning",
+    h1: "One Workspace, Everyone Scanning",
     eyebrow: "AI Card Scanning",
-    intro: "When a team collects cards, they belong in one place. eCard workspaces support roles — owner, admin, manager, member and scan-only guest — so the right people can scan.",
+    intro: "When a team collects cards, they belong in one place. eCard workspaces support roles (owner, admin, manager, member and scan-only guest) so the right people can scan.",
     variant: "solution",
     visual: "team",
     icon: "users",
     sections: [
       {
         type: "table",
-        heading: "Roles named by eCard",
+        heading: "Roles Named By eCard",
         intro: "eCard lists these roles; exact permissions are not published on the site.",
         headers: ["Role", "Typical use (general guidance)"],
         rows: [
@@ -1335,7 +1335,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "split",
-        heading: "The scan-only guest",
+        heading: "The Scan-only Guest",
         body: [
           "Expos often bring in temporary staff or partners. A scan-only guest role lets them capture cards into your workspace without broader access.",
         ],
@@ -1343,17 +1343,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Team safeguards",
+        heading: "Team Safeguards",
         cards: [
           { title: "2FA", body: "Authenticator codes, recovery codes and trusted devices.", icon: "shield" },
-          { title: "Login alerts", body: "Know when accounts sign in.", icon: "bell" },
-          { title: "Audit log", body: "Workspaces keep an audit log.", icon: "file" },
-          { title: "Encrypted keys", body: "Shared AI keys encrypted with AES-256-GCM.", icon: "lock" },
+          { title: "Login Alerts", body: "Know when accounts sign in.", icon: "bell" },
+          { title: "Audit Log", body: "Workspaces keep an audit log.", icon: "file" },
+          { title: "Encrypted Keys", body: "Shared AI keys encrypted with AES-256-GCM.", icon: "lock" },
         ],
       },
       {
         type: "prose",
-        heading: "User counts by plan",
+        heading: "User Counts By Plan",
         paragraphs: [
           "Free allows 5 users, Starter 20, Professional 100, and Business and Enterprise are unlimited. Pick a plan based on how many people, including guests, will scan.",
         ],
@@ -1370,9 +1370,9 @@ export const pages: PageDef[] = [
     slug: `${B}/unusual-card-layouts`,
     category: "scanning",
     title: "Unusual Card Layouts",
-    seoTitle: "Scanning Vertical, Bilingual and Unusual Cards",
+    seoTitle: "Scanning Vertical, Bilingual And Unusual Cards",
     description: "Vertical cards, bilingual print, folded cards and logo-heavy designs can trip up AI reading. General guidance for handling unusual layouts.",
-    h1: "When the card doesn’t look like a card",
+    h1: "When The Card Doesn’t Look Like A Card",
     eyebrow: "AI Card Scanning",
     intro: "Designers love breaking conventions. Vertical layouts, two languages, transparent plastic or a name hidden in a logo all make reading harder. Here’s how to cope.",
     variant: "guide",
@@ -1381,7 +1381,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Layouts and what to watch",
+        heading: "Layouts And What To Watch",
         headers: ["Layout", "Common issue", "Review focus"],
         rows: [
           ["Vertical", "Fields read out of order", "Title vs company"],
@@ -1394,7 +1394,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Use confidence as an early warning",
+        heading: "Use Confidence As An Early Warning",
         paragraphs: [
           "Unusual layouts tend to produce lower confidence scores. Treat a page full of low scores as a cue to read the whole card yourself rather than spot-checking.",
           "If one model consistently struggles with a style you see often, it may be worth testing another provider.",
@@ -1402,7 +1402,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Photo tricks for odd cards",
+        heading: "Photo Tricks For Odd Cards",
         items: [
           "Transparent cards: place on plain white paper",
           "Metal or foil: avoid direct light; use shade",
@@ -1413,7 +1413,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not a guarantee",
+        title: "Not A Guarantee",
         body: "eCard doesn’t claim to handle every design perfectly. Review exists precisely for these cards.",
       },
     ],
@@ -1433,7 +1433,7 @@ const EXTRA: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Typing a card vs scanning it",
+        heading: "Typing A Card Vs Scanning It",
         intro: "General comparison of the manual habit most people start with and an AI scan with review.",
         headers: ["Step", "Typing by hand", "Scanning with eCard"],
         rows: [
@@ -1445,9 +1445,9 @@ const EXTRA: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Your first ten scans: a checklist",
+        heading: "Your First Ten Scans: A Checklist",
         items: [
-          "Pick a mix of cards — a plain one, a glossy one, a dense one — to see how results vary.",
+          "Pick a mix of cards (a plain one, a glossy one, a dense one) to see how results vary.",
           "Watch the confidence scores and note which fields you end up correcting most.",
           "Add where you met to at least a few contacts, so you can test natural-language search later.",
           "Try one scan through the Telegram bot to compare the two routes.",
@@ -1462,15 +1462,15 @@ const EXTRA: Record<string, Extra> = {
     sections: [
       {
         type: "prose",
-        heading: "Sample: one card, start to finish",
+        heading: "Sample: One Card, Start To Finish",
         paragraphs: [
           "Sample: Dr. Meera Iyer, a fictional dermatologist, hands you a card at a medical conference. You photograph it in your phone browser. The AI model you chose reads it and proposes a name, designation, clinic name, phone, email and address, each with its own confidence score.",
-          "The clinic address is checked against Google Maps. The email shows a lower score because a hyphen was faint, so you look at the card and fix it. Only when you save does the contact exist in eCard — and from there you can preview an intro email or add a voice note about what you discussed.",
+          "The clinic address is checked against Google Maps. The email shows a lower score because a hyphen was faint, so you look at the card and fix it. Only when you save does the contact exist in eCard, and from there you can preview an intro email or add a voice note about what you discussed.",
         ],
       },
       {
         type: "table",
-        heading: "Who does what at each stage",
+        heading: "Who Does What At Each Stage",
         headers: ["Stage", "Handled by", "Your role"],
         rows: [
           ["Taking the photo", "You", "Frame, light and steady the shot"],
@@ -1481,7 +1481,7 @@ const EXTRA: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Where scans most often go wrong",
+        heading: "Where Scans Most Often Go Wrong",
         items: [
           "Rushed photos taken at an angle, which stretch small print such as email addresses.",
           "Saving without reading low-confidence fields because the rest looked fine.",
@@ -1497,7 +1497,7 @@ const EXTRA: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Decide whether the back is worth scanning",
+        heading: "Decide Whether The Back Is Worth Scanning",
         headers: ["What’s on the back", "Scan it?", "Why"],
         rows: [
           ["Only a logo or pattern", "No", "Nothing to extract; saves a scan."],
@@ -1508,12 +1508,12 @@ const EXTRA: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "Sample: combining two sides cleanly",
+        heading: "Sample: Combining Two Sides Cleanly",
         steps: [
-          { title: "Scan the front", body: "Sample: Vikram Desai, a fictional startup founder, has name, title and email on the front." },
-          { title: "Review and save", body: "Correct any low-confidence fields before saving." },
-          { title: "Check the back", body: "His personal mobile is handwritten on the back." },
-          { title: "Add the extra detail", body: "Type the number into the saved contact, or scan the back and merge duplicates afterwards." },
+          { title: "Scan The Front", body: "Sample: Vikram Desai, a fictional startup founder, has name, title and email on the front." },
+          { title: "Review And Save", body: "Correct any low-confidence fields before saving." },
+          { title: "Check The Back", body: "His personal mobile is handwritten on the back." },
+          { title: "Add The Extra Detail", body: "Type the number into the saved contact, or scan the back and merge duplicates afterwards." },
         ],
       },
     ],
@@ -1528,7 +1528,7 @@ const EXTRA2: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Common extraction mix-ups and how to spot them",
+        heading: "Common Extraction Mix-ups And How To Spot Them",
         intro: "General patterns seen with any automated card reading, not eCard-specific figures.",
         headers: ["Mix-up", "Example (sample)", "How to catch it"],
         rows: [
@@ -1541,10 +1541,10 @@ const EXTRA2: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "A 20-second extraction check",
+        heading: "A 20-second Extraction Check",
         steps: [
-          { title: "Name and company", body: "Make sure the person and the organisation are in the right fields." },
-          { title: "Ways to reach them", body: "Compare the email and mobile character by character with the card." },
+          { title: "Name And Company", body: "Make sure the person and the organisation are in the right fields." },
+          { title: "Ways To Reach Them", body: "Compare the email and mobile character by character with the card." },
           { title: "Role", body: "Confirm the designation is a role, not a slogan." },
           { title: "Address", body: "Glance at the Google Maps check result before you save." },
         ],
@@ -1552,8 +1552,8 @@ const EXTRA2: Record<string, Extra> = {
       {
         type: "callout",
         tone: "tip",
-        title: "Fix it once, benefit everywhere",
-        body: "Extracted fields feed everything downstream — intros, WhatsApp messages, search and exports. A minute spent correcting a field during review saves an awkward correction email later.",
+        title: "Fix It Once, Benefit Everywhere",
+        body: "Extracted fields feed everything downstream: intros, WhatsApp messages, search and exports. A minute spent correcting a field during review saves an awkward correction email later.",
       },
     ],
     faqs: [
@@ -1565,7 +1565,7 @@ const EXTRA2: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Questions to ask before you pick a provider",
+        heading: "Questions To Ask Before You Pick A Provider",
         headers: ["Question", "Why it matters"],
         rows: [
           ["Do we already have an account with one of these providers?", "Reusing an existing account and billing relationship keeps things simple."],
@@ -1576,7 +1576,7 @@ const EXTRA2: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "Sample: a small agency picks a model",
+        heading: "Sample: A Small Agency Picks A Model",
         steps: [
           { title: "Shortlist", body: "Sample: a fictional five-person agency already pays for one AI provider, so it starts there." },
           { title: "Test", body: "They scan 15 cards from their last event and count corrections in review." },
@@ -1603,8 +1603,8 @@ const EXTRA2: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Sample bake-off scorecard",
-        intro: "Sample figures for illustration only — run your own test, because eCard publishes no benchmarks.",
+        heading: "Sample Bake-off Scorecard",
+        intro: "Sample figures for illustration only: run your own test, because eCard publishes no benchmarks.",
         headers: ["Measure", "Model A (sample)", "Model B (sample)"],
         rows: [
           ["Cards tested", "20", "20"],
@@ -1615,19 +1615,19 @@ const EXTRA2: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "What a fair test looks like",
+        heading: "What A Fair Test Looks Like",
         items: [
-          "Use the same 15–20 cards for every model, photographed once and reused.",
+          "Use the same 15-20 cards for every model, photographed once and reused.",
           "Include your hardest cards: dense, glossy, bilingual and minimalist designs.",
-          "Count corrections, not just whether the name is right — emails and phones matter most for follow-up.",
+          "Count corrections, not just whether the name is right, emails and phones matter most for follow-up.",
           "Note any errors or timeouts, which may point to rate limits on your key.",
         ],
       },
       {
         type: "prose",
-        heading: "When to revisit your choice",
+        heading: "When To Revisit Your Choice",
         paragraphs: [
-          "Revisit the decision when something changes: your cards start coming from a new region or language, your provider changes pricing, or your team starts scanning far more cards each month. A quick re-test on a fresh sample tells you whether a switch is worth it.",
+          "Revisit the decision when something changes: your cards start coming from a new region or language, your provider changes pricing, or your team starts scanning far more cards each month. A quick retest on a fresh sample tells you whether a switch is worth it.",
         ],
       },
     ],
@@ -1639,11 +1639,11 @@ const EXTRA2: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Hosted provider vs custom endpoint",
+        heading: "Hosted Provider Vs Custom Endpoint",
         intro: "General trade-offs to discuss with your IT team.",
         headers: ["Consideration", "Named provider", "Custom endpoint"],
         rows: [
-          ["Setup effort", "Lower — add a key", "Higher — you run or arrange the endpoint"],
+          ["Setup effort", "Lower, add a key", "Higher. You run or arrange the endpoint"],
           ["Control over hosting", "Set by the provider", "Set by your organisation"],
           ["Who maintains it", "The provider", "Your team or vendor"],
           ["Troubleshooting", "Provider status pages and support", "Your own monitoring"],
@@ -1651,19 +1651,19 @@ const EXTRA2: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "A sensible pilot plan",
+        heading: "A Sensible Pilot Plan",
         steps: [
-          { title: "Confirm support in the app", body: "eCard’s FAQ mentions custom endpoints; check in-app settings for what is required." },
-          { title: "Pilot with one user", body: "Run a small batch of cards before rolling out to a team." },
-          { title: "Compare with a named provider", body: "Scan the same cards both ways and count corrections." },
-          { title: "Keep a fallback", body: "A key pool with failover can include a named provider if your endpoint is unavailable — confirm options in the app." },
+          { title: "Confirm Support In The App", body: "eCard’s FAQ mentions custom endpoints; check in-app settings for what is required." },
+          { title: "Pilot With One User", body: "Run a small batch of cards before rolling out to a team." },
+          { title: "Compare With A Named Provider", body: "Scan the same cards both ways and count corrections." },
+          { title: "Keep A Fallback", body: "A key pool with failover can include a named provider if your endpoint is unavailable, confirm options in the app." },
         ],
       },
       {
         type: "bullets",
         heading: "Pitfalls",
         items: [
-          "Treating a custom endpoint as set-and-forget — someone must own its uptime.",
+          "Treating a custom endpoint as set-and-forget, someone must own its uptime.",
           "Skipping a security review of who can reach the endpoint.",
           "Assuming a model that works for chat will read card images well; test it.",
           "Losing your way back: keep a key for a named provider such as Claude, OpenAI, Gemini, DeepSeek, Grok or Azure so you can switch if the endpoint is retired.",
@@ -1680,8 +1680,8 @@ const EXTRA2: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Sample: reading the scores on one card",
-        intro: "Sample data for illustration — the scale and display in eCard may differ.",
+        heading: "Sample: Reading The Scores On One Card",
+        intro: "Sample data for illustration, the scale and display in eCard may differ.",
         headers: ["Field", "Sample value", "Score", "Action"],
         rows: [
           ["Name", "Priya Shah", "High", "Glance and move on"],
@@ -1692,18 +1692,18 @@ const EXTRA2: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Misreading the scores: common traps",
+        heading: "Misreading The Scores: Common Traps",
         items: [
-          "Treating high confidence as proof — a model can be confidently wrong, so key fields still deserve a glance.",
-          "Ignoring a cluster of low scores — that usually means the photo, not the model, is the problem.",
+          "Treating high confidence as proof: a model can be confidently wrong, so key fields still deserve a glance.",
+          "Ignoring a cluster of low scores: that usually means the photo, not the model, is the problem.",
           "Comparing scores across different models as if they were the same scale.",
         ],
       },
       {
         type: "prose",
-        heading: "Using scores to improve your photos",
+        heading: "Using Scores To Improve Your Photos",
         paragraphs: [
-          "If the same field keeps scoring low across many cards — say, emails in small print — the fix is often in how you shoot: move closer, avoid glare and keep the phone flat. Over a few events, watching where scores dip is a cheap way to tune your technique.",
+          "If the same field keeps scoring low across many cards (say, emails in small print) the fix is often in how you shoot: move closer, avoid glare and keep the phone flat. Over a few events, watching where scores dip is a cheap way to tune your technique.",
         ],
       },
     ],
@@ -1715,7 +1715,7 @@ const EXTRA2: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "What to fix now vs later",
+        heading: "What To Fix Now Vs Later",
         headers: ["Field or detail", "Fix during review?", "Reason"],
         rows: [
           ["Email address", "Always", "Intros go to this address."],
@@ -1727,12 +1727,12 @@ const EXTRA2: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "Sample: reviewing a batch after a meetup",
+        heading: "Sample: Reviewing A Batch After A Meetup",
         steps: [
-          { title: "Sort by importance", body: "Sample: of 12 cards, start with the three people you promised to follow up." },
-          { title: "Check the reach fields", body: "Email and mobile first, comparing with the physical card." },
-          { title: "Add context", body: "Where you met, who introduced you, a short voice note." },
-          { title: "Save and move on", body: "Routine cards get a quicker pass focused on name and email." },
+          { title: "Sort By Importance", body: "Sample: of 12 cards, start with the three people you promised to follow up." },
+          { title: "Check The Reach Fields", body: "Email and mobile first, comparing with the physical card." },
+          { title: "Add Context", body: "Where you met, who introduced you, a short voice note." },
+          { title: "Save And Move On", body: "Routine cards get a quicker pass focused on name and email." },
         ],
       },
     ],
@@ -1744,7 +1744,7 @@ const EXTRA2: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Address problems and what to do",
+        heading: "Address Problems And What To Do",
         intro: "General guidance for Indian and international card addresses.",
         headers: ["Problem", "Sample", "What to do"],
         rows: [
@@ -1756,12 +1756,12 @@ const EXTRA2: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "Sample: confirming a site-visit address",
+        heading: "Sample: Confirming A Site-visit Address",
         steps: [
-          { title: "Scan the card", body: "Sample: Rahul Mehta, a fictional builder, lists a site office address." },
-          { title: "Check the Maps result", body: "eCard checks the address against Google Maps." },
-          { title: "Compare with the card", body: "Make sure the matched location is the site office, not the head office." },
-          { title: "Save with a note", body: "Add a note like “site office, ask for Rahul at gate” to the contact." },
+          { title: "Scan The Card", body: "Sample: Rahul Mehta, a fictional builder, lists a site office address." },
+          { title: "Check The Maps Result", body: "eCard checks the address against Google Maps." },
+          { title: "Compare With The Card", body: "Make sure the matched location is the site office, not the head office." },
+          { title: "Save With A Note", body: "Add a note like “site office, ask for Rahul at gate” to the contact." },
         ],
       },
       {
@@ -1785,7 +1785,7 @@ const EXTRA3: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Sample pool layouts",
+        heading: "Sample Pool Layouts",
         intro: "Illustrative set-ups; eCard’s site does not document pool limits or provider mixing, so confirm options in the app.",
         headers: ["Team (sample)", "Pool idea", "Goal"],
         rows: [
@@ -1796,7 +1796,7 @@ const EXTRA3: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Pool hygiene checklist",
+        heading: "Pool Hygiene Checklist",
         items: [
           "Label each key in your provider dashboard so you know which one belongs to eCard.",
           "Set spending alerts with each provider, since bringing your own key means their billing applies.",
@@ -1808,8 +1808,8 @@ const EXTRA3: Record<string, Extra> = {
       {
         type: "callout",
         tone: "note",
-        title: "A pool is not a quota increase",
-        body: "Adding keys can help with provider-side rate limits, but your eCard plan’s monthly scan allowance still applies — for example, 1,000 scans on Starter and 5,000 on Professional.",
+        title: "A Pool Is Not A Quota Increase",
+        body: "Adding keys can help with provider-side rate limits, but your eCard plan’s monthly scan allowance still applies: for example, 1,000 scans on Starter and 5,000 on Professional.",
       },
     ],
     faqs: [
@@ -1821,7 +1821,7 @@ const EXTRA3: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Sample rotation calendar",
+        heading: "Sample Rotation Calendar",
         intro: "A general pattern; set the cadence your security policy requires.",
         headers: ["When", "Action"],
         rows: [
@@ -1833,13 +1833,13 @@ const EXTRA3: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "Sample: rotating without interrupting a team",
+        heading: "Sample: Rotating Without Interrupting A Team",
         steps: [
-          { title: "Pick a quiet time", body: "Sample: a Monday morning with no events booked." },
-          { title: "Add the new key first", body: "With two keys in the pool, scanning continues during the change." },
-          { title: "Test a scan", body: "Scan one card to confirm the new key works." },
-          { title: "Remove and revoke the old key", body: "Take it out of eCard, then revoke it in the provider dashboard." },
-          { title: "Note it", body: "Record the change; eCard workspaces have an audit log you can review." },
+          { title: "Pick A Quiet Time", body: "Sample: a Monday morning with no events booked." },
+          { title: "Add The New Key First", body: "With two keys in the pool, scanning continues during the change." },
+          { title: "Test A Scan", body: "Scan one card to confirm the new key works." },
+          { title: "Remove And Revoke The Old Key", body: "Take it out of eCard, then revoke it in the provider dashboard." },
+          { title: "Note It", body: "Record the change; eCard workspaces have an audit log you can review." },
         ],
       },
     ],
@@ -1851,7 +1851,7 @@ const EXTRA3: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Two different limits, side by side",
+        heading: "Two Different Limits, Side By Side",
         headers: ["", "eCard plan scan limit", "Provider rate limit"],
         rows: [
           ["Set by", "Your eCard plan", "Your AI provider account"],
@@ -1862,11 +1862,11 @@ const EXTRA3: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "Sample: a burst at a booth",
+        heading: "Sample: A Burst At A Booth",
         steps: [
-          { title: "The rush", body: "Sample: four team members scan 30 cards in ten minutes after a product demo." },
-          { title: "The symptom", body: "A few scans fail or slow down as the provider throttles requests." },
-          { title: "Failover helps", body: "If the pool has another key with capacity, scanning can continue." },
+          { title: "The Rush", body: "Sample: four team members scan 30 cards in ten minutes after a product demo." },
+          { title: "The Symptom", body: "A few scans fail or slow down as the provider throttles requests." },
+          { title: "Failover Helps", body: "If the pool has another key with capacity, scanning can continue." },
           { title: "Afterwards", body: "Check provider dashboards and consider a higher tier or another key before the next event." },
         ],
       },
@@ -1889,7 +1889,7 @@ const EXTRA3: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Is bringing your own key right for you?",
+        heading: "Is Bringing Your Own Key Right For You?",
         headers: ["If you…", "BYOK is…", "Why"],
         rows: [
           ["Already pay for an AI provider", "A good fit", "Reuse an account and billing you know."],
@@ -1900,7 +1900,7 @@ const EXTRA3: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Key safety checklist",
+        heading: "Key Safety Checklist",
         items: [
           "Create a dedicated key for eCard rather than reusing one from another tool.",
           "Set a monthly spending cap or alert with the provider.",
@@ -1911,9 +1911,9 @@ const EXTRA3: Record<string, Extra> = {
       },
       {
         type: "prose",
-        heading: "Sample: estimating provider cost",
+        heading: "Sample: Estimating Provider Cost",
         paragraphs: [
-          "Sample: a fictional team expects about 400 scans in a month. They check their provider’s published per-request pricing, multiply by an estimate of 400 requests, and add headroom for re-scans. eCard publishes no per-scan AI cost, so this estimate always comes from your provider’s own pricing.",
+          "Sample: a fictional team expects about 400 scans in a month. They check their provider’s published per-request pricing, multiply by an estimate of 400 requests, and add headroom for rescans. eCard publishes no per-scan AI cost, so this estimate always comes from your provider’s own pricing.",
         ],
       },
     ],
@@ -1925,11 +1925,11 @@ const EXTRA3: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "What encryption covers — and what it doesn’t",
+        heading: "What Encryption Covers: And What It Doesn’t",
         intro: "General explanation of the limits of encryption at rest.",
         headers: ["Threat", "Helped by encryption at rest?", "Your extra defence"],
         rows: [
-          ["Stored data copied without authorisation", "Yes — it is unreadable without the key", "—"],
+          ["Stored data copied without authorisation", "Yes. It is unreadable without the key", "No"],
           ["Someone signs in to your account", "No", "Use 2FA with authenticator codes"],
           ["A key pasted into a chat or document", "No", "Never share keys outside eCard"],
           ["A former employee who copied a key", "No", "Rotate keys when people leave"],
@@ -1937,12 +1937,12 @@ const EXTRA3: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "A key-handling routine",
+        heading: "A Key-handling Routine",
         steps: [
-          { title: "Create the key at the provider", body: "Name it clearly, for example “eCard workspace”." },
-          { title: "Paste it straight into eCard", body: "Avoid staging it in notes apps or spreadsheets." },
-          { title: "Turn on 2FA", body: "eCard supports authenticator codes, recovery codes, trusted devices and login alerts." },
-          { title: "Review regularly", body: "Check the workspace audit log and rotate keys on a schedule." },
+          { title: "Create The Key At The Provider", body: "Name it clearly, for example “eCard workspace”." },
+          { title: "Paste It Straight Into eCard", body: "Avoid staging it in notes apps or spreadsheets." },
+          { title: "Turn On 2FA", body: "eCard supports authenticator codes, recovery codes, trusted devices and login alerts." },
+          { title: "Review Regularly", body: "Check the workspace audit log and rotate keys on a schedule." },
         ],
       },
       {
@@ -1966,7 +1966,7 @@ const EXTRA3: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Sample: matching usage to a plan",
+        heading: "Sample: Matching Usage To A Plan",
         intro: "Fictional profiles to illustrate the arithmetic; monthly prices only.",
         headers: ["Profile (sample)", "Scans a month", "Users", "Plan that fits"],
         rows: [
@@ -1978,10 +1978,10 @@ const EXTRA3: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Budgeting tips",
+        heading: "Budgeting Tips",
         items: [
-          "Plan around your busiest month, not your average — expo season can triple volume.",
-          "Leave headroom for re-scans of poor photos.",
+          "Plan around your busiest month, not your average, expo season can triple volume.",
+          "Leave headroom for rescans of poor photos.",
           "Remember plan features too: Starter adds Google Contacts sync and Calendar & Meet booking; Professional adds Webhooks.",
           "GST applies where applicable, and local currency is shown at checkout.",
           "Yearly billing is said to save about two months, but no yearly price is published, so compare at checkout.",
@@ -1999,7 +1999,7 @@ const EXTRA4: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Venue lighting cheat sheet",
+        heading: "Venue Lighting Cheat Sheet",
         intro: "General guidance for the places cards usually change hands.",
         headers: ["Where", "Typical problem", "Quick fix"],
         rows: [
@@ -2011,20 +2011,20 @@ const EXTRA4: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "Recovering a bad scan",
+        heading: "Recovering A Bad Scan",
         steps: [
-          { title: "Spot it", body: "Several low-confidence fields at once usually means the photo is the problem." },
-          { title: "Retake rather than retype", body: "A fresh, clear photo often fixes many fields in one go." },
-          { title: "Fix what remains by hand", body: "Correct leftover fields against the physical card." },
-          { title: "Learn from it", body: "Note the cause — glare, angle, distance — and adjust next time." },
+          { title: "Spot It", body: "Several low-confidence fields at once usually means the photo is the problem." },
+          { title: "Retake Rather Than Retype", body: "A fresh, clear photo often fixes many fields in one go." },
+          { title: "Fix What Remains By Hand", body: "Correct leftover fields against the physical card." },
+          { title: "Learn From It", body: "Note the cause (glare, angle, distance) and adjust next time." },
         ],
       },
       {
         type: "bullets",
-        heading: "Quality pitfalls people don’t notice",
+        heading: "Quality Pitfalls People Don’t Notice",
         items: [
           "A dirty phone lens, which softens every scan slightly.",
-          "Digital zoom, which enlarges blur instead of adding detail — move closer instead.",
+          "Digital zoom, which enlarges blur instead of adding detail, move closer instead.",
           "A patterned tablecloth behind the card that confuses edges.",
           "Shooting in a hurry while walking, which adds motion blur to small print.",
         ],
@@ -2039,7 +2039,7 @@ const EXTRA4: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Phone camera settings worth checking",
+        heading: "Phone Camera Settings Worth Checking",
         intro: "General smartphone advice; menus differ by phone.",
         headers: ["Setting", "Suggested", "Why"],
         rows: [
@@ -2051,7 +2051,7 @@ const EXTRA4: Record<string, Extra> = {
       },
       {
         type: "prose",
-        heading: "Sample: three shots of the same card",
+        heading: "Sample: Three Shots Of The Same Card",
         paragraphs: [
           "Sample: a fictional doctor’s card, Dr. Anil Rao, is photographed three ways. Shot one, on a dark restaurant table with flash, has a bright spot over the phone number. Shot two, at a steep angle, makes the email look stretched. Shot three, flat under a window with the card filling the frame, reads cleanly.",
           "The lesson is less about the phone and more about the two seconds before you tap the shutter: flat, close, evenly lit.",
@@ -2059,9 +2059,9 @@ const EXTRA4: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Background and framing",
+        heading: "Background And Framing",
         items: [
-          "Use a plain, contrasting surface — a dark folder for white cards, a light page for dark cards.",
+          "Use a plain, contrasting surface: a dark folder for white cards, a light page for dark cards.",
           "Keep fingers off the printed area; hold the card by its edges.",
           "Leave a small margin around the card so no edge is cut off.",
         ],
@@ -2075,7 +2075,7 @@ const EXTRA4: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Sample: a complete contact record",
+        heading: "Sample: A Complete Contact Record",
         intro: "Fictional data showing a well-reviewed record.",
         headers: ["Field", "Sample value", "Format tip"],
         rows: [
@@ -2089,14 +2089,14 @@ const EXTRA4: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Formatting conventions that help later",
+        heading: "Formatting Conventions That Help Later",
         items: [
           "Store mobiles with country codes so WhatsApp and international calls work.",
           "Write company names consistently so duplicate merge and search find them.",
           "Keep designations in the person’s own words rather than your shorthand.",
           "Use the full company website rather than a social profile when both are printed, and add handles separately if you need them.",
-          "Avoid putting notes inside name or company fields — “Rohit (met at expo)” breaks search, sorting and the greeting in every intro.",
-          "Add context — where you met, who introduced you — in meeting memory rather than squeezing it into fields.",
+          "Avoid putting notes inside name or company fields: “Rohit (met at expo)” breaks search, sorting and the greeting in every intro.",
+          "Add context (where you met, who introduced you) in meeting memory rather than squeezing it into fields.",
         ],
       },
     ],
@@ -2109,7 +2109,7 @@ const EXTRA4: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Sample accuracy log",
+        heading: "Sample Accuracy Log",
         intro: "A fictional log showing how a team might track its own results.",
         headers: ["Event (sample)", "Cards", "Cards needing edits", "Most common fix"],
         rows: [
@@ -2120,16 +2120,16 @@ const EXTRA4: Record<string, Extra> = {
       },
       {
         type: "prose",
-        heading: "Reading your log",
+        heading: "Reading Your Log",
         paragraphs: [
           "In the sample, edits fell sharply on day two once the team moved away from the spotlights. That pattern is typical: most accuracy gains come from better photos and habits, not from switching models. If corrections stay high after improving technique, then test another model.",
         ],
       },
       {
         type: "bullets",
-        heading: "What “accurate enough” means for you",
+        heading: "What “Accurate Enough” Means For You",
         items: [
-          "Emails and mobiles must be exactly right — they decide whether follow-up reaches anyone.",
+          "Emails and mobiles must be exactly right. They decide whether follow-up reaches anyone.",
           "Names should be right before any message is sent.",
           "Designation and company can tolerate minor wording differences.",
           "Addresses matter most when you plan site visits or search by location; check the Google Maps result for those contacts.",
@@ -2145,7 +2145,7 @@ const EXTRA4: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Choosing the follow-up channel",
+        heading: "Choosing The Follow-up Channel",
         headers: ["Situation", "Channel", "eCard tool"],
         rows: [
           ["Formal business contact", "Email", "AI intro from your own SMTP, sent after 5 seconds"],
@@ -2156,20 +2156,20 @@ const EXTRA4: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "Sample: a 48-hour follow-up plan",
+        heading: "Sample: A 48-hour Follow-up Plan",
         steps: [
-          { title: "Same day", body: "Sample: send intros to the people you promised something." },
-          { title: "Next morning", body: "WhatsApp anyone who said they prefer chat, in their language." },
-          { title: "Day two", body: "Group remaining event contacts and send a considered follow-up." },
-          { title: "Then watch", body: "Link tracking shows opens of your card, PDFs and WhatsApp links." },
+          { title: "Same Day", body: "Sample: send intros to the people you promised something." },
+          { title: "Next Morning", body: "WhatsApp anyone who said they prefer chat, in their language." },
+          { title: "Day Two", body: "Group remaining event contacts and send a considered follow-up." },
+          { title: "Then Watch", body: "Link tracking shows opens of your card, PDFs and WhatsApp links." },
         ],
       },
       {
         type: "bullets",
-        heading: "Follow-up pitfalls",
+        heading: "Follow-up Pitfalls",
         items: [
           "Sending a generic message that doesn’t mention where you met.",
-          "Following up on every channel at once — pick one.",
+          "Following up on every channel at once, pick one.",
           "Leaving it a week, when the conversation is no longer fresh.",
         ],
       },
@@ -2185,7 +2185,7 @@ const EXTRA5: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "What each sample persona tends to test",
+        heading: "What Each Sample Persona Tends To Test",
         intro: "General observations about these card types; the demo data is fictional.",
         headers: ["Persona", "Typical card traits", "Worth watching"],
         rows: [
@@ -2196,24 +2196,24 @@ const EXTRA5: Record<string, Extra> = {
       },
       {
         type: "steps",
-        heading: "From demo to your own first scan",
+        heading: "From Demo To Your Own First Scan",
         steps: [
-          { title: "Run the demo", body: "Look at how fields and confidence scores are presented." },
-          { title: "Sign up free", body: "The Free plan includes 50 scans a month with no card required." },
-          { title: "Scan a card you know well", body: "Your own card is ideal — you know every detail." },
+          { title: "Run The Demo", body: "Look at how fields and confidence scores are presented." },
+          { title: "Sign Up Free", body: "The Free plan includes 50 scans a month with no card required." },
+          { title: "Scan A Card You Know Well", body: "Your own card is ideal. You know every detail." },
           { title: "Compare", body: "Check the result against the card and note any corrections." },
         ],
       },
       {
         type: "bullets",
-        heading: "Questions to answer while you explore",
+        heading: "Questions To Answer While You Explore",
         items: [
           "Which fields matter most for how I follow up?",
           "Would my team scan in the browser, Telegram, or both?",
           "Do I want to bring my own AI key, or test first?",
           "How many cards do I collect in a typical month, and which plan’s scan allowance fits?",
           "Who else on my team would need access, and in which role?",
-          "Which follow-up channel suits my contacts best — email, WhatsApp or my digital card?",
+          "Which follow-up channel suits my contacts best: email, WhatsApp or my digital card?",
         ],
       },
     ],
@@ -2225,12 +2225,12 @@ const EXTRA5: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Sample: a 500-card expo, by the numbers",
+        heading: "Sample: A 500-card Expo, By The Numbers",
         intro: "Fictional planning arithmetic, not eCard benchmarks. Work through the same sums with your own expected footfall before you choose a plan or book staff.",
         headers: ["Item", "Sample estimate"],
         rows: [
           ["Expected cards over three days", "500"],
-          ["Re-scan headroom (10%)", "50"],
+          ["Rescan headroom (10%)", "50"],
           ["Total scans needed", "About 550"],
           ["Plan check", "Free (50) is too small; Starter (1,000) covers it"],
           ["People scanning", "6 staff plus 2 scan-only guests"],
@@ -2238,7 +2238,7 @@ const EXTRA5: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Bottlenecks at volume and fixes",
+        heading: "Bottlenecks At Volume And Fixes",
         items: [
           "Review backlog: schedule short review blocks at breaks, not one long session after the show.",
           "Provider throttling: add spare keys to the pool before the event.",
@@ -2252,7 +2252,7 @@ const EXTRA5: Record<string, Extra> = {
       {
         type: "callout",
         tone: "tip",
-        title: "Group as you go",
+        title: "Group As You Go",
         body: "eCard lets you group cards from a trade show and follow up with everyone at once. Setting up the event grouping before day one keeps hundreds of contacts organised.",
       },
     ],
@@ -2264,7 +2264,7 @@ const EXTRA5: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Sample: who does what at an event",
+        heading: "Sample: Who Does What At An Event",
         intro: "Fictional role assignment; eCard’s site names roles but not their exact permissions. Agree a split like this before the event so everyone knows who scans, who reviews and who follows up.",
         headers: ["Person (sample)", "Role", "Responsibility"],
         rows: [
@@ -2276,24 +2276,24 @@ const EXTRA5: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "Team scanning pitfalls",
+        heading: "Team Scanning Pitfalls",
         items: [
           "No agreed owner per lead, so two people send intros.",
           "Temporary staff keep access after the event.",
           "Everyone uses different tags, making the event hard to filter.",
           "Nobody reviews guest scans before follow-up starts.",
-          "Shared logins at the booth, which make the audit log meaningless — give each person their own access instead.",
+          "Shared logins at the booth, which make the audit log meaningless. Give each person their own access instead.",
           "Plan user limits forgotten until the day: Free includes 5 users, Starter 20, Professional 100, and Business unlimited.",
           "No briefing for new scanners, so photo quality varies wildly across the team; a two-minute demo of a good photo fixes most of it.",
         ],
       },
       {
         type: "steps",
-        heading: "Offboarding after an event",
+        heading: "Offboarding After An Event",
         steps: [
-          { title: "Review guest scans", body: "Check fields and assign each contact an owner." },
-          { title: "Remove temporary access", body: "Take scan-only guests out of the workspace." },
-          { title: "Check the audit log", body: "eCard workspaces have an audit log for reviewing activity." },
+          { title: "Review Guest Scans", body: "Check fields and assign each contact an owner." },
+          { title: "Remove Temporary Access", body: "Take scan-only guests out of the workspace." },
+          { title: "Check The Audit Log", body: "eCard workspaces have an audit log for reviewing activity." },
         ],
       },
     ],
@@ -2305,7 +2305,7 @@ const EXTRA5: Record<string, Extra> = {
     sections: [
       {
         type: "table",
-        heading: "Sample: odd cards and the fields to check",
+        heading: "Sample: Odd Cards And The Fields To Check",
         headers: ["Card (sample)", "What’s unusual", "Check during review"],
         rows: [
           ["Vertical card, Sample Design Studio", "Text runs top to bottom", "Name and title order."],
@@ -2317,7 +2317,7 @@ const EXTRA5: Record<string, Extra> = {
       },
       {
         type: "bullets",
-        heading: "When to give up and type it",
+        heading: "When To Give Up And Type It",
         items: [
           "The card is mostly artwork with tiny text.",
           "Two retakes still give many low-confidence fields.",
@@ -2328,10 +2328,10 @@ const EXTRA5: Record<string, Extra> = {
       },
       {
         type: "prose",
-        heading: "Respect the design",
+        heading: "Respect The Design",
         paragraphs: [
-          "Unusual cards are often deliberate brand choices. When you follow up, using the exact company styling of the name — capitalisation, spacing — shows care, even if the scanner normalised it.",
-          "It is also worth noting the card itself in your meeting notes — “silver transparent card, design studio” — because memorable cards are a useful memory hook when you search for someone months later.",
+          "Unusual cards are often deliberate brand choices. When you follow up, using the exact company styling of the name (capitalisation, spacing) shows care, even if the scanner normalised it.",
+          "It is also worth noting the card itself in your meeting notes (“silver transparent card, design studio”) because memorable cards are a useful memory hook when you search for someone months later.",
         ],
       },
     ],
@@ -2424,16 +2424,16 @@ const MORE_FAQS: Record<string, FAQ[]> = {
 
 const MORE_SECTIONS: Record<string, Section[]> = {
   [`${B}/manual-review`]: [
-    { type: "callout", tone: "note", title: "Review protects your reputation", body: "An intro sent to a misspelt name or a WhatsApp message to the wrong number is the most visible mistake a scanner can cause. The review step is where you stop it — it is worth treating as part of the conversation, not paperwork." },
+    { type: "callout", tone: "note", title: "Review Protects Your Reputation", body: "An intro sent to a misspelt name or a WhatsApp message to the wrong number is the most visible mistake a scanner can cause. The review step is where you stop it: it is worth treating as part of the conversation, not paperwork." },
   ],
   [`${B}/key-rotation-failover`]: [
-    { type: "callout", tone: "tip", title: "Test failover before you need it", body: "Once in a while, temporarily remove your main key and scan a test card to confirm the backup key takes over. Discovering a broken backup on a quiet Monday is far better than discovering it at an expo." },
+    { type: "callout", tone: "tip", title: "Test Failover Before You Need It", body: "Once in a while, temporarily remove your main key and scan a test card to confirm the backup key takes over. Discovering a broken backup on a quiet Monday is far better than discovering it at an expo." },
   ],
   [`${B}/scan-limits-by-plan`]: [
-    { type: "prose", heading: "Users and storage matter too", paragraphs: ["Scan allowance is only one dimension of a plan. Free includes 5 users and 1 GB of storage; Starter 20 users and 25 GB; Professional 100 users and 250 GB; Business and Enterprise are unlimited. A team that scans little but has many members may outgrow a plan on users before scans.", "Voice notes and attachments use storage, so teams that rely heavily on meeting memory should keep an eye on that figure too."] },
+    { type: "prose", heading: "Users And Storage Matter Too", paragraphs: ["Scan allowance is only one dimension of a plan. Free includes 5 users and 1 GB of storage; Starter 20 users and 25 GB; Professional 100 users and 250 GB; Business and Enterprise are unlimited. A team that scans little but has many members may outgrow a plan on users before scans.", "Voice notes and attachments use storage, so teams that rely heavily on meeting memory should keep an eye on that figure too."] },
   ],
   [`${B}/field-reference`]: [
-    { type: "callout", tone: "info", title: "Fields feed your follow-ups", body: "The name and company you save appear in AI intro emails and WhatsApp messages, and the mobile number is what opens the WhatsApp chat. A tidy record means every message starts on the right foot." },
+    { type: "callout", tone: "info", title: "Fields Feed Your Follow-ups", body: "The name and company you save appear in AI intro emails and WhatsApp messages, and the mobile number is what opens the WhatsApp chat. A tidy record means every message starts on the right foot." },
   ],
 };
 

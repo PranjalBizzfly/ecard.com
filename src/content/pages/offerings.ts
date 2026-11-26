@@ -5,9 +5,9 @@ export const pages: PageDef[] = [
     slug: "products",
     category: "offerings",
     title: "Products",
-    seoTitle: "eCard Products: Scanning, CRM, Cards and Outreach",
+    seoTitle: "eCard Products: Scanning, CRM, Cards And Outreach",
     description: "Everything eCard offers in one place: AI card scanning, a contact CRM, digital business cards, email and WhatsApp outreach, Telegram bot and meeting memory.",
-    h1: "One product, every step after the handshake",
+    h1: "One Product, Every Step After The Handshake",
     eyebrow: "Products",
     intro: "eCard is a single product, the AI visiting-card CRM, made of connected parts. This page lists each part, what it does and which plan includes it, so you can see the whole offering at a glance.",
     variant: "feature",
@@ -16,19 +16,19 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "The building blocks",
+        heading: "The Building Blocks",
         cards: [
-          { title: "AI card scanning", body: "Read cards with Claude, OpenAI, Gemini, DeepSeek or Grok, with confidence scores per field, review before save and Google Maps address checks.", icon: "scan" },
+          { title: "AI Card Scanning", body: "Read cards with Claude, OpenAI, Gemini, DeepSeek or Grok, with confidence scores per field, review before save and Google Maps address checks.", icon: "scan" },
           { title: "Contact CRM", body: "Contacts, tags and events, natural-language search, duplicate merge, blacklist, archive, CSV import and export.", icon: "users" },
-          { title: "Digital business card", body: "Premium templates, QR code, Save-to-contacts and short links that count clicks with bots filtered out.", icon: "card" },
-          { title: "Email and WhatsApp", body: "AI intro emails from your own SMTP with a 5-second send window, and WhatsApp messages in English, Hindi or Marathi.", icon: "send" },
-          { title: "Telegram bot", body: "Send a photo of a card to the bot and the contact is saved, with Open and Send buttons in the chat.", icon: "message" },
-          { title: "Meeting memory", body: "Where you met, who introduced you, voice notes and a searchable AI summary.", icon: "brain" },
+          { title: "Digital Business Card", body: "Premium templates, QR code, Save-to-contacts and short links that count clicks with bots filtered out.", icon: "card" },
+          { title: "Email And WhatsApp", body: "AI intro emails from your own SMTP with a 5-second send window, and WhatsApp messages in English, Hindi or Marathi.", icon: "send" },
+          { title: "Telegram Bot", body: "Send a photo of a card to the bot and the contact is saved, with Open and Send buttons in the chat.", icon: "message" },
+          { title: "Meeting Memory", body: "Where you met, who introduced you, voice notes and a searchable AI summary.", icon: "brain" },
         ],
       },
       {
         type: "table",
-        heading: "What each plan adds",
+        heading: "What Each Plan Adds",
         intro: "Every plan includes the base set: AI scanning; contacts, tags and events; bulk import and export; email outreach from your own mailbox; WhatsApp; digital card; and the Telegram bot.",
         headers: ["Plan", "Monthly price", "Users", "Scans/mo", "Adds"],
         rows: [
@@ -41,7 +41,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "split",
-        heading: "Team, security and admin",
+        heading: "Team, Security And Admin",
         body: [
           "Around the core sits a workspace layer for teams. Roles control who sees what, and security features protect each account and the secrets you store, such as AI keys and SMTP passwords.",
         ],
@@ -54,7 +54,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "No app, no separate modules to buy",
+        heading: "No App, No Separate Modules To Buy",
         paragraphs: [
           "eCard works in any phone browser, so there is nothing to install. The parts above are not sold separately: you choose a plan, and the plan sets limits on users, storage and scans plus a few extras such as webhooks or white-label branding.",
           "Yearly billing is said to save about two months, with exact yearly totals shown at checkout. GST applies where applicable.",
@@ -76,9 +76,9 @@ export const pages: PageDef[] = [
     slug: "services",
     category: "offerings",
     title: "Services",
-    seoTitle: "eCard Services: Software, Setup Help and Enterprise",
+    seoTitle: "eCard Services: Software, Setup Help And Enterprise",
     description: "eCard is self-serve software; no professional services catalogue is published. See what setup help exists today and how Enterprise enquiries work.",
-    h1: "Services around the eCard software",
+    h1: "Services Around The eCard Software",
     eyebrow: "Services",
     intro: "eCard is self-serve software you can start in a browser in minutes. It has not published a catalogue of paid services such as implementation, training or consulting, so this page explains what help is available today and how to ask for more.",
     variant: "feature",
@@ -88,24 +88,24 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No services catalogue published",
+        title: "No Services Catalogue Published",
         body: "eCard has not yet published professional services, implementation packages, training programmes or service-level agreements. Any such arrangement would need to be agreed with eCard in writing.",
       },
       {
         type: "steps",
-        heading: "Self-serve setup you can do today",
+        heading: "Self-serve Setup You Can Do Today",
         intro: "Most teams can get running without outside help by following the guides.",
         steps: [
-          { title: "Create your workspace", body: "Sign up at ecard.gg; new workspaces get a 14-day Professional trial with no card needed." },
-          { title: "Choose your AI model", body: "Pick Claude, OpenAI, Gemini, DeepSeek, Grok, Azure or a custom endpoint, and add your own key if you prefer." },
-          { title: "Connect your mailbox", body: "Add Gmail, Outlook, Zoho, SendGrid, Brevo, Mailgun, Amazon SES, Resend or any SMTP host so intros send from your address." },
+          { title: "Create Your Workspace", body: "Sign up at ecard.gg; new workspaces get a 14-day Professional trial with no card needed." },
+          { title: "Choose Your AI Model", body: "Pick Claude, OpenAI, Gemini, DeepSeek, Grok, Azure or a custom endpoint, and add your own key if you prefer." },
+          { title: "Connect Your Mailbox", body: "Add Gmail, Outlook, Zoho, SendGrid, Brevo, Mailgun, Amazon SES, Resend or any SMTP host so intros send from your address." },
           { title: "Link Telegram", body: "Generate a one-time code in Settings → Telegram and send it to the bot." },
-          { title: "Invite your team", body: "Add colleagues with the right role, from admin to scan-only guest." },
+          { title: "Invite Your Team", body: "Add colleagues with the right role, from admin to scan-only guest." },
         ],
       },
       {
         type: "bullets",
-        heading: "Where help lives today",
+        heading: "Where Help Lives Today",
         items: [
           "Getting-started and setup guides in the resources section",
           "The help centre at /help for account, billing, scanning and email questions",
@@ -115,7 +115,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Preparing an Enterprise conversation",
+        heading: "Preparing An Enterprise Conversation",
         paragraphs: [
           "Enterprise has the same features as Business with custom pricing. If your organisation needs something beyond self-serve, such as help rolling eCard out to many teams, it is worth preparing before you email.",
           "Useful details to include are the number of users, how many cards you expect to scan each month, which email provider and AI model you plan to use, any security or procurement questionnaires you need completed, and your timeline. A clear brief makes it easier for eCard to say what it can and cannot offer.",
@@ -137,9 +137,9 @@ export const pages: PageDef[] = [
     slug: "solutions",
     category: "offerings",
     title: "Solutions",
-    seoTitle: "eCard Solutions by Networking Problem",
+    seoTitle: "eCard Solutions By Networking Problem",
     description: "Solutions mapped to real networking problems: lost cards, slow follow-up, forgotten context, expo overload and team visibility, each tied to eCard features.",
-    h1: "Solutions for the problems cards create",
+    h1: "Solutions For The Problems Cards Create",
     eyebrow: "Solutions",
     intro: "Instead of listing features, this page starts from the problems people actually have after meeting someone, and shows which part of eCard addresses each one. Use it to find the workflow that fits your situation.",
     variant: "solution",
@@ -148,7 +148,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Problem to solution",
+        heading: "Problem To Solution",
         headers: ["Problem", "eCard solution", "Plan"],
         rows: [
           ["Cards pile up and never get typed in", "AI scanning in the browser or via the Telegram bot", "All plans"],
@@ -162,7 +162,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Solving speed and context together",
+        heading: "Solving Speed And Context Together",
         paragraphs: [
           "General networking advice says the best time to follow up is soon after you meet, while the other person still remembers the conversation. Speed alone is not enough, though; a fast but generic message is easy to ignore.",
           "eCard's approach pairs the two. Meeting memory captures where you met and what you discussed, and the AI uses that context when it drafts an email or WhatsApp message. You preview it, edit it if needed, and it goes out from your own address.",
@@ -170,19 +170,19 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Solutions by audience",
+        heading: "Solutions By Audience",
         intro: "eCard's site names these use cases; real estate has the most published detail.",
         cards: [
-          { title: "Real estate", body: "Turn site-visit cards into booked visits: scan buyer and broker cards, send the brochure with your card, and follow up in Marathi or Hindi on WhatsApp.", icon: "building" },
-          { title: "Events and expos", body: "Group every card from a show and follow up with the whole room.", icon: "calendar" },
-          { title: "Sales teams", body: "Shared contacts, roles and tracked links for teams that meet prospects every day.", icon: "chart" },
+          { title: "Real Estate", body: "Turn site-visit cards into booked visits: scan buyer and broker cards, send the brochure with your card, and follow up in Marathi or Hindi on WhatsApp.", icon: "building" },
+          { title: "Events And Expos", body: "Group every card from a show and follow up with the whole room.", icon: "calendar" },
+          { title: "Sales Teams", body: "Shared contacts, roles and tracked links for teams that meet prospects every day.", icon: "chart" },
           { title: "Agencies", body: "White label and custom domain on Business for teams that present under their own brand.", icon: "palette" },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Start with one problem",
+        title: "Start With One Problem",
         body: "Pick the single biggest gap in your current follow-up, such as cards that never get entered, and test that workflow first on the Free plan before rolling eCard out more widely.",
       },
       {"type":"steps","heading":"Combining solutions into one routine","steps":[{"title":"Before a meeting","body":"Search your contacts in plain language to recall past conversations."},{"title":"During the day","body":"Scan cards in the browser or forward them to the Telegram bot."},{"title":"Right after","body":"Add a voice note and send an intro email or WhatsApp message."}]},
@@ -200,9 +200,9 @@ export const pages: PageDef[] = [
     slug: "industries",
     category: "offerings",
     title: "Industries",
-    seoTitle: "Industries That Run on Visiting Cards",
+    seoTitle: "Industries That Run On Visiting Cards",
     description: "How card-heavy industries can use an AI visiting-card CRM, from real estate and expos to agencies and consultants. Educational guidance, not customer claims.",
-    h1: "Industries where cards still change hands",
+    h1: "Industries Where Cards Still Change Hands",
     eyebrow: "Industries",
     intro: "Some industries still trade visiting cards every day. This page looks at how a visiting-card CRM fits the way those industries work. It is general guidance about workflows, not a list of eCard customers.",
     variant: "solution",
@@ -212,24 +212,24 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not a customer list",
+        title: "Not A Customer List",
         body: "eCard has not published customers or case studies in any industry. The examples below describe typical workflows and how eCard's verified features could support them.",
       },
       {
         type: "cards",
-        heading: "Card-heavy industries",
+        heading: "Card-heavy Industries",
         cards: [
-          { title: "Real estate", body: "Site visits produce buyer and broker cards. Sharing a brochure with your digital card and seeing who opened it helps you prioritise follow-ups.", icon: "building" },
-          { title: "Manufacturing and export", body: "Trade fairs generate large batches of cards. Grouping them by event makes post-show follow-up manageable.", icon: "globe" },
-          { title: "Professional services", body: "Lawyers, chartered accountants and consultants rely on referrals. Recording who introduced you keeps the referral chain visible.", icon: "briefcase" },
-          { title: "Insurance and finance", body: "Advisors meet people at many small events. Natural-language search such as \"advisors I met in Pune\" helps you find them later.", icon: "rupee" },
+          { title: "Real Estate", body: "Site visits produce buyer and broker cards. Sharing a brochure with your digital card and seeing who opened it helps you prioritise follow-ups.", icon: "building" },
+          { title: "Manufacturing And Export", body: "Trade fairs generate large batches of cards. Grouping them by event makes post-show follow-up manageable.", icon: "globe" },
+          { title: "Professional Services", body: "Lawyers, chartered accountants and consultants rely on referrals. Recording who introduced you keeps the referral chain visible.", icon: "briefcase" },
+          { title: "Insurance And Finance", body: "Advisors meet people at many small events. Natural-language search such as \"advisors I met in Pune\" helps you find them later.", icon: "rupee" },
           { title: "Healthcare", body: "Doctors meet representatives and peers at conferences; scanning and tagging keeps those contacts organised.", icon: "check" },
-          { title: "Agencies and IT services", body: "Teams pitching under their own brand can use white label and custom domains on the Business plan.", icon: "palette" },
+          { title: "Agencies And IT Services", body: "Teams pitching under their own brand can use white label and custom domains on the Business plan.", icon: "palette" },
         ],
       },
       {
         type: "split",
-        heading: "Language matters in Indian networking",
+        heading: "Language Matters In Indian Networking",
         body: [
           "In many Indian industries, the follow-up that gets read is a WhatsApp message in the other person's language. eCard's AI can write WhatsApp messages in English, Hindi or Marathi and open them in WhatsApp in one tap.",
           "Email still matters for formal introductions, and eCard sends those from your own mailbox after a 5-second preview you can edit or cancel.",
@@ -243,11 +243,11 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Choosing a setup for your industry",
+        heading: "Choosing A Setup For Your Industry",
         steps: [
-          { title: "Count your cards", body: "Estimate monthly scans: 50 on Free, 1,000 on Starter, 5,000 on Professional, unlimited on Business." },
-          { title: "Count your people", body: "Free covers 5 users, Starter 20, Professional 100, and Business unlimited." },
-          { title: "List your systems", body: "If another tool must receive new contacts, you will need webhooks on Professional or above." },
+          { title: "Count Your Cards", body: "Estimate monthly scans: 50 on Free, 1,000 on Starter, 5,000 on Professional, unlimited on Business." },
+          { title: "Count Your People", body: "Free covers 5 users, Starter 20, Professional 100, and Business unlimited." },
+          { title: "List Your Systems", body: "If another tool must receive new contacts, you will need webhooks on Professional or above." },
         ],
       },
       {"type":"prose","heading":"Adapting the workflow to your field","paragraphs":["Whatever your industry, a good card workflow answers three questions: where did we meet, why does this person matter, and what is the next step. Tags and events answer the first, meeting memory and voice notes the second, and email or WhatsApp follow-ups the third.","Regulated professions should also think about consent. eCard's compliance checklist covers consent, export and deletion, but your own professional rules still apply, so check them before messaging contacts."]},

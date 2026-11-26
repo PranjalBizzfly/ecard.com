@@ -7,7 +7,7 @@ export const pages: PageDef[] = [
     title: "Help Center",
     seoTitle: "eCard Help Center",
     description: "Find answers about eCard accounts, sign-in, billing, scanning, email sending, Telegram and data privacy, or learn how to get in touch with the eCard team.",
-    h1: "How can we help?",
+    h1: "How Can We Help?",
     eyebrow: "Help",
     intro: "Choose a topic below. Each help page sticks to what eCard publicly documents and tells you when to rely on prompts inside the app.",
     variant: "support",
@@ -16,23 +16,23 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Help topics",
+        heading: "Help Topics",
         cards: [
           { title: "FAQ", body: "Quick answers to the most common questions.", icon: "help" },
-          { title: "Account & sign-in", body: "Signing up, signing in and keeping your account secure.", icon: "lock" },
-          { title: "Password reset", body: "Getting a reset link by email.", icon: "key" },
+          { title: "Account & Sign-in", body: "Signing up, signing in and keeping your account secure.", icon: "lock" },
+          { title: "Password Reset", body: "Getting a reset link by email.", icon: "key" },
           { title: "Billing", body: "Plans, payment methods, GST, trial and cancellation.", icon: "rupee" },
           { title: "Scanning", body: "Better scans, confidence scores and scan limits.", icon: "scan" },
-          { title: "Email sending", body: "SMTP setup and the 5-second send window.", icon: "mail" },
+          { title: "Email Sending", body: "SMTP setup and the 5-second send window.", icon: "mail" },
           { title: "Telegram", body: "Linking the bot and saving cards from chat.", icon: "send" },
-          { title: "Data & privacy", body: "Encryption, export, deletion and consent.", icon: "shield" },
+          { title: "Data & Privacy", body: "Encryption, export, deletion and consent.", icon: "shield" },
         ],
       },
       {
         type: "bullets",
-        heading: "Quick facts",
+        heading: "Quick Facts",
         items: [
-          "eCard runs in any phone browser — there is no app to install.",
+          "eCard runs in any phone browser. There is no app to install.",
           "The Free plan is ₹0 with 50 scans a month.",
           "New workspaces get a 14-day Professional trial; no card needed.",
           "The Telegram bot is linked from Settings → Telegram.",
@@ -41,12 +41,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Still stuck?",
+        title: "Still Stuck?",
         body: "See Contact Support for the ways to reach the eCard team.",
       },
       {
         type: "prose",
-        heading: "About these pages",
+        heading: "About These Pages",
         paragraphs: [
           "eCard's public site does not include full product documentation, so these help pages focus on verified facts and well-established general advice. Where a screen or button name isn't documented, we describe the task and ask you to follow the in-app prompts.",
         ],
@@ -65,7 +65,7 @@ export const pages: PageDef[] = [
     title: "FAQ",
     seoTitle: "eCard FAQ: Common Questions Answered",
     description: "Answers to common eCard questions: which AI models and email providers work, the free plan, the 14-day trial, payment options and cancelling any time.",
-    h1: "Frequently asked questions",
+    h1: "Frequently Asked Questions",
     eyebrow: "Help",
     intro: "The questions people ask most about eCard, answered from what eCard publishes on its own site.",
     variant: "support",
@@ -74,14 +74,14 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "eCard in one paragraph",
+        heading: "eCard In One Paragraph",
         paragraphs: [
           "eCard is an AI visiting-card CRM: scan, remember and follow up with every person you meet. You photograph a card, review the fields the AI extracts, keep the context of the meeting, and follow up by email from your own mailbox or by WhatsApp in English, Hindi or Marathi.",
         ],
       },
       {
         type: "table",
-        heading: "Plans at a glance",
+        heading: "Plans At A Glance",
         headers: ["Plan", "Monthly price", "Users", "Scans / month"],
         rows: [
           ["Free", "₹0", "5", "50"],
@@ -93,13 +93,13 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Included on every plan",
+        heading: "Included On Every Plan",
         items: ["AI card scanning", "Contacts, tags & events", "Bulk import & export", "Email outreach from your own mailbox", "WhatsApp messages", "Digital business card", "Telegram scanning bot"],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Yearly billing",
+        title: "Yearly Billing",
         body: "eCard says yearly billing saves about two months, but its site does not list yearly prices. Exact totals are shown at checkout.",
       },
     ],
@@ -118,9 +118,9 @@ export const pages: PageDef[] = [
     slug: "help/account-and-sign-in",
     category: "support",
     title: "Account & Sign-In",
-    seoTitle: "eCard Account and Sign-In Help",
+    seoTitle: "eCard Account And Sign-In Help",
     description: "Help with creating an eCard account, signing in with email and password, protecting your account with 2FA and what to do if you can't get in.",
-    h1: "Account and sign-in help",
+    h1: "Account And Sign-in Help",
     eyebrow: "Help",
     intro: "eCard accounts use your email and a password. Here is what to expect at sign-up and sign-in, and how to keep your account safe.",
     variant: "support",
@@ -129,16 +129,16 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Creating an account",
+        heading: "Creating An Account",
         steps: [
-          { title: "Open the sign-up page", body: "Go to ecard.gg/sign-up." },
-          { title: "Fill in the form", body: "Your name, an optional workspace name, your email and a password." },
-          { title: "Pick a plan", body: "The form includes a plan picker. Free costs ₹0; new workspaces also get a 14-day Professional trial." },
+          { title: "Open The Sign-up Page", body: "Go to ecard.gg/sign-up." },
+          { title: "Fill In The Form", body: "Your name, an optional workspace name, your email and a password." },
+          { title: "Pick A Plan", body: "The form includes a plan picker. Free costs ₹0; new workspaces also get a 14-day Professional trial." },
         ],
       },
       {
         type: "prose",
-        heading: "Signing in",
+        heading: "Signing In",
         paragraphs: [
           "Sign in at ecard.gg/sign-in with your email and password. Because eCard runs in the browser, you can sign in on any phone or computer.",
           "If you have enabled 2FA, you'll also enter a code from your authenticator app. Trusted devices can reduce repeat prompts on devices you use often.",
@@ -146,19 +146,19 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Can't sign in? Check these first",
+        heading: "Can't Sign In? Check These First",
         items: [
           "Is the email address spelled exactly as you registered it?",
           "Is Caps Lock on, or is your keyboard set to another language?",
           "Is your phone's clock correct? Authenticator codes depend on accurate time.",
-          "Forgotten password? Use the reset link — see Password Reset.",
+          "Forgotten password? Use the reset link, see Password Reset.",
           "Lost your 2FA device? Use one of your recovery codes.",
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Watch your login alerts",
+        title: "Watch Your Login Alerts",
         body: "eCard supports login alerts. If you get one for a sign-in that wasn't you, change your password and review your 2FA settings straight away.",
       },
     ],
@@ -176,7 +176,7 @@ export const pages: PageDef[] = [
     title: "Password Reset",
     seoTitle: "Reset Your eCard Password",
     description: "Forgot your eCard password? Request a reset link by email from the forgot-password page. The link expires after 30 minutes, so use it promptly.",
-    h1: "Reset your password",
+    h1: "Reset Your Password",
     eyebrow: "Help",
     intro: "If you've forgotten your password, eCard can email you a reset link. The link expires after 30 minutes.",
     variant: "support",
@@ -185,29 +185,29 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "How to reset",
+        heading: "How To Reset",
         steps: [
-          { title: "Open the forgot-password page", body: "Go to ecard.gg/forgot-password." },
-          { title: "Enter your email", body: "Use the address you signed up with." },
-          { title: "Open the email", body: "eCard sends a reset link to that address." },
-          { title: "Set a new password within 30 minutes", body: "The link expires after 30 minutes. If it has expired, request a new one." },
+          { title: "Open The Forgot-password Page", body: "Go to ecard.gg/forgot-password." },
+          { title: "Enter Your Email", body: "Use the address you signed up with." },
+          { title: "Open The Email", body: "eCard sends a reset link to that address." },
+          { title: "Set A New Password Within 30 Minutes", body: "The link expires after 30 minutes. If it has expired, request a new one." },
         ],
       },
       {
         type: "bullets",
-        heading: "Email didn't arrive?",
+        heading: "Email Didn't Arrive?",
         items: ["Wait a couple of minutes and check spam or promotions folders.", "Make sure you entered the address you registered with.", "Ask your IT team whether company filters block automated mail.", "Request a fresh link rather than reusing an old one."],
       },
       {
         type: "split",
-        heading: "Choosing a strong password",
+        heading: "Choosing A Strong Password",
         body: ["General guidance: a long passphrase is both easier to remember and harder to guess than a short, complex password. Use a password manager if you can."],
         points: ["At least 12 characters", "Not reused from another site", "Avoid names and dates", "Turn on 2FA as well"],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Resetting doesn't turn off 2FA",
+        title: "Resetting Doesn't Turn Off 2FA",
         body: "If 2FA is enabled, you'll still need your authenticator code or a recovery code to sign in after resetting.",
       },
     ],
@@ -222,9 +222,9 @@ export const pages: PageDef[] = [
     slug: "help/billing",
     category: "support",
     title: "Billing Help",
-    seoTitle: "eCard Billing Help: Plans, Payment and GST",
+    seoTitle: "eCard Billing Help: Plans, Payment And GST",
     description: "Billing help for eCard: monthly INR prices, UPI and card payments, GST, the 14-day trial, yearly billing and how cancellation works.",
-    h1: "Billing and payments",
+    h1: "Billing And Payments",
     eyebrow: "Help",
     intro: "eCard prices are in Indian rupees, billed monthly or yearly. Here's how payment, trials and cancellation work.",
     variant: "support",
@@ -233,9 +233,9 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Monthly prices",
+        heading: "Monthly Prices",
         headers: ["Plan", "Price / month", "Storage"],
-        rows: [["Free", "₹0", "1 GB"], ["Starter", "₹299", "25 GB"], ["Professional", "₹999", "250 GB"], ["Business", "₹2,999", "Unlimited"], ["Enterprise", "Custom — contact sales", "Unlimited"]],
+        rows: [["Free", "₹0", "1 GB"], ["Starter", "₹299", "25 GB"], ["Professional", "₹999", "250 GB"], ["Business", "₹2,999", "Unlimited"], ["Enterprise", "Custom, contact sales", "Unlimited"]],
       },
       {
         type: "cards",
@@ -248,7 +248,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Trial, yearly billing and cancellation",
+        heading: "Trial, Yearly Billing And Cancellation",
         items: [
           "New workspaces get a 14-day Professional trial with no card needed.",
           "Yearly billing saves about two months; exact yearly totals appear at checkout.",
@@ -258,7 +258,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Enterprise pricing",
+        title: "Enterprise Pricing",
         body: "Enterprise is custom-priced. Email sales@bizzfly.com to discuss it.",
       },
     ],
@@ -274,9 +274,9 @@ export const pages: PageDef[] = [
     slug: "help/scanning",
     category: "support",
     title: "Scanning Help",
-    seoTitle: "eCard Scanning Help: Fix Misreads and Limits",
+    seoTitle: "eCard Scanning Help: Fix Misreads And Limits",
     description: "Troubleshoot eCard card scans: improve photo quality, use confidence scores, correct fields before saving, and understand monthly scan limits by plan.",
-    h1: "Scanning help",
+    h1: "Scanning Help",
     eyebrow: "Help",
     intro: "Most scan problems come down to the photo or a field that needs a quick correction. Here's how to fix both.",
     variant: "support",
@@ -285,7 +285,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Common issues",
+        heading: "Common Issues",
         headers: ["Symptom", "Try this"],
         rows: [
           ["Fields are blank or wrong", "Retake in even light with the card filling the frame"],
@@ -297,7 +297,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Use the confidence scores",
+        heading: "Use The Confidence Scores",
         paragraphs: [
           "eCard gives each extracted field a confidence score, and nothing is saved until you review it. Look at lower-confidence fields first; they're the ones most likely to need a fix.",
           "If you bring your own AI key, a key pool with failover helps keep scanning working when one key fails or hits a provider limit.",
@@ -305,14 +305,14 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Scan limits",
+        heading: "Scan Limits",
         headers: ["Plan", "Scans / month"],
         rows: [["Free", "50"], ["Starter", "1,000"], ["Professional", "5,000"], ["Business", "Unlimited"], ["Enterprise", "Unlimited"]],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Trying a different model",
+        title: "Trying A Different Model",
         body: "You can choose Claude, OpenAI, Gemini, DeepSeek or Grok (plus Azure or a custom endpoint). If a particular card style reads poorly, comparing models can help.",
       },
     ],
@@ -327,9 +327,9 @@ export const pages: PageDef[] = [
     slug: "help/email-sending",
     category: "support",
     title: "Email Sending Help",
-    seoTitle: "eCard Email Sending Help: SMTP and Delivery",
+    seoTitle: "eCard Email Sending Help: SMTP And Delivery",
     description: "Fix eCard intro emails that won't send or land in spam. Check SMTP details, app passwords and deliverability, and use the 5-second edit-or-cancel window.",
-    h1: "Email sending help",
+    h1: "Email Sending Help",
     eyebrow: "Help",
     intro: "eCard sends intro emails from your own SMTP account. When something goes wrong, the cause is usually the connection details or your mail provider's rules.",
     variant: "support",
@@ -338,30 +338,30 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "If emails won't send",
+        heading: "If Emails Won't Send",
         steps: [
-          { title: "Re-check SMTP details", body: "Host, port, security setting and username must match your provider's instructions exactly." },
-          { title: "Use an app password", body: "Many providers, such as Gmail and Outlook, require an app-specific password when 2FA is on." },
-          { title: "Check provider limits", body: "Mail providers often cap how many messages you can send per day." },
-          { title: "Send yourself a test", body: "Confirm a single email arrives before sending to contacts." },
+          { title: "Recheck SMTP Details", body: "Host, port, security setting and username must match your provider's instructions exactly." },
+          { title: "Use An App Password", body: "Many providers, such as Gmail and Outlook, require an app-specific password when 2FA is on." },
+          { title: "Check Provider Limits", body: "Mail providers often cap how many messages you can send per day." },
+          { title: "Send Yourself A Test", body: "Confirm a single email arrives before sending to contacts." },
         ],
       },
       {
         type: "bullets",
-        heading: "If emails land in spam",
+        heading: "If Emails Land In Spam",
         intro: "General deliverability guidance:",
         items: ["Send from a real, established mailbox rather than a brand-new address.", "If you use your own domain, ask your IT team to set up SPF, DKIM and DMARC.", "Keep messages personal and short; avoid all-caps subjects.", "Don't email people who didn't share their details with you."],
       },
       {
         type: "split",
-        heading: "The 5-second window",
+        heading: "The 5-second Window",
         body: ["eCard shows you the AI draft and sends it after 5 seconds. During that time you can edit or cancel."],
         points: ["Preview first", "Edit or cancel within 5 seconds", "Sent from your own address"],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Supported providers",
+        title: "Supported Providers",
         body: "Gmail, Outlook, Zoho, SendGrid, Brevo, Mailgun, Amazon SES, Resend, or any SMTP host.",
       },
     ],
@@ -376,9 +376,9 @@ export const pages: PageDef[] = [
     slug: "help/telegram",
     category: "support",
     title: "Telegram Help",
-    seoTitle: "eCard Telegram Bot Help and Troubleshooting",
+    seoTitle: "eCard Telegram Bot Help And Troubleshooting",
     description: "Troubleshoot the eCard Telegram bot: linking with a one-time code from Settings → Telegram, sending card photos, and using the Open and Send buttons.",
-    h1: "Telegram help",
+    h1: "Telegram Help",
     eyebrow: "Help",
     intro: "The eCard Telegram bot saves a contact when you send it a photo of a card. Here's how to fix the most common problems.",
     variant: "support",
@@ -398,7 +398,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "How it should behave",
+        heading: "How It Should Behave",
         paragraphs: [
           "Once linked, sending a card photo saves the contact and the bot replies with Open and Send buttons. Open takes you to the contact in eCard; Send starts a follow-up.",
           "You can open the contact in the browser afterwards to review fields and add meeting notes.",
@@ -406,13 +406,13 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Good habits",
+        heading: "Good Habits",
         items: ["Keep your one-time code private.", "Send one card per photo.", "Review Telegram-saved contacts later in the day."],
       },
       {
         type: "callout",
         tone: "info",
-        title: "Included on every plan",
+        title: "Included On Every Plan",
         body: "The Telegram bot is part of eCard's base feature set, including the Free plan.",
       },
     ],
@@ -427,9 +427,9 @@ export const pages: PageDef[] = [
     slug: "help/data-and-privacy",
     category: "support",
     title: "Data & Privacy",
-    seoTitle: "eCard Data and Privacy Help",
+    seoTitle: "eCard Data And Privacy Help",
     description: "How eCard protects data: AES-256-GCM encryption for keys and SMTP passwords, audit logs, 2FA, and a compliance checklist for consent, export, deletion.",
-    h1: "Your data and privacy",
+    h1: "Your Data And Privacy",
     eyebrow: "Help",
     intro: "Your workspace holds other people's personal details. Here's what eCard states about protecting them, and how you can handle that data responsibly.",
     variant: "support",
@@ -438,23 +438,23 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What eCard states",
+        heading: "What eCard States",
         cards: [
-          { title: "Encrypted secrets", body: "API keys and SMTP passwords are encrypted with AES-256-GCM.", icon: "lock" },
-          { title: "Account security", body: "2FA with authenticator codes, recovery codes, trusted devices and login alerts.", icon: "shield" },
-          { title: "Audit log", body: "Workspaces keep a log of actions.", icon: "file" },
-          { title: "Compliance checklist", body: "Covers consent, export and deletion.", icon: "check" },
+          { title: "Encrypted Secrets", body: "API keys and SMTP passwords are encrypted with AES-256-GCM.", icon: "lock" },
+          { title: "Account Security", body: "2FA with authenticator codes, recovery codes, trusted devices and login alerts.", icon: "shield" },
+          { title: "Audit Log", body: "Workspaces keep a log of actions.", icon: "file" },
+          { title: "Compliance Checklist", body: "Covers consent, export and deletion.", icon: "check" },
         ],
       },
       {
         type: "bullets",
-        heading: "Handling contacts responsibly",
+        heading: "Handling Contacts Responsibly",
         intro: "General good practice:",
         items: ["Only save details people chose to share with you.", "Use the blacklist for anyone who asks not to be contacted.", "Archive contacts you no longer need.", "Export data only to systems you trust."],
       },
       {
         type: "prose",
-        heading: "Your own AI keys",
+        heading: "Your Own AI Keys",
         paragraphs: [
           "If you bring your own key for Claude, OpenAI, Gemini or another provider, card images are processed by that provider under your own account with them. Review your provider's data policies alongside eCard's.",
         ],
@@ -479,7 +479,7 @@ export const pages: PageDef[] = [
     title: "Contact Support",
     seoTitle: "Contact eCard Support",
     description: "How to get help with eCard: check the help pages first, gather the right details, and reach the eCard team. Enterprise enquiries go to sales@bizzfly.com.",
-    h1: "Contact support",
+    h1: "Contact Support",
     eyebrow: "Help",
     intro: "Most questions are answered in the Help Center. If yours isn't, here's how to reach the eCard team and what to include.",
     variant: "support",
@@ -488,30 +488,30 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Before you write",
+        heading: "Before You Write",
         steps: [
-          { title: "Search the help pages", body: "Check the FAQ and the topic page for your issue." },
-          { title: "Note the details", body: "Your workspace name, the plan you're on, what you did and what happened." },
-          { title: "Capture evidence", body: "A screenshot of any error message speeds things up. Never send passwords or API keys." },
+          { title: "Search The Help Pages", body: "Check the FAQ and the topic page for your issue." },
+          { title: "Note The Details", body: "Your workspace name, the plan you're on, what you did and what happened." },
+          { title: "Capture Evidence", body: "A screenshot of any error message speeds things up. Never send passwords or API keys." },
         ],
       },
       {
         type: "cards",
-        heading: "Who to contact",
+        heading: "Who To Contact",
         cards: [
-          { title: "Sales and Enterprise", body: "Email sales@bizzfly.com for Enterprise pricing and larger rollouts.", icon: "briefcase" },
-          { title: "Product questions", body: "Use the contact page on this site, or any help option shown inside the app when signed in.", icon: "help" },
+          { title: "Sales And Enterprise", body: "Email sales@bizzfly.com for Enterprise pricing and larger rollouts.", icon: "briefcase" },
+          { title: "Product Questions", body: "Use the contact page on this site, or any help option shown inside the app when signed in.", icon: "help" },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Response times",
+        title: "Response Times",
         body: "eCard hasn't published support hours or response-time commitments.",
       },
       {
         type: "bullets",
-        heading: "Never share",
+        heading: "Never Share",
         items: ["Your password", "2FA or recovery codes", "AI provider API keys", "SMTP passwords"],
       },
     ],
@@ -533,7 +533,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
     sections: [
       {
         type: "table",
-        heading: "Find the right page by symptom",
+        heading: "Find The Right Page By Symptom",
         intro: "Start from what you are seeing, not from the feature name.",
         headers: ["What you're seeing", "Go to"],
         rows: [
@@ -548,22 +548,22 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
       },
       {
         type: "steps",
-        heading: "A quick self-check before anything else",
+        heading: "A Quick Self-check Before Anything Else",
         intro: "These general checks clear up a surprising share of problems in any web app.",
         steps: [
-          { title: "Reload the page", body: "A stale tab can show out-of-date information, especially after changing settings in another tab." },
-          { title: "Confirm the workspace", body: "If you belong to more than one workspace, check you are in the one you expect." },
-          { title: "Check your role", body: "Some settings are only available to owners or admins. Ask one of them if an option seems missing." },
-          { title: "Try another browser", body: "eCard runs in the browser, so an outdated browser or an aggressive extension can get in the way." },
+          { title: "Reload The Page", body: "A stale tab can show out-of-date information, especially after changing settings in another tab." },
+          { title: "Confirm The Workspace", body: "If you belong to more than one workspace, check you are in the one you expect." },
+          { title: "Check Your Role", body: "Some settings are only available to owners or admins. Ask one of them if an option seems missing." },
+          { title: "Try Another Browser", body: "eCard runs in the browser, so an outdated browser or an aggressive extension can get in the way." },
         ],
       },
       {
         type: "bullets",
-        heading: "What these help pages won't do",
+        heading: "What These Help Pages Won't Do",
         items: [
           "Quote menu paths or button names eCard hasn't published. The one path we name is Settings → Telegram.",
           "Promise response times or support hours, since eCard hasn't published any.",
-          "Ask for your password, codes or API keys — no legitimate help process needs them.",
+          "Ask for your password, codes or API keys, no legitimate help process needs them.",
         ],
       },
     ],
@@ -575,7 +575,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
     sections: [
       {
         type: "bullets",
-        heading: "Questions about plan limits",
+        heading: "Questions About Plan Limits",
         items: [
           "Users: 5 on Free, 20 on Starter, 100 on Professional, unlimited on Business and Enterprise.",
           "Storage: 1 GB on Free, 25 GB on Starter, 250 GB on Professional, unlimited on Business and Enterprise.",
@@ -585,7 +585,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
       },
       {
         type: "table",
-        heading: "Sample: which plan fits?",
+        heading: "Sample: Which Plan Fits?",
         intro: "Sample situations matched against eCard's published limits. Your own needs may differ.",
         headers: ["Sample situation", "Plan that fits the limits"],
         rows: [
@@ -597,7 +597,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
       },
       {
         type: "prose",
-        heading: "What these answers don't cover",
+        heading: "What These Answers Don't Cover",
         paragraphs: [
           "eCard hasn't published an API reference, payload formats, yearly prices or support response times, so this FAQ doesn't give them either. Where something isn't documented, the honest answer is to check the app or ask the eCard team.",
         ],
@@ -616,17 +616,17 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
     sections: [
       {
         type: "steps",
-        heading: "Troubleshooting tree: \"I can't get in\"",
+        heading: "Troubleshooting Tree: \"I Can't Get In\"",
         steps: [
-          { title: "Is the password being rejected?", body: "Check caps lock and keyboard language, then use the password reset flow rather than guessing repeatedly." },
-          { title: "Is the password accepted but the 2FA code refused?", body: "Make sure your phone's clock is set automatically and enter a fresh code from your authenticator app." },
-          { title: "No access to the authenticator at all?", body: "Sign in with one of your saved recovery codes, then set up 2FA again." },
-          { title: "Signed in but the workspace looks empty?", body: "You may be in a different workspace, or your role may limit what you see. Ask an owner or admin." },
+          { title: "Is The Password Being Rejected?", body: "Check caps lock and keyboard language, then use the password reset flow rather than guessing repeatedly." },
+          { title: "Is The Password Accepted But The 2FA Code Refused?", body: "Make sure your phone's clock is set automatically and enter a fresh code from your authenticator app." },
+          { title: "No Access To The Authenticator At All?", body: "Sign in with one of your saved recovery codes, then set up 2FA again." },
+          { title: "Signed In But The Workspace Looks Empty?", body: "You may be in a different workspace, or your role may limit what you see. Ask an owner or admin." },
         ],
       },
       {
         type: "bullets",
-        heading: "Sign-in hygiene checklist",
+        heading: "Sign-in Hygiene Checklist",
         items: [
           "Use a unique password stored in a password manager.",
           "Turn on 2FA and keep recovery codes somewhere other than your phone.",
@@ -644,26 +644,26 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
     sections: [
       {
         type: "bullets",
-        heading: "Before you request a reset",
+        heading: "Before You Request A Reset",
         items: [
-          "Check your password manager — the saved entry may be under an older address or a different site name.",
+          "Check your password manager, the saved entry may be under an older address or a different site name.",
           "Make sure you're using the email address you signed up with.",
           "Have access to that mailbox on the device in front of you.",
         ],
       },
       {
         type: "steps",
-        heading: "If the reset link doesn't work",
+        heading: "If The Reset Link Doesn't Work",
         steps: [
-          { title: "Link says it has expired", body: "Reset links are usually time-limited. Request a new one and use it promptly." },
-          { title: "Several emails arrived", body: "Use the newest one; older links are often invalidated by a newer request." },
-          { title: "Link opens in the wrong browser", body: "Copy it into the browser where you normally use eCard." },
-          { title: "Work email filters links", body: "Some company email security tools pre-click links. Ask your IT team to allow the message, or try again from a different network." },
+          { title: "Link Says It Has Expired", body: "Reset links are usually time-limited. Request a new one and use it promptly." },
+          { title: "Several Emails Arrived", body: "Use the newest one; older links are often invalidated by a newer request." },
+          { title: "Link Opens In The Wrong Browser", body: "Copy it into the browser where you normally use eCard." },
+          { title: "Work Email Filters Links", body: "Some company email security tools pre-click links. Ask your IT team to allow the message, or try again from a different network." },
         ],
       },
       {
         type: "bullets",
-        heading: "After a reset",
+        heading: "After A Reset",
         items: [
           "Update the entry in your password manager immediately.",
           "Review trusted devices and remove any you don't recognise.",
@@ -680,7 +680,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
     sections: [
       {
         type: "table",
-        heading: "What each plan adds",
+        heading: "What Each Plan Adds",
         intro: "Monthly prices in INR, from eCard's pricing page. Every plan includes the base set of features.",
         headers: ["Plan", "Price", "Adds"],
         rows: [
@@ -693,20 +693,20 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
       },
       {
         type: "steps",
-        heading: "Troubleshooting a failed payment",
+        heading: "Troubleshooting A Failed Payment",
         intro: "General checks for online payments in India and abroad.",
         steps: [
-          { title: "UPI request timed out", body: "Approve the request in your UPI app promptly, and check your daily UPI limit with your bank." },
-          { title: "Card declined", body: "Some cards block online or international transactions by default. Enable them in your bank app, or try another card." },
-          { title: "Charged but plan not updated", body: "Wait a few minutes and reload. If it still hasn't changed, contact eCard with the payment reference — never your full card number." },
-          { title: "Paying from outside India", body: "International customers pay by card. Local currency is shown at checkout for supported countries." },
+          { title: "UPI Request Timed Out", body: "Approve the request in your UPI app promptly, and check your daily UPI limit with your bank." },
+          { title: "Card Declined", body: "Some cards block online or international transactions by default. Enable them in your bank app, or try another card." },
+          { title: "Charged But Plan Not Updated", body: "Wait a few minutes and reload. If it still hasn't changed, contact eCard with the payment reference, never your full card number." },
+          { title: "Paying From Outside India", body: "International customers pay by card. Local currency is shown at checkout for supported countries." },
         ],
       },
       {
         type: "bullets",
-        heading: "Before you upgrade, check",
+        heading: "Before You Upgrade, Check",
         items: [
-          "How many people need access — the user limit is often what forces an upgrade.",
+          "How many people need access, the user limit is often what forces an upgrade.",
           "Your monthly scan volume, including busy event months.",
           "Whether you need webhooks (Professional) or white label (Business).",
           "Who in your company needs the GST invoice details.",
@@ -721,7 +721,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
     sections: [
       {
         type: "table",
-        heading: "Symptom, likely cause, fix",
+        heading: "Symptom, Likely Cause, Fix",
         headers: ["Symptom", "Likely cause", "Try"],
         rows: [
           ["Name and title swapped", "Unusual layout or decorative fonts", "Fix the fields in review; try another model for similar cards"],
@@ -733,7 +733,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
       },
       {
         type: "split",
-        heading: "Sample: a bilingual card",
+        heading: "Sample: A Bilingual Card",
         body: [
           "Sample: a card for Sunil Patil, Distributor, with English on the front and Marathi on the back. The first scan of the front alone picks up the English name and phone number but misses the office address, which only appears on the back.",
           "Scanning both sides fills in the address. You check the low-confidence fields, keep the English spelling of the name as the main version, and save.",
@@ -742,7 +742,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
       },
       {
         type: "bullets",
-        heading: "Common mistakes",
+        heading: "Common Mistakes",
         items: [
           "Using one AI key for a whole team at an event, so it gets rate-limited at the busiest moment. A key pool with several keys fails over instead.",
           "Saving without review when tired at the end of a long day.",
@@ -759,17 +759,17 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
     sections: [
       {
         type: "bullets",
-        heading: "Before you send to real contacts",
+        heading: "Before You Send To Real Contacts",
         items: [
           "Send a test intro to an address you own and check how it looks on a phone.",
-          "Check the From name — it should be your name, not a mailbox ID.",
+          "Check the From name: it should be your name, not a mailbox ID.",
           "Confirm your domain has SPF and DKIM records for the service you send through.",
           "Read the AI draft. You can edit it, and the preview is your chance to catch a wrong name or company.",
         ],
       },
       {
         type: "split",
-        heading: "Sample: catching a mistake in the 5-second window",
+        heading: "Sample: Catching A Mistake In The 5-second Window",
         body: [
           "Sample: you scan a card for Kavya Iyer, Consultant, and preview the intro. Just after you confirm, you notice the draft refers to the wrong event.",
           "Because eCard waits 5 seconds before sending, you cancel, fix the line, and send again. The recipient only ever sees the corrected version.",
@@ -778,7 +778,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
       },
       {
         type: "bullets",
-        heading: "Common mistakes",
+        heading: "Common Mistakes",
         items: [
           "Using your normal password where your provider requires an app password.",
           "Sending lots of intros at once from a brand-new mailbox, which can look suspicious to spam filters.",
@@ -795,7 +795,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
     sections: [
       {
         type: "bullets",
-        heading: "Before you report a problem",
+        heading: "Before You Report A Problem",
         items: [
           "Confirm you linked the bot from the right workspace using the one-time code in Settings → Telegram.",
           "Check that your phone has a data connection and that the photo actually sent.",
@@ -805,7 +805,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
       },
       {
         type: "table",
-        heading: "Telegram or browser?",
+        heading: "Telegram Or Browser?",
         intro: "Both create the same contacts; choose by situation.",
         headers: ["Situation", "Better choice", "Why"],
         rows: [
@@ -817,7 +817,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
       },
       {
         type: "bullets",
-        heading: "Common mistakes",
+        heading: "Common Mistakes",
         items: [
           "Sharing a linking code with a colleague. Each person should link their own Telegram account.",
           "Sending a screenshot of a whole chat instead of the card itself.",
@@ -833,7 +833,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
     sections: [
       {
         type: "bullets",
-        heading: "A privacy checklist for your workspace",
+        heading: "A Privacy Checklist For Your Workspace",
         intro: "General good practice, using the tools eCard says it provides.",
         items: [
           "Give each person the least-privileged role they need: owner, admin, manager, member or scan-only guest.",
@@ -845,20 +845,20 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
       },
       {
         type: "steps",
-        heading: "Handling a request from someone in your contacts",
+        heading: "Handling A Request From Someone In Your Contacts",
         intro: "Sample flow for when a contact asks what you hold about them, or asks to be removed. This is general guidance, not legal advice.",
         steps: [
-          { title: "Confirm who is asking", body: "Make sure the request comes from the person themselves." },
-          { title: "Find the record", body: "Search for them, including merged duplicates and archived contacts." },
-          { title: "Export or delete", body: "Use eCard's export or deletion tools as appropriate." },
-          { title: "Stop future contact", body: "If they asked not to be contacted, blacklist them so they aren't re-added from an old card." },
-          { title: "Keep a note", body: "Record when and how you handled the request, in line with your own policies." },
+          { title: "Confirm Who Is Asking", body: "Make sure the request comes from the person themselves." },
+          { title: "Find The Record", body: "Search for them, including merged duplicates and archived contacts." },
+          { title: "Export Or Delete", body: "Use eCard's export or deletion tools as appropriate." },
+          { title: "Stop Future Contact", body: "If they asked not to be contacted, blacklist them so they aren't readded from an old card." },
+          { title: "Keep A Note", body: "Record when and how you handled the request, in line with your own policies." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Your AI provider's terms apply too",
+        title: "Your AI Provider's Terms Apply Too",
         body: "When you bring your own key, card images are read by the AI provider you choose. Review that provider's data terms to see how they handle what you send.",
       },
     ],
@@ -870,16 +870,16 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
     sections: [
       {
         type: "split",
-        heading: "Sample: a support message that gets solved quickly",
+        heading: "Sample: A Support Message That Gets Solved Quickly",
         body: [
           "Sample: \"Workspace: Sample Realty. Plan: Starter. Since this morning, intro emails fail after I confirm them. I'm sending through Zoho Mail over SMTP. I changed my Zoho password yesterday. Screenshot of the error attached.\"",
-          "It names the workspace and plan, says when the problem started, describes what was being done, mentions a recent change and includes evidence — without sharing any password.",
+          "It names the workspace and plan, says when the problem started, describes what was being done, mentions a recent change and includes evidence, without sharing any password.",
         ],
         points: ["Workspace and plan", "When it started", "What you did", "What changed recently", "A screenshot, no secrets"],
       },
       {
         type: "table",
-        heading: "Extra details by problem type",
+        heading: "Extra Details By Problem Type",
         headers: ["Problem", "Also include"],
         rows: [
           ["Scanning", "The AI provider you use and whether the card is unusual (bilingual, vertical, very glossy)"],
@@ -891,7 +891,7 @@ const EXTRA: Record<string, { sections: Section[]; faqs?: FAQ[]; replaceFaqs?: b
       },
       {
         type: "bullets",
-        heading: "Common mistakes when asking for help",
+        heading: "Common Mistakes When Asking For Help",
         items: [
           "Sending one vague line such as \"it's not working\".",
           "Pasting an API key or SMTP password to prove a setting is right.",
@@ -913,7 +913,7 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       {
         type: "callout",
         tone: "tip",
-        title: "Bookmark this page",
+        title: "Bookmark This Page",
         body: "Save the Help Center in your phone browser so it's one tap away at events, when you're most likely to need a quick answer.",
       },
     ],
@@ -922,7 +922,7 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Questions to ask yourself before choosing a plan",
+        heading: "Questions To Ask Yourself Before Choosing A Plan",
         items: [
           "How many cards do I scan in my busiest month, not my average one?",
           "Will colleagues need their own access in the next few months?",
@@ -938,7 +938,7 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "split",
-        heading: "Sample: an unexpected login alert",
+        heading: "Sample: An Unexpected Login Alert",
         body: [
           "Sample: Imran, a member of a sample agency workspace, gets a login alert for a sign-in he doesn't recognise late at night.",
           "He changes his password, removes unfamiliar trusted devices, turns on 2FA, and tells his workspace admin, who reviews the audit log for anything unusual.",
@@ -951,7 +951,7 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "split",
-        heading: "Sample: a reset email that never arrived",
+        heading: "Sample: A Reset Email That Never Arrived",
         body: [
           "Sample: Leena requests a reset but sees nothing. She checks spam and promotions, finds nothing, then realises she signed up with her old work address.",
           "She requests the reset again for that address, uses the newest link straight away, and updates her password manager entry with the right email.",
@@ -964,7 +964,7 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "split",
-        heading: "Sample: upgrading mid-month for an event",
+        heading: "Sample: Upgrading Mid-month For An Event",
         body: [
           "Sample: a five-person team on Free expects about 400 cards from a two-day expo, well beyond the 50-scan monthly allowance.",
           "Starter at ₹299 a month covers 1,000 scans and 20 users. After the expo they can review whether to stay on Starter; eCard lets you cancel any time and keep access until the end of the period.",
@@ -981,7 +981,7 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       {
         type: "callout",
         tone: "tip",
-        title: "Review in batches",
+        title: "Review In Batches",
         body: "After an event, review scans in one sitting while the day is fresh, rather than one at a time over a week.",
       },
     ],
@@ -990,11 +990,11 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "steps",
-        heading: "Troubleshooting tree for a single bounced email",
+        heading: "Troubleshooting Tree For A Single Bounced Email",
         steps: [
-          { title: "Check the address", body: "A misread character in the scanned email field is the most common cause. Compare it with the card." },
-          { title: "Read the bounce message", body: "\"User unknown\" means the address is wrong; \"mailbox full\" or a temporary error means try again later." },
-          { title: "Try the other channel", body: "If email keeps failing, a WhatsApp message may reach them. Then correct the email field so future intros go to the right address." },
+          { title: "Check The Address", body: "A misread character in the scanned email field is the most common cause. Compare it with the card." },
+          { title: "Read The Bounce Message", body: "\"User unknown\" means the address is wrong; \"mailbox full\" or a temporary error means try again later." },
+          { title: "Try The Other Channel", body: "If email keeps failing, a WhatsApp message may reach them. Then correct the email field so future intros go to the right address." },
         ],
       },
     ],
@@ -1003,7 +1003,7 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "split",
-        heading: "Sample: relinking after switching phones",
+        heading: "Sample: Relinking After Switching Phones",
         body: [
           "Sample: Deepak moves to a new phone and signs in to Telegram again. His photos to the bot still arrive, but he wants to confirm they reach the right workspace.",
           "He sends a test photo of his own card, checks that it appears in his workspace in the browser, and deletes the test contact. If it had not appeared, he would generate a new code in Settings → Telegram and link again.",
@@ -1019,11 +1019,11 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Common mistakes",
+        heading: "Common Mistakes",
         items: [
           "Exporting the whole contact list to a personal laptop and forgetting about it.",
           "Keeping former colleagues in the workspace long after they leave.",
-          "Re-scanning a card from someone who asked to be removed, without checking the blacklist.",
+          "Rescanning a card from someone who asked to be removed, without checking the blacklist.",
           "Sharing one AI key or SMTP password over chat.",
           "Adding notes about people that you wouldn't be comfortable with them reading.",
         ],
@@ -1037,13 +1037,13 @@ const MORE: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "steps",
-        heading: "Try these before you write",
+        heading: "Try These Before You Write",
         intro: "Quick checks that often solve the problem outright.",
         steps: [
-          { title: "Reload and sign in again", body: "Clears stale sessions and out-of-date screens." },
-          { title: "Check your role", body: "If a setting is missing, an owner or admin may need to make the change." },
-          { title: "Ask your workspace admin", body: "They can often answer questions about plan limits, roles and shared settings straight away." },
-          { title: "Check the related help page", body: "Scanning, email sending, Telegram, billing and sign-in each have their own troubleshooting steps in the Help Center." },
+          { title: "Reload And Sign In Again", body: "Clears stale sessions and out-of-date screens." },
+          { title: "Check Your Role", body: "If a setting is missing, an owner or admin may need to make the change." },
+          { title: "Ask Your Workspace Admin", body: "They can often answer questions about plan limits, roles and shared settings straight away." },
+          { title: "Check The Related Help Page", body: "Scanning, email sending, Telegram, billing and sign-in each have their own troubleshooting steps in the Help Center." },
         ],
       },
     ],

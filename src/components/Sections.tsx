@@ -1,10 +1,11 @@
 import { AlertTriangle, Info, Lightbulb } from "lucide-react";
 import type { Section } from "@/content/types";
 import { Icon } from "./Icon";
+import { toTitleCase } from "@/lib/text";
 
 export const sectionId = (h: string) => h.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
-const H2 = ({ children }: { children: string }) => <h2 className="ip-h2">{children}</h2>;
+const H2 = ({ children }: { children: string }) => <h2 className="ip-h2">{toTitleCase(children)}</h2>;
 const Lead = ({ t }: { t?: string }) => (t ? <p className="ip-lead">{t}</p> : null);
 
 /** One body section of the inner-page article (ref spec §5.3–5.7): unboxed, separated by hairlines. */
@@ -36,7 +37,7 @@ export function SectionBlock({ s }: { s: Section; index?: number }) {
             {s.steps.map((st, i) => (
               <li key={st.title} className="ip-card">
                 <span className="ip-num" aria-hidden>{i + 1}</span>
-                <div><h3 className="font-bold text-ink-950">{st.title}</h3><p className="mt-1 text-[0.95rem] leading-relaxed text-ink-700">{st.body}</p></div>
+                <div><h3 className="font-bold text-ink-950">{toTitleCase(st.title)}</h3><p className="mt-1 text-[0.95rem] leading-relaxed text-ink-700">{st.body}</p></div>
               </li>
             ))}
           </ol>
@@ -50,7 +51,7 @@ export function SectionBlock({ s }: { s: Section; index?: number }) {
             {s.cards.map((c) => (
               <li key={c.title} className="ip-card">
                 {c.icon && <span className="ip-ic mb-4"><Icon name={c.icon} className="size-5" /></span>}
-                <h3 className="font-bold leading-snug text-ink-950">{c.title}</h3>
+                <h3 className="font-bold leading-snug text-ink-950">{toTitleCase(c.title)}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink-700">{c.body}</p>
               </li>
             ))}
@@ -75,7 +76,7 @@ export function SectionBlock({ s }: { s: Section; index?: number }) {
       return (
         <aside className={`ip-callout ${cls}`}>
           <I className="mt-0.5 size-5 shrink-0 text-ink-950" aria-hidden />
-          <div><p>{s.title}</p><p>{s.body}</p></div>
+          <div><p>{toTitleCase(s.title)}</p><p>{s.body}</p></div>
         </aside>
       );
     }

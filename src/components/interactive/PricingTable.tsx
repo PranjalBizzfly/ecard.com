@@ -15,7 +15,7 @@ export function PricingTable() {
           {(["monthly", "yearly"] as const).map((c) => (
             <button key={c} type="button" role="radio" aria-checked={cycle === c} onClick={() => setCycle(c)}
               className={`rounded-full px-5 py-2 text-sm font-semibold capitalize transition ${cycle === c ? "bg-night text-white" : "text-ink-500 hover:text-ink-950"}`}>
-              {c}{c === "yearly" && <span className="ml-2 rounded-full bg-mint-100 px-2 py-0.5 text-[11px] text-mint-600">save ~2 months</span>}
+              {c === "monthly" ? "Monthly" : "Yearly"}{c === "yearly" && <span className="ml-2 rounded-full bg-mint-100 px-2 py-0.5 text-[11px] text-mint-600">Save ~2 Months</span>}
             </button>
           ))}
         </div>

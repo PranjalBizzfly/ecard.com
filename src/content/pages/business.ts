@@ -5,9 +5,9 @@ export const pages: PageDef[] = [
     slug: "partners",
     category: "business",
     title: "Partners",
-    seoTitle: "Partnering with eCard: What Is Published Today",
+    seoTitle: "Partnering With eCard: What Is Published Today",
     description: "eCard has not yet published a partner programme. See what a partner page would cover, what is verified about eCard today, and how to start a conversation.",
-    h1: "Working with eCard as a partner",
+    h1: "Working With eCard As A Partner",
     eyebrow: "Partners",
     intro: "This page is the starting point for anyone who wants to work alongside eCard, the AI visiting-card CRM. eCard has not yet published a formal partner programme, so we explain what is known, what is not, and how to reach the team.",
     variant: "reference",
@@ -17,12 +17,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "eCard has not yet published a partner programme, partner tiers, benefits, commission rates or a partner directory. Nothing on this page should be read as an offer. Partnership enquiries can be sent to sales@bizzfly.com, and any arrangement would be confirmed in writing by eCard.",
       },
       {
         type: "prose",
-        heading: "Why a partner page exists at all",
+        heading: "Why A Partner Page Exists At All",
         paragraphs: [
           "Most software companies eventually work with consultants, agencies and implementers who help customers adopt the product. A partner section is where those relationships are usually explained: who the partners are, what they do, and how a new firm can join. eCard keeps this page in place so that visitors who arrive looking for that information get an honest answer rather than a dead link.",
           "Today, eCard is a self-serve product. Anyone can sign up at ecard.gg, start on the Free plan with 50 scans a month, or try Professional for 14 days without entering a card. That means most teams do not need a partner to get started. Where a larger organisation wants help, the published route is the Enterprise contact, sales@bizzfly.com.",
@@ -30,18 +30,18 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "What a partner section would typically contain",
+        heading: "What A Partner Section Would Typically Contain",
         intro: "When a vendor publishes a partner programme, it usually covers the areas below. eCard has not published any of these yet; they are listed so you know what to ask about.",
         cards: [
-          { title: "Partner types", body: "Categories such as referral partners, implementation consultants or technology partners, each with different responsibilities and expectations.", icon: "layers" },
+          { title: "Partner Types", body: "Categories such as referral partners, implementation consultants or technology partners, each with different responsibilities and expectations.", icon: "layers" },
           { title: "Eligibility", body: "The kind of firm, experience or customer base a vendor looks for before accepting an application.", icon: "check" },
-          { title: "Commercial terms", body: "How partners are rewarded, if at all. eCard has not published any commission or margin structure.", icon: "rupee" },
+          { title: "Commercial Terms", body: "How partners are rewarded, if at all. eCard has not published any commission or margin structure.", icon: "rupee" },
           { title: "Enablement", body: "Training, product access and materials that help partners represent the product accurately.", icon: "book" },
         ],
       },
       {
         type: "split",
-        heading: "What is verified about eCard today",
+        heading: "What Is Verified About eCard Today",
         body: [
           "If you are evaluating whether eCard fits the clients you serve, these facts come straight from ecard.gg and are safe to rely on.",
           "Pricing is published in INR per month: Free at ₹0, Starter at ₹299, Professional at ₹999, Business at ₹2,999 and Enterprise on custom terms.",
@@ -57,12 +57,12 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "How to start a partnership conversation",
+        heading: "How To Start A Partnership Conversation",
         steps: [
-          { title: "Try the product yourself", body: "Create a free workspace and scan a few cards so you understand the workflow you would be recommending." },
-          { title: "Write a short introduction", body: "Explain who you are, who your clients are and what kind of collaboration you have in mind." },
-          { title: "Email the published contact", body: "Send it to sales@bizzfly.com. This is the only contact eCard currently publishes for commercial enquiries." },
-          { title: "Wait for written confirmation", body: "Treat any arrangement as unconfirmed until eCard sets it out in writing." },
+          { title: "Try The Product Yourself", body: "Create a free workspace and scan a few cards so you understand the workflow you would be recommending." },
+          { title: "Write A Short Introduction", body: "Explain who you are, who your clients are and what kind of collaboration you have in mind." },
+          { title: "Email The Published Contact", body: "Send it to sales@bizzfly.com. This is the only contact eCard currently publishes for commercial enquiries." },
+          { title: "Wait For Written Confirmation", body: "Treat any arrangement as unconfirmed until eCard sets it out in writing." },
         ],
       },
     ],
@@ -78,10 +78,10 @@ export const pages: PageDef[] = [
   {
     slug: "partners/become-a-partner",
     category: "business",
-    title: "Become a Partner",
-    seoTitle: "Become an eCard Partner: How to Enquire",
+    title: "Become A Partner",
+    seoTitle: "Become An eCard Partner: How To Enquire",
     description: "Thinking about partnering with eCard? No application process is published yet. Learn how to prepare a useful enquiry and where to send it today.",
-    h1: "Applying to partner with eCard",
+    h1: "Applying To Partner With eCard",
     eyebrow: "Partners",
     intro: "If you run an agency, consultancy or service firm and want to bring eCard to your clients, this page explains how to approach it. eCard has not yet published an application form or partner criteria, so the process today is a direct conversation.",
     variant: "guide",
@@ -91,12 +91,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No published application process",
+        title: "No Published Application Process",
         body: "eCard has not yet published partner eligibility rules, an application form, onboarding steps or partner benefits. Enquiries go to sales@bizzfly.com. Nothing is agreed until eCard confirms it in writing.",
       },
       {
         type: "bullets",
-        heading: "Prepare these details before you write",
+        heading: "Prepare These Details Before You Write",
         intro: "A clear enquiry is easier to answer. These points help any vendor understand whether a partnership makes sense.",
         items: [
           "Your firm’s name, location and the services you provide.",
@@ -109,7 +109,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Get to know the product first",
+        heading: "Get To Know The Product First",
         paragraphs: [
           "The most useful partners understand the product well enough to explain it honestly. Before writing to eCard, create a free workspace and use it for a week. Scan a handful of cards from different sources, review the extracted fields and their confidence scores, and send a test intro email from your own mailbox. Try the Telegram bot by linking it with the one-time code in Settings → Telegram.",
           "If your clients care about branding, note that white-label (logo, colours and a custom domain) is included from the Business plan at ₹2,999 a month. If they need webhooks to push new contacts into another system, those start on Professional at ₹999. Knowing these boundaries will make your conversation with eCard more focused.",
@@ -117,7 +117,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Plan facts partners usually ask about",
+        heading: "Plan Facts Partners Usually Ask About",
         intro: "Published monthly prices in INR. Yearly billing saves about two months; exact yearly totals are shown at checkout.",
         headers: ["Plan", "Price / month", "Users", "Scans / month"],
         rows: [
@@ -130,7 +130,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "What to expect after you write",
+        heading: "What To Expect After You Write",
         paragraphs: [
           "Because no partner programme is published, there is no promised response time, review stage or approval outcome. A reasonable expectation is a conversation about your clients and whether eCard is a fit. If an arrangement is offered, ask for its terms in writing, including how referrals are tracked, what support you can expect and how customer data would be handled.",
           "Until that happens, you are welcome to recommend eCard to clients in the same way anyone can: point them to ecard.gg, where they can start free and upgrade when they need to.",
@@ -149,10 +149,10 @@ export const pages: PageDef[] = [
   {
     slug: "partners/find-a-partner",
     category: "business",
-    title: "Find a Partner",
-    seoTitle: "Find an eCard Partner or Implementation Help",
+    title: "Find A Partner",
+    seoTitle: "Find An eCard Partner Or Implementation Help",
     description: "Looking for an eCard partner to help your team? No partner directory is published. Here is how to get set up yourself or ask eCard for help.",
-    h1: "Finding help to roll out eCard",
+    h1: "Finding Help To Roll Out eCard",
     eyebrow: "Partners",
     intro: "Teams sometimes want an outside firm to help them adopt a new tool. eCard has not published a partner directory, so this page shows how to get started on your own and where to ask when you need more help.",
     variant: "support",
@@ -162,24 +162,24 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No partner directory yet",
+        title: "No Partner Directory Yet",
         body: "eCard has not yet published a list of partners, consultants or implementers. Be cautious of any firm that describes itself as an official eCard partner unless eCard has confirmed it. For Enterprise help, write to sales@bizzfly.com.",
       },
       {
         type: "steps",
-        heading: "Roll out eCard without a partner",
+        heading: "Roll Out eCard Without A Partner",
         intro: "eCard is built to be self-serve in any phone browser. Most teams can follow these steps on their own.",
         steps: [
-          { title: "Create the workspace", body: "Sign up at ecard.gg. New workspaces get a 14-day Professional trial with no card needed." },
-          { title: "Choose and add an AI key", body: "Pick the model that reads your cards, such as Claude, OpenAI, Gemini, DeepSeek or Grok, and add your own key. You can add several keys for failover." },
-          { title: "Connect your mailbox", body: "Link Gmail, Outlook, Zoho or any SMTP host so intro emails go out from your own address." },
-          { title: "Invite the team with the right roles", body: "Use owner, admin, manager, member or scan-only guest roles so each person sees what they need." },
-          { title: "Turn on security", body: "Ask everyone to enable two-factor authentication and store their recovery codes safely." },
+          { title: "Create The Workspace", body: "Sign up at ecard.gg. New workspaces get a 14-day Professional trial with no card needed." },
+          { title: "Choose And Add An AI Key", body: "Pick the model that reads your cards, such as Claude, OpenAI, Gemini, DeepSeek or Grok, and add your own key. You can add several keys for failover." },
+          { title: "Connect Your Mailbox", body: "Link Gmail, Outlook, Zoho or any SMTP host so intro emails go out from your own address." },
+          { title: "Invite The Team With The Right Roles", body: "Use owner, admin, manager, member or scan-only guest roles so each person sees what they need." },
+          { title: "Turn On Security", body: "Ask everyone to enable two-factor authentication and store their recovery codes safely." },
         ],
       },
       {
         type: "bullets",
-        heading: "If you hire an outside consultant anyway",
+        heading: "If You Hire An Outside Consultant Anyway",
         intro: "General guidance for choosing any implementation helper, not a statement about eCard partners:",
         items: [
           "Ask what they will actually configure and what your team will own afterwards.",
@@ -191,16 +191,16 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Where to find help today",
+        heading: "Where To Find Help Today",
         cards: [
           { title: "Guides", body: "Step-by-step articles in the guides section cover getting started, scanning and follow-up.", icon: "book" },
-          { title: "Help centre", body: "Answers to common questions about sign-in, billing, scanning and the Telegram bot.", icon: "help" },
-          { title: "Enterprise contact", body: "Larger organisations can write to sales@bizzfly.com about custom terms.", icon: "mail" },
+          { title: "Help Centre", body: "Answers to common questions about sign-in, billing, scanning and the Telegram bot.", icon: "help" },
+          { title: "Enterprise Contact", body: "Larger organisations can write to sales@bizzfly.com about custom terms.", icon: "mail" },
         ],
       },
       {
         type: "prose",
-        heading: "Why we don’t list partners we can’t verify",
+        heading: "Why We Don’t List Partners We Can’t Verify",
         paragraphs: [
           "A partner directory is only useful if every listing is real and accountable. Publishing names without a formal programme behind them would mislead you. When eCard publishes partner information, it will appear here; until then, the honest answer is that there is no directory to search.",
           "In practice, the product is designed so that a team lead can set it up in an afternoon. Scanning works in the phone browser your colleagues already use, and the people you meet do not need any app to open your digital card.",
@@ -222,7 +222,7 @@ export const pages: PageDef[] = [
     title: "Vendors",
     seoTitle: "Supplying eCard: Vendor Information",
     description: "Information for suppliers who want to work with eCard. No vendor programme or procurement process is published; here is what to know and who to contact.",
-    h1: "Information for vendors and suppliers",
+    h1: "Information For Vendors And Suppliers",
     eyebrow: "Vendors",
     intro: "This section is for businesses that want to supply goods or services to eCard. eCard has not yet published a vendor programme, supplier portal or procurement policy, so this page sets expectations and points you to the one published contact.",
     variant: "reference",
@@ -232,12 +232,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not yet published",
+        title: "Not Yet Published",
         body: "eCard has not yet published vendor registration, supplier requirements, payment terms or procurement policies. Supplier enquiries can be sent to sales@bizzfly.com. Any purchase would be confirmed in writing by eCard.",
       },
       {
         type: "prose",
-        heading: "Vendors versus customers versus partners",
+        heading: "Vendors Versus Customers Versus Partners",
         paragraphs: [
           "It helps to be clear about which relationship you are asking about. Customers buy eCard plans to scan and follow up on visiting cards. Partners, where a company has them, help customers adopt the product. Vendors sell something to the company itself, such as software, hosting, design services or office supplies.",
           "This page covers the third group. If you are actually a customer looking for help with an invoice or subscription, the billing help pages are a better place to start.",
@@ -245,18 +245,18 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "What a vendor section usually explains",
+        heading: "What A Vendor Section Usually Explains",
         intro: "These are the topics companies typically publish for suppliers. None are published by eCard yet.",
         cards: [
-          { title: "How to register", body: "A form or portal where suppliers submit company details, tax information and bank details.", icon: "file" },
+          { title: "How To Register", body: "A form or portal where suppliers submit company details, tax information and bank details.", icon: "file" },
           { title: "Requirements", body: "Security, privacy and legal standards a supplier must meet before onboarding.", icon: "shield" },
           { title: "Policies", body: "Codes of conduct, anti-bribery rules and conflict-of-interest expectations.", icon: "book" },
-          { title: "Payment terms", body: "Invoice formats, payment cycles and who approves spend.", icon: "rupee" },
+          { title: "Payment Terms", body: "Invoice formats, payment cycles and who approves spend.", icon: "rupee" },
         ],
       },
       {
         type: "bullets",
-        heading: "Before you send an unsolicited pitch",
+        heading: "Before You Send An Unsolicited Pitch",
         items: [
           "Keep the first message short and specific about what you offer.",
           "Explain why it is relevant to a browser-based visiting-card CRM.",
@@ -267,7 +267,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "split",
-        heading: "Where vendor information will appear",
+        heading: "Where Vendor Information Will Appear",
         body: [
           "When eCard publishes vendor guidance, it will be linked from this section: registration on the become-a-vendor page, standards on the requirements page and conduct rules on the policies page.",
           "Until then, those pages explain what such documents normally contain, which can help you prepare.",
@@ -281,7 +281,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why this page is honest rather than complete",
+        heading: "Why This Page Is Honest Rather Than Complete",
         paragraphs: [
           "Many sites fill a vendor section with generic promises about fair procurement and fast payment. eCard would rather say clearly that these details have not been published than describe processes that may not exist. If you are a supplier, that saves you time: you know there is no portal to search for and no form to fill in, and you know exactly where to write.",
           "When eCard does publish vendor information, expect it to cover the areas listed above. In the meantime, the requirements and policies pages in this section describe what such documents usually contain, so you can prepare a clear, factual introduction that is easy for any buyer to assess.",
@@ -300,10 +300,10 @@ export const pages: PageDef[] = [
   {
     slug: "vendors/become-a-vendor",
     category: "business",
-    title: "Become a Vendor",
-    seoTitle: "Become an eCard Vendor: How to Get in Touch",
+    title: "Become A Vendor",
+    seoTitle: "Become An eCard Vendor: How To Get In Touch",
     description: "Want to sell products or services to eCard? There is no published vendor sign-up. Learn what to include in an enquiry and where to send it.",
-    h1: "How to approach eCard as a supplier",
+    h1: "How To Approach eCard As A Supplier",
     eyebrow: "Vendors",
     intro: "eCard does not yet publish a vendor sign-up form. If you believe your product or service could help the team, this guide explains how to write a useful first message and what to expect.",
     variant: "guide",
@@ -313,23 +313,23 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "eCard has not yet published a vendor onboarding process, supplier criteria or a procurement contact. The only published commercial contact is sales@bizzfly.com. Nothing is agreed until eCard confirms it in writing.",
       },
       {
         type: "steps",
-        heading: "A practical approach",
+        heading: "A Practical Approach",
         steps: [
-          { title: "Understand what eCard does", body: "eCard is an AI visiting-card CRM that runs in the browser. It scans cards, stores contacts, sends intros from the user’s own mailbox and offers a digital business card." },
-          { title: "Identify a real fit", body: "Be specific about the problem your offer solves for a company like this. Generic pitches are hard to evaluate." },
-          { title: "Write one concise email", body: "Include your company name, what you provide, a relevant example and how to reach you. Avoid attachments in the first message." },
-          { title: "Send it to the published contact", body: "Use sales@bizzfly.com and put “Supplier enquiry” in the subject so it is easy to route." },
-          { title: "Follow up once, politely", body: "If you have not heard back after a reasonable period, a single short follow-up is fine. Repeated messages rarely help." },
+          { title: "Understand What eCard Does", body: "eCard is an AI visiting-card CRM that runs in the browser. It scans cards, stores contacts, sends intros from the user’s own mailbox and offers a digital business card." },
+          { title: "Identify A Real Fit", body: "Be specific about the problem your offer solves for a company like this. Generic pitches are hard to evaluate." },
+          { title: "Write One Concise Email", body: "Include your company name, what you provide, a relevant example and how to reach you. Avoid attachments in the first message." },
+          { title: "Send It To The Published Contact", body: "Use sales@bizzfly.com and put “Supplier enquiry” in the subject so it is easy to route." },
+          { title: "Follow Up Once, Politely", body: "If you have not heard back after a reasonable period, a single short follow-up is fine. Repeated messages rarely help." },
         ],
       },
       {
         type: "table",
-        heading: "What to include, and why",
+        heading: "What To Include, And Why",
         headers: ["Detail", "Why it helps"],
         rows: [
           ["Company name and website", "Lets the reader check who you are."],
@@ -341,7 +341,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "A note on data and security",
+        heading: "A Note On Data And Security",
         paragraphs: [
           "eCard handles contact details that users scan from visiting cards, so any supplier with access to systems or data would reasonably expect questions about security and privacy. eCard itself encrypts API keys and SMTP passwords with AES-256-GCM, supports two-factor sign-in, and keeps an audit log for workspaces. A supplier that can describe its own controls clearly will be easier to evaluate.",
           "Do not send customer data, credentials or confidential documents in an initial enquiry. If a conversation progresses, agree a secure way to exchange information first.",
@@ -349,7 +349,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Common mistakes in supplier outreach",
+        heading: "Common Mistakes In Supplier Outreach",
         paragraphs: [
           "Suppliers often weaken a good offer by how they approach a company. Long emails with several attachments, automated sequences that send the same message repeatedly, and requests for a call before the reader knows what is on offer all make an enquiry harder to answer. So do vague claims that cannot be checked.",
           "A better approach is one clear message that explains what you provide, why it is relevant to a browser-based visiting-card CRM, and how to reach you. If you mention security or compliance credentials, describe only what you actually hold. Keep any example data clearly labelled as a sample, and never include real personal data from your other customers.",
@@ -369,9 +369,9 @@ export const pages: PageDef[] = [
     slug: "vendors/requirements",
     category: "business",
     title: "Vendor Requirements",
-    seoTitle: "eCard Vendor Requirements: Status and Guidance",
+    seoTitle: "eCard Vendor Requirements: Status And Guidance",
     description: "eCard has not published supplier requirements. Read what vendor requirements usually cover so you can prepare before discussing any supply arrangement.",
-    h1: "Supplier requirements explained",
+    h1: "Supplier Requirements Explained",
     eyebrow: "Vendors",
     intro: "Companies often ask suppliers to meet standards on security, privacy, legal compliance and service quality. eCard has not yet published its own vendor requirements. This page describes what such requirements commonly include so you can prepare.",
     variant: "reference",
@@ -381,24 +381,24 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not yet published",
+        title: "Not Yet Published",
         body: "The items below are general guidance about what vendor requirements typically include. They are not eCard’s requirements. eCard has not published supplier criteria. For questions, contact sales@bizzfly.com.",
       },
       {
         type: "cards",
-        heading: "Common requirement areas",
+        heading: "Common Requirement Areas",
         cards: [
-          { title: "Legal identity", body: "Proof that the business is registered, with the correct tax details for invoicing in the buyer’s country.", icon: "file" },
-          { title: "Information security", body: "How the supplier protects accounts and data: access control, two-factor sign-in, encryption and incident handling.", icon: "lock" },
+          { title: "Legal Identity", body: "Proof that the business is registered, with the correct tax details for invoicing in the buyer’s country.", icon: "file" },
+          { title: "Information Security", body: "How the supplier protects accounts and data: access control, two-factor sign-in, encryption and incident handling.", icon: "lock" },
           { title: "Privacy", body: "Whether the supplier processes personal data and, if so, under what agreement and for what purpose.", icon: "eye" },
-          { title: "Service levels", body: "What the supplier commits to on delivery, availability or response times, and what happens if they fall short.", icon: "clock" },
+          { title: "Service Levels", body: "What the supplier commits to on delivery, availability or response times, and what happens if they fall short.", icon: "clock" },
           { title: "Conduct", body: "Agreement to ethical standards such as anti-bribery and fair dealing.", icon: "shield" },
           { title: "Continuity", body: "What happens to data and services if the relationship ends.", icon: "archive" },
         ],
       },
       {
         type: "bullets",
-        heading: "Questions a buyer may ask a software supplier",
+        heading: "Questions A Buyer May Ask A Software Supplier",
         intro: "General examples of due-diligence questions. They show the kind of thinking involved, not a checklist eCard uses.",
         items: [
           "Who in your company can access our data, and how is that access reviewed?",
@@ -411,7 +411,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "split",
-        heading: "How eCard answers similar questions for its own customers",
+        heading: "How eCard Answers Similar Questions For Its Own Customers",
         body: [
           "eCard publishes a small set of verified security facts for its own product. These are about eCard as a service, not requirements placed on vendors, but they show the standard of transparency the product aims for.",
         ],
@@ -425,14 +425,14 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Preparing a supplier pack",
+        heading: "Preparing A Supplier Pack",
         paragraphs: [
           "If you sell to software companies, it is worth keeping a short document that answers the questions above in plain language. Keep it factual: describe controls you actually have, and avoid claiming certifications you do not hold. A clear, honest pack saves time for both sides and is far more persuasive than marketing copy.",
         ],
       },
       {
         type: "prose",
-        heading: "Matching effort to risk",
+        heading: "Matching Effort To Risk",
         paragraphs: [
           "Not every supplier relationship carries the same risk. In general, a company buying office supplies will ask for far less than one choosing a provider that stores or processes personal data. Sensible buyers scale their questions to what the supplier will touch: no system access usually means light checks, while access to customer data usually means detailed questions and a written agreement.",
           "If you supply software or services that could involve contact data, assume you will be asked how access is controlled, how secrets are stored and how data is returned or deleted at the end of the relationship. Preparing honest answers in advance is the best way to be ready for any buyer, including eCard if requirements are published later.",
@@ -452,9 +452,9 @@ export const pages: PageDef[] = [
     slug: "vendors/policies",
     category: "business",
     title: "Vendor Policies",
-    seoTitle: "eCard Vendor Policies and Supplier Conduct",
+    seoTitle: "eCard Vendor Policies And Supplier Conduct",
     description: "eCard has not published vendor or supplier conduct policies. Learn what such policies usually cover and how to raise questions with the team today.",
-    h1: "Policies for suppliers",
+    h1: "Policies For Suppliers",
     eyebrow: "Vendors",
     intro: "Vendor policies set out how suppliers are expected to behave: fair dealing, data protection, conflicts of interest and similar rules. eCard has not yet published a supplier code of conduct, so this page explains what these policies normally cover.",
     variant: "reference",
@@ -464,12 +464,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "eCard has not yet published a vendor code of conduct, anti-bribery policy, gifts policy or supplier data-protection terms. The descriptions below are general and are not eCard policy. Questions can be sent to sales@bizzfly.com.",
       },
       {
         type: "table",
-        heading: "Typical supplier policy topics",
+        heading: "Typical Supplier Policy Topics",
         headers: ["Topic", "What it usually covers"],
         rows: [
           ["Ethical conduct", "Honesty in dealings, accurate invoicing and no misleading claims."],
@@ -482,7 +482,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why these policies matter for a contact-data product",
+        heading: "Why These Policies Matter For A Contact-data Product",
         paragraphs: [
           "eCard’s users store contact details of people they meet: names, phone numbers, emails, companies and notes. Any company that helps run a product like this must think carefully about who can see that data. In general, supplier policies exist so that the same care extends to everyone in the chain, not only to the company’s own staff.",
           "On the product side, eCard gives workspace owners tools for this: roles that limit who sees what, an audit log, and a compliance checklist for consent, export and deletion. Supplier policies, when published, would be the equivalent for third parties.",
@@ -490,7 +490,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Good practice for any supplier while policies are pending",
+        heading: "Good Practice For Any Supplier While Policies Are Pending",
         items: [
           "Never offer gifts or incentives to individuals in connection with a purchase decision.",
           "Disclose any personal relationship with someone at the buyer.",
@@ -502,12 +502,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Raising a concern",
+        title: "Raising A Concern",
         body: "eCard has not published a dedicated ethics or whistleblowing channel. For concerns about a supplier relationship, write to sales@bizzfly.com. For serious legal matters, consider contacting the relevant local authority or regulator.",
       },
       {
         type: "prose",
-        heading: "How published policies usually take effect",
+        heading: "How Published Policies Usually Take Effect",
         paragraphs: [
           "When a company publishes supplier policies, they normally become part of the purchase terms. A supplier is asked to acknowledge them before onboarding, and serious breaches can end the relationship. Policies are usually reviewed periodically, with suppliers notified of material changes.",
           "Until eCard publishes its own policies, there is nothing for a supplier to sign or acknowledge. That does not change ordinary legal duties, such as anti-corruption and data-protection laws, which apply regardless of whether a buyer has written them down. Suppliers should follow the law where they operate and act in good faith in every dealing with eCard.",
@@ -529,7 +529,7 @@ export const pages: PageDef[] = [
     title: "Affiliates",
     seoTitle: "eCard Affiliate Programme: Current Status",
     description: "eCard has not published an affiliate programme or commission rates. Find out what is known, how affiliate schemes usually work and how to enquire.",
-    h1: "Affiliates and referrals",
+    h1: "Affiliates And Referrals",
     eyebrow: "Affiliates",
     intro: "Creators, bloggers and consultants sometimes earn a reward for referring customers to software. eCard has not yet published an affiliate programme, so this page explains the current position and how to recommend eCard honestly in the meantime.",
     variant: "reference",
@@ -539,12 +539,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No affiliate programme is published",
+        title: "No Affiliate Programme Is Published",
         body: "eCard has not yet published an affiliate programme, referral links, tracking, commission rates or payout terms. Do not present any link as an eCard affiliate link. Enquiries can be sent to sales@bizzfly.com.",
       },
       {
         type: "prose",
-        heading: "How affiliate programmes generally work",
+        heading: "How Affiliate Programmes Generally Work",
         paragraphs: [
           "In a typical affiliate scheme, a vendor gives each affiliate a tracked link. When someone signs up through that link and pays, the affiliate earns a reward, often a share of the first payment or a fixed amount. The programme terms define what counts as a qualifying referral, how long a click is remembered, when payouts happen and what promotional methods are banned.",
           "None of this exists for eCard yet. If and when a programme is published, its terms will appear on the affiliate terms page.",
@@ -552,7 +552,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "split",
-        heading: "Recommending eCard without a programme",
+        heading: "Recommending eCard Without A Programme",
         body: [
           "You can still write about or recommend eCard. Stick to what is published on ecard.gg so your audience gets accurate information.",
         ],
@@ -566,7 +566,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Honest promotion tips",
+        heading: "Honest Promotion Tips",
         intro: "General guidance that applies to any product recommendation:",
         items: [
           "Disclose any relationship you have with the vendor.",
@@ -578,16 +578,16 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Related pages",
+        heading: "Related Pages",
         cards: [
-          { title: "Join the affiliate programme", body: "What would happen at sign-up and how to register interest today.", icon: "send" },
-          { title: "Affiliate terms", body: "Typical topics such terms cover, pending any eCard publication.", icon: "file" },
+          { title: "Join The Affiliate Programme", body: "What would happen at sign-up and how to register interest today.", icon: "send" },
+          { title: "Affiliate Terms", body: "Typical topics such terms cover, pending any eCard publication.", icon: "file" },
           { title: "Partners", body: "For firms that want to help clients adopt eCard rather than refer them.", icon: "briefcase" },
         ],
       },
       {
         type: "prose",
-        heading: "Why we don’t publish placeholder rewards",
+        heading: "Why We Don’t Publish Placeholder Rewards",
         paragraphs: [
           "Some sites advertise an affiliate programme with an attractive headline rate before the details are settled. That can lead creators to promote a product expecting a reward that never arrives. eCard has chosen to say plainly that no programme exists, so you can decide whether to write about the product on its merits alone.",
           "If you do recommend eCard, the simplest and most accurate message is the one on ecard.gg: start free with 50 scans a month, try Professional for 14 days without a card, and upgrade only when you need more users, scans or features such as webhooks or white-label.",
@@ -606,10 +606,10 @@ export const pages: PageDef[] = [
   {
     slug: "affiliates/join",
     category: "business",
-    title: "Join the Affiliate Program",
+    title: "Join The Affiliate Program",
     seoTitle: "Join eCard Affiliates: Register Your Interest",
     description: "There is no published eCard affiliate sign-up yet. See what joining an affiliate scheme normally involves and how to register interest with eCard today.",
-    h1: "Joining as an eCard affiliate",
+    h1: "Joining As An eCard Affiliate",
     eyebrow: "Affiliates",
     intro: "You may have arrived here looking for an affiliate sign-up form. eCard has not yet published an affiliate programme, so there is nothing to join today. This page explains what joining usually involves and how you can let eCard know you are interested.",
     variant: "guide",
@@ -619,24 +619,24 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Sign-up not available",
+        title: "Sign-up Not Available",
         body: "eCard has not published an affiliate application, dashboard, tracking links or payouts. Registering interest by email does not create any agreement. Contact sales@bizzfly.com, and treat nothing as confirmed until eCard puts it in writing.",
       },
       {
         type: "steps",
-        heading: "What joining an affiliate programme usually looks like",
+        heading: "What Joining An Affiliate Programme Usually Looks Like",
         intro: "For context, this is the common pattern across software vendors. It is not an eCard process.",
         steps: [
           { title: "Apply", body: "Submit your name, website or channel, audience and how you plan to promote the product." },
-          { title: "Get approved", body: "The vendor checks that your audience is relevant and your methods are acceptable." },
-          { title: "Receive a tracked link", body: "A unique link records referrals from your content." },
-          { title: "Promote within the rules", body: "Follow the terms on disclosure, branding and banned channels." },
-          { title: "Get paid", body: "Rewards are paid on a schedule once referrals qualify." },
+          { title: "Get Approved", body: "The vendor checks that your audience is relevant and your methods are acceptable." },
+          { title: "Receive A Tracked Link", body: "A unique link records referrals from your content." },
+          { title: "Promote Within The Rules", body: "Follow the terms on disclosure, branding and banned channels." },
+          { title: "Get Paid", body: "Rewards are paid on a schedule once referrals qualify." },
         ],
       },
       {
         type: "bullets",
-        heading: "What to include if you write to eCard",
+        heading: "What To Include If You Write To eCard",
         items: [
           "Your name and the channel you run, such as a blog, newsletter or community.",
           "Who your audience is, for example event organisers, realtors or sales professionals.",
@@ -647,7 +647,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Make your content useful in the meantime",
+        heading: "Make Your Content Useful In The Meantime",
         paragraphs: [
           "The best referral content teaches something. If your audience goes to trade shows or meets clients in person, explain how to capture visiting cards quickly and follow up within a day. Show the eCard workflow with sample data: scan a sample card, review the extracted fields, then send an intro email from your own mailbox with a five-second window to edit or cancel.",
           "Keep pricing accurate. eCard publishes monthly prices in INR: Free ₹0, Starter ₹299, Professional ₹999, Business ₹2,999 and Enterprise on custom terms. GST applies where applicable.",
@@ -655,7 +655,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Questions worth asking any affiliate programme",
+        heading: "Questions Worth Asking Any Affiliate Programme",
         paragraphs: [
           "If eCard or any other vendor offers you an affiliate arrangement, take time to read the terms before promoting. Ask how a referral is tracked, what happens if a referred customer starts on a free plan or trial, when rewards are paid and in which currency, and whether rewards stop if the customer cancels.",
           "Also check what you are not allowed to do. Many programmes ban paid search on the brand name, posting on coupon sites, sending unsolicited email and making claims the vendor has not published. Knowing these rules up front protects your reputation with your audience.",
@@ -676,9 +676,9 @@ export const pages: PageDef[] = [
     slug: "affiliates/terms",
     category: "business",
     title: "Affiliate Terms",
-    seoTitle: "eCard Affiliate Terms: Status and Typical Clauses",
+    seoTitle: "eCard Affiliate Terms: Status And Typical Clauses",
     description: "eCard has not published affiliate terms. Learn which clauses affiliate agreements typically contain so you know what to look for if terms are offered.",
-    h1: "Affiliate terms and conditions",
+    h1: "Affiliate Terms And Conditions",
     eyebrow: "Affiliates",
     intro: "Affiliate terms are the agreement between a vendor and the people who refer customers to it. eCard has not yet published any affiliate terms. This page outlines the clauses such agreements usually contain, so you can read any future offer carefully.",
     variant: "reference",
@@ -688,12 +688,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No terms are published",
+        title: "No Terms Are Published",
         body: "eCard has not published affiliate terms, commission rates, cookie windows or payout schedules. Nothing on this page forms an agreement. If eCard offers affiliate terms in future, they will be confirmed in writing. Contact: sales@bizzfly.com.",
       },
       {
         type: "table",
-        heading: "Clauses commonly found in affiliate agreements",
+        heading: "Clauses Commonly Found In Affiliate Agreements",
         headers: ["Clause", "What to check"],
         rows: [
           ["Eligibility", "Who can join, and whether existing customers or employees are excluded."],
@@ -707,7 +707,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Questions specific to a product like eCard",
+        heading: "Questions Specific To A Product Like eCard",
         paragraphs: [
           "eCard offers a Free plan and a 14-day Professional trial with no card needed. If an affiliate scheme existed, a key question would be whether a referral counts at sign-up or only when a workspace moves to a paid plan such as Starter at ₹299 or Professional at ₹999 a month. Another would be how yearly billing, which saves about two months, is treated.",
           "These are illustrations of what to ask, not hints about future terms.",
@@ -715,7 +715,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Rules that apply even without an agreement",
+        heading: "Rules That Apply Even Without An Agreement",
         items: [
           "Do not claim to be an eCard affiliate or partner.",
           "Do not publish discount codes, deal prices or lifetime offers; none are published.",
@@ -725,7 +725,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Reading an affiliate agreement carefully",
+        heading: "Reading An Affiliate Agreement Carefully",
         paragraphs: [
           "Affiliate agreements are usually standard terms you accept rather than negotiate, which makes careful reading important. Pay attention to how the vendor can change the terms, because many reserve the right to alter rewards with short notice. Check whether rewards can be withheld or reversed, for example when a customer receives a refund or the vendor suspects invalid traffic.",
           "Look at tax and payment details too. Payouts may require tax identification and may be paid in a particular currency, which matters if you are outside India. Finally, check what happens to your content if the agreement ends: you may be required to remove links or brand assets.",

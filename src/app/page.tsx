@@ -1,3 +1,4 @@
+import { toTitleCase } from "@/lib/text";
 import Link from "next/link";
 import { ArrowRight, Check, Bot, Languages, Timer, Gift, Lock, Wallet, type LucideIcon } from "lucide-react";
 import { getPage } from "@/content/registry";
@@ -21,15 +22,15 @@ export function generateMetadata() {
 const STATS: [string, string, LucideIcon][] = [["7", "AI models to choose from", Bot], ["3", "WhatsApp languages", Languages], ["5s", "to auto-send an intro", Timer], ["14 days", "free Pro trial", Gift], ["256-bit", "encryption for your keys", Lock], ["₹0", "to start on Free", Wallet]];
 
 const SHOWCASE: { eyebrow: string; icon: IconName; title: string; body: string; points: string[]; href: string; visual: VisualKey }[] = [
-  { eyebrow: "AI card scanning", icon: "scan", title: "Your model. Your keys. Your review.", body: "Read cards with Claude, OpenAI, Gemini, DeepSeek or Grok — bring your own key or use ours. Every field gets a confidence score, and nothing is saved until you check it.", points: ["Front and back of the card", "Addresses checked against Google Maps", "Key pool with automatic failover"], href: "/features/ai-card-scanning", visual: "scan" },
-  { eyebrow: "Telegram capture", icon: "send", title: "Snap a card in Telegram. It's saved and emailed.", body: "Send a photo to the eCard bot. The contact lands in your workspace with Open and Send buttons right in the chat — link it once with a one-time code from Settings → Telegram.", points: ["No app switch at the booth", "Every forwarded card lands in your workspace", "Works for the whole team"], href: "/features/telegram-bot", visual: "telegram" },
+  { eyebrow: "AI card scanning", icon: "scan", title: "Your model. Your keys. Your review.", body: "Read cards with Claude, OpenAI, Gemini, DeepSeek or Grok. Bring your own key or use ours. Every field gets a confidence score, and nothing is saved until you check it.", points: ["Front and back of the card", "Addresses checked against Google Maps", "Key pool with automatic failover"], href: "/features/ai-card-scanning", visual: "scan" },
+  { eyebrow: "Telegram capture", icon: "send", title: "Snap a card in Telegram. It's saved and emailed.", body: "Send a photo to the eCard bot. The contact lands in your workspace with Open and Send buttons right in the chat. Link it once with a one-time code from Settings → Telegram.", points: ["No app switch at the booth", "Every forwarded card lands in your workspace", "Works for the whole team"], href: "/features/telegram-bot", visual: "telegram" },
   { eyebrow: "WhatsApp follow-ups", icon: "message", title: `Personal messages in ${WA_LANGUAGES.length} languages.`, body: "eCard writes a personal WhatsApp message in English, Hindi or Marathi and opens WhatsApp in one tap.", points: WA_LANGUAGES, href: "/features/whatsapp-follow-ups", visual: "whatsapp" },
-  { eyebrow: "Intros that send themselves", icon: "mail", title: "Preview it. It sends in five seconds.", body: "Preview the AI draft; it goes out from your own SMTP five seconds later. Edit or cancel any time — Gmail, Outlook, Zoho, SendGrid and any SMTP host.", points: ["From your own mailbox", "Edit or cancel before it sends", "Includes your digital card"], href: "/features/automated-email-outreach", visual: "email" },
-  { eyebrow: "Meeting memory", icon: "mic", title: "Remember where you met — and what was said.", body: "Capture the place, who introduced you, and voice notes. eCard turns them into a searchable AI summary.", points: ["Where you met & who introduced you", "Voice notes", "Searchable AI summary"], href: "/features/meeting-memory", visual: "meeting" },
+  { eyebrow: "Intros that send themselves", icon: "mail", title: "Preview it. It sends in five seconds.", body: "Preview the AI draft; it goes out from your own SMTP five seconds later. Edit or cancel any time. Works with Gmail, Outlook, Zoho, SendGrid and any SMTP host.", points: ["From your own mailbox", "Edit or cancel before it sends", "Includes your digital card"], href: "/features/automated-email-outreach", visual: "email" },
+  { eyebrow: "Meeting memory", icon: "mic", title: "Remember where you met and what was said.", body: "Capture the place, who introduced you, and voice notes. eCard turns them into a searchable AI summary.", points: ["Where you met & who introduced you", "Voice notes", "Searchable AI summary"], href: "/features/meeting-memory", visual: "meeting" },
 ];
 
 const GRID: { icon: IconName; title: string; body: string; href: string; chips?: string[] }[] = [
-  { icon: "card", title: "Your own digital business card", body: "Premium templates, QR code, Save-to-contacts and short links that count every click — bots filtered.", href: "/features/digital-business-card", chips: ["Templates", "QR code", "Save to contacts", "Short links"] },
+  { icon: "card", title: "Your own digital business card", body: "Premium templates, QR code, Save-to-contacts and short links that count every click, with bots filtered out.", href: "/features/digital-business-card", chips: ["Templates", "QR code", "Save to contacts", "Short links"] },
   { icon: "chart", title: "Link-click tracking", body: "See who opened your card, PDFs and WhatsApp links.", href: "/features/link-tracking" },
   { icon: "search", title: "Ask in plain English", body: "“Investors I met in Mumbai last month.”", href: "/features/contact-management/natural-language-search" },
   { icon: "calendar", title: "Events & expos", body: "Group every card from a trade show and follow up with the whole room.", href: "/features/events-expos", chips: ["Group by event", "Follow up with the room"] },
@@ -81,11 +82,11 @@ export default function Home() {
         <div className="container-x relative z-10 grid items-center gap-12 py-16 sm:py-24 lg:grid-cols-[1fr_1.12fr]">
           <div className="reveal min-w-0">
             <span className="hm-hr-pill"><span className="hm-hr-dot" aria-hidden />AI visiting-card CRM</span>
-            <h1 className="hm-hr-title mt-5">Every card you collect, <span className="hm-accent">scanned into a relationship.</span></h1>
+            <h1 className="hm-hr-title mt-5">Every Card You Collect, <span className="hm-accent">Scanned Into A Relationship.</span></h1>
             <p className="hm-hr-lead mt-6">eCard reads visiting cards with AI, files them as clean contacts, remembers where you met, and sends the follow-up by email, WhatsApp or your own digital card.</p>
             <div className="mt-9 flex flex-wrap gap-3">
-              <a href={SITE.signUp} className="hm-btn hm-btn-primary">Start free — 14-day Pro trial <ArrowRight className="size-4" aria-hidden /></a>
-              <a href="#try" className="hm-btn hm-btn-ghost">Try a sample scan</a>
+              <a href={SITE.signUp} className="hm-btn hm-btn-primary">Start Free With A 14-Day Pro Trial <ArrowRight className="size-4" aria-hidden /></a>
+              <a href="#try" className="hm-btn hm-btn-ghost">Try A Sample Scan</a>
             </div>
             <ul className="mt-9 flex flex-wrap gap-x-6 gap-y-2.5">{PROOF.map((t) => <li key={t} className="hm-hr-proof"><Check className="size-4" aria-hidden />{t}</li>)}</ul>
           </div>
@@ -120,15 +121,15 @@ export default function Home() {
             <li key={g.title} className={WIDE[i] ? "lg:col-span-2" : ""}>
               <Link href={g.href} className={`hm-bento hm-card-hover${WIDE[i] ? " is-wide" : ""}`}>
                 <span className="hm-ic-tile" aria-hidden><Icon name={g.icon} /></span>
-                <h3 className="mt-6 text-xl font-bold text-ink-950">{g.title}</h3>
+                <h3 className="mt-6 text-xl font-bold text-ink-950">{toTitleCase(g.title)}</h3>
                 <p className="mt-3 max-w-xl leading-relaxed text-ink-700">{g.body}</p>
                 {WIDE[i] && g.chips && <span className="mt-5 flex flex-wrap gap-2">{g.chips.map((c) => <span key={c} className="hm-chip">{c}</span>)}</span>}
-                <span className="mt-auto inline-flex items-center gap-1 pt-6 font-bold text-brand-600">Learn more<ArrowRight className="hm-arrow size-4" aria-hidden /></span>
+                <span className="mt-auto inline-flex items-center gap-1 pt-6 font-bold text-brand-600">Learn More<ArrowRight className="hm-arrow size-4" aria-hidden /></span>
               </Link>
             </li>
           ))}
         </ul>
-        <div className="mt-10 text-center"><Link href="/platform" className="hm-outline">Explore the platform <ArrowRight className="size-4" aria-hidden /></Link></div>
+        <div className="mt-10 text-center"><Link href="/platform" className="hm-outline">Explore The Platform <ArrowRight className="size-4" aria-hidden /></Link></div>
       </section>
 
       {/* 5 · How it works (band) */}
@@ -139,12 +140,12 @@ export default function Home() {
             {STEPS.map(([i, t, b], n) => (
               <li key={t} className="hm-step">
                 <div className="flex items-start justify-between"><span className="hm-ic-tile" aria-hidden><Icon name={i} /></span><span className="hm-step-num" aria-hidden>{String(n + 1).padStart(2, "0")}</span></div>
-                <h3 className="mt-6 text-xl font-bold text-ink-950">{t}</h3>
+                <h3 className="mt-6 text-xl font-bold text-ink-950">{toTitleCase(t)}</h3>
                 <p className="mt-3 leading-relaxed text-ink-700">{b}</p>
               </li>
             ))}
           </ol>
-          <div className="mt-12 text-center"><a href={SITE.signUp} className="hm-btn hm-btn-primary">Start free — 14-day Pro trial <ArrowRight className="size-4" aria-hidden /></a></div>
+          <div className="mt-12 text-center"><a href={SITE.signUp} className="hm-btn hm-btn-primary">Start Free With A 14-Day Pro Trial <ArrowRight className="size-4" aria-hidden /></a></div>
         </div>
       </section>
 
@@ -154,7 +155,7 @@ export default function Home() {
           <SectionHead align="left" pill="Team & admin" title="Controls your admin" accent="will actually like." />
           <div className="mt-6 flex flex-wrap gap-2">{ROLES.map((r) => <span key={r} className="hm-chip">{r}</span>)}</div>
           <ul className="mt-8 grid gap-4">{TEAM_POINTS.map((t) => <li key={t} className="flex items-start gap-3 text-ink-700"><span className="hm-tick" aria-hidden><Check className="size-3.5" /></span>{t}</li>)}</ul>
-          <Link href="/features/team-security" className="mt-8 inline-flex items-center gap-1 font-bold text-brand-600">Team & security <ArrowRight className="size-4" aria-hidden /></Link>
+          <Link href="/features/team-security" className="mt-8 inline-flex items-center gap-1 font-bold text-brand-600">Team & Security <ArrowRight className="size-4" aria-hidden /></Link>
         </div>
         <div className="grid min-w-0 gap-4 sm:grid-cols-2"><Visual kind="team" /><Visual kind="security" /></div>
       </section>
@@ -167,7 +168,7 @@ export default function Home() {
             <li key={u.title}>
               <Link href={u.href} className="hm-team hm-card-hover group">
                 <span className="hm-ic-soft" aria-hidden><Icon name={u.icon} /></span>
-                <h3 className="mt-5 font-bold leading-snug text-ink-950">{u.title}</h3>
+                <h3 className="mt-5 font-bold leading-snug text-ink-950">{toTitleCase(u.title)}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink-700">{u.body}</p>
                 <span className="mt-auto inline-flex items-center gap-1 pt-5 text-sm font-bold text-brand-600">Explore<ArrowRight className="hm-arrow size-3.5" aria-hidden /></span>
               </Link>
@@ -176,20 +177,20 @@ export default function Home() {
         </ul>
         <div className="hm-uc-panel mt-6">
           <div className="flex flex-wrap items-end justify-between gap-3">
-            <div><p className="text-xs font-bold uppercase tracking-[0.14em] text-brand-600">Integrations</p><h3 className="mt-2 text-xl font-bold text-ink-950">Plugs into the tools you already use.</h3></div>
+            <div><p className="text-xs font-bold uppercase tracking-[0.14em] text-brand-600">Integrations</p><h3 className="mt-2 text-xl font-bold text-ink-950">Plugs Into The Tools You Already Use.</h3></div>
             <Link href="/integrations" className="inline-flex items-center gap-1 text-sm font-bold text-brand-600">All integrations <ArrowRight className="size-3.5" aria-hidden /></Link>
           </div>
           <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
             {INTEGRATIONS.map(([n, s], i) => <li key={s}><Link href={`/integrations/${s}`} className="hm-uc-item hm-card-hover"><span className="hm-uc-num" aria-hidden>{String(i + 1).padStart(2, "0")}</span>{n}</Link></li>)}
           </ul>
         </div>
-        <div className="mt-10 text-center"><Link href="/use-cases" className="hm-outline">All use cases <ArrowRight className="size-4" aria-hidden /></Link></div>
+        <div className="mt-10 text-center"><Link href="/use-cases" className="hm-outline">All Use Cases <ArrowRight className="size-4" aria-hidden /></Link></div>
       </section>
 
       {/* 8 · Try it (band) */}
       <section id="try" className="hm-band hm-band-sec scroll-mt-28">
         <div className="container-x relative">
-          <SectionHead pill="Try it" title="Pick a card." accent="Watch eCard read it." lead="A sample demo — no upload, no AI call. Sign up to scan your real cards." />
+          <SectionHead pill="Try it" title="Pick a card." accent="Watch eCard read it." lead="A sample demo with no upload and no AI call. Sign up to scan your real cards." />
           <div className="mx-auto mt-14 max-w-5xl"><SampleScan /></div>
         </div>
       </section>
@@ -204,7 +205,7 @@ export default function Home() {
       <section id="pricing" className="container-x hm-sec scroll-mt-28 pt-0">
         <SectionHead pill="Pricing" title="Start free, upgrade" accent="as your network grows." />
         <div className="mt-14"><PricingTable /></div>
-        <div className="mt-10 text-center"><Link href="/pricing/compare-plans" className="hm-outline">Compare every plan in detail <ArrowRight className="size-4" aria-hidden /></Link></div>
+        <div className="mt-10 text-center"><Link href="/pricing/compare-plans" className="hm-outline">Compare Every Plan In Detail <ArrowRight className="size-4" aria-hidden /></Link></div>
       </section>
 
       {/* 11 · FAQ (plain) */}
@@ -218,11 +219,11 @@ export default function Home() {
       <section className="container-x hm-sec pt-0 pb-20">
         <div className="hm-cta">
           <span className="hm-cta-shape a" aria-hidden /><span className="hm-cta-shape b" aria-hidden />
-          <h2 className="hm-title relative mx-auto max-w-3xl text-center">Turn your next stack of cards <span className="hm-accent">into relationships.</span></h2>
+          <h2 className="hm-title relative mx-auto max-w-3xl text-center">Turn Your Next Stack Of Cards <span className="hm-accent">Into Relationships.</span></h2>
           <p className="hm-lead relative mx-auto mt-5 max-w-xl text-center">Scan, remember and follow up with every person you meet.</p>
           <div className="relative mt-9 flex flex-wrap justify-center gap-3">
-            <a href={SITE.signUp} className="hm-btn hm-btn-primary">Start free <ArrowRight className="size-4" aria-hidden /></a>
-            <Link href="/pricing" className="hm-outline">View pricing</Link>
+            <a href={SITE.signUp} className="hm-btn hm-btn-primary">Start Free <ArrowRight className="size-4" aria-hidden /></a>
+            <Link href="/pricing" className="hm-outline">View Pricing</Link>
           </div>
           <ul className="relative mt-6 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-ink-700">{PROOF.map((t) => <li key={t} className="flex items-center gap-1.5"><Check className="size-4 text-brand-600" aria-hidden />{t}</li>)}</ul>
         </div>

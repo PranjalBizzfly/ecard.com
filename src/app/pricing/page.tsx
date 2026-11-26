@@ -46,7 +46,7 @@ export default function PricingPage() {
         <PricingTable />
 
         <section className="ip-sec mt-16" aria-labelledby="compare-h">
-          <h2 id="compare-h" className="ip-h2">Compare plans</h2>
+          <h2 id="compare-h" className="ip-h2">Compare Plans</h2>
           <div className="ip-table">
             <table className="!min-w-[44rem]">
               <thead><tr><th scope="col">Feature</th>{PLANS.map((p) => <th key={p.id} scope="col" className="text-center">{p.name}</th>)}</tr></thead>
@@ -64,7 +64,7 @@ export default function PricingPage() {
         </section>
 
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-          {PLANS.map((p) => <li key={p.id}><Link href={`/pricing/${p.id}`} className="ip-card flex h-full flex-col"><span className="ip-kicker">Plan</span><span className="mt-2 text-lg font-extrabold text-ink-950">{p.name} plan</span><span className="mt-3 text-sm font-bold text-brand-600">Full details →</span></Link></li>)}
+          {PLANS.map((p) => <li key={p.id}><Link href={`/pricing/${p.id}`} className="ip-card flex h-full flex-col"><span className="ip-kicker">Plan</span><span className="mt-2 text-lg font-extrabold text-ink-950">{p.name} Plan</span><span className="mt-3 text-sm font-bold text-brand-600">Full Details →</span></Link></li>)}
         </ul>
 
         {page.faqs && <div className="mt-12"><FaqList id="faqs" faqs={page.faqs} heading="Pricing questions" /></div>}

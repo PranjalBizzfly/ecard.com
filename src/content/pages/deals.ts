@@ -11,7 +11,7 @@ const plansTable = (heading: string, intro: string): Section => ({
     ["Starter", "₹299", "20", "25 GB", "1,000"],
     ["Professional", "₹999", "100", "250 GB", "5,000"],
     ["Business", "₹2,999", "Unlimited", "Unlimited", "Unlimited"],
-    ["Enterprise", "Custom — contact sales", "Unlimited", "Unlimited", "Unlimited"],
+    ["Enterprise", "Custom, contact sales", "Unlimited", "Unlimited", "Unlimited"],
   ],
 });
 
@@ -31,25 +31,25 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/black-friday",
     title: "Black Friday",
-    seoTitle: "Black Friday and eCard: Honest Ways to Save",
+    seoTitle: "Black Friday And eCard: Honest Ways To Save",
     description: "No Black Friday coupon from eCard, but real savings: the ₹0 Free plan, a 14-day Professional trial with no card, and yearly billing that saves about two months.",
-    h1: "Black Friday: pick the right eCard plan without a coupon",
+    h1: "Black Friday: Pick The Right eCard Plan Without A Coupon",
     eyebrow: "Deals · Black Friday",
     icon: "tag",
     intro: "Black Friday is when many teams buy software for the year ahead. eCard has not published a Black Friday discount, so this page shows the savings that genuinely exist and how to choose a plan that fits the visiting cards you actually collect. Use the enquiry form above if you want a person to help.",
     sections: [
-      { type: "prose", heading: "Why late November is a good time to sort out your cards", paragraphs: [
+      { type: "prose", heading: "Why Late November Is A Good Time To Sort Out Your Cards", paragraphs: [
         "By late November most Indian businesses have been through Diwali gifting, festive client visits and at least one autumn expo. That usually means a drawer of visiting cards that nobody has entered anywhere. Scanning them now, before December holidays, keeps those contacts warm while people still remember the conversation.",
         "Buying in a sale week also tempts teams to over-buy. The cheaper move is to measure first: how many cards does your team scan in a normal month, and how many people need access? Those two numbers decide the plan, not the calendar.",
       ] },
-      { type: "steps", heading: "A Black Friday plan check in four steps", steps: [
-        { title: "Count last month's cards", body: "If it was under 50 for the whole team, the Free plan at ₹0 covers you." },
-        { title: "Count the people", body: "Free allows 5 users, Starter 20, Professional 100. Business and Enterprise are unlimited." },
-        { title: "Try the bigger plan first", body: "Every new workspace gets a 14-day Professional trial with no card, so you can test webhooks and 5,000 scans before paying." },
-        { title: "Decide on billing", body: "If you are sure you will use eCard all year, yearly billing saves about two months compared with paying monthly." },
+      { type: "steps", heading: "A Black Friday Plan Check In Four Steps", steps: [
+        { title: "Count Last Month's Cards", body: "If it was under 50 for the whole team, the Free plan at ₹0 covers you." },
+        { title: "Count The People", body: "Free allows 5 users, Starter 20, Professional 100. Business and Enterprise are unlimited." },
+        { title: "Try The Bigger Plan First", body: "Every new workspace gets a 14-day Professional trial with no card, so you can test webhooks and 5,000 scans before paying." },
+        { title: "Decide On Billing", body: "If you are sure you will use eCard all year, yearly billing saves about two months compared with paying monthly." },
       ] },
       plansTable("Verified plan limits", "These are the published monthly prices and limits. There is no special Black Friday price."),
-      { type: "prose", heading: "Following up after a sales-week event", paragraphs: [
+      { type: "prose", heading: "Following Up After A Sales-week Event", paragraphs: [
         "Late November events often include year-end customer meetups and product showcases timed to sale-week marketing. If you attend one, decide before the event who will scan cards and how quickly follow-ups go out. A simple rule works well: every card scanned the same day, every follow-up sent within forty-eight hours. With eCard, the person who collects the card can photograph it in a phone browser, add a one-line note about the conversation, and send an introduction by email or WhatsApp straight from the contact record.",
         "If you are buying for a team, ask each person to estimate their monthly card count before you choose. Add the numbers together and compare them with the plan table. A team of eight that collects around 300 cards a month fits Starter comfortably, while a team of forty with 3,000 cards a month needs Professional. Share these numbers through the enquiry form if you would like sales to confirm the fit before you pay anything.",
       ] },
@@ -68,16 +68,16 @@ export const pages: PageDef[] = [
     title: "Cyber Monday",
     seoTitle: "Cyber Monday: eCard Plans Compared Honestly",
     description: "Shopping for software on Cyber Monday? eCard has no published coupon, but the ₹0 Free plan, a no-card Professional trial and yearly billing all help you save.",
-    h1: "Cyber Monday software shopping, done carefully",
+    h1: "Cyber Monday Software Shopping, Done Carefully",
     eyebrow: "Deals · Cyber Monday",
     icon: "zap",
     intro: "Cyber Monday is the online half of the late-November buying rush, and it is when many sales and marketing teams line up next year's tools. eCard has no Cyber Monday code, but you can still set up a visiting-card CRM cheaply and without risk.",
     sections: [
-      { type: "prose", heading: "Who this page is for", paragraphs: [
+      { type: "prose", heading: "Who This Page Is For", paragraphs: [
         "This page suits people comparing several online tools in one sitting: a sales manager choosing a card scanner, a founder replacing spreadsheets, or an operations lead consolidating apps. If that is you, the important questions are limits, users and whether the tool fits how you follow up.",
         "eCard reads visiting cards with the AI model you choose, stores them as contacts with tags and events, and sends introductions by email from your own mailbox or by WhatsApp. Every plan includes those basics, so the choice is mostly about volume and team size.",
       ] },
-      { type: "split", heading: "Questions to answer before you add anything to a cart", body: [
+      { type: "split", heading: "Questions To Answer Before You Add Anything To A Cart", body: [
         "Online sale days reward quick decisions, which is exactly when software ends up unused. Spend ten minutes on the questions on the right before choosing a plan.",
       ], points: [
         "Do you need Google Contacts sync? It starts on Starter (₹299 a month).",
@@ -86,7 +86,7 @@ export const pages: PageDef[] = [
         "Do you scan more than 5,000 cards a month? Business and Enterprise have unlimited scans.",
       ] },
       plansTable("Published plans and limits", "Prices are in INR per month. GST is applied where applicable."),
-      { type: "prose", heading: "What to check on any software deal day", paragraphs: [
+      { type: "prose", heading: "What To Check On Any Software Deal Day", paragraphs: [
         "Cyber Monday offers for other software often bundle limits that look generous until you read them closely. When you compare eCard with other tools, compare like with like: users included, monthly scans, storage, and whether outreach sends from your own mailbox or a shared one. eCard sends from Gmail, Outlook, Zoho, SendGrid, Brevo, Mailgun, Amazon SES, Resend or any SMTP host you connect, which keeps replies in your own inbox.",
         "It is also worth checking the AI behind the scanning. eCard lets you choose Claude, OpenAI, Gemini, DeepSeek or Grok, and you can add several keys so that eCard rotates and fails over when one is rate-limited. That matters during busy weeks when you scan many cards at once. If any of this needs explaining for your team, the enquiry form above sends your question to the sales team by email.",
       ] },
@@ -106,22 +106,22 @@ export const pages: PageDef[] = [
     title: "11.11 Singles' Day",
     seoTitle: "11.11 Singles' Day: Start eCard Free",
     description: "11.11 is a big shopping day across Asia. eCard has no 11.11 discount, but the Free plan, a 14-day Professional trial and yearly billing are real ways to save.",
-    h1: "11.11 Singles' Day and your visiting-card backlog",
+    h1: "11.11 Singles' Day And Your Visiting-card Backlog",
     eyebrow: "Deals · 11.11",
     icon: "sparkles",
     intro: "11.11 started as a Chinese shopping festival and is now a major online sale day across Southeast Asia and with many Indian sellers too. For teams that trade across Asia, it falls right in the middle of a busy season of sourcing trips and buyer meetings. eCard has no 11.11 deal, but here is how to start for little or nothing.",
     sections: [
-      { type: "prose", heading: "Why it matters for cross-border traders", paragraphs: [
+      { type: "prose", heading: "Why It Matters For Cross-border Traders", paragraphs: [
         "October and November are full of sourcing fairs and buyer visits across Asia. Exporters, importers and sourcing agents come home with cards in several scripts and formats. Those contacts are the start of next year's orders, so they need to be readable, searchable and followed up within days.",
         "eCard scans cards with AI, groups them by event, and lets you send a follow-up by email or WhatsApp. If you run several trade trips a year, tagging each trip as an event keeps suppliers and buyers apart.",
       ] },
-      { type: "steps", heading: "Choosing a plan for a trading team", steps: [
-        { title: "Solo trader", body: "Free covers 50 scans a month for up to 5 users, which is often enough between trips." },
-        { title: "Small sourcing office", body: "Starter at ₹299 a month gives 20 users and 1,000 scans, plus Google Contacts sync." },
-        { title: "Busy export house", body: "Professional at ₹999 a month gives 100 users and 5,000 scans, plus webhooks to pass contacts into your own systems." },
+      { type: "steps", heading: "Choosing A Plan For A Trading Team", steps: [
+        { title: "Solo Trader", body: "Free covers 50 scans a month for up to 5 users, which is often enough between trips." },
+        { title: "Small Sourcing Office", body: "Starter at ₹299 a month gives 20 users and 1,000 scans, plus Google Contacts sync." },
+        { title: "Busy Export House", body: "Professional at ₹999 a month gives 100 users and 5,000 scans, plus webhooks to pass contacts into your own systems." },
       ] },
       plansTable("eCard plans at a glance", "Verified monthly prices and limits."),
-      { type: "prose", heading: "Handling cards in several languages and formats", paragraphs: [
+      { type: "prose", heading: "Handling Cards In Several Languages And Formats", paragraphs: [
         "Cards from Asian trade partners often mix English with another script, carry two phone numbers, and list several offices. Before relying on any scanner, test it with a handful of your hardest cards. eCard reads cards with the AI model you choose, so you can compare results across models and keep the one that handles your cards best. After scanning, check the fields once and correct anything unusual before sending a message.",
         "Follow-up timing also matters across time zones. A short email sent the evening you return from a fair arrives during your contact's working morning. If your buyers prefer WhatsApp, send a brief note with your digital business card link, which opens in any browser and lets them save your details in one tap. Use the enquiry form if you would like help planning this for a whole export team.",
       ] },
@@ -138,25 +138,25 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/christmas",
     title: "Christmas",
-    seoTitle: "Christmas Networking: Keep Every Card with eCard",
+    seoTitle: "Christmas Networking: Keep Every Card With eCard",
     description: "Year-end parties and client lunches bring new visiting cards. eCard has no Christmas coupon, but you can start free or take a 14-day Professional trial.",
-    h1: "Christmas parties, client lunches and the cards they leave behind",
+    h1: "Christmas Parties, Client Lunches And The Cards They Leave Behind",
     eyebrow: "Deals · Christmas",
     icon: "calendar",
     intro: "December brings office parties, client lunches, alumni meetups and industry dinners. They are friendly, informal and full of new contacts, most of whom are forgotten by January. eCard has not published a Christmas offer, but the Free plan and trial make it easy to start now.",
     sections: [
-      { type: "prose", heading: "The December networking problem", paragraphs: [
+      { type: "prose", heading: "The December Networking Problem", paragraphs: [
         "Holiday events are good for relationships because people are relaxed. They are bad for follow-up because everyone is about to go on leave. A card handed over on 20 December often sits in a jacket pocket until mid-January, by which time the moment has passed.",
         "The fix is simple: scan the card the same evening, add a note about what you talked about, and schedule the follow-up for the first working week of January. eCard's meeting memory and tags let you do that in a minute per card.",
       ] },
-      { type: "bullets", heading: "Who usually benefits most in December", items: [
+      { type: "bullets", heading: "Who Usually Benefits Most In December", items: [
         "Consultants and agency owners who meet prospects at client parties",
         "Sales teams attending year-end customer events",
         "Hospitality and events staff who collect many cards in a short season",
         "Founders using the quiet weeks to clean up their contact list",
       ] },
       plansTable("Plan limits to check before January", "If your December card count fits in 50 scans, Free is enough."),
-      { type: "prose", heading: "Planning January follow-ups now", paragraphs: [
+      { type: "prose", heading: "Planning January Follow-ups Now", paragraphs: [
         "The best December habit is scheduling. When you scan a card at a holiday event, add a note and a tag such as \"follow up January\". In the first working week of the new year, filter by that tag and work through the list in one sitting. Messages sent then stand out, because most inboxes are quiet and people are setting plans for the year.",
         "If your company runs its own year-end client event, consider placing a QR code for your digital business card at the welcome desk. Guests can save your contact in one tap without needing an app, and you still collect their cards as usual. Teams that expect several hundred cards across December should start the 14-day Professional trial close to the event dates so the trial covers both the parties and the follow-up week.",
       ] },
@@ -173,24 +173,24 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/new-year",
     title: "New Year",
-    seoTitle: "New Year Contact Clean-Up with eCard",
+    seoTitle: "New Year Contact Clean-Up With eCard",
     description: "Start the new year with a clean contact list. eCard has no New Year discount, but the ₹0 Free plan, a no-card trial and yearly billing help you save.",
-    h1: "A new year, and a clean list of everyone you met",
+    h1: "A New Year, And A Clean List Of Everyone You Met",
     eyebrow: "Deals · New Year",
     icon: "check",
     intro: "January is when people make resolutions about follow-up, then abandon them by February because the backlog is too big. eCard has no New Year offer. What it can do is turn last year's pile of cards into a searchable list in an afternoon, starting for free.",
     sections: [
-      { type: "steps", heading: "A January clean-up routine", intro: "Treat this as a one-off project for a quiet week.", steps: [
-        { title: "Gather every card", body: "Collect cards from bags, drawers and desk trays. Count them so you know which plan you need." },
-        { title: "Scan in batches", body: "Scan with your phone browser or forward photos to the Telegram bot. No app install is needed." },
-        { title: "Tag by year and event", body: "Tag contacts by where you met so you can filter them later." },
-        { title: "Send one warm note", body: "Send a short New Year message by email or WhatsApp to the contacts worth reconnecting with." },
+      { type: "steps", heading: "A January Clean-up Routine", intro: "Treat this as a one-off project for a quiet week.", steps: [
+        { title: "Gather Every Card", body: "Collect cards from bags, drawers and desk trays. Count them so you know which plan you need." },
+        { title: "Scan In Batches", body: "Scan with your phone browser or forward photos to the Telegram bot. No app install is needed." },
+        { title: "Tag By Year And Event", body: "Tag contacts by where you met so you can filter them later." },
+        { title: "Send One Warm Note", body: "Send a short New Year message by email or WhatsApp to the contacts worth reconnecting with." },
       ] },
-      { type: "prose", heading: "Sizing the backlog against plan limits", paragraphs: [
+      { type: "prose", heading: "Sizing The Backlog Against Plan Limits", paragraphs: [
         "If your pile is under 50 cards, the Free plan handles it at no cost. A few hundred cards is a good fit for the 14-day Professional trial, which allows 5,000 scans a month and needs no card. Ongoing heavy use across a team usually means Starter or Professional.",
       ] },
       plansTable("What each plan allows each month", "Prices shown are monthly, in INR."),
-      { type: "prose", heading: "Turning resolutions into a weekly habit", paragraphs: [
+      { type: "prose", heading: "Turning Resolutions Into A Weekly Habit", paragraphs: [
         "A clean-up only helps if new cards do not pile up again. Set a weekly fifteen-minute slot to scan new cards and send any pending follow-ups. Forwarding cards to the Telegram bot during the week makes the slot shorter, because the contacts are already saved and a summary has been emailed to you. By the end of January the habit is established and the backlog never returns.",
         "For teams, assign one owner for contact hygiene: someone who checks tags, merges obvious duplicates and makes sure everyone uses the same event names. Roles make this easier, since a Manager can oversee contacts while Members focus on scanning and outreach. If you would like advice on structuring a team workspace for the year, describe your setup in the enquiry form and the sales team will reply by email.",
       ] },
@@ -207,18 +207,18 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/boxing-day",
     title: "Boxing Day",
-    seoTitle: "Boxing Day and eCard: Try Professional Free",
+    seoTitle: "Boxing Day And eCard: Try Professional Free",
     description: "Boxing Day is a quiet day to test new tools. eCard has no Boxing Day offer, but the 14-day Professional trial needs no card and Free stays at ₹0.",
-    h1: "Boxing Day: a quiet day to test a card scanner",
+    h1: "Boxing Day: A Quiet Day To Test A Card Scanner",
     eyebrow: "Deals · Boxing Day",
     icon: "eye",
     intro: "Boxing Day, 26 December, is a sales day in the UK, Australia and elsewhere, and a slow office day almost everywhere. It is a good moment to test a tool properly before the January rush. eCard has not published a Boxing Day deal, so here is how to evaluate it at no cost.",
     sections: [
-      { type: "prose", heading: "Who this suits", paragraphs: [
+      { type: "prose", heading: "Who This Suits", paragraphs: [
         "This page is for people with a free day and a backlog: a regional sales lead in Australia or the UK, an Indian team member covering the office between holidays, or a founder planning next year's networking.",
         "A proper evaluation needs real cards, not samples. Take twenty cards from the past year, scan them, and check how well names, numbers, designations and companies come through. Then try a follow-up email from your own mailbox.",
       ] },
-      { type: "bullets", heading: "What to test during the trial", items: [
+      { type: "bullets", heading: "What To Test During The Trial", items: [
         "Scanning accuracy with your choice of AI model: Claude, OpenAI, Gemini, DeepSeek or Grok",
         "Tagging contacts and grouping them by event",
         "Sending email from Gmail, Outlook, Zoho or another provider you already use",
@@ -226,7 +226,7 @@ export const pages: PageDef[] = [
         "Webhooks, which are included on Professional",
       ] },
       plansTable("Where you land after the trial", "Choose the plan that matches what you used during the trial."),
-      { type: "prose", heading: "Making the most of a slow week", paragraphs: [
+      { type: "prose", heading: "Making The Most Of A Slow Week", paragraphs: [
         "Boxing Day and the days around it are ideal for jobs that need concentration rather than meetings. Beyond testing scanning, design your digital business card carefully: choose what details to show, add links you want people to open, and test the QR code from another phone. A well-made card pays off at every event next year, because it is the first thing new contacts see when you follow up.",
         "You can also prepare message templates during the quiet days. Write a short introduction email and a WhatsApp note for each type of contact you meet: prospects, suppliers and partners. When January events start, you only need to personalise the first line. If you want a second opinion on which plan fits your team after the trial, use the enquiry form above and include your team size and expected monthly card count.",
       ] },
@@ -243,28 +243,28 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/year-end-clearance",
     title: "Year-End Clearance",
-    seoTitle: "Year-End Budget Planning for eCard",
+    seoTitle: "Year-End Budget Planning For eCard",
     description: "Planning year-end or March financial-year budgets? eCard has no clearance offer, but yearly billing saves about two months and Free costs ₹0.",
-    h1: "Year-end budgets and the cost of a card CRM",
+    h1: "Year-end Budgets And The Cost Of A Card CRM",
     eyebrow: "Deals · Year-End",
     icon: "rupee",
     intro: "Year-end clearance sales are about using up budget before it expires. In India that pressure often peaks before 31 March, the end of the financial year, as well as in December for calendar-year companies. eCard has no clearance offer, but this page helps you budget accurately.",
     sections: [
-      { type: "prose", heading: "Budgeting for a financial year", paragraphs: [
+      { type: "prose", heading: "Budgeting For A Financial Year", paragraphs: [
         "Finance teams prefer a predictable annual number. For eCard, that number is simple to work out: take the monthly price of the plan you need and multiply by twelve, or choose yearly billing, which saves about two months. The exact yearly total and any GST are shown at checkout.",
         "If you are deciding between two plans, budget for the larger one only if you can see the need: more than 1,000 scans a month, more than 20 users, or a requirement for webhooks.",
       ] },
-      { type: "table", heading: "Monthly cost for a budget line", intro: "Monthly prices from the published price list, before GST.", headers: ["Plan", "Per month", "Good fit when"], rows: [
+      { type: "table", heading: "Monthly Cost For A Budget Line", intro: "Monthly prices from the published price list, before GST.", headers: ["Plan", "Per month", "Good fit when"], rows: [
         ["Free", "₹0", "Under 50 cards a month"],
         ["Starter", "₹299", "Small teams that sync with Google Contacts"],
         ["Professional", "₹999", "Growing teams needing webhooks"],
         ["Business", "₹2,999", "Large organisations or white label"],
-        ["Enterprise", "Custom", "Custom terms — contact sales"],
+        ["Enterprise", "Custom", "Custom terms, contact sales"],
       ] },
-      { type: "split", heading: "Paperwork to ask about", body: [
+      { type: "split", heading: "Paperwork To Ask About", body: [
         "Procurement teams often need documents before approving a purchase. Ask through the enquiry form."
       ], points: ["GST details on invoices", "Payment methods: UPI, net banking, wallets, EMI or cards", "Cancellation: access continues to the end of the paid period"] },
-      { type: "prose", heading: "Explaining the purchase to finance", paragraphs: [
+      { type: "prose", heading: "Explaining The Purchase To Finance", paragraphs: [
         "Approvers usually ask three questions: what does it cost, what does it replace, and how will we know it works. For eCard, the cost is the plan price, the replacement is manual card entry and scattered contact lists, and success can be measured simply by how many cards are scanned and how many follow-ups go out each month. Tracking those two numbers through the first quarter gives finance a clear picture.",
         "If your financial year ends on 31 March, a practical approach is to run the 14-day trial in February or March, confirm usage, and then choose yearly billing from April so the cost sits cleanly in the new year's budget. Larger organisations that need custom terms should start the Enterprise conversation early, through the enquiry form or sales@bizzfly.com, so approvals are not rushed at the year end.",
       ] },
@@ -281,24 +281,24 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/easter",
     title: "Easter",
-    seoTitle: "Easter and Spring Trade Shows: eCard Plans",
+    seoTitle: "Easter And Spring Trade Shows: eCard Plans",
     description: "Easter sits in a busy spring trade-show season. eCard has no Easter promotion, but you can start on the Free plan or a 14-day Professional trial without a card.",
-    h1: "Easter, spring fairs and the cards you bring home",
+    h1: "Easter, Spring Fairs And The Cards You Bring Home",
     eyebrow: "Deals · Easter",
     icon: "map",
     intro: "Easter falls in March or April, in the middle of the spring exhibition season in Europe and a busy period for Indian exporters who visit those fairs. eCard has published no Easter offer. Here is how to choose a plan around a spring trip.",
     sections: [
-      { type: "prose", heading: "Why spring trips need a plan", paragraphs: [
+      { type: "prose", heading: "Why Spring Trips Need A Plan", paragraphs: [
         "Spring fairs bunch together. A team might visit two or three shows in a month and collect hundreds of cards. Then Easter holidays in Europe slow down replies, so contacts cool before anyone writes back.",
         "Scanning at the stand and sending a short message the same evening means your note is waiting when your contact returns from the break. eCard's events feature keeps each fair's cards in their own group.",
       ] },
-      { type: "steps", heading: "Matching the plan to the trip", steps: [
-        { title: "Estimate cards per show", body: "Multiply the number of staff by the cards each person usually collects per day." },
-        { title: "Compare with monthly scans", body: "Free allows 50, Starter 1,000, Professional 5,000, Business unlimited." },
-        { title: "Time the trial", body: "Start the 14-day Professional trial a day before the fair to cover the show and the follow-up week." },
+      { type: "steps", heading: "Matching The Plan To The Trip", steps: [
+        { title: "Estimate Cards Per Show", body: "Multiply the number of staff by the cards each person usually collects per day." },
+        { title: "Compare With Monthly Scans", body: "Free allows 50, Starter 1,000, Professional 5,000, Business unlimited." },
+        { title: "Time The Trial", body: "Start the 14-day Professional trial a day before the fair to cover the show and the follow-up week." },
       ] },
       plansTable("Plan limits for a spring trip", "Monthly prices in INR."),
-      { type: "prose", heading: "Preparing the stand team before you travel", paragraphs: [
+      { type: "prose", heading: "Preparing The Stand Team Before You Travel", paragraphs: [
         "Before a spring fair, make sure every person on the stand can sign in to eCard on their phone and knows how to scan a card in the browser. Agree on one event name so all cards from the fair group together. Give guests who only need to scan a Scan-only guest role, which keeps the rest of the workspace private while still letting them capture cards for the team.",
         "Agree the follow-up plan too. Decide who sends the first message to each type of visitor, and whether it goes by email or WhatsApp. Prepare a short template that mentions the fair by name. When the team returns after the Easter break, everyone can see which visitors have been contacted and which still need a reply. Use the enquiry form above if you want to discuss a larger stand team.",
       ] },
@@ -317,22 +317,22 @@ export const pages: PageDef[] = [
     title: "Valentine's Day",
     seoTitle: "Valentine's Day: Look After Client Relationships",
     description: "Valentine's Day is a reminder to look after your relationships, including clients. eCard has no Valentine's offer, but Free is ₹0 and the trial needs no card.",
-    h1: "Valentine's Day for the relationships that pay the bills",
+    h1: "Valentine's Day For The Relationships That Pay The Bills",
     eyebrow: "Deals · Valentine's Day",
     icon: "users",
     intro: "Mid-February is a handy reminder to check in on the relationships that keep a business going: clients, suppliers and referral partners. eCard has published no Valentine's Day offer, but it can help you remember who you met and what you promised them.",
     sections: [
-      { type: "prose", heading: "Relationship upkeep, not romance", paragraphs: [
+      { type: "prose", heading: "Relationship Upkeep, Not Romance", paragraphs: [
         "Most lost deals are not lost to a competitor; they fade because nobody followed up. Florists, gift shops, restaurants and event venues are especially busy in February and collect many supplier and corporate client cards in a short time.",
         "eCard's meeting memory lets you note where you met someone and what was discussed, so a February check-in reads as personal rather than generic.",
       ] },
-      { type: "cards", heading: "Who uses February well", cards: [
-        { title: "Gift and florist businesses", body: "Keep corporate buyer cards from the season so you can reach them again next year.", icon: "tag" },
-        { title: "Hospitality venues", body: "Store event planner contacts with notes about their dates and needs.", icon: "building" },
-        { title: "Account managers", body: "Send a short check-in to quiet clients before the March year-end rush.", icon: "briefcase" },
+      { type: "cards", heading: "Who Uses February Well", cards: [
+        { title: "Gift And Florist Businesses", body: "Keep corporate buyer cards from the season so you can reach them again next year.", icon: "tag" },
+        { title: "Hospitality Venues", body: "Store event planner contacts with notes about their dates and needs.", icon: "building" },
+        { title: "Account Managers", body: "Send a short check-in to quiet clients before the March year-end rush.", icon: "briefcase" },
       ] },
       plansTable("Which plan fits your contact list", "Verified monthly prices and limits."),
-      { type: "prose", heading: "A February relationship review", paragraphs: [
+      { type: "prose", heading: "A February Relationship Review", paragraphs: [
         "Pick an afternoon in February and filter your contacts by those you have not messaged in six months. For each one, decide whether to reconnect, keep or archive. Reconnecting can be as simple as a two-line WhatsApp note mentioning where you met. Because eCard keeps the event and any notes on the contact, you do not need to rely on memory.",
         "Account managers can make this a quarterly habit, with February as the first round of the year. It is also a good moment to update your own digital business card with any new role, number or offer so that every check-in carries current details. If your team would like help setting up a review routine across several people, describe what you need in the enquiry form and sales will reply by email.",
       ] },
@@ -349,25 +349,25 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/summer-sale",
     title: "Summer Sale",
-    seoTitle: "Summer Sale: Use Quiet Months to Set Up eCard",
+    seoTitle: "Summer Sale: Use Quiet Months To Set Up eCard",
     description: "Summer is a quieter season for many teams and a good time to set up a card CRM. eCard has no summer sale, but Free is ₹0 and the trial needs no card.",
-    h1: "Summer: set up properly before the busy season",
+    h1: "Summer: Set Up Properly Before The Busy Season",
     eyebrow: "Deals · Summer",
     icon: "settings",
     intro: "In much of India, May and June are slower months for events, and the monsoon slows travel further. That makes summer a good time to set up a card CRM before the festive and trade-show season returns. eCard runs no summer sale, but setup itself costs nothing.",
     sections: [
-      { type: "prose", heading: "Why prepare in summer", paragraphs: [
+      { type: "prose", heading: "Why Prepare In Summer", paragraphs: [
         "Teams that set up tools during a busy month rarely configure them fully. Summer gives you time to connect your mailbox, design your digital business card, invite colleagues and decide how to tag contacts.",
         "When September and October arrive, with Diwali, autumn expos and year-end selling, everyone already knows how to scan a card and send a follow-up.",
       ] },
-      { type: "steps", heading: "A summer setup checklist", steps: [
-        { title: "Create the workspace", body: "Start on Free, or begin the 14-day Professional trial when you are ready to test everything." },
-        { title: "Connect email", body: "Use Gmail, Outlook, Zoho, SendGrid, Brevo, Mailgun, Amazon SES, Resend or any SMTP host." },
-        { title: "Set up roles", body: "Choose from Owner, Admin, Manager, Member and Scan-only guest." },
-        { title: "Link the Telegram bot", body: "Generate a one-time code in Settings and send it to the bot." },
+      { type: "steps", heading: "A Summer Setup Checklist", steps: [
+        { title: "Create The Workspace", body: "Start on Free, or begin the 14-day Professional trial when you are ready to test everything." },
+        { title: "Connect Email", body: "Use Gmail, Outlook, Zoho, SendGrid, Brevo, Mailgun, Amazon SES, Resend or any SMTP host." },
+        { title: "Set Up Roles", body: "Choose from Owner, Admin, Manager, Member and Scan-only guest." },
+        { title: "Link The Telegram Bot", body: "Generate a one-time code in Settings and send it to the bot." },
       ] },
       plansTable("Plans to grow into", "Monthly INR prices, before GST."),
-      { type: "prose", heading: "Testing integrations while things are quiet", paragraphs: [
+      { type: "prose", heading: "Testing Integrations While Things Are Quiet", paragraphs: [
         "Summer is also the right time to test connections to your other tools. From Starter, you can sync with Google Contacts and book meetings through Google Calendar and Meet. From Professional, webhooks can pass new contacts to other systems automatically. Testing these during a quiet month means any problems are found before your busiest events, not during them.",
         "Use the trial wisely: start it on the day you plan to configure everything, invite the colleagues who will rely on eCard most, and scan a mix of old and new cards. At the end of the two weeks you will know which features you used and which plan you need. If your setup includes custom systems or a larger rollout, the enquiry form above is the quickest way to reach the sales team.",
       ] },
@@ -383,31 +383,31 @@ export const pages: PageDef[] = [
   }),
   deal({
     slug: "deals/back-to-business",
-    title: "Back to Business",
-    seoTitle: "Back to Business: Restart Follow-Ups with eCard",
+    title: "Back To Business",
+    seoTitle: "Back To Business: Restart Follow-Ups With eCard",
     description: "Returning after a break or the start of a new quarter? eCard has no back-to-business discount, but you can restart follow-ups free or with a no-card trial.",
-    h1: "Back to business: restart your follow-ups",
-    eyebrow: "Deals · Back to Business",
+    h1: "Back To Business: Restart Your Follow-ups",
+    eyebrow: "Deals · Back To Business",
     icon: "briefcase",
     intro: "Every team has a restart moment: after the summer lull, after Diwali leave, or at the start of a new financial year in April. It is the right moment to deal with unanswered cards. eCard has no back-to-business offer, so here is a practical plan instead.",
     sections: [
-      { type: "prose", heading: "What a restart usually looks like", paragraphs: [
+      { type: "prose", heading: "What A Restart Usually Looks Like", paragraphs: [
         "After a break, inboxes are full and contacts from before the break are half-forgotten. People who handed you a card are still worth contacting, but the message needs context: where you met and what you discussed.",
         "If you scanned cards before the break and added notes, the restart is quick. If not, scan them now and send a short message by email or WhatsApp that references the meeting.",
       ] },
-      { type: "bullets", heading: "Good restart moments in India", items: [
+      { type: "bullets", heading: "Good Restart Moments In India", items: [
         "1 April, the start of the financial year, when budgets reset",
         "After Diwali, when business calendars fill up again",
         "After the summer holidays, when schools and offices return to normal",
         "After a major trade show, once the team is back at their desks",
       ] },
-      { type: "steps", heading: "Choosing your plan on the way back", steps: [
-        { title: "Solo restart", body: "Free covers 50 scans a month." },
-        { title: "Team restart", body: "Starter at ₹299 a month adds Google Contacts sync and Calendar and Meet booking." },
-        { title: "Connected restart", body: "Professional at ₹999 a month adds webhooks to push contacts into your other systems." },
+      { type: "steps", heading: "Choosing Your Plan On The Way Back", steps: [
+        { title: "Solo Restart", body: "Free covers 50 scans a month." },
+        { title: "Team Restart", body: "Starter at ₹299 a month adds Google Contacts sync and Calendar and Meet booking." },
+        { title: "Connected Restart", body: "Professional at ₹999 a month adds webhooks to push contacts into your other systems." },
       ] },
       plansTable("Verified limits", "Monthly prices."),
-      { type: "prose", heading: "Writing the restart message", paragraphs: [
+      { type: "prose", heading: "Writing The Restart Message", paragraphs: [
         "A good restart message is short and specific. Mention where you met, one thing you discussed, and one clear next step, such as a call or a demo. Avoid long apologies for the delay. For contacts who prefer WhatsApp, a two-line note with your digital card link is enough. For more formal contacts, a brief email from your own mailbox keeps the conversation professional.",
         "Track who has replied over the following week and send a gentle second note to the rest. Keeping all of this in one place matters more than which channel you use, because it stops two colleagues messaging the same person. If your team is restarting after a long break and wants advice on organising the backlog, send a description through the enquiry form and the sales team will respond.",
       ] },
@@ -424,29 +424,29 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/spring-sale",
     title: "Spring Sale",
-    seoTitle: "Spring Season: Choosing an eCard Plan",
+    seoTitle: "Spring Season: Choosing An eCard Plan",
     description: "Spring brings expos, product launches and financial-year planning. eCard has no spring sale, but the Free plan and a 14-day no-card trial let you start cheaply.",
-    h1: "Spring season: expos, launches and a new financial year",
+    h1: "Spring Season: Expos, Launches And A New Financial Year",
     eyebrow: "Deals · Spring",
     icon: "layers",
     intro: "February to April is crowded for Indian businesses: big expos, product launches, and the end of the financial year on 31 March. eCard has not published a spring sale. This page helps you decide which plan matches a heavy spring.",
     sections: [
-      { type: "prose", heading: "Why spring is card-heavy", paragraphs: [
+      { type: "prose", heading: "Why Spring Is Card-heavy", paragraphs: [
         "Many large trade fairs and industry conferences in India and abroad take place between February and April. Sales teams are also pushing to close the year, so they meet more people and need to follow up fast.",
         "Then April arrives with new budgets and targets. Contacts collected in spring become the first pipeline of the new year, which is why they are worth storing carefully.",
       ] },
-      { type: "table", heading: "Spring scenarios and suggested plans", headers: ["Scenario", "Likely plan", "Why"], rows: [
+      { type: "table", heading: "Spring Scenarios And Suggested Plans", headers: ["Scenario", "Likely plan", "Why"], rows: [
         ["One founder at one expo", "Free", "Under 50 scans a month"],
         ["Sales team of 15 at several shows", "Starter", "20 users, 1,000 scans"],
         ["Field team of 60 with CRM links", "Professional", "100 users, 5,000 scans, webhooks"],
         ["Distributor network with branding", "Business", "Unlimited, white label and custom domain"],
       ] },
       plansTable("Full plan limits", "Published monthly prices in INR."),
-      { type: "prose", heading: "Closing the year and opening the next", paragraphs: [
+      { type: "prose", heading: "Closing The Year And Opening The Next", paragraphs: [
         "In March, sales teams are busy closing deals, so contacts from spring events often wait until April. To avoid that, scan at the event and tag each contact with the event name and a follow-up month. When April starts, filter by tag and work through the list as part of new-year planning. This turns spring networking into the opening pipeline for the new financial year.",
         "For larger organisations, spring is also when branding and procurement decisions are made. If you need white label and a custom domain for a distributor network, Business and Enterprise include them. Use the enquiry form above to describe your requirements, and the sales team can explain how those plans fit before you commit budget for the new year.",
       ] },
-      { type: "prose", heading: "A spring checklist for multi-show teams", paragraphs: [
+      { type: "prose", heading: "A Spring Checklist For Multi-show Teams", paragraphs: [
         "If your team visits several spring fairs, create one event per show before you travel so every scanned card lands in the right group. Agree a follow-up template that names the show, and decide who replies to each type of visitor. Check your expected scans against the plan table: three shows with a team of fifteen can pass 1,000 cards, which is the Starter limit, so Professional's 5,000 scans may fit better for that month.",
       ] },
       savings("No spring sale is published"),
@@ -462,18 +462,18 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/anniversary",
     title: "Anniversary",
-    seoTitle: "eCard Anniversary: What Is Actually on Offer",
+    seoTitle: "eCard Anniversary: What Is Actually On Offer",
     description: "Looking for an eCard anniversary sale? None is published. Here are the verified ways to save: the ₹0 Free plan, a 14-day trial and yearly billing.",
-    h1: "Anniversary offers: what eCard has actually published",
+    h1: "Anniversary Offers: What eCard Has Actually Published",
     eyebrow: "Deals · Anniversary",
     icon: "clock",
     intro: "Many software companies mark their anniversary with a promotion. eCard has not published an anniversary offer or a company history, so this page sticks to the facts: what the plans cost, what they include and how to save legitimately.",
     sections: [
-      { type: "prose", heading: "Use anniversaries of your own", paragraphs: [
+      { type: "prose", heading: "Use Anniversaries Of Your Own", paragraphs: [
         "A better use of the idea is your own anniversaries: the date you first met a client, signed a supplier or launched a product. A short note on those dates keeps relationships warm without a sales pitch.",
         "eCard records where and when you met each contact, so it is easy to find the people you met a year ago at the same event and say hello again before this year's edition.",
       ] },
-      { type: "bullets", heading: "What every plan includes", items: [
+      { type: "bullets", heading: "What Every Plan Includes", items: [
         "AI card scanning",
         "Contacts, tags and events",
         "Bulk import and export",
@@ -483,7 +483,7 @@ export const pages: PageDef[] = [
         "Telegram scanning bot",
       ] },
       plansTable("What paid plans add", "More users, storage and scans as you move up."),
-      { type: "prose", heading: "Running a simple anniversary routine", paragraphs: [
+      { type: "prose", heading: "Running A Simple Anniversary Routine", paragraphs: [
         "Each month, filter contacts by events from the same month last year. Those are people you met twelve months ago, and many will attend the same events again. A short note before the event, saying you met last year and asking whether they will be there again, often leads to a planned meeting rather than a chance encounter.",
         "Do the same with clients: note the date of a first order or signing, and send a brief thank-you on its anniversary. These small notes cost nothing and build loyalty over years. eCard keeps the event, date and notes on each contact, so the routine takes minutes. Teams that want help organising contacts for routines like this can describe their needs in the enquiry form above.",
       ] },
@@ -500,29 +500,29 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/founders-day",
     title: "Founders' Day",
-    seoTitle: "Founders' Day: eCard for Busy Founders",
+    seoTitle: "Founders' Day: eCard For Busy Founders",
     description: "Founders meet more people than they can track. eCard has no Founders' Day offer, but Free costs ₹0 and the 14-day Professional trial needs no card.",
-    h1: "For founders who meet more people than they can remember",
+    h1: "For Founders Who Meet More People Than They Can Remember",
     eyebrow: "Deals · Founders' Day",
     icon: "building",
     intro: "Founders collect cards everywhere: demo days, investor meetings, customer visits and community meetups. eCard has published no Founders' Day offer, but its Free plan and trial suit an early-stage budget well.",
     sections: [
-      { type: "prose", heading: "The founder's networking pattern", paragraphs: [
+      { type: "prose", heading: "The Founder's Networking Pattern", paragraphs: [
         "In early stages one person often handles sales, hiring and fundraising. Each brings a separate stream of contacts, and mixing them up is costly. Tagging each card as investor, customer, candidate or partner keeps those streams apart.",
         "A short note on each contact also helps when a co-founder or first sales hire joins, because they inherit context, not just a list of names.",
       ] },
-      { type: "steps", heading: "A founder's plan path", steps: [
-        { title: "Start on Free", body: "₹0 for up to 5 users and 50 scans a month covers most solo founders." },
-        { title: "Move to Starter as the team grows", body: "₹299 a month for 20 users, 1,000 scans and Google Contacts sync." },
-        { title: "Professional when you automate", body: "₹999 a month adds webhooks for sending contacts into your own tools." },
-        { title: "Save with yearly billing", body: "Once you are confident, yearly billing saves about two months." },
+      { type: "steps", heading: "A Founder's Plan Path", steps: [
+        { title: "Start On Free", body: "₹0 for up to 5 users and 50 scans a month covers most solo founders." },
+        { title: "Move To Starter As The Team Grows", body: "₹299 a month for 20 users, 1,000 scans and Google Contacts sync." },
+        { title: "Professional When You Automate", body: "₹999 a month adds webhooks for sending contacts into your own tools." },
+        { title: "Save With Yearly Billing", body: "Once you are confident, yearly billing saves about two months." },
       ] },
       plansTable("Plan limits for a growing company", "Monthly prices in INR."),
-      { type: "prose", heading: "Getting the first sales hire up to speed", paragraphs: [
+      { type: "prose", heading: "Getting The First Sales Hire Up To Speed", paragraphs: [
         "When your first sales person joins, the founder's contacts become the team's starting pipeline. If those contacts are scanned, tagged and noted in eCard, the new hire can see who was met, where and why. Give them the Member role, keep yourself as Owner, and agree on tags for lead stages so everyone describes contacts the same way.",
         "Founders should also set up a digital business card for each team member early. It gives every person a consistent, professional link to share by email or WhatsApp, and you can track who opens it. Early-stage teams with specific questions about plans as they grow can use the enquiry form on this page to reach the sales team directly.",
       ] },
-      { type: "prose", heading: "Fundraising rounds and demo days", paragraphs: [
+      { type: "prose", heading: "Fundraising Rounds And Demo Days", paragraphs: [
         "A demo day or investor week can bring dozens of cards in a single afternoon. Scan each one the same evening, tag it as investor, mentor or customer, and add a line about what interested them. When you send updates weeks later, those notes let you write a personal message instead of a generic one. If a round brings more than 50 cards in a month, the 14-day Professional trial covers the spike at no cost.",
       ] },
       savings("No Founders' Day offer is published"),
@@ -538,18 +538,18 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/flash-sale",
     title: "Flash Sale",
-    seoTitle: "Flash Sale? eCard Prices Stay the Same",
+    seoTitle: "Flash Sale? eCard Prices Stay The Same",
     description: "eCard does not run flash sales. Prices stay the same, so there is no need to rush. Start on the ₹0 Free plan or a 14-day trial whenever it suits you.",
-    h1: "No flash sale, no countdown, no rush",
+    h1: "No Flash Sale, No Countdown, No Rush",
     eyebrow: "Deals · Flash Sale",
     icon: "bell",
     intro: "Flash sales push you to decide in minutes. eCard has published no flash sale, and its prices are the same whenever you sign up. That means you can take the time to test properly, which is the best way to avoid paying for the wrong plan.",
     sections: [
-      { type: "prose", heading: "Why slow decisions are cheaper", paragraphs: [
+      { type: "prose", heading: "Why Slow Decisions Are Cheaper", paragraphs: [
         "With a fixed price list, the main risk is not missing a discount but choosing a plan you outgrow, or one far bigger than you need. The 14-day Professional trial lets you see your real scan volume and team size before you commit.",
         "Be cautious with any website or message that claims a limited-time eCard offer. eCard has not published one; check the official pricing page or ask sales.",
       ] },
-      { type: "split", heading: "A two-week evaluation instead of a ten-minute decision", body: [
+      { type: "split", heading: "A Two-week Evaluation Instead Of A Ten-minute Decision", body: [
         "Use the trial to collect evidence for your decision.",
       ], points: [
         "Week one: scan real cards and invite the people who will use eCard",
@@ -558,7 +558,7 @@ export const pages: PageDef[] = [
         "Finally: choose monthly or yearly billing",
       ] },
       plansTable("Fixed published prices", "Monthly prices in INR, the same any day you sign up."),
-      { type: "prose", heading: "Spotting the plan you actually need", paragraphs: [
+      { type: "prose", heading: "Spotting The Plan You Actually Need", paragraphs: [
         "The trial gives you real numbers. At the end of fourteen days, check how many cards were scanned, how many people logged in, and whether you used webhooks. If scans were under 50 and only a few people used eCard, Free is likely enough. If you scanned hundreds and several colleagues joined, Starter or Professional fits. If you need white label, look at Business.",
         "Making a decision this way also makes it easy to explain internally, because it rests on usage rather than on a countdown timer. If your numbers fall between two plans, or you expect a busy season soon, send them through the enquiry form above and the sales team can help you choose without pressure.",
       ] },
@@ -575,28 +575,28 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/lifetime-deal",
     title: "Lifetime Deal",
-    seoTitle: "Is There an eCard Lifetime Deal? No",
+    seoTitle: "Is There An eCard Lifetime Deal? No",
     description: "eCard has no lifetime deal or one-time payment plan. See what exists instead: a ₹0 Free plan, monthly plans, and yearly billing that saves about two months.",
-    h1: "There is no eCard lifetime deal",
+    h1: "There Is No eCard Lifetime Deal",
     eyebrow: "Deals · Lifetime",
     icon: "ban",
     intro: "People often search for a lifetime deal before subscribing to software. eCard does not offer one: plans are billed monthly or yearly. This page explains the alternatives and how to keep long-term costs low.",
     sections: [
-      { type: "prose", heading: "What exists instead", paragraphs: [
+      { type: "prose", heading: "What Exists Instead", paragraphs: [
         "The closest thing to paying once is paying nothing: the Free plan costs ₹0 and has no time limit published, with 5 users, 1 GB of storage and 50 scans a month.",
         "If you need more, yearly billing saves about two months compared with monthly payments. Exact totals are shown at checkout, with GST where applicable.",
       ] },
-      { type: "bullets", heading: "Questions to ask any lifetime offer elsewhere", intro: "If you are comparing other tools that sell lifetime access, it helps to ask:", items: [
+      { type: "bullets", heading: "Questions To Ask Any Lifetime Offer Elsewhere", intro: "If you are comparing other tools that sell lifetime access, it helps to ask:", items: [
         "Which features and limits are included, and can they change later?",
         "Are AI scanning costs covered, or do you supply your own keys?",
         "What happens to your data if the product shuts down?",
         "Is export available, so you can leave with your contacts?",
       ] },
-      { type: "prose", heading: "How eCard handles data portability", paragraphs: [
+      { type: "prose", heading: "How eCard Handles Data Portability", paragraphs: [
         "Every eCard plan includes bulk import and export, and workspaces have export and deletion tools for compliance. You are not locked in, which matters more over the long term than a one-time price.",
       ] },
       plansTable("Plans and prices", "Monthly prices in INR."),
-      { type: "prose", heading: "Keeping long-term costs predictable", paragraphs: [
+      { type: "prose", heading: "Keeping Long-term Costs Predictable", paragraphs: [
         "For teams that want certainty, the practical approach is to start small and move up only when the numbers justify it. Begin on Free, run the 14-day Professional trial when you have a busy period, and pick the smallest paid plan that covers your normal month. Once usage is steady, yearly billing reduces the total by about two months.",
         "Review your plan once or twice a year. Teams change size, event calendars shift, and needs such as webhooks or white label may appear later. Because you can cancel any time and keep access until the end of the billing period, you are never committed beyond what you have paid for. For multi-year or custom arrangements, contact sales through the enquiry form.",
       ] },
@@ -613,25 +613,25 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/startup-small-business",
     title: "Startup & Small Business",
-    seoTitle: "eCard for Startups and Small Businesses",
+    seoTitle: "eCard For Startups And Small Businesses",
     description: "eCard has no special startup programme, but small businesses can start on the ₹0 Free plan, move to Starter at ₹299 a month and save more with yearly billing.",
-    h1: "eCard on a startup or small-business budget",
+    h1: "eCard On A Startup Or Small-business Budget",
     eyebrow: "Deals · Startups & SMBs",
     icon: "rupee",
     intro: "Small businesses in India watch every rupee. eCard has not published a startup programme or small-business discount, but its plans are already priced for small teams. Here is how to choose the cheapest plan that does the job.",
     sections: [
-      { type: "prose", heading: "Who this suits", paragraphs: [
+      { type: "prose", heading: "Who This Suits", paragraphs: [
         "Shop owners, consultants, traders, clinics, agencies and early-stage startups all collect visiting cards. Most of them still type numbers into a phone by hand, which is slow and makes follow-up unreliable.",
         "eCard turns a photo of a card into a contact, then helps you send a WhatsApp or email follow-up. For many small businesses, that alone is worth more than any CRM feature list.",
       ] },
-      { type: "steps", heading: "A low-cost walkthrough", steps: [
-        { title: "Under 50 cards a month", body: "Stay on Free at ₹0. It includes 5 users, the digital card and the Telegram bot." },
-        { title: "A small sales team", body: "Starter at ₹299 a month for 20 users and 1,000 scans, plus Google Contacts sync." },
-        { title: "Systems that need contacts automatically", body: "Professional at ₹999 a month adds webhooks." },
-        { title: "Paying in India", body: "Pay by UPI, net banking, wallets, EMI or cards." },
+      { type: "steps", heading: "A Low-cost Walkthrough", steps: [
+        { title: "Under 50 Cards A Month", body: "Stay on Free at ₹0. It includes 5 users, the digital card and the Telegram bot." },
+        { title: "A Small Sales Team", body: "Starter at ₹299 a month for 20 users and 1,000 scans, plus Google Contacts sync." },
+        { title: "Systems That Need Contacts Automatically", body: "Professional at ₹999 a month adds webhooks." },
+        { title: "Paying In India", body: "Pay by UPI, net banking, wallets, EMI or cards." },
       ] },
       plansTable("Small-business plan limits", "Prices in INR per month."),
-      { type: "prose", heading: "Small-business seasons that bring in cards", paragraphs: [
+      { type: "prose", heading: "Small-business Seasons That Bring In Cards", paragraphs: [
         "Small businesses in India meet new people in predictable bursts: wedding season for caterers and decorators, admission season for coaching institutes, Diwali for gifting suppliers, and local trade fairs throughout the year. Scanning cards during each burst and tagging them by season makes it easy to reconnect with the same people when the season comes around again.",
         "This is also where WhatsApp follow-ups help most, because many small-business customers prefer it to email. eCard includes WhatsApp messages on every plan, with templates in English, Hindi and Marathi. If you are unsure which plan suits your business, describe your season and team size in the enquiry form above and the sales team will reply.",
       ] },
@@ -648,29 +648,29 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/world-productivity-day",
     title: "World Productivity Day",
-    seoTitle: "World Productivity Day: Stop Typing Cards by Hand",
+    seoTitle: "World Productivity Day: Stop Typing Cards By Hand",
     description: "Typing visiting cards by hand wastes hours. eCard has no productivity-day offer, but you can automate scanning free or with a 14-day Professional trial.",
-    h1: "World Productivity Day: stop typing visiting cards",
+    h1: "World Productivity Day: Stop Typing Visiting Cards",
     eyebrow: "Deals · Productivity",
     icon: "zap",
     intro: "World Productivity Day, observed on 20 June, is a reminder to remove small time-wasters from the working week. Typing visiting cards into a phone is one of them. eCard has no offer tied to the day, but you can automate card entry for free.",
     sections: [
-      { type: "prose", heading: "Where the time goes", paragraphs: [
+      { type: "prose", heading: "Where The Time Goes", paragraphs: [
         "Entering a card by hand means typing a name, designation, company, phone numbers, email and address, then fixing typos. Across a team returning from an expo, that becomes hours of low-value work.",
         "With eCard, a photo is read by the AI model you choose and saved as a contact. Forwarding a photo to the Telegram bot saves it and emails a summary, so even on the move nothing is left for later.",
       ] },
-      { type: "cards", heading: "Productivity features on every plan", cards: [
-        { title: "AI scanning", body: "Choose Claude, OpenAI, Gemini, DeepSeek or Grok to read cards.", icon: "scan" },
-        { title: "Telegram bot", body: "Snap a card in Telegram and it lands in your workspace.", icon: "send" },
-        { title: "Bulk import and export", body: "Move existing contact lists in and out quickly.", icon: "upload" },
+      { type: "cards", heading: "Productivity Features On Every Plan", cards: [
+        { title: "AI Scanning", body: "Choose Claude, OpenAI, Gemini, DeepSeek or Grok to read cards.", icon: "scan" },
+        { title: "Telegram Bot", body: "Snap a card in Telegram and it lands in your workspace.", icon: "send" },
+        { title: "Bulk Import And Export", body: "Move existing contact lists in and out quickly.", icon: "upload" },
         { title: "Outreach", body: "Send follow-ups by email or WhatsApp from the contact record.", icon: "mail" },
       ] },
       plansTable("Scans available each month", "Choose by volume, not by feature."),
-      { type: "prose", heading: "Measuring the time you save", paragraphs: [
+      { type: "prose", heading: "Measuring The Time You Save", paragraphs: [
         "Before you start, time how long your team takes to type in ten cards by hand, including corrections. After a week with eCard, time the same task using scanning. The difference, multiplied by the cards your team collects in a month, is a simple estimate of time saved. Many teams find the gap is larger than expected, especially after a big event.",
         "Productivity also comes from fewer forgotten follow-ups. When every card lands in one shared workspace and the intro email goes out automatically, there is less guesswork about whether a lead was contacted. Teams that want to discuss automating card handling across departments or branches can use the enquiry form on this page to reach sales.",
       ] },
-      { type: "prose", heading: "A five-minute daily routine", paragraphs: [
+      { type: "prose", heading: "A Five-minute Daily Routine", paragraphs: [
         "Productivity gains come from habit, not from a single clean-up. Spend five minutes at the end of each working day scanning any new cards and sending the follow-ups they need. Forward cards to the Telegram bot during the day so the evening routine is mostly replies. Small teams on Free can manage 50 scans a month this way, and teams that regularly exceed that can move to Starter at ₹299 a month.",
       ] },
       savings("No productivity-day offer is published"),
@@ -686,29 +686,29 @@ export const pages: PageDef[] = [
   deal({
     slug: "deals/halloween",
     title: "Halloween",
-    seoTitle: "Halloween: Rescue Forgotten Contacts with eCard",
+    seoTitle: "Halloween: Rescue Forgotten Contacts With eCard",
     description: "Scared of the pile of unanswered visiting cards? eCard has no Halloween offer, but the ₹0 Free plan and a 14-day no-card trial help you clear it quickly.",
-    h1: "Halloween: the scary pile of unanswered cards",
+    h1: "Halloween: The Scary Pile Of Unanswered Cards",
     eyebrow: "Deals · Halloween",
     icon: "archive",
     intro: "Halloween, on 31 October, lands right before Diwali in many years and just after the autumn expo season. That is when the stack of unanswered cards is biggest. eCard has published no Halloween offer, but it can make that stack less frightening.",
     sections: [
-      { type: "prose", heading: "Why late October is so card-heavy", paragraphs: [
+      { type: "prose", heading: "Why Late October Is So Card-heavy", paragraphs: [
         "September and October bring industry exhibitions, Diwali client visits and corporate gifting meetings. Each leaves behind cards from people who expect to hear from you, and each week of silence makes the eventual message more awkward.",
         "Clearing that backlog before the festive break means your messages arrive while the meeting is still fresh, and your pipeline is ready for November.",
       ] },
-      { type: "steps", heading: "A one-evening backlog rescue", steps: [
-        { title: "Start the trial", body: "Begin the 14-day Professional trial with no card, which allows 5,000 scans a month." },
-        { title: "Scan everything", body: "Photograph cards in your phone browser or send them to the Telegram bot." },
-        { title: "Tag by event", body: "Group contacts by the expo or visit where you met them." },
-        { title: "Send festive greetings", body: "Send a short email or WhatsApp message, which works well around Diwali." },
+      { type: "steps", heading: "A One-evening Backlog Rescue", steps: [
+        { title: "Start The Trial", body: "Begin the 14-day Professional trial with no card, which allows 5,000 scans a month." },
+        { title: "Scan Everything", body: "Photograph cards in your phone browser or send them to the Telegram bot." },
+        { title: "Tag By Event", body: "Group contacts by the expo or visit where you met them." },
+        { title: "Send Festive Greetings", body: "Send a short email or WhatsApp message, which works well around Diwali." },
       ] },
       plansTable("Where to land after the rescue", "Monthly INR prices."),
-      { type: "prose", heading: "Making festive messages feel personal", paragraphs: [
+      { type: "prose", heading: "Making Festive Messages Feel Personal", paragraphs: [
         "Festive greetings work best when they mention something specific: the expo where you met, the product you discussed or the city you visited. Add that detail as a note when you scan the card, and the greeting writes itself. Avoid sending the same message to everyone at once; a small batch of personal notes gets better replies than a long blast.",
         "After the festive period, follow up with anyone who replied to your greeting, since they are the warmest contacts in your list. Tag them so the sales team can prioritise them in November. If your team collects cards at many autumn events and wants help organising them, the enquiry form above sends your request directly to the sales team.",
       ] },
-      { type: "prose", heading: "Sorting the backlog by priority", paragraphs: [
+      { type: "prose", heading: "Sorting The Backlog By Priority", paragraphs: [
         "When the pile is large, do not answer cards in the order you find them. Tag each contact as hot, warm or cold while you scan, then reply to hot contacts first, ideally before Diwali leave begins. Warm contacts can get a festive greeting, and cold ones can wait for a November check-in. Tags and events are included on every plan, including Free at ₹0, so the sorting costs nothing.",
       ] },
       savings("No Halloween offer is published"),
@@ -726,26 +726,26 @@ export const pages: PageDef[] = [
     title: "Secret Deal",
     seoTitle: "eCard Secret Deal? There Are No Hidden Prices",
     description: "eCard has no secret deals or hidden coupon codes. Every price is published: Free at ₹0, Starter ₹299, Professional ₹999 and Business ₹2,999 a month.",
-    h1: "No secret deals, just published prices",
+    h1: "No Secret Deals, Just Published Prices",
     eyebrow: "Deals · Secret Deal",
     icon: "shield",
     intro: "Searches for secret deals and hidden coupon codes are common. eCard has none: every plan price is published, and the only custom pricing is Enterprise, which you request from sales. This page explains what is available and how to avoid fake offers.",
     sections: [
-      { type: "prose", heading: "Transparent pricing", paragraphs: [
+      { type: "prose", heading: "Transparent Pricing", paragraphs: [
         "Everyone sees the same price list. Free is ₹0, Starter ₹299, Professional ₹999 and Business ₹2,999 a month, with GST where applicable. Yearly billing saves about two months.",
         "Enterprise pricing is custom because large organisations have different needs. That is a conversation with sales, not a hidden discount.",
       ] },
-      { type: "bullets", heading: "How to spot a fake eCard offer", items: [
+      { type: "bullets", heading: "How To Spot A Fake eCard Offer", items: [
         "It promises a lifetime plan. eCard has none.",
         "It asks for payment outside the official checkout.",
         "It uses a coupon code. eCard has published no codes.",
         "It comes from an email address that is not on the official domain or sales@bizzfly.com.",
       ] },
-      { type: "prose", heading: "What to do if you see one", paragraphs: [
+      { type: "prose", heading: "What To Do If You See One", paragraphs: [
         "Do not pay or share account details. Send the message to sales@bizzfly.com, or describe it in the enquiry form above, so the team is aware.",
       ] },
       plansTable("Every price, published", "Monthly prices in INR."),
-      { type: "prose", heading: "Our commitment to clear pricing", paragraphs: [
+      { type: "prose", heading: "Our Commitment To Clear Pricing", paragraphs: [
         "Clear pricing helps everyone plan. Small businesses can see exactly what they will pay, finance teams can budget, and large organisations know that only Enterprise terms are negotiated individually. When eCard changes prices or plans, the official pricing page is where those changes appear, not private messages or unofficial websites.",
         "If you think you have been offered a special price by someone claiming to represent eCard, confirm it with sales@bizzfly.com before paying. You can also use the enquiry form above, which opens an email to the same address. The team can confirm what is genuine, and you can be confident that the price you pay is the price everyone else pays.",
       ] },

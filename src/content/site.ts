@@ -38,7 +38,7 @@ export const CATEGORIES: Record<CategoryKey, { label: string; base: string; blur
   crm: { label: "Contact CRM", base: "features/contact-management", blurb: "Clean, searchable contacts from every card." },
   cards: { label: "Digital Business Cards", base: "features/digital-business-card", blurb: "Your own card with QR, Save-to-contacts and tracked links." },
   outreach: { label: "Email & WhatsApp", base: "features/outreach", blurb: "Intros and follow-ups that send themselves." },
-  telegram: { label: "Telegram Bot", base: "features/telegram-bot", blurb: "Snap a card in Telegram — it is saved and emailed." },
+  telegram: { label: "Telegram Bot", base: "features/telegram-bot", blurb: "Snap a card in Telegram. It is saved and emailed." },
   meetings: { label: "Meeting Memory", base: "features/meeting-memory", blurb: "Remember where you met and what was said." },
   events: { label: "Events & Expos", base: "features/events-expos", blurb: "Group every card from a show and follow up with the room." },
   analytics: { label: "Analytics & Tracking", base: "features/link-tracking", blurb: "See who opened your card, PDFs and WhatsApp links." },
@@ -46,7 +46,7 @@ export const CATEGORIES: Record<CategoryKey, { label: string; base: string; blur
   integrations: { label: "Integrations", base: "integrations", blurb: "Plugs into the tools you already use." },
   solutions: { label: "Use Cases", base: "use-cases", blurb: "Made for whoever collects cards for a living." },
   pricing: { label: "Pricing", base: "pricing", blurb: "Start free, upgrade as your network grows." },
-  mobile: { label: "Mobile", base: "mobile", blurb: "Works in any phone browser — no app to install." },
+  mobile: { label: "Mobile", base: "mobile", blurb: "Works in any phone browser, no app to install." },
   resources: { label: "Guides & Resources", base: "resources", blurb: "Practical guides for networking and follow-up." },
   support: { label: "Help & FAQ", base: "help", blurb: "Answers to common questions." },
   legal: { label: "Legal", base: "legal", blurb: "Policies and terms." },
@@ -101,18 +101,18 @@ export interface Plan {
 
 /** Verified from https://ecard.gg/pricing on SITE.verifiedOn. Prices in INR per month. */
 export const PLANS: Plan[] = [
-  { id: "free", name: "Free", price: 0, audience: "For getting started", users: "5", storage: "1 GB", scans: "50", extras: [], cta: { label: "Start free", href: SITE.signUp } },
-  { id: "starter", name: "Starter", price: 299, audience: "For small teams", users: "20", storage: "25 GB", scans: "1,000", extras: ["Google Contacts sync", "Google Calendar & Meet booking"], cta: { label: "Start 14-day trial", href: SITE.signUp } },
-  { id: "professional", name: "Professional", price: 999, audience: "For growing businesses", users: "100", storage: "250 GB", scans: "5,000", extras: ["Google Contacts sync", "Google Calendar & Meet booking", "Webhooks"], cta: { label: "Start 14-day trial", href: SITE.signUp }, popular: true },
-  { id: "business", name: "Business", price: 2999, audience: "For large organizations", users: "Unlimited", storage: "Unlimited", scans: "Unlimited", extras: ["Google Contacts sync", "Google Calendar & Meet booking", "Webhooks", "White label & custom domain"], cta: { label: "Choose plan", href: `${SITE.signUp}?plan=business&cycle=monthly` } },
-  { id: "enterprise", name: "Enterprise", price: null, audience: "Custom pricing — contact sales", users: "Unlimited", storage: "Unlimited", scans: "Unlimited", extras: ["Google Contacts sync", "Google Calendar & Meet booking", "Webhooks", "White label & custom domain"], cta: { label: "Contact sales", href: salesMailto } },
+  { id: "free", name: "Free", price: 0, audience: "For getting started", users: "5", storage: "1 GB", scans: "50", extras: [], cta: { label: "Start Free", href: SITE.signUp } },
+  { id: "starter", name: "Starter", price: 299, audience: "For small teams", users: "20", storage: "25 GB", scans: "1,000", extras: ["Google Contacts sync", "Google Calendar & Meet booking"], cta: { label: "Start 14-day Trial", href: SITE.signUp } },
+  { id: "professional", name: "Professional", price: 999, audience: "For growing businesses", users: "100", storage: "250 GB", scans: "5,000", extras: ["Google Contacts sync", "Google Calendar & Meet booking", "Webhooks"], cta: { label: "Start 14-day Trial", href: SITE.signUp }, popular: true },
+  { id: "business", name: "Business", price: 2999, audience: "For large organizations", users: "Unlimited", storage: "Unlimited", scans: "Unlimited", extras: ["Google Contacts sync", "Google Calendar & Meet booking", "Webhooks", "White label & custom domain"], cta: { label: "Choose Plan", href: `${SITE.signUp}?plan=business&cycle=monthly` } },
+  { id: "enterprise", name: "Enterprise", price: null, audience: "Custom pricing, contact sales", users: "Unlimited", storage: "Unlimited", scans: "Unlimited", extras: ["Google Contacts sync", "Google Calendar & Meet booking", "Webhooks", "White label & custom domain"], cta: { label: "Contact Sales", href: salesMailto } },
 ];
 
 /** The six FAQs published on the ecard.gg homepage (answers lightly edited for clarity). */
 export const VERIFIED_FAQS = [
   { q: "Which AI reads my cards?", a: "You choose: Claude, OpenAI, Gemini, DeepSeek, Grok, Azure or a custom endpoint. Add several keys and eCard rotates and fails over when one is rate-limited." },
   { q: "Do the people I meet need the app?", a: "No. They get an email or WhatsApp message and can open your digital card in any browser, scan the QR or save the contact." },
-  { q: "Can I send from my own email address?", a: "Yes — connect Gmail, Outlook, Zoho, SendGrid, Brevo, Mailgun, Amazon SES, Resend or any SMTP host." },
+  { q: "Can I send from my own email address?", a: "Yes: connect Gmail, Outlook, Zoho, SendGrid, Brevo, Mailgun, Amazon SES, Resend or any SMTP host." },
   { q: "How does the Telegram bot know my workspace?", a: "Generate a one-time code in Settings → Telegram and send it to the bot. After that, every card you forward lands in your workspace." },
   { q: "How do I pay?", a: "In India by UPI, net banking, wallets, EMI or cards. International customers pay by card. Cancel any time and keep access until the end of the period." },
   { q: "Is my data safe?", a: "Secrets are encrypted at rest, accounts support two-factor sign-in, and workspaces have roles, an audit log and export/delete tools for compliance." },
@@ -122,6 +122,6 @@ export const PRICING_NOTES = {
   currency: "Prices in INR. Local currency shown at checkout for supported countries. GST applied where applicable.",
   yearly: "Yearly billing saves ~2 months. Exact yearly totals are shown at checkout.",
   payment: "In India pay by UPI, net banking, wallets, EMI or cards. International customers pay by card.",
-  trial: "New workspaces get a 14-day Professional trial — no card needed.",
+  trial: "New workspaces get a 14-day Professional trial, no card needed.",
   cancel: "Cancel any time and keep access until the end of your billing period.",
 };

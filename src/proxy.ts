@@ -20,6 +20,6 @@ export async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  // Skip Next internals, metadata routes and any file with an extension.
-  matcher: ["/((?!_next/|robots\\.txt|sitemap\\.xml|favicon\\.ico|brand/|.*\\..*).*)"],
+  // Skip Next internals, API routes, metadata routes and any file with an extension.
+  matcher: ["/((?!_next/|api/|robots\\.txt|sitemap\\.xml|favicon\\.ico|brand/|.*\\..*).*)"],
 };

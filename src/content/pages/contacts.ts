@@ -5,10 +5,10 @@ export const pages: PageDef[] = [
     slug: "contact/sales",
     category: "contacts",
     title: "Sales Enquiries",
-    seoTitle: "eCard Sales Enquiries for Teams and Enterprise",
+    seoTitle: "eCard Sales Enquiries For Teams And Enterprise",
     description: "Planning eCard for a team or organisation? Email sales@bizzfly.com with your team size, scan volume and needs, and get the facts on plans first.",
-    h1: "Talk to eCard about rolling out to your team",
-    eyebrow: "Sales enquiries",
+    h1: "Talk To eCard About Rolling Out To Your Team",
+    eyebrow: "Sales Enquiries",
     intro: "Use the form on this page to write to eCard's sales team at sales@bizzfly.com. It opens your email app, so the message comes from you. This page helps you prepare a useful enquiry, so the first reply can be specific.",
     variant: "support",
     visual: "none",
@@ -16,7 +16,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Do you need to talk to sales?",
+        heading: "Do You Need To Talk To Sales?",
         headers: ["Your situation", "Suggested next step"],
         rows: [
           ["Trying eCard alone or with a few colleagues", "Start on Free (₹0, 5 users, 50 scans a month)"],
@@ -28,7 +28,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "What to put in your enquiry",
+        heading: "What To Put In Your Enquiry",
         items: [
           "Your organisation's name and what it does.",
           "Roughly how many people will use eCard.",
@@ -40,7 +40,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "How this differs from Contact Sales",
+        heading: "How This Differs From Contact Sales",
         paragraphs: [
           "The Contact Sales page summarises the Enterprise offer. This page is a preparation checklist: use it when you're ready to send a detailed enquiry and want to avoid a round of back-and-forth questions.",
           "eCard has not published a sales phone line, meeting booking link or office to visit. Email is the route.",
@@ -49,22 +49,22 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Pricing honesty",
+        title: "Pricing Honesty",
         body: "Monthly prices are published for Free, Starter, Professional and Business. Yearly billing saves about two months. Enterprise is custom-priced. No discount codes or private offers are published, and any special terms would be confirmed in writing by eCard.",
       },
       {
         type: "steps",
-        heading: "A sensible evaluation path",
+        heading: "A Sensible Evaluation Path",
         steps: [
-          { title: "Start a trial", body: "New workspaces get a 14-day Professional trial without a card." },
-          { title: "Run a real test", body: "Scan a batch of sample cards, try natural-language search and send a test introduction from your own mailbox." },
-          { title: "Invite a few colleagues", body: "Check roles and shared contacts with the people who'll use it daily." },
-          { title: "Then write to sales", body: "With real usage in hand, your questions will be sharper." },
+          { title: "Start A Trial", body: "New workspaces get a 14-day Professional trial without a card." },
+          { title: "Run A Real Test", body: "Scan a batch of sample cards, try natural-language search and send a test introduction from your own mailbox." },
+          { title: "Invite A Few Colleagues", body: "Check roles and shared contacts with the people who'll use it daily." },
+          { title: "Then Write To Sales", body: "With real usage in hand, your questions will be sharper." },
         ],
       },
       {
         type: "prose",
-        heading: "Questions worth asking in any vendor conversation",
+        heading: "Questions Worth Asking In Any Vendor Conversation",
         paragraphs: [
           "As general guidance, buyers evaluating a contact CRM usually ask who controls the data, how it can be exported and deleted, how access is secured and what happens at the end of a contract. eCard's verified answers include two-factor sign-in, roles, an audit log, AES-256-GCM encryption for stored API keys and SMTP passwords, and a compliance checklist covering consent, export and deletion. Ask sales to confirm anything else in writing.",
           "It is also worth checking the draft Data Processing and Privacy Policy pages before a procurement review, so your questions focus on gaps rather than on what is already written down.",
@@ -84,10 +84,10 @@ export const pages: PageDef[] = [
     slug: "contact/media",
     category: "contacts",
     title: "Media Enquiries",
-    seoTitle: "eCard Media and Press Enquiries",
+    seoTitle: "eCard Media And Press Enquiries",
     description: "Journalists and writers can email eCard at sales@bizzfly.com. See which product facts are verified, what isn't published and how to frame a press request.",
-    h1: "Press and media questions about eCard",
-    eyebrow: "Media enquiries",
+    h1: "Press And Media Questions About eCard",
+    eyebrow: "Media Enquiries",
     intro: "Writing about eCard, business cards or networking tools? Use the form on this page to email sales@bizzfly.com. eCard has not published a press office, so this page also lists the facts you can check for yourself.",
     variant: "support",
     visual: "none",
@@ -96,12 +96,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No press office is published",
+        title: "No Press Office Is Published",
         body: "eCard has not published a press contact, press kit, spokesperson, logo pack, news releases or company figures. Media enquiries go to sales@bizzfly.com for now.",
       },
       {
         type: "bullets",
-        heading: "Facts you can verify from the site",
+        heading: "Facts You Can Verify From The Site",
         items: [
           "eCard turns visiting cards into contacts using AI card scanning, then keeps them in a contact CRM.",
           "It runs in any phone browser, with no app to install.",
@@ -112,17 +112,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Writing a press enquiry",
+        heading: "Writing A Press Enquiry",
         steps: [
-          { title: "Say who you write for", body: "Publication, format and audience." },
-          { title: "State your deadline", body: "So it's clear whether a reply is still useful." },
-          { title: "List your questions", body: "Numbered questions get clearer answers." },
-          { title: "Say how you'll attribute", body: "For example, whether you'd quote a named person or the company." },
+          { title: "Say Who You Write For", body: "Publication, format and audience." },
+          { title: "State Your Deadline", body: "So it's clear whether a reply is still useful." },
+          { title: "List Your Questions", body: "Numbered questions get clearer answers." },
+          { title: "Say How You'll Attribute", body: "For example, whether you'd quote a named person or the company." },
         ],
       },
       {
         type: "prose",
-        heading: "What eCard won't be able to provide yet",
+        heading: "What eCard Won't Be Able To Provide Yet",
         paragraphs: [
           "Because eCard hasn't published customer stories, user numbers, funding, founders or milestones, don't expect those to be confirmable from public material. If they matter to your story, ask directly, and be aware that a reply may say the information isn't public.",
           "Product screenshots on this site use sample data. If you want to show eCard in use, the Free plan lets you create your own workspace and capture your own screens.",
@@ -132,10 +132,10 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Useful background pages",
+        heading: "Useful Background Pages",
         cards: [
-          { title: "Product at a glance", body: "A summary of what eCard does.", icon: "layers" },
-          { title: "Security at a glance", body: "Verified security features.", icon: "shield" },
+          { title: "Product At A Glance", body: "A summary of what eCard does.", icon: "layers" },
+          { title: "Security At A Glance", body: "Verified security features.", icon: "shield" },
           { title: "Pricing", body: "Plans and monthly prices in INR.", icon: "rupee" },
         ],
       },
@@ -156,8 +156,8 @@ export const pages: PageDef[] = [
     title: "Partner Enquiries",
     seoTitle: "Partnership Enquiries: Contacting eCard",
     description: "Interested in partnering with eCard? No partner programme is published yet, but you can email sales@bizzfly.com. See what to prepare before you write.",
-    h1: "Proposing a partnership with eCard",
-    eyebrow: "Partner enquiries",
+    h1: "Proposing A Partnership With eCard",
+    eyebrow: "Partner Enquiries",
     intro: "If you run an agency, event business, consultancy or software product and see a fit with eCard, use the form on this page. It opens your email app with a message to sales@bizzfly.com.",
     variant: "support",
     visual: "none",
@@ -166,22 +166,22 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No partner programme is published",
+        title: "No Partner Programme Is Published",
         body: "eCard has not published a partner, reseller, referral or affiliate programme, nor any commission rates, tiers or partner directory. A partnership enquiry is an open conversation, not an application to an existing scheme.",
       },
       {
         type: "cards",
-        heading: "Kinds of conversation you might start",
+        heading: "Kinds Of Conversation You Might Start",
         cards: [
-          { title: "Event organisers", body: "Ideas for helping exhibitors and attendees turn cards into contacts after a show.", icon: "calendar" },
-          { title: "Consultants and agencies", body: "Helping clients set up a visiting-card workflow.", icon: "briefcase" },
-          { title: "Software builders", body: "Connecting your product to eCard through webhooks, which send signed events for every new contact on Professional and above.", icon: "webhook" },
-          { title: "Printers and card designers", body: "Pairing printed cards with a digital business card and QR sharing.", icon: "card" },
+          { title: "Event Organisers", body: "Ideas for helping exhibitors and attendees turn cards into contacts after a show.", icon: "calendar" },
+          { title: "Consultants And Agencies", body: "Helping clients set up a visiting-card workflow.", icon: "briefcase" },
+          { title: "Software Builders", body: "Connecting your product to eCard through webhooks, which send signed events for every new contact on Professional and above.", icon: "webhook" },
+          { title: "Printers And Card Designers", body: "Pairing printed cards with a digital business card and QR sharing.", icon: "card" },
         ],
       },
       {
         type: "bullets",
-        heading: "What to prepare before writing",
+        heading: "What To Prepare Before Writing",
         items: [
           "A short description of your business and who your customers are.",
           "The specific problem a partnership would solve for those customers.",
@@ -192,7 +192,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "General advice on partnership pitches",
+        heading: "General Advice On Partnership Pitches",
         paragraphs: [
           "Partnership conversations go better when they start from a shared customer, not a commercial structure. Describe a real workflow, such as an exhibitor scanning two hundred cards over three days, and how both products fit into it. Leave discussion of revenue splits until both sides agree there is a fit.",
           "It also helps to be realistic about scale. A partnership that starts with your own team using eCard, writing about the experience and sharing what customers asked for is easier to agree to than a large launch plan. If the fit is real, it will show up in that early work.",
@@ -201,14 +201,14 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "What a first partnership email might look like",
+        heading: "What A First Partnership Email Might Look Like",
         intro: "Sample only. A short, concrete first message tends to work better than a long proposal deck.",
         steps: [
-          { title: "Who you are", body: "One or two sentences: your organisation, your customers and where you operate." },
-          { title: "The shared customer", body: "Describe the person who would use both products, such as an exhibitor at a regional trade fair." },
-          { title: "The workflow", body: "Explain the moment eCard fits in, for example scanning cards at the stand and syncing them to Google Contacts on Starter or above." },
-          { title: "A small first step", body: "Suggest something easy to try, like a joint guide or a pilot with your own team on the Free plan." },
-          { title: "An open question", body: "Ask whether eCard is interested in exploring it, without assuming any programme or commission exists." },
+          { title: "Who You Are", body: "One or two sentences: your organisation, your customers and where you operate." },
+          { title: "The Shared Customer", body: "Describe the person who would use both products, such as an exhibitor at a regional trade fair." },
+          { title: "The Workflow", body: "Explain the moment eCard fits in, for example scanning cards at the stand and syncing them to Google Contacts on Starter or above." },
+          { title: "A Small First Step", body: "Suggest something easy to try, like a joint guide or a pilot with your own team on the Free plan." },
+          { title: "An Open Question", body: "Ask whether eCard is interested in exploring it, without assuming any programme or commission exists." },
         ],
       },
     ],
@@ -225,9 +225,9 @@ export const pages: PageDef[] = [
     slug: "contact/locations",
     category: "contacts",
     title: "Contact Locations",
-    seoTitle: "eCard Office Locations and Contact Points",
+    seoTitle: "eCard Office Locations And Contact Points",
     description: "eCard has not published office addresses, phone numbers or opening hours. Here is the one verified way to reach the team and how to use it well.",
-    h1: "Where to find eCard",
+    h1: "Where To Find eCard",
     eyebrow: "Locations",
     intro: "People often look for an office address or a phone number. eCard has not published either. This page explains what is available instead, and why we won't list an address we can't verify.",
     variant: "reference",
@@ -237,12 +237,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No locations are published",
+        title: "No Locations Are Published",
         body: "eCard has not published office addresses, regional offices, phone numbers or business hours. The only verified contact is sales@bizzfly.com.",
       },
       {
         type: "table",
-        heading: "What you can and can't find",
+        heading: "What You Can And Can't Find",
         headers: ["You're looking for", "Status"],
         rows: [
           ["Head office address", "Not published"],
@@ -255,7 +255,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "eCard works wherever you are",
+        heading: "eCard Works Wherever You Are",
         paragraphs: [
           "eCard is a web app, so you don't need a nearby office to use it. It runs in any phone or desktop browser with no app to install. Prices are listed in INR, local currency is shown at checkout for supported countries, and GST is applied where applicable.",
           "If you need a postal address for a contract, invoice or legal notice, ask at sales@bizzfly.com and get the answer in writing.",
@@ -264,7 +264,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why we don't list an address",
+        heading: "Why We Don't List An Address",
         paragraphs: [
           "Many websites carry a contact page with an address, a map and opening hours. Copying that pattern without verified details would be worse than leaving it out: a wrong address can send documents to the wrong place, and a made-up phone number can send people to strangers. eCard therefore lists only what it has published and confirmed.",
           "If eCard publishes office locations in future, they will appear here and on the About Locations page. Until then, email is the dependable route, and it leaves a written record for both sides.",
@@ -273,7 +273,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Be careful with unofficial listings",
+        heading: "Be Careful With Unofficial Listings",
         items: [
           "Directory sites sometimes list addresses or phone numbers that a company never published.",
           "Don't send payments or personal documents based on contact details you found elsewhere.",
@@ -283,7 +283,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "split",
-        heading: "Pick the right contact page",
+        heading: "Pick The Right Contact Page",
         body: ["Every contact page uses the same email address, but each helps you write the right kind of message."],
         points: [
           "Buying for a team: Sales Enquiries",

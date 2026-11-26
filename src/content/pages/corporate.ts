@@ -5,9 +5,9 @@ export const pages: PageDef[] = [
     slug: "careers",
     category: "corporate",
     title: "Careers",
-    seoTitle: "Careers at eCard: Openings and Hiring Status",
+    seoTitle: "Careers At eCard: Openings And Hiring Status",
     description: "eCard has not published any job openings. Learn what this careers page will hold, how to register interest, and how to judge any role claiming to be eCard's.",
-    h1: "Working at eCard",
+    h1: "Working At eCard",
     eyebrow: "Corporate",
     intro: "This is the careers page for eCard. eCard has not yet published any job openings, team details or hiring process, so this page explains what you can expect here and how to stay safe from fake job offers in the meantime.",
     variant: "reference",
@@ -15,30 +15,30 @@ export const pages: PageDef[] = [
     icon: "briefcase",
     source: "educational",
     sections: [
-      { type: "callout", tone: "note", title: "No openings published", body: "eCard has not yet published job openings, internships, salaries, benefits or office locations. Any role advertised elsewhere in eCard's name should be verified before you share personal information." },
-      { type: "bullets", heading: "What this page will contain once published", items: [
+      { type: "callout", tone: "note", title: "No Openings Published", body: "eCard has not yet published job openings, internships, salaries, benefits or office locations. Any role advertised elsewhere in eCard's name should be verified before you share personal information." },
+      { type: "bullets", heading: "What This Page Will Contain Once Published", items: [
         "Open roles, each with a description, responsibilities and how to apply.",
         "An outline of the hiring process and typical timelines.",
         "Information on working arrangements, where eCard chooses to share it.",
         "A way to register interest if no current role fits.",
       ] },
-      { type: "prose", heading: "Protecting yourself from recruitment scams", paragraphs: [
+      { type: "prose", heading: "Protecting Yourself From Recruitment Scams", paragraphs: [
         "Fake job offers using real company names are common. They usually ask for money for training, equipment or visa processing, or push you to move quickly over messaging apps. A genuine employer does not ask candidates to pay to be hired.",
         "Until eCard publishes a careers process on this site, treat unsolicited offers in its name with caution. If you are unsure, you can write to sales@bizzfly.com, the only verified contact address eCard publishes, and ask whether the approach is genuine.",
       ] },
-      { type: "cards", heading: "Get to know the product in the meantime", cards: [
+      { type: "cards", heading: "Get To Know The Product In The Meantime", cards: [
         { title: "About eCard", body: "What eCard is and what it is for, in its own words.", icon: "building" },
         { title: "How It Works", body: "The flow from scanning a visiting card to following up.", icon: "layers" },
         { title: "Mission & Vision", body: "The verified positioning behind the product.", icon: "sparkles" },
       ] },
-      { type: "split", heading: "Interested in eCard anyway?", body: [
+      { type: "split", heading: "Interested In eCard Anyway?", body: [
         "There is no published application route yet. If you want to understand the product before roles appear, the free plan lets anyone try it at ₹0, which is a practical way to form a view of what the team is building.",
       ], points: ["Try the Free plan", "Read the product tour", "Check back on this page"] },
-      { type: "prose", heading: "What good careers information usually includes", paragraphs: [
+      { type: "prose", heading: "What Good Careers Information Usually Includes", paragraphs: [
         "When a company publishes roles, the most useful listings explain the problem the role exists to solve, what a typical week looks like, how candidates are assessed, and how long the process normally takes. Clear information helps candidates decide quickly whether to apply, and it saves time on both sides.",
         "When eCard publishes roles, this page is where they will appear. Until then, the honest answer to most careers questions is that the information has not been published, and any detailed claims you see elsewhere should be checked against this site.",
       ] },
-      { type: "bullets", heading: "Signs an approach may not be genuine", items: [
+      { type: "bullets", heading: "Signs An Approach May Not Be Genuine", items: [
         "You are asked to pay for training, equipment, background checks or visas.",
         "The offer arrives without any interview, or after a short chat on a messaging app.",
         "The sender uses a personal email address rather than a company domain.",
@@ -57,9 +57,9 @@ export const pages: PageDef[] = [
     slug: "news",
     category: "corporate",
     title: "News",
-    seoTitle: "eCard News and Announcements: Current Status",
+    seoTitle: "eCard News And Announcements: Current Status",
     description: "eCard has not issued news releases or announcements yet. See where product information is published today and how to send a media enquiry.",
-    h1: "News and announcements",
+    h1: "News And Announcements",
     eyebrow: "Corporate",
     intro: "This page is meant for eCard's company news and product announcements. eCard has not yet published any news releases, so this page sets out where current product information lives and how to ask a question.",
     variant: "reference",
@@ -67,33 +67,33 @@ export const pages: PageDef[] = [
     icon: "bell",
     source: "mixed",
     sections: [
-      { type: "callout", tone: "note", title: "Publication status", body: "eCard has not yet published news releases, announcements, milestones or a changelog. Nothing on this page should be read as a dated announcement." },
-      { type: "table", heading: "Where current information is published", headers: ["If you want to know about", "Read"], rows: [
+      { type: "callout", tone: "note", title: "Publication Status", body: "eCard has not yet published news releases, announcements, milestones or a changelog. Nothing on this page should be read as a dated announcement." },
+      { type: "table", heading: "Where Current Information Is Published", headers: ["If you want to know about", "Read"], rows: [
         ["What eCard does", "About eCard and How It Works"],
         ["Plans and prices", "Pricing and Compare Plans, monthly prices in INR"],
         ["Features", "Platform and feature pages"],
         ["Integrations", "The Integrations hub"],
         ["Security controls", "The Trust Centre and Security pages"],
       ] },
-      { type: "prose", heading: "Why the site itself is the reference", paragraphs: [
+      { type: "prose", heading: "Why The Site Itself Is The Reference", paragraphs: [
         "Without a news archive, the most reliable description of eCard is the product site. Feature, pricing and integration pages are where verified details are kept, and they are the pages to cite if you are writing about eCard.",
         "If you read a claim about eCard elsewhere, such as a new feature, funding or a partnership, and it does not appear on this site, treat it as unconfirmed.",
       ] },
-      { type: "steps", heading: "For journalists and writers", steps: [
-        { title: "Check the site", body: "Confirm facts against the product, pricing and trust pages." },
-        { title: "Read the media page", body: "It explains what press material is and is not available." },
+      { type: "steps", heading: "For Journalists And Writers", steps: [
+        { title: "Check The Site", body: "Confirm facts against the product, pricing and trust pages." },
+        { title: "Read The Media Page", body: "It explains what press material is and is not available." },
         { title: "Ask", body: "Send enquiries through the media enquiries page or to sales@bizzfly.com." },
       ] },
-      { type: "bullets", heading: "What a future news page would include", items: [
+      { type: "bullets", heading: "What A Future News Page Would Include", items: [
         "Dated product announcements with a short summary.",
         "Company announcements, if eCard chooses to publish them.",
         "Links to fuller detail on the relevant product pages.",
       ] },
-      { type: "prose", heading: "How to keep up without a news feed", paragraphs: [
+      { type: "prose", heading: "How To Keep Up Without A News Feed", paragraphs: [
         "Without a news archive or changelog, the practical way to stay current is to revisit the pages that matter to you. If you depend on a specific integration, bookmark its page; if you care about cost, check the pricing page before renewal. Those pages are where eCard keeps verified information, and they are updated in place rather than through announcements.",
         "If you notice something on the site that seems to have changed, or you want to know whether a feature is planned, the feedback page is the right place to ask. eCard has not published a roadmap, so avoid relying on rumoured features when making decisions.",
       ] },
-      { type: "split", heading: "Facts you can report today", body: [
+      { type: "split", heading: "Facts You Can Report Today", body: [
         "A handful of details are published and can be cited: eCard is a visiting-card CRM that reads cards with AI, lets you send introductions from your own mailbox over SMTP, links to Telegram under Settings → Telegram, and offers a Free plan at ₹0 alongside paid plans billed monthly in INR, with a 14-day Professional trial that needs no card.",
         "Anything beyond what the product pages state, such as user numbers, customers or company milestones, has not been published and should not be reported.",
       ], points: ["Cite product pages directly", "Note the date you checked", "Avoid unpublished figures"] },
@@ -110,9 +110,9 @@ export const pages: PageDef[] = [
     slug: "media",
     category: "corporate",
     title: "Media",
-    seoTitle: "eCard Media Room: Press Resources and Contact",
+    seoTitle: "eCard Media Room: Press Resources And Contact",
     description: "eCard's media room. No press kit, logos or spokesperson details are published yet; here is how to describe eCard accurately and where to send enquiries.",
-    h1: "Media room",
+    h1: "Media Room",
     eyebrow: "Corporate",
     intro: "This is the starting point for journalists, writers and creators covering eCard. eCard has not yet published a press kit, brand assets or spokesperson details, but this page sets out how to describe the product accurately from verified pages.",
     variant: "reference",
@@ -120,31 +120,31 @@ export const pages: PageDef[] = [
     icon: "file",
     source: "mixed",
     sections: [
-      { type: "callout", tone: "note", title: "No press kit yet", body: "eCard has not yet published a press kit, downloadable logos, executive biographies, photos or a dedicated press contact." },
-      { type: "split", heading: "Describing eCard accurately", body: [
+      { type: "callout", tone: "note", title: "No Press Kit Yet", body: "eCard has not yet published a press kit, downloadable logos, executive biographies, photos or a dedicated press contact." },
+      { type: "split", heading: "Describing eCard Accurately", body: [
         "eCard is a visiting-card CRM: it reads business cards with AI, stores the contacts, and helps you follow up by email and other channels. AI models that can read cards include Claude, OpenAI, Gemini, DeepSeek, Grok and Azure, used with your own key.",
         "Plans run from a Free plan at ₹0 upwards, with a 14-day Professional trial that needs no card. Exact monthly prices are on the pricing page.",
       ], points: ["Cite the pricing page for prices", "Cite the trust pages for security", "Avoid customer or usage figures; none are published"] },
-      { type: "bullets", heading: "What not to state", intro: "These are not published, so please do not report them as fact.", items: [
+      { type: "bullets", heading: "What Not To State", intro: "These are not published, so please do not report them as fact.", items: [
         "Customer names, numbers of users or usage statistics.",
         "Founders, leadership, headcount or founding year.",
         "Funding, investors or financial results.",
         "Certifications such as SOC 2 or ISO 27001.",
         "Awards or rankings.",
       ] },
-      { type: "steps", heading: "Making a media enquiry", steps: [
-        { title: "Prepare your questions", body: "Be specific about what you need and your deadline." },
-        { title: "Use the media enquiries page", body: "It explains the current route for press questions." },
-        { title: "Or email", body: "The verified address published by eCard is sales@bizzfly.com." },
+      { type: "steps", heading: "Making A Media Enquiry", steps: [
+        { title: "Prepare Your Questions", body: "Be specific about what you need and your deadline." },
+        { title: "Use The Media Enquiries Page", body: "It explains the current route for press questions." },
+        { title: "Or Email", body: "The verified address published by eCard is sales@bizzfly.com." },
       ] },
-      { type: "prose", heading: "Screenshots and product images", paragraphs: [
+      { type: "prose", heading: "Screenshots And Product Images", paragraphs: [
         "eCard has not published approved screenshots for press use. If you need visuals, ask in your enquiry. Any example data shown on eCard's site is sample data and does not represent real people.",
       ] },
-      { type: "prose", heading: "Writing about visiting-card CRMs in general", paragraphs: [
+      { type: "prose", heading: "Writing About Visiting-card CRMs In General", paragraphs: [
         "If your piece covers the wider category rather than eCard alone, the glossary and use-case pages are helpful background. They explain terms such as SMTP and webhooks in plain language, and describe how different professions might use a visiting-card CRM. They are written as general guidance and do not describe particular customers.",
         "Please label any example contact data you reproduce as sample data, as eCard does on its own pages. That keeps readers from mistaking an illustration for a real person's details.",
       ] },
-      { type: "cards", heading: "Background pages for writers", cards: [
+      { type: "cards", heading: "Background Pages For Writers", cards: [
         { title: "Glossary", body: "Plain-language definitions of SMTP, webhooks, 2FA and other terms used on the site.", icon: "book" },
         { title: "How It Works", body: "The flow from a card in your hand to a contact you can follow up, in a few short steps.", icon: "layers" },
         { title: "Trust Centre", body: "The verified security controls, useful for any piece that touches on data protection.", icon: "shield" },
@@ -165,7 +165,7 @@ export const pages: PageDef[] = [
     title: "Investors",
     seoTitle: "eCard Investor Relations: Disclosure Status",
     description: "eCard publishes no investor, funding or financial information. Read what this page would hold and how to treat unverified investment claims.",
-    h1: "Investor relations",
+    h1: "Investor Relations",
     eyebrow: "Corporate",
     intro: "This page is reserved for investor information. eCard has not published any information about investors, funding, ownership or financial results, and this page explains what that means for anyone looking.",
     variant: "reference",
@@ -173,30 +173,30 @@ export const pages: PageDef[] = [
     icon: "rupee",
     source: "educational",
     sections: [
-      { type: "callout", tone: "note", title: "Nothing published", body: "eCard has not published investors, funding rounds, valuations, ownership, financial statements or reports. This page contains no investment information." },
-      { type: "prose", heading: "Why this page exists", paragraphs: [
+      { type: "callout", tone: "note", title: "Nothing Published", body: "eCard has not published investors, funding rounds, valuations, ownership, financial statements or reports. This page contains no investment information." },
+      { type: "prose", heading: "Why This Page Exists", paragraphs: [
         "Many company sites have an investor relations section, particularly where shares are publicly traded or the company reports to shareholders. Its presence here is structural; it does not imply eCard is seeking investment or has any public reporting obligations.",
         "If eCard ever publishes investor information, it will appear on this page.",
       ] },
-      { type: "bullets", heading: "Be careful with investment offers", intro: "General guidance for anyone approached about investing in any company.", items: [
+      { type: "bullets", heading: "Be Careful With Investment Offers", intro: "General guidance for anyone approached about investing in any company.", items: [
         "Be wary of unsolicited offers to buy shares, especially with pressure to act quickly.",
         "Ask for documents and verify them independently with qualified advisers.",
         "Check that anyone selling investments is authorised to do so by the relevant regulator.",
         "Never transfer money based only on messages or calls.",
       ] },
-      { type: "cards", heading: "What you can read about eCard today", cards: [
+      { type: "cards", heading: "What You Can Read About eCard Today", cards: [
         { title: "About eCard", body: "What the product is and who it is for.", icon: "building" },
         { title: "Pricing", body: "Published plans and monthly prices in INR.", icon: "rupee" },
         { title: "Trust Centre", body: "The verified security controls.", icon: "shield" },
       ] },
-      { type: "split", heading: "If you have a genuine question", body: [
+      { type: "split", heading: "If You Have A Genuine Question", body: [
         "The only verified contact eCard publishes is sales@bizzfly.com. It is intended for sales enquiries, but it is the right place to confirm whether any approach claiming to be from eCard is genuine.",
       ], points: ["Verify before you act", "Do not share financial details", "Report suspected fraud to the authorities"] },
-      { type: "prose", heading: "Doing your own due diligence on any company", paragraphs: [
+      { type: "prose", heading: "Doing Your Own Due Diligence On Any Company", paragraphs: [
         "If you are assessing any private company, start with official sources: company registries, regulatory filings and documents provided directly by the company. Marketing pages, including this one, are not a substitute for those sources. For eCard specifically, the site does not publish registration details, so any such information must come from official records or the company directly.",
         "It is also worth separating the product from the company. You can evaluate eCard as a product today by reading the feature and pricing pages and trying the Free plan or the 14-day Professional trial. Those tell you how the software works, not how the business is owned or financed.",
       ] },
-      { type: "table", heading: "What is and is not published", intro: "A quick reference for anyone researching eCard as a business.", headers: ["Topic", "Status on this site"], rows: [
+      { type: "table", heading: "What Is And Is Not Published", intro: "A quick reference for anyone researching eCard as a business.", headers: ["Topic", "Status on this site"], rows: [
         ["Investors and funding rounds", "Not published"],
         ["Ownership and listing status", "Not published"],
         ["Financial results or reports", "Not published"],
@@ -218,9 +218,9 @@ export const pages: PageDef[] = [
     slug: "sustainability",
     category: "corporate",
     title: "Sustainability",
-    seoTitle: "eCard Sustainability: Paper, Cards and Status",
+    seoTitle: "eCard Sustainability: Paper, Cards And Status",
     description: "eCard has no published sustainability programme. Read general, practical ideas on cutting paper waste from visiting cards with digital cards and scanning.",
-    h1: "Sustainability and visiting cards",
+    h1: "Sustainability And Visiting Cards",
     eyebrow: "Corporate",
     intro: "This page covers sustainability. eCard has not published a sustainability programme, targets or environmental data. What it can do is explain, in general terms, how digital cards and scanning can reduce the paper side of networking.",
     variant: "reference",
@@ -228,33 +228,33 @@ export const pages: PageDef[] = [
     icon: "globe",
     source: "educational",
     sections: [
-      { type: "callout", tone: "note", title: "No programme published", body: "eCard has not published sustainability commitments, emissions data, targets or certifications. Nothing here is an environmental claim about eCard as a company." },
-      { type: "prose", heading: "Paper and networking", paragraphs: [
+      { type: "callout", tone: "note", title: "No Programme Published", body: "eCard has not published sustainability commitments, emissions data, targets or certifications. Nothing here is an environmental claim about eCard as a company." },
+      { type: "prose", heading: "Paper And Networking", paragraphs: [
         "Printed visiting cards remain common, especially at trade shows and first meetings. Many end up in drawers or bins within weeks, and reprints follow every change of title or phone number.",
         "Two simple habits reduce that waste: sharing a digital card where the other person is happy to receive one, and scanning paper cards you receive so the paper itself does not need to be kept.",
       ] },
-      { type: "cards", heading: "Practical ways to use less paper", cards: [
-        { title: "Share a digital card", body: "eCard lets you create a digital card you can share, which avoids reprints when details change.", icon: "qr" },
-        { title: "Scan and recycle", body: "Once a card is scanned and checked, the paper copy can usually be recycled.", icon: "scan" },
-        { title: "Print smaller runs", body: "If you still print, order fewer cards more often so outdated stock is not wasted.", icon: "card" },
+      { type: "cards", heading: "Practical Ways To Use Less Paper", cards: [
+        { title: "Share A Digital Card", body: "eCard lets you create a digital card you can share, which avoids reprints when details change.", icon: "qr" },
+        { title: "Scan And Recycle", body: "Once a card is scanned and checked, the paper copy can usually be recycled.", icon: "scan" },
+        { title: "Print Smaller Runs", body: "If you still print, order fewer cards more often so outdated stock is not wasted.", icon: "card" },
       ] },
-      { type: "bullets", heading: "Evaluating any vendor's green claims", items: [
+      { type: "bullets", heading: "Evaluating Any Vendor's Green Claims", items: [
         "Look for specific, measurable commitments rather than general language.",
         "Check whether targets have dates and a baseline.",
         "See whether progress is reported, and by whom.",
         "Be cautious with claims that a digital product is automatically low-impact.",
       ] },
-      { type: "split", heading: "Related pages", body: [
+      { type: "split", heading: "Related Pages", body: [
         "The ESG and CSR pages explain the current status of those topics. The digital card guide shows how to set up a card you can share instead of printing.",
       ], points: ["ESG", "CSR", "Creating Your Digital Card"] },
-      { type: "prose", heading: "Digital habits that also save time", paragraphs: [
+      { type: "prose", heading: "Digital Habits That Also Save Time", paragraphs: [
         "Many of the habits that cut paper also save effort. Scanning a card the same day means you do not need to keep a stack of cards in a bag and type them in later. A digital card can be updated when your title or number changes, so the people you share it with see current details. Tagging contacts by event makes printed lists and spreadsheets less necessary.",
         "These benefits are practical rather than environmental claims. eCard has not measured or published the environmental effect of using its product, and readers should not treat this page as one.",
       ] },
-      { type: "steps", heading: "A low-paper routine for your next event", steps: [
-        { title: "Set up your digital card", body: "Create it before the event so you can share it from your phone." },
-        { title: "Carry a small stack of printed cards", body: "Keep a few for people who prefer paper, rather than a full box." },
-        { title: "Scan what you receive", body: "Scan cards the same day, check the details, then recycle the paper." },
+      { type: "steps", heading: "A Low-paper Routine For Your Next Event", steps: [
+        { title: "Set Up Your Digital Card", body: "Create it before the event so you can share it from your phone." },
+        { title: "Carry A Small Stack Of Printed Cards", body: "Keep a few for people who prefer paper, rather than a full box." },
+        { title: "Scan What You Receive", body: "Scan cards the same day, check the details, then recycle the paper." },
       ] },
     ],
     faqs: [
@@ -271,7 +271,7 @@ export const pages: PageDef[] = [
     title: "ESG",
     seoTitle: "eCard ESG: Environmental, Social, Governance Status",
     description: "eCard has not published ESG reporting, ratings or policies. Understand what ESG disclosure usually covers and which verified data-protection controls exist.",
-    h1: "Environmental, social and governance (ESG)",
+    h1: "Environmental, Social And Governance (ESG)",
     eyebrow: "Corporate",
     intro: "ESG pages usually summarise a company's environmental, social and governance commitments. eCard has not published ESG reporting, so this page explains what such disclosure typically covers and which related facts are verified.",
     variant: "reference",
@@ -279,35 +279,35 @@ export const pages: PageDef[] = [
     icon: "layers",
     source: "mixed",
     sections: [
-      { type: "callout", tone: "note", title: "Publication status", body: "eCard has not yet published ESG reports, ratings, policies, targets or governance bodies. This page makes no ESG claims on eCard's behalf." },
-      { type: "table", heading: "What ESG disclosure normally covers", headers: ["Pillar", "Typical topics", "Published by eCard?"], rows: [
+      { type: "callout", tone: "note", title: "Publication Status", body: "eCard has not yet published ESG reports, ratings, policies, targets or governance bodies. This page makes no ESG claims on eCard's behalf." },
+      { type: "table", heading: "What ESG Disclosure Normally Covers", headers: ["Pillar", "Typical topics", "Published by eCard?"], rows: [
         ["Environmental", "Energy use, emissions, hosting choices, waste", "No"],
         ["Social", "Workforce, inclusion, community, data privacy", "Partly: security controls only"],
         ["Governance", "Board structure, ethics, policies, oversight", "No"],
       ] },
-      { type: "bullets", heading: "Verified data-protection facts", intro: "Data privacy often sits under the social pillar. These controls are published.", items: [
+      { type: "bullets", heading: "Verified Data-protection Facts", intro: "Data privacy often sits under the social pillar. These controls are published.", items: [
         "Two-factor authentication with authenticator codes, plus recovery codes.",
         "Trusted devices and login alerts.",
         "API keys and SMTP passwords encrypted with AES-256-GCM.",
         "An audit log and role-based access for teams.",
         "A compliance checklist covering consent, export and deletion.",
       ] },
-      { type: "prose", heading: "If your procurement process asks for ESG", paragraphs: [
+      { type: "prose", heading: "If Your Procurement Process Asks For ESG", paragraphs: [
         "Some organisations require suppliers to complete ESG questionnaires. If yours does, note that eCard has not published ESG documentation, and send the questionnaire to sales@bizzfly.com so you get a direct answer rather than relying on assumptions.",
         "For the security and privacy parts of a questionnaire, the Trust Centre pages hold the verified answers.",
       ] },
-      { type: "split", heading: "Related corporate pages", body: [
+      { type: "split", heading: "Related Corporate Pages", body: [
         "Sustainability, CSR and Governance each explain their own status in more detail.",
       ], points: ["Sustainability", "CSR", "Governance", "Trust Centre"] },
-      { type: "prose", heading: "What to ask any software supplier about ESG", paragraphs: [
+      { type: "prose", heading: "What To Ask Any Software Supplier About ESG", paragraphs: [
         "If ESG matters to your purchasing, a short list of questions works better than a long questionnaire for a small supplier. Ask where the service is hosted and whether the hosting provider publishes its own environmental data. Ask how customer data is protected and who can access it. Ask whether the company has a code of conduct and how concerns can be raised.",
         "For eCard, the data-protection answers are on the trust pages listed above. Hosting location, environmental data and a code of conduct are not published, so those questions should go to sales@bizzfly.com. A clear written answer is more useful than an assumption, whichever way it goes.",
       ] },
-      { type: "steps", heading: "Handling an ESG requirement in procurement", steps: [
-        { title: "Separate must-haves from nice-to-haves", body: "Decide which ESG items are genuine requirements for a tool of this size and which are general preferences." },
-        { title: "Collect the verified answers", body: "Take security and privacy answers from the Trust Centre, Security and Privacy pages, and note where each came from." },
-        { title: "Ask for the rest in writing", body: "Send the remaining questions to sales@bizzfly.com and keep the reply with your procurement records." },
-        { title: "Record the gaps honestly", body: "Where information is not published, record it as not available rather than estimating an answer." },
+      { type: "steps", heading: "Handling An ESG Requirement In Procurement", steps: [
+        { title: "Separate Must-haves From Nice-to-haves", body: "Decide which ESG items are genuine requirements for a tool of this size and which are general preferences." },
+        { title: "Collect The Verified Answers", body: "Take security and privacy answers from the Trust Centre, Security and Privacy pages, and note where each came from." },
+        { title: "Ask For The Rest In Writing", body: "Send the remaining questions to sales@bizzfly.com and keep the reply with your procurement records." },
+        { title: "Record The Gaps Honestly", body: "Where information is not published, record it as not available rather than estimating an answer." },
       ] },
     ],
     faqs: [
@@ -325,7 +325,7 @@ export const pages: PageDef[] = [
     title: "CSR",
     seoTitle: "eCard CSR: Corporate Social Responsibility Status",
     description: "eCard has not published any CSR programme, partners or spend. See what CSR pages usually report and how to ask eCard about community initiatives.",
-    h1: "Corporate social responsibility",
+    h1: "Corporate Social Responsibility",
     eyebrow: "Corporate",
     intro: "Corporate social responsibility (CSR) pages describe a company's community programmes and giving. eCard has not published any CSR programme, and this page explains that clearly while offering some general context.",
     variant: "reference",
@@ -333,30 +333,30 @@ export const pages: PageDef[] = [
     icon: "users",
     source: "educational",
     sections: [
-      { type: "callout", tone: "note", title: "No CSR programme published", body: "eCard has not yet published CSR activities, partner organisations, volunteering programmes, donations or spending. Nothing on this page describes an existing initiative." },
-      { type: "prose", heading: "What CSR usually means", paragraphs: [
+      { type: "callout", tone: "note", title: "No CSR Programme Published", body: "eCard has not yet published CSR activities, partner organisations, volunteering programmes, donations or spending. Nothing on this page describes an existing initiative." },
+      { type: "prose", heading: "What CSR Usually Means", paragraphs: [
         "In general use, CSR covers how a business contributes beyond its products: community programmes, education, volunteering and charitable giving. In India, larger companies that meet certain thresholds have formal CSR obligations under company law; smaller businesses may choose to take part voluntarily.",
         "eCard has not published whether any such obligations apply to it, or any voluntary programme.",
       ] },
-      { type: "bullets", heading: "What a CSR page would typically report", items: [
+      { type: "bullets", heading: "What A CSR Page Would Typically Report", items: [
         "The focus areas a company has chosen, such as education or digital skills.",
         "Programmes run and organisations supported.",
         "Amounts spent or volunteer hours contributed.",
         "How outcomes are measured and reported.",
       ] },
-      { type: "cards", heading: "Who may find eCard's existing pages useful", intro: "General use-case pages that discuss how a visiting-card CRM fits different settings.", cards: [
+      { type: "cards", heading: "Who May Find eCard's Existing Pages Useful", intro: "General use-case pages that discuss how a visiting-card CRM fits different settings.", cards: [
         { title: "Education & Training", body: "Ideas for institutions and trainers managing many contacts.", icon: "book" },
         { title: "Small Business Owners", body: "Starting with the Free plan at ₹0.", icon: "briefcase" },
         { title: "Freelancers", body: "Keeping track of clients met in person.", icon: "users" },
       ] },
-      { type: "split", heading: "Proposing an initiative", body: [
+      { type: "split", heading: "Proposing An Initiative", body: [
         "If you represent a non-profit or community organisation and want to discuss something with eCard, there is no published CSR contact. Write to sales@bizzfly.com with a short description of your organisation and your request.",
       ], points: ["Keep the first message brief", "Explain who benefits", "Expect no published response timeline"] },
-      { type: "prose", heading: "Small ways any team can contribute", paragraphs: [
+      { type: "prose", heading: "Small Ways Any Team Can Contribute", paragraphs: [
         "CSR is not only for large companies. Small teams often contribute through mentoring, sharing skills with local organisations, or helping community groups get organised. A tidy contact list helps here too: volunteers and organisers meet many people at community events, and following up properly is part of being a reliable partner.",
         "These are general suggestions for readers, not descriptions of anything eCard does. If eCard publishes community activity in future, it will be described on this page with specifics.",
       ] },
-      { type: "callout", tone: "tip", title: "Using eCard for a community group", body: "Community organisations that meet many people in person can try the Free plan at ₹0 like anyone else. Scanning visiting cards from volunteers, donors or local partners and adding a short note on each makes it easier to thank people and keep in touch after an event. This is general guidance, not a special programme: eCard has not published any non-profit pricing or support scheme." },
+      { type: "callout", tone: "tip", title: "Using eCard For A Community Group", body: "Community organisations that meet many people in person can try the Free plan at ₹0 like anyone else. Scanning visiting cards from volunteers, donors or local partners and adding a short note on each makes it easier to thank people and keep in touch after an event. This is general guidance, not a special programme: eCard has not published any non-profit pricing or support scheme." },
     ],
     faqs: [
       { q: "Is CSR mandatory for every company in India?", a: "No. Formal CSR obligations under Indian company law apply only to companies above certain thresholds. eCard has not published whether they apply to it." },
@@ -373,7 +373,7 @@ export const pages: PageDef[] = [
     title: "Governance",
     seoTitle: "eCard Corporate Governance: What Is Published",
     description: "eCard has not published board, leadership or governance policies. See the verified account-level controls for teams and how to raise governance questions.",
-    h1: "Corporate governance at eCard",
+    h1: "Corporate Governance At eCard",
     eyebrow: "Corporate",
     intro: "Governance pages normally describe how a company is directed and overseen: its board, policies and controls. eCard has not published corporate governance information, but it does publish account-level controls that help your own team govern its data.",
     variant: "reference",
@@ -381,30 +381,30 @@ export const pages: PageDef[] = [
     icon: "shield",
     source: "mixed",
     sections: [
-      { type: "callout", tone: "note", title: "Publication status", body: "eCard has not yet published board members, leadership, committees, codes of conduct, governance policies or company registration details." },
-      { type: "split", heading: "Governance you can apply inside eCard", body: [
+      { type: "callout", tone: "note", title: "Publication Status", body: "eCard has not yet published board members, leadership, committees, codes of conduct, governance policies or company registration details." },
+      { type: "split", heading: "Governance You Can Apply Inside eCard", body: [
         "While company-level governance is unpublished, eCard documents controls that support governance of your own contact data. These are useful if your organisation needs to show who can see and change customer information.",
       ], points: ["Roles for team members", "An audit log of activity", "Login alerts and trusted devices", "A compliance checklist for consent, export and deletion"] },
-      { type: "steps", heading: "Setting up basic data governance for your team", steps: [
-        { title: "Decide roles", body: "Agree who administers the workspace and who only works with contacts." },
+      { type: "steps", heading: "Setting Up Basic Data Governance For Your Team", steps: [
+        { title: "Decide Roles", body: "Agree who administers the workspace and who only works with contacts." },
         { title: "Require 2FA", body: "Ask every member to enable two-factor authentication and keep recovery codes safe." },
-        { title: "Review the audit log", body: "Check it periodically, especially after someone leaves the team." },
-        { title: "Handle requests", body: "Use the export and deletion options when a contact asks about their data." },
+        { title: "Review The Audit Log", body: "Check it periodically, especially after someone leaves the team." },
+        { title: "Handle Requests", body: "Use the export and deletion options when a contact asks about their data." },
       ] },
-      { type: "prose", heading: "Questions about the company itself", paragraphs: [
+      { type: "prose", heading: "Questions About The Company Itself", paragraphs: [
         "If you need information about eCard's corporate structure for procurement or due diligence, it is not available on this site. Write to sales@bizzfly.com and state precisely what you need, so the request can be answered directly.",
         "Concerns about conduct or ethics are covered on the Speak Up pages, which also explain that no anonymous channel is published.",
       ] },
-      { type: "bullets", heading: "Related pages", items: [
+      { type: "bullets", heading: "Related Pages", items: [
         "Trust Centre and Compliance, for verified security and data controls.",
         "Speak Up, for how to raise concerns and its current limits.",
         "ESG, for the status of wider disclosure.",
       ] },
-      { type: "prose", heading: "Why published governance matters to buyers", paragraphs: [
+      { type: "prose", heading: "Why Published Governance Matters To Buyers", paragraphs: [
         "For larger customers, governance information helps answer a simple question: if something goes wrong, who is accountable and how will it be handled? Published policies, named leadership and clear escalation routes all contribute to that answer. When such information is missing, buyers normally ask for it directly during procurement.",
         "eCard publishes the product-level controls described above, but not company-level governance. That is a gap worth noting honestly, and the right response is to ask specific questions in writing rather than to assume either the best or the worst.",
       ] },
-      { type: "table", heading: "Company-level versus account-level governance", headers: ["Area", "Company level", "Your account"], rows: [
+      { type: "table", heading: "Company-level Versus Account-level Governance", headers: ["Area", "Company level", "Your account"], rows: [
         ["Oversight", "Board and leadership: not published", "Workspace roles you assign"],
         ["Accountability", "Governance policies: not published", "Audit log of activity"],
         ["Access security", "Internal controls: not published", "2FA, recovery codes, trusted devices, login alerts"],

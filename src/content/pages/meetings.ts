@@ -6,8 +6,8 @@ export const pages: PageDef[] = [
     title: "Meeting Memory",
     seoTitle: "Meeting Memory: Remember Every Conversation",
     description: "eCard remembers where you met, who introduced you, your voice notes and a searchable AI summary, so every contact keeps its story attached.",
-    h1: "Remember where you met and what was said",
-    eyebrow: "Meeting memory",
+    h1: "Remember Where You Met And What Was Said",
+    eyebrow: "Meeting Memory",
     intro: "A name and number are not a relationship. eCard's meeting memory keeps the context: where you met, who introduced you, voice notes, and a searchable AI summary.",
     variant: "feature",
     visual: "meeting",
@@ -15,17 +15,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What eCard remembers",
+        heading: "What eCard Remembers",
         cards: [
-          { title: "Where you met", body: "The place or event behind each card.", icon: "map" },
-          { title: "Who introduced you", body: "The person who connected you, so you can thank them and mention them.", icon: "users" },
-          { title: "Voice notes", body: "Speak your thoughts instead of typing them after a meeting.", icon: "mic" },
-          { title: "AI summary", body: "A searchable summary of the meeting, attached to the contact.", icon: "sparkles" },
+          { title: "Where You Met", body: "The place or event behind each card.", icon: "map" },
+          { title: "Who Introduced You", body: "The person who connected you, so you can thank them and mention them.", icon: "users" },
+          { title: "Voice Notes", body: "Speak your thoughts instead of typing them after a meeting.", icon: "mic" },
+          { title: "AI Summary", body: "A searchable summary of the meeting, attached to the contact.", icon: "sparkles" },
         ],
       },
       {
         type: "prose",
-        heading: "The problem with a stack of cards",
+        heading: "The Problem With A Stack Of Cards",
         paragraphs: [
           "Six weeks after a conference, you find a card and remember nothing about the person. Was it the supplier with the urgent order, or the student looking for internships?",
           "Meeting memory attaches the story to the card at the moment you have it, so the context is there when you need it.",
@@ -33,7 +33,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "split",
-        heading: "Search by what you remember",
+        heading: "Search By What You Remember",
         body: [
           "eCard's natural-language search lets you ask in plain words, for example \"Investors I met in Mumbai last month\". Meeting memory is what gives those searches something to find.",
         ],
@@ -42,7 +42,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Book the next meeting",
+        title: "Book The Next Meeting",
         body: "Google Calendar & Meet booking is available on Starter, Professional, Business and Enterprise plans.",
       },
       {
@@ -130,8 +130,8 @@ export const pages: PageDef[] = [
     title: "Where You Met",
     seoTitle: "Record Where You Met Each Contact",
     description: "Keep where you met attached to every contact in eCard, so follow-ups, searches and introductions always start with the right context.",
-    h1: "Every contact remembers where it started",
-    eyebrow: "Meeting memory",
+    h1: "Every Contact Remembers Where It Started",
+    eyebrow: "Meeting Memory",
     intro: "\"We met at…\" is the most useful line in any follow-up. eCard keeps where you met next to each contact.",
     variant: "feature",
     visual: "meeting",
@@ -139,7 +139,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "bullets",
-        heading: "Why it matters",
+        heading: "Why It Matters",
         items: [
           "Opens your follow-up with shared context.",
           "Helps you find people later by place.",
@@ -149,7 +149,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Sample entries",
+        heading: "Sample Entries",
         intro: "Fictional sample data.",
         headers: ["Contact (sample)", "Where you met"],
         rows: [
@@ -160,7 +160,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Place plus event",
+        heading: "Place Plus Event",
         paragraphs: [
           "Where you met works alongside eCard's events and tags. An event groups everyone from a trade show; where you met records the specific context for one person.",
           "Combined, they make searches like \"people I met in Mumbai last month\" meaningful.",
@@ -169,7 +169,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Be specific",
+        title: "Be Specific",
         body: "\"Hall 3, packaging stand\" is more useful later than \"expo\".",
       },
       {
@@ -251,10 +251,10 @@ export const pages: PageDef[] = [
     slug: "features/meeting-memory/meeting-locations",
     category: "meetings",
     title: "Meeting Locations",
-    seoTitle: "Meeting Locations and City-Based Search",
+    seoTitle: "Meeting Locations And City-Based Search",
     description: "Use meeting locations in eCard to find contacts by city or venue, plan trips around people you've met, and keep addresses checked against Google Maps.",
-    h1: "Find people by where you met them",
-    eyebrow: "Meeting memory",
+    h1: "Find People By Where You Met Them",
+    eyebrow: "Meeting Memory",
     intro: "Travelling to Mumbai next week? Meeting locations help you find everyone you met there, using plain-language search.",
     variant: "guide",
     visual: "meeting",
@@ -262,17 +262,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Plan a trip around your network",
+        heading: "Plan A Trip Around Your Network",
         steps: [
-          { title: "Search by city", body: "Try a natural-language query such as \"people I met in Mumbai\"." },
-          { title: "Review the list", body: "Read meeting memory to recall each conversation." },
-          { title: "Reach out", body: "Send a WhatsApp message or intro email proposing a meeting." },
-          { title: "Book it", body: "On paid plans, use Google Calendar & Meet booking." },
+          { title: "Search By City", body: "Try a natural-language query such as \"people I met in Mumbai\"." },
+          { title: "Review The List", body: "Read meeting memory to recall each conversation." },
+          { title: "Reach Out", body: "Send a WhatsApp message or intro email proposing a meeting." },
+          { title: "Book It", body: "On paid plans, use Google Calendar & Meet booking." },
         ],
       },
       {
         type: "split",
-        heading: "Meeting place vs company address",
+        heading: "Meeting Place Vs Company Address",
         body: [
           "Where you met and where a contact works aren't always the same. A Delhi buyer may visit a Mumbai expo.",
           "eCard checks scanned addresses against Google Maps, which helps keep the company address accurate.",
@@ -282,12 +282,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Map views",
+        title: "Map Views",
         body: "eCard's site does not describe a map view of contacts. Use search and tags to filter by place.",
       },
       {
         type: "bullets",
-        heading: "Location tagging tips",
+        heading: "Location Tagging Tips",
         items: [
           "Use consistent city names (Bengaluru or Bangalore, not both).",
           "Tag the city as well as recording where you met.",
@@ -372,10 +372,10 @@ export const pages: PageDef[] = [
     slug: "features/meeting-memory/introductions",
     category: "meetings",
     title: "Introductions",
-    seoTitle: "Track Who Introduced You to Each Contact",
+    seoTitle: "Track Who Introduced You To Each Contact",
     description: "eCard records who introduced you to each contact. Use it to thank connectors, warm up follow-ups, and see who in your network opens the most doors.",
-    h1: "Remember who made the introduction",
-    eyebrow: "Meeting memory",
+    h1: "Remember Who Made The Introduction",
+    eyebrow: "Meeting Memory",
     intro: "Warm introductions are the most valuable way to meet people. eCard's meeting memory records who introduced you.",
     variant: "feature",
     visual: "meeting",
@@ -383,7 +383,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Why track introductions",
+        heading: "Why Track Introductions",
         paragraphs: [
           "An introduction carries trust from the connector to you. Mentioning them in your follow-up (\"Kavya suggested we talk\") transfers that trust.",
           "Over time, knowing who introduced whom shows which people in your network are true connectors, the ones worth thanking and helping in return.",
@@ -391,11 +391,11 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Ways to use it",
+        heading: "Ways To Use It",
         cards: [
-          { title: "Warmer follow-ups", body: "Name the introducer in your first message.", icon: "message" },
+          { title: "Warmer Follow-ups", body: "Name the introducer in your first message.", icon: "message" },
           { title: "Thank-yous", body: "Let connectors know when an intro led somewhere.", icon: "check" },
-          { title: "Network insight", body: "Spot who in your network opens the most doors.", icon: "users" },
+          { title: "Network Insight", body: "Spot who in your network opens the most doors.", icon: "users" },
         ],
       },
       {
@@ -411,7 +411,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Close the loop",
+        title: "Close The Loop",
         body: "A quick message to the introducer after the meeting keeps them inclined to introduce you again.",
       },
       {
@@ -508,9 +508,9 @@ export const pages: PageDef[] = [
     category: "meetings",
     title: "Meeting Context",
     seoTitle: "Capture Meeting Context Before You Forget",
-    description: "What meeting context to capture after you meet someone — needs, promises, timing and personal details — and how eCard keeps it with the contact.",
-    h1: "The details that make the next conversation easy",
-    eyebrow: "Meeting memory",
+    description: "What meeting context to capture after you meet someone (needs, promises, timing and personal details) and how eCard keeps it with the contact.",
+    h1: "The Details That Make The Next Conversation Easy",
+    eyebrow: "Meeting Memory",
     intro: "Context fades within hours. Capture it right after the meeting and eCard keeps it with the contact.",
     variant: "guide",
     visual: "meeting",
@@ -518,7 +518,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "bullets",
-        heading: "Five things worth capturing",
+        heading: "Five Things Worth Capturing",
         items: [
           "What they need, in their words.",
           "What you promised to send or do.",
@@ -529,16 +529,16 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A two-minute capture habit",
+        heading: "A Two-minute Capture Habit",
         steps: [
-          { title: "Scan the card", body: "Right after the conversation." },
-          { title: "Record a voice note", body: "Say the five things out loud while walking." },
-          { title: "Let the AI summarise", body: "eCard produces a searchable AI summary." },
+          { title: "Scan The Card", body: "Right after the conversation." },
+          { title: "Record A Voice Note", body: "Say the five things out loud while walking." },
+          { title: "Let The AI Summarise", body: "eCard produces a searchable AI summary." },
         ],
       },
       {
         type: "prose",
-        heading: "Context for teammates",
+        heading: "Context For Teammates",
         paragraphs: [
           "When a lead moves from the person who met them to a colleague who will close the deal, meeting context is what stops the customer from repeating themselves.",
         ],
@@ -546,7 +546,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Keep it respectful",
+        title: "Keep It Respectful",
         body: "Record business-relevant context. Avoid sensitive personal data you wouldn't want the contact to see.",
       },
       {
@@ -644,10 +644,10 @@ export const pages: PageDef[] = [
     slug: "features/meeting-memory/voice-notes",
     category: "meetings",
     title: "Voice Notes",
-    seoTitle: "Voice Notes for Contacts and Meetings",
+    seoTitle: "Voice Notes For Contacts And Meetings",
     description: "Record voice notes after a meeting instead of typing. eCard keeps them with the contact alongside a searchable AI summary of what was said.",
-    h1: "Talk through the meeting instead of typing it",
-    eyebrow: "Meeting memory",
+    h1: "Talk Through The Meeting Instead Of Typing It",
+    eyebrow: "Meeting Memory",
     intro: "Typing notes on a phone between booths doesn't happen. Speaking for thirty seconds does. eCard keeps voice notes with the contact.",
     variant: "feature",
     visual: "meeting",
@@ -655,7 +655,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Faster than typing",
+        heading: "Faster Than Typing",
         body: [
           "Most people speak far faster than they type on a phone. A voice note captures tone and nuance that bullet points lose.",
           "eCard pairs voice notes with a searchable AI summary, so you aren't left with hours of audio you'll never replay.",
@@ -664,22 +664,22 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "When to record",
+        heading: "When To Record",
         cards: [
-          { title: "Walking away", body: "Right after the handshake, while it's fresh.", icon: "clock" },
-          { title: "End of day", body: "A quick round-up of each person you met.", icon: "calendar" },
-          { title: "After a call", body: "Capture decisions and next steps.", icon: "phone" },
+          { title: "Walking Away", body: "Right after the handshake, while it's fresh.", icon: "clock" },
+          { title: "End Of Day", body: "A quick round-up of each person you met.", icon: "calendar" },
+          { title: "After A Call", body: "Capture decisions and next steps.", icon: "phone" },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Not documented",
+        title: "Not Documented",
         body: "eCard's site doesn't state voice note length limits, languages or storage details; check in-app.",
       },
       {
         type: "bullets",
-        heading: "Privacy reminder",
+        heading: "Privacy Reminder",
         items: [
           "Record your own notes, not the other person, unless they've agreed.",
           "Avoid sensitive personal or health information.",
@@ -779,9 +779,9 @@ export const pages: PageDef[] = [
     slug: "features/meeting-memory/voice-note-tips",
     category: "meetings",
     title: "Voice Note Tips",
-    seoTitle: "Voice Note Tips for Better Meeting Summaries",
+    seoTitle: "Voice Note Tips For Better Meeting Summaries",
     description: "How to record short, structured voice notes after meetings so AI summaries are accurate and useful: structure, names, numbers and background noise.",
-    h1: "Better voice notes, better summaries",
+    h1: "Better Voice Notes, Better Summaries",
     eyebrow: "Guidance",
     intro: "A good AI summary starts with a clear voice note. These general tips make thirty seconds of speaking count.",
     variant: "guide",
@@ -790,17 +790,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "A simple structure",
+        heading: "A Simple Structure",
         steps: [
-          { title: "Who and where", body: "\"Met Zoya Khan, founder, at the Bengaluru meetup.\" (sample)" },
-          { title: "What they need", body: "\"Looking for a payments partner for a pilot.\"" },
-          { title: "What I promised", body: "\"Send our deck and pricing by Friday.\"" },
-          { title: "Next step", body: "\"Suggest a call next Tuesday.\"" },
+          { title: "Who And Where", body: "\"Met Zoya Khan, founder, at the Bengaluru meetup.\" (sample)" },
+          { title: "What They Need", body: "\"Looking for a payments partner for a pilot.\"" },
+          { title: "What I Promised", body: "\"Send our deck and pricing by Friday.\"" },
+          { title: "Next Step", body: "\"Suggest a call next Tuesday.\"" },
         ],
       },
       {
         type: "bullets",
-        heading: "Recording tips",
+        heading: "Recording Tips",
         items: [
           "Step away from loud booths or speakers.",
           "Spell unusual names or say them slowly.",
@@ -810,7 +810,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Weak vs strong",
+        heading: "Weak Vs Strong",
         intro: "Sample voice notes.",
         headers: ["Weak", "Strong"],
         rows: [
@@ -821,7 +821,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Say the follow-up channel",
+        title: "Say The Follow-up Channel",
         body: "Mentioning \"prefers WhatsApp in Marathi\" makes your next step obvious later.",
       },
       {
@@ -903,7 +903,7 @@ export const pages: PageDef[] = [
       },
     ],
     faqs: [
-      { q: "How long should a voice note be?", a: "General guidance: 20–60 seconds per contact." },
+      { q: "How long should a voice note be?", a: "General guidance: 20-60 seconds per contact." },
       { q: "Which languages can I speak in?", a: "eCard's site doesn't document voice note languages. Test with a short note." },
       { q: "Should I record during the conversation?", a: "General guidance: no, unless the other person has agreed. Record your own recap just after you part." },
       { q: "What is the single most useful tip?", a: "End every note with \"Next step:\" and a concrete action. It makes the summary, and your follow-up, obvious." },
@@ -917,8 +917,8 @@ export const pages: PageDef[] = [
     title: "AI Meeting Summaries",
     seoTitle: "AI Meeting Summaries You Can Search",
     description: "eCard creates a searchable AI summary of each meeting, so you can find people by what was discussed and pick up conversations without rereading notes.",
-    h1: "A searchable summary of every meeting",
-    eyebrow: "Meeting memory",
+    h1: "A Searchable Summary Of Every Meeting",
+    eyebrow: "Meeting Memory",
     intro: "eCard turns your meeting memory into a short, searchable AI summary attached to the contact.",
     variant: "feature",
     visual: "meeting",
@@ -926,7 +926,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Why summaries beat raw notes",
+        heading: "Why Summaries Beat Raw Notes",
         paragraphs: [
           "Raw notes and voice recordings are rarely reread. A summary gives you the gist in seconds: who, what they need, what's next.",
           "Because the summary is searchable, you can find contacts by topic, not just by name.",
@@ -934,22 +934,22 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "What a useful summary contains",
+        heading: "What A Useful Summary Contains",
         cards: [
           { title: "Need", body: "What the contact is looking for.", icon: "search" },
           { title: "Commitments", body: "What either side promised.", icon: "check" },
-          { title: "Next step", body: "The agreed or suggested follow-up.", icon: "send" },
+          { title: "Next Step", body: "The agreed or suggested follow-up.", icon: "send" },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Your AI model",
+        title: "Your AI Model",
         body: "eCard lets you choose AI models and bring your own key. The site doesn't specify which model writes meeting summaries.",
       },
       {
         type: "bullets",
-        heading: "Review it like you review scans",
+        heading: "Review It Like You Review Scans",
         items: [
           "AI can misread names or numbers; check key facts.",
           "Correct anything wrong so search results stay reliable.",
@@ -1062,9 +1062,9 @@ export const pages: PageDef[] = [
     slug: "features/meeting-memory/summary-examples",
     category: "meetings",
     title: "Summary Examples",
-    seoTitle: "Sample Meeting Summaries for Contacts",
+    seoTitle: "Sample Meeting Summaries For Contacts",
     description: "Sample meeting summaries for a realtor, a doctor and a startup founder, showing what a concise, searchable summary of a first meeting can look like.",
-    h1: "What a good meeting summary looks like",
+    h1: "What A Good Meeting Summary Looks Like",
     eyebrow: "Examples",
     intro: "These are fictional sample summaries, modelled on eCard's three demo personas: Realtor, Doctor and Startup founder.",
     variant: "reference",
@@ -1073,16 +1073,16 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Three sample summaries",
+        heading: "Three Sample Summaries",
         cards: [
           { title: "Sample: Priya Shah, Realtor", body: "Met at a Pune property expo. Represents buyers seeking 2BHK flats under ₹90 lakh in Baner. Wants brochures for two projects. Prefers WhatsApp in Marathi. Next: send brochures, propose site visit Sunday.", icon: "building" },
           { title: "Sample: Dr. Arvind Rao, Doctor", body: "Met at a Hyderabad medical conference. Runs a three-doctor clinic, interested in appointment reminders. Introduced by Dr. Meena. Next: email product overview, call in two weeks.", icon: "users" },
-          { title: "Sample: Zoya Khan, Startup founder", body: "Met at a Bengaluru founders' meetup. Pre-seed fintech, looking for pilot partners. Next: share deck, intro to our partnerships lead.", icon: "zap" },
+          { title: "Sample: Zoya Khan, Startup Founder", body: "Met at a Bengaluru founders' meetup. Pre-seed fintech, looking for pilot partners. Next: share deck, intro to our partnerships lead.", icon: "zap" },
         ],
       },
       {
         type: "bullets",
-        heading: "Patterns to notice",
+        heading: "Patterns To Notice",
         items: [
           "Each starts with where you met.",
           "Needs are specific: budget, size, timing.",
@@ -1092,7 +1092,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Searches these would answer",
+        heading: "Searches These Would Answer",
         headers: ["Search (sample)", "Finds"],
         rows: [
           ["Realtors I met in Pune", "Priya Shah"],
@@ -1103,7 +1103,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Illustrative only",
+        title: "Illustrative Only",
         body: "These are hand-written samples, not output captured from eCard.",
       },
       {
@@ -1175,9 +1175,9 @@ export const pages: PageDef[] = [
     slug: "features/meeting-memory/searchable-memory",
     category: "meetings",
     title: "Searchable Memory",
-    seoTitle: "Search Your Network in Plain Language",
-    description: "Find people by what you remember — \"Investors I met in Mumbai last month\" — using eCard's natural-language search over contacts and meeting summaries.",
-    h1: "Ask your network a question",
+    seoTitle: "Search Your Network In Plain Language",
+    description: "Find people by what you remember, \"Investors I met in Mumbai last month\", using eCard's natural-language search over contacts and meeting summaries.",
+    h1: "Ask Your Network A Question",
     eyebrow: "Search",
     intro: "You rarely remember a name. You remember \"that investor from Mumbai last month\". eCard's natural-language search is built for that.",
     variant: "feature",
@@ -1186,7 +1186,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Search the way you remember",
+        heading: "Search The Way You Remember",
         body: [
           "eCard's example query is \"Investors I met in Mumbai last month\". It combines a role, a place and a time, the three things people actually recall.",
           "Searchable AI summaries add a fourth dimension: what you talked about.",
@@ -1195,7 +1195,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Sample queries to try",
+        heading: "Sample Queries To Try",
         headers: ["Query", "What it relies on"],
         rows: [
           ["Investors I met in Mumbai last month", "Role, city, date"],
@@ -1207,12 +1207,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Good memory makes good search",
+        title: "Good Memory Makes Good Search",
         body: "The more context you capture in meeting memory and tags, the better plain-language search can work.",
       },
       {
         type: "prose",
-        heading: "Search before you reach out",
+        heading: "Search Before You Reach Out",
         paragraphs: [
           "Before a trip, a pitch or a hiring push, a two-second search can surface people you'd forgotten you knew. That's often where the warmest opportunities are.",
         ],
@@ -1325,18 +1325,18 @@ export const pages: PageDef[] = [
     slug: "features/meeting-memory/calendar-and-meet-booking",
     category: "meetings",
     title: "Calendar & Meet Booking",
-    seoTitle: "Google Calendar & Meet Booking on Paid Plans",
+    seoTitle: "Google Calendar & Meet Booking On Paid Plans",
     description: "eCard's paid plans include Google Calendar & Meet booking, from Starter at ₹299/month. What's included by plan and what the site does not yet document.",
-    h1: "Turn a follow-up into a booked meeting",
+    h1: "Turn A Follow-up Into A Booked Meeting",
     eyebrow: "Calendar",
-    intro: "Google Calendar & Meet booking appears on eCard's Starter, Professional, Business and Enterprise plans.",
+    intro: "Google Calendar & Meet booking appears on eCard's Starter, Professional, Business and Enterprise plans. This page covers what that means for planning meetings with the people you scan.",
     variant: "feature",
     visual: "meeting",
     icon: "calendar",
     sections: [
       {
         type: "table",
-        heading: "Availability by plan",
+        heading: "Availability By Plan",
         headers: ["Plan", "Price / month", "Calendar & Meet booking"],
         rows: [
           ["Free", "₹0", "Not included"],
@@ -1348,7 +1348,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why booking belongs next to memory",
+        heading: "Why Booking Belongs Next To Memory",
         paragraphs: [
           "The goal of most follow-ups is a second conversation. Having booking in the same place as the contact and its meeting memory removes a step between \"let's talk\" and a date in the diary.",
         ],
@@ -1356,12 +1356,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Details not on the site",
+        title: "Details Not On The Site",
         body: "eCard's pricing page lists Google Calendar & Meet booking but doesn't describe how booking works, booking pages, or calendar sync direction. Check the app or ask sales@bizzfly.com.",
       },
       {
         type: "bullets",
-        heading: "General tips for booking follow-up meetings",
+        heading: "General Tips For Booking Follow-up Meetings",
         items: [
           "Offer two or three specific slots rather than \"whenever suits\".",
           "Use video calls for distant contacts; in person for local, high-value ones.",
@@ -1392,7 +1392,7 @@ export const pages: PageDef[] = [
           },
           {
             "title": "Prepare",
-            "body": "Re-read meeting memory five minutes before the call."
+            "body": "Reread meeting memory five minutes before the call."
           }
         ]
       },
@@ -1437,7 +1437,7 @@ export const pages: PageDef[] = [
         "items": [
           "Sending an invite before the contact has agreed to meet.",
           "Generic titles like \"Catch-up\" that mean nothing a week later.",
-          "Forgetting to re-read memory before the call you just booked."
+          "Forgetting to reread memory before the call you just booked."
         ]
       },
       {
@@ -1462,10 +1462,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/meeting-memory/notes-to-follow-up",
     category: "meetings",
-    title: "Notes to Follow-Up",
-    seoTitle: "From Meeting Notes to a Follow-Up Message",
+    title: "Notes To Follow-Up",
+    seoTitle: "From Meeting Notes To A Follow-Up Message",
     description: "Turn meeting notes, voice notes and AI summaries into a personal follow-up email or WhatsApp message with eCard, in under a minute per contact.",
-    h1: "From what was said to what you send",
+    h1: "From What Was Said To What You Send",
     eyebrow: "Workflow",
     intro: "Notes are only useful if they change what you do next. Here's how meeting memory feeds your follow-ups.",
     variant: "guide",
@@ -1474,7 +1474,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "The workflow",
+        heading: "The Workflow",
         steps: [
           { title: "Capture", body: "Scan the card and record a voice note." },
           { title: "Summarise", body: "eCard produces a searchable AI summary." },
@@ -1485,7 +1485,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Note to message",
+        heading: "Note To Message",
         intro: "Fictional sample data.",
         headers: ["Note", "Message line"],
         rows: [
@@ -1497,12 +1497,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Manual step",
+        title: "Manual Step",
         body: "eCard's site doesn't say AI drafts automatically pull in meeting notes. Add the detail yourself when editing.",
       },
       {
         type: "bullets",
-        heading: "Keep promises visible",
+        heading: "Keep Promises Visible",
         items: [
           "Note every commitment, however small.",
           "Deliver it in the first follow-up when possible.",
@@ -1596,10 +1596,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/meeting-memory/prepare-for-meetings",
     category: "meetings",
-    title: "Prepare for Meetings",
-    seoTitle: "Prepare for a Meeting in Five Minutes",
+    title: "Prepare For Meetings",
+    seoTitle: "Prepare For A Meeting In Five Minutes",
     description: "A five-minute pre-meeting routine using eCard's meeting memory, AI summaries and link tracking so you walk in knowing the history and what they've seen.",
-    h1: "Walk in already knowing the story",
+    h1: "Walk In Already Knowing The Story",
     eyebrow: "Guidance",
     intro: "Preparation is the cheapest way to look impressive. A quick look at meeting memory before a second meeting goes a long way.",
     variant: "guide",
@@ -1608,27 +1608,27 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "A five-minute routine",
+        heading: "A Five-minute Routine",
         steps: [
-          { title: "Read the summary", body: "Recall needs, promises and next steps." },
-          { title: "Check who introduced you", body: "Mention them if relevant." },
-          { title: "Look at engagement", body: "Link tracking shows if they opened your card, PDF or WhatsApp link." },
-          { title: "Check the company", body: "A quick web search for recent news." },
-          { title: "Write one goal", body: "Decide what a good outcome of this meeting is." },
+          { title: "Read The Summary", body: "Recall needs, promises and next steps." },
+          { title: "Check Who Introduced You", body: "Mention them if relevant." },
+          { title: "Look At Engagement", body: "Link tracking shows if they opened your card, PDF or WhatsApp link." },
+          { title: "Check The Company", body: "A quick web search for recent news." },
+          { title: "Write One Goal", body: "Decide what a good outcome of this meeting is." },
         ],
       },
       {
         type: "cards",
-        heading: "Questions to walk in with",
+        heading: "Questions To Walk In With",
         cards: [
-          { title: "Has anything changed?", body: "Budgets, timelines and people move.", icon: "clock" },
-          { title: "Who else decides?", body: "Find the other stakeholders.", icon: "users" },
-          { title: "What would success look like?", body: "In their words.", icon: "check" },
+          { title: "Has Anything Changed?", body: "Budgets, timelines and people move.", icon: "clock" },
+          { title: "Who Else Decides?", body: "Find the other stakeholders.", icon: "users" },
+          { title: "What Would Success Look Like?", body: "In their words.", icon: "check" },
         ],
       },
       {
         type: "prose",
-        heading: "Signals from tracking",
+        heading: "Signals From Tracking",
         paragraphs: [
           "If they opened your brochure three times, they're likely comparing options. If they never opened anything, start by re-establishing the problem. eCard's link tracking gives you that signal without asking.",
         ],
@@ -1636,7 +1636,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "After the meeting",
+        title: "After The Meeting",
         body: "Record a voice note straight away to update meeting memory for next time.",
       },
       {
@@ -1741,10 +1741,10 @@ export const pages: PageDef[] = [
   {
     slug: "features/meeting-memory/memory-for-teams",
     category: "meetings",
-    title: "Memory for Teams",
-    seoTitle: "Shared Meeting Memory for Sales Teams",
+    title: "Memory For Teams",
+    seoTitle: "Shared Meeting Memory For Sales Teams",
     description: "How shared workspaces and roles help teams keep meeting context in one place, hand over leads cleanly and avoid double follow-ups with the same contact.",
-    h1: "Team memory that survives handovers",
+    h1: "Team Memory That Survives Handovers",
     eyebrow: "Teams",
     intro: "When a rep leaves or a lead changes hands, the context usually leaves too. Keeping meeting memory in a shared workspace changes that.",
     variant: "solution",
@@ -1753,16 +1753,16 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What teams gain",
+        heading: "What Teams Gain",
         cards: [
-          { title: "Clean handovers", body: "The closer sees what the first contact heard.", icon: "merge" },
-          { title: "No double follow-ups", body: "Teammates can see who already met someone.", icon: "ban" },
+          { title: "Clean Handovers", body: "The closer sees what the first contact heard.", icon: "merge" },
+          { title: "No Double Follow-ups", body: "Teammates can see who already met someone.", icon: "ban" },
           { title: "Continuity", body: "Relationships stay with the business when people move on.", icon: "archive" },
         ],
       },
       {
         type: "table",
-        heading: "eCard roles",
+        heading: "eCard Roles",
         intro: "Roles named on eCard's site. Exact permissions are documented in the app.",
         headers: ["Role", "Typical use"],
         rows: [
@@ -1776,12 +1776,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Visibility rules",
+        title: "Visibility Rules",
         body: "eCard's site names roles but doesn't document who can see which contacts' meeting memory. Check in-app role settings.",
       },
       {
         type: "bullets",
-        heading: "Team habits",
+        heading: "Team Habits",
         items: [
           "Agree a voice-note structure everyone uses.",
           "Tag contacts by owner or territory.",
@@ -1897,10 +1897,10 @@ export const pages: PageDef[] = [
     slug: "features/meeting-memory/relationship-timeline",
     category: "meetings",
     title: "Relationship Timeline",
-    seoTitle: "Build a Relationship Timeline for Each Contact",
+    seoTitle: "Build A Relationship Timeline For Each Contact",
     description: "Think of every contact as a timeline: first meeting, intro, follow-ups, opens and next meetings. How eCard's memory and tracking build that history.",
-    h1: "See a relationship as it unfolds",
-    eyebrow: "Meeting memory",
+    h1: "See A Relationship As It Unfolds",
+    eyebrow: "Meeting Memory",
     intro: "Relationships are stories over time. Meeting memory, outreach and link tracking together give each contact a history you can read at a glance.",
     variant: "feature",
     visual: "dashboard",
@@ -1908,7 +1908,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Sample timeline",
+        heading: "Sample Timeline",
         intro: "Fictional sample: Priya Shah, Realtor.",
         headers: ["When", "Event"],
         rows: [
@@ -1921,14 +1921,14 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why a timeline view helps",
+        heading: "Why A Timeline View Helps",
         paragraphs: [
           "Seeing the sequence tells you what to do next. A contact who opened everything but never replied needs a different approach from one who replied once and went quiet.",
         ],
       },
       {
         type: "bullets",
-        heading: "What feeds the history",
+        heading: "What Feeds The History",
         items: [
           "Meeting memory: where you met, who introduced you, voice notes, AI summary.",
           "Outreach: intro emails and WhatsApp messages.",
@@ -1939,7 +1939,7 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "About the view",
+        title: "About The View",
         body: "eCard's site doesn't show a timeline screen. This page describes the history you can build from its documented features.",
       },
       {

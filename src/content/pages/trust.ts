@@ -7,7 +7,7 @@ export const pages: PageDef[] = [
     title: "Trust Centre",
     seoTitle: "eCard Trust Centre: Security, Privacy, Compliance",
     description: "One place for eCard’s verified security features, privacy controls and compliance tools, plus clear notes on what eCard has not yet published.",
-    h1: "Trust at eCard",
+    h1: "Trust At eCard",
     eyebrow: "Trust & Security",
     intro: "Visiting cards carry personal details, so it matters how a card CRM protects them. This Trust Centre brings together the security and privacy facts eCard has published, and is honest about what has not been published yet.",
     variant: "reference",
@@ -16,26 +16,26 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Verified security features",
+        heading: "Verified Security Features",
         intro: "These features are published on ecard.gg and apply to the eCard product.",
         cards: [
-          { title: "Two-factor sign-in", body: "Accounts support 2FA with authenticator codes, plus recovery codes in case you lose your device.", icon: "key" },
-          { title: "Trusted devices and alerts", body: "Mark devices you use regularly and get login alerts when your account is accessed.", icon: "bell" },
-          { title: "Encrypted secrets", body: "Your AI API keys and SMTP passwords are encrypted with AES-256-GCM.", icon: "lock" },
-          { title: "Audit log", body: "Workspaces keep an audit log so owners and admins can review activity.", icon: "file" },
+          { title: "Two-factor Sign-in", body: "Accounts support 2FA with authenticator codes, plus recovery codes in case you lose your device.", icon: "key" },
+          { title: "Trusted Devices And Alerts", body: "Mark devices you use regularly and get login alerts when your account is accessed.", icon: "bell" },
+          { title: "Encrypted Secrets", body: "Your AI API keys and SMTP passwords are encrypted with AES-256-GCM.", icon: "lock" },
+          { title: "Audit Log", body: "Workspaces keep an audit log so owners and admins can review activity.", icon: "file" },
           { title: "Roles", body: "Owner, admin, manager, member and scan-only guest roles limit who can do what.", icon: "users" },
-          { title: "Compliance checklist", body: "Built-in support for consent, export and deletion of contact data.", icon: "check" },
+          { title: "Compliance Checklist", body: "Built-in support for consent, export and deletion of contact data.", icon: "check" },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "What has not been published",
+        title: "What Has Not Been Published",
         body: "eCard has not yet published security certifications or attestations, third-party audit reports, a status page, uptime figures, a dedicated security contact or a bug bounty. The pages in this section say so plainly rather than implying otherwise. For questions, write to sales@bizzfly.com.",
       },
       {
         type: "split",
-        heading: "Built around data you control",
+        heading: "Built Around Data You Control",
         body: [
           "eCard is designed so that the workspace owner stays in charge of contact data. You decide which AI model reads your cards and use your own key. Intro emails go out from your own mailbox via SMTP. Nothing scanned is saved until you have reviewed it.",
           "When someone asks to be removed, the compliance checklist helps you handle export and deletion requests.",
@@ -49,7 +49,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Where to find each topic",
+        heading: "Where To Find Each Topic",
         headers: ["Topic", "Page", "What it covers"],
         rows: [
           ["Security", "Trust › Security", "Account protection, encryption and access control."],
@@ -62,7 +62,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "How to evaluate any vendor’s trust claims",
+        heading: "How To Evaluate Any Vendor’s Trust Claims",
         paragraphs: [
           "A good trust page is specific. Look for named controls you can check yourself, such as whether 2FA is available on your account or whether you can export your data, rather than broad statements like “bank-grade security”. Be cautious about badges and certifications that are not backed by a report you can request.",
           "We have tried to follow that standard here: every feature listed above is one you can see in the product, and anything not yet published is labelled as such.",
@@ -84,7 +84,7 @@ export const pages: PageDef[] = [
     title: "Security",
     seoTitle: "eCard Security Controls: 2FA, Encryption, Audit Log",
     description: "The security controls eCard publishes: two-factor sign-in, recovery codes, trusted devices, login alerts, AES-256-GCM secrets, roles and the audit log.",
-    h1: "How eCard protects your account and secrets",
+    h1: "How eCard Protects Your Account And Secrets",
     eyebrow: "Trust › Security",
     intro: "This page lists the security controls eCard has published for its visiting-card CRM and explains how to use them well. It deliberately sticks to verified facts and flags what has not been published.",
     variant: "reference",
@@ -93,17 +93,17 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Account protection, step by step",
+        heading: "Account Protection, Step By Step",
         steps: [
-          { title: "Turn on two-factor authentication", body: "Use an authenticator app to generate sign-in codes. A stolen password alone is then not enough to get in." },
-          { title: "Save your recovery codes", body: "Store them somewhere safe and offline. They let you back in if you lose your phone." },
-          { title: "Mark trusted devices", body: "Devices you use regularly can be trusted, so unusual devices stand out." },
-          { title: "Watch login alerts", body: "eCard sends login alerts. If one looks unfamiliar, change your password and review your devices." },
+          { title: "Turn On Two-factor Authentication", body: "Use an authenticator app to generate sign-in codes. A stolen password alone is then not enough to get in." },
+          { title: "Save Your Recovery Codes", body: "Store them somewhere safe and offline. They let you back in if you lose your phone." },
+          { title: "Mark Trusted Devices", body: "Devices you use regularly can be trusted, so unusual devices stand out." },
+          { title: "Watch Login Alerts", body: "eCard sends login alerts. If one looks unfamiliar, change your password and review your devices." },
         ],
       },
       {
         type: "prose",
-        heading: "Encryption of the secrets you add",
+        heading: "Encryption Of The Secrets You Add",
         paragraphs: [
           "eCard asks you to connect two kinds of secret: API keys for the AI model that reads your cards, and SMTP passwords for the mailbox that sends your intro emails. Both are encrypted with AES-256-GCM, which is the “256-bit key encryption” mentioned on the eCard homepage.",
           "AES-256-GCM is a widely used authenticated encryption mode: it keeps the data confidential and also detects if the stored value has been tampered with. eCard has not published further detail about key management, so we do not describe it here.",
@@ -111,7 +111,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Access control by role",
+        heading: "Access Control By Role",
         intro: "Workspaces support five roles. Give each person the least access they need.",
         headers: ["Role", "Typical use"],
         rows: [
@@ -124,7 +124,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Good habits for your team",
+        heading: "Good Habits For Your Team",
         intro: "General security guidance that pairs well with eCard’s controls:",
         items: [
           "Require 2FA for everyone with admin or owner access.",
@@ -137,12 +137,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not published",
+        title: "Not Published",
         body: "eCard has not published penetration-test results, hosting details, uptime figures, a status page or certifications. If you need this information for a procurement review, write to sales@bizzfly.com.",
       },
       {
         type: "prose",
-        heading: "Securing the services you connect",
+        heading: "Securing The Services You Connect",
         paragraphs: [
           "eCard relies on services you bring: an AI provider that reads your cards and an email host that sends your intros. The security of those accounts matters too. Use a dedicated API key for eCard rather than reusing one from another project, so you can revoke it without breaking anything else. Where your AI provider supports spending limits, set one.",
           "For email, many providers let you create an app-specific password for SMTP instead of using your main password. That way, if you ever need to cut eCard off, you can revoke a single credential. eCard’s key pool also supports adding several AI keys with automatic failover, which makes rotating keys simple: add the new key, confirm scans work, then remove the old one.",
@@ -162,9 +162,9 @@ export const pages: PageDef[] = [
     slug: "trust/privacy",
     category: "trust",
     title: "Privacy",
-    seoTitle: "Privacy at eCard: Contact Data and Your Controls",
+    seoTitle: "Privacy At eCard: Contact Data And Your Controls",
     description: "How privacy works in eCard: you review scans before saving, choose your AI provider, send from your own mailbox, and export or delete contacts on request.",
-    h1: "Privacy for the people on your cards",
+    h1: "Privacy For The People On Your Cards",
     eyebrow: "Trust › Privacy",
     intro: "When you scan a visiting card, you are storing someone else’s personal details. This page explains the privacy controls eCard provides and offers general guidance on handling contact data responsibly.",
     variant: "reference",
@@ -173,7 +173,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Two kinds of personal data",
+        heading: "Two Kinds Of Personal Data",
         paragraphs: [
           "eCard handles your own account information, such as your name and email address, and the contact data you add: details read from visiting cards, plus notes, tags, events and voice notes you attach. The second kind is about other people, who did not sign up to eCard themselves.",
           "That is why the product puts the workspace owner in control. The draft privacy policy in the Legal Centre describes this in more detail; it is pending review and is not yet the binding policy.",
@@ -181,18 +181,18 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Controls that support privacy",
+        heading: "Controls That Support Privacy",
         cards: [
-          { title: "Review before save", body: "Each extracted field has a confidence score, and nothing is saved until you review it.", icon: "check" },
-          { title: "Your choice of AI", body: "You pick which model reads your cards and use your own key, so you decide which provider processes the image.", icon: "brain" },
-          { title: "Your own mailbox", body: "Intro emails are sent from your SMTP account, not a shared eCard sender.", icon: "mail" },
-          { title: "Export and delete", body: "The compliance checklist covers consent, export and deletion.", icon: "download" },
-          { title: "Blacklist and archive", body: "Stop contacting someone, or archive records you no longer need.", icon: "ban" },
+          { title: "Review Before Save", body: "Each extracted field has a confidence score, and nothing is saved until you review it.", icon: "check" },
+          { title: "Your Choice Of AI", body: "You pick which model reads your cards and use your own key, so you decide which provider processes the image.", icon: "brain" },
+          { title: "Your Own Mailbox", body: "Intro emails are sent from your SMTP account, not a shared eCard sender.", icon: "mail" },
+          { title: "Export And Delete", body: "The compliance checklist covers consent, export and deletion.", icon: "download" },
+          { title: "Blacklist And Archive", body: "Stop contacting someone, or archive records you no longer need.", icon: "ban" },
         ],
       },
       {
         type: "bullets",
-        heading: "Responsible handling of visiting-card data",
+        heading: "Responsible Handling Of Visiting-card Data",
         intro: "General guidance, not legal advice:",
         items: [
           "Only scan cards that were given to you in a business context.",
@@ -205,19 +205,19 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Policy status",
+        title: "Policy Status",
         body: "eCard’s privacy policy and data processing terms are currently drafts pending review. eCard has not published specific retention periods, sub-processor lists or data locations. Questions can go to sales@bizzfly.com.",
       },
       {
         type: "prose",
-        heading: "Link tracking and bots",
+        heading: "Link Tracking And Bots",
         paragraphs: [
           "Your digital card’s short links count clicks, with bots filtered out, and you can see opens of your card, PDFs and WhatsApp links. If you share tracked links, it is good practice to let people know that opens are measured, especially in regions where tracking rules are strict.",
         ],
       },
       {
         type: "prose",
-        heading: "Sharing contacts inside a team",
+        heading: "Sharing Contacts Inside A Team",
         paragraphs: [
           "In a shared workspace, colleagues may see contacts you scanned. Roles help here: a scan-only guest can capture cards at an event without browsing the wider contact list, while members and managers work the contacts relevant to them. Owners and admins should decide in advance who needs access to what, and review it when people join or leave.",
           "The workspace audit log provides a record of activity, which is useful if someone asks how their details were used. Combined with the blacklist, archive and deletion tools, it gives you the means to respect the people whose cards you collect, which is good practice whatever the law requires where you work.",
@@ -237,9 +237,9 @@ export const pages: PageDef[] = [
     slug: "trust/compliance",
     category: "trust",
     title: "Compliance",
-    seoTitle: "Compliance at eCard: Checklist and Data Requests",
+    seoTitle: "Compliance At eCard: Checklist And Data Requests",
     description: "eCard includes a compliance checklist for consent, export and deletion. See how it helps your own obligations and what eCard has not yet published.",
-    h1: "Compliance tools for your workspace",
+    h1: "Compliance Tools For Your Workspace",
     eyebrow: "Trust › Compliance",
     intro: "Compliance is shared work: eCard provides tools, and you decide how to use them under the rules that apply to you. This page explains the compliance features eCard publishes and how they fit into a sensible process.",
     variant: "reference",
@@ -249,12 +249,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not a compliance attestation",
+        title: "Not A Compliance Attestation",
         body: "eCard has not published any compliance certifications, audit reports or regulatory attestations. The checklist described here is a product feature, not a claim that eCard or your use of it meets a particular law.",
       },
       {
         type: "table",
-        heading: "The compliance checklist",
+        heading: "The Compliance Checklist",
         headers: ["Area", "What it helps with"],
         rows: [
           ["Consent", "Recording that a contact agreed to hear from you."],
@@ -264,19 +264,19 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A simple process for data requests",
+        heading: "A Simple Process For Data Requests",
         intro: "General guidance you can adapt to your organisation:",
         steps: [
-          { title: "Log the request", body: "Note who asked, when, and what they want: a copy, a correction or deletion." },
-          { title: "Verify the person", body: "Make sure you are dealing with the person the data is about." },
-          { title: "Act in eCard", body: "Use export or deletion from the compliance tools, and add to the blacklist if they want no further contact." },
-          { title: "Confirm back", body: "Tell the person what you did." },
-          { title: "Review the audit log", body: "Check the workspace audit log records the action." },
+          { title: "Log The Request", body: "Note who asked, when, and what they want: a copy, a correction or deletion." },
+          { title: "Verify The Person", body: "Make sure you are dealing with the person the data is about." },
+          { title: "Act In eCard", body: "Use export or deletion from the compliance tools, and add to the blacklist if they want no further contact." },
+          { title: "Confirm Back", body: "Tell the person what you did." },
+          { title: "Review The Audit Log", body: "Check the workspace audit log records the action." },
         ],
       },
       {
         type: "split",
-        heading: "Supporting features",
+        heading: "Supporting Features",
         body: [
           "Several other features help you run a tidy, defensible contact database.",
         ],
@@ -290,7 +290,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Your responsibilities",
+        heading: "Your Responsibilities",
         paragraphs: [
           "Data-protection laws differ by country and by type of organisation. eCard cannot tell you which rules apply to you, and this page is not legal advice. If you work in a regulated industry or handle contacts across borders, ask a qualified adviser how to configure your process.",
           "The draft data processing terms in the Legal Centre describe how eCard intends to act on your behalf. They are pending review and are not yet binding.",
@@ -298,7 +298,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Consent at the moment you meet someone",
+        heading: "Consent At The Moment You Meet Someone",
         paragraphs: [
           "Visiting cards are exchanged with an expectation of follow-up, but that is not the same as agreeing to every kind of message. A practical habit is to mention at the meeting that you will send a short intro email or WhatsApp message, and to note that in eCard. Meeting memory lets you record where you met and who introduced you, which gives context if anyone later asks why they heard from you.",
           "When you use eCard’s outreach features, intro emails are sent from your own mailbox and can be edited or cancelled during the five-second window before sending. Use that moment to check the message is relevant and personal rather than promotional.",
@@ -318,9 +318,9 @@ export const pages: PageDef[] = [
     slug: "trust/certifications",
     category: "trust",
     title: "Certifications",
-    seoTitle: "eCard Certifications and Audits: Current Status",
+    seoTitle: "eCard Certifications And Audits: Current Status",
     description: "eCard has not published any security or compliance certifications. Learn what that means, what certifications usually show and how to evaluate eCard today.",
-    h1: "Certifications and third-party audits",
+    h1: "Certifications And Third-party Audits",
     eyebrow: "Trust › Certifications",
     intro: "Many buyers look for certifications before choosing software. eCard has not published any certifications, attestations or audit reports. This page says that plainly and explains how you can still evaluate the product.",
     variant: "reference",
@@ -330,12 +330,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "None published",
+        title: "None Published",
         body: "eCard has not published any certifications, attestations or third-party audit reports. Please do not describe eCard as certified to any standard. If you need this for procurement, contact sales@bizzfly.com.",
       },
       {
         type: "prose",
-        heading: "What certifications usually tell you",
+        heading: "What Certifications Usually Tell You",
         paragraphs: [
           "Security certifications and attestation reports are produced by independent auditors who check a company’s controls against a published framework. They can be useful because they give an outside view, but they also have limits: they cover a defined scope and period, and they do not guarantee a system is free of problems.",
           "Smaller and newer software products often do not have them yet. In that case, the practical approach is to look at the controls you can verify directly and to ask specific questions.",
@@ -343,7 +343,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Controls you can verify in eCard yourself",
+        heading: "Controls You Can Verify In eCard Yourself",
         items: [
           "Enable two-factor authentication with an authenticator app and download recovery codes.",
           "Check that login alerts arrive when you sign in on a new device.",
@@ -354,7 +354,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Questions to ask during procurement",
+        heading: "Questions To Ask During Procurement",
         intro: "General questions any buyer can send to a vendor without certifications.",
         headers: ["Question", "Why it matters"],
         rows: [
@@ -367,7 +367,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why we don’t display badges",
+        heading: "Why We Don’t Display Badges",
         paragraphs: [
           "Some websites show certification logos without a report behind them, or describe themselves as “compliant” with a framework they have never been audited against. That can mislead buyers who rely on those signals. eCard does not display any certification badges because none have been published, and this page exists so the absence is clear rather than hidden.",
           "If certifications are obtained in future, this page will name them, describe their scope and explain how to request the related report. Until then, the most reliable information is the list of verified controls on the Security page, which you can test yourself in a free workspace.",
@@ -389,9 +389,9 @@ export const pages: PageDef[] = [
     slug: "trust/responsible-disclosure",
     category: "trust",
     title: "Responsible Disclosure",
-    seoTitle: "Report a Security Issue to eCard",
+    seoTitle: "Report A Security Issue To eCard",
     description: "How to report a suspected security vulnerability in eCard today. No dedicated security contact or bug bounty is published; here is the safe way to raise it.",
-    h1: "Responsible disclosure",
+    h1: "Responsible Disclosure",
     eyebrow: "Trust › Responsible Disclosure",
     intro: "If you think you have found a security problem in eCard, thank you for taking the time to report it. eCard has not yet published a dedicated security contact or disclosure policy, so this page explains the safest way to raise an issue today.",
     variant: "guide",
@@ -401,22 +401,22 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "No dedicated channel yet",
+        title: "No Dedicated Channel Yet",
         body: "eCard has not published a security email address, disclosure policy, safe-harbour statement or bug bounty. For now, contact sales@bizzfly.com to ask for a security contact. Do not send exploit details until a dedicated channel has been confirmed.",
       },
       {
         type: "steps",
-        heading: "How to report today",
+        heading: "How To Report Today",
         steps: [
-          { title: "Write a short first message", body: "Email sales@bizzfly.com with the subject “Security report”. Say that you believe you have found a security issue and ask who should receive the details." },
-          { title: "Describe impact, not method", body: "You can say which area is affected, for example sign-in or link sharing, without including steps to reproduce." },
-          { title: "Wait for a confirmed contact", body: "Share technical details only once eCard confirms the right recipient and channel." },
-          { title: "Keep it confidential", body: "Give eCard reasonable time to investigate before discussing the issue publicly." },
+          { title: "Write A Short First Message", body: "Email sales@bizzfly.com with the subject “Security report”. Say that you believe you have found a security issue and ask who should receive the details." },
+          { title: "Describe Impact, Not Method", body: "You can say which area is affected, for example sign-in or link sharing, without including steps to reproduce." },
+          { title: "Wait For A Confirmed Contact", body: "Share technical details only once eCard confirms the right recipient and channel." },
+          { title: "Keep It Confidential", body: "Give eCard reasonable time to investigate before discussing the issue publicly." },
         ],
       },
       {
         type: "bullets",
-        heading: "Generally accepted good practice for researchers",
+        heading: "Generally Accepted Good Practice For Researchers",
         intro: "These are common norms in responsible disclosure, not an eCard policy or legal permission:",
         items: [
           "Only test against your own account and workspace.",
@@ -429,7 +429,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "What eCard has not committed to",
+        heading: "What eCard Has Not Committed To",
         paragraphs: [
           "Because no disclosure policy is published, eCard has not made public commitments about response times, legal safe harbour, credit or rewards. Please do not assume any of these apply. If they matter to you, ask when you first make contact.",
           "If you are an eCard customer and think your own account has been compromised, act first: change your password, check your trusted devices and login alerts, rotate any AI keys and SMTP passwords stored in the workspace, and review the audit log.",
@@ -437,7 +437,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "What a good report contains, once a contact is confirmed",
+        heading: "What A Good Report Contains, Once A Contact Is Confirmed",
         paragraphs: [
           "When eCard confirms who should receive security details, a clear report helps the issue get fixed quickly. Describe the affected feature, the impact you observed, and the minimum steps needed to reproduce it on your own account. Include the browser and device you used and the date and time of your testing. Screenshots are helpful if they do not expose anyone else’s data.",
           "Avoid sending large automated scanner outputs without explanation; they are hard to triage. Point out what you believe the real risk is and why. If you are unsure whether something is a vulnerability, it is still worth asking.",

@@ -10,31 +10,34 @@
    Palette derived from the official logo gradient #BA6AFB → #7F19F7 → #3202B8.
    These are the LIGHT values; html.dark below overrides them. */
 @theme {
-  /* Neutrals with a faint violet undertone (premium, on-brand) */
-  --color-ink-950: #14102a;
-  --color-ink-900: #1f1a36;
-  --color-ink-700: #3d3757;
-  --color-ink-500: #6b6685;
+  /* Light values taken from ecard.gg's :root tokens (HSL → hex):
+     background 252 38% 97%, card 0 0% 100%, foreground 248 39% 12%, muted 250 27% 95%,
+     muted-foreground 248 10% 45%, border 253 27% 93%, primary 268 93% 53%,
+     accent 266 100% 96%, accent-foreground 268 80% 42%. */
+  --color-ink-950: #16132a;   /* foreground */
+  --color-ink-900: #16132a;   /* foreground */
+  --color-ink-700: #3a3651;   /* between foreground and muted-foreground */
+  --color-ink-500: #6a677e;   /* muted-foreground */
   --color-ink-300: #b4afc8;
-  --color-ink-100: #ebe7f7;
-  --color-ink-50: #f7f5ff;
+  --color-ink-100: #eae8f2;   /* border */
+  --color-ink-50: #f0eff6;    /* muted / secondary */
   /* Surfaces */
-  --color-surface: #ffffff;
-  --color-page: #ffffff;
+  --color-surface: #ffffff;   /* card */
+  --color-page: #f6f4fa;      /* background */
   /* Always-dark sections (announcement bar, CTA bands, dark heroes, footer) */
   --color-night: #0f0b1f; /* ecard.gg marketing --night (light) */
   /* Brand */
   --color-brand-800: #3202b8;
-  --color-brand-700: #5310d8;
-  --color-brand-600: #7f19f7;
+  --color-brand-700: #6515c1;  /* accent-foreground */
+  --color-brand-600: #8018f7;  /* primary */
   --color-brand-400: #ba6afb;
-  --color-brand-100: #efe3ff;
-  --color-brand-50: #f8f2ff;
-  /* Status */
-  --color-mint-600: #0f9d77;
-  --color-mint-100: #dcf5ec;
-  --color-amber-500: #e0901a;
-  --color-amber-100: #fdf0d6;
+  --color-brand-100: #f3ebff;  /* accent */
+  --color-brand-50: #f8f4ff;
+  /* Status (ecard.gg success / warning) */
+  --color-mint-600: #12a150;
+  --color-mint-100: #e7f8ee;
+  --color-amber-500: #db7706;
+  --color-amber-100: #fff3db;
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   --font-brand: var(--font-instrument-sans), var(--font-geist-sans), ui-sans-serif, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, monospace;
@@ -196,3 +199,10 @@ body { background: var(--color-page); color: var(--color-ink-900); overflow-x: c
   .reveal { animation: reveal .6s ease both; }
   @keyframes reveal { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 }
+
+/* Heading typing animation (components/TypingHeadings.tsx) */
+.tw-ch { opacity: 0; animation: tw-in 1ms linear forwards; }
+@keyframes tw-in { to { opacity: 1; } }
+.tw-typing::after { content: ""; display: inline-block; width: 0.08em; height: 0.9em; margin-left: 0.06em; vertical-align: -0.08em; background: var(--color-brand-600); animation: tw-caret 0.7s steps(1) infinite; }
+@keyframes tw-caret { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .tw-ch { opacity: 1; animation: none; } }

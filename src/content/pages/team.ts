@@ -7,9 +7,9 @@ export const pages: PageDef[] = [
     slug: B,
     category: "team",
     title: "Team & Security",
-    seoTitle: "Team Roles, 2FA & Audit Logs for Visiting-Card CRM",
+    seoTitle: "Team Roles, 2FA & Audit Logs For Visiting-Card CRM",
     description: "eCard gives teams five roles, 2FA with recovery codes, login alerts, encrypted secrets, audit logs and white-label branding on higher plans.",
-    h1: "Share one card CRM with your team, safely",
+    h1: "Share One Card CRM With Your Team, Safely",
     eyebrow: "Team & Security",
     intro: "eCard workspaces are built for more than one person. Assign roles, protect sign-ins with two-factor authentication, keep an audit log, and put your own brand on the experience.",
     variant: "feature",
@@ -18,20 +18,20 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What eCard provides for teams",
+        heading: "What eCard Provides For Teams",
         intro: "Everything below is listed on ecard.gg as part of the team and admin feature set.",
         cards: [
-          { title: "Five roles", body: "Owner, admin, manager, member and scan-only guest, so each person gets an appropriate level of access.", icon: "users" },
-          { title: "Two-factor authentication", body: "Authenticator-app codes, recovery codes, trusted devices and login alerts.", icon: "key" },
-          { title: "Encrypted secrets", body: "API keys and SMTP passwords are encrypted with AES-256-GCM.", icon: "lock" },
-          { title: "Audit log", body: "Workspaces keep an audit log so admins can review activity.", icon: "file" },
+          { title: "Five Roles", body: "Owner, admin, manager, member and scan-only guest, so each person gets an appropriate level of access.", icon: "users" },
+          { title: "Two-factor Authentication", body: "Authenticator-app codes, recovery codes, trusted devices and login alerts.", icon: "key" },
+          { title: "Encrypted Secrets", body: "API keys and SMTP passwords are encrypted with AES-256-GCM.", icon: "lock" },
+          { title: "Audit Log", body: "Workspaces keep an audit log so admins can review activity.", icon: "file" },
           { title: "White-label", body: "Your logo, colours and a custom domain on Business and Enterprise plans.", icon: "palette" },
-          { title: "Compliance checklist", body: "A checklist covering consent, export and deletion.", icon: "check" },
+          { title: "Compliance Checklist", body: "A checklist covering consent, export and deletion.", icon: "check" },
         ],
       },
       {
         type: "prose",
-        heading: "Why team controls matter for a card CRM",
+        heading: "Why Team Controls Matter For A Card CRM",
         paragraphs: [
           "Visiting cards carry personal data: names, phone numbers, email addresses and sometimes home addresses. Once a team starts scanning cards into one shared place, the question of who can see, edit and export that data becomes important.",
           "Roles let you give a trade-show helper the ability to scan without handing over the whole contact book. Two-factor authentication protects the account if a password leaks. The audit log helps you answer the question \"who changed this?\" after the fact.",
@@ -39,7 +39,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Team size by plan",
+        heading: "Team Size By Plan",
         intro: "User limits come from the eCard pricing page (INR, monthly).",
         headers: ["Plan", "Price / month", "Users", "White label & custom domain"],
         rows: [
@@ -53,39 +53,39 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "What the site does not publish",
+        title: "What The Site Does Not Publish",
         body: "eCard’s site names the roles and security features but does not publish a detailed permission matrix, certifications or uptime figures. Check in-app settings or contact sales@bizzfly.com for specifics.",
       },
       {
         type: "steps",
-        heading: "A first-week setup path for a new team",
+        heading: "A First-week Setup Path For A New Team",
         intro: "A practical sequence many teams follow. Adjust the pace to your size.",
         steps: [
           {
-            title: "Day 1: secure the owner",
+            title: "Day 1: Secure The Owner",
             body: "The owner enables two-factor authentication and stores recovery codes somewhere safe before anyone else is invited."
           },
           {
-            title: "Day 2: invite admins",
+            title: "Day 2: Invite Admins",
             body: "Add one or two admins, ask them to enable 2FA too, and agree who handles invitations and removals."
           },
           {
-            title: "Day 3: invite the team",
+            title: "Day 3: Invite The Team",
             body: "Invite everyday users as members; reserve manager for people who actually lead a group."
           },
           {
-            title: "Day 4: connect secrets",
+            title: "Day 4: Connect Secrets",
             body: "Each sender connects their own SMTP mailbox and the workspace adds the AI provider key it will use. eCard states these secrets are encrypted with AES-256-GCM."
           },
           {
-            title: "Day 5: review",
+            title: "Day 5: Review",
             body: "Open the audit log, confirm the expected invitations and setting changes appear, and fix any role that looks too broad."
           }
         ]
       },
       {
         type: "table",
-        heading: "Which control answers which question",
+        heading: "Which Control Answers Which Question",
         headers: [
           "Question",
           "Control to reach for"
@@ -119,7 +119,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Common mistakes when a team grows",
+        heading: "Common Mistakes When A Team Grows",
         items: [
           "Making everyone an admin so nobody has to ask for help.",
           "Leaving event helpers as full members after the expo ends.",
@@ -141,9 +141,9 @@ export const pages: PageDef[] = [
     slug: `${B}/roles-and-permissions`,
     category: "team",
     title: "Roles & Permissions",
-    seoTitle: "Workspace Roles & Permissions in eCard",
-    description: "Understand eCard’s five workspace roles — owner, admin, manager, member and scan-only guest — and how to plan least-privilege access for a team.",
-    h1: "Five roles, one shared contact book",
+    seoTitle: "Workspace Roles & Permissions In eCard",
+    description: "Understand eCard’s five workspace roles (owner, admin, manager, member and scan-only guest) and how to plan least-privilege access for a team.",
+    h1: "Five Roles, One Shared Contact Book",
     eyebrow: "Team & Security",
     intro: "eCard offers five roles: owner, admin, manager, member and scan-only guest. Picking the right one for each person keeps your contact data in the right hands.",
     variant: "feature",
@@ -152,7 +152,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "The five roles at a glance",
+        heading: "The Five Roles At A Glance",
         intro: "Role names are from ecard.gg. The descriptions are a practical guide to how teams typically use each level, not a published permission matrix.",
         headers: ["Role", "Typical fit"],
         rows: [
@@ -165,7 +165,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Least privilege, in plain terms",
+        heading: "Least Privilege, In Plain Terms",
         paragraphs: [
           "The principle of least privilege says each person should have only the access they need to do their job. In a card CRM, that usually means most people are members, a few are managers or admins, and there is exactly one owner.",
           "Guests are the easiest place to reduce risk. Someone helping at an expo booth for two days does not need to browse your whole contact history; the scan-only guest role exists for exactly that situation.",
@@ -173,23 +173,23 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Planning roles for a new workspace",
+        heading: "Planning Roles For A New Workspace",
         steps: [
-          { title: "Name the owner", body: "Choose one accountable person, ideally with a company email address rather than a personal one." },
-          { title: "Pick one or two admins", body: "Enough to cover holidays, but not so many that nobody feels responsible." },
-          { title: "Default everyone else to member", body: "Promote to manager only when someone leads a group." },
-          { title: "Use guests for short-term help", body: "Remove guests once the event or project ends." },
+          { title: "Name The Owner", body: "Choose one accountable person, ideally with a company email address rather than a personal one." },
+          { title: "Pick One Or Two Admins", body: "Enough to cover holidays, but not so many that nobody feels responsible." },
+          { title: "Default Everyone Else To Member", body: "Promote to manager only when someone leads a group." },
+          { title: "Use Guests For Short-term Help", body: "Remove guests once the event or project ends." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Check exact permissions in the app",
+        title: "Check Exact Permissions In The App",
         body: "eCard’s public site lists the role names but not exactly which actions each role can perform. Review the role descriptions in your workspace before assigning them.",
       },
       {
         type: "bullets",
-        heading: "Review roles regularly",
+        heading: "Review Roles Regularly",
         items: [
           "Remove people who have left the team.",
           "Downgrade admins who no longer need settings access.",
@@ -199,7 +199,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Sample role plan for a 12-person team",
+        heading: "Sample Role Plan For A 12-person Team",
         intro: "Visibly fictional example to show the shape of a least-privilege plan.",
         headers: [
           "Person (sample)",
@@ -236,7 +236,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Signals that a role is wrong",
+        heading: "Signals That A Role Is Wrong",
         items: [
           "Someone regularly asks an admin to do one routine task for them: consider whether a higher role is justified, or whether the task should stay centralised.",
           "An admin has not changed a setting in months: they may only need member or manager access.",
@@ -258,9 +258,9 @@ export const pages: PageDef[] = [
     slug: `${B}/owner-role`,
     category: "team",
     title: "Owner Role",
-    seoTitle: "The Owner Role in an eCard Workspace",
+    seoTitle: "The Owner Role In An eCard Workspace",
     description: "The owner is the top role in an eCard workspace. Learn who should hold it, how to protect the account and what to plan for when people change jobs.",
-    h1: "The owner: accountable for the whole workspace",
+    h1: "The Owner: Accountable For The Whole Workspace",
     eyebrow: "Roles",
     intro: "Owner is the first of eCard’s five roles. Whoever holds it should be the person accountable for the workspace, its data and its subscription.",
     variant: "feature",
@@ -269,7 +269,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Who should be the owner",
+        heading: "Who Should Be The Owner",
         body: [
           "Pick the person who answers for the workspace if something goes wrong, such as a founder, a sales head or an operations lead. For a solo user that is simply you.",
           "Use a company mailbox you control long-term. If the owner signs up with a personal address and then leaves, recovering control becomes harder.",
@@ -278,23 +278,23 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Protecting the owner account",
+        heading: "Protecting The Owner Account",
         steps: [
-          { title: "Turn on 2FA", body: "eCard supports authenticator-app codes. Enable them first." },
-          { title: "Store recovery codes", body: "Keep them in a password manager or a sealed, offline place." },
-          { title: "Watch login alerts", body: "eCard sends login alerts; treat an unexpected one as a reason to change your password." },
-          { title: "Limit trusted devices", body: "Only mark devices you personally control as trusted." },
+          { title: "Turn On 2FA", body: "eCard supports authenticator-app codes. Enable them first." },
+          { title: "Store Recovery Codes", body: "Keep them in a password manager or a sealed, offline place." },
+          { title: "Watch Login Alerts", body: "eCard sends login alerts; treat an unexpected one as a reason to change your password." },
+          { title: "Limit Trusted Devices", body: "Only mark devices you personally control as trusted." },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Plan for handover",
+        title: "Plan For Handover",
         body: "Write down who takes over if the owner leaves. eCard’s site does not document an ownership-transfer flow, so check in-app settings or contact support before you need it.",
       },
       {
         type: "bullets",
-        heading: "Things owners usually look after",
+        heading: "Things Owners Usually Look After",
         intro: "General good practice, rather than a list of eCard-specific owner-only actions:",
         items: [
           "Choosing and paying for the plan.",
@@ -305,7 +305,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Owner responsibilities checklist",
+        heading: "Owner Responsibilities Checklist",
         items: [
           "Keep 2FA enabled and recovery codes stored offline.",
           "Choose the plan and keep billing details current (subscriptions are paid via Razorpay·UPI or Stripe).",
@@ -316,7 +316,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "When the owner is a single point of failure",
+        heading: "When The Owner Is A Single Point Of Failure",
         paragraphs: [
           "If only one person can manage the workspace and they are unreachable, routine tasks such as removing a departing employee can stall. Appointing a trusted admin reduces that risk without sharing the owner’s login.",
           "Never share the owner’s password or recovery codes with colleagues. If someone else needs to act, give them an appropriate role instead, so the audit log shows who did what."
@@ -324,32 +324,32 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "If the owner is leaving the company",
+        heading: "If The Owner Is Leaving The Company",
         steps: [
           {
-            title: "Plan the handover early",
+            title: "Plan The Handover Early",
             body: "Identify the successor and confirm they have their own account with 2FA."
           },
           {
-            title: "Check how ownership changes",
+            title: "Check How Ownership Changes",
             body: "eCard’s site does not document ownership transfer, so ask support before the last day."
           },
           {
-            title: "Review secrets",
+            title: "Review Secrets",
             body: "Rotate any API keys or SMTP passwords the departing owner set up personally."
           }
         ]
       },
       {
         type: "prose",
-        heading: "Owner and the plan",
+        heading: "Owner And The Plan",
         paragraphs: [
           "Plan choice affects how many users the workspace supports, from 5 on Free to unlimited on Business and Enterprise, and whether white-label and custom domains are available. The owner should revisit the plan as the team grows."
         ]
       },
       {
         type: "prose",
-        heading: "Owner and integrations",
+        heading: "Owner And Integrations",
         paragraphs: [
           "The owner should know which integrations are connected, such as Telegram, Google Contacts or webhooks on Professional and above, and who connected them, so nothing important is tied to a single person’s account."
         ]
@@ -367,9 +367,9 @@ export const pages: PageDef[] = [
     slug: `${B}/admin-role`,
     category: "team",
     title: "Admin Role",
-    seoTitle: "Admin Role: Running an eCard Workspace Day to Day",
+    seoTitle: "Admin Role: Running An eCard Workspace Day To Day",
     description: "Admins help the owner run an eCard workspace. See who to make admin, how many you need and the habits that keep a shared card CRM tidy and secure.",
-    h1: "Admins keep the workspace running",
+    h1: "Admins Keep The Workspace Running",
     eyebrow: "Roles",
     intro: "Admin is the second of eCard’s five roles. Admins are the trusted operators who help the owner manage people and settings.",
     variant: "feature",
@@ -378,7 +378,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Why have admins at all",
+        heading: "Why Have Admins At All",
         paragraphs: [
           "A single owner becomes a bottleneck. When someone new joins, a card import needs cleaning or a guest has to be removed after an event, it helps to have one or two people who can act without waiting.",
           "Admin access is powerful, so it should go to people who are both trusted and active in the workspace. Two admins is enough for most small teams.",
@@ -386,24 +386,24 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Common admin responsibilities",
+        heading: "Common Admin Responsibilities",
         intro: "Typical duties in a shared CRM. Confirm in-app which settings your admin role can change.",
         cards: [
           { title: "People", body: "Inviting teammates and removing leavers promptly.", icon: "users" },
-          { title: "Data hygiene", body: "Merging duplicates, archiving old contacts and keeping the blacklist current.", icon: "merge" },
-          { title: "Security review", body: "Checking the audit log and nudging people to enable 2FA.", icon: "shield" },
+          { title: "Data Hygiene", body: "Merging duplicates, archiving old contacts and keeping the blacklist current.", icon: "merge" },
+          { title: "Security Review", body: "Checking the audit log and nudging people to enable 2FA.", icon: "shield" },
           { title: "Imports", body: "Running CSV imports and bulk exports carefully.", icon: "upload" },
         ],
       },
       {
         type: "callout",
         tone: "info",
-        title: "Admins and secrets",
+        title: "Admins And Secrets",
         body: "eCard encrypts API keys and SMTP passwords with AES-256-GCM. Even so, only share these credentials with the people who need to configure them.",
       },
       {
         type: "bullets",
-        heading: "Admin checklist each month",
+        heading: "Admin Checklist Each Month",
         items: [
           "Remove inactive users and expired guests.",
           "Scan the audit log for unexpected changes.",
@@ -413,7 +413,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Admin vs owner vs manager: a practical split",
+        heading: "Admin Vs Owner Vs Manager: A Practical Split",
         intro: "A common division of work. Confirm actual permissions in your workspace.",
         headers: [
           "Task",
@@ -444,7 +444,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Admin habits that keep a workspace healthy",
+        heading: "Admin Habits That Keep A Workspace Healthy",
         items: [
           "Remove leavers on their last day, not at the end of the month.",
           "Check that new users have turned on 2FA within their first week.",
@@ -455,21 +455,21 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Protecting the admin account itself",
+        heading: "Protecting The Admin Account Itself",
         paragraphs: [
           "Admin accounts are attractive to attackers because they can change other people’s access. Use an authenticator app for 2FA, keep login alerts on, and avoid trusting shared or public devices."
         ]
       },
       {
         type: "prose",
-        heading: "Sample: covering for the owner",
+        heading: "Sample: Covering For The Owner",
         paragraphs: [
           "Sample: the owner of a fictional consultancy is travelling during a trade show. A new hire needs access, and a departing contractor must be removed. Because an admin was appointed in advance, both changes happen the same day and appear in the audit log, with no shared passwords involved."
         ]
       },
       {
         type: "bullets",
-        heading: "Admin pitfalls",
+        heading: "Admin Pitfalls",
         items: [
           "Granting admin to fix a one-off problem and never removing it.",
           "Using an admin account for everyday scanning on a shared device.",
@@ -491,9 +491,9 @@ export const pages: PageDef[] = [
     slug: `${B}/manager-role`,
     category: "team",
     title: "Manager Role",
-    seoTitle: "Manager Role for Team Leads in eCard",
+    seoTitle: "Manager Role For Team Leads In eCard",
     description: "The manager role in eCard suits team leads coordinating contacts and follow-ups. Learn how sales and event leads can use it without full admin rights.",
-    h1: "A role for team leads",
+    h1: "A Role For Team Leads",
     eyebrow: "Roles",
     intro: "Manager sits between admin and member in eCard’s list of roles. It fits people who lead a group, such as a regional sales lead or an event coordinator.",
     variant: "feature",
@@ -502,7 +502,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "When to make someone a manager",
+        heading: "When To Make Someone A Manager",
         body: [
           "Promote someone to manager when they are responsible for other people’s follow-ups, not just their own. A lead running a trade-show booth with four colleagues is a good example.",
           "Keeping leads at manager rather than admin limits how many people can change workspace-wide settings.",
@@ -511,7 +511,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A manager’s week, as an example",
+        heading: "A Manager’s Week, As An Example",
         intro: "Sample routine for a fictional lead, Sample: Arjun Mehta, Sales Manager.",
         steps: [
           { title: "Monday", body: "Search contacts with natural language, such as \"buyers I met in Pune last week\", and assign follow-ups." },
@@ -522,12 +522,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Permissions not published",
+        title: "Permissions Not Published",
         body: "eCard’s site does not detail what managers can do compared with members or admins. Check the role description in your workspace.",
       },
       {
         type: "bullets",
-        heading: "Good manager habits",
+        heading: "Good Manager Habits",
         items: [
           "Tag contacts by event so the team can follow up with the room.",
           "Agree on follow-up timing, for example within 24 hours of a meeting.",
@@ -536,7 +536,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "A day in the life of a manager (sample)",
+        heading: "A Day In The Life Of A Manager (Sample)",
         paragraphs: [
           "Sample: Arjun Mehta leads a five-person field sales group. Each morning he reviews the contacts his team scanned the day before, checks tags and events are applied consistently, and nudges anyone whose follow-ups are slipping.",
           "He does not need to manage billing or workspace settings, which is why manager rather than admin fits: coordination without control over the whole workspace."
@@ -544,7 +544,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "When to promote a member to manager",
+        heading: "When To Promote A Member To Manager",
         items: [
           "They lead a group whose contacts and follow-ups need coordinating.",
           "They run event teams and need to keep a booth’s scans organised.",
@@ -553,7 +553,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "When not to",
+        heading: "When Not To",
         items: [
           "As a reward or title change with no change in responsibility.",
           "To work around a permission an admin should handle centrally.",
@@ -562,32 +562,32 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Manager weekly routine",
+        heading: "Manager Weekly Routine",
         steps: [
           {
-            title: "Check tags",
+            title: "Check Tags",
             body: "Make sure the group uses the same tags and event names so filters work."
           },
           {
-            title: "Look for duplicates",
+            title: "Look For Duplicates",
             body: "Merge or clean up repeated contacts using eCard’s clean-data tools."
           },
           {
-            title: "Review follow-ups",
+            title: "Review Follow-ups",
             body: "Identify contacts who were scanned but never contacted."
           }
         ]
       },
       {
         type: "prose",
-        heading: "Managers at events",
+        heading: "Managers At Events",
         paragraphs: [
           "At expos, managers often act as the booth lead: briefing scan-only guests, checking scans during quiet moments and making sure every contact gets a follow-up owner before the team packs up."
         ]
       },
       {
         type: "bullets",
-        heading: "Manager pitfalls",
+        heading: "Manager Pitfalls",
         items: [
           "Creating new tags without agreeing them with other groups.",
           "Letting follow-ups pile up after big events.",
@@ -608,9 +608,9 @@ export const pages: PageDef[] = [
     slug: `${B}/member-role`,
     category: "team",
     title: "Member Role",
-    seoTitle: "Member Role: Everyday Users of eCard",
+    seoTitle: "Member Role: Everyday Users Of eCard",
     description: "Members are the everyday users of an eCard workspace who scan cards and follow up. Learn why member should be the default role for most of your team.",
-    h1: "Members do the everyday work",
+    h1: "Members Do The Everyday Work",
     eyebrow: "Roles",
     intro: "Member is the standard role in eCard for people who scan cards, keep notes and follow up with the contacts they meet.",
     variant: "feature",
@@ -619,7 +619,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Make member the default",
+        heading: "Make Member The Default",
         paragraphs: [
           "When you invite someone and are not sure which role to give them, member is usually the right answer. It suits salespeople, consultants and anyone else whose job is to meet people and follow up.",
           "You can always promote someone later. Starting low and raising access when there is a clear need is safer than the reverse.",
@@ -627,50 +627,50 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "What members typically use",
+        heading: "What Members Typically Use",
         intro: "These are eCard’s base features, available on every plan. Your workspace’s role settings decide the exact access.",
         cards: [
-          { title: "AI scanning", body: "Read a card with the AI model your workspace chose and review each field before saving.", icon: "scan" },
-          { title: "Intro emails", body: "Preview an AI draft that sends after 5 seconds from your own SMTP, with edit or cancel.", icon: "mail" },
+          { title: "AI Scanning", body: "Read a card with the AI model your workspace chose and review each field before saving.", icon: "scan" },
+          { title: "Intro Emails", body: "Preview an AI draft that sends after 5 seconds from your own SMTP, with edit or cancel.", icon: "mail" },
           { title: "WhatsApp", body: "AI-written messages in English, Hindi or Marathi, opened in one tap.", icon: "message" },
-          { title: "Digital card", body: "A personal card with QR code and Save-to-contacts.", icon: "card" },
+          { title: "Digital Card", body: "A personal card with QR code and Save-to-contacts.", icon: "card" },
         ],
       },
       {
         type: "steps",
-        heading: "A member’s first day",
+        heading: "A Member’s First Day",
         steps: [
-          { title: "Accept the invite", body: "Sign in at ecard.gg and set a strong password." },
+          { title: "Accept The Invite", body: "Sign in at ecard.gg and set a strong password." },
           { title: "Enable 2FA", body: "Add an authenticator app and save recovery codes." },
-          { title: "Scan a card", body: "Check the confidence score on each field before saving." },
+          { title: "Scan A Card", body: "Check the confidence score on each field before saving." },
           { title: "Link Telegram", body: "Optional: use the one-time code from Settings → Telegram to scan by photo." },
         ],
       },
       {
         type: "steps",
-        heading: "A member’s typical card-to-follow-up flow",
+        heading: "A Member’s Typical Card-to-follow-up Flow",
         steps: [
           {
             title: "Scan",
             body: "Capture the card in the phone browser or through the Telegram bot (linked with a one-time code from Settings → Telegram)."
           },
           {
-            title: "Check the fields",
+            title: "Check The Fields",
             body: "The AI model reads the card; glance at the name, number and email before saving."
           },
           {
-            title: "Tag and add context",
+            title: "Tag And Add Context",
             body: "Add an event, tags and a note or voice note while the conversation is fresh."
           },
           {
-            title: "Follow up",
+            title: "Follow Up",
             body: "Send an intro email from your own mailbox or a WhatsApp message."
           }
         ]
       },
       {
         type: "bullets",
-        heading: "Good habits for members",
+        heading: "Good Habits For Members",
         items: [
           "Use the team’s agreed tag and event names.",
           "Add a short note on why the contact matters.",
@@ -681,21 +681,21 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "What members usually do not need",
+        heading: "What Members Usually Do Not Need",
         paragraphs: [
           "Members rarely need to change workspace settings, manage billing or invite others. Keeping those tasks with admins and the owner means fewer people can make changes that affect everyone."
         ]
       },
       {
         type: "prose",
-        heading: "Sample: a member after an expo",
+        heading: "Sample: A Member After An Expo",
         paragraphs: [
           "Sample: Priya Shah, a fictional sales rep, scans 40 cards over two days. Each evening she adds notes while memories are fresh, and the next morning she sends intro emails from her own mailbox to the most promising contacts."
         ]
       },
       {
         type: "prose",
-        heading: "When something goes wrong",
+        heading: "When Something Goes Wrong",
         paragraphs: [
           "If a scan is misread, fix the fields straight away. If you lose a device or see an unexpected login alert, tell an admin immediately; quick reporting matters more than knowing the cause."
         ]
@@ -713,9 +713,9 @@ export const pages: PageDef[] = [
     slug: `${B}/scan-only-guests`,
     category: "team",
     title: "Scan-Only Guests",
-    seoTitle: "Scan-Only Guest Access for Event Helpers",
+    seoTitle: "Scan-Only Guest Access For Event Helpers",
     description: "eCard’s scan-only guest role lets temporary helpers capture visiting cards at events without browsing your full contact list. Here’s how to use it well.",
-    h1: "Let helpers scan without seeing everything",
+    h1: "Let Helpers Scan Without Seeing Everything",
     eyebrow: "Roles",
     intro: "eCard includes a scan-only guest role. It is designed for people who should capture cards for you but do not need the rest of your workspace.",
     variant: "feature",
@@ -724,33 +724,33 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "Who scan-only guests are for",
+        heading: "Who Scan-only Guests Are For",
         cards: [
-          { title: "Booth staff", body: "Temporary staff collecting cards at a trade show.", icon: "building" },
+          { title: "Booth Staff", body: "Temporary staff collecting cards at a trade show.", icon: "building" },
           { title: "Interns", body: "Helpers digitising a backlog of paper cards.", icon: "archive" },
           { title: "Partners", body: "A distributor capturing leads on your behalf at a joint event.", icon: "users" },
         ],
       },
       {
         type: "steps",
-        heading: "Running an event with guests",
+        heading: "Running An Event With Guests",
         steps: [
-          { title: "Create an event", body: "Group cards from the show so the team can follow up with everyone at once." },
-          { title: "Invite guests", body: "Give each helper the scan-only guest role." },
-          { title: "Scan at the booth", body: "Helpers scan in the phone browser; no app to install." },
-          { title: "Review and follow up", body: "Members review the extracted fields and send follow-ups." },
-          { title: "Remove guests", body: "Take access away when the event ends." },
+          { title: "Create An Event", body: "Group cards from the show so the team can follow up with everyone at once." },
+          { title: "Invite Guests", body: "Give each helper the scan-only guest role." },
+          { title: "Scan At The Booth", body: "Helpers scan in the phone browser; no app to install." },
+          { title: "Review And Follow Up", body: "Members review the extracted fields and send follow-ups." },
+          { title: "Remove Guests", body: "Take access away when the event ends." },
         ],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Review still matters",
+        title: "Review Still Matters",
         body: "In eCard nothing from a scan is saved until it is reviewed, and each field has a confidence score. Decide who on your team does that review after a busy day of guest scanning.",
       },
       {
         type: "prose",
-        heading: "Why limited access is worth the effort",
+        heading: "Why Limited Access Is Worth The Effort",
         paragraphs: [
           "Event helpers often use their own phones and may not be long-term staff. Giving them a narrow role reduces the chance that your whole contact list ends up somewhere it should not.",
           "eCard’s site does not list exactly what a guest can see after scanning. Test the role with a sample card before the event so there are no surprises.",
@@ -758,29 +758,29 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Running an expo booth with guests",
+        heading: "Running An Expo Booth With Guests",
         steps: [
           {
-            title: "Before the event",
+            title: "Before The Event",
             body: "Decide which helpers need access and invite them as scan-only guests; agree the event name to use."
           },
           {
-            title: "Brief the helpers",
+            title: "Brief The Helpers",
             body: "Show them how to scan in the phone browser and how to add a quick note about each visitor."
           },
           {
-            title: "During the event",
+            title: "During The Event",
             body: "A member or manager checks scans periodically for blurry images or missing fields."
           },
           {
-            title: "After the event",
+            title: "After The Event",
             body: "Remove guest access the same day and hand contacts to the right members for follow-up."
           }
         ]
       },
       {
         type: "table",
-        heading: "Guest or member?",
+        heading: "Guest Or Member?",
         headers: [
           "Situation",
           "Better fit"
@@ -806,7 +806,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Guest pitfalls",
+        heading: "Guest Pitfalls",
         items: [
           "Forgetting to remove guests after the event.",
           "Sharing one guest login among several helpers.",
@@ -815,7 +815,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why scan-only access reduces risk",
+        heading: "Why Scan-only Access Reduces Risk",
         paragraphs: [
           "Temporary helpers are often hired at short notice and may use their own phones. Limiting them to scanning means that if a device is lost or a helper leaves on bad terms, your wider contact history is not exposed through their account.",
           "It also keeps the contact book cleaner: guests add cards, and members who understand the context decide how to follow up."
@@ -823,7 +823,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Briefing card for booth helpers (sample)",
+        heading: "Briefing Card For Booth Helpers (Sample)",
         items: [
           "Scan every card, even if the conversation was short.",
           "Add one line about what the visitor wanted.",
@@ -844,9 +844,9 @@ export const pages: PageDef[] = [
     slug: `${B}/two-factor-authentication`,
     category: "team",
     title: "Two-Factor Authentication",
-    seoTitle: "Two-Factor Authentication (2FA) in eCard",
+    seoTitle: "Two-Factor Authentication (2FA) In eCard",
     description: "eCard supports 2FA with authenticator-app codes, recovery codes and trusted devices. Learn how 2FA works and why every team member should turn it on.",
-    h1: "Protect sign-ins with authenticator codes",
+    h1: "Protect Sign-ins With Authenticator Codes",
     eyebrow: "Security",
     intro: "eCard supports two-factor authentication using codes from an authenticator app, backed up by recovery codes, trusted devices and login alerts.",
     variant: "feature",
@@ -855,7 +855,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "What 2FA is",
+        heading: "What 2FA Is",
         paragraphs: [
           "Two-factor authentication asks for something you know (your password) and something you have (your phone with an authenticator app). Even if a password is guessed or leaked, an attacker still needs the code from your device.",
           "Authenticator apps generate a new six-digit code every 30 seconds or so, based on a secret shared when you set up 2FA. They work offline and are generally considered stronger than SMS codes.",
@@ -863,18 +863,18 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Setting it up, in general terms",
+        heading: "Setting It Up, In General Terms",
         intro: "The exact screens are in your eCard account settings; a step-by-step guide is in our resources.",
         steps: [
-          { title: "Install an authenticator app", body: "Any standard TOTP authenticator app on your phone." },
-          { title: "Scan the setup code", body: "Add eCard to the app from your account’s security settings." },
-          { title: "Confirm with a code", body: "Enter the current code to finish setup." },
-          { title: "Save recovery codes", body: "Store them somewhere safe in case you lose your phone." },
+          { title: "Install An Authenticator App", body: "Any standard TOTP authenticator app on your phone." },
+          { title: "Scan The Setup Code", body: "Add eCard to the app from your account’s security settings." },
+          { title: "Confirm With A Code", body: "Enter the current code to finish setup." },
+          { title: "Save Recovery Codes", body: "Store them somewhere safe in case you lose your phone." },
         ],
       },
       {
         type: "table",
-        heading: "eCard’s sign-in protections",
+        heading: "eCard’s Sign-in Protections",
         headers: ["Feature", "What it does"],
         rows: [
           ["Authenticator codes", "Second factor at sign-in"],
@@ -886,35 +886,35 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Start with the owner and admins",
+        title: "Start With The Owner And Admins",
         body: "If you roll out 2FA in stages, protect the accounts with the most access first.",
       },
       {
         type: "steps",
-        heading: "Enabling 2FA, step by step (general flow)",
+        heading: "Enabling 2FA, Step By Step (General Flow)",
         intro: "The exact screens are in-app; this is the typical shape of authenticator-based 2FA.",
         steps: [
           {
-            title: "Install an authenticator app",
+            title: "Install An Authenticator App",
             body: "Any standard TOTP authenticator works in principle; pick one your team is comfortable with."
           },
           {
-            title: "Start setup in your account",
+            title: "Start Setup In Your Account",
             body: "You will typically be shown a code or QR to add to the authenticator."
           },
           {
-            title: "Confirm with a code",
+            title: "Confirm With A Code",
             body: "Enter the code the app generates to prove setup worked."
           },
           {
-            title: "Save recovery codes",
+            title: "Save Recovery Codes",
             body: "Store them offline, separate from your phone."
           }
         ]
       },
       {
         type: "bullets",
-        heading: "Rollout plan for a team",
+        heading: "Rollout Plan For A Team",
         items: [
           "Owner and admins first, the same day.",
           "Managers and members within their first week.",
@@ -924,14 +924,14 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why authenticator codes beat passwords alone",
+        heading: "Why Authenticator Codes Beat Passwords Alone",
         paragraphs: [
           "Passwords get reused, phished and leaked. An authenticator code changes frequently and lives on a device the attacker does not have, so a stolen password alone is not enough to sign in."
         ]
       },
       {
         type: "bullets",
-        heading: "Choosing an authenticator app",
+        heading: "Choosing An Authenticator App",
         items: [
           "Pick a well-known app from your phone’s official app store.",
           "Check whether it supports secure backup or transfer to a new phone.",
@@ -940,7 +940,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Changing phones without losing access",
+        heading: "Changing Phones Without Losing Access",
         paragraphs: [
           "Before wiping or trading in a phone, check whether your authenticator app can move codes to the new device. If not, sign in on the new phone first, set up 2FA again, and only then reset the old one. Keep recovery codes handy throughout."
         ]
@@ -961,7 +961,7 @@ export const pages: PageDef[] = [
     title: "Login Alerts",
     seoTitle: "Login Alerts: Know When Your Account Is Used",
     description: "eCard sends login alerts so you can spot unexpected sign-ins. Learn what to do when an alert looks wrong and how alerts fit with 2FA and trusted devices.",
-    h1: "Know when someone signs in",
+    h1: "Know When Someone Signs In",
     eyebrow: "Security",
     intro: "Login alerts are one of eCard’s sign-in protections. They tell you when your account has been signed in to, so an unexpected sign-in does not go unnoticed.",
     variant: "feature",
@@ -970,7 +970,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Why alerts help",
+        heading: "Why Alerts Help",
         body: [
           "Most account takeovers are quiet. An alert turns a silent event into something you can react to within minutes rather than weeks.",
           "Alerts work best alongside 2FA: 2FA makes a takeover hard, and alerts tell you if someone tried anyway.",
@@ -979,23 +979,23 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "If an alert looks wrong",
+        heading: "If An Alert Looks Wrong",
         steps: [
-          { title: "Do not ignore it", body: "Treat an unrecognised sign-in as real until proven otherwise." },
-          { title: "Change your password", body: "Use the forgot-password flow if you cannot sign in." },
+          { title: "Do Not Ignore It", body: "Treat an unrecognised sign-in as real until proven otherwise." },
+          { title: "Change Your Password", body: "Use the forgot-password flow if you cannot sign in." },
           { title: "Check 2FA", body: "Make sure 2FA is on and review your trusted devices." },
-          { title: "Tell an admin", body: "They can check the workspace audit log for unusual activity." },
+          { title: "Tell An Admin", body: "They can check the workspace audit log for unusual activity." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Alert details",
+        title: "Alert Details",
         body: "eCard’s site lists login alerts but does not specify the delivery channel or the details included. Look at the alert itself or your account settings.",
       },
       {
         type: "bullets",
-        heading: "Common harmless causes",
+        heading: "Common Harmless Causes",
         items: [
           "Signing in from a new browser or a cleared browser.",
           "Using a colleague’s laptop at an event.",
@@ -1004,29 +1004,29 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "What to do when you get an unexpected alert",
+        heading: "What To Do When You Get An Unexpected Alert",
         steps: [
           {
-            title: "Do not ignore it",
+            title: "Do Not Ignore It",
             body: "Assume it is real until you can explain it."
           },
           {
-            title: "Change your password",
+            title: "Change Your Password",
             body: "Use a new, unique password."
           },
           {
-            title: "Check 2FA and devices",
+            title: "Check 2FA And Devices",
             body: "Make sure 2FA is still on and review trusted devices."
           },
           {
-            title: "Tell an admin",
+            title: "Tell An Admin",
             body: "They can review the audit log for unusual actions."
           }
         ]
       },
       {
         type: "table",
-        heading: "Reading an alert",
+        heading: "Reading An Alert",
         headers: [
           "Alert looks like",
           "Likely explanation",
@@ -1052,7 +1052,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Making alerts useful",
+        heading: "Making Alerts Useful",
         items: [
           "Use an email address you actually read.",
           "Filter alerts into an inbox folder you check, not a spam-like archive.",
@@ -1061,7 +1061,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "How alerts fit with other controls",
+        heading: "How Alerts Fit With Other Controls",
         paragraphs: [
           "Login alerts are a detection tool. Two-factor authentication makes unauthorised sign-in harder; alerts tell you when a sign-in happens; the audit log shows what was done afterwards. Together they cover prevention, detection and investigation.",
           "For admins and owners, an alert you cannot explain deserves urgent attention, because those accounts can change other people’s access."
@@ -1069,7 +1069,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Sample alert scenario",
+        heading: "Sample Alert Scenario",
         items: [
           "Sample: Neha, a member, receives an alert while she is asleep.",
           "She does not recognise the device, so she changes her password first thing in the morning.",
@@ -1079,7 +1079,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Alerts and shared devices",
+        heading: "Alerts And Shared Devices",
         paragraphs: [
           "If you see alerts every time you sign in on a booth tablet, that is a sign the device is being used in a way it should not be. Use individual accounts and avoid signing in on shared hardware where possible."
         ]
@@ -1097,9 +1097,9 @@ export const pages: PageDef[] = [
     slug: `${B}/trusted-devices`,
     category: "team",
     title: "Trusted Devices",
-    seoTitle: "Trusted Devices and Fewer 2FA Prompts",
+    seoTitle: "Trusted Devices And Fewer 2FA Prompts",
     description: "Mark devices you control as trusted in eCard to reduce repeat 2FA prompts. Learn when to trust a device and when to avoid it, especially at events.",
-    h1: "Trust the devices you own, not the ones you borrow",
+    h1: "Trust The Devices You Own, Not The Ones You Borrow",
     eyebrow: "Security",
     intro: "eCard’s 2FA includes trusted devices, so a laptop or phone you control does not need to ask for a code every time.",
     variant: "feature",
@@ -1108,7 +1108,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Trust or don’t trust?",
+        heading: "Trust Or Don’t Trust?",
         headers: ["Device", "Trust it?", "Why"],
         rows: [
           ["Your personal work laptop", "Yes", "Only you use it and it is locked"],
@@ -1120,7 +1120,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "The trade-off",
+        heading: "The Trade-off",
         paragraphs: [
           "Trusted devices make 2FA less annoying, which helps people keep it turned on. The cost is that anyone who gets hold of that device may skip the second factor.",
           "That is why the rule of thumb is simple: trust only devices that you alone use and that are protected by a screen lock.",
@@ -1138,12 +1138,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Duration not published",
+        title: "Duration Not Published",
         body: "eCard’s site does not state how long a device stays trusted. Check your account’s security settings.",
       },
       {
         type: "table",
-        heading: "Should this device be trusted?",
+        heading: "Should This Device Be Trusted?",
         headers: [
           "Device",
           "Trust it?"
@@ -1173,7 +1173,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Device hygiene for card scanning",
+        heading: "Device Hygiene For Card Scanning",
         items: [
           "Keep a screen lock on any phone used to scan cards.",
           "Keep the browser and operating system up to date.",
@@ -1183,14 +1183,14 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "When a trusted device is lost",
+        heading: "When A Trusted Device Is Lost",
         paragraphs: [
           "Change your password, review trusted devices in your settings, and tell an admin. If you were using the device for 2FA, sign in with a recovery code and set up your authenticator again on a new device."
         ]
       },
       {
         type: "prose",
-        heading: "What trusting a device usually means",
+        heading: "What Trusting A Device Usually Means",
         paragraphs: [
           "In most services, marking a device as trusted means it is remembered after you sign in, so you are challenged less often on it. That convenience is exactly why it should only be used on devices you alone control.",
           "eCard lists trusted devices as part of its security features; check your settings in-app for how long trust lasts and how to remove a device."
@@ -1198,25 +1198,25 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "After an expo or trip",
+        heading: "After An Expo Or Trip",
         steps: [
           {
-            title: "Open your security settings",
+            title: "Open Your Security Settings",
             body: "Look at the list of trusted devices."
           },
           {
-            title: "Remove anything unfamiliar",
+            title: "Remove Anything Unfamiliar",
             body: "Including devices you only used once."
           },
           {
-            title: "Report concerns",
+            title: "Report Concerns",
             body: "Tell an admin if you see a device you do not recognise."
           }
         ]
       },
       {
         type: "prose",
-        heading: "Trusted devices for admins and owners",
+        heading: "Trusted Devices For Admins And Owners",
         paragraphs: [
           "Accounts that can change other people’s access deserve the strictest device rules. Owners and admins should trust only devices they personally control and keep locked, review the list after travel, and never trust a device at a hotel, airport lounge or event venue, however convenient it seems at the time."
         ]
@@ -1237,7 +1237,7 @@ export const pages: PageDef[] = [
     title: "Recovery Codes",
     seoTitle: "2FA Recovery Codes: Store Them Safely",
     description: "eCard gives you recovery codes when you enable 2FA. Learn how to store them, when to use them and what to do after you use one to regain access.",
-    h1: "Your backup key if your phone goes missing",
+    h1: "Your Backup Key If Your Phone Goes Missing",
     eyebrow: "Security",
     intro: "When you turn on two-factor authentication in eCard you also get recovery codes. They let you sign in if your authenticator app is unavailable.",
     variant: "feature",
@@ -1246,7 +1246,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "How recovery codes work",
+        heading: "How Recovery Codes Work",
         paragraphs: [
           "Recovery codes are one-time backup codes. Each can be used in place of an authenticator code, usually once. They exist for the moment you drop your phone in a lake, or reset it without moving your authenticator app.",
           "Because they bypass the second factor, recovery codes deserve the same care as a password.",
@@ -1254,31 +1254,31 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Good places to keep them",
+        heading: "Good Places To Keep Them",
         cards: [
-          { title: "Password manager", body: "A secure note next to your eCard login.", icon: "lock" },
-          { title: "Printed copy", body: "Kept somewhere physically secure, away from your phone.", icon: "file" },
-          { title: "Not in your inbox", body: "Avoid emailing them to yourself or saving them in chat.", icon: "ban" },
+          { title: "Password Manager", body: "A secure note next to your eCard login.", icon: "lock" },
+          { title: "Printed Copy", body: "Kept somewhere physically secure, away from your phone.", icon: "file" },
+          { title: "Not In Your Inbox", body: "Avoid emailing them to yourself or saving them in chat.", icon: "ban" },
         ],
       },
       {
         type: "steps",
-        heading: "After you use a recovery code",
+        heading: "After You Use A Recovery Code",
         steps: [
-          { title: "Sign in", body: "Enter the recovery code at the 2FA prompt." },
-          { title: "Set up 2FA again", body: "Add eCard to your authenticator app on the new device." },
-          { title: "Refresh your codes", body: "If your settings allow, generate a fresh set and store it safely." },
+          { title: "Sign In", body: "Enter the recovery code at the 2FA prompt." },
+          { title: "Set Up 2FA Again", body: "Add eCard to your authenticator app on the new device." },
+          { title: "Refresh Your Codes", body: "If your settings allow, generate a fresh set and store it safely." },
         ],
       },
       {
         type: "callout",
         tone: "info",
-        title: "Lost codes and phone?",
+        title: "Lost Codes And Phone?",
         body: "eCard’s site does not document a recovery path when both are lost. Contact eCard support through the details on the contact page.",
       },
       {
         type: "table",
-        heading: "Where to store recovery codes",
+        heading: "Where To Store Recovery Codes",
         headers: [
           "Option",
           "Good or risky",
@@ -1309,29 +1309,29 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Using a recovery code",
+        heading: "Using A Recovery Code",
         steps: [
           {
-            title: "Choose the recovery option",
+            title: "Choose The Recovery Option",
             body: "At the 2FA prompt, use a recovery code instead of an authenticator code."
           },
           {
-            title: "Cross it off",
+            title: "Cross It Off",
             body: "Treat that code as used."
           },
           {
-            title: "Set up 2FA again",
+            title: "Set Up 2FA Again",
             body: "Re-enrol your authenticator on your new device."
           },
           {
-            title: "Refresh your codes",
+            title: "Refresh Your Codes",
             body: "If new codes are available, save them and discard the old set."
           }
         ]
       },
       {
         type: "bullets",
-        heading: "Mistakes to avoid",
+        heading: "Mistakes To Avoid",
         items: [
           "Not saving codes at all because setup felt finished.",
           "Storing codes in the same email account that receives login alerts.",
@@ -1340,7 +1340,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why recovery codes exist",
+        heading: "Why Recovery Codes Exist",
         paragraphs: [
           "Two-factor authentication ties your sign-in to a device. If that device is lost, broken or reset, you need another way to prove it is you. Recovery codes are that fallback: a small set of one-time codes generated when you enable 2FA.",
           "Because a recovery code can stand in for your authenticator, treat each one with the same care as a password."
@@ -1348,7 +1348,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Team guidance for admins",
+        heading: "Team Guidance For Admins",
         items: [
           "Remind new users to save codes during onboarding.",
           "Never ask a user to send you their codes.",
@@ -1357,7 +1357,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Testing your recovery plan",
+        heading: "Testing Your Recovery Plan",
         paragraphs: [
           "Before you need them, confirm you can actually find your recovery codes. Many people only discover they are missing during a lockout. A quick check once a year, or when you change phones, avoids a stressful day when you most need access, such as the morning of an event."
         ]
@@ -1376,9 +1376,9 @@ export const pages: PageDef[] = [
     slug: `${B}/audit-logs`,
     category: "team",
     title: "Audit Logs",
-    seoTitle: "Workspace Audit Logs in eCard",
+    seoTitle: "Workspace Audit Logs In eCard",
     description: "Every eCard workspace has an audit log. See how admins can use it to review activity, investigate changes and support a basic compliance routine.",
-    h1: "A record of what happened in your workspace",
+    h1: "A Record Of What Happened In Your Workspace",
     eyebrow: "Security",
     intro: "eCard workspaces include an audit log. It gives owners and admins a way to look back at activity when something needs explaining.",
     variant: "feature",
@@ -1387,7 +1387,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "bullets",
-        heading: "Questions an audit log helps answer",
+        heading: "Questions An Audit Log Helps Answer",
         items: [
           "Who changed a role, and when?",
           "Was a large export expected?",
@@ -1397,23 +1397,23 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A simple monthly review",
+        heading: "A Simple Monthly Review",
         steps: [
-          { title: "Pick a reviewer", body: "Usually the owner or an admin." },
-          { title: "Scan for the unusual", body: "Look for unexpected role changes, bulk actions or sign-ins." },
-          { title: "Follow up", body: "Ask about anything unexplained, then fix roles if needed." },
-          { title: "Note the review", body: "Keep a short record that the check happened." },
+          { title: "Pick A Reviewer", body: "Usually the owner or an admin." },
+          { title: "Scan For The Unusual", body: "Look for unexpected role changes, bulk actions or sign-ins." },
+          { title: "Follow Up", body: "Ask about anything unexplained, then fix roles if needed." },
+          { title: "Note The Review", body: "Keep a short record that the check happened." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "What is logged",
+        title: "What Is Logged",
         body: "eCard’s site confirms that workspaces have an audit log but does not list which events are recorded or how long entries are kept. Check the log in your workspace.",
       },
       {
         type: "split",
-        heading: "Audit logs and compliance",
+        heading: "Audit Logs And Compliance",
         body: [
           "Many privacy frameworks expect organisations to know who accesses personal data. An audit log is a practical part of that story, alongside eCard’s compliance checklist for consent, export and deletion.",
         ],
@@ -1421,29 +1421,29 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A monthly audit-log review",
+        heading: "A Monthly Audit-log Review",
         steps: [
           {
-            title: "Pick a regular slot",
+            title: "Pick A Regular Slot",
             body: "A short monthly review is easier to keep than an occasional deep dive."
           },
           {
-            title: "Look at access changes",
+            title: "Look At Access Changes",
             body: "New invitations, role changes and removals."
           },
           {
-            title: "Look at sensitive actions",
+            title: "Look At Sensitive Actions",
             body: "Bulk exports, integration changes and settings updates."
           },
           {
-            title: "Follow up",
+            title: "Follow Up",
             body: "Ask the person involved about anything unexpected; most entries have innocent explanations."
           }
         ]
       },
       {
         type: "table",
-        heading: "Questions the audit log helps answer",
+        heading: "Questions The Audit Log Helps Answer",
         intro: "Exact event types are shown in-app; eCard’s site states only that workspaces have an audit log.",
         headers: [
           "Situation",
@@ -1466,7 +1466,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Get more from the log",
+        heading: "Get More From The Log",
         items: [
           "Avoid shared logins, so every entry maps to a person.",
           "Write down the reason for unusual changes when you make them.",
@@ -1475,7 +1475,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why an audit log matters even in small teams",
+        heading: "Why An Audit Log Matters Even In Small Teams",
         paragraphs: [
           "In a three-person team you might think everyone knows who did what. In practice, memories fade, people leave and mistakes happen at busy times like expo weeks. A log turns a disagreement about what happened into a quick lookup.",
           "It also supports accountability without micromanagement: people can work freely, knowing changes can be explained later if needed."
@@ -1483,7 +1483,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "What an audit log cannot do",
+        heading: "What An Audit Log Cannot Do",
         items: [
           "Prevent a mistake in the first place; that is the job of roles and 2FA.",
           "Attribute actions correctly if several people share one login.",
@@ -1492,7 +1492,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Pairing the log with offboarding",
+        heading: "Pairing The Log With Offboarding",
         paragraphs: [
           "When someone leaves, the audit log is the quickest way to confirm their access was removed, by whom and when. It is also worth checking whether they exported contacts in their final weeks, so you can follow your organisation’s policy if they did. Record the outcome alongside your offboarding checklist."
         ]
@@ -1511,26 +1511,26 @@ export const pages: PageDef[] = [
     slug: `${B}/secret-encryption`,
     category: "team",
     title: "Secret Encryption",
-    seoTitle: "AES-256-GCM Encryption for API Keys & SMTP",
+    seoTitle: "AES-256-GCM Encryption For API Keys & SMTP",
     description: "eCard encrypts the AI API keys and SMTP passwords you store with AES-256-GCM. Learn what that means and why bring-your-own-key setups need it.",
-    h1: "Your API keys and SMTP passwords, encrypted",
+    h1: "Your API Keys And SMTP Passwords, Encrypted",
     eyebrow: "Security",
-    intro: "eCard lets you bring your own AI key and send from your own mailbox. The secrets that make that possible — API keys and SMTP passwords — are encrypted with AES-256-GCM.",
+    intro: "eCard lets you bring your own AI key and send from your own mailbox. The secrets that make that possible, API keys and SMTP passwords, are encrypted with AES-256-GCM.",
     variant: "feature",
     visual: "security",
     icon: "lock",
     sections: [
       {
         type: "prose",
-        heading: "Why eCard stores secrets at all",
+        heading: "Why eCard Stores Secrets At All",
         paragraphs: [
-          "eCard reads cards using the AI model you choose — Claude, OpenAI, Gemini, DeepSeek or Grok, with Azure and custom endpoints mentioned in the FAQ — and you can bring your own key. Intro emails send from your own SMTP mailbox. Both need credentials.",
+          "eCard reads cards using the AI model you choose (Claude, OpenAI, Gemini, DeepSeek or Grok, with Azure and custom endpoints mentioned in the FAQ) and you can bring your own key. Intro emails send from your own SMTP mailbox. Both need credentials.",
           "Storing those credentials safely is the difference between a convenient integration and a liability.",
         ],
       },
       {
         type: "prose",
-        heading: "What AES-256-GCM means",
+        heading: "What AES-256-GCM Means",
         paragraphs: [
           "AES is a widely used symmetric encryption standard; 256 is the key length in bits. GCM (Galois/Counter Mode) adds integrity checking, so tampered ciphertext is detected rather than silently decrypted.",
           "The homepage summarises this as 256-bit key encryption.",
@@ -1538,7 +1538,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Your side of the bargain",
+        heading: "Your Side Of The Bargain",
         items: [
           "Use app passwords for SMTP where your mail provider supports them.",
           "Create AI keys dedicated to eCard, with spending limits at the provider.",
@@ -1549,12 +1549,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not published",
+        title: "Not Published",
         body: "eCard’s site does not describe key management, hosting location or certifications. Contact sales@bizzfly.com for security questionnaires.",
       },
       {
         type: "prose",
-        heading: "What AES-256-GCM means, in plain terms",
+        heading: "What AES-256-GCM Means, In Plain Terms",
         paragraphs: [
           "AES is a widely used encryption standard; 256 refers to the key length in bits. GCM is a mode that both encrypts data and detects tampering. eCard states that API keys and SMTP passwords are encrypted this way.",
           "Encryption of stored secrets does not replace good habits: who can add keys, how often they are rotated and where copies live still matter."
@@ -1562,10 +1562,10 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Rotating an API key or SMTP password",
+        heading: "Rotating An API Key Or SMTP Password",
         steps: [
           {
-            title: "Create the new secret",
+            title: "Create The New Secret",
             body: "Generate a new API key with your AI provider, or an app password with your mail provider."
           },
           {
@@ -1577,14 +1577,14 @@ export const pages: PageDef[] = [
             body: "Scan a sample card or send a test email."
           },
           {
-            title: "Revoke the old one",
+            title: "Revoke The Old One",
             body: "Disable it at the provider so it cannot be used anywhere else."
           }
         ]
       },
       {
         type: "bullets",
-        heading: "When to rotate",
+        heading: "When To Rotate",
         items: [
           "Someone who had access to the secret leaves the team.",
           "A secret was pasted into chat, email or a document.",
@@ -1594,7 +1594,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Keep secrets out of these places",
+        heading: "Keep Secrets Out Of These Places",
         items: [
           "Team chat messages and group threads.",
           "Shared spreadsheets and documents.",
@@ -1604,7 +1604,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Bring-your-own-key and responsibility",
+        heading: "Bring-your-own-key And Responsibility",
         paragraphs: [
           "eCard uses AI models with keys you bring, such as Claude, OpenAI, Gemini, DeepSeek, Grok or Azure. That means your provider account, its billing and its usage limits remain yours. Monitor usage at the provider, set spending alerts where available and rotate the key if usage looks unexpected."
         ]
@@ -1623,9 +1623,9 @@ export const pages: PageDef[] = [
     slug: `${B}/white-label`,
     category: "team",
     title: "White Label",
-    seoTitle: "White-Label eCard with Your Logo and Colours",
+    seoTitle: "White-Label eCard With Your Logo And Colours",
     description: "On Business and Enterprise plans, eCard can carry your logo, colours and a custom domain. Learn what white-label covers and who it suits best.",
-    h1: "Put your brand on the experience",
+    h1: "Put Your Brand On The Experience",
     eyebrow: "Branding",
     intro: "eCard’s white-label option lets you use your own logo, colours and custom domain. It is included on the Business plan (₹2,999/month) and Enterprise.",
     variant: "feature",
@@ -1634,16 +1634,16 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "What white-label covers",
+        heading: "What White-label Covers",
         cards: [
           { title: "Logo", body: "Your company logo instead of eCard’s.", icon: "palette" },
           { title: "Colours", body: "Your brand colours.", icon: "sparkles" },
-          { title: "Custom domain", body: "Serve the experience from a domain you own.", icon: "globe" },
+          { title: "Custom Domain", body: "Serve the experience from a domain you own.", icon: "globe" },
         ],
       },
       {
         type: "split",
-        heading: "Who benefits",
+        heading: "Who Benefits",
         body: [
           "White-label makes the most sense when the people you share cards with should see your brand, not a tool’s. Agencies, larger sales organisations and businesses with strong brand guidelines are typical fits.",
         ],
@@ -1658,12 +1658,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Scope not detailed",
+        title: "Scope Not Detailed",
         body: "eCard’s site does not specify exactly which screens or emails the branding applies to. Ask sales@bizzfly.com before committing if this matters for you.",
       },
       {
         type: "bullets",
-        heading: "What eCard lists under white-label",
+        heading: "What eCard Lists Under White-label",
         intro: "From eCard’s feature and pricing information; available on Business (₹2,999/month) and Enterprise.",
         items: [
           "Your logo.",
@@ -1673,29 +1673,29 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Preparing your brand assets",
+        heading: "Preparing Your Brand Assets",
         steps: [
           {
-            title: "Collect a clean logo",
+            title: "Collect A Clean Logo",
             body: "A high-resolution version that reads well at small sizes and on light and dark backgrounds."
           },
           {
-            title: "Pick exact colours",
+            title: "Pick Exact Colours",
             body: "Note the hex values from your brand guidelines so they match your website."
           },
           {
-            title: "Choose the domain",
+            title: "Choose The Domain",
             body: "Decide on a subdomain and who controls its DNS."
           },
           {
-            title: "Review on a phone",
+            title: "Review On A Phone",
             body: "Most people will see your branding on mobile, so check it there first."
           }
         ]
       },
       {
         type: "table",
-        heading: "Is white-label worth it for you?",
+        heading: "Is White-label Worth It For You?",
         headers: [
           "Situation",
           "Consideration"
@@ -1717,25 +1717,25 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Brand consistency tips",
+        heading: "Brand Consistency Tips",
         paragraphs: [
           "Use the same logo and colours as your email signature and website, so a contact who opens your digital card recognises you immediately. Avoid low-contrast colour combinations that are hard to read outdoors at events."
         ]
       },
       {
         type: "steps",
-        heading: "Rolling out branding to the team",
+        heading: "Rolling Out Branding To The Team",
         steps: [
           {
-            title: "Agree a launch date",
+            title: "Agree A Launch Date",
             body: "Pick a quiet week rather than the day before a big expo, so any issues can be fixed calmly."
           },
           {
-            title: "Update shared materials",
+            title: "Update Shared Materials",
             body: "Replace old links in email signatures, slide decks and printed QR codes with links on the new domain."
           },
           {
-            title: "Tell the team",
+            title: "Tell The Team",
             body: "Explain what changes for them: usually only how their digital card and links look to contacts."
           },
           {
@@ -1746,7 +1746,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Questions to settle before upgrading",
+        heading: "Questions To Settle Before Upgrading",
         items: [
           "Does the team need more than 100 users? Business and Enterprise list unlimited users, which may matter as much as branding.",
           "Who owns the brand guidelines and must approve how the logo appears?",
@@ -1755,7 +1755,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Branding and trust",
+        heading: "Branding And Trust",
         paragraphs: [
           "A consistent brand helps contacts recognise genuine messages from your team. That is useful protection against confusion: when every link and digital card looks the same, an odd-looking message stands out."
         ]
@@ -1774,9 +1774,9 @@ export const pages: PageDef[] = [
     slug: `${B}/custom-domains`,
     category: "team",
     title: "Custom Domains",
-    seoTitle: "Use Your Own Domain with eCard",
+    seoTitle: "Use Your Own Domain With eCard",
     description: "Business and Enterprise plans let you run eCard on a custom domain. Learn how custom domains generally work and what to prepare before setting one up.",
-    h1: "Your domain, your links",
+    h1: "Your Domain, Your Links",
     eyebrow: "Branding",
     intro: "Custom domains come with eCard’s white-label option on Business and Enterprise plans. Links you share can carry your own web address.",
     variant: "feature",
@@ -1785,25 +1785,25 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "prose",
-        heading: "Why a custom domain",
+        heading: "Why A Custom Domain",
         paragraphs: [
           "A link on your own domain looks familiar to recipients and reinforces your brand. Digital card links such as the example path /c/rahul are shared constantly, so the domain they sit on gets a lot of exposure.",
         ],
       },
       {
         type: "steps",
-        heading: "How custom domains usually work",
+        heading: "How Custom Domains Usually Work",
         intro: "General guidance; follow eCard’s in-app instructions for the exact records.",
         steps: [
-          { title: "Choose a subdomain", body: "Something like cards.example.com keeps your main site separate." },
-          { title: "Add DNS records", body: "Your DNS provider will need the records eCard asks for." },
-          { title: "Wait for verification", body: "DNS changes can take time to propagate." },
-          { title: "Test links", body: "Open a sample card link on mobile and desktop." },
+          { title: "Choose A Subdomain", body: "Something like cards.example.com keeps your main site separate." },
+          { title: "Add DNS Records", body: "Your DNS provider will need the records eCard asks for." },
+          { title: "Wait For Verification", body: "DNS changes can take time to propagate." },
+          { title: "Test Links", body: "Open a sample card link on mobile and desktop." },
         ],
       },
       {
         type: "bullets",
-        heading: "Before you start",
+        heading: "Before You Start",
         items: [
           "Make sure you have access to your domain’s DNS settings.",
           "Pick a name you will keep; changing later breaks old links.",
@@ -1813,35 +1813,35 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Details are in-app",
+        title: "Details Are In-app",
         body: "eCard’s site does not publish DNS record types or certificate handling. Check the setup screen or ask sales@bizzfly.com.",
       },
       {
         type: "steps",
-        heading: "Typical custom-domain workflow",
+        heading: "Typical Custom-domain Workflow",
         intro: "General DNS guidance; follow eCard’s in-app instructions for exact values.",
         steps: [
           {
-            title: "Pick a subdomain",
+            title: "Pick A Subdomain",
             body: "Choose a clear, short name under a domain you own."
           },
           {
-            title: "Find who manages DNS",
+            title: "Find Who Manages DNS",
             body: "Often IT or whoever registered the domain."
           },
           {
-            title: "Add the records eCard gives you",
+            title: "Add The Records eCard Gives You",
             body: "eCard’s site does not publish the records; use the values shown in-app."
           },
           {
-            title: "Wait and verify",
+            title: "Wait And Verify",
             body: "DNS changes can take time to propagate; check that the domain loads correctly."
           }
         ]
       },
       {
         type: "table",
-        heading: "Subdomain vs root domain",
+        heading: "Subdomain Vs Root Domain",
         headers: [
           "Option",
           "Pros",
@@ -1862,7 +1862,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Common DNS pitfalls",
+        heading: "Common DNS Pitfalls",
         items: [
           "Editing records at the wrong DNS provider.",
           "Leaving an old conflicting record in place.",
@@ -1872,7 +1872,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why a custom domain matters to contacts",
+        heading: "Why A Custom Domain Matters To Contacts",
         paragraphs: [
           "People are increasingly cautious about clicking unfamiliar links. A link on a domain they associate with your company, rather than a generic address, can feel more trustworthy when it arrives in a WhatsApp message or email after an event.",
           "A custom domain also keeps your links consistent if you print QR codes on brochures or booth signage: the address reflects your brand, not a third party’s."
@@ -1880,7 +1880,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Before you change domains on existing links",
+        heading: "Before You Change Domains On Existing Links",
         items: [
           "List where your current links are already shared: email signatures, printed material, social profiles.",
           "Check in-app whether existing links keep working after the change; eCard’s site does not document this.",
@@ -1889,7 +1889,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Keeping the domain healthy",
+        heading: "Keeping The Domain Healthy",
         paragraphs: [
           "Domains need ongoing care. Make sure renewal reminders go to a shared mailbox rather than one person, document which records support eCard, and check the domain still works after any changes to your main website’s DNS setup."
         ]
@@ -1910,7 +1910,7 @@ export const pages: PageDef[] = [
     title: "Compliance Checklist",
     seoTitle: "Compliance Checklist: Consent, Export, Deletion",
     description: "eCard includes a compliance checklist covering consent, export and deletion. Learn how to use it as part of handling contact data from visiting cards.",
-    h1: "Consent, export and deletion, in one checklist",
+    h1: "Consent, Export And Deletion, In One Checklist",
     eyebrow: "Compliance",
     intro: "eCard’s team and admin features include a compliance checklist covering three topics: consent, export and deletion.",
     variant: "feature",
@@ -1919,7 +1919,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "The three areas",
+        heading: "The Three Areas",
         cards: [
           { title: "Consent", body: "Think about how and why you are contacting people whose cards you collected.", icon: "check" },
           { title: "Export", body: "Be ready to give someone a copy of the data you hold about them.", icon: "download" },
@@ -1928,7 +1928,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Why a visiting card is not blanket permission",
+        heading: "Why A Visiting Card Is Not Blanket Permission",
         paragraphs: [
           "Someone handing you a card is generally happy to hear from you about the conversation you had. That is different from adding them to every newsletter you send. Privacy laws in many countries draw exactly this kind of line.",
           "This page is general guidance, not legal advice. Your obligations depend on where you and your contacts are.",
@@ -1936,23 +1936,23 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Putting it into practice",
+        heading: "Putting It Into Practice",
         steps: [
-          { title: "Record context", body: "Use meeting memory to note where you met and what was agreed." },
-          { title: "Respect opt-outs", body: "Use the blacklist so people who say no are not contacted again." },
-          { title: "Handle requests", body: "Use export and deletion when someone asks." },
-          { title: "Review regularly", body: "Archive contacts you no longer need." },
+          { title: "Record Context", body: "Use meeting memory to note where you met and what was agreed." },
+          { title: "Respect Opt-outs", body: "Use the blacklist so people who say no are not contacted again." },
+          { title: "Handle Requests", body: "Use export and deletion when someone asks." },
+          { title: "Review Regularly", body: "Archive contacts you no longer need." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Not a certification",
+        title: "Not A Certification",
         body: "eCard’s site lists a compliance checklist but does not claim any certification. Speak to a qualified adviser about your own obligations.",
       },
       {
         type: "table",
-        heading: "The three checklist areas, explained",
+        heading: "The Three Checklist Areas, Explained",
         headers: [
           "Area",
           "What it means in practice"
@@ -1974,29 +1974,29 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Handling a deletion request",
+        heading: "Handling A Deletion Request",
         steps: [
           {
-            title: "Confirm who is asking",
+            title: "Confirm Who Is Asking",
             body: "Make sure the request comes from the person concerned."
           },
           {
-            title: "Find all records",
+            title: "Find All Records",
             body: "Search for duplicates under other emails or numbers."
           },
           {
-            title: "Delete and stop contact",
-            body: "Remove the data; consider the blacklist so they are not re-added by mistake."
+            title: "Delete And Stop Contact",
+            body: "Remove the data; consider the blacklist so they are not readded by mistake."
           },
           {
-            title: "Record what you did",
+            title: "Record What You Did",
             body: "Keep a simple note of the date and action, without re-storing their details."
           }
         ]
       },
       {
         type: "bullets",
-        heading: "Questions to ask your legal adviser",
+        heading: "Questions To Ask Your Legal Adviser",
         items: [
           "Which data-protection laws apply to the people you meet?",
           "How long should you keep contacts who never responded?",
@@ -2005,7 +2005,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Making the checklist a habit",
+        heading: "Making The Checklist A Habit",
         paragraphs: [
           "A checklist is most useful when it is part of normal work rather than a one-off project. Review it when you onboard a new team, before a big event, and whenever you change how you use contact data, such as starting WhatsApp follow-ups.",
           "Assign an owner for each area so requests do not fall between people."
@@ -2013,7 +2013,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Handling an export request",
+        heading: "Handling An Export Request",
         items: [
           "Confirm the identity of the person asking.",
           "Use eCard’s export to gather their stored details.",
@@ -2022,7 +2022,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Signs your process needs attention",
+        heading: "Signs Your Process Needs Attention",
         items: [
           "Nobody knows who handles deletion requests.",
           "Contacts sit in the workspace for years with no notes.",
@@ -2043,9 +2043,9 @@ export const pages: PageDef[] = [
     slug: `${B}/consent-management`,
     category: "team",
     title: "Consent",
-    seoTitle: "Consent and Visiting-Card Contacts",
+    seoTitle: "Consent And Visiting-Card Contacts",
     description: "Practical guidance on consent when you follow up with people from visiting cards, plus how eCard’s blacklist and compliance checklist can help.",
-    h1: "Following up with people who said yes",
+    h1: "Following Up With People Who Said Yes",
     eyebrow: "Compliance",
     intro: "Consent is the first item on eCard’s compliance checklist. Here is a practical way to think about it when you contact people whose cards you collected.",
     variant: "feature",
@@ -2054,7 +2054,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Reasonable vs risky follow-ups",
+        heading: "Reasonable Vs Risky Follow-ups",
         intro: "General guidance only; not legal advice.",
         headers: ["Situation", "Usually reasonable?"],
         rows: [
@@ -2067,7 +2067,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "eCard features that support good practice",
+        heading: "eCard Features That Support Good Practice",
         items: [
           "Intro emails can be previewed, edited or cancelled within the 5-second window before sending.",
           "The blacklist helps keep people who opted out from being contacted.",
@@ -2077,22 +2077,22 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "A simple consent habit",
+        heading: "A Simple Consent Habit",
         steps: [
-          { title: "Ask at the meeting", body: "“Can I send you the details by email or WhatsApp?” is enough for most conversations." },
-          { title: "Note the answer", body: "Add it to your meeting notes." },
-          { title: "Honour no", body: "Add opt-outs to the blacklist right away." },
+          { title: "Ask At The Meeting", body: "“Can I send you the details by email or WhatsApp?” is enough for most conversations." },
+          { title: "Note The Answer", body: "Add it to your meeting notes." },
+          { title: "Honour No", body: "Add opt-outs to the blacklist right away." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "No consent-record feature is documented",
+        title: "No Consent-record Feature Is Documented",
         body: "eCard’s site does not describe a dedicated consent field or log. Use notes and tags, and check in-app for anything newer.",
       },
       {
         type: "prose",
-        heading: "Card exchange is not blanket consent",
+        heading: "Card Exchange Is Not Blanket Consent",
         paragraphs: [
           "When someone hands you a card, they usually expect a follow-up about that conversation. That is different from adding them to unrelated campaigns. Keep follow-ups relevant to how you met.",
           "Adding a note about the context, for example the event and topic discussed, makes it easier to show why you contacted someone later."
@@ -2100,29 +2100,29 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Capturing context at the moment of scanning",
+        heading: "Capturing Context At The Moment Of Scanning",
         steps: [
           {
-            title: "Tag the event",
+            title: "Tag The Event",
             body: "Use the event name agreed by your team."
           },
           {
-            title: "Add a note",
+            title: "Add A Note",
             body: "Record what the person asked about."
           },
           {
-            title: "Note preferences",
+            title: "Note Preferences",
             body: "If they said email only or no WhatsApp, write it down."
           },
           {
-            title: "Respect opt-outs",
+            title: "Respect Opt-outs",
             body: "Add people who ask not to be contacted to the blacklist."
           }
         ]
       },
       {
         type: "bullets",
-        heading: "Respectful follow-up guidelines",
+        heading: "Respectful Follow-up Guidelines",
         items: [
           "Introduce yourself and mention where you met.",
           "Offer an easy way to say no thanks.",
@@ -2131,7 +2131,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Context notes that help later",
+        heading: "Context Notes That Help Later",
         headers: [
           "Situation (sample)",
           "Note to add"
@@ -2157,14 +2157,14 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Withdrawal is part of consent",
+        heading: "Withdrawal Is Part Of Consent",
         paragraphs: [
           "People can change their minds. Make it easy for someone to stop hearing from you, act on it promptly, and make sure teammates see it, so another rep does not contact them again from a different list."
         ]
       },
       {
         type: "prose",
-        heading: "Consent across a team",
+        heading: "Consent Across A Team",
         paragraphs: [
           "When several people share contacts, one rep’s promise not to send WhatsApp messages must be visible to everyone. Keep preferences in notes or tags that the whole team checks before reaching out, and make checking them part of your onboarding so new members learn it on day one."
         ]
@@ -2183,9 +2183,9 @@ export const pages: PageDef[] = [
     slug: `${B}/shared-workspaces`,
     category: "team",
     title: "Shared Workspaces",
-    seoTitle: "Shared Workspaces for Teams That Network",
+    seoTitle: "Shared Workspaces For Teams That Network",
     description: "An eCard workspace lets a team scan, tag and follow up with contacts in one place. Learn how to organise a shared workspace with roles, tags and events.",
-    h1: "One workspace for everyone who collects cards",
+    h1: "One Workspace For Everyone Who Collects Cards",
     eyebrow: "Teams",
     intro: "eCard is organised around workspaces. A shared workspace gives your team one contact book, one set of events and one place to manage access.",
     variant: "feature",
@@ -2194,7 +2194,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "split",
-        heading: "Why share one workspace",
+        heading: "Why Share One Workspace",
         body: [
           "When every salesperson keeps cards in a drawer, the company loses track of relationships the moment someone leaves. A shared workspace keeps the contact, the meeting notes and the follow-up history in one place.",
           "It also reduces duplicates: eCard’s duplicate merge helps when two colleagues meet the same person.",
@@ -2203,7 +2203,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Organising the workspace",
+        heading: "Organising The Workspace",
         cards: [
           { title: "Tags", body: "Label contacts by product line, region or stage.", icon: "tag" },
           { title: "Events", body: "Group every card from a show and follow up with everyone at once.", icon: "calendar" },
@@ -2213,19 +2213,19 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Users per plan",
+        heading: "Users Per Plan",
         headers: ["Plan", "Users", "Storage"],
         rows: [["Free", "5", "1 GB"], ["Starter", "20", "25 GB"], ["Professional", "100", "250 GB"], ["Business", "Unlimited", "Unlimited"]],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Multiple workspaces",
+        title: "Multiple Workspaces",
         body: "eCard’s site does not say whether one account can belong to several workspaces. Check in-app if you need that.",
       },
       {
         type: "bullets",
-        heading: "Agree conventions before importing",
+        heading: "Agree Conventions Before Importing",
         intro: "A shared contact book stays useful only if people organise it the same way.",
         items: [
           "Event names: one format, for example city plus show plus year.",
@@ -2236,29 +2236,29 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Moving an existing spreadsheet into a shared workspace",
+        heading: "Moving An Existing Spreadsheet Into A Shared Workspace",
         steps: [
           {
-            title: "Clean the sheet first",
+            title: "Clean The Sheet First",
             body: "Remove obvious duplicates and empty rows."
           },
           {
-            title: "Use bulk import",
+            title: "Use Bulk Import",
             body: "eCard includes bulk import and export on every plan."
           },
           {
-            title: "Apply tags",
+            title: "Apply Tags",
             body: "Tag the imported batch so you can find it later."
           },
           {
-            title: "Check the result",
+            title: "Check The Result",
             body: "Spot-check a few contacts and the audit log."
           }
         ]
       },
       {
         type: "table",
-        heading: "Shared workspace vs separate workspaces",
+        heading: "Shared Workspace Vs Separate Workspaces",
         headers: [
           "Need",
           "Suggested approach"
@@ -2280,7 +2280,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Sample: one workspace, three groups",
+        heading: "Sample: One Workspace, Three Groups",
         paragraphs: [
           "Sample: a fictional distributor has a Mumbai sales group, a Delhi sales group and a marketing team that runs expos. All three share one workspace. Each group lead is a manager, tags identify the group and the event, and marketing invites scan-only guests for each show.",
           "Because everyone follows the same naming conventions, a rep in Delhi can find a contact first met at a Mumbai expo without asking around, and duplicates are caught early."
@@ -2288,7 +2288,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Signs your shared workspace needs a tidy-up",
+        heading: "Signs Your Shared Workspace Needs A Tidy-up",
         items: [
           "Several spellings of the same event name.",
           "Tags that nobody remembers creating.",
@@ -2298,7 +2298,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Who looks after the shared space",
+        heading: "Who Looks After The Shared Space",
         paragraphs: [
           "Assign one person, often a manager or admin, to own workspace tidiness. They approve new tags, merge duplicates found by teammates and remind people of conventions. Without a clear owner, a shared workspace slowly fills with near-duplicate tags and contacts nobody feels responsible for."
         ]
@@ -2317,9 +2317,9 @@ export const pages: PageDef[] = [
     slug: `${B}/onboarding-your-team`,
     category: "team",
     title: "Onboarding Your Team",
-    seoTitle: "How to Onboard Your Team onto eCard",
+    seoTitle: "How To Onboard Your Team Onto eCard",
     description: "A practical plan for rolling eCard out to a team: pick roles, secure accounts, connect mailboxes, link Telegram and agree on follow-up habits.",
-    h1: "Roll out eCard to your team in a week",
+    h1: "Roll Out eCard To Your Team In A Week",
     eyebrow: "Teams",
     intro: "A short plan for moving a team from drawers of paper cards to one shared eCard workspace, without overwhelming anyone.",
     variant: "guide",
@@ -2328,18 +2328,18 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "The one-week rollout",
+        heading: "The One-week Rollout",
         steps: [
-          { title: "Day 1: owner setup", body: "Create the workspace, enable 2FA and choose your AI model and key." },
-          { title: "Day 2: invite people", body: "Default to member; use manager for team leads and guests for helpers." },
-          { title: "Day 3: mailboxes", body: "Each person connects their own SMTP mailbox for intro emails." },
+          { title: "Day 1: Owner Setup", body: "Create the workspace, enable 2FA and choose your AI model and key." },
+          { title: "Day 2: Invite People", body: "Default to member; use manager for team leads and guests for helpers." },
+          { title: "Day 3: Mailboxes", body: "Each person connects their own SMTP mailbox for intro emails." },
           { title: "Day 4: Telegram", body: "Link the bot with the one-time code from Settings → Telegram." },
-          { title: "Day 5: backlog", body: "Scan or CSV-import existing cards and merge duplicates." },
+          { title: "Day 5: Backlog", body: "Scan or CSV-import existing cards and merge duplicates." },
         ],
       },
       {
         type: "bullets",
-        heading: "Agree on a few team rules",
+        heading: "Agree On A Few Team Rules",
         items: [
           "Review every scan before saving; check low-confidence fields.",
           "Tag every contact with the event or source.",
@@ -2350,20 +2350,20 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "tip",
-        title: "Use the trial",
-        body: "New workspaces get a 14-day Professional trial with no card needed — enough time to run this plan before choosing a plan.",
+        title: "Use The Trial",
+        body: "New workspaces get a 14-day Professional trial with no card needed, enough time to run this plan before choosing a plan.",
       },
       {
         type: "prose",
-        heading: "Keep it light",
+        heading: "Keep It Light",
         paragraphs: [
-          "Adoption fails when a tool feels like extra admin. Start with the one habit that saves the most time — scanning cards the same day — and add digital cards, WhatsApp follow-ups and events once that sticks.",
+          "Adoption fails when a tool feels like extra admin. Start with the one habit that saves the most time, scanning cards the same day, and add digital cards, WhatsApp follow-ups and events once that sticks.",
           "No app installation is needed: eCard works in any phone browser, which removes one of the most common rollout hurdles.",
         ],
       },
       {
         type: "bullets",
-        heading: "Onboarding checklist for each new user",
+        heading: "Onboarding Checklist For Each New User",
         items: [
           "Account created with a work email address.",
           "Appropriate role assigned.",
@@ -2375,14 +2375,14 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "A 20-minute first session (sample agenda)",
+        heading: "A 20-minute First Session (Sample Agenda)",
         paragraphs: [
           "Five minutes on why the team uses a shared card CRM. Five minutes scanning a sample card together. Five minutes on tags, events and notes. Five minutes on security: 2FA, login alerts and what to do if a phone is lost."
         ]
       },
       {
         type: "bullets",
-        heading: "Offboarding, the other half of onboarding",
+        heading: "Offboarding, The Other Half Of Onboarding",
         items: [
           "Remove access on the person’s last day.",
           "Reassign their open follow-ups to a member.",
@@ -2392,26 +2392,26 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Inviting a team in waves",
+        heading: "Inviting A Team In Waves",
         intro: "Inviting everyone at once can work for small teams; larger teams often prefer waves.",
         steps: [
           {
-            title: "Wave 1: owner and admins",
+            title: "Wave 1: Owner And Admins",
             body: "Secure the core accounts and agree conventions."
           },
           {
-            title: "Wave 2: a pilot group",
+            title: "Wave 2: A Pilot Group",
             body: "Two or three members use eCard for a week and report friction."
           },
           {
-            title: "Wave 3: everyone else",
+            title: "Wave 3: Everyone Else",
             body: "Invite the rest with the pilot group’s tips included."
           }
         ]
       },
       {
         type: "bullets",
-        heading: "Plan limits to keep in mind",
+        heading: "Plan Limits To Keep In Mind",
         items: [
           "Free: up to 5 users.",
           "Starter (₹299/month): up to 20 users.",
@@ -2421,7 +2421,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Measuring whether onboarding worked",
+        heading: "Measuring Whether Onboarding Worked",
         paragraphs: [
           "After a couple of weeks, check a few simple signals: has everyone enabled 2FA, are new contacts tagged with the agreed event names, and are scanned contacts actually receiving follow-ups? If not, a ten-minute refresher usually fixes it faster than a long document."
         ]
@@ -2440,9 +2440,9 @@ export const pages: PageDef[] = [
     slug: `${B}/security-best-practices`,
     category: "team",
     title: "Security Best Practices",
-    seoTitle: "Security Best Practices for a Card CRM Team",
+    seoTitle: "Security Best Practices For A Card CRM Team",
     description: "Ten practical security habits for teams using eCard: 2FA, least-privilege roles, key hygiene, guest cleanup, audit reviews and safe event scanning.",
-    h1: "Security habits that actually stick",
+    h1: "Security Habits That Actually Stick",
     eyebrow: "Security",
     intro: "eCard provides the controls; these habits make them work. Use this as a checklist for your team.",
     variant: "guide",
@@ -2451,7 +2451,7 @@ export const pages: PageDef[] = [
     sections: [
       {
         type: "bullets",
-        heading: "The checklist",
+        heading: "The Checklist",
         items: [
           "Turn on 2FA for every account, owner and admins first.",
           "Store recovery codes in a password manager.",
@@ -2467,7 +2467,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "split",
-        heading: "Events are the weak spot",
+        heading: "Events Are The Weak Spot",
         body: [
           "Trade shows mix shared devices, public Wi-Fi and temporary staff. That is exactly when access controls matter most.",
         ],
@@ -2475,7 +2475,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Controls and the habits behind them",
+        heading: "Controls And The Habits Behind Them",
         headers: ["eCard control", "Habit"],
         rows: [
           ["Roles", "Least privilege, reviewed quarterly"],
@@ -2488,12 +2488,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Questions for procurement?",
+        title: "Questions For Procurement?",
         body: "eCard’s site does not list certifications. For security questionnaires, contact sales@bizzfly.com.",
       },
       {
         type: "table",
-        heading: "Quick wins by effort",
+        heading: "Quick Wins By Effort",
         intro: "General guidance on where to start.",
         headers: [
           "Practice",
@@ -2530,7 +2530,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Responding to a suspected compromise",
+        heading: "Responding To A Suspected Compromise",
         steps: [
           {
             title: "Contain",
@@ -2552,7 +2552,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Phishing warning signs",
+        heading: "Phishing Warning Signs",
         items: [
           "Urgent requests to share codes or passwords.",
           "Sign-in links from unfamiliar domains.",
@@ -2561,7 +2561,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Security is mostly about people and routine",
+        heading: "Security Is Mostly About People And Routine",
         paragraphs: [
           "The features eCard lists, such as roles, 2FA, login alerts, trusted devices, recovery codes, encrypted secrets and audit logs, only help if the team uses them consistently. Most account problems come from reused passwords, shared logins and access that was never removed.",
           "A short written policy, even one page, helps: who approves new users, when 2FA must be on, who reviews the audit log and what to do if a phone is lost."
@@ -2569,7 +2569,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "A quarterly security review",
+        heading: "A Quarterly Security Review",
         items: [
           "Compare the user list with your current staff list.",
           "Confirm every owner and admin has 2FA on.",
@@ -2580,7 +2580,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Start small, then build",
+        heading: "Start Small, Then Build",
         paragraphs: [
           "If this list feels long, begin with two actions this week: turn on 2FA for the owner and admins, and remove anyone who no longer needs access. Add the routine reviews once those are in place."
         ]

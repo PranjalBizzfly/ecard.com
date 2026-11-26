@@ -5,9 +5,9 @@ export const pages: PageDef[] = [
     slug: "blog",
     category: "library",
     title: "Blog",
-    seoTitle: "eCard Blog: Status and Where to Read Today",
+    seoTitle: "eCard Blog: Status And Where To Read Today",
     description: "eCard has not published blog posts yet. Find the setup guides, playbooks, glossary and use-case pages you can read on the site right now instead.",
-    h1: "The eCard blog is not live yet",
+    h1: "The eCard Blog Is Not Live Yet",
     eyebrow: "Library",
     intro: "This page is reserved for the eCard blog. eCard has not yet published any blog posts, so rather than leave you with an empty list, this page points you to the practical guides and reference pages that already exist on the site.",
     variant: "reference",
@@ -15,25 +15,25 @@ export const pages: PageDef[] = [
     icon: "book",
     source: "educational",
     sections: [
-      { type: "callout", tone: "note", title: "Publication status", body: "eCard has not yet published any blog posts. Nothing on this page should be read as an article archive, author list or posting schedule. When posts are published, they will appear here." },
-      { type: "prose", heading: "What a blog section usually holds", paragraphs: [
+      { type: "callout", tone: "note", title: "Publication Status", body: "eCard has not yet published any blog posts. Nothing on this page should be read as an article archive, author list or posting schedule. When posts are published, they will appear here." },
+      { type: "prose", heading: "What A Blog Section Usually Holds", paragraphs: [
         "On most software sites, the blog mixes product explanations, practical how-to pieces and opinion about the field the product serves. For a visiting-card CRM, that would typically mean writing about capturing contacts at events, following up quickly, keeping a contact list clean and turning conversations into meetings.",
         "Until eCard publishes posts of its own, the most useful reading on this site is the guides library. Those pages were written to be practical: each one walks through a single task or habit, step by step, and links to the related feature pages.",
       ] },
-      { type: "cards", heading: "Read these instead, today", intro: "Each of these pages already exists on the site and covers ground a blog would normally cover.", cards: [
+      { type: "cards", heading: "Read These Instead, Today", intro: "Each of these pages already exists on the site and covers ground a blog would normally cover.", cards: [
         { title: "Getting Started", body: "A walkthrough for your first session: signing up, scanning a first card and finding your contacts afterwards.", icon: "zap" },
         { title: "Follow-Up Playbook", body: "General guidance on timing and wording follow-ups after you meet someone, so conversations do not go cold.", icon: "send" },
         { title: "Trade-Show Playbook", body: "Preparation, on-the-floor habits and after-show routines for people who collect many cards in a few days.", icon: "calendar" },
         { title: "Visiting-Card Etiquette", body: "How to give, receive and record visiting cards politely, including notes you may want to keep on each contact.", icon: "card" },
       ] },
-      { type: "bullets", heading: "Topics we would expect the blog to cover", intro: "These are reasonable expectations for a blog in this space, not a published editorial plan.", items: [
+      { type: "bullets", heading: "Topics We Would Expect The Blog To Cover", intro: "These are reasonable expectations for a blog in this space, not a published editorial plan.", items: [
         "Networking habits that make it easier to remember who you met and why.",
         "Practical email follow-up: subject lines, timing and keeping messages short.",
         "Working with a small team on a shared contact list without duplicating effort.",
         "Account security basics such as two-factor authentication and recovery codes.",
         "Industry-specific ideas, drawing on the use-case pages already on the site.",
       ] },
-      { type: "split", heading: "Want something written about?", body: [
+      { type: "split", heading: "Want Something Written About?", body: [
         "If there is a topic you would like eCard to explain, the feedback page is the right place to say so. Suggestions from people who actually collect visiting cards are the best signal for what is worth writing.",
         "For commercial questions, such as Enterprise plans, the verified contact is sales@bizzfly.com.",
       ], points: ["Suggest topics on the feedback page", "Browse the glossary for definitions", "Check use-case pages for your industry"] },
@@ -50,9 +50,9 @@ export const pages: PageDef[] = [
     slug: "insights",
     category: "library",
     title: "Insights",
-    seoTitle: "eCard Insights: Networking Ideas and Practical Notes",
+    seoTitle: "eCard Insights: Networking Ideas And Practical Notes",
     description: "No eCard insight articles are published yet. Use this hub to reach practical networking, follow-up and contact-management guidance already on the site.",
-    h1: "Insights on turning visiting cards into relationships",
+    h1: "Insights On Turning Visiting Cards Into Relationships",
     eyebrow: "Library",
     intro: "Insights are meant to be shorter, more reflective pieces than the step-by-step guides. eCard has not yet published any insight articles, so this hub gathers the ideas the existing pages already explain and tells you where to read them.",
     variant: "reference",
@@ -60,28 +60,28 @@ export const pages: PageDef[] = [
     icon: "sparkles",
     source: "educational",
     sections: [
-      { type: "callout", tone: "note", title: "No insight articles yet", body: "eCard has not yet published insight articles, research notes or data-led commentary. Any figures you see elsewhere attributed to eCard should not be treated as official until they appear on this site." },
-      { type: "prose", heading: "Three ideas worth holding on to", paragraphs: [
+      { type: "callout", tone: "note", title: "No Insight Articles Yet", body: "eCard has not yet published insight articles, research notes or data-led commentary. Any figures you see elsewhere attributed to eCard should not be treated as official until they appear on this site." },
+      { type: "prose", heading: "Three Ideas Worth Holding On To", paragraphs: [
         "A visiting card is only useful if you can find it again with context. The name and number are the easy part; what makes the contact valuable later is the note about where you met, what you discussed and what you promised to send. Recording that context within the same day is a habit worth building, whatever tool you use.",
         "Speed matters more than polish in follow-up. A short, specific message sent the next day usually does more than a carefully crafted one sent a fortnight later, when the other person has already forgotten the conversation.",
         "Shared contact lists need simple rules. When several people in a team meet the same prospects, agreeing who owns each relationship avoids duplicate emails and awkward overlaps.",
       ] },
-      { type: "table", heading: "Where each idea is explained in more depth", headers: ["Idea", "Page to read", "What you will find"], rows: [
+      { type: "table", heading: "Where Each Idea Is Explained In More Depth", headers: ["Idea", "Page to read", "What you will find"], rows: [
         ["Capture context quickly", "Your First Scan", "How a first card scan works and where the contact lands"],
         ["Follow up fast", "Follow-Up Playbook", "General timing and wording guidance for follow-ups"],
         ["Work as a team", "Inviting Your Team", "How to bring colleagues into a shared workspace"],
         ["Know the vocabulary", "Glossary", "Plain definitions of terms used across the site"],
       ] },
-      { type: "bullets", heading: "How to use this hub", items: [
+      { type: "bullets", heading: "How To Use This Hub", items: [
         "Pick the idea that matches the problem you have this week, not the one that sounds most interesting.",
         "Read the linked guide end to end once, then keep it open the next time you do the task.",
         "Check your industry's use-case page to see how the same habits apply in your context.",
         "Return here later: published insight pieces will be listed on this page.",
       ] },
-      { type: "split", heading: "Insights for your industry", body: [
+      { type: "split", heading: "Insights For Your Industry", body: [
         "The use-case pages describe how people in different roles, such as sales teams, consultants or event organisers, might apply a visiting-card CRM. They are written as guidance and do not describe specific customers.",
       ], points: ["Sales teams", "Consultants", "Events and expos", "Small business owners"] },
-      { type: "prose", heading: "Turning an idea into a weekly routine", paragraphs: [
+      { type: "prose", heading: "Turning An Idea Into A Weekly Routine", paragraphs: [
         "Ideas only help if they change what you do in an ordinary week. A simple routine is to set aside fifteen minutes on Friday to look at the contacts you added that week, check that each has a note, and send any follow-up you promised but have not yet written. This keeps the list useful and stops small promises from slipping.",
         "Over a month, the same review shows patterns: which events produced conversations that went somewhere, and which did not. That is the kind of practical insight that matters more than any general article, because it is drawn from your own contacts.",
       ] },
@@ -97,9 +97,9 @@ export const pages: PageDef[] = [
     slug: "guides",
     category: "library",
     title: "Guides Library",
-    seoTitle: "eCard Guides Library: Index of Every Walkthrough",
+    seoTitle: "eCard Guides Library: Index Of Every Walkthrough",
     description: "An index of every eCard guide on the site, from getting started and SMTP setup to Telegram, webhooks, 2FA and trade-show and follow-up playbooks.",
-    h1: "Guides library: every walkthrough in one index",
+    h1: "Guides Library: Every Walkthrough In One Index",
     eyebrow: "Library",
     intro: "This is the index to the guides that already exist on the eCard site. Each guide covers one task or habit, from your first scan to securing your account, and this page groups them so you can find the right one quickly.",
     variant: "reference",
@@ -107,7 +107,7 @@ export const pages: PageDef[] = [
     icon: "book",
     source: "mixed",
     sections: [
-      { type: "table", heading: "Setup guides", intro: "Start here if you are new to eCard or setting it up for the first time.", headers: ["Guide", "What it covers"], rows: [
+      { type: "table", heading: "Setup Guides", intro: "Start here if you are new to eCard or setting it up for the first time.", headers: ["Guide", "What it covers"], rows: [
         ["Getting Started", "Your first session from sign-up onwards"],
         ["Your First Scan", "Scanning a visiting card and checking the result"],
         ["Setting Up SMTP", "Connecting a mailbox so introductions are sent from your own address"],
@@ -115,7 +115,7 @@ export const pages: PageDef[] = [
         ["Importing Contacts from CSV", "Bringing an existing contact list into eCard"],
         ["Creating Your Digital Card", "Setting up your own shareable digital card"],
       ] },
-      { type: "table", heading: "Team, security and integration guides", headers: ["Guide", "What it covers"], rows: [
+      { type: "table", heading: "Team, Security And Integration Guides", headers: ["Guide", "What it covers"], rows: [
         ["Inviting Your Team", "Adding colleagues to a shared workspace"],
         ["Enabling 2FA", "Turning on two-factor authentication with an authenticator app"],
         ["Setting Up Webhooks", "Receiving signed events for new contacts, on Professional plans and above"],
@@ -125,15 +125,15 @@ export const pages: PageDef[] = [
         { title: "Follow-Up Playbook", body: "Timing, tone and structure for follow-up messages that get replies.", icon: "send" },
         { title: "Visiting-Card Etiquette", body: "Courteous habits for exchanging cards, and what to note afterwards.", icon: "card" },
       ] },
-      { type: "steps", heading: "A suggested reading order", steps: [
-        { title: "Get set up", body: "Read Getting Started and Your First Scan, then scan a handful of real cards." },
-        { title: "Connect your channels", body: "Set up SMTP so introductions go from your own mailbox, and connect Telegram if you use it." },
-        { title: "Secure the account", body: "Enable 2FA and store your recovery codes somewhere safe." },
-        { title: "Bring in the team", body: "Invite colleagues and agree who owns which contacts." },
-        { title: "Build the habit", body: "Use the follow-up and trade-show playbooks to make capture and follow-up routine." },
+      { type: "steps", heading: "A Suggested Reading Order", steps: [
+        { title: "Get Set Up", body: "Read Getting Started and Your First Scan, then scan a handful of real cards." },
+        { title: "Connect Your Channels", body: "Set up SMTP so introductions go from your own mailbox, and connect Telegram if you use it." },
+        { title: "Secure The Account", body: "Enable 2FA and store your recovery codes somewhere safe." },
+        { title: "Bring In The Team", body: "Invite colleagues and agree who owns which contacts." },
+        { title: "Build The Habit", body: "Use the follow-up and trade-show playbooks to make capture and follow-up routine." },
       ] },
-      { type: "callout", tone: "tip", title: "Need a definition?", body: "If a guide uses a term you do not recognise, such as SMTP, webhook or 2FA, the glossary explains it in plain language." },
-      { type: "prose", heading: "How the guides are written", paragraphs: [
+      { type: "callout", tone: "tip", title: "Need A Definition?", body: "If a guide uses a term you do not recognise, such as SMTP, webhook or 2FA, the glossary explains it in plain language." },
+      { type: "prose", heading: "How The Guides Are Written", paragraphs: [
         "Every guide on the site focuses on one task, uses sample data that is clearly labelled, and links to the feature pages it relies on. Where a guide describes a setting, it only names paths that eCard has documented, such as Settings → Telegram. Where something depends on your plan, for example webhooks on Professional plans and above or Google Contacts sync on Starter and above, the guide says so.",
         "If a step in a guide does not match what you see in the app, the Help Center is the place to check, and the feedback page is the right place to tell eCard that a guide needs updating.",
       ] },
@@ -150,9 +150,9 @@ export const pages: PageDef[] = [
     slug: "reports",
     category: "library",
     title: "Reports",
-    seoTitle: "eCard Reports: Publication Status and Alternatives",
+    seoTitle: "eCard Reports: Publication Status And Alternatives",
     description: "eCard has not published any industry or research reports. See what this section will hold and which on-site guides answer common questions today.",
-    h1: "Reports from eCard",
+    h1: "Reports From eCard",
     eyebrow: "Library",
     intro: "This section is set aside for downloadable reports, such as research on networking habits or contact management. eCard has not yet published any reports, and this page explains what to expect and where to look in the meantime.",
     variant: "reference",
@@ -160,26 +160,26 @@ export const pages: PageDef[] = [
     icon: "file",
     source: "educational",
     sections: [
-      { type: "callout", tone: "note", title: "No reports published", body: "eCard has not yet published any reports, surveys or research findings. There are no downloads on this page, and no statistics should be attributed to eCard reports." },
-      { type: "bullets", heading: "What a report in this section would typically contain", items: [
+      { type: "callout", tone: "note", title: "No Reports Published", body: "eCard has not yet published any reports, surveys or research findings. There are no downloads on this page, and no statistics should be attributed to eCard reports." },
+      { type: "bullets", heading: "What A Report In This Section Would Typically Contain", items: [
         "A clear statement of method: who was asked, how many, and when.",
         "Findings presented with their limits, not just headline percentages.",
         "Practical recommendations that follow from the findings.",
         "A date, so readers know how current the data is.",
       ] },
-      { type: "prose", heading: "How to read any vendor report critically", paragraphs: [
+      { type: "prose", heading: "How To Read Any Vendor Report Critically", paragraphs: [
         "Reports published by software companies can be useful, but they are written by an interested party. When you read one, from any vendor, look first at the sample: a survey of a vendor's own users tells you about those users, not the whole market.",
         "Check whether the questions are published, whether the margin of error is mentioned, and whether the recommendations conveniently match the product being sold. None of this makes a report worthless, but it tells you how much weight to give it.",
       ] },
-      { type: "cards", heading: "Useful pages available now", cards: [
-        { title: "Analytics features", body: "What eCard's analytics pages describe about understanding your own contact activity.", icon: "chart" },
+      { type: "cards", heading: "Useful Pages Available Now", cards: [
+        { title: "Analytics Features", body: "What eCard's analytics pages describe about understanding your own contact activity.", icon: "chart" },
         { title: "Trade-Show Playbook", body: "Practical guidance for high-volume card collection at events.", icon: "calendar" },
-        { title: "Use cases", body: "How different roles and industries might apply a visiting-card CRM.", icon: "briefcase" },
+        { title: "Use Cases", body: "How different roles and industries might apply a visiting-card CRM.", icon: "briefcase" },
       ] },
-      { type: "split", heading: "Looking for data for a decision?", body: [
+      { type: "split", heading: "Looking For Data For A Decision?", body: [
         "If you are evaluating eCard for a team and need specific information, the plan comparison and pricing FAQ pages set out what is published. For Enterprise questions, write to sales@bizzfly.com.",
       ], points: ["Compare plans side by side", "Read the pricing FAQ", "Try the 14-day Professional trial"] },
-      { type: "prose", heading: "Measuring your own results instead", paragraphs: [
+      { type: "prose", heading: "Measuring Your Own Results Instead", paragraphs: [
         "In the absence of published research, the most relevant numbers are your own. A useful exercise after any event is to count three things: how many cards you collected, how many contacts you followed up within two days, and how many of those led to a reply or meeting. Tracked over a few events, those figures tell you more about what works for you than any industry average.",
         "Keep the method consistent so the comparison is fair: the same follow-up window, the same definition of a reply, and contacts tagged by event so they are easy to count. eCard's analytics pages describe what the product shows about your own activity; anything beyond that you can track in a simple spreadsheet.",
       ] },
@@ -199,7 +199,7 @@ export const pages: PageDef[] = [
     title: "Whitepapers",
     seoTitle: "eCard Whitepapers: None Published Yet",
     description: "eCard has not released whitepapers. Find the verified security, integration and pricing pages that answer most technical and buying questions instead.",
-    h1: "Whitepapers and technical papers",
+    h1: "Whitepapers And Technical Papers",
     eyebrow: "Library",
     intro: "Whitepapers are longer technical or strategic papers, often used by buyers who need to justify a decision. eCard has not yet published any whitepapers, so this page lists the pages that answer the questions a whitepaper usually would.",
     variant: "reference",
@@ -207,25 +207,25 @@ export const pages: PageDef[] = [
     icon: "layers",
     source: "mixed",
     sections: [
-      { type: "callout", tone: "note", title: "Publication status", body: "eCard has not yet published whitepapers, technical papers or architecture documents. This page does not offer downloads." },
-      { type: "table", heading: "Common whitepaper questions and where they are answered", headers: ["Question", "Where to look on the site"], rows: [
+      { type: "callout", tone: "note", title: "Publication Status", body: "eCard has not yet published whitepapers, technical papers or architecture documents. This page does not offer downloads." },
+      { type: "table", heading: "Common Whitepaper Questions And Where They Are Answered", headers: ["Question", "Where to look on the site"], rows: [
         ["How is my account protected?", "Security pages: 2FA, recovery codes, trusted devices and login alerts"],
         ["How are stored secrets handled?", "API keys and SMTP passwords are encrypted with AES-256-GCM"],
         ["Which AI models read cards?", "Claude, OpenAI, Gemini, DeepSeek, Grok and Azure, using your own key"],
         ["Can data flow to other systems?", "Google Contacts sync on Starter and above; signed webhooks on Professional and above"],
         ["What does it cost?", "Pricing and compare-plans pages, monthly prices in INR"],
       ] },
-      { type: "prose", heading: "Building your own internal case", paragraphs: [
+      { type: "prose", heading: "Building Your Own Internal Case", paragraphs: [
         "If you need a document for colleagues, you can assemble one from the verified pages above. A short internal paper usually works better than a long one: state the problem (cards that never become follow-ups), the proposed tool, the plan you would start on, the security points that matter to your organisation, and a trial plan.",
         "The 14-day Professional trial needs no card, which makes it practical to test with a small group before writing anything formal.",
       ] },
-      { type: "steps", heading: "A simple evaluation outline", steps: [
-        { title: "Define the problem", body: "Write down how contacts are captured and followed up today, and where they get lost." },
-        { title: "Check fit", body: "Read the feature and integration pages that match your workflow." },
-        { title: "Review security", body: "Confirm the published security controls meet your internal requirements." },
-        { title: "Run a trial", body: "Use the trial with real cards from a recent event and note what worked." },
+      { type: "steps", heading: "A Simple Evaluation Outline", steps: [
+        { title: "Define The Problem", body: "Write down how contacts are captured and followed up today, and where they get lost." },
+        { title: "Check Fit", body: "Read the feature and integration pages that match your workflow." },
+        { title: "Review Security", body: "Confirm the published security controls meet your internal requirements." },
+        { title: "Run A Trial", body: "Use the trial with real cards from a recent event and note what worked." },
       ] },
-      { type: "prose", heading: "What a good technical paper should answer", paragraphs: [
+      { type: "prose", heading: "What A Good Technical Paper Should Answer", paragraphs: [
         "When eCard or any vendor does publish a technical paper, a few questions are worth checking it against. Does it explain where data is processed and stored? Does it describe how credentials and keys are protected, and who inside the company can access customer data? Does it state what happens to data when an account is closed?",
         "For eCard today, some of these are answered by verified pages, such as encryption of API keys and SMTP passwords with AES-256-GCM and the compliance checklist for consent, export and deletion. Others, such as hosting location or retention periods, are not published, and you should ask directly at sales@bizzfly.com rather than assume an answer.",
       ] },
@@ -243,9 +243,9 @@ export const pages: PageDef[] = [
     slug: "webinars",
     category: "library",
     title: "Webinars",
-    seoTitle: "eCard Webinars: Schedule Status and Self-Serve Help",
+    seoTitle: "eCard Webinars: Schedule Status And Self-Serve Help",
     description: "There are no eCard webinars scheduled or recorded yet. Learn at your own pace with on-site guides, the product tour and the Help Center instead.",
-    h1: "Webinars and live training",
+    h1: "Webinars And Live Training",
     eyebrow: "Library",
     intro: "This page is reserved for live and recorded webinars. eCard has not yet published any webinars, scheduled or recorded, so here you will find self-paced ways to learn the same material.",
     variant: "reference",
@@ -253,28 +253,28 @@ export const pages: PageDef[] = [
     icon: "eye",
     source: "educational",
     sections: [
-      { type: "callout", tone: "note", title: "No webinars yet", body: "eCard has not yet published any webinars, recordings or training sessions. There is no registration form on this page." },
-      { type: "cards", heading: "Learn at your own pace", intro: "These pages cover what an introductory webinar would.", cards: [
+      { type: "callout", tone: "note", title: "No Webinars Yet", body: "eCard has not yet published any webinars, recordings or training sessions. There is no registration form on this page." },
+      { type: "cards", heading: "Learn At Your Own Pace", intro: "These pages cover what an introductory webinar would.", cards: [
         { title: "Product Tour", body: "An overview of how eCard fits together, from scanning to follow-up.", icon: "eye" },
         { title: "How It Works", body: "The basic flow from a card in your hand to a contact you can act on.", icon: "layers" },
-        { title: "Getting Started guide", body: "A step-by-step walkthrough of your first session.", icon: "zap" },
+        { title: "Getting Started Guide", body: "A step-by-step walkthrough of your first session.", icon: "zap" },
         { title: "Help Center", body: "Answers to specific questions about accounts, billing, scanning and email.", icon: "help" },
       ] },
-      { type: "steps", heading: "A one-hour self-run training session", intro: "If you were planning to attend a webinar with your team, you can run your own session instead.", steps: [
-        { title: "10 minutes: overview", body: "Walk through the product tour together on a shared screen." },
-        { title: "15 minutes: scan", body: "Each person scans two or three real visiting cards and checks the result." },
-        { title: "15 minutes: follow up", body: "Read the follow-up playbook and send one real follow-up each." },
-        { title: "10 minutes: secure", body: "Everyone enables 2FA and saves recovery codes." },
-        { title: "10 minutes: agree rules", body: "Decide who owns which contacts and how you will tag them." },
+      { type: "steps", heading: "A One-hour Self-run Training Session", intro: "If you were planning to attend a webinar with your team, you can run your own session instead.", steps: [
+        { title: "10 Minutes: Overview", body: "Walk through the product tour together on a shared screen." },
+        { title: "15 Minutes: Scan", body: "Each person scans two or three real visiting cards and checks the result." },
+        { title: "15 Minutes: Follow Up", body: "Read the follow-up playbook and send one real follow-up each." },
+        { title: "10 Minutes: Secure", body: "Everyone enables 2FA and saves recovery codes." },
+        { title: "10 Minutes: Agree Rules", body: "Decide who owns which contacts and how you will tag them." },
       ] },
-      { type: "prose", heading: "Why self-paced can work better", paragraphs: [
+      { type: "prose", heading: "Why Self-paced Can Work Better", paragraphs: [
         "Webinars are good for questions, but much of what makes a contact tool useful is habit: scanning the same day, writing a short note, following up within a day or two. Habits form by doing the task with real cards, which a guided session of your own can encourage just as well as a broadcast.",
       ] },
-      { type: "prose", heading: "Questions you would have asked live", paragraphs: [
+      { type: "prose", heading: "Questions You Would Have Asked Live", paragraphs: [
         "One advantage of a webinar is the chance to ask questions. Without one, the Help Center collects answers to common questions about accounts and sign-in, password reset, billing, scanning, email sending and Telegram. Most first-week questions are covered there.",
         "If your question is about whether eCard suits a particular kind of team, the use-case pages and the plan comparison are the best starting points. For Enterprise-level questions, such as larger teams or specific requirements, email sales@bizzfly.com with a short description of what you need. Writing the question down is often quicker than waiting for a scheduled session.",
       ] },
-      { type: "bullets", heading: "Make your own session stick", intro: "General tips for any internal training on a new tool.", items: [
+      { type: "bullets", heading: "Make Your Own Session Stick", intro: "General tips for any internal training on a new tool.", items: [
         "Use real cards from a recent meeting, not invented examples, so the result feels relevant.",
         "Keep the group small enough that everyone actually does each step on their own phone.",
         "Write down the two or three team rules you agree, such as tagging by event, and share them afterwards.",
@@ -293,9 +293,9 @@ export const pages: PageDef[] = [
     slug: "events",
     category: "library",
     title: "Events",
-    seoTitle: "eCard Events Listing: Status and Event Prep Guides",
+    seoTitle: "eCard Events Listing: Status And Event Prep Guides",
     description: "eCard has not announced any events. Get ready for your own trade shows and expos with the trade-show playbook, etiquette guide and events use case.",
-    h1: "eCard events and appearances",
+    h1: "eCard Events And Appearances",
     eyebrow: "Library",
     intro: "This page would list events eCard hosts or attends. eCard has not yet published any events, so instead it helps you prepare for the events you attend yourself, where visiting cards change hands fastest.",
     variant: "reference",
@@ -303,27 +303,27 @@ export const pages: PageDef[] = [
     icon: "calendar",
     source: "educational",
     sections: [
-      { type: "callout", tone: "note", title: "No events announced", body: "eCard has not yet published any events, conference appearances or meet-ups. Nothing on this page is an invitation or schedule." },
-      { type: "split", heading: "Preparing for your own events", body: [
+      { type: "callout", tone: "note", title: "No Events Announced", body: "eCard has not yet published any events, conference appearances or meet-ups. Nothing on this page is an invitation or schedule." },
+      { type: "split", heading: "Preparing For Your Own Events", body: [
         "Trade shows, expos and conferences are where most people collect visiting cards in bulk, and where the most contacts are lost afterwards. A little preparation before the event makes the follow-up far easier.",
         "The trade-show playbook covers this in detail; the points here are a quick summary of general good practice.",
       ], points: ["Set a goal for the number of useful conversations", "Prepare a short follow-up template in advance", "Scan cards the same evening", "Note one detail per conversation"] },
-      { type: "steps", heading: "Before, during and after", steps: [
+      { type: "steps", heading: "Before, During And After", steps: [
         { title: "Before", body: "Check your account works on your phone, connect your mailbox and prepare a draft follow-up." },
         { title: "During", body: "Scan cards between conversations or at breaks, and add a quick note while the meeting is fresh." },
         { title: "After", body: "Send follow-ups within a day or two and tag contacts by event so you can find them later." },
       ] },
-      { type: "bullets", heading: "Related pages on the site", items: [
+      { type: "bullets", heading: "Related Pages On The Site", items: [
         "Trade-Show Playbook, for detailed preparation and follow-up.",
         "Visiting-Card Etiquette, for courteous exchanges in different settings.",
         "Events & Expos use case, for how a visiting-card CRM fits events work.",
         "Event Organisers use case, for people running events rather than attending.",
       ] },
-      { type: "prose", heading: "Following up after an event", paragraphs: [
+      { type: "prose", heading: "Following Up After An Event", paragraphs: [
         "The days after an event decide whether the cards you collected turn into anything. A useful rule is to send every follow-up within two working days, while the other person still remembers your conversation. Mention one specific thing you discussed, offer the item you promised, and suggest a simple next step such as a short call.",
         "Group your contacts by event so you can see later which shows were worth attending. If you send introductions from your own mailbox through SMTP, replies arrive in your normal inbox, which keeps the conversation where you already work. The Follow-Up Playbook has more detail on timing and wording.",
       ] },
-      { type: "prose", heading: "If you are organising an event", paragraphs: [
+      { type: "prose", heading: "If You Are Organising An Event", paragraphs: [
         "Organisers face a different problem: many attendees, sponsors and speakers to keep track of, often with cards and contact details arriving from several directions at once. The Event Organisers use-case page discusses how a visiting-card CRM can help with that, written as general guidance. eCard has not published any event partnerships or organiser programmes.",
       ] },
     ],

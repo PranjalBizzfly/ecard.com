@@ -5,10 +5,10 @@ const base: PageDef[] = [
     slug: "product/whats-new-telegram",
     category: "more",
     title: "New: Telegram Bot",
-    seoTitle: "New in eCard: Scan Cards with the Telegram Bot",
+    seoTitle: "New In eCard: Scan Cards With The Telegram Bot",
     description: "eCard's Telegram bot saves a contact from a card photo, with Open and Send buttons in the chat. Link it with a one-time code from Settings → Telegram.",
-    h1: "Snap a card in Telegram — it's saved",
-    eyebrow: "What's new",
+    h1: "Snap A Card In Telegram: It's Saved",
+    eyebrow: "What's New",
     intro: "The eCard Telegram bot lets you capture cards from a chat app you already use. Send a photo and the contact is saved, with Open and Send buttons right in the chat.",
     variant: "feature",
     visual: "telegram",
@@ -16,17 +16,17 @@ const base: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Set it up",
+        heading: "Set It Up",
         steps: [
-          { title: "Open settings", body: "In eCard, go to Settings → Telegram." },
-          { title: "Get a code", body: "Copy the one-time code shown there." },
-          { title: "Link the bot", body: "Send the code to the eCard bot in Telegram." },
-          { title: "Send a card", body: "Photograph a visiting card and send it to the bot." },
+          { title: "Open Settings", body: "In eCard, go to Settings → Telegram." },
+          { title: "Get A Code", body: "Copy the one-time code shown there." },
+          { title: "Link The Bot", body: "Send the code to the eCard bot in Telegram." },
+          { title: "Send A Card", body: "Photograph a visiting card and send it to the bot." },
         ],
       },
       {
         type: "cards",
-        heading: "In the chat",
+        heading: "In The Chat",
         cards: [
           { title: "Open", body: "Jump to the saved contact in eCard.", icon: "eye" },
           { title: "Send", body: "Start the follow-up from the chat.", icon: "send" },
@@ -40,7 +40,7 @@ const base: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not documented",
+        title: "Not Documented",
         body: "eCard's site does not document batch uploads through the bot; check in-app behaviour.",
       },
     ],
@@ -57,7 +57,7 @@ const base: PageDef[] = [
     title: "Sign-Up Flow",
     seoTitle: "How eCard Sign-Up Works",
     description: "What to expect when you sign up for eCard: create an account, start on Free or a 14-day Professional trial with no card needed, then scan your first card.",
-    h1: "Signing up for eCard, step by step",
+    h1: "Signing Up For eCard, Step By Step",
     eyebrow: "Sign-up",
     intro: "Signing up takes a few minutes and needs no payment card. Here is what to expect.",
     variant: "guide",
@@ -66,28 +66,28 @@ const base: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "The flow",
+        heading: "The Flow",
         steps: [
-          { title: "Go to sign-up", body: "Visit ecard.gg/sign-up." },
-          { title: "Create your account", body: "Enter your details to create your login." },
-          { title: "Pick a plan", body: "Start free, or choose a paid plan. New workspaces get a 14-day Professional trial." },
-          { title: "Start scanning", body: "Scan your first card in your phone browser." },
+          { title: "Go To Sign-up", body: "Visit ecard.gg/sign-up." },
+          { title: "Create Your Account", body: "Enter your details to create your login." },
+          { title: "Pick A Plan", body: "Start free, or choose a paid plan. New workspaces get a 14-day Professional trial." },
+          { title: "Start Scanning", body: "Scan your first card in your phone browser." },
         ],
       },
       {
         type: "bullets",
-        heading: "Trust line",
+        heading: "Trust Line",
         items: ["50 free scans", "No card required", "14-day Pro trial"],
       },
       {
         type: "prose",
-        heading: "Already have an account?",
+        heading: "Already Have An Account?",
         paragraphs: ["Sign in at ecard.gg/sign-in. If you have forgotten your password, use ecard.gg/forgot-password."],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Secure it on day one",
+        title: "Secure It On Day One",
         body: "After signing up, turn on 2FA with an authenticator app and store your recovery codes somewhere safe.",
       },
     ],
@@ -101,10 +101,10 @@ const base: PageDef[] = [
   {
     slug: "product/plan-picker",
     category: "more",
-    title: "Choosing a Plan at Sign-Up",
+    title: "Choosing A Plan At Sign-Up",
     seoTitle: "Which eCard Plan Should You Pick?",
     description: "Pick the right eCard plan at sign-up: compare Free, Starter, Professional, Business and Enterprise by users, storage, monthly scans and extra features.",
-    h1: "Pick the plan that fits how you network",
+    h1: "Pick The Plan That Fits How You Network",
     eyebrow: "Plans",
     intro: "Every plan includes the core features. The differences are users, storage, scans and a few extras.",
     variant: "reference",
@@ -113,10 +113,10 @@ const base: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Plans at a glance (monthly, INR)",
+        heading: "Plans At A Glance (Monthly, INR)",
         headers: ["Plan", "Price", "Users", "Scans / month", "Adds"],
         rows: [
-          ["Free", "₹0", "5", "50", "—"],
+          ["Free", "₹0", "5", "50", "No"],
           ["Starter", "₹299", "20", "1,000", "Google Contacts sync, Calendar & Meet booking"],
           ["Professional", "₹999", "100", "5,000", "+ Webhooks"],
           ["Business", "₹2,999", "Unlimited", "Unlimited", "+ White label & custom domain"],
@@ -125,7 +125,7 @@ const base: PageDef[] = [
       },
       {
         type: "split",
-        heading: "Quick guide",
+        heading: "Quick Guide",
         body: ["Choose by the number of cards you scan and the tools you need to connect."],
         points: [
           "Trying it alone: Free",
@@ -136,7 +136,7 @@ const base: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Billing notes",
+        heading: "Billing Notes",
         items: [
           "Prices in INR; local currency shown at checkout for supported countries; GST where applicable",
           "Yearly billing saves ~2 months; exact totals at checkout",
@@ -147,7 +147,7 @@ const base: PageDef[] = [
       {
         type: "callout",
         tone: "info",
-        title: "Not sure?",
+        title: "Not Sure?",
         body: "The 14-day Professional trial needs no card, so you can decide after using it.",
       },
     ],
@@ -164,7 +164,7 @@ const base: PageDef[] = [
     title: "Workspace Setup",
     seoTitle: "Set Up Your eCard Workspace",
     description: "Set up a new eCard workspace: connect your SMTP mailbox, add your AI key, link Telegram, secure accounts with 2FA and invite your team with roles.",
-    h1: "Set up your workspace the right way",
+    h1: "Set Up Your Workspace The Right Way",
     eyebrow: "Setup",
     intro: "A few settings early on make every later scan and follow-up smoother. Work through them in this order.",
     variant: "guide",
@@ -173,34 +173,34 @@ const base: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Recommended order",
+        heading: "Recommended Order",
         steps: [
-          { title: "Secure your account", body: "Turn on 2FA and save recovery codes." },
-          { title: "Choose an AI model", body: "Pick Claude, OpenAI, Gemini, DeepSeek or Grok and add your own key if you want." },
-          { title: "Connect email", body: "Add SMTP details for your mailbox so intros send from your address." },
+          { title: "Secure Your Account", body: "Turn on 2FA and save recovery codes." },
+          { title: "Choose An AI Model", body: "Pick Claude, OpenAI, Gemini, DeepSeek or Grok and add your own key if you want." },
+          { title: "Connect Email", body: "Add SMTP details for your mailbox so intros send from your address." },
           { title: "Link Telegram", body: "Use the one-time code from Settings → Telegram." },
-          { title: "Create your digital card", body: "Pick a template and personalise it." },
-          { title: "Invite people", body: "Assign each person a role: admin, manager, member or scan-only guest." },
+          { title: "Create Your Digital Card", body: "Pick a template and personalise it." },
+          { title: "Invite People", body: "Assign each person a role: admin, manager, member or scan-only guest." },
         ],
       },
       {
         type: "cards",
-        heading: "Optional, by plan",
+        heading: "Optional, By Plan",
         cards: [
-          { title: "Google Contacts sync", body: "Starter and above.", icon: "users" },
+          { title: "Google Contacts Sync", body: "Starter and above.", icon: "users" },
           { title: "Webhooks", body: "Professional and above.", icon: "webhook" },
-          { title: "White label", body: "Business and Enterprise.", icon: "palette" },
+          { title: "White Label", body: "Business and Enterprise.", icon: "palette" },
         ],
       },
       {
         type: "prose",
-        heading: "SMTP tips",
+        heading: "SMTP Tips",
         paragraphs: ["As general guidance, many mailbox providers require an app password rather than your normal password for SMTP when 2FA is on. Check your provider's help pages for the server, port and authentication details."],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Secrets are encrypted",
+        title: "Secrets Are Encrypted",
         body: "API keys and SMTP passwords are encrypted with AES-256-GCM.",
       },
     ],
@@ -216,7 +216,7 @@ const base: PageDef[] = [
     title: "Account Recovery",
     seoTitle: "Recover Your eCard Account",
     description: "Locked out of eCard? Reset your password at the forgot-password page, use recovery codes if you lose your 2FA device, and keep trusted devices up to date.",
-    h1: "Getting back into your account",
+    h1: "Getting Back Into Your Account",
     eyebrow: "Recovery",
     intro: "Most lock-outs come down to a forgotten password or a lost 2FA device. Here is how to handle each.",
     variant: "support",
@@ -225,30 +225,30 @@ const base: PageDef[] = [
     sections: [
       {
         type: "steps",
-        heading: "Forgot your password",
+        heading: "Forgot Your Password",
         steps: [
-          { title: "Open the reset page", body: "Go to ecard.gg/forgot-password." },
-          { title: "Enter your email", body: "Use the address you signed up with." },
-          { title: "Follow the email", body: "Check your inbox, including spam, for the reset message." },
+          { title: "Open The Reset Page", body: "Go to ecard.gg/forgot-password." },
+          { title: "Enter Your Email", body: "Use the address you signed up with." },
+          { title: "Follow The Email", body: "Check your inbox, including spam, for the reset message." },
         ],
       },
       {
         type: "prose",
-        heading: "Lost your 2FA device",
+        heading: "Lost Your 2FA Device",
         paragraphs: [
           "eCard supports recovery codes for two-factor authentication. If you lose your phone, sign in with one of your saved recovery codes, then set up 2FA again on your new device.",
-          "As general guidance, store recovery codes in a password manager or printed in a safe place — not on the same phone as your authenticator app.",
+          "As general guidance, store recovery codes in a password manager or printed in a safe place, not on the same phone as your authenticator app.",
         ],
       },
       {
         type: "bullets",
-        heading: "Prevent future lock-outs",
+        heading: "Prevent Future Lock-outs",
         items: ["Save recovery codes when you enable 2FA", "Review trusted devices", "Pay attention to login alerts", "Keep your sign-up email accessible"],
       },
       {
         type: "callout",
         tone: "info",
-        title: "Still stuck?",
+        title: "Still Stuck?",
         body: "See the contact support page in the help centre.",
       },
     ],
@@ -265,7 +265,7 @@ const base: PageDef[] = [
     title: "Digital Card Example",
     seoTitle: "Example eCard Digital Business Card",
     description: "See a sample eCard digital business card with template, QR code, Save-to-contacts button and a tracked short link such as /c/rahul. No app needed.",
-    h1: "What a digital business card looks like",
+    h1: "What A Digital Business Card Looks Like",
     eyebrow: "Example",
     intro: "This example uses sample data to show the parts of an eCard digital business card.",
     variant: "feature",
@@ -274,8 +274,8 @@ const base: PageDef[] = [
     sections: [
       {
         type: "table",
-        heading: "Anatomy of a sample card",
-        intro: "Sample: Rahul Mehta, Sales Lead — fictional.",
+        heading: "Anatomy Of A Sample Card",
+        intro: "Sample: Rahul Mehta, Sales Lead, fictional.",
         headers: ["Element", "Sample", "Purpose"],
         rows: [
           ["Template", "Premium template", "Look professional"],
@@ -286,7 +286,7 @@ const base: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Ways to share",
+        heading: "Ways To Share",
         cards: [
           { title: "QR", body: "On a badge, booth or slide.", icon: "qr" },
           { title: "WhatsApp", body: "Send the short link in chat.", icon: "message" },
@@ -295,13 +295,13 @@ const base: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "No app for anyone",
+        heading: "No App For Anyone",
         paragraphs: ["Neither you nor the recipient needs an app. The card opens in a browser, and link tracking shows when it was opened."],
       },
       {
         type: "callout",
         tone: "info",
-        title: "Your own branding",
+        title: "Your Own Branding",
         body: "Business and Enterprise plans add white label with your logo, colours and custom domain.",
       },
     ],
@@ -316,9 +316,9 @@ const base: PageDef[] = [
     category: "more",
     title: "Sample Scan Personas",
     seoTitle: "eCard Sample Scan Personas Explained",
-    description: "Meet the three fictional personas in eCard's sample scan demo — Realtor, Doctor and Startup founder — and what each demonstrates about card extraction.",
-    h1: "Three sample cards, three kinds of layout",
-    eyebrow: "Sample personas",
+    description: "Meet the three fictional personas in eCard's sample scan demo (Realtor, Doctor and Startup founder) and what each demonstrates about card extraction.",
+    h1: "Three Sample Cards, Three Kinds Of Layout",
+    eyebrow: "Sample Personas",
     intro: "The sample scan demo uses three fictional personas. Each represents a common style of visiting card.",
     variant: "reference",
     visual: "extract",
@@ -326,16 +326,16 @@ const base: PageDef[] = [
     sections: [
       {
         type: "cards",
-        heading: "The personas",
+        heading: "The Personas",
         cards: [
-          { title: "Realtor (sample)", body: "Typical of property cards: name, agency, mobile, office address — useful for site-visit follow-ups.", icon: "building" },
-          { title: "Doctor (sample)", body: "Qualifications after the name, clinic address and timings — more fields to check.", icon: "briefcase" },
-          { title: "Startup founder (sample)", body: "Minimal design, website and social handles — less text, more links.", icon: "sparkles" },
+          { title: "Realtor (Sample)", body: "Typical of property cards: name, agency, mobile, office address, useful for site-visit follow-ups.", icon: "building" },
+          { title: "Doctor (Sample)", body: "Qualifications after the name, clinic address and timings, more fields to check.", icon: "briefcase" },
+          { title: "Startup Founder (Sample)", body: "Minimal design, website and social handles: less text, more links.", icon: "sparkles" },
         ],
       },
       {
         type: "bullets",
-        heading: "What to watch in each",
+        heading: "What To Watch In Each",
         items: [
           "Confidence scores on phone numbers and email addresses",
           "Addresses checked against Google Maps",
@@ -344,13 +344,13 @@ const base: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Using the demo well",
+        heading: "Using The Demo Well",
         paragraphs: ["The personas are fictional and exist only to show the review step. Once you have seen how review works, try a handful of your own cards on the Free plan to judge accuracy on the layouts you actually collect."],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Sample data",
+        title: "Sample Data",
         body: "No persona represents a real person or customer.",
       },
     ],
@@ -363,19 +363,19 @@ const base: PageDef[] = [
   {
     slug: "product/at-a-glance",
     category: "more",
-    title: "eCard at a Glance",
-    seoTitle: "eCard at a Glance: Key Facts",
+    title: "eCard At A Glance",
+    seoTitle: "eCard At A Glance: Key Facts",
     description: "Key eCard facts on one page: 7 AI models, 3 WhatsApp languages, 5-second intro emails, 14-day trial, 256-bit key encryption and ₹0 to start.",
-    h1: "eCard in six numbers",
-    eyebrow: "At a glance",
-    intro: "A one-page summary for anyone who needs the essentials quickly.",
+    h1: "eCard In Six Numbers",
+    eyebrow: "At A Glance",
+    intro: "A one-page summary for anyone who needs the essentials quickly: what eCard does, which AI models it can use, how follow-up works and how to start free.",
     variant: "reference",
     visual: "dashboard",
     icon: "eye",
     sections: [
       {
         type: "table",
-        heading: "Key facts",
+        heading: "Key Facts",
         headers: ["Fact", "Detail"],
         rows: [
           ["7 AI models", "Claude, OpenAI, Gemini, DeepSeek, Grok, plus Azure and custom endpoints"],
@@ -388,7 +388,7 @@ const base: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "In one sentence each",
+        heading: "In One Sentence Each",
         items: [
           "Scan: AI reads cards; you review before save",
           "Remember: meeting memory with voice notes",
@@ -399,13 +399,13 @@ const base: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Where it runs",
+        heading: "Where It Runs",
         paragraphs: ["Any phone browser, with no app to install, plus a Telegram bot for scanning."],
       },
       {
         type: "callout",
         tone: "tip",
-        title: "Next step",
+        title: "Next Step",
         body: "Read How It Works, or compare plans on the pricing page.",
       },
     ],
@@ -418,45 +418,45 @@ const base: PageDef[] = [
   {
     slug: "product/feature-availability",
     category: "more",
-    title: "Feature Availability by Plan",
-    seoTitle: "eCard Feature Availability by Plan",
+    title: "Feature Availability By Plan",
+    seoTitle: "eCard Feature Availability By Plan",
     description: "Which eCard features are on which plan: base features on all plans, Google sync and booking from Starter, webhooks from Professional, white label on Business.",
-    h1: "Which features come with which plan",
+    h1: "Which Features Come With Which Plan",
     eyebrow: "Availability",
-    intro: "Most of eCard is on every plan. This table shows where the extras begin.",
+    intro: "Most of eCard is on every plan. This table shows where the extras begin, such as Google Contacts sync on Starter, webhooks on Professional and white label on Business.",
     variant: "reference",
     visual: "pricing",
     icon: "layers",
     sections: [
       {
         type: "table",
-        heading: "Feature matrix",
+        heading: "Feature Matrix",
         headers: ["Feature", "Free", "Starter", "Professional", "Business", "Enterprise"],
         rows: [
           ["Base feature set", "Yes", "Yes", "Yes", "Yes", "Yes"],
-          ["Google Contacts sync", "—", "Yes", "Yes", "Yes", "Yes"],
-          ["Google Calendar & Meet booking", "—", "Yes", "Yes", "Yes", "Yes"],
-          ["Webhooks", "—", "—", "Yes", "Yes", "Yes"],
-          ["White label & custom domain", "—", "—", "—", "Yes", "Yes"],
+          ["Google Contacts sync", "No", "Yes", "Yes", "Yes", "Yes"],
+          ["Google Calendar & Meet booking", "No", "Yes", "Yes", "Yes", "Yes"],
+          ["Webhooks", "No", "No", "Yes", "Yes", "Yes"],
+          ["White label & custom domain", "No", "No", "No", "Yes", "Yes"],
           ["Users", "5", "20", "100", "Unlimited", "Unlimited"],
           ["Scans / month", "50", "1,000", "5,000", "Unlimited", "Unlimited"],
         ],
       },
       {
         type: "bullets",
-        heading: "The base feature set",
+        heading: "The Base Feature Set",
         items: ["AI card scanning", "Contacts, tags & events", "Bulk import & export", "Email outreach from your own mailbox", "WhatsApp messages", "Digital business card", "Telegram scanning bot"],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Features not listed by plan",
+        title: "Features Not Listed By Plan",
         body: "The pricing page does not break down every feature, such as roles or audit logs, by plan. Check in-app or contact sales for specifics.",
       },
       {
         type: "prose",
-        heading: "Try the top features first",
-        paragraphs: ["The 14-day Professional trial unlocks webhooks and Google integrations so you can test them before deciding."],
+        heading: "Try The Top Features First",
+        paragraphs: ["The 14-day Professional trial gives you webhooks and Google integrations so you can test them before deciding."],
       },
     ],
     faqs: [
@@ -469,10 +469,10 @@ const base: PageDef[] = [
   {
     slug: "product/security-at-a-glance",
     category: "more",
-    title: "Security at a Glance",
-    seoTitle: "eCard Security at a Glance",
+    title: "Security At A Glance",
+    seoTitle: "eCard Security At A Glance",
     description: "eCard security summary: 2FA with authenticator and recovery codes, trusted devices, login alerts, AES-256-GCM encrypted secrets, audit logs and five roles.",
-    h1: "How eCard protects your workspace",
+    h1: "How eCard Protects Your Workspace",
     eyebrow: "Security",
     intro: "A summary of the security controls eCard's site describes, for anyone reviewing it for their team.",
     variant: "reference",
@@ -483,28 +483,28 @@ const base: PageDef[] = [
         type: "cards",
         heading: "Controls",
         cards: [
-          { title: "Two-factor authentication", body: "Authenticator codes, recovery codes and trusted devices.", icon: "key" },
-          { title: "Login alerts", body: "Be notified of sign-ins.", icon: "bell" },
-          { title: "Encrypted secrets", body: "API keys and SMTP passwords encrypted with AES-256-GCM.", icon: "lock" },
-          { title: "Audit log", body: "Workspace activity history.", icon: "file" },
+          { title: "Two-factor Authentication", body: "Authenticator codes, recovery codes and trusted devices.", icon: "key" },
+          { title: "Login Alerts", body: "Be notified of sign-ins.", icon: "bell" },
+          { title: "Encrypted Secrets", body: "API keys and SMTP passwords encrypted with AES-256-GCM.", icon: "lock" },
+          { title: "Audit Log", body: "Workspace activity history.", icon: "file" },
           { title: "Roles", body: "Owner, admin, manager, member, scan-only guest.", icon: "users" },
-          { title: "Signed webhooks", body: "Signed events for each new contact.", icon: "webhook" },
+          { title: "Signed Webhooks", body: "Signed events for each new contact.", icon: "webhook" },
         ],
       },
       {
         type: "prose",
-        heading: "What AES-256-GCM means",
+        heading: "What AES-256-GCM Means",
         paragraphs: ["In general terms, AES-256-GCM is a widely used symmetric encryption mode that both encrypts data and detects tampering. It is the \"256-bit key encryption\" mentioned on eCard's homepage."],
       },
       {
         type: "callout",
         tone: "note",
-        title: "Not stated on the site",
+        title: "Not Stated On The Site",
         body: "eCard's site does not state certifications, uptime figures or hosting locations.",
       },
       {
         type: "bullets",
-        heading: "Your side of security",
+        heading: "Your Side Of Security",
         items: ["Require 2FA for everyone", "Use the least-privileged role", "Remove members who leave", "Rotate AI keys and SMTP passwords periodically"],
       },
     ],
@@ -522,7 +522,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "table",
-        heading: "Telegram bot or phone browser?",
+        heading: "Telegram Bot Or Phone Browser?",
         intro: "Both capture cards into the same workspace. Pick whichever fits the moment.",
         headers: ["Situation", "Better fit", "Why"],
         rows: [
@@ -534,7 +534,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "split",
-        heading: "Sample: a five-minute gap at an expo",
+        heading: "Sample: A Five-minute Gap At An Expo",
         body: [
           "Sample scenario, fictional: Anil collects a card from a distributor at a trade fair, opens Telegram, photographs the card and sends it to the bot. The contact is saved and the chat shows Open and Send buttons. He taps Send to start the follow-up, then goes back to the booth. That evening he opens eCard in the browser to add where they met and a voice note.",
         ],
@@ -542,12 +542,12 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Common pitfalls",
+        heading: "Common Pitfalls",
         items: [
-          "Sharing your one-time code with a colleague — each person should link their own account",
+          "Sharing your one-time code with a colleague, each person should link their own account",
           "Blurry photos taken at an angle under harsh booth lighting; hold the card flat and fill the frame",
           "Forgetting to add meeting context later, which makes the eventual follow-up generic",
-          "Assuming the bot replaces review — check the saved fields when you are back at a screen",
+          "Assuming the bot replaces review. Check the saved fields when you are back at a screen",
         ],
       },
     ],
@@ -560,7 +560,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Have these ready before you start",
+        heading: "Have These Ready Before You Start",
         intro: "Sign-up itself is quick. These make the first session productive:",
         items: [
           "A handful of real visiting cards to test with",
@@ -572,7 +572,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "table",
-        heading: "Free plan or trial on day one?",
+        heading: "Free Plan Or Trial On Day One?",
         headers: ["If you…", "Start with", "Reason"],
         rows: [
           ["Want to try a few cards alone", "Free", "50 scans a month and 5 users at ₹0"],
@@ -583,11 +583,11 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "steps",
-        heading: "Your first 15 minutes after sign-up",
+        heading: "Your First 15 Minutes After Sign-up",
         steps: [
-          { title: "Scan three cards", body: "Pick different layouts so you see how confidence scores vary." },
-          { title: "Review carefully", body: "Correct any low-confidence fields; nothing is saved until you do." },
-          { title: "Send one intro", body: "Preview the AI draft and let it send, or cancel to see how the 5-second window works." },
+          { title: "Scan Three Cards", body: "Pick different layouts so you see how confidence scores vary." },
+          { title: "Review Carefully", body: "Correct any low-confidence fields; nothing is saved until you do." },
+          { title: "Send One Intro", body: "Preview the AI draft and let it send, or cancel to see how the 5-second window works." },
         ],
       },
     ],
@@ -600,16 +600,16 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "steps",
-        heading: "Three questions that decide your plan",
+        heading: "Three Questions That Decide Your Plan",
         steps: [
-          { title: "How many cards a month?", body: "Under 50: Free can work. Up to 1,000: Starter. Up to 5,000: Professional. More than that, or unpredictable spikes: Business." },
-          { title: "How many people scan or follow up?", body: "Free allows 5 users, Starter 20, Professional 100, Business and Enterprise unlimited." },
-          { title: "What must eCard connect to?", body: "Google Contacts or Calendar & Meet booking need Starter. Webhooks need Professional. Your own branding and domain need Business." },
+          { title: "How Many Cards A Month?", body: "Under 50: Free can work. Up to 1,000: Starter. Up to 5,000: Professional. More than that, or unpredictable spikes: Business." },
+          { title: "How Many People Scan Or Follow Up?", body: "Free allows 5 users, Starter 20, Professional 100, Business and Enterprise unlimited." },
+          { title: "What Must eCard Connect To?", body: "Google Contacts or Calendar & Meet booking need Starter. Webhooks need Professional. Your own branding and domain need Business." },
         ],
       },
       {
         type: "split",
-        heading: "Sample: sizing a small agency",
+        heading: "Sample: Sizing A Small Agency",
         body: [
           "Sample, fictional: an eight-person agency attends two expos a quarter and collects roughly 600 cards at each. That is up to 1,200 cards in a busy month, which is above Starter's 1,000 scans, and they want new contacts pushed to another system by webhook. Professional at ₹999 a month covers both needs.",
         ],
@@ -617,7 +617,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Mistakes to avoid",
+        heading: "Mistakes To Avoid",
         items: [
           "Sizing for an average month when your volume peaks around events",
           "Forgetting temporary booth staff when counting users",
@@ -635,7 +635,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "table",
-        heading: "Who should do each setup task",
+        heading: "Who Should Do Each Setup Task",
         headers: ["Task", "Suggested role", "Note"],
         rows: [
           ["Billing and plan", "Owner", "The account holder"],
@@ -647,7 +647,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Setup checklist",
+        heading: "Setup Checklist",
         items: [
           "2FA on for every owner and admin",
           "Recovery codes stored outside the phone",
@@ -661,7 +661,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       {
         type: "callout",
         tone: "tip",
-        title: "Sample naming convention",
+        title: "Sample Naming Convention",
         body: "Sample: name events like \"2026-03 Pune Realty Expo\" so contacts sort by date and stay easy to find in search later.",
       },
     ],
@@ -674,7 +674,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "table",
-        heading: "Which recovery path fits your problem",
+        heading: "Which Recovery Path Fits Your Problem",
         headers: ["Problem", "What to try"],
         rows: [
           ["Forgot password", "Reset at ecard.gg/forgot-password"],
@@ -686,18 +686,18 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "steps",
-        heading: "After you get back in",
+        heading: "After You Get Back In",
         steps: [
           { title: "Re-enrol 2FA", body: "Set up the authenticator again on your current phone." },
-          { title: "Save fresh recovery codes", body: "Treat used codes as gone and store the new set safely." },
-          { title: "Review trusted devices", body: "Remove anything you no longer use or do not recognise." },
-          { title: "Rotate secrets if worried", body: "If you suspect misuse, consider changing your SMTP password and AI keys at the provider, then update them in eCard." },
+          { title: "Save Fresh Recovery Codes", body: "Treat used codes as gone and store the new set safely." },
+          { title: "Review Trusted Devices", body: "Remove anything you no longer use or do not recognise." },
+          { title: "Rotate Secrets If Worried", body: "If you suspect misuse, consider changing your SMTP password and AI keys at the provider, then update them in eCard." },
         ],
       },
       {
         type: "callout",
         tone: "note",
-        title: "For team owners",
+        title: "For Team Owners",
         body: "As general guidance, make sure more than one trusted person holds an admin role so a single lost phone does not block workspace administration.",
       },
     ],
@@ -710,18 +710,18 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "steps",
-        heading: "What the recipient experiences",
+        heading: "What The Recipient Experiences",
         intro: "Sample walk-through from the other side of the handshake.",
         steps: [
-          { title: "Scan or tap", body: "They scan your QR code or tap a short link such as /c/rahul." },
-          { title: "View", body: "Your card opens in their phone browser — no app needed." },
+          { title: "Scan Or Tap", body: "They scan your QR code or tap a short link such as /c/rahul." },
+          { title: "View", body: "Your card opens in their phone browser, no app needed." },
           { title: "Save", body: "Save-to-contacts adds your details to their phone." },
-          { title: "You see the open", body: "Link tracking shows the card was opened, with bots filtered out of click counts." },
+          { title: "You See The Open", body: "Link tracking shows the card was opened, with bots filtered out of click counts." },
         ],
       },
       {
         type: "bullets",
-        heading: "Sample: what to put on the card",
+        heading: "Sample: What To Put On The Card",
         intro: "Sample content for a fictional sales lead:",
         items: [
           "Name and title: Rahul Mehta, Sales Lead (sample)",
@@ -733,7 +733,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "table",
-        heading: "Paper card vs digital card",
+        heading: "Paper Card Vs Digital Card",
         headers: ["", "Paper card", "Digital card"],
         rows: [
           ["Update details", "Reprint", "Edit once"],
@@ -752,7 +752,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "table",
-        heading: "Fields to check per persona",
+        heading: "Fields To Check Per Persona",
         intro: "After running a persona in the demo above, compare what you see with these sample checks.",
         headers: ["Persona (sample)", "Tricky fields", "What to confirm"],
         rows: [
@@ -763,7 +763,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "split",
-        heading: "Match a persona to your own cards",
+        heading: "Match A Persona To Your Own Cards",
         body: [
           "Most real-world cards resemble one of the three. If you mostly collect property or field-sales cards, focus on the Realtor result. If your contacts are professionals with credentials, the Doctor persona is closest. If you meet founders and tech teams, watch the Startup founder result.",
         ],
@@ -771,17 +771,17 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "steps",
-        heading: "From demo to your own test",
+        heading: "From Demo To Your Own Test",
         steps: [
-          { title: "Pick five real cards", body: "Choose ones that resemble the persona closest to your work, plus one awkward layout." },
-          { title: "Scan on the Free plan", body: "50 scans a month is plenty for a fair test." },
-          { title: "Note corrections", body: "Count how many fields you had to fix and which ones." },
-          { title: "Try another model if needed", body: "eCard lets you choose between several AI providers, so compare if one struggles with your layouts." },
+          { title: "Pick Five Real Cards", body: "Choose ones that resemble the persona closest to your work, plus one awkward layout." },
+          { title: "Scan On The Free Plan", body: "50 scans a month is plenty for a fair test." },
+          { title: "Note Corrections", body: "Count how many fields you had to fix and which ones." },
+          { title: "Try Another Model If Needed", body: "eCard lets you choose between several AI providers, so compare if one struggles with your layouts." },
         ],
       },
     ],
     faqs: [
-      { q: "Why are there only three personas?", a: "The demo uses three fictional personas — Realtor, Doctor and Startup founder — to show common card styles. Your own cards are the best test." },
+      { q: "Why are there only three personas?", a: "The demo uses three fictional personas (Realtor, Doctor and Startup founder) to show common card styles. Your own cards are the best test." },
       { q: "Does the demo use my AI key?", a: "eCard's site does not describe how the demo is processed. Your own key applies to scans in your workspace." },
     ],
   },
@@ -789,17 +789,17 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "cards",
-        heading: "Who should read what next",
+        heading: "Who Should Read What Next",
         cards: [
-          { title: "Solo professional", body: "Start with the Free plan and the Telegram bot for scanning on the move.", icon: "smartphone" },
-          { title: "Team lead", body: "Look at roles, scan-only guests and the plan comparison for user limits.", icon: "users" },
-          { title: "IT or security reviewer", body: "Read Security at a Glance for 2FA, encryption and the audit log.", icon: "shield" },
-          { title: "Systems owner", body: "Check webhooks and API, with signed events for each new contact; webhooks start on Professional.", icon: "webhook" },
+          { title: "Solo Professional", body: "Start with the Free plan and the Telegram bot for scanning on the move.", icon: "smartphone" },
+          { title: "Team Lead", body: "Look at roles, scan-only guests and the plan comparison for user limits.", icon: "users" },
+          { title: "IT Or Security Reviewer", body: "Read Security at a Glance for 2FA, encryption and the audit log.", icon: "shield" },
+          { title: "Systems Owner", body: "Check webhooks and API, with signed events for each new contact; webhooks start on Professional.", icon: "webhook" },
         ],
       },
       {
         type: "table",
-        heading: "What eCard is — and isn't",
+        heading: "What eCard Is: And Isn't",
         headers: ["eCard is", "eCard is not"],
         rows: [
           ["A visiting-card CRM for scanning, memory and follow-up", "A native mobile app"],
@@ -810,9 +810,9 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Sample one-line pitch for a colleague",
+        heading: "Sample One-line Pitch For A Colleague",
         items: [
-          "Sample: \"It reads the cards we collect, remembers where we met, and drafts the follow-up from our own email — and it's free to try.\"",
+          "Sample: \"It reads the cards we collect, remembers where we met, and drafts the follow-up from our own email, and it's free to try.\"",
           "Sample: \"It's like a card scanner, but the follow-up actually gets sent.\"",
         ],
       },
@@ -826,7 +826,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "split",
-        heading: "When a feature triggers an upgrade",
+        heading: "When A Feature Triggers An Upgrade",
         body: [
           "Most teams upgrade for one of three reasons: they outgrow the scan or user limit, they need a Google integration, or they need to connect eCard to other systems. White label is usually a later, brand-driven decision.",
         ],
@@ -834,7 +834,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "table",
-        heading: "Sample: matching needs to the lowest plan",
+        heading: "Sample: Matching Needs To The Lowest Plan",
         intro: "Sample requirements, fictional.",
         headers: ["Sample need", "Lowest plan that covers it"],
         rows: [
@@ -847,9 +847,9 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Before you assume a feature is missing",
+        heading: "Before You Assume A Feature Is Missing",
         items: [
-          "Check whether it is in the base set — most core features are",
+          "Check whether it is in the base set, most core features are",
           "Check the pricing page's extras for your plan",
           "Remember storage limits too: 1 GB, 25 GB, 250 GB or unlimited",
           "Ask sales@bizzfly.com for anything the pricing page does not cover",
@@ -865,7 +865,7 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "table",
-        heading: "Risks and the control that helps",
+        heading: "Risks And The Control That Helps",
         intro: "General mapping of common risks to eCard's controls.",
         headers: ["Risk", "Relevant control"],
         rows: [
@@ -874,23 +874,23 @@ const extra: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
           ["Sign-in you didn't make", "Login alerts"],
           ["Too much access for temporary staff", "Scan-only guest role"],
           ["Exposure of stored secrets", "AES-256-GCM encryption of API keys and SMTP passwords"],
-          ["Forged webhook calls", "Signed webhook events — verify the signature on your side"],
+          ["Forged webhook calls", "Signed webhook events, verify the signature on your side"],
         ],
       },
       {
         type: "steps",
-        heading: "Security review checklist for admins",
+        heading: "Security Review Checklist For Admins",
         steps: [
           { title: "Enforce 2FA", body: "Ask every member to enrol and save recovery codes." },
-          { title: "Audit roles", body: "Confirm owners and admins are a small, known group." },
-          { title: "Check the audit log", body: "Look over recent workspace activity regularly." },
-          { title: "Offboard promptly", body: "Remove members who leave and rotate any shared secrets." },
+          { title: "Audit Roles", body: "Confirm owners and admins are a small, known group." },
+          { title: "Check The Audit Log", body: "Look over recent workspace activity regularly." },
+          { title: "Offboard Promptly", body: "Remove members who leave and rotate any shared secrets." },
         ],
       },
       {
         type: "callout",
         tone: "info",
-        title: "Questions from your security team",
+        title: "Questions From Your Security Team",
         body: "For details the site does not cover, such as hosting, certifications or contractual terms, contact sales@bizzfly.com.",
       },
     ],
@@ -907,7 +907,7 @@ const closing: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       {
         type: "callout",
         tone: "tip",
-        title: "Make it a reflex",
+        title: "Make It A Reflex",
         body: "Pin the eCard bot chat to the top of Telegram before an event. When the chat is one tap away, sending a card photo becomes as automatic as pocketing the card used to be.",
       },
     ],
@@ -916,10 +916,10 @@ const closing: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "prose",
-        heading: "What sign-up does not ask for",
+        heading: "What Sign-up Does Not Ask For",
         paragraphs: [
           "You do not need a payment card to create an account, start on Free or begin the 14-day Professional trial. You do not need to install an app, because eCard runs in any phone browser. You also do not need to configure an AI provider before your first scan if you just want to see the product work; bringing your own key is an option you can set up when you are ready.",
-          "What sign-up cannot do for you is decide how your team will use eCard. As general guidance, agree a few habits early — scan on the day you receive a card, tag by event, follow up within a day or two — and the tool will reflect them.",
+          "What sign-up cannot do for you is decide how your team will use eCard. As general guidance, agree a few habits early (scan on the day you receive a card, tag by event, follow up within a day or two) and the tool will reflect them.",
         ],
       },
     ],
@@ -932,7 +932,7 @@ const closing: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       {
         type: "callout",
         tone: "note",
-        title: "Paying from outside India",
+        title: "Paying From Outside India",
         body: "Prices are set in INR, with local currency shown at checkout for supported countries. International customers pay by card, while customers in India can also use UPI, net banking, wallets or EMI.",
       },
     ],
@@ -944,7 +944,7 @@ const closing: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "prose",
-        heading: "Setup pitfalls we see in general",
+        heading: "Setup Pitfalls We See In General",
         paragraphs: [
           "The most common early problem with any tool that sends email from your own mailbox is authentication: providers such as Gmail or Outlook may reject your normal password for SMTP and expect an app password instead. Test with an intro to an address you control before scanning real contacts.",
           "The second is roles. It is tempting to make everyone an admin so nobody gets stuck. Resist that; start people as members or scan-only guests and promote them when there is a clear reason. The audit log is far easier to read when only a few people can change settings.",
@@ -959,7 +959,7 @@ const closing: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "bullets",
-        heading: "Sample: a recovery kit to keep offline",
+        heading: "Sample: A Recovery Kit To Keep Offline",
         intro: "Sample checklist, adapt it to your own setup:",
         items: [
           "The email address your eCard account uses",
@@ -971,7 +971,7 @@ const closing: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "prose",
-        heading: "Why recovery codes matter",
+        heading: "Why Recovery Codes Matter",
         paragraphs: [
           "Two-factor authentication protects you because a password alone is not enough to sign in. The flip side is that losing your second factor can lock you out too. Recovery codes are the planned way around that, so store them the moment you enable 2FA.",
         ],
@@ -985,7 +985,7 @@ const closing: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "prose",
-        heading: "Getting the most from a digital card",
+        heading: "Getting The Most From A Digital Card",
         paragraphs: [
           "A digital card works best when it is everywhere you already introduce yourself. Put the QR code on your event badge and on the last slide of a presentation. Paste the short link into your email signature and WhatsApp intro. Because the card is one link, you can update a phone number or title once and every place that points to it stays current.",
           "As general guidance, keep the card focused. One phone number, one email and a clear line about what you do are easier to act on than a crowded list of every channel you have.",
@@ -993,7 +993,7 @@ const closing: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
       },
       {
         type: "bullets",
-        heading: "Sample uses of the same card",
+        heading: "Sample Uses Of The Same Card",
         items: [
           "Sample: QR on a trade-show badge for walk-up visitors",
           "Sample: short link in a WhatsApp follow-up after a site visit",
@@ -1010,7 +1010,7 @@ const closing: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "prose",
-        heading: "What the personas cannot show",
+        heading: "What The Personas Cannot Show",
         paragraphs: [
           "A demo card is clean and well lit. Real cards arrive creased, glossy, double-sided or photographed in a dim hall. The personas show how review and confidence scores work, but only your own cards show how accurate scanning is for the layouts, languages and print quality you actually deal with. Treat the demo as an orientation, then test with real cards.",
         ],
@@ -1024,14 +1024,14 @@ const closing: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "steps",
-        heading: "A typical day with eCard",
+        heading: "A Typical Day With eCard",
         intro: "Sample day, fictional.",
         steps: [
-          { title: "Morning meeting", body: "Sample: you receive two cards and send both to the Telegram bot on the way out." },
-          { title: "Between calls", body: "You review the saved fields and add where you met and who introduced you." },
+          { title: "Morning Meeting", body: "Sample: you receive two cards and send both to the Telegram bot on the way out." },
+          { title: "Between Calls", body: "You review the saved fields and add where you met and who introduced you." },
           { title: "Afternoon", body: "You preview the AI intro emails and let them send from your own mailbox." },
           { title: "Evening", body: "Link tracking shows one contact opened your card; you send a short WhatsApp note in Hindi." },
-          { title: "A week later", body: "You search \"people I met at Tuesday's breakfast\" in plain language and pick up the conversation with full context." },
+          { title: "A Week Later", body: "You search \"people I met at Tuesday's breakfast\" in plain language and pick up the conversation with full context." },
         ],
       },
     ],
@@ -1044,11 +1044,11 @@ const closing: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "prose",
-        heading: "Reading limits correctly",
+        heading: "Reading Limits Correctly",
         paragraphs: [
           "Scan limits are monthly: 50 on Free, 1,000 on Starter, 5,000 on Professional and unlimited on Business and Enterprise. User limits apply to the whole workspace, so count everyone who needs to sign in, including occasional booth helpers.",
           "Users and scans tend to be the first limits growing teams hit. Before an expo season, compare the number of cards you expect with your plan's monthly allowance; it is easier to move up a plan before the show than to ration scans at the booth.",
-          "Storage — 1 GB, 25 GB, 250 GB or unlimited — matters more as you attach voice notes and share PDFs. If your team records meeting memory heavily, factor that in rather than looking at scans alone.",
+          "Storage (1 GB, 25 GB, 250 GB or unlimited) matters more as you attach voice notes and share PDFs. If your team records meeting memory heavily, factor that in rather than looking at scans alone.",
         ],
       },
     ],
@@ -1060,20 +1060,20 @@ const closing: Record<string, { sections: Section[]; faqs?: FAQ[] }> = {
     sections: [
       {
         type: "prose",
-        heading: "Shared responsibility",
+        heading: "Shared Responsibility",
         paragraphs: [
           "eCard provides the controls; how well they protect you depends on how they are used. A workspace where every member has 2FA, roles are kept tight and leavers are removed quickly is far safer than one with the same features left at defaults.",
-          "Your own providers matter too. Because eCard sends email through your SMTP and reads cards with your AI key, the security of those accounts — their passwords, 2FA and key management — is part of your overall picture. As general guidance, give eCard dedicated keys or app passwords so you can revoke them without affecting other tools.",
+          "Your own providers matter too. Because eCard sends email through your SMTP and reads cards with your AI key, the security of those accounts (their passwords, 2FA and key management) is part of your overall picture. As general guidance, give eCard dedicated keys or app passwords so you can revoke them without affecting other tools.",
         ],
       },
       {
         type: "bullets",
-        heading: "Sample: questions a reviewer might ask",
+        heading: "Sample: Questions A Reviewer Might Ask",
         items: [
-          "Sample: Can we require 2FA for all admins? — Enable it and verify enrolment for each admin.",
-          "Sample: How do we know who changed a setting? — Check the workspace audit log.",
-          "Sample: How do we verify webhook calls are genuine? — Check the signature on each signed event before trusting it.",
-          "Sample: Where are hosting and certification details? — Not stated on the site; ask sales.",
+          "Sample: Can we require 2FA for all admins? Enable it and verify enrolment for each admin.",
+          "Sample: How do we know who changed a setting? Check the workspace audit log.",
+          "Sample: How do we verify webhook calls are genuine? Check the signature on each signed event before trusting it.",
+          "Sample: Where are hosting and certification details? Not stated on the site; ask sales.",
         ],
       },
     ],

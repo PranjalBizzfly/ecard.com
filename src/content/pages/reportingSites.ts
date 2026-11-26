@@ -7,8 +7,8 @@ export const pages: PageDef[] = [
     title: "Speak-Up Site",
     seoTitle: "Speak-Up Reporting Site: eCard Channel Status",
     description: "A speak-up site is a dedicated reporting platform for concerns. eCard has none and no anonymous channel; here's what exists and where serious matters belong.",
-    h1: "A speak-up reporting site: eCard's current position",
-    eyebrow: "Reporting sites",
+    h1: "A Speak-up Reporting Site: eCard's Current Position",
+    eyebrow: "Reporting Sites",
     intro: "Some organisations run a separate speak-up site, often hosted by an independent provider, where people can report concerns and follow up on them. eCard has not published a speak-up site, an anonymous reporting channel or a whistleblowing policy. This page explains what such platforms do and what options exist today.",
     variant: "reference",
     visual: "none",
@@ -17,12 +17,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not available",
+        title: "Not Available",
         body: "eCard has no published speak-up platform, anonymous channel, hotline or whistleblower policy. Nothing on this page promises anonymity, confidentiality or legal protection.",
       },
       {
         type: "prose",
-        heading: "How a hosted speak-up platform usually works",
+        heading: "How A Hosted Speak-up Platform Usually Works",
         paragraphs: [
           "The main Speak-Up pages on this site cover the topic itself. This page is about the platform. A hosted speak-up site is usually run by a third party, so reports don't pass through the company's own email. The reporter gets a case number and password to check progress and answer follow-up questions without revealing who they are. Case handlers on the company side see the report through a restricted system.",
           "The value of a separate site is independence and a clear audit trail. eCard has neither in place for reporting, so there is no case number, no follow-up mailbox and no independent handler.",
@@ -30,7 +30,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "table",
-        heading: "Platform features and eCard's status",
+        heading: "Platform Features And eCard's Status",
         headers: ["Feature", "Status"],
         rows: [
           ["Independent hosting", "Not available"],
@@ -42,17 +42,17 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Choosing where to raise a concern today",
+        heading: "Choosing Where To Raise A Concern Today",
         steps: [
-          { title: "Consider the seriousness", body: "Fraud, danger to people or a possible crime belong with the police or the relevant regulator, not a vendor's sales inbox." },
-          { title: "Think about identity", body: "Email to sales@bizzfly.com will show who you are. If that's a problem, use an external authority's channel instead." },
-          { title: "Keep your own record", body: "Note dates, facts and any evidence you're entitled to keep, without taking data you're not authorised to hold." },
-          { title: "Get independent advice", body: "A lawyer or recognised advice service can explain protections in your country." },
+          { title: "Consider The Seriousness", body: "Fraud, danger to people or a possible crime belong with the police or the relevant regulator, not a vendor's sales inbox." },
+          { title: "Think About Identity", body: "Email to sales@bizzfly.com will show who you are. If that's a problem, use an external authority's channel instead." },
+          { title: "Keep Your Own Record", body: "Note dates, facts and any evidence you're entitled to keep, without taking data you're not authorised to hold." },
+          { title: "Get Independent Advice", body: "A lawyer or recognised advice service can explain protections in your country." },
         ],
       },
       {
         type: "bullets",
-        heading: "What a good speak-up programme should offer",
+        heading: "What A Good Speak-up Programme Should Offer",
         intro: "Useful if you're evaluating any company's reporting arrangements:",
         items: [
           "A written policy that explains who handles reports.",
@@ -64,7 +64,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Product concerns are different",
+        heading: "Product Concerns Are Different",
         paragraphs: [
           "If your concern is about the eCard product itself, such as a bug, a billing error or a data question, it isn't a speak-up matter. Use Contact Support, the complaints page or, for security vulnerabilities, ask sales@bizzfly.com for a security contact without sending exploit details.",
         ],
@@ -84,10 +84,10 @@ export const pages: PageDef[] = [
     slug: "reporting-sites/ethics",
     category: "reportingSites",
     title: "Ethics Site",
-    seoTitle: "Ethics Reporting Site: Status and Alternatives",
+    seoTitle: "Ethics Reporting Site: Status And Alternatives",
     description: "Ethics sites host a code of conduct, guidance and a helpline. eCard publishes none of these; learn what they contain and how to judge ethical concerns.",
-    h1: "Ethics site and helpline: what eCard has published",
-    eyebrow: "Reporting sites",
+    h1: "Ethics Site And Helpline: What eCard Has Published",
+    eyebrow: "Reporting Sites",
     intro: "An ethics site normally brings together a company's code of conduct, guidance on dilemmas and an ethics helpline for questions before something goes wrong. eCard has not published a code of conduct, ethics guidance, an ethics office or a helpline.",
     variant: "reference",
     visual: "none",
@@ -96,12 +96,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not available",
+        title: "Not Available",
         body: "No eCard code of conduct, ethics helpline, ethics officer or governance body has been published.",
       },
       {
         type: "split",
-        heading: "Ethics site versus speak-up site",
+        heading: "Ethics Site Versus Speak-up Site",
         body: [
           "A speak-up site is for reporting a concern. An ethics site is wider and earlier: it explains expected behaviour and lets people ask 'is this okay?' before acting. It usually hosts the code of conduct, policy summaries and a helpline for advice.",
           "eCard has neither. The Ethics page on this site discusses the topic; this page explains the platform and the gap.",
@@ -115,7 +115,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Ethics questions that come up with a contact CRM",
+        heading: "Ethics Questions That Come Up With A Contact CRM",
         paragraphs: [
           "Tools that store other people's details raise practical ethical questions for the people who use them. Is it fair to message everyone from an event without their agreement? Should you scan a card someone dropped rather than handed to you? How long is it reasonable to keep a contact you'll never call again?",
           "eCard gives you tools that help: a compliance checklist covering consent, export and deletion, a blacklist for people who don't want contact, an archive, and an intro-email preview with a 5-second window to cancel. How you use them is your responsibility and your organisation's.",
@@ -123,7 +123,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "A simple ethics check before following up",
+        heading: "A Simple Ethics Check Before Following Up",
         items: [
           "Did this person give me their card expecting contact?",
           "Is my message relevant to why we met?",
@@ -134,16 +134,16 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "If you need guidance on a real dilemma",
+        heading: "If You Need Guidance On A Real Dilemma",
         steps: [
-          { title: "Check your own organisation's policy", body: "Your employer's code of conduct applies to how you use any tool." },
-          { title: "Ask a qualified adviser", body: "For data-protection questions, a privacy professional or lawyer in your jurisdiction." },
-          { title: "Ask eCard about the product", body: "For how a feature works, use Contact Support." },
+          { title: "Check Your Own Organisation's Policy", body: "Your employer's code of conduct applies to how you use any tool." },
+          { title: "Ask A Qualified Adviser", body: "For data-protection questions, a privacy professional or lawyer in your jurisdiction." },
+          { title: "Ask eCard About The Product", body: "For how a feature works, use Contact Support." },
         ],
       },
       {
         type: "prose",
-        heading: "Setting team norms in place of a published code",
+        heading: "Setting Team Norms In Place Of A Published Code",
         paragraphs: [
           "Because eCard publishes no code of conduct for its users, teams that share a workspace benefit from writing down a few rules of their own. Keep them short enough to remember: only follow up people who gave you their card in a business context; record where you met someone and why you're contacting them; never use scanned details for anything unrelated to that conversation; honour every request to stop by blacklisting the contact; and archive or delete records you no longer need.",
           "Roles help enforce those norms. Scan-only guests can capture cards at an event without seeing the wider contact list, and the audit log lets an owner check what happened if a question arises later.",
@@ -166,8 +166,8 @@ export const pages: PageDef[] = [
     title: "Complaints Site",
     seoTitle: "Complaints Portal Site: Raising Issues With eCard",
     description: "A complaints portal tracks cases and escalation. eCard has none; here's how to raise a service complaint today and what to include so it can be handled.",
-    h1: "Raising a complaint without a complaints portal",
-    eyebrow: "Reporting sites",
+    h1: "Raising A Complaint Without A Complaints Portal",
+    eyebrow: "Reporting Sites",
     intro: "A complaints portal gives each complaint a reference number, a status and an escalation path. eCard has not published a complaints portal, case tracking or a formal complaints procedure. Complaints are raised through the Complaints page in the feedback section and Contact Support.",
     variant: "support",
     visual: "none",
@@ -176,12 +176,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Publication status",
+        title: "Publication Status",
         body: "No complaints portal, reference numbers, response times or escalation levels have been published by eCard.",
       },
       {
         type: "prose",
-        heading: "Why companies build complaints portals",
+        heading: "Why Companies Build Complaints Portals",
         paragraphs: [
           "In regulated sectors, complaint handling often must follow set timelines and be recorded. A portal makes that visible: the customer sees that the complaint has been logged, who's handling it and when to expect a reply. It also helps the company spot patterns.",
           "eCard handles contact through the main site rather than a portal, so you won't get an automatic reference number. Keeping your own record matters more as a result.",
@@ -189,18 +189,18 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "How to raise a complaint today",
+        heading: "How To Raise A Complaint Today",
         steps: [
-          { title: "Try support first if it's fixable", body: "Many issues, such as sign-in or sending problems, are solved faster as support requests." },
-          { title: "State the complaint clearly", body: "What happened, when, how it affected you and what outcome you want." },
-          { title: "Include account context", body: "Your workspace name and plan. Never include passwords or keys." },
-          { title: "Use the published route", body: "The Complaints page in the feedback section, or Contact Support." },
-          { title: "Keep a copy", body: "Save what you sent and the date, since there's no portal to look it up later." },
+          { title: "Try Support First If It's Fixable", body: "Many issues, such as sign-in or sending problems, are solved faster as support requests." },
+          { title: "State The Complaint Clearly", body: "What happened, when, how it affected you and what outcome you want." },
+          { title: "Include Account Context", body: "Your workspace name and plan. Never include passwords or keys." },
+          { title: "Use The Published Route", body: "The Complaints page in the feedback section, or Contact Support." },
+          { title: "Keep A Copy", body: "Save what you sent and the date, since there's no portal to look it up later." },
         ],
       },
       {
         type: "table",
-        heading: "Matching the issue to the route",
+        heading: "Matching The Issue To The Route",
         headers: ["Issue", "Route"],
         rows: [
           ["Product not working", "Help and Contact Support"],
@@ -211,7 +211,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Common billing complaints and quick checks",
+        heading: "Common Billing Complaints And Quick Checks",
         items: [
           "Charged after cancelling: you keep access until the end of the paid period, so check the period dates.",
           "Amount differs from the monthly price: GST applies where applicable and local currency is shown at checkout.",
@@ -220,7 +220,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "Writing a complaint that gets resolved",
+        heading: "Writing A Complaint That Gets Resolved",
         paragraphs: [
           "A complaint works best when it reads like a short case file. Open with one sentence that says what went wrong. Then give the facts in order, with dates: when you noticed the problem, what you did about it, and what happened next. Say plainly what you'd like to happen now, whether that's a correction, an explanation or a change to how something works.",
           "Keep the tone factual even if you're frustrated, and keep personal data to a minimum. If the issue involves a contact's details, describe the record rather than pasting it. If you've already contacted support about the same problem, mention when, so the history is joined up. Finally, if the matter is serious and unresolved, remember that consumer-protection bodies in your country may offer independent routes.",
@@ -243,8 +243,8 @@ export const pages: PageDef[] = [
     title: "Surveys",
     seoTitle: "Surveys Site: eCard Customer Research Status",
     description: "Survey sites run customer research and satisfaction polls. eCard has not published one; here's how to spot fake surveys and how to share your views today.",
-    h1: "Customer surveys and research at eCard",
-    eyebrow: "Reporting sites",
+    h1: "Customer Surveys And Research At eCard",
+    eyebrow: "Reporting Sites",
     intro: "A surveys site hosts customer satisfaction polls, research studies and panels, sometimes with incentives. eCard has not published a surveys site, research panel or survey programme, and it offers no survey rewards.",
     variant: "reference",
     visual: "none",
@@ -253,12 +253,12 @@ export const pages: PageDef[] = [
       {
         type: "callout",
         tone: "note",
-        title: "Not available",
+        title: "Not Available",
         body: "eCard has not published a surveys site, research panel, satisfaction programme or survey incentives.",
       },
       {
         type: "prose",
-        heading: "What a surveys site typically does",
+        heading: "What A Surveys Site Typically Does",
         paragraphs: [
           "Companies use survey sites to measure satisfaction after support contacts, run product research and recruit people for interviews. Results feed into product decisions and service improvements. Good practice is to state how responses are stored, whether they're anonymous and how long they're kept.",
           "Survey sites usually live on their own subdomain or on a specialist survey platform, which is one reason fake surveys are easy to create: people are used to answering questions on unfamiliar addresses. Because eCard has no survey site at all, any page asking you to rate eCard in exchange for a reward did not come from a published eCard programme.",
@@ -266,7 +266,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "prose",
-        heading: "If you received something suspicious",
+        heading: "If You Received Something Suspicious",
         paragraphs: [
           "Don't click further links or enter details. If you already entered your eCard password, change it straight away at ecard.gg, check that two-factor authentication is on, and review your login alerts and trusted devices for anything you don't recognise. If you entered payment card details, contact your bank. You can also tell eCard through Contact Support so they're aware their name is being misused, and report phishing to your local cybercrime authority.",
           "Workspace owners can share this guidance with their team, since one compromised login can expose a shared contact list.",
@@ -274,7 +274,7 @@ export const pages: PageDef[] = [
       },
       {
         type: "bullets",
-        heading: "Spotting a fake 'eCard survey'",
+        heading: "Spotting A Fake 'eCard Survey'",
         intro: "Survey scams often promise rewards to collect personal or payment details. Since eCard has published no surveys or incentives, be cautious if you see:",
         items: [
           "Gift cards, cash or free plans offered for completing a survey.",
@@ -285,22 +285,22 @@ export const pages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "Sharing your views today",
+        heading: "Sharing Your Views Today",
         steps: [
-          { title: "Ideas and suggestions", body: "Use the feedback page." },
-          { title: "Something went wrong", body: "Use the complaints page or Contact Support." },
-          { title: "Research for a large organisation", body: "Enterprise buyers can write to sales@bizzfly.com with requirements." },
+          { title: "Ideas And Suggestions", body: "Use the feedback page." },
+          { title: "Something Went Wrong", body: "Use the complaints page or Contact Support." },
+          { title: "Research For A Large Organisation", body: "Enterprise buyers can write to sales@bizzfly.com with requirements." },
         ],
       },
       {
         type: "cards",
-        heading: "Running your own surveys about networking",
+        heading: "Running Your Own Surveys About Networking",
         intro: "If you survey your own contacts, for example after an event, general good practice applies:",
         cards: [
-          { title: "Ask permission", body: "Only contact people who'd reasonably expect it.", icon: "check" },
-          { title: "Keep it short", body: "Three to five questions get more answers.", icon: "clock" },
-          { title: "Say how data is used", body: "Explain storage and use in plain words.", icon: "shield" },
-          { title: "Respect opt-outs", body: "Add anyone who declines to your blacklist.", icon: "ban" },
+          { title: "Ask Permission", body: "Only contact people who'd reasonably expect it.", icon: "check" },
+          { title: "Keep It Short", body: "Three to five questions get more answers.", icon: "clock" },
+          { title: "Say How Data Is Used", body: "Explain storage and use in plain words.", icon: "shield" },
+          { title: "Respect Opt-outs", body: "Add anyone who declines to your blacklist.", icon: "ban" },
         ],
       },
     ],

@@ -41,7 +41,7 @@ function Scan() {
               <span className={`rounded-full px-2 py-0.5 font-semibold ${c > 90 ? "bg-mint-100 text-mint-600" : "bg-amber-100 text-amber-500"}`}>{c}%</span>
             </li>
           ))}
-          <li className="flex gap-2 pt-1"><span className="btn-primary !px-3 !py-1.5 text-xs">Save contact</span><span className="btn-ghost !px-3 !py-1.5 text-xs">Edit</span></li>
+          <li className="flex gap-2 pt-1"><span className="btn-primary !px-3 !py-1.5 text-xs">Save Contact</span><span className="btn-ghost !px-3 !py-1.5 text-xs">Edit</span></li>
         </ul>
       </div>
     </Frame>

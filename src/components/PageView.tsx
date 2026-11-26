@@ -8,6 +8,7 @@ import { SectionBlock, sectionId } from "./Sections";
 import { Visual } from "./Visuals";
 import { JsonLd } from "./JsonLd";
 import { getExtra, isFormExtra } from "./extras";
+import { toTitleCase } from "@/lib/text";
 
 /** Map our content variants/categories onto the reference spec's page types (§5.13). */
 function layoutOf(page: PageDef) {
@@ -33,24 +34,24 @@ function readMinutes(page: PageDef) {
 
 function HeroButtons({ page, isDeal }: { page: PageDef; isDeal: boolean }) {
   if (isDeal) {
-    return <div className="ip-actions"><a href="#form" className="btn-primary">Ask about this offer <ArrowRight className="size-4" aria-hidden /></a></div>;
+    return <div className="ip-actions"><a href="#form" className="btn-primary">Ask About This Offer <ArrowRight className="size-4" aria-hidden /></a></div>;
   }
   const secondary =
     page.variant === "feature" || page.variant === "guide" || page.variant === "reference"
-      ? { href: "/sample-scan", label: "Try a sample scan" }
+      ? { href: "/sample-scan", label: "Try A Sample Scan" }
       : page.variant === "support"
-        ? { href: "/help/contact-support", label: "Contact support" }
-        : { href: "/contact", label: "Contact us" };
+        ? { href: "/help/contact-support", label: "Contact Support" }
+        : { href: "/contact", label: "Contact Us" };
   return (
     <div className="ip-actions">
-      <a href={SITE.signUp} className="btn-primary">Start free <ArrowRight className="size-4" aria-hidden /></a>
+      <a href={SITE.signUp} className="btn-primary">Start Free <ArrowRight className="size-4" aria-hidden /></a>
       <Link href={secondary.href} className="btn-ghost">{secondary.label}</Link>
     </div>
   );
 }
 
 function Hero({ page, centred, isDeal }: { page: PageDef; centred: boolean; isDeal: boolean }) {
-  const eyebrow = page.eyebrow ?? CATEGORIES[page.category].label;
+  const eyebrow = toTitleCase(page.eyebrow ?? CATEGORIES[page.category].label);
   const showVisual = !centred && page.visual !== "none";
   return (
     <header className="ip ip-hero">
@@ -59,7 +60,7 @@ function Hero({ page, centred, isDeal }: { page: PageDef; centred: boolean; isDe
         <div className={`ip-hero-grid ${showVisual ? "has-visual" : ""} ${centred ? "is-centred" : ""}`}>
           <div className={`min-w-0 ${centred ? "mx-auto max-w-3xl" : ""}`}>
             <span className="ip-eyebrow">{eyebrow}</span>
-            <h1 className="ip-h1">{page.h1}</h1>
+            <h1 className="ip-h1">{toTitleCase(page.h1)}</h1>
             <p className="ip-intro">{page.intro}</p>
             <p className="ip-meta">{readMinutes(page)} min read</p>
             <HeroButtons page={page} isDeal={isDeal} />
@@ -74,7 +75,7 @@ function Hero({ page, centred, isDeal }: { page: PageDef; centred: boolean; isDe
               </div>
               <div aria-hidden className="pm-float pm-bl">
                 <span className="pm-float-ic"><ShieldCheck className="size-3.5" /></span>
-                <span><b>Sample data</b><small>Illustration only</small></span>
+                <span><b>Sample Data</b><small>Illustration only</small></span>
               </div>
             </div>
           )}
@@ -104,18 +105,18 @@ export function PageView({ page }: { page: PageDef }) {
             {page.sections.map((s, i) => <SectionBlock key={i} s={s} index={i} />)}
             {formExtra && (
               <section id="form" className="ip-sec" aria-labelledby="form-h">
-                <h2 id="form-h" className="ip-h2">{isDeal ? "Ask about this offer" : "Send us a message"}</h2>
+                <h2 id="form-h" className="ip-h2">{isDeal ? "Ask About This Offer" : "Send Us A Message"}</h2>
                 <div className="mt-6">{extra}</div>
               </section>
             )}
-            {page.slug === "help/faq" && <FaqList faqs={VERIFIED_FAQS} heading="The questions people ask most" />}
-            {page.faqs && page.faqs.length > 0 && <FaqList id="faqs" faqs={page.faqs} heading={page.slug === "help/faq" ? "More questions" : "Questions"} />}
+            {page.slug === "help/faq" && <FaqList faqs={VERIFIED_FAQS} heading="The Questions People Ask Most" />}
+            {page.faqs && page.faqs.length > 0 && <FaqList id="faqs" faqs={page.faqs} heading={page.slug === "help/faq" ? "More Questions" : "Questions"} />}
           </article>
           {withToc && (
             <aside className="hidden lg:block">
               <nav aria-label="On this page" className="ip-toc">
-                <h2>On this page</h2>
-                <ul>{headings.map((h) => <li key={h}><a href={`#${sectionId(h)}`}>{h}</a></li>)}</ul>
+                <h2>On This Page</h2>
+                <ul>{headings.map((h) => <li key={h}><a href={`#${sectionId(h)}`}>{toTitleCase(h)}</a></li>)}</ul>
               </nav>
             </aside>
           )}

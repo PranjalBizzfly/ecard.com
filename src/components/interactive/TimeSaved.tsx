@@ -30,7 +30,7 @@ export function TimeSaved() {
         <p className="text-4xl font-bold">{hours} hours</p><p className="text-ink-300">of typing saved</p>
         <p className="mt-4 text-4xl font-bold">{emails}</p><p className="text-ink-300">intro emails sent for you</p>
         <p className="mt-4 text-xs text-ink-500">Estimates, not promises.</p>
-        <a href={SITE.signUp} className="btn-primary mt-6">Get those hours back</a>
+        <a href={SITE.signUp} className="btn-primary mt-6">Get Those Hours Back</a>
       </div>
     </div>
   );
