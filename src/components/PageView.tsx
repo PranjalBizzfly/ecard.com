@@ -5,7 +5,7 @@ import { CATEGORIES, SITE, VERIFIED_FAQS } from "@/content/site";
 import { getPage, trail } from "@/content/registry";
 import { Breadcrumbs, CtaBand, FaqList, RelatedPages } from "./blocks";
 import { SectionBlock, sectionId } from "./Sections";
-import { Visual } from "./Visuals";
+import { HeroMock, isPhoneMock, mockKindOf } from "./HeroMock";
 import { JsonLd } from "./JsonLd";
 import { getExtra, isFormExtra } from "./extras";
 import { toTitleCase } from "@/lib/text";
@@ -52,33 +52,31 @@ function HeroButtons({ page, isDeal }: { page: PageDef; isDeal: boolean }) {
 
 function Hero({ page, centred, isDeal }: { page: PageDef; centred: boolean; isDeal: boolean }) {
   const eyebrow = toTitleCase(page.eyebrow ?? CATEGORIES[page.category].label);
-  const showVisual = !centred && page.visual !== "none";
+  const kind = mockKindOf(page);
   return (
-    <header className="ip ip-hero">
+    <header className="ip ip-hero" data-layout={centred ? "split-centred" : "split"}>
       <div className="container-x ip-hero-inner">
-        <Breadcrumbs items={trail(page.slug)} centred={centred} />
-        <div className={`ip-hero-grid ${showVisual ? "has-visual" : ""} ${centred ? "is-centred" : ""}`}>
-          <div className={`min-w-0 ${centred ? "mx-auto max-w-3xl" : ""}`}>
+        <Breadcrumbs items={trail(page.slug)} centred={false} />
+        <div className="ip-hero-grid has-visual">
+          <div className="min-w-0">
             <span className="ip-eyebrow">{eyebrow}</span>
             <h1 className="ip-h1">{toTitleCase(page.h1)}</h1>
             <p className="ip-intro">{page.intro}</p>
             <p className="ip-meta">{readMinutes(page)} min read</p>
             <HeroButtons page={page} isDeal={isDeal} />
           </div>
-          {showVisual && (
-            <div className="pm pm-tilt-r">
-              <div aria-hidden className="pm-glow" />
-              <Visual kind={page.visual} />
-              <div aria-hidden className="pm-float pm-tr">
-                <span className="pm-float-ic"><Sparkles className="size-3.5" /></span>
-                <span><b>{eyebrow}</b><small>eCard</small></span>
-              </div>
-              <div aria-hidden className="pm-float pm-bl">
-                <span className="pm-float-ic"><ShieldCheck className="size-3.5" /></span>
-                <span><b>Sample Data</b><small>Illustration only</small></span>
-              </div>
+          <div className={`pm ${isPhoneMock(kind) ? "pm-phone" : "pm-tilt-r"}`}>
+            <div aria-hidden className="pm-glow" />
+            <HeroMock page={page} />
+            <div aria-hidden className="pm-float pm-tr">
+              <span className="pm-float-ic"><Sparkles className="size-3.5" /></span>
+              <span><b>{eyebrow}</b><small>eCard · {toTitleCase(page.title).slice(0, 28)}</small></span>
             </div>
-          )}
+            <div aria-hidden className="pm-float pm-bl">
+              <span className="pm-float-ic"><ShieldCheck className="size-3.5" /></span>
+              <span><b>Sample Data</b><small>Illustration only</small></span>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -102,13 +100,14 @@ export function PageView({ page }: { page: PageDef }) {
         {extra && !formExtra && <div className="mb-12">{extra}</div>}
         <div className={`ip-layout ${withToc ? "has-toc" : ""} ${centred || !withToc ? "is-narrow" : ""}`}>
           <article className="ip-article min-w-0">
-            {page.sections.map((s, i) => <SectionBlock key={i} s={s} index={i} />)}
+            {/* Form pages: the form comes first, directly under the hero. */}
             {formExtra && (
               <section id="form" className="ip-sec" aria-labelledby="form-h">
                 <h2 id="form-h" className="ip-h2">{isDeal ? "Ask About This Offer" : "Send Us A Message"}</h2>
                 <div className="mt-6">{extra}</div>
               </section>
             )}
+            {page.sections.map((s, i) => <SectionBlock key={i} s={s} index={i} />)}
             {page.slug === "help/faq" && <FaqList faqs={VERIFIED_FAQS} heading="The Questions People Ask Most" />}
             {page.faqs && page.faqs.length > 0 && <FaqList id="faqs" faqs={page.faqs} heading={page.slug === "help/faq" ? "More Questions" : "Questions"} />}
           </article>

@@ -3,6 +3,8 @@ import { Geist, Geist_Mono, Instrument_Sans, Inter, Manrope } from "next/font/go
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { TypingHeadings } from "@/components/TypingHeadings";
+import { Motion } from "@/components/Motion";
+import { Intro, introInitScript } from "@/components/Intro";
 import { SITE } from "@/content/site";
 import { themeInitScript } from "@/lib/theme";
 import { ScrollButtons } from "@/components/ScrollButtons";
@@ -53,8 +55,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} ${instrumentSans.variable} ${inter.variable} ${manrope.variable} h-full antialiased`}>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+        <script dangerouslySetInnerHTML={{ __html: introInitScript }} />
       </head>
       <body className="flex min-h-full flex-col">
+        <Intro />
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-lg focus:bg-surface focus:px-4 focus:py-2 focus:shadow">Skip to content</a>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: orgLd }} />
         <Header searchIndex={SEARCH_INDEX} />
@@ -62,6 +66,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Footer />
         <TypingHeadings />
         <ScrollButtons />
+        <Motion />
       </body>
     </html>
   );

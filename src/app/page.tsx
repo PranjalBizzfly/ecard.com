@@ -1,4 +1,5 @@
 import { toTitleCase } from "@/lib/text";
+import { Card3D } from "@/components/home/Card3D";
 import Link from "next/link";
 import { ArrowRight, Check, Bot, Languages, Timer, Gift, Lock, Wallet, type LucideIcon } from "lucide-react";
 import { getPage } from "@/content/registry";
@@ -12,6 +13,7 @@ import { TimeSaved } from "@/components/interactive/TimeSaved";
 import { PricingTable } from "@/components/interactive/PricingTable";
 import { ProductTour } from "@/components/home/ProductTour";
 import { SectionHead } from "@/components/home/SectionHead";
+import { HeroScanStory } from "@/components/home/HeroScanStory";
 import type { IconName, VisualKey } from "@/content/types";
 
 export function generateMetadata() {
@@ -82,7 +84,11 @@ export default function Home() {
         <div className="container-x relative z-10 grid items-center gap-12 py-16 sm:py-24 lg:grid-cols-[1fr_1.12fr]">
           <div className="reveal min-w-0">
             <span className="hm-hr-pill"><span className="hm-hr-dot" aria-hidden />AI visiting-card CRM</span>
-            <h1 className="hm-hr-title mt-5">Every Card You Collect, <span className="hm-accent">Scanned Into A Relationship.</span></h1>
+            <h1 className="hm-hr-title mt-5" data-typed="" aria-label="Every Card You Collect, Scanned Into A Relationship.">
+              <span className="ln-mask" aria-hidden><span className="ln" style={{ animationDelay: "0ms" }}>Every Card You</span></span>{" "}
+              <span className="ln-mask" aria-hidden><span className="ln" style={{ animationDelay: "120ms" }}>Collect, <span className="hm-accent">Scanned</span></span></span>{" "}
+              <span className="ln-mask" aria-hidden><span className="ln hm-accent" style={{ animationDelay: "240ms" }}>Into A Relationship.</span></span>
+            </h1>
             <p className="hm-hr-lead mt-6">eCard reads visiting cards with AI, files them as clean contacts, remembers where you met, and sends the follow-up by email, WhatsApp or your own digital card.</p>
             <div className="mt-9 flex flex-wrap gap-3">
               <a href={SITE.signUp} className="hm-btn hm-btn-primary">Start Free With A 14-Day Pro Trial <ArrowRight className="size-4" aria-hidden /></a>
@@ -90,12 +96,8 @@ export default function Home() {
             </div>
             <ul className="mt-9 flex flex-wrap gap-x-6 gap-y-2.5">{PROOF.map((t) => <li key={t} className="hm-hr-proof"><Check className="size-4" aria-hidden />{t}</li>)}</ul>
           </div>
-          <div className="reveal min-w-0">
-            <div className="hm-stage">
-              <Visual kind="scan" />
-              <div className="hm-float tl" aria-hidden><b>7</b><small>AI models to choose from</small></div>
-              <div className="hm-float br"><b>Paper → digital</b><small>Your own card at ecard.gg/c/you</small></div>
-            </div>
+          <div className="reveal min-w-0" data-depth="" style={{ ["--depth" as string]: "-22px" }}>
+            <HeroScanStory />
           </div>
         </div>
       </section>
@@ -105,6 +107,12 @@ export default function Home() {
         <ul className="container-x grid grid-cols-2 gap-3 py-12 sm:grid-cols-3 sm:gap-5 lg:grid-cols-6">
           {STATS.map(([v, k, I]) => <li key={k} className="hm-stat"><span className="hm-stat-ic" aria-hidden><I /></span><p className="hm-stat-num">{v}</p><p className="mt-2 text-sm font-bold text-ink-950">{k}</p></li>)}
         </ul>
+      </section>
+
+      {/* 2b · Interactive 3D card */}
+      <section className="container-x hm-sec grid items-center gap-10 lg:grid-cols-2">
+        <SectionHead align="left" pill="Your digital card" title="Hand Over A Card" accent="They Can Keep." lead="Every eCard user gets a digital business card with a QR code, Save-to-contacts and a short link that counts opens. This one is a sample. Tilt it and flip it." />
+        <Card3D />
       </section>
 
       {/* 3 · Product tour (plain) */}
@@ -137,9 +145,9 @@ export default function Home() {
         <div className="container-x relative">
           <SectionHead pill="How it works" title="Paper to digital" accent="in four steps." />
           <ol className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
-            {STEPS.map(([i, t, b], n) => (
+            {STEPS.map(([i, t, b]) => (
               <li key={t} className="hm-step">
-                <div className="flex items-start justify-between"><span className="hm-ic-tile" aria-hidden><Icon name={i} /></span><span className="hm-step-num" aria-hidden>{String(n + 1).padStart(2, "0")}</span></div>
+                <span className="hm-ic-tile" aria-hidden><Icon name={i} /></span>
                 <h3 className="mt-6 text-xl font-bold text-ink-950">{toTitleCase(t)}</h3>
                 <p className="mt-3 leading-relaxed text-ink-700">{b}</p>
               </li>

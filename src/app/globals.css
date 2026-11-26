@@ -1,7 +1,10 @@
 @import "tailwindcss";
 @import "../styles/base.css";
 @import "../styles/inner.css";
+@import "../styles/mock.css";
 @import "../styles/home.css";
+@import "../styles/motion.css";
+@import "../styles/intro.css";
 
 /* Class-based dark mode (html.dark), toggled by ThemeToggle and the no-flash script in layout. */
 @custom-variant dark (&:where(.dark, .dark *));

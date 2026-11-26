@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { SITE } from "@/content/site";
 import { DEFAULT_COUNTRY, countryByIso } from "@/content/countries";
 import { FIELD_ORDER, LIMITS, validateAll, validateField, type ContactErrors, type ContactField, type ContactValues } from "@/lib/contact-validation";
 import { CountrySelect } from "./CountrySelect";
@@ -12,9 +11,9 @@ const IDS: Record<ContactField, string> = { name: "cf-name", email: "cf-email", 
 /**
  * Lead form. Errors show while typing once the input is wrong, and for empty fields only
  * after blur or submit. The server route checks everything again; then the visitor's
- * email app opens with the message ready to send to the sales address.
+ * form shows a thank-you message (no email app is opened).
  */
-export function ContactForm({ subject = "eCard enquiry" }: { subject?: string }) {
+export function ContactForm(_props: { subject?: string }) {
   const [values, setValues] = useState<ContactValues>(EMPTY);
   const [touched, setTouched] = useState<Partial<Record<ContactField, boolean>>>({});
   const [submitted, setSubmitted] = useState(false);
@@ -52,10 +51,10 @@ export function ContactForm({ subject = "eCard enquiry" }: { subject?: string })
         if (bad) document.getElementById(IDS[bad])?.focus();
         return;
       }
-      const v = Object.fromEntries(Object.entries(values).map(([k, x]) => [k, x.trim()])) as ContactValues;
-      const body = `Name: ${v.name}\nEmail: ${v.email}\nPhone: ${data.phone}\nCompany: ${v.company || "-"}\n\n${v.message}`;
-      window.location.href = `mailto:${SITE.salesEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       setStatus("sent");
+      setValues(EMPTY);
+      setTouched({});
+      setSubmitted(false);
     } catch {
       setStatus("failed");
     }
@@ -114,12 +113,12 @@ export function ContactForm({ subject = "eCard enquiry" }: { subject?: string })
         {errText("message", message.err)}
       </div>
       <button type="submit" disabled={status === "sending"} className="btn-primary w-full sm:w-auto sm:justify-self-start">
-        {status === "sending" ? "Checking…" : "Open Email To Send"}
+        {status === "sending" ? "Submitting…" : "Submit"}
       </button>
-      <p className="text-xs text-ink-500" aria-live="polite">
-        {status === "sent" ? "Your email app should now be open with the message ready to send."
+      <p className={`text-sm ${status === "sent" ? "font-semibold text-mint-600" : "text-ink-500"}`} aria-live="polite">
+        {status === "sent" ? "Thank you! Your message has been submitted. We'll get back to you soon."
           : status === "failed" ? "Please fix the highlighted fields and try again."
-          : `This opens your email app addressed to ${SITE.salesEmail}.`}
+          : ""}
       </p>
     </form>
   );

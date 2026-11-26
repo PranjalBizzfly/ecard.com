@@ -1,0 +1,109 @@
+/* Motion layer (components/Motion.tsx). Only active when html.mo-on is set, which
+   Motion.tsx skips for visitors who prefer reduced motion. Reveals use the individual
+   translate/rotate/scale properties so they never fight a component's own transform. */
+@layer components {
+  .mo-on [data-mo] {
+    --mo-d: calc(var(--mo-i, 0) * 70ms);
+    transition: opacity .7s var(--mo-d) ease, translate .8s var(--mo-d) cubic-bezier(.2,.8,.2,1), rotate .9s var(--mo-d) cubic-bezier(.2,.8,.2,1), scale .7s var(--mo-d) cubic-bezier(.34,1.56,.64,1), clip-path .9s var(--mo-d) cubic-bezier(.7,0,.2,1), filter .7s var(--mo-d) ease;
+  }
+  .mo-on [data-mo]:not(.mo-in) { opacity: 0; }
+
+  /* Headings: wipe in from the left. */
+  .mo-on [data-mo="wipe"]:not(.mo-in) { clip-path: inset(0 100% 0 0); translate: -12px 0; }
+  .mo-on [data-mo="wipe"].mo-in { clip-path: inset(-10% -2% -10% 0); }
+  /* Feature cards: flip up in 3D. */
+  .mo-on [data-mo="flip"] { transform-origin: 50% 100%; }
+  .mo-on [data-mo="flip"]:not(.mo-in) { rotate: x 38deg; translate: 0 30px; }
+  /* Steps: slide in from alternating sides. */
+  .mo-on [data-mo="slide"][data-side="l"]:not(.mo-in) { translate: -48px 0; }
+  .mo-on [data-mo="slide"][data-side="r"]:not(.mo-in) { translate: 48px 0; }
+  /* Tables: unfold top to bottom. */
+  .mo-on [data-mo="unfold"]:not(.mo-in) { clip-path: inset(0 0 100% 0); }
+  .mo-on [data-mo="unfold"].mo-in { clip-path: inset(0 0 0 0); }
+  /* Callouts: springy pop. */
+  .mo-on [data-mo="pop"]:not(.mo-in) { scale: .85; }
+  /* Split columns: drift up with blur. */
+  .mo-on [data-mo="drift"]:not(.mo-in) { translate: 0 24px; filter: blur(6px); }
+  /* Related pages: fan out like dealt cards. */
+  .mo-on [data-mo="fan"] { transform-origin: 50% 120%; }
+  .mo-on [data-mo="fan"]:not(.mo-in) { rotate: z -9deg; translate: 0 40px; }
+  /* Stats: rise and grow. */
+  .mo-on [data-mo="rise"]:not(.mo-in) { translate: 0 36px; scale: .9; }
+  /* Home steps: swing down like a hanging sign. */
+  .mo-on [data-mo="swing"] { transform-origin: 50% 0; }
+  .mo-on [data-mo="swing"]:not(.mo-in) { rotate: x -70deg; }
+  /* FAQ and forms: zoom out from slightly larger. */
+  .mo-on [data-mo="zoom"]:not(.mo-in) { scale: 1.06; filter: blur(4px); }
+  /* Paragraphs: gentle fade up. */
+  .mo-on [data-mo="fade"]:not(.mo-in) { translate: 0 14px; }
+
+  /* 3D tilt with a light that follows the pointer. */
+  .mo-on :is(.ip-card, .hm-step, .hm-stat, .hm-card-hover, .ip-faq-box) { transform-style: preserve-3d; }
+  .mo-on .mo-tilting {
+    transform: perspective(900px) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)) translateZ(6px) !important;
+    transition: transform .12s ease-out !important;
+    background-image: radial-gradient(420px circle at var(--mx, 50%) var(--my, 50%), color-mix(in srgb, var(--color-brand-600, #7f19f7) 14%, transparent), transparent 60%);
+  }
+  .mo-on :is(.ip-card, .hm-step, .hm-stat, .hm-card-hover):not(.mo-tilting) { transition: transform .5s cubic-bezier(.2,.8,.2,1), box-shadow .3s; }
+  .mo-on .mo-tilting :is(.ip-ic, .hm-ic-tile, .hm-stat-ic, .mg-ic) { transform: translateZ(28px); transition: transform .2s; }
+
+  /* Magnetic buttons. */
+  .mo-on :is(.btn-primary, .btn-ghost, .hm-btn, .hm-outline, .hdr-cta, .ip-cta-btn) { position: relative; overflow: hidden; transition: translate .35s cubic-bezier(.2,.8,.2,1), box-shadow .3s, background-color .2s, color .2s; }
+  .mo-on .mo-magnet { translate: var(--bx, 0) var(--by, 0); }
+  .mo-ripple { position: absolute; width: 12px; height: 12px; margin: -6px 0 0 -6px; border-radius: 50%; background: rgb(255 255 255 / .45); pointer-events: none; animation: mo-ripple .6s ease-out forwards; }
+  @keyframes mo-ripple { to { transform: scale(26); opacity: 0; } }
+
+  /* Hero mockups: parallax depth that follows the pointer. */
+  .mo-on .pm { transition: translate .4s ease-out; translate: calc(var(--px, 0) * -26px) calc(var(--py, 0) * -20px); }
+  .mo-on .pm .pm-float { transition: translate .4s ease-out; translate: calc(var(--px, 0) * 34px) calc(var(--py, 0) * 26px); }
+  .mo-on .hm-hero [data-depth] { transition: translate .5s ease-out; translate: calc(var(--px, 0) * var(--depth, 20px)) calc(var(--py, 0) * var(--depth, 20px)); }
+
+  /* Scroll progress. */
+  .mo-progress { position: fixed; inset: 0 0 auto; z-index: 200; height: 3px; transform-origin: 0 50%; transform: scaleX(0); background: linear-gradient(90deg, #ba6afb, #7f19f7, #3202b8); pointer-events: none; }
+
+  /* FAQ answer opens with a slide. */
+  .mo-on .ip-faq-item [role=region]:not([hidden]) { animation: mo-open .35s cubic-bezier(.2,.8,.2,1); }
+  @keyframes mo-open { from { opacity: 0; translate: 0 -8px; } }
+}
+
+/* Interactive 3D business card (components/home/Card3D.tsx). */
+@layer components {
+  .c3-stage { display: grid; justify-items: center; gap: 1rem; perspective: 1100px; padding: 1rem 0; }
+  .c3-card {
+    --cx: 0deg; --cy: 0deg; position: relative; width: min(100%, 22rem); aspect-ratio: 1.75; cursor: pointer; border-radius: 1.25rem;
+    transform-style: preserve-3d; transform: rotateX(var(--cx)) rotateY(calc(var(--cy) + var(--flip, 0deg)));
+    transition: transform .6s cubic-bezier(.2,.8,.2,1); outline: none; animation: c3-idle 6s ease-in-out infinite;
+  }
+  .c3-card:hover, .c3-card:focus-visible { animation-play-state: paused; }
+  .c3-card:focus-visible { box-shadow: 0 0 0 3px var(--color-brand-600, #7f19f7); }
+  .c3-card.is-flipped { --flip: 180deg; }
+  .c3-face {
+    position: absolute; inset: 0; display: flex; flex-direction: column; padding: 1.25rem 1.4rem; border-radius: inherit; overflow: hidden;
+    backface-visibility: hidden; transform-style: preserve-3d; color: #fff;
+    background: linear-gradient(135deg, #ba6afb, #7f19f7 45%, #3202b8); box-shadow: 0 30px 60px -20px rgb(50 2 184 / .55);
+  }
+  .c3-back { transform: rotateY(180deg); align-items: center; justify-content: center; text-align: center; background: linear-gradient(135deg, #1b1033, #3202b8); }
+  .c3-layer { transform: translateZ(var(--z, 20px)); }
+  .c3-logo { display: grid; place-items: center; width: 2.4rem; height: 2.4rem; border-radius: .75rem; background: rgb(255 255 255 / .18); font-weight: 800; backdrop-filter: blur(4px); }
+  .c3-name { font-size: 1.35rem; font-weight: 800; letter-spacing: -.01em; }
+  .c3-role { font-size: .8rem; opacity: .85; }
+  .c3-info { position: absolute; right: 1.2rem; top: 1.1rem; display: grid; gap: .3rem; font-size: .68rem; text-align: right; opacity: .9; }
+  .c3-info li { display: flex; align-items: center; justify-content: flex-end; gap: .35rem; }
+  .c3-info svg { width: .8rem; height: .8rem; }
+  .c3-qr { position: relative; display: grid; place-items: center; width: 5.5rem; height: 5.5rem; border-radius: 1rem; background: #fff; color: #1b1033; }
+  .c3-qr svg { width: 4rem; height: 4rem; }
+  .c3-pulse { position: absolute; inset: -6px; border-radius: 1.3rem; border: 2px solid rgb(255 255 255 / .7); animation: c3-pulse 2s ease-out infinite; }
+  .c3-link { margin-top: .9rem; font-weight: 700; }
+  .c3-hint { font-size: .75rem; opacity: .75; }
+  .c3-glare { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(circle at var(--gx, 30%) var(--gy, 20%), rgb(255 255 255 / .35), transparent 55%); mix-blend-mode: soft-light; }
+  .c3-help { display: inline-flex; align-items: center; gap: .4rem; font-size: .8rem; color: var(--color-ink-500); }
+  .c3-help svg { width: .9rem; height: .9rem; }
+  @keyframes c3-idle { 0%, 100% { translate: 0 0; } 50% { translate: 0 -10px; } }
+  @keyframes c3-pulse { from { opacity: 1; scale: 1; } to { opacity: 0; scale: 1.25; } }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mo-progress { display: none; }
+  .c3-card, .c3-pulse { animation: none; }
+  .c3-card { transition: none; }
+}
