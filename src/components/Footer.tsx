@@ -5,6 +5,7 @@ import { CREDIT, SITE, SOCIAL } from "@/content/site";
 import { PAYMENT_MARKS, SocialIcon } from "./FooterIcons";
 import { FooterColumns } from "./FooterColumns";
 import { PLAN } from "@/content/plan";
+import { resolveItem } from "@/content/registry";
 import type { CategoryKey } from "@/content/types";
 
 type Group = { title: string; key: CategoryKey; items: [string, string][]; all?: boolean };
@@ -54,6 +55,9 @@ const G = {
   deals: { title: "Deals", key: "deals", items: PLAN.deals, all: true },
 } satisfies Record<string, Group>;
 
+// Footer links use each page's current URL and its exact page title.
+for (const g of Object.values(G)) g.items = g.items.map(resolveItem);
+
 // Column placement follows the reference: short reference groups under the brand,
 // the long sitemap in the flowing middle, partner/resources groups in the CTA column.
 // The brand column holds the short reference groups; every other group flows through
@@ -77,8 +81,8 @@ const WHY = [
 ];
 
 const FEATURED = [
-  { icon: ScanLine, label: "AI Card Scanning", body: "Your model, reviewed before saving", href: "/features/ai-card-scanning", tag: "Scan" },
-  { icon: ShieldCheck, label: "Trust Centre", body: "2FA, audit log, encrypted keys", href: "/trust", tag: "Secure" },
+  { icon: ScanLine, label: "AI Card Scanning", body: "Your model, reviewed before saving", href: "/ai-card-scanning", tag: "Scan" },
+  { icon: ShieldCheck, label: "Trust Centre", body: "2FA, audit log, encrypted keys", href: "/trust-centre", tag: "Secure" },
   { icon: LifeBuoy, label: "Help Centre", body: "Guides and answers", href: "/support/help-centre", tag: "Support" },
   { icon: IndianRupee, label: "Pricing", body: "Free plan · 14-day trial", href: "/pricing", tag: "Plans" },
 ];
@@ -140,10 +144,10 @@ export function Footer() {
       <div className="foot-bottom">
         <div className="inner">
           <div className="fb-links">
-            <Link href="/legal/privacy-policy">Privacy</Link>
-            <Link href="/legal/terms-of-service">Terms</Link>
-            <Link href="/legal/cookie-policy">Cookies</Link>
-            <Link href="/site-index">Explore all {TOTAL} pages</Link>
+            <Link href="/legal-centre/privacy-policy">Privacy Policy</Link>
+            <Link href="/legal-centre/terms-of-service">Terms Of Service</Link>
+            <Link href="/legal-centre/cookie-policy">Cookie Policy</Link>
+            <Link href="/explore-all-pages">Explore all {TOTAL} pages</Link>
             <a href={SITE.signIn}>Sign in</a>
           </div>
           <div className="foot-pay-wrap">

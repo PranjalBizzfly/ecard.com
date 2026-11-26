@@ -15,7 +15,7 @@ function GroupList({ g }: { g: FooterGroup }) {
     <nav className="foot-col" aria-label={g.title} data-fgroup>
       <h2>{g.title}</h2>
       <ul>{shown.map(([slug, title]) => <li key={slug}><Link href={`/${slug}`}>{title}</Link></li>)}</ul>
-      {shown.length < g.items.length && <Link href={`/site-index#${g.key}`} className="foot-more">All {g.items.length} pages</Link>}
+      {shown.length < g.items.length && <Link href={`/explore-all-pages#${g.key}`} className="foot-more">All {g.items.length} pages</Link>}
     </nav>
   );
 }

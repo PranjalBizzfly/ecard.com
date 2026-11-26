@@ -1,4 +1,5 @@
 import type { CategoryKey, PageDef } from "./types";
+import { remapSlugs } from "./remap";
 import { pages as company } from "./pages/company";
 import { pages as platform } from "./pages/platform";
 import { pages as scanning } from "./pages/scanning";
@@ -36,7 +37,7 @@ import { pages as customers } from "./pages/customers";
 import { pages as offerings } from "./pages/offerings";
 import { pages as aboutus } from "./pages/aboutus";
 
-export const ALL_PAGES: PageDef[] = [
+const SOURCE_PAGES: PageDef[] = [
   ...company, ...platform, ...scanning, ...crm, ...cards, ...outreach, ...telegram, ...meetings,
   ...events, ...analytics, ...team, ...integrations, ...solutions, ...pricing, ...mobile,
   ...resources, ...support, ...legal, ...more,
@@ -44,6 +45,11 @@ export const ALL_PAGES: PageDef[] = [
   ...helpdesk, ...contacts, ...legalhub, ...customerSites, ...businessSites, ...developerSites,
   ...corporateSites, ...reportingSites, ...deals,
 ];
+
+/** URLs are derived from page titles (see remap.ts). OLD_TO_NEW keeps legacy paths redirecting. */
+const REMAPPED = remapSlugs(SOURCE_PAGES);
+export const ALL_PAGES: PageDef[] = REMAPPED.pages;
+export const OLD_TO_NEW = REMAPPED.oldToNew;
 
 const bySlug = new Map(ALL_PAGES.map((p) => [p.slug, p]));
 
@@ -62,3 +68,14 @@ export function trail(slug: string) {
   }
   return out;
 }
+
+const byOldSlug = new Map(SOURCE_PAGES.map((p, i) => [p.slug, ALL_PAGES[i]]));
+/** Map a legacy [slug, label] plan entry to the page's current [slug, title]. */
+export function resolveItem([s, t]: [string, string]): [string, string] {
+  const p = byOldSlug.get(s) ?? bySlug.get(s);
+  return p ? [p.slug, p.title] : [s, t];
+}
+/** Current URL path for a legacy route key (e.g. the free plan's old key maps to its title-based path). */
+export const pathFor = (oldSlug: string) => href(resolveItem([oldSlug, ""])[0]);
+/** Current page title for a legacy route key. */
+export const titleFor = (oldSlug: string) => resolveItem([oldSlug, oldSlug])[1];

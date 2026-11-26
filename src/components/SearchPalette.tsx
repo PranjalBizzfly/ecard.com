@@ -10,8 +10,8 @@ export type SearchEntry = { t: string; h: string; c: string };
 
 /** Pages shown before the visitor types anything (reference: "Start here"). */
 const START_HERE = [
-  "/features/ai-card-scanning", "/features/digital-business-card", "/features/outreach",
-  "/features/meeting-memory", "/pricing", "/contact-sales",
+  "/ai-card-scanning", "/digital-business-card", "/email-and-whatsapp-outreach",
+  "/meeting-memory", "/pricing", "/contact-sales",
 ];
 
 const norm = (s: string) => s.toLowerCase().normalize("NFKD").replace(/[^\p{L}\p{N} ]/gu, " ");
@@ -99,7 +99,7 @@ export function SearchPalette({ index, open, onClose }: { index: SearchEntry[]; 
           {!results.length && <p className="srch-hint">Nothing matches &ldquo;{q}&rdquo;. Try a feature, integration or industry name.</p>}
           <p className="srch-hint">Type to search every page on the site. Use ↑ ↓ to move, Enter to open.</p>
         </div>
-        <Link href="/site-index" onClick={close} className="srch-foot">
+        <Link href="/explore-all-pages" onClick={close} className="srch-foot">
           <span className="flex items-center gap-2"><LayoutGrid aria-hidden />Explore All Pages</span>
           <span className="srch-count">{index.length} Pages <ArrowRight aria-hidden /></span>
         </Link>

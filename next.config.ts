@@ -22,10 +22,10 @@ const nextConfig: NextConfig = {
       // www → apex canonical domain (architecture item 2)
       { source: "/:path*", has: [{ type: "host", value: "www.ecard.gg" }], destination: "https://ecard.gg/:path*", permanent: true },
       // Architecture legal URLs → existing policy pages (avoid duplicate content)
-      { source: "/legal/terms", destination: "/legal/terms-of-service", permanent: true },
-      { source: "/legal/privacy", destination: "/legal/privacy-policy", permanent: true },
-      { source: "/legal/cookies", destination: "/legal/cookie-policy", permanent: true },
-      { source: "/legal/dpa", destination: "/legal/data-processing", permanent: true },
+      { source: "/legal/terms", destination: "/legal-centre/terms-of-service", permanent: true },
+      { source: "/legal/privacy", destination: "/legal-centre/privacy-policy", permanent: true },
+      { source: "/legal/cookies", destination: "/legal-centre/cookie-policy", permanent: true },
+      { source: "/legal/dpa", destination: "/legal-centre/data-processing", permanent: true },
     ];
   },
 };

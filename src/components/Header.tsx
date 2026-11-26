@@ -54,7 +54,7 @@ export function Header({ searchIndex }: { searchIndex: SearchEntry[] }) {
 
   return (
     <header className="site-header" ref={ref}>
-      <Link href="/product/whats-new-telegram" className="hdr-announce">
+      <Link href="/new-telegram-bot" className="hdr-announce">
         <span className="mr-2 rounded-full bg-brand-600 px-2 py-0.5 font-semibold text-white">New</span>
         Telegram bot: snap a card, it&apos;s saved and emailed <ArrowRight className="inline size-3" aria-hidden />
       </Link>
@@ -136,7 +136,8 @@ export function Header({ searchIndex }: { searchIndex: SearchEntry[] }) {
                 <X aria-hidden />
               </button>
             </div>
-            <nav aria-label="Mobile" className="space-y-2 p-4">
+            <nav aria-label="Mobile" className="space-y-1.5 p-3">
+              <Link href="/" className="m-group block px-3.5 py-2.75 font-bold text-ink-950">Home</Link>
               {NAV.map((g) => (
                 <details key={g.label} className="m-group">
                   <summary>{g.label} <ChevronDown aria-hidden /></summary>
@@ -155,7 +156,8 @@ export function Header({ searchIndex }: { searchIndex: SearchEntry[] }) {
                   </ul>
                 </details>
               ))}
-              <Link href="/pricing" className="m-group block px-4 py-3.5 font-bold text-ink-950">Pricing</Link>
+              <Link href="/pricing" className="m-group block px-3.5 py-2.75 font-bold text-ink-950">Pricing</Link>
+              <Link href="/contact" className="m-group block px-3.5 py-2.75 font-bold text-ink-950">Contact</Link>
               <div className="grid grid-cols-2 gap-2 pt-2">
                 <a href={SITE.signIn} className="btn-ghost">Sign In</a>
                 <a href={SITE.signUp} className="btn-primary">Start Free</a>

@@ -491,7 +491,7 @@ const base: PageDef[] = [
   {
     slug: "site-index",
     category: "company",
-    title: "Site Index",
+    title: "Explore All Pages",
     seoTitle: "eCard Site Index",
     description: "Browse every section of the eCard website: platform, features, integrations, use cases, pricing, mobile, guides, help centre and legal pages.",
     h1: "Everything On This Site, In One Place",

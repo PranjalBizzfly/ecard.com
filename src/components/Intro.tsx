@@ -23,9 +23,7 @@ function Line({ text, start }: { text: string; start: number }) {
           {[...word].map((ch) => {
             const idx = i++;
             return (
-              <span key={idx} className="intro-mask">
-                <span className="intro-char" style={{ ["--i" as string]: idx - start }}>{ch}</span>
-              </span>
+              <span key={idx} className="intro-char" style={{ ["--i" as string]: idx - start }}>{ch}</span>
             );
           })}
           {" "}

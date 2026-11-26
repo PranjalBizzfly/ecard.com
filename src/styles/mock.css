@@ -255,3 +255,18 @@ img, svg { image-rendering: auto; }
   .ip-hero-grid.has-visual > .pm { max-width: 780px; }
   .pm { font-size: 14px; }
 }
+
+/* ---- Phones/tablets: keep the hero and its mock-up inside the screen ---- */
+@media (max-width: 1023px) { .ip-hero-grid { grid-template-columns: minmax(0, 1fr); } }
+.ip-hero-grid > *, .pm, .pm-window, .hx-body, .hx-head, .hx-head > * { min-width: 0; max-width: 100%; }
+.pm-window { width: 100%; }
+@media (max-width: 639px) {
+  .pm { padding-inline: 0; }
+  .hx-node { width: 92px; }
+  .hx-cols { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hx-cols > :nth-child(3) { display: none; }
+}
+/* Homepage product tour: keep the mock card inside its stage on phones */
+.hm-mk-stage { grid-template-columns: minmax(0, 1fr); }
+.hm-mk-card, .hm-mk-card .pm-window { min-width: 0; max-width: 100%; }
+.hm-mk-card { justify-self: center; }

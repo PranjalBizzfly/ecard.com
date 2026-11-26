@@ -79,7 +79,7 @@ const OVERVIEW_CATS: CategoryKey[] = [
 ];
 
 export function mockKindOf(page: PageDef): MockKind {
-  const slug = page.slug.toLowerCase();
+  const slug = (page.id ?? page.slug).toLowerCase();
   const has = (...k: string[]) => k.some((x) => slug.includes(x));
   const wa = has("whatsapp", "hindi", "marathi", "multilingual", "multi-language");
   switch (page.category) {
@@ -251,7 +251,7 @@ function EmailMock({ items, title }: T) {
 }
 
 function WhatsAppMock({ page, items, title }: T) {
-  const s = page.slug;
+  const s = page.id ?? page.slug;
   const lang = s.includes("marathi") ? WA_LANGUAGES[2] : s.includes("hindi") ? WA_LANGUAGES[1] : WA_LANGUAGES[0];
   const msg = s.includes("marathi") ? "नमस्कार! आज भेटून आनंद झाला." : s.includes("hindi") ? "नमस्ते! आज मिलकर अच्छा लगा।" : "Hi! Great meeting you today.";
   const line = take(items, 1, ["Here is my digital card"], 48)[0];
@@ -397,7 +397,7 @@ function PipelineMock({ items, r, title }: T) {
 }
 
 function PricingMock({ page, title }: T) {
-  const slug = page.slug;
+  const slug = page.id ?? page.slug;
   const pick = PLANS.find((p) => p.price !== null && slug.endsWith(`/${p.id}`)) ?? PLANS.find((p) => p.popular)!;
   const other = PLANS.find((p) => p.id === (pick.id === "starter" ? "free" : "starter"))!;
   const card = (p: typeof pick, main: boolean) => (

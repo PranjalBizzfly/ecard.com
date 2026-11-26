@@ -45,7 +45,7 @@ export function TypingHeadings() {
 
     const io = new IntersectionObserver((entries) => {
       for (const e of entries) if (e.isIntersecting) { io.unobserve(e.target); type(e.target as HTMLElement); }
-    }, { threshold: 0.2 });
+    }, { threshold: 0, rootMargin: "0px 0px -5% 0px" });
 
     document.querySelectorAll<HTMLElement>(SELECTOR).forEach((h) => { if (h.dataset.typed === undefined) io.observe(h); });
     return () => io.disconnect();

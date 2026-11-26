@@ -48,7 +48,7 @@ export function CtaBand({ title = "Turn Your Next Stack Of Cards Into Relationsh
         <p className="relative mx-auto mt-3 max-w-xl text-white/75">{body}</p>
         <div className="relative mt-7 flex flex-wrap justify-center gap-3">
           <a href={SITE.signUp} className="ip-cta-btn">Start Free <ArrowRight className="size-4" aria-hidden /></a>
-          <Link href="/pricing" className="ip-cta-btn is-ghost">View Pricing</Link>
+          <Link href="/pricing" className="ip-cta-btn is-ghost">Pricing</Link>
         </div>
       </div>
     </section>

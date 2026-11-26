@@ -28,6 +28,8 @@ export interface FAQ { q: string; a: string }
 export interface PageDef {
   /** Path without leading slash, e.g. "features/ai-card-scanning". Empty string = homepage. */
   slug: string;
+  /** Stable internal key (the original route key); set automatically, never shown. */
+  id?: string;
   category: CategoryKey;
   /** Short title used in nav, cards, breadcrumbs. */
   title: string;

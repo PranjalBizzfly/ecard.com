@@ -12,8 +12,8 @@ export default function NotFound() {
           <p className="ip-intro mx-auto">The link may be old or mistyped. Try one of these instead.</p>
           <div className="ip-actions justify-center">
             <Link href="/" className="btn-primary">Go Home</Link>
-            <Link href="/site-index" className="btn-ghost">Browse All Pages</Link>
-            <Link href="/help" className="btn-ghost">Help Center</Link>
+            <Link href="/explore-all-pages" className="btn-ghost">Browse All Pages</Link>
+            <Link href="/help-center" className="btn-ghost">Help Center</Link>
           </div>
         </div>
       </div>

@@ -12,9 +12,9 @@ import { toTitleCase } from "@/lib/text";
 
 /** Map our content variants/categories onto the reference spec's page types (§5.13). */
 function layoutOf(page: PageDef) {
-  const centred = page.category === "aboutus" || page.category === "company" || page.category === "corporate" || page.slug === "help/faq";
+  const centred = page.category === "aboutus" || page.category === "company" || page.category === "corporate" || page.id === "help/faq";
   const tocType = page.variant === "guide" || page.variant === "support" || page.variant === "legal";
-  return { centred, tocType, isDeal: page.slug.startsWith("deals/") };
+  return { centred, tocType, isDeal: (page.id ?? page.slug).startsWith("deals/") };
 }
 
 function readMinutes(page: PageDef) {
@@ -38,10 +38,10 @@ function HeroButtons({ page, isDeal }: { page: PageDef; isDeal: boolean }) {
   }
   const secondary =
     page.variant === "feature" || page.variant === "guide" || page.variant === "reference"
-      ? { href: "/sample-scan", label: "Try A Sample Scan" }
+      ? { href: "/try-a-sample-scan", label: "Try A Sample Scan" }
       : page.variant === "support"
-        ? { href: "/help/contact-support", label: "Contact Support" }
-        : { href: "/contact", label: "Contact Us" };
+        ? { href: "/help-center/contact-support", label: "Contact Support" }
+        : { href: "/contact", label: "Contact" };
   return (
     <div className="ip-actions">
       <a href={SITE.signUp} className="btn-primary">Start Free <ArrowRight className="size-4" aria-hidden /></a>
@@ -89,8 +89,8 @@ export function PageView({ page }: { page: PageDef }) {
   const headings = page.sections.flatMap((s) => ("heading" in s ? [s.heading] : []));
   const withToc = !centred && headings.length > 2 && (tocType || headings.length > 3);
   const crumbs = trail(page.slug);
-  const extra = getExtra(page.slug, page.title);
-  const formExtra = extra && isFormExtra(page.slug);
+  const extra = getExtra(page.id ?? page.slug, page.title);
+  const formExtra = extra && isFormExtra(page.id ?? page.slug);
 
   return (
     <>
@@ -108,8 +108,8 @@ export function PageView({ page }: { page: PageDef }) {
               </section>
             )}
             {page.sections.map((s, i) => <SectionBlock key={i} s={s} index={i} />)}
-            {page.slug === "help/faq" && <FaqList faqs={VERIFIED_FAQS} heading="The Questions People Ask Most" />}
-            {page.faqs && page.faqs.length > 0 && <FaqList id="faqs" faqs={page.faqs} heading={page.slug === "help/faq" ? "More Questions" : "Questions"} />}
+            {page.id === "help/faq" && <FaqList faqs={VERIFIED_FAQS} heading="The Questions People Ask Most" />}
+            {page.faqs && page.faqs.length > 0 && <FaqList id="faqs" faqs={page.faqs} heading={page.id === "help/faq" ? "More Questions" : "Questions"} />}
           </article>
           {withToc && (
             <aside className="hidden lg:block">

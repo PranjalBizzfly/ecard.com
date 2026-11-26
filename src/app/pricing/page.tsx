@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getPage, trail } from "@/content/registry";
+import { getPage, trail, pathFor, titleFor } from "@/content/registry";
 import { pageMetadata } from "@/lib/seo";
 import { BASE_FEATURES, PLANS } from "@/content/site";
 import { PricingTable } from "@/components/interactive/PricingTable";
@@ -60,11 +60,11 @@ export default function PricingPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-4 text-sm text-ink-500">Plan details verified from ecard.gg/pricing. See <Link href="/pricing/billing-and-payments" className="font-bold text-brand-600 hover:underline">billing & payments</Link> and the <Link href="/pricing/free-trial" className="font-bold text-brand-600 hover:underline">14-day trial</Link>.</p>
+          <p className="mt-4 text-sm text-ink-500">Plan details verified from ecard.gg/pricing. See <Link href="/pricing/billing-and-payments" className="font-bold text-brand-600 hover:underline">Billing & Payments</Link> and the <Link href="/pricing/14-day-free-trial" className="font-bold text-brand-600 hover:underline">14-Day Free Trial</Link>.</p>
         </section>
 
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-          {PLANS.map((p) => <li key={p.id}><Link href={`/pricing/${p.id}`} className="ip-card flex h-full flex-col"><span className="ip-kicker">Plan</span><span className="mt-2 text-lg font-extrabold text-ink-950">{p.name} Plan</span><span className="mt-3 text-sm font-bold text-brand-600">Full Details →</span></Link></li>)}
+          {PLANS.map((p) => <li key={p.id}><Link href={pathFor(`pricing/${p.id}`)} className="ip-card flex h-full flex-col"><span className="ip-kicker">Plan</span><span className="mt-2 text-lg font-extrabold text-ink-950">{titleFor(`pricing/${p.id}`)}</span><span className="mt-3 text-sm font-bold text-brand-600">Full Details →</span></Link></li>)}
         </ul>
 
         {page.faqs && <div className="mt-12"><FaqList id="faqs" faqs={page.faqs} heading="Pricing questions" /></div>}

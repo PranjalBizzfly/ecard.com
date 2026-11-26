@@ -18,6 +18,6 @@ export default async function Page({ params }: PageProps<"/[...slug]">) {
   const { slug } = await params;
   const page = getPage(slug.join("/"));
   if (!page || page.custom) notFound();
-  if (page.slug === "site-index") return <DirectoryPage page={page} />;
+  if (page.id === "site-index") return <DirectoryPage page={page} />;
   return <PageView page={page} />;
 }

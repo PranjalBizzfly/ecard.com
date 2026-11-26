@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 /**
  * Site-wide motion layer. Finds elements by class and gives each kind its own effect:
- *  - scroll reveals: headings wipe in, cards flip up in 3D, steps slide from alternating sides,
+ *  - scroll reveals (headings are left to TypingHeadings): cards flip up in 3D, steps slide from alternating sides,
  *    tables unfold, callouts pop, stats count up, related cards fan out
  *  - pointer: 3D tilt with a moving light on cards, magnetic buttons, click ripples,
  *    parallax depth on hero mockups
@@ -13,7 +13,6 @@ import { usePathname } from "next/navigation";
  * Everything is skipped when the visitor prefers reduced motion.
  */
 const REVEAL: [selector: string, effect: string][] = [
-  [".ip-h2, .hm-title", "wipe"],
   [".ip-cards > li, .hm-uc-item", "flip"],
   [".ip-steps > li", "slide"],
   [".ip-table", "unfold"],
