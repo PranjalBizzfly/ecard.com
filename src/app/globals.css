@@ -1,44 +1,124 @@
 @import "tailwindcss";
+@import "../styles/base.css";
+@import "../styles/inner.css";
+@import "../styles/home.css";
 
-/* eCard design tokens — see docs/design-system.md */
+/* Class-based dark mode (html.dark), toggled by ThemeToggle and the no-flash script in layout. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* eCard design tokens — see docs/design-system.md.
+   Palette derived from the official logo gradient #BA6AFB → #7F19F7 → #3202B8.
+   These are the LIGHT values; html.dark below overrides them. */
 @theme {
-  --color-ink-950: #0a1020;
-  --color-ink-900: #111a2e;
-  --color-ink-700: #33405a;
-  --color-ink-500: #5f6b82;
-  --color-ink-300: #aeb6c6;
-  --color-ink-100: #e8ecf3;
-  --color-ink-50: #f5f7fb;
-  /* From official logo: #BA6AFB → #7F19F7 → #3202B8 */
+  /* Neutrals with a faint violet undertone (premium, on-brand) */
+  --color-ink-950: #14102a;
+  --color-ink-900: #1f1a36;
+  --color-ink-700: #3d3757;
+  --color-ink-500: #6b6685;
+  --color-ink-300: #b4afc8;
+  --color-ink-100: #ebe7f7;
+  --color-ink-50: #f7f5ff;
+  /* Surfaces */
+  --color-surface: #ffffff;
+  --color-page: #ffffff;
+  /* Always-dark sections (announcement bar, CTA bands, dark heroes, footer) */
+  --color-night: #0f0b1f; /* ecard.gg marketing --night (light) */
+  /* Brand */
   --color-brand-800: #3202b8;
   --color-brand-700: #5310d8;
   --color-brand-600: #7f19f7;
   --color-brand-400: #ba6afb;
   --color-brand-100: #efe3ff;
   --color-brand-50: #f8f2ff;
+  /* Status */
   --color-mint-600: #0f9d77;
   --color-mint-100: #dcf5ec;
-  --color-amber-500: #f0a020;
+  --color-amber-500: #e0901a;
   --color-amber-100: #fdf0d6;
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   --font-brand: var(--font-instrument-sans), var(--font-geist-sans), ui-sans-serif, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
-html { scroll-behavior: smooth; }
-body { background: #ffffff; color: var(--color-ink-900); overflow-x: clip; }
+/* Dark theme — values taken from ecard.gg's own `.dark` tokens (HSL converted to hex):
+   background 250 30% 6%, card 250 26% 9%, muted 250 20% 14%, border 250 18% 17%,
+   foreground 250 30% 97%, muted-foreground 250 12% 74%, primary 268 90% 66%,
+   accent 266 40% 18%, accent-foreground 268 100% 86%, night #07050f. */
+html.dark {
+  color-scheme: dark;
+  --color-page: #0c0b14;      /* background */
+  --color-surface: #13111d;   /* card */
+  --color-ink-50: #1f1d2b;    /* muted / secondary */
+  --color-ink-100: #262333;   /* border */
+  --color-ink-950: #f6f5fa;   /* foreground */
+  --color-ink-900: #f6f5fa;   /* foreground */
+  --color-ink-700: #d4d1e2;   /* between foreground and muted-foreground */
+  --color-ink-500: #b7b5c5;   /* muted-foreground */
+  --color-brand-600: #a35af6; /* primary */
+  --color-brand-700: #d9b8ff; /* accent-foreground (links, hover) */
+  --color-brand-400: #c49bff;
+  --color-brand-100: #2b1c40; /* accent */
+  --color-brand-50: #1e1530;
+  --color-mint-600: #31c471;  /* success */
+  --color-mint-100: #153222;  /* success-soft */
+  --color-amber-500: #f6aa28; /* warning */
+  --color-amber-100: #362712; /* warning-soft */
+  --color-night: #07050f;     /* marketing --night (dark) */
+}
+html { scroll-behavior: smooth; color-scheme: light; }
+body { background: var(--color-page); color: var(--color-ink-900); overflow-x: clip; transition: background-color .25s ease, color .25s ease; }
 ::selection { background: var(--color-brand-100); }
+/* Dark sections keep light text readable regardless of theme. */
+.bg-night { color-scheme: dark; }
 
-@utility container-x { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
-@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600; }
-@utility btn-primary { @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600 bg-brand-600 text-white shadow-sm hover:bg-brand-700; }
-@utility btn-ghost { @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600 border border-ink-100 bg-white text-ink-900 hover:border-ink-300; }
-@utility eyebrow { @apply text-xs font-semibold uppercase tracking-[0.14em] text-brand-600; }
-@utility card-surface { @apply rounded-2xl border border-ink-100 bg-white shadow-[0_1px_2px_rgba(10,16,32,.04),0_8px_24px_-12px_rgba(10,16,32,.12)]; }
+/* Page width and side gutters match the reference site: max 1568px; 20px gutters, 32px from 640px. */
+@utility container-x { margin-inline: auto; width: 100%; max-width: 98rem; padding-inline: 1.25rem; @media (min-width: 640px) { padding-inline: 2rem; } }
+/* Buttons / eyebrow / card — reference spec §3 (eCard tokens). */
+@utility btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5rem; padding: .75rem 1.2rem; border-radius: .875rem;
+  font-size: .9375rem; font-weight: 700; line-height: 1.2; position: relative; overflow: hidden; white-space: nowrap;
+  transition: transform .15s, background-color .15s, border-color .15s, box-shadow .15s;
+  & svg { transition: translate .25s cubic-bezier(.34,1.56,.64,1); }
+  &:hover svg:last-child { translate: 4px; }
+}
+@utility btn-primary {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5rem; padding: .75rem 1.2rem; border-radius: .875rem;
+  font-size: .9375rem; font-weight: 700; line-height: 1.2; position: relative; overflow: hidden; isolation: isolate; white-space: nowrap;
+  transition: transform .15s, background-color .15s, border-color .15s, box-shadow .15s;
+  background: linear-gradient(135deg, var(--color-brand-600), var(--color-brand-800)); color: #fff;
+  box-shadow: 0 10px 22px -10px var(--color-brand-600);
+  &::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+    background: linear-gradient(110deg, transparent 30%, rgb(255 255 255 / .5) 50%, transparent 70%); translate: -130%; transition: translate .75s; }
+  &:hover { box-shadow: 0 14px 28px -10px var(--color-brand-600); transform: translateY(-2px) scale(1.02); }
+  &:hover::before { translate: 130%; }
+  &:active { transform: translateY(1px) scale(.98); }
+  & svg { transition: translate .25s cubic-bezier(.34,1.56,.64,1); }
+  &:hover svg:last-child { translate: 4px; }
+}
+@utility btn-ghost {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5rem; padding: .75rem 1.2rem; border-radius: .875rem;
+  font-size: .9375rem; font-weight: 700; line-height: 1.2; position: relative; white-space: nowrap;
+  transition: transform .15s, background-color .15s, border-color .15s, box-shadow .15s;
+  border: 1px solid var(--color-ink-100); background: var(--color-surface); color: var(--color-ink-950);
+  &:hover { border-color: var(--color-brand-600); }
+  & svg { transition: translate .25s cubic-bezier(.34,1.56,.64,1); }
+  &:hover svg:last-child { translate: 4px; }
+}
+@utility eyebrow {
+  display: inline-flex; align-items: center; gap: .5rem; padding: .3rem .75rem; border-radius: 999px;
+  border: 1px solid var(--color-ink-100); background: var(--color-surface);
+  font-size: .7rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; line-height: 1.4; color: var(--brand-strong, var(--color-brand-700));
+  &::before { content: ""; width: .4rem; height: .4rem; border-radius: 999px; background: var(--color-brand-600); flex-shrink: 0; }
+  @media (prefers-reduced-motion: no-preference) { &::before { animation: pulse-dot 2.4s infinite; } }
+}
+@utility card-surface {
+  border-radius: 1.5rem; border: 1px solid var(--color-ink-100); background: var(--color-surface);
+  transition: transform .25s, box-shadow .25s, border-color .25s;
+}
 
 /* ---------- Footer (mirrors reference footer layout; eCard accent colours) ---------- */
 @layer components {
-  .site-footer { --night: var(--color-ink-950); --foot-accent: var(--color-brand-400); background: var(--night); color: #9ba3b4; border-top: 1px solid #ffffff14; margin-top: 6rem; position: relative; }
+  .site-footer { --night: var(--color-night); --foot-accent: var(--color-brand-400); background: var(--night); color: #9ba3b4; border-top: 1px solid #ffffff14; margin-top: 6rem; position: relative; }
   .foot-tab { display: flex; justify-content: center; margin-top: -1px; }
   .foot-tab span { color: #fff; font: italic 700 .95rem/1.3 var(--font-brand); text-align: center; background: linear-gradient(90deg, var(--color-brand-600), var(--color-brand-800), var(--color-brand-600)); border-radius: 0 0 22px 22px; display: inline-flex; align-items: center; gap: 10px; padding: 11px 36px; box-shadow: 0 10px 30px #3202b866; }
   .foot-main { width: 100%; padding: 56px max(clamp(16px, 4vw, 32px), 3.5vw) 52px; display: grid; gap: 40px; }

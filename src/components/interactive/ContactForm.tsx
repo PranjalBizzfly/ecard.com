@@ -31,31 +31,31 @@ export function ContactForm({ subject = "eCard enquiry" }: { subject?: string })
     setSent(true);
   };
 
-  const input = "mt-1 w-full rounded-xl border border-ink-100 px-4 py-3 text-sm outline-none focus:border-brand-600 focus:ring-2 focus:ring-brand-100";
+  const input = "ip-control";
   return (
-    <form noValidate onSubmit={onSubmit} className="card-surface space-y-4 p-6 sm:p-8">
-      <div className="grid gap-4 sm:grid-cols-2">
+    <form noValidate onSubmit={onSubmit} className="ip-form">
+      <div className="grid gap-5 sm:grid-cols-2">
         <div>
-          <label htmlFor="cf-name" className="text-sm font-medium">Name</label>
+          <label htmlFor="cf-name" className="ip-label">Name</label>
           <input id="cf-name" name="name" autoComplete="name" className={input} aria-invalid={!!errors.name} aria-describedby={errors.name ? "cf-name-e" : undefined} />
           {errors.name && <p id="cf-name-e" className="mt-1 text-xs text-red-600">{errors.name}</p>}
         </div>
         <div>
-          <label htmlFor="cf-email" className="text-sm font-medium">Work email</label>
+          <label htmlFor="cf-email" className="ip-label">Work email</label>
           <input id="cf-email" name="email" type="email" autoComplete="email" className={input} aria-invalid={!!errors.email} aria-describedby={errors.email ? "cf-email-e" : undefined} />
           {errors.email && <p id="cf-email-e" className="mt-1 text-xs text-red-600">{errors.email}</p>}
         </div>
       </div>
       <div>
-        <label htmlFor="cf-company" className="text-sm font-medium">Company <span className="text-ink-500">(optional)</span></label>
+        <label htmlFor="cf-company" className="ip-label">Company <span className="text-ink-500">(optional)</span></label>
         <input id="cf-company" name="company" autoComplete="organization" className={input} />
       </div>
       <div>
-        <label htmlFor="cf-msg" className="text-sm font-medium">How can we help?</label>
+        <label htmlFor="cf-msg" className="ip-label">How can we help?</label>
         <textarea id="cf-msg" name="message" rows={5} className={input} aria-invalid={!!errors.message} aria-describedby={errors.message ? "cf-msg-e" : undefined} />
         {errors.message && <p id="cf-msg-e" className="mt-1 text-xs text-red-600">{errors.message}</p>}
       </div>
-      <button type="submit" className="btn-primary w-full sm:w-auto">Open email to send</button>
+      <button type="submit" className="btn-primary w-full sm:w-auto sm:justify-self-start">Open email to send</button>
       <p className="text-xs text-ink-500" aria-live="polite">
         {sent ? "Your email app should now be open with the message ready to send." : `This opens your email app addressed to ${SITE.salesEmail}.`}
       </p>

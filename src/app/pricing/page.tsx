@@ -30,41 +30,46 @@ export default function PricingPage() {
   return (
     <>
       <JsonLd page={page} crumbs={trail("pricing")} />
-      <section className="bg-gradient-to-b from-brand-50 to-white">
-        <div className="container-x py-14 text-center sm:py-20">
-          <div className="flex justify-center"><Breadcrumbs items={trail("pricing")} /></div>
-          <h1 className="mx-auto mt-6 max-w-3xl text-4xl font-bold tracking-tight sm:text-6xl">{page.h1}</h1>
-          <p className="mx-auto mt-5 max-w-2xl text-lg text-ink-500">{page.intro}</p>
+      <header className="ip ip-hero">
+        <div className="container-x ip-hero-inner">
+          <Breadcrumbs items={trail("pricing")} centred />
+          <div className="ip-hero-grid is-centred">
+            <div className="mx-auto min-w-0 max-w-3xl">
+              <span className="ip-eyebrow">{page.eyebrow ?? "Pricing"}</span>
+              <h1 className="ip-h1">{page.h1}</h1>
+              <p className="ip-intro">{page.intro}</p>
+            </div>
+          </div>
         </div>
-      </section>
-      <section className="container-x pb-20"><PricingTable /></section>
+      </header>
+      <div className="ip container-x ip-body">
+        <PricingTable />
 
-      <section className="container-x pb-20">
-        <h2 className="mb-6 text-3xl font-bold tracking-tight">Compare plans</h2>
-        <div className="overflow-x-auto rounded-2xl border border-ink-100">
-          <table className="w-full min-w-[44rem] text-left text-sm">
-            <thead className="sticky top-0 bg-ink-50"><tr><th scope="col" className="px-4 py-3">Feature</th>{PLANS.map((p) => <th key={p.id} scope="col" className="px-4 py-3 text-center">{p.name}</th>)}</tr></thead>
-            <tbody>
-              {ROWS.map(([label, fn]) => (
-                <tr key={label} className="border-t border-ink-100">
-                  <th scope="row" className="px-4 py-3 font-medium">{label}</th>
-                  {PLANS.map((p) => { const v = fn(p.id); return <td key={p.id} className="px-4 py-3 text-center">{typeof v === "string" ? v : v ? <Check className="mx-auto size-4 text-mint-600" aria-label="Included" /> : <Minus className="mx-auto size-4 text-ink-300" aria-label="Not included" />}</td>; })}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        <p className="mt-4 text-sm text-ink-500">Plan details verified from ecard.gg/pricing. See <Link href="/pricing/billing-and-payments" className="text-brand-700 underline">billing & payments</Link> and the <Link href="/pricing/free-trial" className="text-brand-700 underline">14-day trial</Link>.</p>
-      </section>
+        <section className="ip-sec mt-16" aria-labelledby="compare-h">
+          <h2 id="compare-h" className="ip-h2">Compare plans</h2>
+          <div className="ip-table">
+            <table className="!min-w-[44rem]">
+              <thead><tr><th scope="col">Feature</th>{PLANS.map((p) => <th key={p.id} scope="col" className="text-center">{p.name}</th>)}</tr></thead>
+              <tbody>
+                {ROWS.map(([label, fn]) => (
+                  <tr key={label}>
+                    <th scope="row">{label}</th>
+                    {PLANS.map((p) => { const v = fn(p.id); return <td key={p.id} className="text-center">{typeof v === "string" ? v : v ? <Check className="mx-auto size-4 text-brand-600" aria-label="Included" /> : <Minus className="mx-auto size-4 text-ink-500" aria-label="Not included" />}</td>; })}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-4 text-sm text-ink-500">Plan details verified from ecard.gg/pricing. See <Link href="/pricing/billing-and-payments" className="font-bold text-brand-600 hover:underline">billing & payments</Link> and the <Link href="/pricing/free-trial" className="font-bold text-brand-600 hover:underline">14-day trial</Link>.</p>
+        </section>
 
-      <section className="container-x pb-20">
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-          {PLANS.map((p) => <li key={p.id}><Link href={`/pricing/${p.id}`} className="card-surface block p-5 hover:border-brand-400"><span className="font-semibold">{p.name} plan</span><span className="block text-sm text-ink-500">Full details →</span></Link></li>)}
+          {PLANS.map((p) => <li key={p.id}><Link href={`/pricing/${p.id}`} className="ip-card flex h-full flex-col"><span className="ip-kicker">Plan</span><span className="mt-2 text-lg font-extrabold text-ink-950">{p.name} plan</span><span className="mt-3 text-sm font-bold text-brand-600">Full details →</span></Link></li>)}
         </ul>
-      </section>
 
-      {page.faqs && <div className="container-x pb-20"><FaqList faqs={page.faqs} heading="Pricing questions" /></div>}
-      <div className="pb-20"><CtaBand /></div>
+        {page.faqs && <div className="mt-12"><FaqList id="faqs" faqs={page.faqs} heading="Pricing questions" /></div>}
+      </div>
+      <CtaBand />
     </>
   );
 }

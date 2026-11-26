@@ -1,12 +1,16 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono, Instrument_Sans } from "next/font/google";
+import { Geist, Geist_Mono, Instrument_Sans, Inter, Manrope } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { SITE } from "@/content/site";
+import { themeInitScript } from "@/lib/theme";
 import "./globals.css";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+// Reference design: Inter (body) + Manrope (h1–h3).
+const inter = Inter({ variable: "--font-inter", subsets: ["latin"], display: "swap" });
+const manrope = Manrope({ variable: "--font-manrope", subsets: ["latin"], weight: ["400", "500", "600", "700", "800"], display: "swap" });
 // Brand typeface for the eCard wordmark (logo guide, Nov 2026)
 const instrumentSans = Instrument_Sans({ variable: "--font-instrument-sans", subsets: ["latin"], weight: ["600", "700"] });
 
@@ -19,7 +23,14 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
-export const viewport: Viewport = { themeColor: "#7f19f7", width: "device-width", initialScale: 1 };
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#0c0b14" },
+  ],
+  width: "device-width",
+  initialScale: 1,
+};
 
 const orgLd = JSON.stringify({
   "@context": "https://schema.org",
@@ -31,9 +42,12 @@ const orgLd = JSON.stringify({
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${instrumentSans.variable} h-full antialiased`}>
-      <body className="flex min-h-full flex-col font-sans">
-        <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:shadow">Skip to content</a>
+    <html lang="en" suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} ${instrumentSans.variable} ${inter.variable} ${manrope.variable} h-full antialiased`}>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
+      <body className="flex min-h-full flex-col">
+        <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-lg focus:bg-surface focus:px-4 focus:py-2 focus:shadow">Skip to content</a>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: orgLd }} />
         <Header />
         <main id="main" className="flex-1">{children}</main>

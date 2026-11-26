@@ -13,7 +13,7 @@ function SiteIndex() {
     <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
       {(Object.keys(CATEGORIES) as CategoryKey[]).map((c) => (
         <section key={c} id={c} className="scroll-mt-28">
-          <h2 className="mb-3 text-lg font-semibold">{CATEGORIES[c].label}</h2>
+          <h2 className="mb-3 border-b border-ink-100 pb-2 text-lg font-extrabold tracking-tight text-ink-950">{CATEGORIES[c].label}</h2>
           <ul className="space-y-1.5 text-sm">
             {pagesIn(c).map((p) => <li key={p.slug}><Link href={p.slug ? `/${p.slug}` : "/"} className="text-ink-700 hover:text-brand-700">{p.title}</Link></li>)}
           </ul>
@@ -39,6 +39,13 @@ const FORM_PAGES: Record<string, string> = {
   "speak-up/workplace": "eCard workplace concern",
   "speak-up/whistleblower": "eCard whistleblower report",
 };
+
+const FORM_EXTRAS = new Set(["contact", "contact-sales", "help/contact-support"]);
+
+/** True when the page's extra widget is an enquiry form (rendered as `section#form` in the article). */
+export function isFormExtra(slug: string) {
+  return !!FORM_PAGES[slug] || FORM_EXTRAS.has(slug) || slug.startsWith("deals/");
+}
 
 export function getExtra(slug: string, title: string): ReactNode | null {
   if (EXTRAS[slug]) return EXTRAS[slug]();

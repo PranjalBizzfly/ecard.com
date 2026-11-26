@@ -11,10 +11,10 @@ export function PricingTable() {
   return (
     <div>
       <div className="flex flex-col items-center gap-3">
-        <div role="radiogroup" aria-label="Billing cycle" className="inline-flex rounded-full border border-ink-100 bg-white p-1 shadow-sm">
+        <div role="radiogroup" aria-label="Billing cycle" className="inline-flex rounded-full border border-ink-100 bg-surface p-1 shadow-sm">
           {(["monthly", "yearly"] as const).map((c) => (
             <button key={c} type="button" role="radio" aria-checked={cycle === c} onClick={() => setCycle(c)}
-              className={`rounded-full px-5 py-2 text-sm font-semibold capitalize transition ${cycle === c ? "bg-ink-950 text-white" : "text-ink-500 hover:text-ink-950"}`}>
+              className={`rounded-full px-5 py-2 text-sm font-semibold capitalize transition ${cycle === c ? "bg-night text-white" : "text-ink-500 hover:text-ink-950"}`}>
               {c}{c === "yearly" && <span className="ml-2 rounded-full bg-mint-100 px-2 py-0.5 text-[11px] text-mint-600">save ~2 months</span>}
             </button>
           ))}
@@ -26,7 +26,7 @@ export function PricingTable() {
 
       <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-5">
         {PLANS.map((p) => (
-          <div key={p.id} className={`relative flex flex-col rounded-2xl border p-6 ${p.popular ? "border-brand-600 bg-white shadow-xl shadow-brand-600/10 ring-1 ring-brand-600" : "border-ink-100 bg-white"}`}>
+          <div key={p.id} className={`relative flex flex-col rounded-3xl border p-6 transition duration-300 hover:-translate-y-1 ${p.popular ? "border-brand-600 bg-surface shadow-xl shadow-brand-600/10 ring-1 ring-brand-600" : "border-ink-100 bg-surface"}`}>
             {p.popular && <span className="absolute -top-3 left-6 rounded-full bg-brand-600 px-3 py-1 text-xs font-semibold text-white">Popular</span>}
             <h3 className="text-lg font-semibold">{p.name}</h3>
             <p className="text-sm text-ink-500">{p.audience}</p>

@@ -20,13 +20,13 @@ export function TimeSaved() {
   const hours = ((cards * mins) / 60).toFixed(1);
   const emails = Math.round((cards * pct) / 100);
   return (
-    <div className="card-surface grid gap-8 p-6 sm:p-8 md:grid-cols-2">
+    <div className="card-surface grid gap-8 rounded-3xl p-6 sm:p-8 md:grid-cols-2">
       <div className="space-y-6">
         <Field label="Cards per month" value={cards} onChange={setCards} min={10} max={1000} />
         <Field label="Minutes to type one card by hand" value={mins} onChange={setMins} min={1} max={10} />
         <Field label="Cards with an email" value={pct} onChange={setPct} min={0} max={100} suffix="%" />
       </div>
-      <div className="flex flex-col justify-center rounded-2xl bg-ink-950 p-6 text-white" aria-live="polite">
+      <div className="flex flex-col justify-center rounded-2xl bg-night p-6 text-white" aria-live="polite">
         <p className="text-4xl font-bold">{hours} hours</p><p className="text-ink-300">of typing saved</p>
         <p className="mt-4 text-4xl font-bold">{emails}</p><p className="text-ink-300">intro emails sent for you</p>
         <p className="mt-4 text-xs text-ink-500">Estimates, not promises.</p>

@@ -3,13 +3,14 @@ import type { VisualKey } from "@/content/types";
 
 function Frame({ title, children, className = "" }: { title: string; children: React.ReactNode; className?: string }) {
   return (
-    <figure className={`card-surface overflow-hidden ${className}`}>
-      <div className="flex items-center gap-2 border-b border-ink-100 bg-ink-50 px-4 py-2.5">
-        <span className="size-2.5 rounded-full bg-ink-300" /><span className="size-2.5 rounded-full bg-ink-300" /><span className="size-2.5 rounded-full bg-ink-300" />
-        <span className="ml-2 truncate text-xs font-medium text-ink-500">{title}</span>
+    <figure className={`pm-window ${className}`}>
+      <div className="pm-bar">
+        <span className="pm-dots" aria-hidden><i /><i /><i /></span>
+        <span className="pm-url">app.ecard.gg · {title}</span>
+        <span className="pm-chip">Sample</span>
       </div>
-      <div className="p-5">{children}</div>
-      <figcaption className="border-t border-ink-100 px-4 py-2 text-[11px] text-ink-500">Illustration · sample data, not real customer information</figcaption>
+      <div className="pm-body">{children}</div>
+      <figcaption className="pm-cap">Illustration · sample data, not real customer information</figcaption>
     </figure>
   );
 }
@@ -18,7 +19,7 @@ const Bar = ({ w, c = "bg-ink-100" }: { w: string; c?: string }) => <span classN
 
 function PaperCard() {
   return (
-    <div className="relative rotate-[-3deg] rounded-xl border border-ink-100 bg-gradient-to-br from-white to-ink-50 p-4 shadow-md">
+    <div className="relative rotate-[-3deg] rounded-xl border border-ink-100 bg-gradient-to-br from-surface to-ink-50 p-4 shadow-md">
       <p className="font-semibold text-ink-950">Priya Shah</p>
       <p className="text-xs text-ink-500">Sales Manager · Sample Realty</p>
       <div className="mt-3 space-y-1 text-[11px] text-ink-700"><p>+91 98xxx xxx10</p><p>priya@example.com</p><p>Andheri East, Mumbai</p></div>
@@ -67,7 +68,7 @@ function Card() {
         <div className="flex items-center gap-3"><span className="grid size-12 place-items-center rounded-full bg-white/20 text-lg font-bold">AM</span><div><p className="font-semibold">Aarav Mehta</p><p className="text-xs text-white/75">Partner · Sample Agency</p></div></div>
         <div className="mt-5 grid grid-cols-[1fr_auto] items-end gap-3">
           <div className="space-y-2 text-xs"><p className="rounded-lg bg-white/15 px-3 py-2">Save to contacts</p><p className="rounded-lg bg-white/15 px-3 py-2">Company profile (PDF)</p><p className="rounded-lg bg-white/15 px-3 py-2">WhatsApp</p></div>
-          <span className="grid size-16 place-items-center rounded-lg bg-white text-ink-950"><QrCode className="size-12" aria-hidden /></span>
+          <span className="grid size-16 place-items-center rounded-lg bg-white text-night"><QrCode className="size-12" aria-hidden /></span>
         </div>
       </div>
     </Frame>
@@ -89,7 +90,7 @@ function Chat({ title, accent, lines }: { title: string; accent: string; lines: 
   return (
     <Frame title={title}>
       <div className="space-y-2.5 rounded-xl bg-ink-50 p-3">
-        {lines.map((l, i) => <p key={i} className={`max-w-[85%] rounded-2xl px-3 py-2 text-xs leading-relaxed ${l.me ? `ml-auto ${accent} text-white` : "bg-white text-ink-900 shadow-sm"}`}>{l.t}</p>)}
+        {lines.map((l, i) => <p key={i} className={`max-w-[85%] rounded-2xl px-3 py-2 text-xs leading-relaxed ${l.me ? `ml-auto ${accent} text-white` : "bg-surface text-ink-900 shadow-sm"}`}>{l.t}</p>)}
       </div>
     </Frame>
   );
@@ -153,7 +154,7 @@ function Integrations() {
   const names = ["Telegram", "WhatsApp", "Gmail", "Outlook", "Google Contacts", "Google Maps", "Razorpay · UPI", "Stripe", "Claude", "OpenAI", "Gemini", "Zoho Mail", "SendGrid", "Webhooks", "CSV import"];
   return (
     <Frame title="Integrations">
-      <ul className="flex flex-wrap gap-2">{names.map((n) => <li key={n} className="rounded-full border border-ink-100 bg-white px-3 py-1.5 text-xs font-medium">{n}</li>)}</ul>
+      <ul className="flex flex-wrap gap-2">{names.map((n) => <li key={n} className="rounded-full border border-ink-100 bg-surface px-3 py-1.5 text-xs font-medium">{n}</li>)}</ul>
     </Frame>
   );
 }

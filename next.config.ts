@@ -2,6 +2,12 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   cacheComponents: true,
+  // ~420 static pages: use fewer, lighter build workers so builds fit on low-memory machines.
+  experimental: {
+    staticGenerationMinPagesPerWorker: 150,
+    staticGenerationMaxConcurrency: 4,
+    staticGenerationRetryCount: 1,
+  },
   partialPrefetching: true,
   turbopack: {
     rules: {

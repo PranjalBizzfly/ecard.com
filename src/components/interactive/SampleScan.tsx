@@ -23,7 +23,7 @@ export function SampleScan() {
   const run = () => { setState("scanning"); setTimeout(() => setState("done"), 1400); };
 
   return (
-    <div className="card-surface p-6 sm:p-8">
+    <div className="card-surface rounded-3xl p-6 sm:p-8">
       <p className="flex items-start gap-2 rounded-lg bg-amber-100/60 p-3 text-sm text-ink-700"><Info className="mt-0.5 size-4 shrink-0" aria-hidden />Demo: this replays a sample result in your browser and calls no AI model. Sign up to scan your real cards.</p>
       <fieldset className="mt-6">
         <legend className="text-sm font-semibold">Pick a card</legend>
@@ -35,7 +35,7 @@ export function SampleScan() {
         </div>
       </fieldset>
       <div className="mt-6 grid gap-6 md:grid-cols-2">
-        <div className="relative overflow-hidden rounded-xl border border-ink-100 bg-gradient-to-br from-white to-ink-50 p-6 shadow">
+        <div className="relative overflow-hidden rounded-xl border border-ink-100 bg-gradient-to-br from-surface to-ink-50 p-6 shadow">
           <p className="text-lg font-semibold">{p.name}</p><p className="text-sm text-ink-500">{p.title} · {p.company}</p>
           <div className="mt-4 space-y-1 text-sm text-ink-700"><p>{p.phone}</p><p>{p.email}</p><p>{p.address}</p></div>
           {state === "scanning" && <span className="absolute inset-x-0 top-1/2 h-0.5 animate-pulse bg-brand-600" aria-hidden />}

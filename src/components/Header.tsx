@@ -2,110 +2,152 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type CSSProperties } from "react";
+import { createPortal } from "react-dom";
 import { ChevronDown, Menu, X, ArrowRight } from "lucide-react";
 import { Logo } from "./Logo";
 import { Icon } from "./Icon";
 import { NAV } from "./nav";
+import { ThemeToggle } from "./ThemeToggle";
 import { SITE } from "@/content/site";
 
+const isCurrent = (pathname: string, href: string) => pathname === href || pathname.startsWith(`${href}/`);
+
+/** Site header — reference spec §2: sticky blurred bar, centred inline nav with mega panels (≥1280px), pill actions, side-sheet mobile menu. */
 export function Header() {
   const [open, setOpen] = useState<string | null>(null);
   const [mobile, setMobile] = useState(false);
   const pathname = usePathname();
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLElement>(null);
 
   // Close menus on navigation (state adjusted during render, per React docs), outside click and Escape.
   const [lastPath, setLastPath] = useState(pathname);
   if (lastPath !== pathname) { setLastPath(pathname); setOpen(null); setMobile(false); }
   useEffect(() => {
     const onDown = (e: MouseEvent) => { if (ref.current && !ref.current.contains(e.target as Node)) setOpen(null); };
-    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") { setOpen(null); setMobile(false); } };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== "Escape") return;
+      setOpen(null); setMobile(false);
+      if (ref.current?.contains(document.activeElement)) (document.activeElement as HTMLElement).blur();
+    };
+    const onScroll = () => document.documentElement.toggleAttribute("data-scrolled", window.scrollY > 8);
+    onScroll();
     document.addEventListener("mousedown", onDown);
     document.addEventListener("keydown", onKey);
-    return () => { document.removeEventListener("mousedown", onDown); document.removeEventListener("keydown", onKey); };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      document.removeEventListener("mousedown", onDown);
+      document.removeEventListener("keydown", onKey);
+      window.removeEventListener("scroll", onScroll);
+    };
   }, []);
   useEffect(() => { document.body.style.overflow = mobile ? "hidden" : ""; }, [mobile]);
 
+  // After choosing a mega-menu link, drop focus so :focus-within doesn't keep the panel open.
+  const closeMega = () => { setOpen(null); (document.activeElement as HTMLElement | null)?.blur(); };
+
   return (
-    <header className="sticky top-0 z-50 border-b border-ink-100/80 bg-white/90 backdrop-blur" ref={ref}>
-      <Link href="/product/whats-new-telegram" className="block bg-ink-950 py-2 text-center text-xs text-ink-100 hover:text-white">
+    <header className="site-header" ref={ref}>
+      <Link href="/product/whats-new-telegram" className="hdr-announce">
         <span className="mr-2 rounded-full bg-brand-600 px-2 py-0.5 font-semibold text-white">New</span>
         Telegram bot: snap a card, it&apos;s saved and emailed <ArrowRight className="inline size-3" aria-hidden />
       </Link>
-      <div className="container-x flex h-16 items-center justify-between gap-4">
+      <div className="nav-wrap">
         <Logo />
-        <nav aria-label="Main" className="hidden items-center gap-1 lg:flex">
-          {NAV.map((g) => (
-            <div key={g.label} className="relative">
-              <button
-                type="button"
-                aria-expanded={open === g.label}
-                aria-haspopup="true"
-                onClick={() => setOpen(open === g.label ? null : g.label)}
-                className="flex items-center gap-1 rounded-lg px-3 py-2 text-sm font-medium text-ink-700 hover:bg-ink-50 hover:text-ink-950"
-              >
-                {g.label}
-                <ChevronDown className={`size-4 transition ${open === g.label ? "rotate-180" : ""}`} aria-hidden />
+        <nav aria-label="Primary" className="contents">
+          <ul className="nav">
+            {NAV.map((g) => {
+              const active = g.items.some((it) => isCurrent(pathname, it.href)) || (g.footer ? isCurrent(pathname, g.footer.href) : false);
+              return (
+                <li key={g.label} className="mega-host" data-open={open === g.label ? "" : undefined}>
+                  <button
+                    type="button"
+                    className={`nav-link${active ? " current" : ""}`}
+                    aria-expanded={open === g.label}
+                    aria-haspopup="true"
+                    onClick={() => setOpen(open === g.label ? null : g.label)}
+                  >
+                    {g.label} <ChevronDown aria-hidden />
+                  </button>
+                  <div className="mega" style={{ width: "min(960px, 100vw - 32px)" }}>
+                    <ul className="mega-cols" style={{ "--cols": 3 } as CSSProperties}>
+                      {g.items.map((it) => (
+                        <li key={it.href} className="mg">
+                          <Link href={it.href} onClick={closeMega} className="!flex items-start gap-3 rounded-xl !px-2 !py-2.5 hover:bg-[var(--brand-soft)]">
+                            {it.icon && <span className="mg-ic"><Icon name={it.icon} /></span>}
+                            <span className="min-w-0">
+                              <span className="block font-semibold text-ink-950">{it.label}</span>
+                              {it.desc && <span className="mg-desc">{it.desc}</span>}
+                            </span>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                    {g.footer && (
+                      <div className="mega-foot">
+                        <span>{g.label}</span>
+                        <Link href={g.footer.href} onClick={closeMega}>{g.footer.label} <ArrowRight className="size-4" aria-hidden /></Link>
+                      </div>
+                    )}
+                  </div>
+                </li>
+              );
+            })}
+            <li>
+              <Link href="/pricing" className={`nav-link${isCurrent(pathname, "/pricing") ? " current" : ""}`}>Pricing</Link>
+            </li>
+          </ul>
+        </nav>
+        <div className="nav-actions">
+          <ThemeToggle />
+          <a href={SITE.signIn} className="hdr-login hidden 2xl:inline-flex">Sign in</a>
+          <a href={SITE.signUp} className="hdr-cta hidden sm:inline-flex">
+            Start free <span className="hdr-cta-ic"><ArrowRight aria-hidden /></span>
+          </a>
+          <button type="button" className="icon-btn xl:hidden" aria-label="Open menu" aria-expanded={mobile} onClick={() => setMobile(true)}>
+            <Menu aria-hidden />
+          </button>
+        </div>
+      </div>
+
+      {mobile && createPortal(
+        <>
+          <div className="m-backdrop xl:hidden" onClick={() => setMobile(false)} aria-hidden />
+          <div className="m-sheet xl:hidden" role="dialog" aria-modal="true" aria-label="Menu">
+            <div className="m-sheet-head">
+              <Logo />
+              <button type="button" className="icon-btn" aria-label="Close menu" onClick={() => setMobile(false)}>
+                <X aria-hidden />
               </button>
-              {open === g.label && (
-                <div className="card-surface reveal absolute left-0 top-full mt-2 w-[34rem] p-3">
-                  <ul className="grid grid-cols-2 gap-1">
+            </div>
+            <nav aria-label="Mobile" className="space-y-2 p-4">
+              {NAV.map((g) => (
+                <details key={g.label} className="m-group">
+                  <summary>{g.label} <ChevronDown aria-hidden /></summary>
+                  <ul className="px-2 pb-2">
                     {g.items.map((it) => (
                       <li key={it.href}>
-                        <Link href={it.href} className="flex gap-3 rounded-xl p-3 hover:bg-brand-50">
-                          <span className="mt-0.5 grid size-8 shrink-0 place-items-center rounded-lg bg-brand-100 text-brand-700">
-                            <Icon name={it.icon} className="size-4" />
-                          </span>
-                          <span>
-                            <span className="block text-sm font-semibold text-ink-950">{it.label}</span>
-                            {it.desc && <span className="block text-xs text-ink-500">{it.desc}</span>}
-                          </span>
+                        <Link href={it.href}>
+                          {it.icon && <span className="mg-ic"><Icon name={it.icon} /></span>}
+                          {it.label}
                         </Link>
                       </li>
                     ))}
+                    {g.footer && (
+                      <li><Link href={g.footer.href} className="mg-all">{g.footer.label} <ArrowRight className="size-4" aria-hidden /></Link></li>
+                    )}
                   </ul>
-                  {g.footer && (
-                    <Link href={g.footer.href} className="mt-2 flex items-center justify-between rounded-xl bg-ink-50 px-4 py-3 text-sm font-semibold text-brand-700 hover:bg-brand-50">
-                      {g.footer.label} <ArrowRight className="size-4" aria-hidden />
-                    </Link>
-                  )}
-                </div>
-              )}
-            </div>
-          ))}
-          <Link href="/pricing" className="rounded-lg px-3 py-2 text-sm font-medium text-ink-700 hover:bg-ink-50 hover:text-ink-950">Pricing</Link>
-        </nav>
-        <div className="hidden items-center gap-2 lg:flex">
-          <a href={SITE.signIn} className="px-3 py-2 text-sm font-medium text-ink-700 hover:text-ink-950">Sign in</a>
-          <a href={SITE.signUp} className="btn-primary !py-2.5">Start free</a>
-        </div>
-        <button type="button" className="rounded-lg p-2 text-ink-900 lg:hidden" aria-label={mobile ? "Close menu" : "Open menu"} aria-expanded={mobile} onClick={() => setMobile(!mobile)}>
-          {mobile ? <X className="size-6" /> : <Menu className="size-6" />}
-        </button>
-      </div>
-      {mobile && (
-        <div className="fixed inset-x-0 bottom-0 top-[6.5rem] overflow-y-auto border-t border-ink-100 bg-white lg:hidden">
-          <nav aria-label="Mobile" className="container-x space-y-2 py-4">
-            {NAV.map((g) => (
-              <details key={g.label} className="rounded-xl border border-ink-100">
-                <summary className="flex cursor-pointer list-none items-center justify-between px-4 py-3 font-semibold">
-                  {g.label} <ChevronDown className="size-4" aria-hidden />
-                </summary>
-                <ul className="px-2 pb-2">
-                  {[...g.items, ...(g.footer ? [g.footer] : [])].map((it) => (
-                    <li key={it.href}><Link href={it.href} className="block rounded-lg px-3 py-2.5 text-sm text-ink-700 hover:bg-ink-50">{it.label}</Link></li>
-                  ))}
-                </ul>
-              </details>
-            ))}
-            <Link href="/pricing" className="block rounded-xl border border-ink-100 px-4 py-3 font-semibold">Pricing</Link>
-            <div className="grid grid-cols-2 gap-2 pt-2">
-              <a href={SITE.signIn} className="btn-ghost">Sign in</a>
-              <a href={SITE.signUp} className="btn-primary">Start free</a>
-            </div>
-          </nav>
-        </div>
+                </details>
+              ))}
+              <Link href="/pricing" className="m-group block px-4 py-3.5 font-bold text-ink-950">Pricing</Link>
+              <div className="grid grid-cols-2 gap-2 pt-2">
+                <a href={SITE.signIn} className="btn-ghost">Sign in</a>
+                <a href={SITE.signUp} className="btn-primary">Start free</a>
+              </div>
+            </nav>
+          </div>
+        </>,
+        document.body,
       )}
     </header>
   );
