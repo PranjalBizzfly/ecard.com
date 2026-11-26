@@ -2,7 +2,7 @@
 
 import { toTitleCase } from "@/lib/text";
 import { useState } from "react";
-import { Loader2, ScanLine, Info } from "lucide-react";
+import { Loader2, ScanLine } from "lucide-react";
 import { SITE } from "@/content/site";
 
 const PERSONAS = {
@@ -25,8 +25,7 @@ export function SampleScan() {
 
   return (
     <div className="card-surface rounded-3xl p-6 sm:p-8">
-      <p className="flex items-start gap-2 rounded-lg bg-amber-100/60 p-3 text-sm text-ink-700"><Info className="mt-0.5 size-4 shrink-0" aria-hidden />Demo: this replays a sample result in your browser and calls no AI model. Sign up to scan your real cards.</p>
-      <fieldset className="mt-6">
+      <fieldset>
         <legend className="text-sm font-semibold">Pick A Card</legend>
         <div className="mt-3 flex flex-wrap gap-2">
           {(Object.keys(PERSONAS) as Key[]).map((k) => (
