@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+/* eCard design tokens — see docs/design-system.md */
+@theme {
+  --color-ink-950: #0a1020;
+  --color-ink-900: #111a2e;
+  --color-ink-700: #33405a;
+  --color-ink-500: #5f6b82;
+  --color-ink-300: #aeb6c6;
+  --color-ink-100: #e8ecf3;
+  --color-ink-50: #f5f7fb;
+  /* From official logo: #BA6AFB → #7F19F7 → #3202B8 */
+  --color-brand-800: #3202b8;
+  --color-brand-700: #5310d8;
+  --color-brand-600: #7f19f7;
+  --color-brand-400: #ba6afb;
+  --color-brand-100: #efe3ff;
+  --color-brand-50: #f8f2ff;
+  --color-mint-600: #0f9d77;
+  --color-mint-100: #dcf5ec;
+  --color-amber-500: #f0a020;
+  --color-amber-100: #fdf0d6;
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-brand: var(--font-instrument-sans), var(--font-geist-sans), ui-sans-serif, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+html { scroll-behavior: smooth; }
+body { background: #ffffff; color: var(--color-ink-900); overflow-x: clip; }
+::selection { background: var(--color-brand-100); }
+
+@utility container-x { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600; }
+@utility btn-primary { @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600 bg-brand-600 text-white shadow-sm hover:bg-brand-700; }
+@utility btn-ghost { @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-600 border border-ink-100 bg-white text-ink-900 hover:border-ink-300; }
+@utility eyebrow { @apply text-xs font-semibold uppercase tracking-[0.14em] text-brand-600; }
+@utility card-surface { @apply rounded-2xl border border-ink-100 bg-white shadow-[0_1px_2px_rgba(10,16,32,.04),0_8px_24px_-12px_rgba(10,16,32,.12)]; }
+
+/* ---------- Footer (mirrors reference footer layout; eCard accent colours) ---------- */
+@layer components {
+  .site-footer { --night: var(--color-ink-950); --foot-accent: var(--color-brand-400); background: var(--night); color: #9ba3b4; border-top: 1px solid #ffffff14; margin-top: 6rem; position: relative; }
+  .foot-tab { display: flex; justify-content: center; margin-top: -1px; }
+  .foot-tab span { color: #fff; font: italic 700 .95rem/1.3 var(--font-brand); text-align: center; background: linear-gradient(90deg, var(--color-brand-600), var(--color-brand-800), var(--color-brand-600)); border-radius: 0 0 22px 22px; display: inline-flex; align-items: center; gap: 10px; padding: 11px 36px; box-shadow: 0 10px 30px #3202b866; }
+  .foot-main { width: 100%; padding: 56px max(clamp(16px, 4vw, 32px), 3.5vw) 52px; display: grid; gap: 40px; }
+  .foot-about { color: #c3c9d6; max-width: 46ch; margin: 18px 0 0; font-size: .95rem; line-height: 1.75; }
+  .foot-label { color: #fff; letter-spacing: .12em; text-transform: uppercase; margin: 24px 0 10px; font-size: .72rem; font-weight: 700; }
+  .foot-feats { display: grid; gap: 10px; margin: 28px 0 0; padding: 0; list-style: none; }
+  .fcard { display: flex; align-items: center; gap: 12px; padding: 11px 13px; background: #ffffff08; border: 1px solid #ffffff1a; border-radius: 14px; transition: border-color .2s, background .2s, transform .2s; }
+  .fcard:hover { border-color: var(--foot-accent); background: #ffffff0f; transform: translateX(4px); }
+  .fcard .fi { width: 36px; height: 36px; color: var(--foot-accent); background: #ba6afb24; border-radius: 10px; flex: none; display: grid; place-items: center; }
+  .fcard .fi svg { width: 18px; height: 18px; }
+  .fcard .ftag { color: var(--foot-accent); background: #ba6afb24; border-radius: 999px; flex: none; padding: 3px 9px; font-size: .68rem; font-weight: 700; }
+  .foot-contact { display: grid; gap: 4px; margin-top: 26px; padding: 22px 0 4px; border-top: 1px solid #ffffff1a; border-bottom: 1px solid #ffffff1a; }
+  .foot-contact a, .foot-contact p { color: #d7dbe5; display: flex; align-items: flex-start; gap: 12px; padding: 6px 0; font-size: .9rem; transition: color .2s; }
+  .foot-contact a:hover { color: #fff; }
+  .foot-contact svg { width: 17px; height: 17px; color: var(--foot-accent); flex: none; margin-top: 2px; }
+  .foot-col h2 { position: relative; color: #fff; font: 700 .76rem/1.35 var(--font-sans); letter-spacing: .12em; text-transform: uppercase; border-bottom: 1px solid #ffffff1a; margin: 0 0 16px; padding-bottom: 14px; }
+  .foot-col h2::after { content: ""; position: absolute; left: 0; bottom: -1px; width: 30px; height: 2px; background: var(--foot-accent); }
+  .foot-col ul { margin: 0; padding: 0; list-style: none; }
+  .foot-col a { display: block; color: #9ba3b4; padding: 5px 0; font-size: .86rem; line-height: 1.4; transition: color .2s, padding .2s; }
+  .foot-col a:hover { color: #fff; padding-left: 4px; }
+  .foot-col a.foot-more { display: inline-block; color: var(--foot-accent); border: 1px solid #ba6afb73; border-radius: 999px; margin-top: 8px; padding: 5px 13px; font-size: .78rem; font-weight: 700; }
+  .foot-col a.foot-more:hover { border-color: var(--foot-accent); color: #fff; background: var(--color-brand-600); padding-left: 13px; }
+  .foot-brand > .foot-col, .foot-cta > .foot-col { margin-top: 36px; }
+  .foot-flow { columns: 2; column-gap: 28px; }
+  .foot-flow > .foot-col { break-inside: avoid; margin-bottom: 36px; }
+  .foot-points { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+  .foot-points li { display: flex; align-items: center; gap: 10px; color: #e6e9f0; background: #ffffff08; border: 1px solid #ffffff1a; border-radius: 12px; padding: 11px 13px; font-size: .84rem; font-weight: 600; line-height: 1.35; }
+  .foot-points svg { width: 17px; height: 17px; color: var(--foot-accent); flex: none; }
+  .foot-col a.foot-pill2 { display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 18px; padding: 15px 18px; border-radius: 999px; color: #fff; background: linear-gradient(90deg, var(--color-brand-600), var(--color-brand-800)); font-size: .82rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; box-shadow: 0 10px 26px #3202b88c; transition: transform .2s; }
+  .foot-col a.foot-pill2:hover { transform: translateY(-2px); padding-left: 18px; }
+  .foot-col a.foot-pill { display: flex; justify-content: center; align-items: center; gap: 10px; margin-top: 12px; padding: 12px 16px; border: 1px solid #ffffff29; border-radius: 999px; color: #fff; font-size: .86rem; font-weight: 700; white-space: nowrap; }
+  .foot-col a.foot-pill:hover { border-color: var(--foot-accent); padding-left: 16px; }
+  .foot-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--color-mint-600); box-shadow: 0 0 0 4px #0f9d7733; }
+  .foot-bottom { background: #000; border-top: 1px solid #ffffff14; }
+  .foot-bottom .inner { width: 100%; padding: 18px max(clamp(16px, 4vw, 32px), 3.5vw); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px 28px; font-size: .84rem; }
+  .foot-bottom a { color: #9ba3b4; }
+  .foot-bottom a:hover { color: #fff; }
+  .fb-links { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; }
+  .foot-pay-wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+  .foot-pay-wrap .foot-label { color: #9ba3b4; margin: 0; }
+  .foot-pay { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0; padding: 0; list-style: none; }
+  .foot-pay svg { display: block; width: 50px; height: 32px; border-radius: 4px; box-shadow: 0 0 0 1px #ffffff1a; }
+  .foot-social { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; padding: 0; list-style: none; }
+  .foot-social a { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; color: #e6e9f0; background: #ffffff0a; border: 1px solid #ffffff2e; transition: background .2s, border-color .2s, color .2s, transform .2s; }
+  .foot-social a:hover { color: #fff; background: var(--color-brand-600); border-color: var(--color-brand-600); transform: translateY(-2px); }
+  .foot-social svg { width: 19px; height: 19px; }
+  .foot-credit a { color: var(--foot-accent); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  .foot-credit a:hover { color: #fff; }
+  .foot-bottom .fb-legal { justify-content: center; text-align: center; gap: 6px 14px; color: #7d8595; border-top: 1px solid #ffffff14; font-size: .8rem; }
+  .foot-credit { color: #e6e9f0; font-weight: 600; }
+
+  @media (min-width: 640px) { .foot-feats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (min-width: 768px) { .foot-flow { columns: 3; } }
+  /* Never let the footer force sideways scrolling. */
+  .site-footer { overflow-x: clip; }
+  .foot-main > * { min-width: 0; }
+  .foot-col a { overflow-wrap: anywhere; }
+  /* Balanced mode (≥1280px, set by FooterColumns): four explicit middle columns. */
+  .foot-flow.balanced { columns: auto; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 28px; align-items: start; }
+  .foot-flow.balanced .foot-col { margin-bottom: 36px; }
+  .foot-brand > [data-brand-top] + .foot-col, .foot-cta > [data-cta-top] + .foot-col { margin-top: 36px; }
+  /* Breakpoints match the reference footer exactly. */
+  @media (max-width: 1279px) { .foot-flow, .foot-cta { grid-column: 1 / -1; } }
+  @media (min-width: 1280px) {
+    .foot-main { grid-template-columns: clamp(300px, 22vw, 380px) minmax(0, 1fr) clamp(220px, 15vw, 260px); gap: 0; }
+    .foot-brand { border-right: 1px solid #ffffff1a; padding-right: 40px; }
+    .foot-feats { grid-template-columns: 1fr; }
+    .foot-flow { columns: 4; padding-inline: 40px; }
+    .foot-cta { border-left: 1px solid #ffffff1a; padding-left: 32px; }
+  }
+  @media (max-width: 639px) { .foot-main { gap: 28px; padding-top: 36px; padding-bottom: 28px; } }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { animation: reveal .6s ease both; }
+  @keyframes reveal { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+}
