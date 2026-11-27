@@ -27,7 +27,7 @@ export const SOCIAL = [
 ] as const;
 
 /** Footer credit, as on the reference footer. */
-export const CREDIT = { label: "Mengo.Si", href: "https://mengo.si" };
+export const CREDIT = { label: "mengo.Si", href: "https://mengo.si" };
 
 export const salesMailto = `mailto:${SITE.salesEmail}?subject=eCard%20Enterprise`;
 

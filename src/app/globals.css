@@ -149,6 +149,10 @@ body { background: var(--color-page); color: var(--color-ink-900); overflow-x: c
   .foot-col a.foot-more:hover { border-color: var(--foot-accent); color: #fff; background: var(--color-brand-600); padding-left: 13px; }
   .foot-brand > .foot-col, .foot-cta > .foot-col { margin-top: 36px; }
   .foot-flow { columns: 2; column-gap: 28px; }
+  .foot-lower { margin: 0 max(clamp(16px, 4vw, 32px), 3.5vw); padding: 48px 0 20px; border-top: 1px solid #ffffff1a; columns: 2; column-gap: 28px; }
+  .foot-lower > .foot-col { break-inside: avoid; margin-bottom: 36px; }
+  @media (min-width: 768px) { .foot-lower { columns: 3; } }
+  @media (min-width: 1280px) { .foot-lower { columns: 5; column-gap: 40px; } }
   .foot-flow > .foot-col { break-inside: avoid; margin-bottom: 36px; }
   .foot-points { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
   .foot-points li { display: flex; align-items: center; gap: 10px; color: #e6e9f0; background: #ffffff08; border: 1px solid #ffffff1a; border-radius: 12px; padding: 11px 13px; font-size: .84rem; font-weight: 600; line-height: 1.35; }
@@ -185,6 +189,14 @@ body { background: var(--color-page); color: var(--color-ink-900); overflow-x: c
   /* Balanced mode (≥1280px, set by FooterColumns): four explicit middle columns. */
   .foot-flow.balanced { columns: auto; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 28px; align-items: start; }
   .foot-flow.balanced .foot-col { margin-bottom: 36px; }
+  /* Wide screens: the middle is a grid of equal rows; a lone group in the last row
+     spreads across all four columns so no column is left empty. */
+  @media (min-width: 1280px) {
+    .foot-flow.grid4 { columns: auto; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 28px; align-items: start; }
+    .foot-flow.grid4 > .foot-col { margin-bottom: 36px; }
+    .foot-flow.grid4 > .foot-col.span-all { grid-column: 1 / -1; margin-bottom: 0; }
+    .foot-flow.grid4 > .foot-col.span-all ul { columns: 4; column-gap: 28px; }
+  }
   .foot-brand > [data-brand-top] + .foot-col, .foot-cta > [data-cta-top] + .foot-col { margin-top: 36px; }
   /* Breakpoints match the reference footer exactly. */
   @media (max-width: 1279px) { .foot-flow, .foot-cta { grid-column: 1 / -1; } }

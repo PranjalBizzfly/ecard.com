@@ -9,10 +9,10 @@ const MAX = 8;
 const COLS = 6; // 0 = brand column, 1–4 = middle columns, 5 = CTA column
 const useIsoLayoutEffect = typeof window === "undefined" ? useEffect : useLayoutEffect;
 
-function GroupList({ g }: { g: FooterGroup }) {
+function GroupList({ g, span = false }: { g: FooterGroup; span?: boolean }) {
   const shown = g.all || g.items.length <= MAX + 1 ? g.items : g.items.slice(0, MAX);
   return (
-    <nav className="foot-col" aria-label={g.title} data-fgroup>
+    <nav className={span ? "foot-col span-all" : "foot-col"} aria-label={g.title} data-fgroup>
       <h2>{g.title}</h2>
       <ul>{shown.map(([slug, title]) => <li key={slug}><Link href={`/${slug}`}>{title}</Link></li>)}</ul>
       {shown.length < g.items.length && <Link href={`/explore-all-pages#${g.key}`} className="foot-more">All {g.items.length} pages</Link>}
@@ -25,6 +25,43 @@ function GroupList({ g }: { g: FooterGroup }) {
  * short as possible. Brand and CTA columns start with their fixed blocks' heights.
  */
 function partition(heights: number[], base: number[]): number[] {
+  // Largest group first into the currently shortest column, so every column ends at
+  // nearly the same height. Columns keep groups in their original order when rendered.
+  const load = [...base];
+  const assign = new Array(heights.length).fill(0);
+  const order = heights.map((h, i) => i).sort((a, b) => heights[b] - heights[a]);
+  for (const i of order) {
+    let c = 0;
+    for (let k = 1; k < COLS; k++) if (load[k] < load[c]) c = k;
+    assign[i] = c; load[c] += heights[i];
+  }
+  // Refine: move or swap groups between columns while that narrows the gap between
+  // the tallest and shortest column.
+  const spread = () => Math.max(...load) - Math.min(...load);
+  for (let improved = true, guard = 0; improved && guard < 200; guard++) {
+    improved = false;
+    const cur = spread();
+    outer: for (let i = 0; i < heights.length; i++) {
+      for (let c = 0; c < COLS; c++) {
+        if (c === assign[i]) continue;
+        const a = assign[i];
+        load[a] -= heights[i]; load[c] += heights[i];
+        if (spread() < cur - 1) { assign[i] = c; improved = true; break outer; }
+        load[a] += heights[i]; load[c] -= heights[i];
+        for (let j = 0; j < heights.length; j++) {
+          if (assign[j] !== c) continue;
+          const d = heights[i] - heights[j];
+          load[a] -= d; load[c] += d;
+          if (spread() < cur - 1) { assign[i] = c; assign[j] = a; improved = true; break outer; }
+          load[a] += d; load[c] -= d;
+        }
+      }
+    }
+  }
+  return assign;
+}
+
+export function partitionContiguous(heights: number[], base: number[]): number[] {
   const n = heights.length;
   const prefix = [0];
   for (const h of heights) prefix.push(prefix[prefix.length - 1] + h);
@@ -62,7 +99,8 @@ export function FooterColumns({ brandTop, ctaTop, brand, flow, cta }: {
   const measure = useCallback(() => {
     const el = root.current;
     if (!el) return;
-    if (!window.matchMedia("(min-width: 1280px)").matches) { setAssign(null); measured.current = null; return; }
+    // Fixed grid placement (CSS .grid4) is used at every width; no JS balancing.
+    if (true as boolean) { setAssign(null); measured.current = null; return; }
     // Measure in the current render, then compute the balanced placement.
     const groups = [...el.querySelectorAll<HTMLElement>("[data-fgroup]")];
     const gap = 36; // matches .foot-col margin-bottom in the flow
@@ -95,7 +133,7 @@ export function FooterColumns({ brandTop, ctaTop, brand, flow, cta }: {
           <div data-brand-top>{brandTop}</div>
           {brand.map((g) => <GroupList key={g.title} g={g} />)}
         </aside>
-        <div className="foot-flow">{flow.map((g) => <GroupList key={g.title} g={g} />)}</div>
+        <div className="foot-flow grid4">{flow.map((g, i) => <GroupList key={g.title} g={g} span={flow.length % 4 === 1 && i === flow.length - 1} />)}</div>
         <div className="foot-cta">
           <div data-cta-top>{ctaTop}</div>
           {cta.map((g) => <GroupList key={g.title} g={g} />)}

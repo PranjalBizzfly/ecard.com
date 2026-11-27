@@ -58,19 +58,26 @@ const G = {
 // Footer links use each page's current URL and its exact page title.
 for (const g of Object.values(G)) g.items = g.items.map(resolveItem);
 
-// Column placement follows the reference: short reference groups under the brand,
-// the long sitemap in the flowing middle, partner/resources groups in the CTA column.
-// The brand column holds the short reference groups; every other group flows through
-// one balanced multi-column area, so no column is left with empty space.
-// Placement mirrors the reference footer group-for-group.
-const BRAND_COL: Group[] = [G.guides, G.trust, G.legal, G.support];
+// Above the divider: the product pages we built (balanced columns).
+// Below it: company, corporate and site groups in their own five-column grid.
+// Fixed placement so every column ends on the same line on wide screens:
+// brand = 2 groups, middle = 3 rows of 4 + Company across the full width,
+// CTA = 2 groups + the short Mobile group.
+const BRAND_COL: Group[] = [G.events, G.product];
 const FLOW: Group[] = [
-  G.platform, G.scanning, G.crm, G.cards, G.outreach, G.telegram, G.meetings, G.events, G.analytics, G.team,
-  G.integrations, G.solutions, G.pricing, G.mobile, G.help, G.product, G.company,
-  G.about, G.corporate, G.customers, G.offerings, G.affiliates, G.vendors, G.contact, G.engagement,
-  G.customerSites, G.businessSites, G.developerSites, G.reportingSites, G.deals,
+  G.platform, G.scanning, G.crm, G.cards,
+  G.outreach, G.telegram, G.analytics, G.team,
+  G.integrations, G.solutions, G.guides, G.pricing,
+  G.company,
 ];
-const CTA_COL: Group[] = [G.library, G.partners, G.corporateSites];
+const CTA_COL: Group[] = [G.meetings, G.help, G.mobile];
+const LOWER: Group[] = [
+  G.about, G.offerings, G.customers, G.library, G.partners,
+  G.vendors, G.affiliates, G.corporate, G.trust,
+  G.engagement, G.support, G.contact, G.legal,
+  G.customerSites, G.businessSites, G.developerSites, G.reportingSites,
+  G.corporateSites, G.deals,
+];
 
 /** "Why eCard" points — verified product facts only. */
 const WHY = [
@@ -139,6 +146,16 @@ export function Footer() {
 
       {/* Three columns as on the reference; groups are height-balanced on wide screens. */}
       <FooterColumns brandTop={brandTop} ctaTop={ctaTop} brand={BRAND_COL} flow={FLOW} cta={CTA_COL} />
+
+      {/* Below the divider: company, corporate and site links */}
+      <div className="foot-lower">
+        {LOWER.map((g) => (
+          <nav key={g.title} className="foot-col" aria-label={g.title}>
+            <h2>{g.title}</h2>
+            <ul>{g.items.map(([slug, title]) => <li key={slug}><Link href={`/${slug}`}>{title}</Link></li>)}</ul>
+          </nav>
+        ))}
+      </div>
 
       {/* Bottom bar */}
       <div className="foot-bottom">
